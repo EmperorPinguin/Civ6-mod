@@ -1,0 +1,1501 @@
+[
+
+// Filler
+
+    {
+        "name": "~l1",
+        "isNationalWonder": "true",
+        "cost": -1,
+        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
+    },
+    {
+        "name": "Australia Bonus",
+        "isNationalWonder": true,
+        "uniqueTo": "Australia",
+        "cost": -1,
+        "uniques": ["Must be next to [Coast]","[5]% Food is carried over after population increases [in this city]"
+            "Will not be displayed in Civilopedia","Unbuildable"]
+    },
+    {
+        "name": "Macedon Bonus",
+        "uniqueTo": "Macedon",
+        "cost": -1,
+        "cannotBeBuiltWith": "~l1",
+        "providesFreeBuilding": "~l1",
+        "uniques": ["Can only be built [in annexed cities]","Free Technology","Free Social Policy",
+            "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Hungary Bonus",
+        "uniqueTo": "Hungary",
+        "cost": -1,
+        "cannotBeBuiltWith": "~l1",
+        "providesFreeBuilding": "~l1",
+        "uniques": ["Must be on [River]","[50]% Production when constructing [All] buildings [in this city]",
+            "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Eiffel Bonus",
+        "isNationalWonder": true,
+        "cost": -1,
+        "uniques": ["[+1 Culture] from every [Grassland]","[+1 Culture] from every [Plains]","[+1 Culture] from every [Hill]",
+            "[+1 Culture] from every [Desert]","[+1 Culture] from every [Tundra]","[+1 Culture] from every [Coast]",
+            "[+1 Culture] from every [Lakes]","[+1 Culture] from every [Mountain]",
+            "Will not be displayed in Civilopedia","Unbuildable"]
+    },
+    {
+        "name": "Golden Gate Bonus",
+        "isNationalWonder": true,
+        "cost": -1,
+        "uniques": ["[+2 Culture] from [Grassland] tiles in this city","[+2 Culture] from [Plains] tiles in this city",
+            "[+2 Culture] from [Hill] tiles in this city","[+2 Culture] from [Desert] tiles in this city",
+            "[+2 Culture] from [Tundra] tiles in this city","[+2 Culture] from [Coast] tiles in this city",
+            "[+2 Culture] from [Lakes] tiles in this city","[+2 Culture] from [Mountain] tiles in this city",
+            "Will not be displayed in Civilopedia","Unbuildable"]
+    },
+
+// Districts
+
+	{
+		"name": "City Center",
+		"isNationalWonder": true,
+		"cost": -1,
+		"cityStrength": 10,
+		"cityHealth": 100,
+		"uniques": ["Remove extra unhappiness from annexed cities"]
+	},
+	{
+		"name": "Campus",
+		"cost": 54,
+		"science": 2,
+		"greatPersonPoints": {"science": 1},
+		"maintenance": 1,
+		"uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
+			"[+2 Science] from [Reef] tiles in this city","[+1 Science] from [Mountain] tiles in this city",
+			"[+1 Science] from [Jungle] tiles in this city","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+			"[+1 Science] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city"],
+		"requiredTech": "Writing"
+	},
+    {
+        "name": "Campus 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "science": 2,
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 1,
+        "uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
+            "[+2 Science] from [Reef] tiles in this city","[+1 Science] from [Mountain] tiles in this city",
+            "[+1 Science] from [Jungle] tiles in this city","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+			"[+1 Science] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
+            "Will not be displayed in Civilopedia"],
+        "requiredTech": "Writing"
+    },
+    {
+        "name": "Observatory",
+        "replaces": "Campus",
+        "uniqueTo": "The Maya",
+        "cost": 27,
+        "science": 2,
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Science] from [Plantation] tiles in this city","[+1 Science] from [Farm] tiles in this city",
+        	"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Science] from [Trade Route (International)] tiles in this city",
+			"Cost increases by [5] per owned city"],
+        "requiredTech": "Writing"
+    },
+    {
+        "name": "Seowon",
+        "replaces": "Campus",
+        "uniqueTo": "Korea",
+        "cost": 27,
+        "science": 6,
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Food] from [Farm] tiles in this city","[+1 Science] from [Mine] tiles in this city",
+        	"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Science] from [Trade Route (International)] tiles in this city",
+			"Cost increases by [5] per owned city"],
+        "requiredTech": "Writing"
+    },
+	{
+		"name": "Holy Site",
+		"cost": 54,
+		"culture": 2,
+		"maintenance": 1,
+		"uniques": ["[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city",
+			"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Culture] from [Trade Route (International)] tiles in this city",
+			"Cost increases by [10] per owned city"],
+		"requiredTech": "Astrology"
+	},
+    {
+        "name": "Holy Site 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "culture": 2,
+        "maintenance": 1,
+        "uniques": ["[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city",
+        	"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Culture] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city",
+            "Will not be displayed in Civilopedia"],
+        "requiredTech": "Astrology"
+    },
+	{
+		"name": "Lavra",
+		"replaces": "Holy Site",
+        "uniqueTo": "Russia",
+		"cost": 27,
+        "culture": 4,
+		"greatPersonPoints": {"culture": 2},
+		"maintenance": 1,
+		"uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city",
+			"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Culture] from [Trade Route (International)] tiles in this city",
+			"[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city","Cost increases by [5] per owned city"],
+		"requiredTech": "Astrology"
+	},
+    {
+        "name": "Theater Square",
+        "cost": 54,
+        "culture": 3,
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+        	"[+1 Culture] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
+            "Only available <after adopting [Drama and Poetry]>"]
+    },
+    {
+        "name": "Theater Square 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "culture": 3,
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+        	"[+1 Culture] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
+            "Only available <after adopting [Drama and Poetry]>","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Acropolis",
+        "replaces": "Theater Square",
+        "uniqueTo": "Greece",
+        "cost": 54,
+        "culture": 6,
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+        	"[+1 Culture] from [Trade Route (International)] tiles in this city","[1] free [Envoy] units appear",
+        	"Cost increases by [10] per owned city",
+            "Only available <after adopting [Drama and Poetry]>"]
+    },
+    {
+        "name": "Encampment",
+        "cost": 54,
+        "production": 2,
+        "gold": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city"],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Encampment 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "production": 2,
+        "gold": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Ikanda",
+        "replaces": "Encampment",
+        "uniqueTo": "The Zulu",
+        "cost": 27,
+        "production": 2,
+        "gold": 2,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"[5]% Food is carried over after population increases [in this city]","[+25]% Production when constructing [Military] units [in this city]",
+        	"Cost increases by [5] per owned city"],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Harbor",
+        "cost": 54,
+        "gold": 4,
+        "food": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]","Connects trade routes over water",
+        	"Cost increases by [10] per owned city"],
+        "requiredTech": "Celestial Navigation"
+    },
+    {
+        "name": "Harbor 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "gold": 4,
+        "food": 1,
+        "uniques": ["[+1 Prodcution] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]","Connects trade routes over water",
+        	"Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
+        "requiredTech": "Celestial Navigation"
+    },
+    {
+        "name": "Cothon",
+        "replaces": "Harbor",
+        "uniqueTo": "Phoenicia",
+        "cost": 27,
+        "gold": 3,
+        "food": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"[+1 Gold] from [Water resource] tiles in this city","[+50]% Production when constructing [Water] units [in this city]",
+        	"[+50]% Production when constructing [Settler] units [in this city]","Connects trade routes over water","Must be next to [Coast]",
+        "Cost increases by [5] per owned city"],
+        "requiredTech": "Celestial Navigation"
+    },
+    {
+        "name": "Royal Navy Dockyard",
+        "replaces": "Harbor",
+        "uniqueTo": "England",
+        "cost": 27,
+        "gold": 5,
+        "food": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"[+1 Gold] from [Water resource] tiles in this city","All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
+            "Connects trade routes over water","Must be next to [Coast]","Cost increases by [5] per owned city"],
+        "requiredTech": "Celestial Navigation"
+    },
+    {
+        "name": "Commercial Hub",
+        "cost": 54,
+        "gold": 5,
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"[+1 Gold] from [River] tiles in this city","Cost increases by [10] per owned city"],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Commercial Hub 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "gold": 5,
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"[+1 Gold] from [River] tiles in this city","Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Suguba",
+        "replaces": "Commercial Hub",
+        "uniqueTo": "Mali",
+        "cost": 27,
+        "gold": 7,
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
+        	"Cost of purchasing items in cities reduced by [10]%","[+2 Gold] from [River] tiles in this city","Cost increases by [5] per owned city"],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Industrial Zone",
+        "cost": 54,
+        "prodcution": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
+            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [10] per owned city"],
+        "requiredTech": "Apprenticeship"
+    },
+    {
+        "name": "Industrial Zone 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "prodcution": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
+            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
+        "requiredTech": "Apprenticeship"
+    },
+    {
+        "name": "Hansa",
+        "replaces": "Industrial Zone",
+        "uniqueTo": "Germany",
+        "cost": 27,
+        "prodcution": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"[+1 Production] from every [Commercial Hub]","[+1 Production] from every [Aqueduct]",
+            "[+1 Production] from every [Dam]","[+1 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [5] per owned city"],
+        "requiredTech": "Apprenticeship"
+    },
+    {
+        "name": "Oppidum",
+        "replaces": "Industrial Zone",
+        "uniqueTo": "Gaul",
+        "cost": 27,
+        "prodcution": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
+        	"[+2 Production] from [Quarry] tiles in this city","[+2 Production] from [Strategic resource] tiles in this city","Cost increases by [10] per owned city"],
+        "requiredTech": "Iron Working"
+    },
+    {
+        "name": "Entertainment Complex",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Water Park",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city","Only available <after adopting [Games and Recreation]>"]
+    },
+    {
+        "name": "Entertainment Complex 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Water Park",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city","Only available <after adopting [Games and Recreation]>","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Street Carnival",
+        "replaces": "Entertainment Complex",
+        "uniqueTo": "Brazil",
+        "cost": 27,
+        "happiness": 3,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Water Park",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [5] per owned city","Only available <after adopting [Games and Recreation]>"]
+    },
+    {
+        "name": "Hippodrome",
+        "replaces": "Entertainment Complex",
+        "uniqueTo": "Byzantium",
+        "cost": 27,
+        "happiness": 4,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Water Park",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"[2] free [Knight] units appear","Only available <after adopting [Games and Recreation]>",
+            "Cost increases by [5] per owned city"]
+    },
+    {
+        "name": "Neighborhood",
+        "cost": 54,
+        "uniques": ["[10]% Food is carried over after population increases [in this city]",
+            "Cost increases by [10] per owned city","Only available <after adopting [Urbanization]>"]
+    },
+    {
+        "name": "Mbanza",
+        "replaces": "Neighborhood",
+        "uniqueTo": "Kongo",
+        "cost": 27,
+        "food": 2,
+        "gold": 4,
+        "uniques": ["[15]% Food is carried over after population increases [in this city]",
+            "Cost increases by [5] per owned city","Only available <after adopting [Guilds]>"]
+    },
+    {
+        "name": "Aerodrome",
+        "isNationalWonder": true,
+        "cost": 54,
+        "uniques": ["Cost increases by [10] per owned city","Enables construction of Aircraft"],
+        "requiredTech": "Flight"
+    },
+    {
+        "name": "Spaceport",
+        "isNationalWonder": true,
+        "cost": 1800,
+        "uniques": ["Must not be on [Hill]","Enables construction of Spaceship parts"],
+        "requiredTech": "Rocketry"
+    },
+    {
+        "name": "Water Park",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Entertainment Complex",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city","Must be next to [Coast]","Only available <after adopting [Natural History]>"]
+    },
+    {
+        "name": "Water Park 2", //Germany Unique
+        "uniqueTo": "Germany",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Entertainment Complex",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [10] per owned city","Must be next to [Coast]","Will not be displayed in Civilopedia","Only available <after adopting [Natural History]>"]
+    },
+    {
+        "name": "Copacabana",
+        "replaces": "Water Park",
+        "uniqueTo": "Brazil",
+        "cost": 27,
+        "happiness": 3,
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Entertainment Complex",
+        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
+        	"Cost increases by [5] per owned city","Must be next to [Coast]","Only available <after adopting [Natural History]>"]
+    },
+
+// Wonders
+    
+    // Ancient Era
+    {
+        "name": "Great Bath",
+        "isWonder": true,
+        "cost": 180,
+        "happiness": 1,
+        "requiredTech": "Pottery",
+        "uniques": ["[+1 Culture] from [Flood plains] tiles in this city","[10]% Food is carried over after population increases [in this city]",
+            "Must have an owned [Flood plains] within [3] tiles"],
+        "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
+    },
+    {
+        "name": "Stonehenge",
+        "isWonder": true,
+        "cost": 180,
+        "culture": 3,
+        "requiredNearbyImprovedResources": ["Stone"],
+        "requiredTech": "Astrology",
+        "uniques": ["Free [Great Artist] appears"],
+        "quote": "'Can you imagine trying to talk six hundred people into helping you drag a fifty-ton stone eighteen miles across the countryside and muscle it into an upright position, and then saying, 'Right, lads! Another twenty like that...and then we can party!' –Bill Bryson"
+    },
+    {
+        "name": "Hanging Gardens",
+        "isWonder": true,
+        "cost": 180,
+        "uniques": ["+[15]% growth in all cities","[10]% Food is carried over after population increases [in this city]","Must be on [River]"],
+        "requiredTech": "Irrigation",
+        "quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose, are continually employed in raising water from the Euphrates into the garden.' –Strabo"
+    },
+    {
+        "name": "Temple of Artemis",
+        "isWonder": true,
+        "cost": 180,
+        "food": 4,
+        "requiredNearbyImprovedResources": ["Deer","Furs","Honey","Ivory","Truffles"],
+        "requiredTech": "Archery",
+        "uniques": ["[+1 Happiness] from [Camp] tiles in this city","[+1 Happiness] from [Pasture] tiles in this city",
+            "[+1 Happiness] from [Plantation] tiles in this city","[10]% Food is carried over after population increases [in this city]"],
+        "quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.' –Antipater of Sidon"
+    },
+    {
+        "name": "Pyramids",
+        "isWonder": true,
+        "cost": 220,
+        "culture": 2,
+        "uniques": ["Free [Worker] appears","Worker construction increased 25%","Must be on [Desert]"],
+        "requiredTech": "Masonry",
+        "quote": "'From the height of these pyramids, forty centuries look down on us.' –Napolean Boneparte"
+    },
+    {
+        "name": "Oracle",
+        "isWonder": true,
+        "cost": 220,
+        "culture": 2,
+        "greatPersonPoints": {"production": 1,"culture": 1,"gold": 1,"science": 1},
+        "uniques": ["+[25]% great person generation in this city","Must be on [Hill]","Only available <after adopting [Mysticism]>"],
+        "quote": "'I sprang upon the swift ship in the form of a dolphin, pray to me as Apollo Delphinius; also the altar itself shall be called Delphinius and overlooked forever.' –Homer"
+    },
+
+    // Classical Era
+    {
+        "name": "Apadana",
+        "isWonder": true,
+        "cost": 400,
+        "uniques": ["[5] free [Envoy] units appear","Only available <in cities with a [Palace]>","Only available <after adopting [Political Philosophy]>"],
+        "quote": "'My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana.' –Artaxerxes II"
+    },
+    {
+        "name": "Colosseum",
+        "isWonder": true,
+        "cost": 400,
+        "culture": 4,
+        "happiness": 6,
+        "uniques": ["Must not be on [Hill]","Only available <after adopting [Games and Recreation]>"],
+        "quote": "'While the Colosseum stands, Rome shall stand; when the Colosseum falls, Rome shall fall; when Rome falls, the world shall fall.' –Saint Bede"
+    },
+    {
+        "name": "Colossus",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 3,
+        "uniques": ["Provides [-1] [Trade Route]","[1] free [Trader] units appear",
+        	"Must be next to [Coast]"],
+        "requiredTech": "Shipbuilding",
+        "quote": "'At Rhodes was set up a Colossus of seventy cubits high, representing the Sun. The artist expended as much bronze on it as seemed likely to create a dearth in the mines.' –Philo of Byzantium"
+    },
+    {
+        "name": "Great Library",
+        "isWonder": true,
+        "cost": 400,
+        "science": 2,
+        "greatPersonPoints": {"science": 1},
+        "uniques": ["Free Technology","Only available <after adopting [Recorded History]>"],
+        "quote": "'We can roam the bloated stacks of the Library of Alexandria, where all imagination and knowledge are assembled, we can recognize in its destruction the warning that all we gather will be lost.' –Lucian of Samosata"
+    },
+    {
+        "name": "Great Lighthouse",
+        "isWonder": true,
+        "cost": 290,
+        "gold": 3,
+        "uniques": ["+2 movement for all naval units","Must be next to [Coast]"],
+        "requiredTech": "Celestial Navigation",
+        "quote": "'This lighthouse was the cynosure of all eyes.' –Henry David Thoreau"
+    },
+    {
+        "name": "Jebel Barkal",
+        "isWonder": true,
+        "cost": 400,
+        "culture": 8,
+        "uniques": ["Provides [2] [Iron]","Must be on [Hill]"],
+        "requiredTech": "Iron Working",
+        "quote": "'At the south-west corner a large perpendicular mass of sandstone has become separated by a deep fissure from the body of the mountain … it has all the appearance of a colossal statue.' –E. A. Wallis Budge"
+    },
+    {
+        "name": "Machu Picchu",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 4,
+        "uniques": ["[+1 Gold] from every [Commercial Hub]","[+1 Gold] from every [Industrial Zone]",
+            "[+1 Gold] from every [Theater Square]","Must be next to [Mountain]"],
+        "requiredTech": "Engineering",
+        "quote": "'T...Eagles fly, the turret rounds, and seem to flout the sky; They eye those walls now crumbling in decay, and scare from quiet rest their destined prey.' –Henry David Thoreau"
+    },
+    {
+        "name": "Mausoleum at Halicarnassus",
+        "isWonder": true,
+        "cost": 400,
+        "culture": 2,
+        "uniques": ["[+1 Science, +2 Culture] from [Coast] tiles in this city","Worker construction increased 25%",
+        	"Only available <after adopting [Defensive Tactics]>"],
+        "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' –Lucian of Samosata"
+    },
+    {
+        "name": "Petra",
+        "isWonder": true,
+        "cost": 400,
+        "uniques": ["[+2 Food, +1 Production, +2 Gold] from [Desert] tiles in this city","[-2 Food, -1 Production, -2 Gold] from [Flood plains] tiles in this city",
+            "Must be next to [Desert]"],
+        "requiredTech": "Mathematics",
+        "quote": "'Petra is a brilliant display of man's artistry in turning barren rock into majestic wonder.' –Edward Dawson"
+    },
+    {
+        "name": "Statue of Zeus",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 3,
+        "uniques": ["[3] free [Archer] units appear","[3] free [Spearman] units appear",
+            "[+50]% Production when constructing [Armor] units [in all cities]","Only available <after adopting [Military Training]>"],
+        "quote": "'Upon the head of the god was an olive crown; in his right hand he bore a winged figure of Victory.' –Samuel Augustus Mitchell"
+    },
+    {
+        "name": "Terracotta Army",
+        "isWonder": true,
+        "cost": 400,
+        "uniques": ["Only available <in cities with a [Encampment]>","Must not be on [Hill]",
+        	"New military units start with [15] Experience"],
+        "requiredTech": "Construction",
+        "quote": "'There were seven wonders in the world, and the discovery of the Terracotta Army, we may say, is the eighth miracle of the world.' –Jacques Chirac"
+    },
+
+    // Medieval Era
+    {
+        "name": "Alhambra",
+        "isWonder": true,
+        "cost": 710,
+        "happiness": 2,
+        "uniques": ["[+25]% City Strength from defensive buildings","Free Social Policy","Must be on [Hill]"],
+        "requiredTech": "Castles",
+        "quote": "'Everything here appears calculated to inspire kind and happy feelings, for everything is delicate and beautiful.' –Washington Irving"
+    },
+    {
+        "name": "Angkor Wat",
+        "isWonder": true,
+        "cost": 710,
+        "culture": 2,
+        "uniques": ["+1 population in each city","+[10]% growth in all cities","Only available <after adopting [Medieval Faires]>"],
+        "quote": "'The temple is surrounded by a moat, and access is by a single bridge, protected by two stone tigers so grand and fearsome as to strike terror into the visitor.' –Diogo do Couto"
+    },
+    {
+        "name": "Chichen Itza",
+        "isWonder": true,
+        "cost": 710,
+        "uniques": ["[+1 Production, +2 Culture] from [Jungle] tiles in this city","Must have an owned [Jungle] within [3] tiles",
+        	"Only available <after adopting [Guilds]>"],
+        "quote": "'The Great Ballcourt is also very impressive. I would like to have seen them play a game, although it sounds like the end was pretty violent. I think it was safer to be a spectator.' –Isla Deb"
+    },
+    {
+        "name": "Hagia Sophia",
+        "isWonder": true,
+        "cost": 710,
+        "culture": 5,
+        "uniques": ["All newly-trained [Civilian] units in this city receive the [Martyr] promotion","Only available <in cities with a [Holy Site]>"],
+        "requiredTech": "Buttress",
+        "quote": "'It is a beautiful and important monument and an international, intercultural treasure...Unless and until it can be shared by both religions in harmony--which would be a grand idea--it should remain a secular building honoring both religions who have made it beautiful.' –Ljubo Vujovic"
+    },
+    {
+        "name": "Huey Teocalli",
+        "isWonder": true,
+        "cost": 710,
+        "uniques": ["[+1 Happiness] from [Lakes] tiles in this city","[+1 Food, +1 Production] from every [Lakes]",
+            "Must have an owned [Lakes] within [3] tiles"],
+        "requiredTech": "Military Tactics",
+        "quote": "'But the wrath of Huizlopochtli was great, and as the sacrifice passed each of the four rooms dedicated to the sun god, the sun disappeared or reappeared in the sky.' –Fray Diego Durán"
+    },
+    {
+        "name": "Kilwa Kisiwani",
+        "isWonder": true,
+        "cost": 710,
+        "uniques": ["[3] free [Envoy] units appear","Food and Culture from Friendly City-States are increased by 50%",
+            "Must be next to [Coast]"],
+        "requiredTech": "Machinery",
+        "quote": "'Kilwa is one of the most beautifully built cities in the world; the houses there are entirely made of wood, their rooftops out of rope grass, and it rains with great vigour.' –Ibn Battuta"
+    },
+    {
+        "name": "Kotoku-in",
+        "isWonder": true,
+        "cost": 710,
+        "percentStatBonus": {"culture": 30},
+        "uniques": ["[4] free [Warrior Monk] units appear","Only available <after adopting [Divine Right]>"],
+        "quote": "'O ye who tread the Narrow Way, by Tophet-flare to Judgment Day, be gentle when ‘the heathen’ pray, to Buddha at Kamakura!' –Rudyard Kipling"
+    },
+    {
+        "name": "University of Sankore",
+        "isWonder": true,
+        "cost": 710,
+        "science": 2,
+        "culture": 1,
+        "greatPersonPoints": {"science": 2},
+        "uniques": ["[+1 Gold, +1 Science] from every [Trade Route (Domestic)]",
+        	"[+1 Gold, +1 Science] from every [Trade Route (International)]","Must be next to [Desert]"],
+        "requiredTech": "Education",
+        "quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' –Musnad al-Bazzar 10/68"
+    },
+
+    // Renaissance Era
+    {
+        "name": "Casa de Contratacion",
+        "isWonder": true,
+        "cost": 920,
+        "percentStatBonus": {"production": 15,"culture": 15,"gold": 15},
+        "greatPersonPoints": {"gold": 3},
+        "requiredTech": "Cartography",
+        "quote": "'All other lands found on the western side of the boundary shall belong to the King and Queen of Castille—and their successors.' –Treaty of Tordesillas"
+    },
+    {
+        "name": "Forbidden City",
+        "isWonder": true,
+        "cost": 920,
+        "culture": 5,
+        "uniques": ["Free Social Policy","Must not be on [Hill]"],
+        "requiredTech": "Printing",
+        "quote": "'The whole palace complex is built along a central axis, the axis of the world, everything in the four directions suspend from this central point represented by these palaces.' –Jeffrey Riegel"
+    },
+    {
+        "name": "Great Zimbabwe",
+        "isWonder": true,
+        "cost": 920,
+        "gold": 5,
+        "greatPersonPoints": {"gold": 2},
+        "requiredNearbyImprovedResources": ["Cattle"],
+        "uniques": ["Provides [1] [Trade Route]","[+3 Gold] from each Trade Route"],
+        "requiredTech": "Banking",
+        "quote": "'King Solomon gave the Queen of Sheba all she desired and asked for; besides what he had given her out of his royal bounty. So she turned and went to her own country, she and her servants.' –1 Kings, 10:13"
+    },
+    {
+        "name": "Potala Palace",
+        "isWonder": true,
+        "cost": 1060,
+        "culture": 8,
+        "uniques": ["Must be on [Hill]"],
+        "requiredTech": "Astronomy",
+        "quote": "'The first time I stepped onto the rooftop of the Potala Palace, I felt, as never before or since, as if I were stepping onto the rooftop of my being; onto some dimension of consciousness that I'd never visited before.' –Pico Iyer"
+    },
+    {
+        "name": "St. Basil's Cathedral",
+        "isWonder": true,
+        "cost": 920,
+        "percentStatBonus": {"culture": 100},
+        "uniques": ["[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles in this city","Only available <after adopting [Reformed Church]>"],
+        "quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' –Katharine Blanche Guthrie"
+    },
+    {
+        "name": "Venetian Arsenal",
+        "isWonder": true,
+        "cost": 920,
+        "greatPersonPoints": {"production": 2},
+        "uniques": ["[+100]% Production when constructing [Water] units [in all cities]","Must be next to [Coast]",
+        	"Only available <in cities with a [Industrial Zone]>"],
+        "requiredTech": "Mass Production",
+        "quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' –Robert Burton"
+    },
+
+    // Industrial Era
+
+    /*{
+        "name": "Panama Canal",
+        "isWonder": true,
+        "cost": 1240
+    },
+    {
+        "name": "Orszaghaz",
+        "isWonder": true,
+        "cost": 1240
+    },
+    {
+        "name": "Statue of Liberty",
+        "isWonder": true,
+        "cost": 1240
+    }*/
+    {
+        "name": "Bolshoi Theatre",
+        "isWonder": true,
+        "cost": 1240,
+        "greatPersonPoints": {"culture": 4},
+        "uniques": ["Free Social Policy","Free Social Policy","Must be on [River]","Only available <after adopting [Opera and Ballet]>"],
+        "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance, its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' –Trudy Garfunkel"
+    },
+    {
+        "name": "Hermitage",
+        "isWonder": true,
+        "cost": 1450,
+        "specialistSlots": {"Artist": 4},
+        "greatPersonPoints": {"culture": 3},
+        "uniques": ["Must be on [River]","Must not be on [Desert]","Must not be on [Tundra]","Only available <after adopting [Natural History]>"],
+        "quote": "'Museums are on the front lines of the fight for culture, of good with evil--in any case, of the fight against platitudes and primitiveness.' –Mikhail Piotrovsky, Director of the State Hermitage"
+    },
+    {
+        "name": "Big Ben",
+        "isWonder": true,
+        "cost": 1450,
+        "gold": 6,
+        "percentStatBonus": {"gold": 50},
+        "greatPersonPoints": {"gold": 3},
+        "uniques": ["Must be on [River]"],
+        "requiredTech": "Economics",
+        "quote": "'Don't watch the big clock, do what it does: Keep going.' –Sam Levenson"
+    },
+    {
+        "name": "Oxford University",
+        "isWonder": true,
+        "cost": 1450,
+        "percentStatBonus": {"science": 20},
+        "greatPersonPoints": {"science": 3},
+        "uniques": ["Free Technology","Free Technology","Must not be on [Hill]"],
+        "requiredTech": "Scientific Theory",
+        "quote": "'The clever men at Oxford...know all that there is to be knowed. But they none of them know one half as much...As intelligent Mr. Toad!' –Kenneth Grahame"
+    },
+    {
+        "name": "Ruhr Valley",
+        "isWonder": true,
+        "cost": 1450,
+        "percentStatBonus": {"production": 20},
+        "uniques": ["[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
+        	"Must be on [River]"],
+        "requiredTech": "Industrialization",
+        "quote": "'The industrial heart of Germany practically stopped beating. Hardly anyone worked, hardly anything ran. The population of the Ruhr area...had to be supported by the rest of the country.' –Adam Fergusson"
+    },
+
+    // Modern Era 
+    {
+        "name": "Eiffel Tower",
+        "isWonder": true,
+        "cost": 1620,
+        "providesFreeBuilding": "Eiffel Bonus",
+        "uniques": ["+1 Culture from every tile","Must not be on [Hill]"],
+        "requiredTech": "Steel",
+        "quote": "'I ought to be jealous of the tower. She is more famous than I am.' –Gustave Eiffel"
+    },
+    {
+        "name": "Cristo Redentor",
+        "isWonder": true,
+        "cost": 1620,
+        "culture": 4,
+        "uniques": ["[+3 Culture] from every [Seaside Resort]","Must be on [Hill]","Only available <after adopting [Mass Media]>"],
+        "quote": "'Thus, the sculpture serves to give people one thought--'Everything is in God's hands.'' –Sergey Semenov"
+    },
+    {
+        "name": "Golden Gate Bridge",
+        "isWonder": true,
+        "cost": 1620,
+        "happiness": 3,
+        "providesFreeBuilding": "Golden Gate Bonus",
+        "uniques": ["+2 Culture from all tiles in this city","Must be next to [Coast]"],
+        "requiredTech": "Combustion",
+        "quote": "'Thus, the sculpture serves to give people one thought--'Everything is in God's hands.'' –Sergey Semenov"
+    },
+    {
+        "name": "Broadway",
+        "isWonder": true,
+        "cost": 1620,
+        "percentStatBonus": {"culture": 20},
+        "greatPersonPoints": {"culture": 5},
+        "uniques": ["Free Social Policy","Must not be on [Hill]","Only available <after adopting [Mass Media]>"],
+        "quote": "'There's no business like show business.' –Irving Berlin, Annie Get Your Gun"
+    },
+
+    // Atomic Era
+    {
+        "name": "Estadio do Maracana",
+        "isWonder": true,
+        "cost": 1740,
+        "uniques": ["[+6 Culture] in all cities","[+2 Happiness] in all cities","Must not be on [Hill]","Only available <after adopting [Professional Sports]>"],
+        "quote": "'Down through its history, only three people have managed to silence the Maracana: the Pope, Frank Sinatra, and me.' –Alcides Ghiggia, Uruguayan soccer player"
+    },
+    {
+        "name": "Biosphere",
+        "isWonder": true,
+        "cost": 1740,
+        "uniques": ["[+3 Science] from [Jungle] tiles in this city","[+3 Science] from [Woods] tiles in this city",
+            "[+3 Science] from [Marsh] tiles in this city","Must be on [River]"],
+        "requiredTech": "Synthetic Materials",
+        "quote": "'Heaven is under our feet as well as over our heads.' –Henry David Thoreau"
+    },
+    {
+        "name": "Amundsen-Scott Research Station",
+        "isWonder": true,
+        "cost": 1740,
+        "percentStatBonus": {"science": 20, "production": 10},
+        "greatPersonPoints": {"science": 5},
+        "uniques": ["[+20]% [Science] from every [City Center]","[+10]% [Production] from every [City Center]","Must be on [Snow]",
+            "Only available <after adopting [Rapid Deployment]>"],
+        "quote": "'For scientific leadership, give me Scott; for swift and efficient travel, Amundsen.' –Sir Raymond Priestley"
+    },
+    {
+        "name": "Sydney Opera House",
+        "isWonder": true,
+        "cost": 1740,
+        "culture": 8,
+        "specialistSlots": {"Artist": 3},
+        "greatPersonPoints": {"culture": 5},
+        "uniques": ["Must be next to [Coast]","Only available <after adopting [Cultural Heritage]>"],
+        "quote": "'An opera begins long before the curtain goes up and ends long after it has come down. It starts in my imagination, it becomes my life, and it stays part of my life long after I've left the opera house.' –Maria Callas"
+    },
+
+
+// Infrastructure
+
+    // Ancient Era 
+    {
+        "name": "Palace",
+        "isNationalWonder": true,
+        "cost": 1,
+        "production": 2,
+        "science": 2,
+        "gold": 5,
+        "culture": 1,
+        "happiness": 1,
+        "uniques": ["Indicates the capital city","Double quantity of [Horses] produced",
+            "Double quantity of [Iron] produced","Double quantity of [Niter] produced",
+            "Double quantity of [Coal] produced","Double quantity of [Oil] produced",
+            "Double quantity of [Uranium] produced","Double quantity of [Aluminum] produced",
+            "Gain a free [City Center] [in all cities]","[-1 Gold] from every [River]"]
+    },
+    {
+        "name": "Monument",
+        "cost": 60,
+        "culture": 2,
+    },
+    {
+        "name": "Granary",
+        "cost": 65, 
+        "food": 1,
+        "uniques": ["[5]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Pottery"
+    },
+    {
+        "name": "Library",
+        "cost": 90,
+        "science": 2,
+        "specialistSlots": {"Scientist": 1},
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 1,
+        "uniques": ["Only available <in cities with a [Campus]>"],
+        "requiredTech": "Writing"
+    },
+    {
+        "name": "Shrine",
+        "cost": 70,
+        "culture": 1,
+        "maintenance": 1,
+        "uniques": ["Only available <in cities with a [Holy Site]>","[5]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Astrology"
+    },
+    {
+        "name": "Ancient Walls",
+        "cost": 80,
+        "cityHealth": 100,
+        "cityStrength": 10,
+		"uniques": ["Cannot be purchased","+1 Culture once Conservation is adopted"],
+        "requiredTech": "Masonry"
+    },
+    {
+        "name": "Barracks",
+        "cost": 90,
+        "production": 1,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Stable",
+		"uniques": ["Only available <in cities with a [Encampment]>","New [Melee] units start with [15] Experience in this city",
+			"New [Ranged] units start with [15] Experience in this city","New [Armor] units start with [15] Experience in this city"],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Basilikoi Paides",
+        "replaces": "Barracks",
+        "uniqueTo": "Macedon",
+        "cost": 90,
+        "production": 1,
+        "specialistSlots": {"Commander": 1},
+        "percentStatBonus": {"science": 25},
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Stable",
+		"uniques": ["Only available <in cities with a [Encampment]>","New [Melee] units start with [15] Experience in this city",
+			"New [Ranged] units start with [15] Experience in this city","New [Armor] units start with [15] Experience in this city",
+			"Science +25% vs +0%"],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Water Mill",
+        "cost": 65, 
+        "food": 1,
+        "production": 1,
+        "uniques": ["[+1 Food] from [Wheat] tiles in this city","[+1 Food] from [Rice] tiles in this city",
+        	"[+1 Food] from [Maize] tiles in this city"],
+        "requiredTech": "Wheel"
+    },
+
+
+    // Classical Era 
+
+    {
+        "name": "Amphitheater",
+        "cost": 150,
+        "culture": 2,
+        "specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "uniques": ["Only available <after adopting [Drama and Poetry]>"],
+    },
+    {
+        "name": "Marae",
+        "replaces": "Amphitheater",
+        "uniqueTo": "The Maori",
+        "cost": 150,
+        "culture": 2,
+        "specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 1},
+        "maintenance": 1,
+        "uniques": ["[+1 Culture] from [Forest] tiles in this city","[+1 Culture] from [Jungle] tiles in this city",
+        	"[+1 Culture] from [Marsh] tiles in this city","[+1 Culture] from [Flood plains] tiles in this city",
+        	"[+1 Culture] from [Geothermal Fissure] tiles in this city","Only available <after adopting [Drama and Poetry]>"],
+    },
+    {
+        "name": "Stable",
+        "cost": 120,
+        "production": 1,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Barracks",
+        "uniques": ["Only available <in cities with a [Encampment]>","New [Mounted] units start with [15] Experience in this city",
+        	"New [Siege] units start with [15] Experience in this city"],
+        "requiredTech": "Horseback Riding"
+    },
+    {
+        "name": "Ordu",
+        "replaces": "Stable",
+        "uniqueTo": "Mongolia",
+        "cost": 120,
+        "production": 1,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 1,
+        "cannotBeBuiltWith": "Barracks",
+        "uniques": ["Only available <in cities with a [Encampment]>","New [Mounted] units start with [15] Experience in this city",
+        	"New [Siege] units start with [15] Experience in this city","All newly-trained [Mounted] units in this city receive the [Ordu] promotion"],
+        "requiredTech": "Horseback Riding"
+    },
+    {
+        "name": "Lighthouse",
+        "cost": 120,
+        "gold": 1,
+        "food": 1,
+        "uniques": ["Only available <in cities with a [Harbor]>","New [Water] units start with [15] Experience in this city",
+        	"[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Lake] tiles in this city",
+        	"Provides [1] [Trade Route]","[10]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Celestial Navigation"
+    },
+    {
+        "name": "Arena",
+        "cost": 150,
+        "happiness": 1,
+        "culture": 1,
+        "maintenance": 1,
+        "uniques": ["Only available <if [Entertainment Complex] is constructed>","+1 Culture once Conservation is adopted",
+        	"Only available <after adopting [Games and Recreation]>"],
+    },
+    {
+        "name": "Tlachtli",
+        "replaces": "Arena",
+        "uniqueTo": "The Aztec",
+        "cost": 135,
+        "happiness": 1,
+        "culture": 3,
+        "maintenance": 1,
+        "uniques": ["Only available <if [Entertainment Complex] is constructed>","+1 Culture once Conservation is adopted",
+        	"Only available <after adopting [Games and Recreation]>"],
+    },
+    {
+        "name": "Market",
+        "cost": 120,
+        "gold": 3,
+        "specialistSlots": {"Merchant": 1},
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["Only available <in cities with a [Commercial Hub]>","Provides [1] [Trade Route]"],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Sukiennice",
+        "replaces": "Market",
+        "uniqueTo": "Poland",
+        "cost": 120,
+        "gold": 3,
+        "specialistSlots": {"Merchant": 1},
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["Only available <in cities with a [Commercial Hub]>","Provides [1] [Trade Route]",
+        	"[+1 Gold, +1 Production] from each Trade Route"],
+        "requiredTech": "Currency"
+    },
+    {
+        "name": "Dam",
+        "cost": 81,
+        "happiness": 1,
+        "maintenance": 1,
+        "uniques": ["[10]% Food is carried over after population increases [in this city]",
+            "Must be next to [Flood plains]"],
+        "requiredTech": "Buttress"
+    },
+    {
+        "name": "Aqueduct",
+        "cost": 36,
+        "maintenance": 1,
+        "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+            "[+2 Production] from [Terrace Farm] tiles in this city",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Cost increases by [10] per owned city"],
+        "requiredTech": "Engineering"
+    },
+    {
+        "name": "Bath",
+        "replaces": "Aqueduct",
+        "uniqueTo": "Rome",
+        "cost": 18,
+        "happiness": 1,
+        "maintenance": 1,
+        "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+            "[15]% Food is carried over after population increases [in this city]","Cost increases by [5] per owned city"],
+        "requiredTech": "Engineering"
+    },
+    {
+        "name": "Temple",
+        "cost": 120,
+        "culture": 2,
+        "maintenance": 2,
+        "specialistSlots": {"Priest": 1},
+        "uniques": ["Only available <if [Holy Site] is constructed>","Only available <in cities with a [Shrine]>",
+        	"Only available <after adopting [Theology]>"],
+    },
+    {
+        "name": "Prasat",
+        "replaces": "Temple",
+        "uniqueTo": "The Khmer",
+        "cost": 120,
+        "culture": 2,
+        "specialistSlots": {"Priest": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <if [Holy Site] is constructed>","Only available <in cities with a [Shrine]>"
+        	"All newly-trained [Civilian] units in this city receive the [Martyr] promotion","Only available <after adopting [Theology]>"],
+    },
+    {
+        "name": "Stave Church",
+        "replaces": "Temple",
+        "uniqueTo": "Norway",
+        "cost": 120,
+        "culture": 2,
+        "production": 1,
+        "specialistSlots": {"Priest": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <if [Holy Site] is constructed>","Only available <in cities with a [Shrine]>",
+        	"[+1 Production] from [Water resource] tiles in this city","Only available <after adopting [Theology]>"],
+    },
+
+    // Medieval Era 
+
+    {
+        "name": "Workshop",
+        "cost": 195,
+        "production": 3,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": ["Only available <in cities with a [Industrial Zone]>"],
+        "requiredTech": "Apprenticeship"
+    },
+    {
+        "name": "University",
+        "cost": 250,
+        "science": 4,
+        "specialistSlots": {"Scientist": 1},
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Campus]>","Only available <in cities with a [Library]>"],
+        "requiredTech": "Education"
+    },
+    {
+        "name": "Madrasa",
+        "replaces": "University",
+        "uniqueTo": "Arabia",
+        "cost": 250,
+        "science": 5,
+        "culture": 3,
+        "specialistSlots": {"Scientist": 1},
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <if [Campus] is constructed>","Only available <in cities with a [Library]>",
+        	"Only available <after adopting [Theology]>"]
+    },
+    {
+        "name": "Armory",
+        "cost": 195,
+        "production": 3,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Encampment]>","Only available <in cities with a [Barracks]>",
+        	"New [non-air] units start with [15] Experience in this city"],
+        "requiredTech": "Military Engineering"
+    },  
+    {
+        "name": "Medieval Walls",
+        "cost": 220,
+        "cityHealth": 100,
+        "cityStrength": 10,
+        "uniques": ["Only available <in cities with a [Ancient Walls]>","Cannot be purchased"],
+        "requiredTech": "Castles"
+    }, 
+
+    // Renaissance Era 
+
+    {
+        "name": "Bank",
+        "cost": 290,
+        "gold": 5,
+        "specialistSlots": {"Merchant": 1},
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["Only available <in cities with a [Commercial Hub]>","Only available <in cities with a [Market]>"],
+        "requiredTech": "Banking"
+    },
+    {
+        "name": "Grand Bazaar",
+        "replaces": "Bank",
+        "uniqueTo": "The Ottomans",
+        "cost": 220,
+        "gold": 5,
+        "happiness": 3,
+        "specialistSlots": {"Merchant": 1},
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["Only available <in cities with a [Commercial Hub]>","Only available <in cities with a [Market]>"],
+        "requiredTech": "Banking"
+    },
+    {
+        "name": "Art Museum",
+        "cost": 290,
+        "culture": 2,
+        "specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 2},
+        "maintenance": 2,
+        "uniques": ["Only available <if [Amphitheater] is constructed>","Only available <in cities with a [Theater Square]>",
+        	"Only available <after adopting [Humanism]>"],
+    },
+    {
+        "name": "Shipyard",
+        "cost": 290,
+        "production": 2,
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Harbor]>","Only available <in cities with a [Lighthouse]>",
+        	"New [Water] units start with [15] Experience in this city","[+1 Gold, +1 Production] from [Coast] tiles in this city",
+        	"[+1 Gold, +1 Production] from [Lakes] tiles in this city"],
+        "requiredTech": "Mass Production"
+    },
+    {
+        "name": "Renaissance Walls",
+        "cost": 300,
+        "cityHealth": 100,
+        "cityStrength": 10,
+        "uniques": ["Only available <in cities with a [Medieval Walls]>","Cannot be purchased",
+        	"+3 Culture once Conservation is adopted"],
+        "requiredTech": "Siege Tactics"
+    }, 
+    {
+        "name": "Tsikhe",
+        "replaces": "Renaissance Walls",
+        "uniqueTo": "Georgia",
+        "cost": 260,
+        "culture": 5,
+        "cityHealth": 200,
+        "cityStrength": 10,
+        "requiredBuilding": "Medieval Walls",
+        "uniques": ["Only available <in cities with a [Medieval Walls]>","Cannot be purchased",
+        	"+3 Culture once Conservation is adopted"],
+        "requiredTech": "Siege Tactics"
+    }, 
+
+    // Industrial Era 
+
+    {
+        "name": "Factory",
+        "cost": 330,
+        "production": 5,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Workshop]>"],
+        "requiredTech": "Industrialization"
+    },
+    {
+        "name": "Electronics Factory",
+        "replaces": "Factory",
+        "uniqueTo": "Japan",
+        "cost": 330,
+        "production": 6,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Workshop]>",
+        	"[+4 Culture] <after discovering [Electricity]>"],
+        "requiredTech": "Industrialization"
+    },
+    {
+        "name": "Military Academy",
+        "cost": 330,
+        "production": 4,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Encampment]>","Only available <in cities with a [Armory]>",
+        	"New [non-air] units start with [15] Experience in this city","[5]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Military Science"
+    }, 
+    {
+        "name": "Sewer",
+        "cost": 200, 
+        "maintenance": 2,
+        "uniques": ["[10]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Sanitation"
+    },
+    {
+        "name": "Stock Exchange",
+        "cost": 330,
+        "gold": 7,
+        "specialistSlots": {"Merchant": 1},
+        "greatPersonPoints": {"gold": 1},
+        "uniques": ["Only available <in cities with a [Commercial Hub]>","Only available <in cities with a [Bank]>"],
+        "requiredTech": "Economics"
+    },
+    {
+        "name": "Zoo",
+        "cost": 360,
+        "happiness": 2,
+        "maintenance": 2,
+        "uniques": ["Only available <if [Entertainment Complex] is constructed>","Only available <in cities with a [Arena]>",
+        	"[+1 Science] from [Forest] tiles in this city","[+1 Science] from [Marsh] tiles in this city",
+        	"Only available <after adopting [Natural History]>"]
+    },
+    {
+        "name": "Thermal Bath",
+        "replaces": "Zoo",
+        "uniqueTo": "Hungary",
+        "cost": 360,
+        "happiness": 3,
+        "production": 2,
+        "maintenance": 2,
+        "uniques": ["Only available <if [Entertainment Complex] is constructed>","Only available <in cities with a [Zoo]>",
+        	"[+2 Happiness, +3 Culture] from [Geothermal Fissure] tiles in this city","Only available <after adopting [Natural History]>"]
+    },
+    {
+        "name": "Ferris Wheel",
+        "cost": 290,
+        "culture": 4,
+        "happiness": 2,
+        "maintenance": 1,
+        "uniques": ["Only available <if [Water Park] is constructed>","Only available <after adopting [Natural History]>"]
+    },
+    {
+        "name": "Aquarium",
+        "cost": 360,
+        "culture": 4,
+        "happiness": 2,
+        "maintenance": 1,
+        "uniques": ["Only available <if [Water Park] is constructed>","[+1 Science] from [Water resource] tiles in this city",
+        	"[+1 Science] from [Reef] tiles in this city","Only available <after adopting [Natural History]>"]
+    },
+    {
+        "name": "Coal Power Plant",
+        "cost": 300,
+        "production": 7,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 3,
+        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Factory]>"],
+        "requiredTech": "Industrialization"
+    },
+
+    // Modern Era 
+
+    {
+        "name": "Hangar",
+        "cost": 380,
+        "production": 2,
+        "maintenance": 1,
+        "uniques": ["Only available <in cities with a [Aerodrome]>","New [Fighter] units start with [15] Experience in this city","New [Bomber] units start with [15] Experience in this city"],
+        "requiredTech": "Flight"
+    },
+    {
+        "name": "Seaport",
+        "cost": 440,
+        "food": 2,
+        "gold": 2,
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Harbor]>","Only available <in cities with a [Shipyard]>",
+        	"New [Water] units start with [15] Experience in this city","[+2 Gold] from [Coast] tiles in this city",
+        	"[5]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Electricity"
+    },
+    {
+        "name": "Oil Power Plant",
+        "cost": 360,
+        "production": 7,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 3,
+        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Factory]>"],
+        "requiredResource": "Oil",
+        "requiredTech": "Electricity"
+    },
+    {
+        "name": "Broadcast Center",
+        "cost": 440,
+        "culture": 4,
+        "specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 2},
+        "maintenance": 3,
+        "uniques": ["Only available <in cities with a [Theater Square]>","Only available <in cities with a [Art Museum]>"],
+        "requiredTech": "Radio"
+    },
+    {
+        "name": "Film Studio",
+        "replaces": "Broadcast Center",
+        "uniqueTo": "America",
+        "cost": 440,
+        "culture": 4,
+        "percentStatBonus": {"culture": 100},
+        "specialistSlots": {"Artist": 1},
+        "greatPersonPoints": {"culture": 2},
+        "maintenance": 3,
+        "uniques": ["Only available <in cities with a [Theater Square]>","Only available <in cities with a [Art Museum]>","Culture +100% vs +0%"],
+        "requiredTech": "Radio"
+    },
+    {
+        "name": "Research Lab",
+        "cost": 440,
+        "science": 5,
+        "specialistSlots": {"Scientist": 1},
+        "greatPersonPoints": {"science": 1},
+        "maintenance": 3,
+        "uniques": ["Only available <in cities with a [Campus]>","Only available <in cities with a [University]>"],
+        "requiredTech": "Chemistry"
+    },
+    {
+        "name": "Food Market",
+        "cost": 440,
+        "food": 5,
+        "maintenance": 1,
+        "uniques": ["Only available <in cities with a [Neighborhood]>"],
+        "cannotBeBuiltWith": "Shopping Mall",
+        "requiredTech": "Replaceable Parts"
+    },
+    {
+        "name": "Shopping Mall",
+        "cost": 440,
+        "culture": 4,
+        "gold": 3,
+        "happiness": 1,
+        "maintenance": 1,
+        "uniques": ["Only available <if [Neighborhood] is constructed>","Only available <after adopting [Capitalism]>"],
+        "cannotBeBuiltWith": "Shopping Mall"
+    },
+
+    // Atomic Era 
+
+    {
+        "name": "Airport",
+        "cost": 480,
+        "production": 5,
+        "maintenance": 2,
+        "uniques": ["Only available <in cities with a [Aerodrome]>","Only available <in cities with a [Hangar]>",
+        	"New [Fighter] units start with [30] Experience in this city","New [Bomber] units start with [30] Experience in this city"],
+        "requiredTech": "Advanced Flight"
+    },
+    {
+        "name": "Stadium",
+        "cost": 480,
+        "culture": 5,
+        "happiness": 3,
+        "maintenance": 3,
+        "uniques": ["Only available <if [Entertainment Complex] is constructed>","Only available <if [Zoo] is constructed>",
+        	"Only available <after adopting [Professional Sports]>"]
+    },
+    {
+        "name": "Aquatics Center",
+        "cost": 480,
+        "culture": 6,
+        "happiness": 4,
+        "maintenance": 3,
+        "uniques": ["Only available <if [Water Park] is constructed>","Only available <if [Aquarium] is constructed>",
+        	"Only available <after adopting [Professional Sports]>"]
+    },
+    {
+        "name": "Nuclear Power Plant",
+        "cost": 360,
+        "production": 10,
+        "science": 3,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 3,
+        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Factory]>"],
+        "requiredResource": "Uranium",
+        "requiredTech": "Nuclear Fission"
+    },
+    {
+        "name": "Manhattan Project",
+        "isNationalWonder": true,
+        "cost": 1000,
+        "uniques": ["Enables nuclear weapon"],
+        "requiredTech": "Nuclear Fission"
+    },
+
+    // Information Era
+
+
+
+    // Future Era
+
+
+]

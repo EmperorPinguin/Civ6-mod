@@ -1,0 +1,587 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
+	},
+
+	// Scout (Recon)
+	{
+		"name": "Ranger",
+		"uniques": ["Double movement in [terrainFilter]"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Alpine",
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Ranger","Alpine"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Guerrilla",
+		"prerequisites": ["Ranger","Alpine"],
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Spyglass",
+		"prerequisites": ["Sentry"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Ambush",
+		"prerequisites": ["Guerrilla"],
+		"uniques": ["[20]% Strength"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Camouflage",
+		"prerequisites": ["Spyglass","Ambush"],
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["Scout"]
+	},	
+
+	// Ranged
+	{
+		"name": "Volley",
+		"uniques": ["Bonus vs land units 17%"],
+		"unitTypes": ["Ranged"]
+	},
+	{
+		"name": "Garrison",
+		"uniques": ["[+33]% Strength <when defending>"],
+		"unitTypes": ["Ranged"]
+	},
+	{
+		"name": "Arrow Storm",
+		"prerequisites": ["Volley"],
+		"uniques": ["Bonus vs land units 25%","Bonus vs water units 25%"],
+		"unitTypes": ["Ranged"]
+	},
+	{
+		"name": "Incendiaries",
+		"prerequisites": ["Garrison"],
+		"uniques": ["Bonus vs City 25%"],
+		"unitTypes": ["Ranged"]
+	},
+	{
+		"name": "Suppression",
+		"prerequisites": ["Arrow Storm","Incendiaries"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ranged"]
+	},
+	{
+		"name": "Emplacement",
+		"prerequisites": ["Arrow Storm","Incendiaries"],
+		"uniques": ["Bonus vs City 33%"],
+		"unitTypes": ["Ranged"]
+	},
+	{
+		"name": "Expert Marksman",
+		"prerequisites": ["Suppression","Emplacement"],
+		"uniques": ["1 additional attack per turn"],
+		"unitTypes": ["Ranged"]
+	},
+
+	// Siege
+	{
+		"name": "Grape Shot",
+		"uniques": ["Bonus vs land units 25%"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Crew Weapons",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Shrapnel",
+		"prerequisites": ["Grape Shot"],
+		"uniques": ["Bonus vs land units 33%"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Shells",
+		"prerequisites": ["Crew Weapons"],
+		"uniques": ["Bonus vs City 33%"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Advanced Rangefinding",
+		"prerequisites": ["Shrapnel","Shells"],
+		"uniques": ["Bonus vs water units 33%"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Expert Crew",
+		"prerequisites": ["Shrapnel","Shells"],
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Forward Observers",
+		"prerequisites": ["Advanced Rangefinding","Expert Crew"],
+		"uniques": ["+1 Range"],
+		"unitTypes": ["Siege"]
+	},
+	
+	// Melee
+	{
+		"name": "Battlecry",
+		"uniques": ["Bonus vs Melee 25%","Bonus vs Ranged 25%"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Tortoise",
+		"uniques": ["[+33]% Strength <when defending>"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Commando",
+		"prerequisites": ["Battlecry","Amphibious"],
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Tortoise","Commando"],
+		"uniques": ["Amphibious"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Zweihander",
+		"prerequisites": ["Commando","Amphibious"],
+		"uniques": ["Bonus vs Armor 25%"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Urban Warfare",
+		"prerequisites": ["Commando","Amphibious"],
+		"uniques": ["+[30]% combat bonus in [Friendly Land]"],
+		"unitTypes": ["Melee"]
+	},
+	{
+		"name": "Elite Guard",
+		"prerequisites": ["Zweihander","Urban Warfare"],
+		"uniques": ["1 additional attack per turn","Can move after attacking"],
+		"unitTypes": ["Melee"]
+	},
+
+	// Warrior Monk
+	{
+		"name": "Shadow Strike",
+		"uniques": ["[10]% Strength"],
+	},
+	{
+		"name": "Exploding Palms",
+		"prerequisites": ["Shadow Strike"],
+		"uniques": ["[33]% Strength"],
+	},
+	{
+		"name": "Sweeping Wind",
+		"prerequisites": ["Exploding Palms"],
+		"uniques": ["1 additional attack per turn"],
+	},
+	{
+		"name": "Dancing Crane",
+		"prerequisites": ["Exploding Palms"],
+		"uniques": ["+1 Movement"],
+	},
+	{
+		"name": "Cobra Strike",
+		"prerequisites": ["Sweeping Wind", "Dancing Crane"],
+		"uniques": ["[50]% Strength"],
+	},
+
+	// Armor (Anti-Cavalry)
+	{
+		"name": "Echelon",
+		"uniques": ["Bonus vs Mounted 17%"],
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Thrust",
+		"uniques": ["Bonus vs Melee 33%"],
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Square",
+		"prerequisites": ["Echelon"],
+		"uniques": ["All healing effects doubled"],
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Schiltron",
+		"prerequisites": ["Thrust"],
+		"uniques": ["Bonus vs Melee 15%"],
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Redeploy",
+		"prerequisites": ["Square","Schiltron"],
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Choke Points",
+		"prerequisites": ["Square","Schiltron"],
+		"uniques": ["Bonus vs units in rough terrain 25%"],
+		"unitTypes": ["Armor"]
+	},
+	{
+		"name": "Hold the Line",
+		"prerequisites": ["Choke Points","Redeploy"],
+		"uniques": ["Bonus for units in 2 tile radius 15%"],
+		"unitTypes": ["Armor"]
+	},
+	
+	// Mounted
+	{
+		"name": "Charge",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Barding",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Marauding",
+		"prerequisites": ["Charge","Rout"],
+		"uniques": ["Bonus vs City 25%"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Rout",
+		"prerequisites": ["Barding","Marauding"],
+		"uniques": ["Bonus vs wounded units 17%"],
+		"unitTypes": ["Mounted"]
+	},	
+	{
+		"name": "Armor Piercing",
+		"prerequisites": ["Marauding","Rout"],
+		"uniques": ["Bonus vs Mounted 25%"],
+		"unitTypes": ["Mounted"]
+	},	
+	{
+		"name": "Reactive Armor",
+		"prerequisites": ["Rout"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Breakthrough",
+		"prerequisites": ["Armor Piercing","Reactive Armor"],
+		"uniques": ["1 additional attack per turn"],
+		"unitTypes": ["Mounted"]
+	},	
+
+	// Water ranged
+	{
+		"name": "Line of Battle",
+		"uniques": ["Bonus vs water units 25%"],
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Bombardment",
+		"uniques": ["Bonus vs City 25%"],
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Preparatory Fire",
+		"prerequisites": ["Line of Battle"],
+		"uniques": ["Bonus vs land units 25%"],
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Rolling Barrage",
+		"prerequisites": ["Bombardment"],
+		"uniques": ["Bonus vs City 33%"],
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Supply Fleet",
+		"prerequisites": ["Preparatory Fire","Rolling Barrage"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Proximity Fuses",
+		"prerequisites": ["Preparatory Fire","Rolling Barrage"],
+		"uniques": ["Bonus vs air units 25%"],
+		"unitTypes": ["WaterRanged"]
+	},
+	{
+		"name": "Coincidence Rangefinding",
+		"prerequisites": ["Supply Fleet","Proximity Fuses"],
+		"uniques": ["+1 Range"],
+		"unitTypes": ["WaterRanged"]
+	},
+
+	// Water melee
+	{
+		"name": "Helmsman",
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["WaterMelee"]
+	},
+	{
+		"name": "Embolon",
+		"uniques": ["Bonus vs water units 25%"],
+		"unitTypes": ["WaterMelee"]
+	},
+	{
+		"name": "Rutter",
+		"prerequisites": ["Helmsman"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["WaterMelee"]
+	},
+	
+	{
+		"name": "Reinforced Hull",
+		"prerequisites": ["Embolon"],
+		"uniques": ["25% Defence against ranged attacks"],
+		"unitTypes": ["WaterMelee"]
+	},
+	{
+		"name": "Convoy",
+		"prerequisites": ["Rutter","Reinforced Hull"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["WaterMelee"]
+	},
+	{
+		"name": "Auxillary Ships",
+		"prerequisites": ["Rutter","Reinforced Hull"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["WaterMelee"]
+	},
+	{
+		"name": "Creeping Attack",
+		"prerequisites": ["Convoy","Auxillary Ships"],
+		"uniques": ["Bonus vs water units 50%"],
+		"unitTypes": ["WaterMelee"]
+	},
+	
+	// Submarine
+	{
+		"name": "Loot",
+		"uniques": ["No movement cost to pillage"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Boarding",
+		"uniques": ["Bonus vs City 50%"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Swift Keel",
+		"prerequisites": ["Loot","Homing Torpedoes"],
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Homing Torpedoes",
+		"prerequisites": ["Boarding","Swift Keel"],
+		"uniques": ["Bonus vs water units 33%"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Observation",
+		"prerequisites": ["Swift Keel"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Silent Running",
+		"prerequisites": ["Homing Torpedoes"],
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+	{
+		"name": "Wolfpack",
+		"prerequisites": ["Observation","Silent Running"],
+		"uniques": ["1 additional attack per turn"],
+		"unitTypes": ["WaterSubmarine"]
+	},
+
+	// Aircraft Carrier
+	{
+		"name": "Flight Deck",
+		"uniques": ["Can carry 1 extra air unit"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	{
+		"name": "Scout Planes",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	{
+		"name": "Hangar Deck",
+		"prerequisites": ["Flight Deck","Advanced Engines"],
+		"uniques": ["Can carry 1 extra air unit"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	{
+		"name": "Advanced Engines",
+		"prerequisites": ["Scout Planes","Hangar Deck"],
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	{
+		"name": "Folding Wings",
+		"prerequisites": ["Hangar Deck","Deck Crews"],
+		"uniques": ["Can carry 1 extra air unit"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	{
+		"name": "Deck Crews",
+		"prerequisites": ["Advanced Engines","Folding Wings"],
+		"uniques": ["Heals [50] damage if it kills a unit"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+	{
+		"name": "Supercarrier",
+		"prerequisites": ["Deck Crews","Folding Wings"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["WaterAircraftCarrier"]
+	},
+
+	// Bomber
+	{
+		"name": "Box Formation",
+		"uniques": ["Bonus vs Fighter 25%"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Evasive Maneuvers",
+		"uniques": ["Bonus vs Melee 25%"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Torpedo Bomber",
+		"prerequisites": ["Box Formation","Evasive Maneuvers"],
+		"uniques": ["Bonus vs water units 57%"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Close Air Support",
+		"prerequisites": ["Box Formation","Evasive Maneuvers"],
+		"uniques": ["Bonus vs land units 40%"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Tactical Maintenance",
+		"prerequisites": ["Torpedo Bomber"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Long Range",
+		"prerequisites": ["Close Air Support"],
+		"uniques": ["+2 Range"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Superfortress",
+		"prerequisites": ["Tactical Maintenance","Long Range"],
+		"uniques": ["Reduces damage taken from interception by 50%"],
+		"unitTypes": ["Bomber"]
+	},
+	
+	// Fighter
+	{
+		"name": "Dogfighting",
+		"uniques": ["Bonus vs Fighter 25%"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Cockpit Armor",
+		"uniques": ["Bonus vs Melee 25%"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Interceptor",
+		"prerequisites": ["Dogfighting"],
+		"uniques": ["Bonus vs Bomber 25%"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Strafe",
+		"prerequisites": ["Cockpit Armor"],
+		"uniques": ["Bonus vs Melee 57%","Bonus vs Armor 57%"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Ground Crews",
+		"prerequisites": ["Interceptor"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Tank Buster",
+		"prerequisites": ["Strafe"],
+		"uniques": ["Bonus vs Mounted 57%"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Drop Tanks",
+		"prerequisites": ["Ground Crews","Tank Buster"],
+		"uniques": ["+2 Range"],
+		"unitTypes": ["Fighter"]
+	},
+
+	// Uniques
+	{
+		"name": "Taxis", // Byzantium
+		"uniques": ["[10]% Strength"]
+	},
+	{
+		"name": "Porphyrogennetos", // Byzantium
+		"uniques": ["Bonus vs City 33%"]
+	},
+	{
+		"name": "Mongol Horde", // Mongolia
+		"uniques": ["[15]% Strength"],
+	},
+	{
+		"name": "Ordu", // Mongolia
+		"uniques": ["+1 Movement"]
+	},
+	{
+		"name": "Ta-Seti", // Nubia
+		"uniques": ["[50]% XP gained from combat"]
+	},
+	{
+		"name": "Royal Navy Dockyard", // England
+		"uniques": ["+1 Movement"],
+		"unitTypes": ["WaterRanged","WaterSubmarine","WaterMelee","WaterAircraftCarrier"]
+	},
+	{
+		"name": "Martyr", //Khmer
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"]
+	},
+	{
+		"name": "Drone Air Defense", // GDR
+		"uniques": ["Bonus vs air units 333%"]
+	},
+	{
+		"name": "Particle Beam Siege Cannon", // GDR
+		"uniques": ["[100]% Strength","Bonus vs City 100%"]
+	},
+	{
+		"name": "Enhanced Mobility", // GDR
+		"uniques": ["+1 Movement","+1 Movement","+1 Movement"]
+	},
+	{
+		"name": "Reinforced Armor Plating", // GDR
+		"uniques": ["[+33]% Strength <when defending>"]
+	},
+
+]
