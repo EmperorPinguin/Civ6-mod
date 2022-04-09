@@ -1,0 +1,416 @@
+[		
+	// Bonus resources
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 2}
+	},
+	{
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Copper",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Crabs",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1,"gold": 1}
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"production": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1,"gold": 1}
+	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Lakes","Reef"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1,"gold": 1},
+	},
+	{
+		"name": "Maize",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Flood plains"],
+		"gold": 2,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	// Strategic resources
+	{
+		"name": "Horses",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 1,
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Bronze Working",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Niter",
+		"resourceType": "Strategic",
+		"revealedBy": "Military Engineering",
+		"terrainsCanBeFoundOn": ["Desert","Flood plains","Grassland","Plains","Tundra"],
+		"production": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+	},
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialization",
+		"terrainsCanBeFoundOn": ["Hill","Forest"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Steel",
+		"terrainsCanBeFoundOn": ["Marsh","Desert","Tundra","Snow","Coast","Lakes","Flood plains"],
+		"production": 2,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 3}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Radio",
+		"terrainsCanBeFoundOn": ["Desert","Plains","Jungle"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Combined Arms",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Grassland","Jungle"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+
+	// Luxury resources
+	{
+		"name": "Amber",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Coast"], 
+		"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"gold": 3,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 1}
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Jungle"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Cotton",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Flood plains"],
+		"gold": 3,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Diamonds",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Hill"],
+		"gold": 3,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Gypsum",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Hill"],
+		"gold": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Honey",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"culture": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+		"building": "Monastery"
+	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Forest","Jungle"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Jade",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains"],
+		"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Hill"],
+		"culture": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Mercury",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Olives",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
+		"culture": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra"],
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Silver",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Tundra"],
+		"gold": 3,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Flood plains","Marsh"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"science": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Tobacco",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland","Plains"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"gold": 3,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Turtles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Reef"],
+		"science": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Whales",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
+		"gold": 1,
+		"production": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Grassland","Plains"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	
+	// Ingame Mechanics
+	{
+		"name": "Trade Route",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	/*{
+		"name": "Power",
+		"resourceType": "Bonus",
+		"production": 1
+	},*/
+	{
+		"name": "Antiquity Site",
+		"resourceType": "Bonus",
+		"revealedBy": "Radio",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"improvement": "Archaeological Dig",
+		"improvementStats": {"culture": 7},
+	},
+	{
+		"name": "Shipwreck",
+		"resourceType": "Bonus",
+		"revealedBy": "Radio",
+		"terrainsCanBeFoundOn": ["Coast","Lakes","Ocean","Reef"],
+		"improvement": "Archaeological Dig",
+		"improvementStats": {"culture": 7},
+	}
+]
