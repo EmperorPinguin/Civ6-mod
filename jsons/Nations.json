@@ -273,7 +273,7 @@
 		"outerColor": [248,217,2],
 		"innerColor": [21,108,49],
 		"uniqueName": "Aksumite Legacy",
-		"uniques": ["+[20]% Strength if within [2] tiles of a [Hill]", "[+1 Culture] from every [Strategic Resource]","[+1 Culture] from each Trade Route"],
+		"uniques": ["[+20]% Strength <within [2] tiles of a [Hill]>", "[+1 Culture] from every [Strategic Resource]","[+1 Culture] from each Trade Route"],
 		"cities": ["Addis Ababa","Gondar","Harar","Axum","Adwa","Lalibela","Mekele","Dessie","Jimma","Sodo","Dire Dawa","Adigrat",
 			"Weldiya","Ankober","Alamata","Yirgalem","Gore","Negele Borana","Ginir","Debarq","Nejo","Debre Berhan",
 			"Abiy Addi","Mersa","Soqota","Sayint Ajebar","Chencha","Antalo","Yifat","Dabat","Debre Sina"]
@@ -294,7 +294,7 @@
 		"outerColor": [0,79,205],
 		"innerColor": [251,236,127],
 		"uniqueName": "Grand Tour",
-		"uniques": ["+[15]% Production when constructing [Wonders] buildings [in all cities]","[+3 Culture] from every [Wonder]"],
+		"uniques": ["[+15]% Production when constructing [Wonders] buildings [in all cities]","[+3 Culture] from every [Wonder]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -648,7 +648,7 @@
 	{
 		"name": "The Maori",
 		"leaderName": "Kupi",
-		"adjective": ["Māori"],
+		"adjective": ["M�?ori"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You choose death! Your people wail and moan! The pillars of your houses shake, all your lands are shaking!",
@@ -663,7 +663,7 @@
 		"uniqueName": "Mana",
 		"uniqueText": " Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. Unimproved Woods and Rainforests grant +2 Production. +1 Food from Fishing Boats. Great Artists cannot be earned.
 		",
-		"uniques": ["Starts with [Sailing]","Starts with [Shipbuilding]","Can embark and move over Coasts and Oceans immediately","Embarked units can defend themselves",
+		"uniques": ["Starts with [Sailing]","Starts with [Shipbuilding]","Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","Defense bonus when embarked <for [All] units>",
 			"[Great Artist] is earned [-100]% faster","[+1 Food] from every [Fishing Boats]","[+2 Production] from every [Forest]",
 			"[+2 Production] from every [Jungle]","[-2 Production] from every [Lumber Mill]"],
 		"cities": ["Te Hokianga-nui-a-kupe","Ngaruawahia","Opango","Whakarewarewa","Kaiapoi","Whanganui","Kawhia","Taumutu","Kapiti","Te Pokohiwi",
@@ -734,7 +734,7 @@
 		"uniqueName": "Örtöö",
 		"uniqueText": " All land units receive +10% Combat Strength when on a Road. Mounted units receive an additional +10% Combat Strength
 		"
-		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion","+[10]% Strength if within [1] tiles of a [Road]"],
+		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion","[+10]% Strength <within [1] tiles of a [Road]>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -895,7 +895,7 @@
 		"innerColor": [228,117,116],
 		"uniqueName": "Golden Liberty",
 		"uniques": ["[+2 Gold, +2 Culture] from every specialist [in all cities]","[+1 Culture] from every [Holy Site]"],
-		"cities": ["Kraków","Warsaw","Łódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+		"cities": ["Kraków","Warsaw","�?ódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
 			"Šiauliai","Wałbrzych","Zielona Góra","Włocławek"]		

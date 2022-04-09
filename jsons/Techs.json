@@ -239,7 +239,7 @@
 				"name": "Cartography",
 				"row": 2,
 				"prerequisites": ["Buttress"],
-				"uniques": ["Enables embarked units to enter ocean tiles"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"],
 				"quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' - John Quincy Adams"
 			},
 			{
