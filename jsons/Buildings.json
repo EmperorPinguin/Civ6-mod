@@ -13,7 +13,7 @@
         "isNationalWonder": true,
         "uniqueTo": "Australia",
         "cost": -1,
-        "uniques": ["Must be next to [Coast]","[5]% of food is carried over after population increases"
+        "uniques": ["Must be next to [Coast]","[5]% Food is carried over after population increases [in this city]"
             "Will not be displayed in Civilopedia","Unbuildable"]
     },
     {
@@ -31,7 +31,7 @@
         "cost": -1,
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
-        "uniques": ["Must be on [River]","+[50]% production when constructing [Buildings] [in this city]",
+        "uniques": ["Must be on [River]","[50]% Production when constructing [All] buildings [in this city]",
             "Will not be displayed in Civilopedia"]
     },
     {
@@ -60,14 +60,14 @@
 		"name": "City Center",
 		"isNationalWonder": true,
 		"cost": -1,
-        "cityStrength": 10,
-        "cityHealth": 100,
-        "uniques": ["Remove extra unhappiness from annexed cities"]
+		"cityStrength": 10,
+		"cityHealth": 100,
+		"uniques": ["Remove extra unhappiness from annexed cities"]
 	},
 	{
 		"name": "Campus",
 		"cost": 54,
-        "science": 2,
+		"science": 2,
 		"greatPersonPoints": {"science": 1},
 		"maintenance": 1,
 		"uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
@@ -157,7 +157,7 @@
         "culture": 3,
         "greatPersonPoints": {"culture": 1},
         "maintenance": 1,
-        "uniques": ["[+1 Culture] from every Wonder","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
         	"[+1 Culture] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
             "Requires [Drama and Poetry]"]
     },
@@ -168,7 +168,7 @@
         "culture": 3,
         "greatPersonPoints": {"culture": 1},
         "maintenance": 1,
-        "uniques": ["[+1 Culture] from every Wonder","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
         	"[+1 Culture] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
             "Requires [Drama and Poetry]","Will not be displayed in Civilopedia"]
     },
@@ -180,7 +180,7 @@
         "culture": 6,
         "greatPersonPoints": {"culture": 1},
         "maintenance": 1,
-        "uniques": ["[+1 Culture] from every Wonder","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
         	"[+1 Culture] from [Trade Route (International)] tiles in this city","[1] free [Envoy] units appear",
         	"Cost increases by [10] per owned city",
             "Requires [Drama and Poetry]"]
@@ -212,7 +212,7 @@
         "production": 2,
         "gold": 2,
         "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[5]% of food is carried over after population increases","+[25]% production when constructing [Military] units [in this city]",
+        	"[5]% Food is carried over after population increases [in this city]","[+25]% Production when constructing [Military] units [in this city]",
         	"Cost increases by [5] per owned city"],
         "requiredTech": "Bronze Working"
     },
@@ -245,8 +245,8 @@
         "gold": 3,
         "food": 1,
         "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","+[50]% production when constructing [Water] units [in this city]",
-        	"+[50]% production when constructing [Settler] units [in this city]","Connects trade routes over water","Must be next to [Coast]",
+        	"[+1 Gold] from [Water resource] tiles in this city","[+50]% Production when constructing [Water] units [in this city]",
+        	"[+50]% Production when constructing [Settler] units [in this city]","Connects trade routes over water","Must be next to [Coast]",
         "Cost increases by [5] per owned city"],
         "requiredTech": "Celestial Navigation"
     },
@@ -388,7 +388,7 @@
     {
         "name": "Neighborhood",
         "cost": 54,
-        "uniques": ["[10]% of food is carried over after population increases",
+        "uniques": ["[10]% Food is carried over after population increases [in this city]",
             "Cost increases by [10] per owned city","Requires [Urbanization]"]
     },
     {
@@ -398,7 +398,7 @@
         "cost": 27,
         "food": 2,
         "gold": 4,
-        "uniques": ["[15]% of food is carried over after population increases",
+        "uniques": ["[15]% Food is carried over after population increases [in this city]",
             "Cost increases by [5] per owned city","Requires [Guilds]"]
     },
     {
@@ -455,7 +455,7 @@
         "cost": 180,
         "happiness": 1,
         "requiredTech": "Pottery",
-        "uniques": ["[+1 Culture] from [Flood plains] tiles in this city","[10]% of food is carried over after population increases",
+        "uniques": ["[+1 Culture] from [Flood plains] tiles in this city","[10]% Food is carried over after population increases [in this city]",
             "Must have an owned [Flood plains] within [3] tiles"],
         "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
     },
@@ -473,7 +473,7 @@
         "name": "Hanging Gardens",
         "isWonder": true,
         "cost": 180,
-        "uniques": ["+[15]% growth in all cities","[10]% of food is carried over after population increases","Must be on [River]"],
+        "uniques": ["+[15]% growth in all cities","[10]% Food is carried over after population increases [in this city]","Must be on [River]"],
         "requiredTech": "Irrigation",
         "quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose, are continually employed in raising water from the Euphrates into the garden.' –Strabo"
     },
@@ -485,7 +485,7 @@
         "requiredNearbyImprovedResources": ["Deer","Furs","Honey","Ivory","Truffles"],
         "requiredTech": "Archery",
         "uniques": ["[+1 Happiness] from [Camp] tiles in this city","[+1 Happiness] from [Pasture] tiles in this city",
-            "[+1 Happiness] from [Plantation] tiles in this city","[10]% of food is carried over after population increases"],
+            "[+1 Happiness] from [Plantation] tiles in this city","[10]% Food is carried over after population increases [in this city]"],
         "quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.' –Antipater of Sidon"
     },
     {
@@ -595,7 +595,7 @@
         "cost": 400,
         "gold": 3,
         "uniques": ["[3] free [Archer] units appear","[3] free [Spearman] units appear",
-            "+[50]% Production when constructing [Armor] units [in all cities]","Requires [Military Training]"],
+            "[+50]% Production when constructing [Armor] units [in all cities]","Requires [Military Training]"],
         "quote": "'Upon the head of the god was an olive crown; in his right hand he bore a winged figure of Victory.' –Samuel Augustus Mitchell"
     },
     {
@@ -614,7 +614,7 @@
         "isWonder": true,
         "cost": 710,
         "happiness": 2,
-        "uniques": ["Defensive buildings in all cities are 25% more effective","Free Social Policy","Must be on [Hill]"],
+        "uniques": ["[+25]% City Strength from defensive buildings","Free Social Policy","Must be on [Hill]"],
         "requiredTech": "Castles",
         "quote": "'Everything here appears calculated to inspire kind and happy feelings, for everything is delicate and beautiful.' –Washington Irving"
     },
@@ -734,7 +734,7 @@
         "isWonder": true,
         "cost": 920,
         "greatPersonPoints": {"production": 2},
-        "uniques": ["+[100]% production when constructing [Water] units [in all cities]","Must be next to [Coast]",
+        "uniques": ["[+100]% Production when constructing [Water] units [in all cities]","Must be next to [Coast]",
         	"Requires a [Industrial Zone] in this city"],
         "requiredTech": "Mass Production",
         "quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' –Robert Burton"
@@ -867,7 +867,7 @@
         "cost": 1740,
         "percentStatBonus": {"science": 20, "production": 10},
         "greatPersonPoints": {"science": 5},
-        "uniques": ["+[20]% [Science] from every [City Center]","+[10]% [Production] from every [City Center]","Must be on [Snow]",
+        "uniques": ["[+20]% [Science] from every [City Center]","[+10]% [Production] from every [City Center]","Must be on [Snow]",
             "Requires [Rapid Deployment]"],
         "quote": "'For scientific leadership, give me Scott; for swift and efficient travel, Amundsen.' –Sir Raymond Priestley"
     },
@@ -910,7 +910,7 @@
         "name": "Granary",
         "cost": 65, 
         "food": 1,
-        "uniques": ["[5]% of food is carried over after population increases"],
+        "uniques": ["[5]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Pottery"
     },
     {
@@ -928,7 +928,7 @@
         "cost": 70,
         "culture": 1,
         "maintenance": 1,
-        "uniques": ["Requires a [Holy Site] in this city","[5]% of food is carried over after population increases"],
+        "uniques": ["Requires a [Holy Site] in this city","[5]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Astrology"
     },
     {
@@ -1031,7 +1031,7 @@
         "food": 1,
         "uniques": ["Requires a [Harbor] in this city","New [Water] units start with [15] Experience in this city",
         	"[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Lake] tiles in this city",
-        	"Provides [1] [Trade Route]","[10]% of food is carried over after population increases"],
+        	"Provides [1] [Trade Route]","[10]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -1080,7 +1080,7 @@
         "cost": 81,
         "happiness": 1,
         "maintenance": 1,
-        "uniques": ["[10]% of food is carried over after population increases",
+        "uniques": ["[10]% Food is carried over after population increases [in this city]",
             "Must be next to [Flood plains]"],
         "requiredTech": "Buttress"
     },
@@ -1090,7 +1090,7 @@
         "maintenance": 1,
         "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
             "[+2 Production] from [Terrace Farm] tiles in this city",
-            "[10]% of food is carried over after population increases",
+            "[10]% Food is carried over after population increases [in this city]",
             "Cost increases by [10] per owned city"],
         "requiredTech": "Engineering"
     },
@@ -1102,7 +1102,7 @@
         "happiness": 1,
         "maintenance": 1,
         "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
-            "[15]% of food is carried over after population increases","Cost increases by [5] per owned city"],
+            "[15]% Food is carried over after population increases [in this city]","Cost increases by [5] per owned city"],
         "requiredTech": "Engineering"
     },
     {
@@ -1222,7 +1222,7 @@
         "specialistSlots": {"Artist": 1},
         "greatPersonPoints": {"culture": 2},
         "maintenance": 2,
-        "uniques": ["Not displayed as an available construction without [Amphitheater]","Requrires a [Theater Square] in this city",
+        "uniques": ["Not displayed as an available construction without [Amphitheater]","Requires a [Theater Square] in this city",
         	"Requires [Humanism]"],
     },
     {
@@ -1280,7 +1280,7 @@
         "greatPersonPoints": {"production": 1},
         "maintenance": 2,
         "uniques": ["Requires a [Industrial Zone] in this city","Requires a [Workshop] in this city",
-        	"[+4 Culture] once [Electricity] is discovered"],
+        	"[+4 Culture] <after discovering [Electricity]>"],
         "requiredTech": "Industrialization"
     },
     {
@@ -1290,14 +1290,14 @@
         "specialistSlots": {"Commander": 1},
         "maintenance": 2,
         "uniques": ["Requires a [Encampment] in this city","Requires a [Armory] in this city",
-        	"New [non-air] units start with [15] Experience in this city","[5]% of food is carried over after population increases"],
+        	"New [non-air] units start with [15] Experience in this city","[5]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Military Science"
     }, 
     {
         "name": "Sewer",
         "cost": 200, 
         "maintenance": 2,
-        "uniques": ["[10]% of food is carried over after population increases"],
+        "uniques": ["[10]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Sanitation"
     },
     {
@@ -1375,7 +1375,7 @@
         "maintenance": 2,
         "uniques": ["Requires a [Harbor] in this city","Requires a [Shipyard] in this city",
         	"New [Water] units start with [15] Experience in this city","[+2 Gold] from [Coast] tiles in this city",
-        	"[5]% of food is carried over after population increases"],
+        	"[5]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Electricity"
     },
     {
@@ -1493,31 +1493,9 @@
 
     // Information Era
 
-    {
-        "name": "SS Booster",
-        "cost": 1500,
-        "requiredTech": "Satellites",
-        "uniques": ["Spaceship part","Cannot be purchased"]
-    },
-    {
-        "name": "SS Cockpit",
-        "cost": 1800,
-        "requiredTech": "Robotics",
-        "uniques": ["Spaceship part","Cannot be purchased"]
-    },
-    {
-        "name": "SS Stasis Chamber",
-        "cost": 1800,
-        "requiredTech": "Nanotechnology",
-        "uniques": ["Spaceship part","Cannot be purchased"]
-    }
+
 
     // Future Era
 
-    {
-        "name": "SS Engine",
-        "cost": 2100,
-        "requiredTech": "Offworld Mission",
-        "uniques": ["Spaceship part","Cannot be purchased"]
-    }
+
 ]

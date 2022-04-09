@@ -27,7 +27,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build improvements on tiles","May create improvements on water resources"],
+		"uniques": ["Can build [Land] improvements on tiles","May create improvements on water resources"],
 		"cost": 100
 	},
 	{
@@ -35,14 +35,14 @@
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["Can build improvements on tiles","May create improvements on water resources"]
+		"uniques": ["Can build [Land] improvements on tiles","May create improvements on water resources"]
 	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 120,
-		"uniques": ["+1 Visibility Range","Founds a new city"]
+		"uniques": ["[+1] Sight","Founds a new city"]
 	},
 	{
 		"name": "Trader",
@@ -110,7 +110,7 @@
 		"cost": 60,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Musketman",
-		"uniques": ["+[33]% Combat Strength","Bonus vs City 15%","Bonus vs Armor 33%"],
+		"uniques": ["[33]% Strength","Bonus vs City 15%","Bonus vs Armor 33%"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -176,7 +176,7 @@
 		"strength": 30,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -190,7 +190,7 @@
 		"strength": 35,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Double movement in coast","Cannot enter ocean tiles until Astronomy"],
+		"uniques": ["Double movement in [Coast]","Cannot enter ocean tiles <before discovering [Astronomy]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -204,7 +204,7 @@
 		"strength": 35,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -316,7 +316,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["+1 Visibility Range","Double movement rate through Forest and Jungle",
+		"uniques": ["[+1] Sight","Double movement in [terrainFilter]",
 			"+33% Defence against ranged attacks","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
@@ -417,7 +417,7 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Tank",
-		"uniques": ["+1 Visibility Range","-10% combat strength for adjacent enemy units"],
+		"uniques": ["[+1] Sight","-10% combat strength for adjacent enemy units"],
 		"attackSound": "horse"
 	},
 	{
@@ -430,7 +430,7 @@
 		"requiredTech": "Engineering",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bombard",
-		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
@@ -444,7 +444,7 @@
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles until Astronomy"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -461,7 +461,7 @@
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
 		"uniques": ["Bonus vs land units 33%","Bonus vs water units 33%",
-			"Cannot enter ocean tiles until Astronomy"],
+			"Cannot enter ocean tiles <before discovering [Astronomy]>"],
 		"attackSound": "arrow"
 	},
 
@@ -508,7 +508,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["+[33]% Strength when attacking","No movement cost to pillage","Bonus vs Armor 33%"],
+		"uniques": ["[+33]% Strength <when attacking>","No movement cost to pillage","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -578,7 +578,7 @@
 		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Artillery",
-		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%"]
+		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%"]
 	},
 	{
 		"name": "Pikeman",
@@ -603,7 +603,7 @@
 		"requiredTech": "Military Tactics",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pike and Shot",
-		"uniques": ["Bonus vs wounded units 20%","50% Bonus XP gain","Bonus vs Mounted 33%"],
+		"uniques": ["Bonus vs wounded units 20%","[50]% XP gained from combat","Bonus vs Mounted 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -630,7 +630,7 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Double movement in Snow, Tundra and Hills","+1 Visibility Range"],
+		"uniques": ["Double movement in [terrainFilter]","[+1] Sight"],
 		"attackSound": "horse"
 	},
 	{
@@ -714,7 +714,7 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["+[15]% Strength when attacking","Requires [Mercenaries]"],
+		"uniques": ["[+15]% Strength <when attacking>","Requires [Mercenaries]"],
 		"attackSound": "horse"
 	},
 	{
@@ -772,7 +772,7 @@
 		"requiredTech": "Cartography",
 		"obsoleteTech": "Steam Power",
 		"upgradesTo": "Ironclad",
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -812,7 +812,7 @@
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Iron",
 		"upgradesTo": "Helicopter",
-		"uniques": ["No movement cost to pillage","+[15]% Strength when attacking"],
+		"uniques": ["No movement cost to pillage","[+15]% Strength <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -925,7 +925,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Niter",
 		"upgradesTo": "Artillery",
-		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -977,7 +977,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Destroyer",
 		"requiredResource": "Coal",
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1005,7 +1005,7 @@
 		"requiredTech": "Sanitation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Supply Convoy",
-		"uniques": ["Heal adjacent units for an additional 15 HP per turn"],
+		"uniques": ["All adjacent units heal [+15] HP when healing"],
 	},
 	{
 		"name": "Ranger",
@@ -1154,7 +1154,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 240,
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 	},*/
 	{
 		"name": "Biplane",
@@ -1169,7 +1169,7 @@
 		"obsoleteTech": "Advanced Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
-		"uniques": ["[100]% chance to intercept air attacks","+2 Visibility Range","Requires [Aerodrome]"],
+		"uniques": ["[100]% chance to intercept air attacks","[+2] Sight","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1210,7 +1210,7 @@
 		"obsoleteTech": "Guidance Systems",
 		"requiredResource": "Oil",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -1256,7 +1256,7 @@
 		"obsoleteTech": "Telecommunications",
 		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["+[33]% combat bonus in [Ocean]","+2 Visibility Range","Invisible to others","Can attack submarines"],
+		"uniques": ["+[33]% combat bonus in [Ocean]","[+2] Sight","Invisible to others","Can attack submarines"],
 		"attackSound": "shot"
 	},
 	{
@@ -1310,7 +1310,7 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks","+2 Visibility Range","Requires [Aerodrome]"],
+		"uniques": ["[100]% chance to intercept air attacks","[+2] Sight","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1328,8 +1328,8 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["50% Bonus XP gain","Bonus vs Fighter 10%","[100]% chance to intercept air attacks",
-			"+2 Visibility Range","Requires [Aerodrome]"],
+		"uniques": ["[50]% XP gained from combat","Bonus vs Fighter 10%","[100]% chance to intercept air attacks",
+			"[+2] Sight","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1344,7 +1344,7 @@
 		"obsoleteTech": "Stealth Technology",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Bomber",
-		"uniques": ["+2 Visibility Range","Requires [Aerodrome]"],
+		"uniques": ["[+2] Sight","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1366,7 +1366,7 @@
 		"movement": 4,
 		"cost": 450,
 		"requiredTech": "Combustion",
-		"uniques": ["Heal adjacent units for an additional 15 HP per turn","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
+		"uniques": ["All adjacent units heal [+15] HP when healing","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
 	},
 	{
 		"name": "Machine Gun",
@@ -1410,7 +1410,7 @@
 		"cost": 540,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"uniques": ["Can attack submarines","[100]% chance to intercept air attacks","Bonus vs air units 12%","+1 Visibility Range"],
+		"uniques": ["Can attack submarines","[100]% chance to intercept air attacks","Bonus vs air units 12%","[+1] Sight"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1421,7 +1421,7 @@
 		"cost": 600,
 		"requiredTech": "Synthetic Materials",
 		"requiredResource": "Aluminum",
-		"uniques": ["+1 Visibility Range","All tiles costs 1"],
+		"uniques": ["[+1] Sight","All tiles costs 1"],
 		"attackSound": "machinegun"
 	},
 
@@ -1460,7 +1460,7 @@
 		"cost": 680,
 		"requiredTech": "Guidance Systems",
 		"requiredResource": "Oil",
-		"uniques": ["+1 Visibility Range","+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["[+1] Sight","[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -1600,48 +1600,5 @@
 		"unitType": "Civilian",
 		"uniques": ["Bonus for units in 2 tile radius 15%","Great Person - [War]", "Unbuildable"],
 		"movement": 4
-	},
-
-	/* Spaceship Parts */
-
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 1500,
-		"requiredTech": "Satellites",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 1800,
-		"requiredTech": "Robotics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 1800,
-		"requiredTech": "Nanotechnology",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 2100,
-		"requiredTech": "Offworld Mission",
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	}
 ]
-
