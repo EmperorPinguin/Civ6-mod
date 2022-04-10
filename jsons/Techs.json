@@ -239,7 +239,7 @@
 				"name": "Cartography",
 				"row": 2,
 				"prerequisites": ["Buttress"],
-				"uniques": ["Enables embarked units to enter ocean tiles"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"],
 				"quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' - John Quincy Adams"
 			},
 			{
@@ -259,7 +259,7 @@
 				"name": "Banking",
 				"cost": 540,
 				"row": 5,
-				"prerequisites": ["Education","Apprenticeship","Stirrups"],
+				"prerequisites": ["Education","Stirrups"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
@@ -350,7 +350,7 @@
 				"name": "Steam Power",
 				"row": 2,
 				"prerequisites": ["Industrialization"],
-				"uniques": ["Increases embarked movement +1"], 
+				"uniques": ["[+1] Movement <for [Embarked] units>"], 
 				"quote": "'It is arguable whether the human race have been gainers by the march of science beyond the steam engine.' - Winston Churchill"
 			},
 			{
@@ -438,8 +438,8 @@
 				"name": "Combustion",
 				"cost": 1250,
 				"row": 7,
-				"prerequisites": ["Refining","Steel","Rifling"],
-				"uniques": ["Increases embarked movement +1"],
+				"prerequisites": ["Refining","Steel"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'The cars haven't advanced that much since we were kids. When you boil it down, it's still a gas combustion engine.' - Dana Brunetti"
 			}
 		]	

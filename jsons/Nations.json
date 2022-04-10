@@ -6,8 +6,8 @@
 //		"innerColor": [255,255,255]
 	},
 
+// Nations
 	{
-		//nations
 		"name": "America",
 		"leaderName": "Teddy Roosevelt",
 		"adjective": ["American"],
@@ -23,7 +23,7 @@
 		"outerColor": [0,79,205],
 		"innerColor": [243,245,249],
 		"uniqueName": "Founding Fathers",
-		"uniques": ["Culture cost of adopting new Policies reduced by 10%","Provides 1 happiness per 2 additional social policies adopted"],
+		"uniques": ["[-10]% Culture cost of adopting new Policies","Provides 1 happiness per 2 additional social policies adopted"],
 		"cities": ["Washington","New York","Philadelphia","Boston","Baltimore","Charleston","New Orleans","Cincinnati","Los Angeles","St. Louis",
 			"Chicago","Buffalo","San Francisco","Cleveland","Detroit","Houston","Atlanta","Dallas","San Diego","Phoenix",
 			"San Antonio","San Jose","Seattle","Portland","Miami","Denver","Jacksonville","Kansas City","Richmond","Pittsburgh",
@@ -184,8 +184,8 @@
 		"outerColor": [21,108,49],
 		"innerColor": [255,255,255],
 		"uniqueName": "Dynastic Cycle",
-		"uniques": ["+[10]% Production when constructing [Wonders] [in all cities]","+[10]% [Science] from every [Palace]",
-			"+[10]% [Culture] from every [Palace]"],
+		"uniques": ["[10]% Production when constructing [Wonders] buildings [in all cities]","[+10]% [Science] from every [Palace]",
+			"[+10]% [Culture] from every [Palace]"],
 		"cities": ["Xi'an","Beijing","Taiyuan","Chengdu","Jiaodong","Changsha","Longxi","Guangzhou","Handan","Shenyang",
 			"Shanghai","Wuhan","Xiurong","Chen","Xingzhou","Quxian","Nanjing","Langfang","Linzi","Jiujiang",
 			"Kaifeng","Xuzhou","Hefei","Xinzheng","Lu’an","Qufu","Jiangzhou","Luoyang","Yinchuan"]
@@ -226,7 +226,7 @@
 		"outerColor": [2,79,80],
 		"innerColor": [251,236,127],
 		"uniqueName": "Iteru",
-		"uniques": ["+[15]% Production when constructing [Wonders] [in all cities]","+[10]% Production when constructing [Buildings] [in all cities]"],
+		"uniques": ["[15]% Production when constructing [Wonders] buildings [in all cities]","[10]% Production when constructing [Buildings] buildings [in all cities]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -250,7 +250,7 @@
 		"outerColor": [205,0,1],
 		"innerColor": [255,255,255],
 		"uniqueName": "British Museum",
-		"uniques": ["+[100]% [Culture] from every [Art Museum]"],
+		"uniques": ["[+100]% [Culture] from every [Art Museum]"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -273,7 +273,7 @@
 		"outerColor": [248,217,2],
 		"innerColor": [21,108,49],
 		"uniqueName": "Aksumite Legacy",
-		"uniques": ["+[20]% Strength if within [2] tiles of a [Hill]", "[+1 Culture] from every [Strategic Resource]","[+1 Culture] from each Trade Route"],
+		"uniques": ["[+20]% Strength <within [2] tiles of a [Hill]>", "[+1 Culture] from every [Strategic Resource]","[+1 Culture] from each Trade Route"],
 		"cities": ["Addis Ababa","Gondar","Harar","Axum","Adwa","Lalibela","Mekele","Dessie","Jimma","Sodo","Dire Dawa","Adigrat",
 			"Weldiya","Ankober","Alamata","Yirgalem","Gore","Negele Borana","Ginir","Debarq","Nejo","Debre Berhan",
 			"Abiy Addi","Mersa","Soqota","Sayint Ajebar","Chencha","Antalo","Yifat","Dabat","Debre Sina"]
@@ -294,7 +294,7 @@
 		"outerColor": [0,79,205],
 		"innerColor": [251,236,127],
 		"uniqueName": "Grand Tour",
-		"uniques": ["+[15]% Production when constructing [Wonders] [in all cities]","[+3 Culture] from every Wonder"],
+		"uniques": ["[+15]% Production when constructing [Wonders] buildings [in all cities]","[+3 Culture] from every [Wonder]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -340,9 +340,9 @@
 		"uniqueName": "Strength in Unity",
 		"uniqueText": " +50% Production when constructing Walls in all cities, +1 Movement for all units during Golden Age, +10% Strength for all units during Golden Age
 		",
-		"uniques": ["+[50]% Production when constructing [Ancient Walls] [in all cities]","+[50]% Production when constructing [Medieval Walls] [in all cities]",
-			"+[50]% Production when constructing [Renaissance Walls] [in all cities]","+1 Movement for all units during Golden Age",
-			"+10% Strength for all units during Golden Age"],
+		"uniques": ["[50]% Production when constructing [Ancient Walls] buildings [in all cities]","[50]% Production when constructing [Medieval Walls] buildings [in all cities]",
+			"[50]% Production when constructing [Renaissance Walls] buildings [in all cities]","[+1] Movement <for [All] units> <during a Golden Age>",
+			"[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Tbilisi","Kaspi","Rustavi","Tskhumi","Akhalkalaki","Kutaisi","Zugdidi","Batumi","Gori","Mtskheta","Poti",
 			"Telavi","Akhali Atoni","Akhaltsikhe","Bichvinta","Borjomi","Dedoplistsqaro","Dmanisi","Geguti","Mutso","Nicopsia","Omalo",
 			"Oni","Tianeti","Tmogvi","Tsageri","Amasya","Tsalka","Tskhinvali","Urbnisi","Zestafoni"]
@@ -388,10 +388,8 @@
 		"outerColor": [1,42,108],
 		"innerColor": [245,217,0],
 		"uniqueName": "Ejército Patriota",
-		"uniqueText": " +2 Movement for all land units
-		",
-		"uniques": ["+[2] Movement for all [non-air] units"],
-		"cities": ["Bogotá","Quito","Valencia De Carabobo","Cali","Cumaná","Maracaibo","Medellín","Guayaquil","Panamá","Caracas",
+		"uniques": ["[+2] Movement <for [non-air] units>"],
+		"cities": ["Bogotá","Caracas","Quito","Valencia De Carabobo","Cali","Medellín","Maracaibo","Cumaná","Guayaquil","Panamá",
 			"Cartagena de Indias","Popayán","Cuenca","Barinas","Santa Marta","Loja","Angostura","Pasto","Nueva Barcelona","Neiva",
 			"Mérida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibdó","Nueva Pamplona","Santiago de Veraguas","La Asunción","Achaguas",
 			"Honda","Socorro","Mompós","Trujillo","Santa Fe de Antioquia","Pore","Cúcuta","Mariquita","San Fernando de Apure","Barquisimeto"]
@@ -641,7 +639,7 @@
 		"uniqueName": "Songs of the Jeli",
 		"uniqueText": " -30% Production when constructing Buildings and Military Units in all cities, +1 Food, +1 Culture, +1 Gold from every Desert, -1 Production, +4 Gold from every Mine
 		",
-		"uniques": ["+[-30]% Production when constructing [Buildings] [in all cities]","+[-30]% Production when constructing [Military] units [in all cities]",
+		"uniques": ["[-30]% Production when constructing [Buildings] buildings [in all cities]","[-30]% Production when constructing [Military] units [in all cities]",
 			"[+1 Food, +1 Culture, +1 Gold] from every [Desert]","[-1 Production, +4 Gold] from every [Mine]"],
 		"cities": ["Niani","Timbuktu","Jenne","Gao","Kumbi Saleh","Walata","Tawdenni","Tadmekka","Awdaghust","Kirina",
 			"Segu","Nioro","Kangaba","Kouroussa","Niagassola","Diara","Kayes","N'teret","Dia","Arawan",
@@ -650,7 +648,7 @@
 	{
 		"name": "The Maori",
 		"leaderName": "Kupi",
-		"adjective": ["Māori"],
+		"adjective": ["M�?ori"],
 		"startBias": ["Coast"],
 
 		"declaringWar": "You choose death! Your people wail and moan! The pillars of your houses shake, all your lands are shaking!",
@@ -665,7 +663,7 @@
 		"uniqueName": "Mana",
 		"uniqueText": " Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. Unimproved Woods and Rainforests grant +2 Production. +1 Food from Fishing Boats. Great Artists cannot be earned.
 		",
-		"uniques": ["Starts with [Sailing]","Starts with [Shipbuilding]","Can embark and move over Coasts and Oceans immediately","Embarked units can defend themselves",
+		"uniques": ["Starts with [Sailing]","Starts with [Shipbuilding]","Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","Defense bonus when embarked <for [All] units>",
 			"[Great Artist] is earned [-100]% faster","[+1 Food] from every [Fishing Boats]","[+2 Production] from every [Forest]",
 			"[+2 Production] from every [Jungle]","[-2 Production] from every [Lumber Mill]"],
 		"cities": ["Te Hokianga-nui-a-kupe","Ngaruawahia","Opango","Whakarewarewa","Kaiapoi","Whanganui","Kawhia","Taumutu","Kapiti","Te Pokohiwi",
@@ -689,7 +687,7 @@
 		"outerColor": [0,79,205],
 		"innerColor": [117,163,243],
 		"uniqueName": "Toqui",
-		"uniques": ["[Military] units gain [50]% more Experience from combat","+10% Strength for all units during Golden Age"],
+		"uniques": ["[50]% XP gained from combat <for [Military] units>","[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Ngulu Mapu","Puel Mapu","Pikun Mapu","Nag Mapu","Willi Mapu","Pewen Mapu","Wente Mapu","Huilli Mapu","Lafken Mapu","Ina Pire Mapu","Mamull Mapu",
 			"Rangkul Mapu","Chadi Mapu","Pehuen Mapu","Puel Willi Mapu","Bafkeh Mapu","Peni Mapu","Boroa Mapu","Lelfun Mapu","Kallfu Mapu","Chol Chol Mapu","Makewe Mapu",
 			"Forowe Mapu","Warria Mapu","Tehuel Mapu","Kunko Mapu","Molu Mapu","Rani Mapu","Xuf Xuf Mapu","Fudi Mapu"]
@@ -736,7 +734,7 @@
 		"uniqueName": "Örtöö",
 		"uniqueText": " All land units receive +10% Combat Strength when on a Road. Mounted units receive an additional +10% Combat Strength
 		"
-		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion","+[10]% Strength if within [1] tiles of a [Road]"],
+		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion","[+10]% Strength <within [1] tiles of a [Road]>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -759,7 +757,7 @@
 		"outerColor": [43,51,128],
 		"innerColor": [233,45,24],
 		"uniqueName": "Knarr",
-		"uniques": ["+[50]% Production when constructing [Water] units [in all cities]","Units pay only 1 movement point to embark and disembark"],
+		"uniques": ["[+50]% Production when constructing [Water] units [in all cities]","Units pay only 1 movement point to embark and disembark"],
 		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
 			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
 			"Skien","Sogndal","Stange","Stavanger","Stiklestad","Tjøtta","Tromsø","Verdal","Vinland","Alesund"]
@@ -805,7 +803,7 @@
 		"uniqueName": "Ta-Seti",
 		"uniqueText": " Ranged units gain +50% combat experience, +50% Production when constructing Ranged units in all cities, +1 Production, +2 Gold from every Strategic resource
 		",
-		"uniques": ["[Ranged] units gain the [Ta-Seti] promotion","+[50]% Production when constructing [Ranged] units [in all cities]","[+1 Production, +2 Gold] from every [Strategic resource]"],
+		"uniques": ["[Ranged] units gain the [Ta-Seti] promotion","[+50]% Production when constructing [Ranged] units [in all cities]","[+1 Production, +2 Gold] from every [Strategic resource]"],
 		"cities": ["Kerma","Napata","Nuri","El-Kurru","Kawa","Sedeinga","Heh","Qasr Ibrim","Faras","Shaat",
 			"Iken","Abu Simbel","Buhen","Dengeil","Miam","Tombos","Kurgus","Toshka","Soleb","Wad ban Naqa",
 			"Debba","Bugdumbush","Baki","Amara","Musawwarat es-Sufra","El Fura","Ukma","Pedeme","Defeia"]		
@@ -826,7 +824,7 @@
 		"outerColor": [249,249,249],
 		"innerColor": [10,105,36],
 		"uniqueName": "Great Turkish Bombard",
-		"uniques": ["+[50]% Production when constructing [Siege] units [in all cities]"],
+		"uniques": ["[+50]% Production when constructing [Siege] units [in all cities]"],
 		//Unique building for Annexed cities (+1 :D & +1 Culture), Courthouses dont exist anymore
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyabakir","Izmir","Kayseri","Malatya",
 			"Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Artuin",
@@ -849,7 +847,7 @@
 		"outerColor": [183,128,231],
 		"innerColor": [205,0,1],
 		"uniqueName": "Sartrapies",
-		"uniques": ["[+2 Gold, +1 Culture] from each Trade Route","+1 Movement for all units during Golden Age"],
+		"uniques": ["[+2 Gold, +1 Culture] from each Trade Route","[+1] Movement <for [All] units> <during a Golden Age>"],
 		"cities": ["Parsagadae","Persepolis","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -874,7 +872,7 @@
 		"outerColor": [109,0,205],
 		"innerColor": [117,163,243],
 		"uniqueName": "Founder of Carthage",
-		"uniques": ["+[2] Movement for all [Civilian] units","+1 Sight when embarked","Units pay only 1 movement point to embark and disembark"],
+		"uniques": ["[+2] Movement <for [Civilian] units>","+1 Sight when embarked","Units pay only 1 movement point to embark and disembark"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -896,8 +894,8 @@
 		"outerColor": [121,0,2],
 		"innerColor": [228,117,116],
 		"uniqueName": "Golden Liberty",
-		"uniques": ["[+2 Gold, +2 Culture] from every specialist","[+1 Culture] from every [Holy Site]"],
-		"cities": ["Kraków","Warsaw","Łódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+		"uniques": ["[+2 Gold, +2 Culture] from every specialist [in all cities]","[+1 Culture] from every [Holy Site]"],
+		"cities": ["Kraków","Warsaw","�?ódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
 			"Šiauliai","Wałbrzych","Zielona Góra","Włocławek"]		
@@ -986,7 +984,7 @@
 		"outerColor": [254,178,60],
 		"innerColor": [121,0,2],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["+[100]% production when constructing [Mounted] units [in all cities]"],
+		"uniques": ["[+100]% Production when constructing [Mounted] units [in all cities]"],
 		"cities": ["Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop",
 			"Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov",
 			"Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
@@ -1073,7 +1071,7 @@
 		"outerColor": [120,62,2],
 		"innerColor": [255,255,255],
 		"uniqueName": "Isibongo",
-		"uniques": ["-33% unit upkeep costs","[+3 Happiness] in all cities with a garrison"],
+		"uniques": ["[-33]% maintenance costs <for [All] units>","[+3 Happiness] in all cities with a garrison"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",

@@ -9,7 +9,7 @@
 	// Scout (Recon)
 	{
 		"name": "Ranger",
-		"uniques": ["Double movement rate through Forest and Jungle"],
+		"uniques": ["Double movement in [terrainFilter]"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -20,7 +20,7 @@
 	{
 		"name": "Sentry",
 		"prerequisites": ["Ranger","Alpine"],
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -32,13 +32,13 @@
 	{
 		"name": "Spyglass",
 		"prerequisites": ["Sentry"],
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Ambush",
 		"prerequisites": ["Guerrilla"],
-		"uniques": ["+[20]% Combat Strength"],
+		"uniques": ["[20]% Strength"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -56,7 +56,7 @@
 	},
 	{
 		"name": "Garrison",
-		"uniques": ["+[33]% Strength when defending"],
+		"uniques": ["[+33]% Strength <when defending>"],
 		"unitTypes": ["Ranged"]
 	},
 	{
@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Crew Weapons",
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Siege"]
 	},
 	{
@@ -140,12 +140,12 @@
 	},
 	{
 		"name": "Tortoise",
-		"uniques": ["+[33]% Strength when defending"],
+		"uniques": ["[+33]% Strength <when defending>"],
 		"unitTypes": ["Melee"]
 	},
 	{
 		"name": "Commando",
-		"prerequisites": ["Battlecry","Amphibous"],
+		"prerequisites": ["Battlecry","Amphibious"],
 		"uniques": ["+1 Movement"],
 		"unitTypes": ["Melee"]
 	},
@@ -177,12 +177,12 @@
 	// Warrior Monk
 	{
 		"name": "Shadow Strike",
-		"uniques": ["+[10]% Combat Strength"],
+		"uniques": ["[10]% Strength"],
 	},
 	{
 		"name": "Exploding Palms",
 		"prerequisites": ["Shadow Strike"],
-		"uniques": ["+[33]% Combat Strength"],
+		"uniques": ["[33]% Strength"],
 	},
 	{
 		"name": "Sweeping Wind",
@@ -196,8 +196,8 @@
 	},
 	{
 		"name": "Cobra Strike",
-		"prerequisites": ["Sweeping Wind, Dancing Crane"],
-		"uniques": ["+[50]% Combat Strength"],
+		"prerequisites": ["Sweeping Wind", "Dancing Crane"],
+		"uniques": ["[50]% Strength"],
 	},
 
 	// Armor (Anti-Cavalry)
@@ -245,12 +245,12 @@
 	// Mounted
 	{
 		"name": "Charge",
-		"uniques": ["+[15]% Strength when attacking"],
+		"uniques": ["[+15]% Strength <when attacking>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
 		"name": "Barding",
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
@@ -274,7 +274,7 @@
 	{
 		"name": "Reactive Armor",
 		"prerequisites": ["Rout"],
-		"uniques": ["+[25]% Strength when defending"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
@@ -340,7 +340,7 @@
 	{
 		"name": "Rutter",
 		"prerequisites": ["Helmsman"],
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["WaterMelee"]
 	},
 	
@@ -353,7 +353,7 @@
 	{
 		"name": "Convoy",
 		"prerequisites": ["Rutter","Reinforced Hull"],
-		"uniques": ["+[20]% Strength when attacking"],
+		"uniques": ["[+20]% Strength <when attacking>"],
 		"unitTypes": ["WaterMelee"]
 	},
 	{
@@ -364,7 +364,7 @@
 	},
 	{
 		"name": "Creeping Attack",
-		"prerequisites": ["Convoy","Auxillary"],
+		"prerequisites": ["Convoy","Auxillary Ships"],
 		"uniques": ["Bonus vs water units 50%"],
 		"unitTypes": ["WaterMelee"]
 	},
@@ -395,7 +395,7 @@
 	{
 		"name": "Observation",
 		"prerequisites": ["Swift Keel"],
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["WaterSubmarine"]
 	},
 	{
@@ -419,7 +419,7 @@
 	},
 	{
 		"name": "Scout Planes",
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
@@ -540,7 +540,7 @@
 	// Uniques
 	{
 		"name": "Taxis", // Byzantium
-		"uniques": ["+[10]% Combat Strength"]
+		"uniques": ["[10]% Strength"]
 	},
 	{
 		"name": "Porphyrogennetos", // Byzantium
@@ -548,7 +548,7 @@
 	},
 	{
 		"name": "Mongol Horde", // Mongolia
-		"uniques": ["+[15]% Combat Strength"],
+		"uniques": ["[15]% Strength"],
 	},
 	{
 		"name": "Ordu", // Mongolia
@@ -556,11 +556,10 @@
 	},
 	{
 		"name": "Ta-Seti", // Nubia
-		"uniques": ["[50]% Bonus XP gain"]
+		"uniques": ["[50]% XP gained from combat"]
 	},
 	{
 		"name": "Royal Navy Dockyard", // England
-		"prerequisites": ["null"],
 		"uniques": ["+1 Movement"],
 		"unitTypes": ["WaterRanged","WaterSubmarine","WaterMelee","WaterAircraftCarrier"]
 	},
@@ -574,7 +573,7 @@
 	},
 	{
 		"name": "Particle Beam Siege Cannon", // GDR
-		"uniques": ["+[100]% Combat Strength","Bonus vs City 100%"]
+		"uniques": ["[100]% Strength","Bonus vs City 100%"]
 	},
 	{
 		"name": "Enhanced Mobility", // GDR
@@ -582,7 +581,7 @@
 	},
 	{
 		"name": "Reinforced Armor Plating", // GDR
-		"uniques": ["+[33]% Strength when defending"]
+		"uniques": ["[+33]% Strength <when defending>"]
 	},
 
 ]
