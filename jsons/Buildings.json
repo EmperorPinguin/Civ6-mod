@@ -238,6 +238,8 @@
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Culture] from [Trade Route (International)] tiles in this city",
 */
+"[+1 Culture] from every [Wonder]",
+//this should be "[+2 Culture] from every [Wonder] [in this city]",
 "Only available <after adopting [Drama and Poetry]>"
 ],
 
@@ -260,6 +262,8 @@
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Culture] from [Trade Route (International)] tiles in this city",
 */
+"[+1 Culture] from every [Wonder]",
+//this should be "[+2 Culture] from every [Wonder] [in this city]",
 "Only available <after adopting [Drama and Poetry]>"
 ],
 
@@ -326,8 +330,11 @@
 {
 		"name": "Suguba",
 		"replaces": "Commercial Hub",
-		"uniqueTo": "Mali",
-		"cost": 27,
+		"uniqueTo": "Mali", 
+            "gold": "2", 
+		"faith": "2",
+            //for lack of the purchase cost discount, I give it some bonus gold and faith 
+      	"cost": 27,
 		"greatPersonPoints": {"Great Merchant": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
