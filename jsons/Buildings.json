@@ -340,9 +340,9 @@
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
-*/
 "[Gold] cost of purchasing [All] buildings [-20]% [in this city]",
 "[Faith] cost of purchasing [All] units [-20]% [in this city]",
+*/
 "Provides [1] [Trade Route]"
 ],
 	},
