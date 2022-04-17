@@ -558,6 +558,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"[+2 Culture] for each adjacent [Entertainment Complex]",
 "[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -568,6 +569,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"[+2 Culture] for each adjacent [Entertainment Complex]",
 "[+1 Culture] for each adjacent [Great Improvement]",
 "[+1 Culture] for each adjacent [City center]",
 ]
@@ -651,6 +653,14 @@
 "[+2 Production] for each adjacent [Quarry]",
 "[+1 Production] for each adjacent [Strategic resource]",
 "Gives a defensive bonus of [100]%"
+]
+	},
+{
+		"name": "Entertainment Complex", 
+            "happiness": 1,
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
 ]
 	},
 
