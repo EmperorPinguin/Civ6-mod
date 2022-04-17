@@ -553,7 +553,24 @@
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>"
 ]
 	},
-
+{
+		"name": "Dutch Campus",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Science] for each adjacent [Geothermal Fissure]",
+"[+2 Science] for each adjacent [Reef]",
+"[+2 Science] for each adjacent [Great Barrier Reef]",
+"[+1 Science] for each adjacent [Mountain]",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+2 Science] for each adjacent [River]",
+]
+	},
 {
 		"name": "Holy Site",
 		"uniques": [
@@ -656,6 +673,19 @@
 "[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
 ]
 	},
+{
+		"name": "Dutch Theatre Square",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Culture] for each adjacent [Entertainment Complex]",
+"[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+2 Culture] for each adjacent [River]"
+]
+	},
+
 {
 		"name": "Encampment",
 		"uniques": [
@@ -772,6 +802,25 @@
 "[+2 Production] <with [4] to [5] neighboring [Lumber Mill] tiles>",
 "[+3 Production] <with [6] to [6] neighboring [Lumber Mill] tiles>",
 "[+1 Production] for each adjacent [Great Improvement]"
+]
+	},
+{
+		"name": "Dutch Industrial Zone",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+1 Production] for each adjacent [Quarry]",
+"[+1 Production] for each adjacent [Strategic resource]",
+"[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Lumber Mill] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Lumber Mill] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Lumber Mill] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+2 Production] for each adjacent [River]",
 ]
 	},
 {
