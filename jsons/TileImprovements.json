@@ -452,8 +452,208 @@
 		"uniques": ["[+1 Culture] from [fresh water] tiles <after discovering [Pottery]>",
 			"+1 Culture once Natural History is adopted"]
 	},
+{ 
+		"name": "Ancient ruins", 
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
+	},
+	{ 
+		"name": "City ruins", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{ 
+		"name": "City center", 
+		"uniques": ["Unpillagable", "Indestructible"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{ 
+		"name": "Barbarian encampment", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	},
+//Districts
+{
+		"name": "Campus",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Science] for each adjacent [Geothermal Fissure]",
+"[+2 Science] for each adjacent [Reef]",
+"[+2 Science] for each adjacent [Great Barrier Reef]",
+"[+1 Science] for each adjacent [Mountain]",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Observatory",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Science] for each adjacent [Plantation]",
+"[+2 Science] for each adjacent [Great Barrier Reef]",
+"[+1 Science] for each adjacent [Mountain]",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Farm] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Farm] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Farm] tiles>"
+]
+	},
+{
+		"name": "Seowon",
+		"science": 4,
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[-1 Science] for each adjacent [Great Improvement]",
+"[+1 Food] for each adjacent [Farm]",
+"[+1 Science] for each adjacent [Mine]",
+"Can only be built on [Hill] tiles"
+]
+	},
+{
+		"name": "Holy Site",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Faith] for each adjacent [Natural Wonder]",
+"[+1 Faith] for each adjacent [Mountain]",
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Lavra",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Faith] for each adjacent [Natural Wonder]",
+"[+1 Faith] for each adjacent [Mountain]",
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Theatre Square",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Acropolis",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+1 Culture] for each adjacent [Great Improvement]",
+"[+1 Culture] for each adjacent [City center]",
+]
+	},
+{
+		"name": "Encampment",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Gives a defensive bonus of [100]%"
+]
+	},
+{
+		"name": "Ikanda",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Gives a defensive bonus of [100]%"
+]
+	},
+{
+		"name": "Commercial Hub",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Gold] for each adjacent [River]",
+"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Suguba",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Gold] for each adjacent [River]",
+"[+2 Gold] for each adjacent [Holy Site]",
+"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Industrial Zone",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+1 Production] for each adjacent [Quarry]",
+"[+1 Production] for each adjacent [Strategic resource]",
+"[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Lumber Mill] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Lumber Mill] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Lumber Mill] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Hansa",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Production] for each adjacent [Commercial Hub]",
+"[+1 Production] for each adjacent [Strategic resource]",
+"[+1 Production] for each adjacent [Luxury resource]",
+"[+1 Production] for each adjacent [Bonus resource]",
+"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
+	},
+{
+		"name": "Oppidum",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Production] for each adjacent [Quarry]",
+"[+1 Production] for each adjacent [Strategic resource]",
+"Gives a defensive bonus of [100]%"
+]
+	},
 
-	{ "name": "Ancient ruins" },
-	{ "name": "City ruins" },
-	{ "name": "Barbarian encampment" }
+
+
 ]

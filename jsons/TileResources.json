@@ -412,5 +412,10 @@
 		"terrainsCanBeFoundOn": ["Coast","Lakes","Ocean","Reef"],
 		"improvement": "Archaeological Dig",
 		"improvementStats": {"culture": 7},
-	}
+	},
+	{
+		"name": "Districts",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
 ]

@@ -1,5 +1,62 @@
 [
-
+//District Bonus
+{
+		"name": "German District", 
+		"uniqueTo": "Germany",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]"]
+	},
+{
+		"name": "District1",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]"]
+	},
+{
+		"name": "District2",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Requires at least [4] population"]
+	},
+{
+		"name": "District3",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Requires at least [7] population"]
+	},
+{
+		"name": "District4",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Requires at least [11] population"]
+	},
+{
+		"name": "District5",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Requires at least [14] population"]
+	},
+{
+		"name": "District6",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Requires at least [17] population"]
+	},
+{
+		"name": "District7",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Requires at least [20] population"]
+	},
 // Filler
 
     {
@@ -64,158 +121,289 @@
 		"cityHealth": 100,
 		"uniques": ["Remove extra unhappiness from annexed cities"]
 	},
-	{
+{
 		"name": "Campus",
 		"cost": 54,
-		"science": 2,
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
+            "requiredResource": "Districts",
 		"maintenance": 1,
-		"uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
-			"[+2 Science] from [Reef] tiles in this city","[+1 Science] from [Mountain] tiles in this city",
-			"[+1 Science] from [Jungle] tiles in this city","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-			"[+1 Science] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city"],
 		"requiredTech": "Writing"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Campus Builder] appears",
+"[+2 Science] per [1] population [in this city]", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Science] from [Trade Route (International)] tiles in this city"
+*/
+],
+
 	},
-    {
-        "name": "Campus 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "science": 2,
-        "greatPersonPoints": {"science": 1},
-        "maintenance": 1,
-        "uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
-            "[+2 Science] from [Reef] tiles in this city","[+1 Science] from [Mountain] tiles in this city",
-            "[+1 Science] from [Jungle] tiles in this city","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-			"[+1 Science] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
-            "Will not be displayed in Civilopedia"],
-        "requiredTech": "Writing"
-    },
-    {
-        "name": "Observatory",
-        "replaces": "Campus",
-        "uniqueTo": "The Maya",
-        "cost": 27,
-        "science": 2,
-        "greatPersonPoints": {"science": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Science] from [Plantation] tiles in this city","[+1 Science] from [Farm] tiles in this city",
-        	"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Science] from [Trade Route (International)] tiles in this city",
-			"Cost increases by [5] per owned city"],
-        "requiredTech": "Writing"
-    },
-    {
-        "name": "Seowon",
-        "replaces": "Campus",
-        "uniqueTo": "Korea",
-        "cost": 27,
-        "science": 6,
-        "greatPersonPoints": {"science": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Food] from [Farm] tiles in this city","[+1 Science] from [Mine] tiles in this city",
-        	"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Science] from [Trade Route (International)] tiles in this city",
-			"Cost increases by [5] per owned city"],
-        "requiredTech": "Writing"
-    },
-	{
+{
+		"name": "Observatory",
+		"replaces": "Campus",
+		"uniqueTo": "The Maya",
+		"cost": 27,
+		"greatPersonPoints": {"Great Scientist": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Writing"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Observatory Builder] appears",
+"[+2 Science] per [1] population [in this city]", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Science] from [Trade Route (International)] tiles in this city"
+*/
+],
+
+	},
+{
+		"name": "Seowon",
+		"replaces": "Campus",
+		"uniqueTo": "Korea",
+		"cost": 27,
+		"greatPersonPoints": {"Great Scientist": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Writing"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Seowon Builder] appears",
+"[+2 Science] per [1] population [in this city]", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Science] from [Trade Route (International)] tiles in this city"
+*/
+],
+
+	},
+{
 		"name": "Holy Site",
 		"cost": 54,
-		"culture": 2,
+		"greatPersonPoints": {"Great Prophet": 1},
+            "requiredResource": "Districts",
 		"maintenance": 1,
-		"uniques": ["[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city",
-			"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Culture] from [Trade Route (International)] tiles in this city",
-			"Cost increases by [10] per owned city"],
 		"requiredTech": "Astrology"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Holy Site Builder] appears",
+"[+2 Faith] per [1] population [in this city]",
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Faith] from [Trade Route (International)] tiles in this city",
+*/
+],
+
 	},
-    {
-        "name": "Holy Site 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "culture": 2,
-        "maintenance": 1,
-        "uniques": ["[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city",
-        	"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Culture] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city",
-            "Will not be displayed in Civilopedia"],
-        "requiredTech": "Astrology"
-    },
-	{
+{
 		"name": "Lavra",
 		"replaces": "Holy Site",
-        "uniqueTo": "Russia",
+		"uniqueTo": "Russia",
 		"cost": 27,
-        "culture": 4,
-		"greatPersonPoints": {"culture": 2},
+		"greatPersonPoints": {"Great Prophet": 2},
+            "requiredResource": "Districts",
 		"maintenance": 1,
-		"uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city",
-			"[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Culture] from [Trade Route (International)] tiles in this city",
-			"[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city","Cost increases by [5] per owned city"],
 		"requiredTech": "Astrology"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Lavra Builder] appears",
+"[+2 Faith] per [1] population [in this city]", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Faith] from [Trade Route (International)] tiles in this city",
+*/
+"[-25]% Culture cost of natural border growth [in this city]"
+],
+
 	},
-    {
-        "name": "Theater Square",
-        "cost": 54,
-        "culture": 3,
-        "greatPersonPoints": {"culture": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-        	"[+1 Culture] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
-            "Only available <after adopting [Drama and Poetry]>"]
-    },
-    {
-        "name": "Theater Square 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "culture": 3,
-        "greatPersonPoints": {"culture": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-        	"[+1 Culture] from [Trade Route (International)] tiles in this city","Cost increases by [10] per owned city",
-            "Only available <after adopting [Drama and Poetry]>","Will not be displayed in Civilopedia"]
-    },
-    {
-        "name": "Acropolis",
-        "replaces": "Theater Square",
-        "uniqueTo": "Greece",
-        "cost": 54,
-        "culture": 6,
-        "greatPersonPoints": {"culture": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Culture] from every [Wonder]","[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-        	"[+1 Culture] from [Trade Route (International)] tiles in this city","[1] free [Envoy] units appear",
-        	"Cost increases by [10] per owned city",
-            "Only available <after adopting [Drama and Poetry]>"]
-    },
-    {
-        "name": "Encampment",
-        "cost": 54,
-        "production": 2,
-        "gold": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city"],
-        "requiredTech": "Bronze Working"
-    },
-    {
-        "name": "Encampment 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "production": 2,
-        "gold": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
-        "requiredTech": "Bronze Working"
-    },
-    {
-        "name": "Ikanda",
-        "replaces": "Encampment",
-        "uniqueTo": "The Zulu",
-        "cost": 27,
-        "production": 2,
-        "gold": 2,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[5]% Food is carried over after population increases [in this city]","[+25]% Production when constructing [Military] units [in this city]",
-        	"Cost increases by [5] per owned city"],
-        "requiredTech": "Bronze Working"
-    },
+{
+		"name": "Theatre Square",
+		"cost": 54,
+		"greatPersonPoints": {"Great Artist": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Theatre Square Builder] appears",
+"[+2 Culture] per [1] population [in this city]", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Culture] from [Trade Route (International)] tiles in this city",
+*/
+"Only available <after adopting [Drama and Poetry]>"
+],
+
+	},
+{
+		"name": "Acropolis",
+		"replaces": "Theatre Square",
+		"uniqueTo": "Greece",
+		"cost": 27,
+		"greatPersonPoints": {"Great Artist": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Acropolis Builder] appears",
+"Free [Envoy] appears",
+"[+2 Culture] per [1] population [in this city]", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Culture] from [Trade Route (International)] tiles in this city",
+*/
+"Only available <after adopting [Drama and Poetry]>"
+],
+
+	},
+{
+		"name": "Encampment",
+		"cost": 54,
+		"greatPersonPoints": {"Great General": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Bronze Working"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Encampment Builder] appears",
+"[+1 Production, +2 Gold] per [1] population [in this city]"
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Production] from [Trade Route (International)] tiles in this city",
+*/
+],
+	},
+{
+		"name": "Ikanda",
+		"replaces": "Encampment",
+		"uniqueTo": "The Zulu",
+		"cost": 27,
+		"greatPersonPoints": {"Great General": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Bronze Working"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Ikanda Builder] appears",
+"[+1 Production, +2 Gold] per [1] population [in this city]",
+"[5]% Food is carried over after population increases [in this city]",
+"[+25]% Production when constructing [Military] units [in this city]",
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Production] from [Trade Route (International)] tiles in this city",
+*/
+],
+	},
+{
+		"name": "Commercial Hub",
+		"cost": 54,
+		"greatPersonPoints": {"Great Merchant": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Currency"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Commercial Hub Builder] appears",
+"[+4 Gold] per [1] population [in this city]",
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+3 Gold] from [Trade Route (International)] tiles in this city",
+*/
+"Provides [1] [Trade Route]"
+],
+	},
+{
+		"name": "Suguba",
+		"replaces": "Commercial Hub",
+		"uniqueTo": "Mali",
+		"cost": 27,
+		"greatPersonPoints": {"Great Merchant": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Currency"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Suguba Builder] appears",
+"[+4 Gold] per [1] population [in this city]",
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+3 Gold] from [Trade Route (International)] tiles in this city",
+*/
+"[Gold] cost of purchasing [All] buildings [-20]% [in this city]",
+"[Faith] cost of purchasing [All] units [-20]% [in this city]",
+"Provides [1] [Trade Route]"
+],
+	},
+{
+		"name": "Industrial Zone",
+		"cost": 54,
+		"greatPersonPoints": {"Great Engineer": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Apprenticeship"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Industrial Zone Builder] appears",
+"[+2 Production] per [1] population [in this city]", 
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Production] from [Trade Route (International)] tiles in this city"
+*/
+],
+	},
+{
+		"name": "Hansa",
+		"replaces": "Industrial Zone",
+		"uniqueTo": "Germany",
+		"cost": 27,
+		"greatPersonPoints": {"Great Engineer": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Apprenticeship"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Hansa Builder] appears",
+"[+2 Production] per [1] population [in this city]", 
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Production] from [Trade Route (International)] tiles in this city"
+*/
+],
+	},
+{
+		"name": "Oppidum",
+		"replaces": "Industrial Zone",
+		"uniqueTo": "Gaul",
+		"cost": 27,
+		"greatPersonPoints": {"Great Engineer": 1},
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"requiredTech": "Apprenticeship"
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Hansa Builder] appears",
+"[+2 Production] per [1] population [in this city]", 
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Production] from [Trade Route (International)] tiles in this city"
+*/
+],
+	},
     {
         "name": "Harbor",
         "cost": 54,
@@ -224,17 +412,6 @@
         "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
         	"[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]","Connects trade routes over water",
         	"Cost increases by [10] per owned city"],
-        "requiredTech": "Celestial Navigation"
-    },
-    {
-        "name": "Harbor 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "gold": 4,
-        "food": 1,
-        "uniques": ["[+1 Prodcution] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]","Connects trade routes over water",
-        	"Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -263,87 +440,6 @@
         "requiredTech": "Celestial Navigation"
     },
     {
-        "name": "Commercial Hub",
-        "cost": 54,
-        "gold": 5,
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [River] tiles in this city","Cost increases by [10] per owned city"],
-        "requiredTech": "Currency"
-    },
-    {
-        "name": "Commercial Hub 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "gold": 5,
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [River] tiles in this city","Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
-        "requiredTech": "Currency"
-    },
-    {
-        "name": "Suguba",
-        "replaces": "Commercial Hub",
-        "uniqueTo": "Mali",
-        "cost": 27,
-        "gold": 7,
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"Cost of purchasing items in cities reduced by [10]%","[+2 Gold] from [River] tiles in this city","Cost increases by [5] per owned city"],
-        "requiredTech": "Currency"
-    },
-    {
-        "name": "Industrial Zone",
-        "cost": 54,
-        "prodcution": 4,
-        "greatPersonPoints": {"production": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
-            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from [Strategic resource] tiles in this city",
-            "Cost increases by [10] per owned city"],
-        "requiredTech": "Apprenticeship"
-    },
-    {
-        "name": "Industrial Zone 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "prodcution": 4,
-        "greatPersonPoints": {"production": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
-            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from [Strategic resource] tiles in this city",
-            "Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
-        "requiredTech": "Apprenticeship"
-    },
-    {
-        "name": "Hansa",
-        "replaces": "Industrial Zone",
-        "uniqueTo": "Germany",
-        "cost": 27,
-        "prodcution": 4,
-        "greatPersonPoints": {"production": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[+1 Production] from every [Commercial Hub]","[+1 Production] from every [Aqueduct]",
-            "[+1 Production] from every [Dam]","[+1 Production] from [Strategic resource] tiles in this city",
-            "Cost increases by [5] per owned city"],
-        "requiredTech": "Apprenticeship"
-    },
-    {
-        "name": "Oppidum",
-        "replaces": "Industrial Zone",
-        "uniqueTo": "Gaul",
-        "cost": 27,
-        "prodcution": 4,
-        "greatPersonPoints": {"production": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[+2 Production] from [Quarry] tiles in this city","[+2 Production] from [Strategic resource] tiles in this city","Cost increases by [10] per owned city"],
-        "requiredTech": "Iron Working"
-    },
-    {
         "name": "Entertainment Complex",
         "cost": 54,
         "happiness": 1,
@@ -351,16 +447,6 @@
         "cannotBeBuiltWith": "Water Park",
         "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
         	"Cost increases by [10] per owned city","Only available <after adopting [Games and Recreation]>"]
-    },
-    {
-        "name": "Entertainment Complex 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "happiness": 1,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Water Park",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city","Only available <after adopting [Games and Recreation]>","Will not be displayed in Civilopedia"]
     },
     {
         "name": "Street Carnival",
@@ -423,16 +509,6 @@
         "cannotBeBuiltWith": "Entertainment Complex",
         "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
         	"Cost increases by [10] per owned city","Must be next to [Coast]","Only available <after adopting [Natural History]>"]
-    },
-    {
-        "name": "Water Park 2", //Germany Unique
-        "uniqueTo": "Germany",
-        "cost": 54,
-        "happiness": 1,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city","Must be next to [Coast]","Will not be displayed in Civilopedia","Only available <after adopting [Natural History]>"]
     },
     {
         "name": "Copacabana",

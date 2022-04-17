@@ -1571,6 +1571,17 @@
 		"movement": 4
 	},
 	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": ["Can hurry technology research","Great Person - [Science]","Unbuildable"],
@@ -1637,5 +1648,120 @@
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+	},
+//District Builders
+	{
+		"name": "Campus Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Campus]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Observatory Builder",
+		"uniqueTo": "The Maya",
+		"replaces": "Campus Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Observatory]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Seowon Builder",
+		"uniqueTo": "Korea",
+		"replaces": "Campus Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Seowon]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Holy Site Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Holy Site]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Lavra Builder",
+		"uniqueTo": "Russia",
+		"replaces": "Holy Site Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Lavra]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Encampment Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Encampment]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Ikanda Builder",
+		"uniqueTo": "The Zulu",
+		"replaces": "Encampment Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Ikanda]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Theatre Square Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Theatre Square]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Acropolis Builder",
+		"uniqueTo": "Greece",
+		"replaces": "Theatre Square Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Acropolis]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Commercial Hub Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Commercial Hub]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Suguba Builder",
+		"uniqueTo": "Mali",
+		"replaces": "Suguba Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Suguba]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Industrial Zone Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Industrial Zone]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Hansa Builder",
+		"uniqueTo": "Germany",
+		"replaces": "Industrial Zone Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Hansa]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Oppidum Builder",
+		"uniqueTo": "Gaul",
+		"replaces": "Industrial Zone Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Oppidum]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
 	}
 ]
