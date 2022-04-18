@@ -66,14 +66,6 @@
         "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
     },
     {
-        "name": "Australia Bonus",
-        "isNationalWonder": true,
-        "uniqueTo": "Australia",
-        "cost": -1,
-        "uniques": ["Must be next to [Coast]","[5]% Food is carried over after population increases [in this city]"
-            "Will not be displayed in Civilopedia","Unbuildable"]
-    },
-    {
         "name": "Macedon Bonus",
         "uniqueTo": "Macedon",
         "cost": -1,
@@ -88,7 +80,7 @@
         "cost": -1,
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
-        "uniques": ["Must be on [River]","[50]% Production when constructing [All] buildings [in this city]",
+        "uniques": ["Must be on [River]","[+50]% Production when constructing [All] buildings [in this city]",
             "Will not be displayed in Civilopedia"]
     },
     {
@@ -138,7 +130,6 @@
 "[+1 Science] from [Trade Route (International)] tiles in this city"
 */
 ],
-
 	},
 {
 		"name": "Observatory",
@@ -159,7 +150,6 @@
 "[+1 Science] from [Trade Route (International)] tiles in this city"
 */
 ],
-
 	},
 {
 		"name": "Seowon",
@@ -180,7 +170,6 @@
 "[+1 Science] from [Trade Route (International)] tiles in this city"
 */
 ],
-
 	},
 {
 		"name": "Holy Site",
@@ -199,7 +188,6 @@
 "[+1 Faith] from [Trade Route (International)] tiles in this city",
 */
 ],
-
 	},
 {
 		"name": "Lavra",
@@ -221,7 +209,6 @@
 */
 "[-25]% Culture cost of natural border growth [in this city]"
 ],
-
 	},
 {
 		"name": "Theatre Square",
@@ -242,7 +229,6 @@
 //this should be "[+2 Culture] from every [Wonder] [in this city]",
 "Only available <after adopting [Drama and Poetry]>"
 ],
-
 	},
 {
 		"name": "Acropolis",
@@ -266,7 +252,6 @@
 //this should be "[+2 Culture] from every [Wonder] [in this city]",
 "Only available <after adopting [Drama and Poetry]>"
 ],
-
 	},
 {
 		"name": "Encampment",
