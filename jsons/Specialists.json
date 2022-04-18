@@ -11,8 +11,8 @@
 		"color": [255,215,0]
 	},
 	{
-		"name": "Priest",
-		"culture": 3,
+		"name": "Prophet",
+		"faith": 2,
 		"color": [255,255,255]
 	},
 	{
@@ -21,17 +21,17 @@
 		"color": [160,32,240]
 	},
 	{
-		"name": "Captain",
+		"name": "Admiral",
 		"food": 1,
 		"gold": 2,
 		"color": [0,255,0]
 	},	
 	{
-		"name": "Commander",
-		"production": 2,
+		"name": "General",
+		"production": 1,
 		"gold": 2,
 		"color": [229,0,0]
-	}
+	},
 	{
 		"name": "Engineer",
 		"production": 2,

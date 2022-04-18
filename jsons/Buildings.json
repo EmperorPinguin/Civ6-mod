@@ -316,9 +316,6 @@
 		"name": "Suguba",
 		"replaces": "Commercial Hub",
 		"uniqueTo": "Mali", 
-            "gold": "2", 
-		"faith": "2",
-            //for lack of the purchase cost discount, I give it some bonus gold and faith 
       	"cost": 27,
 		"greatPersonPoints": {"Great Merchant": 1},
             "requiredResource": "Districts",
@@ -1065,7 +1062,7 @@
         "name": "Shrine",
         "cost": 70,
         "requiredBuilding": "Holy Site",
-        "specialistSlots": {"Priest": 1},
+        "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "maintenance": 1,
         "uniques": [
@@ -1089,7 +1086,7 @@
         "name": "Barracks",
         "cost": 90,
         "production": 1,
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Stable",
 		"uniques": ["Only available <in cities with a [Encampment]>","New [Melee] units start with [15] Experience in this city",
@@ -1102,7 +1099,7 @@
         "uniqueTo": "Macedon",
         "cost": 90,
         "production": 1,
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"General": 1},
         "percentStatBonus": {"science": 25},
         "maintenance": 1,
         "cannotBeBuiltWith": "Stable",
@@ -1161,7 +1158,7 @@
         "name": "Stable",
         "cost": 120,
         "production": 1,
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Barracks",
         "uniques": ["Only available <in cities with a [Encampment]>","New [Mounted] units start with [15] Experience in this city",
@@ -1174,7 +1171,7 @@
         "uniqueTo": "Mongolia",
         "cost": 120,
         "production": 1,
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Barracks",
         "uniques": ["Only available <in cities with a [Encampment]>","New [Mounted] units start with [15] Experience in this city",
@@ -1291,7 +1288,7 @@
         "cost": 120,
         "requiredBuilding": "Shrine",
         "maintenance": 2,
-        "specialistSlots": {"Priest": 1},
+        "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "uniques": [
 "[+4 Faith] from [Holy Site] tiles [in this city]",
@@ -1307,7 +1304,7 @@
         "cost": 120,
         "requiredBuilding": "Shrine",
         "maintenance": 2,
-        "specialistSlots": {"Priest": 1},
+        "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "uniques": [
 "[+1 Culture] per [2] population [in this city]"
@@ -1322,7 +1319,7 @@
         "cost": 120,
         "requiredBuilding": "Shrine",
         "maintenance": 2,
-        "specialistSlots": {"Priest": 1},
+        "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "uniques": [
 "[+4 Faith] from [Holy Site] tiles [in this city]",
@@ -1381,7 +1378,7 @@
         "name": "Armory",
         "cost": 195,
         "requiredBuilding": "Barracks",
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 2,
         "uniques": [
@@ -1450,7 +1447,7 @@
         "cost": 290,
         "production": 2,
         "maintenance": 2,
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"Admiral": 1},
         "greatPersonPoints": {"Great Admiral": 2},
         "requiredBuilding": "Lighthouse",
         "uniques": [
@@ -1516,7 +1513,7 @@
         "name": "Military Academy",
         "cost": 330,
         "requiredBuilding": "Armory",
-        "specialistSlots": {"Commander": 1},
+        "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 2,
         "uniques": [
@@ -1682,7 +1679,7 @@
         "culture": 4,
         "percentStatBonus": {"culture": 100},
         "specialistSlots": {"Artist": 1},
-        "greatPersonPoints": {"culture": 2},
+        "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
         "uniques": ["Only available <in cities with a [Theater Square]>","Only available <in cities with a [Art Museum]>","Culture +100% vs +0%"],
         "requiredTech": "Radio"
