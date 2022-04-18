@@ -1602,7 +1602,7 @@
 "[+5 Production] from [Hansa] tiles [in this city]",
 "[+5 Production] from [Oppidum] tiles [in this city]",
 "[+5 Production] from [Japanese Industrial Zone] tiles [in this city]",
-"[+5 Production] from [Dutch Industrial Zone] tiles [in this city]"],
+"[+5 Production] from [Dutch Industrial Zone] tiles [in this city]",
 "[+1 Production] from every specialist [in this city]"
 ],
         "requiredTech": "Industrialization"
