@@ -453,46 +453,66 @@
 ],
 	},
 
-    {
+{
         "name": "Harbor",
         "cost": 54,
         "gold": 4,
         "food": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]","Connects trade routes over water",
-        	"Cost increases by [10] per owned city"],
+        "uniques": [
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+3 Gold] from [Trade Route (International)] tiles in this city",
+*/
+"[+1 Gold] from [Water resource] tiles in this city",
+"Must be next to [Coast]",
+"Connects trade routes over water",
+ ],
         "requiredTech": "Celestial Navigation"
     },
-    {
+{
         "name": "Cothon",
         "replaces": "Harbor",
         "uniqueTo": "Phoenicia",
         "cost": 27,
         "gold": 3,
         "food": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","[+50]% Production when constructing [Water] units [in this city]",
-        	"[+50]% Production when constructing [Settler] units [in this city]","Connects trade routes over water","Must be next to [Coast]",
-        "Cost increases by [5] per owned city"],
+        "uniques": [
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+3 Gold] from [Trade Route (International)] tiles in this city",
+*/
+"[+1 Gold] from [Water resource] tiles in this city",
+"[+50]% Production when constructing [Water] units [in this city]",
+"[+50]% Production when constructing [Settler] units [in this city]",
+"Connects trade routes over water",
+"Must be next to [Coast]"],
         "requiredTech": "Celestial Navigation"
     },
-    {
+{
         "name": "Royal Navy Dockyard",
         "replaces": "Harbor",
         "uniqueTo": "England",
         "cost": 27,
         "gold": 5,
         "food": 1,
-        "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
-            "Connects trade routes over water","Must be next to [Coast]","Cost increases by [5] per owned city"],
+        "uniques": [
+/*
+"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
+"[+3 Gold] from [Trade Route (International)] tiles in this city",
+*/
+"[+1 Gold] from [Water resource] tiles in this city",
+"All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
+"Connects trade routes over water",
+"Must be next to [Coast]"
+],
         "requiredTech": "Celestial Navigation"
     },
     {
         "name": "Neighborhood",
         "cost": 54,
-        "uniques": ["[10]% Food is carried over after population increases [in this city]",
-            "Cost increases by [10] per owned city","Only available <after adopting [Urbanization]>"]
+        "uniques": [
+"[10]% Food is carried over after population increases [in this city]",
+"Only available <after adopting [Urbanization]>"]
     },
     {
         "name": "Mbanza",
@@ -501,21 +521,27 @@
         "cost": 27,
         "food": 2,
         "gold": 4,
-        "uniques": ["[15]% Food is carried over after population increases [in this city]",
-            "Cost increases by [5] per owned city","Only available <after adopting [Guilds]>"]
+        "uniques": [
+"[15]% Food is carried over after population increases [in this city]",
+"Only available <after adopting [Guilds]>"]
     },
     {
         "name": "Aerodrome",
         "isNationalWonder": true,
         "cost": 54,
-        "uniques": ["Cost increases by [10] per owned city","Enables construction of Aircraft"],
+        "uniques": [
+"Enables construction of Aircraft"
+],
         "requiredTech": "Flight"
     },
     {
         "name": "Spaceport",
         "isNationalWonder": true,
         "cost": 1800,
-        "uniques": ["Must not be on [Hill]","Enables construction of Spaceship parts"],
+        "uniques": [
+"Must not be on [Hill]",
+"Enables construction of Spaceship parts"
+],
         "requiredTech": "Rocketry"
     },
     {
@@ -524,10 +550,16 @@
         "happiness": 1,
         "maintenance": 1,
         "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city","Must be next to [Coast]","Only available <after adopting [Natural History]>"]
+        "uniques": [
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Food] from [Trade Route (International)] tiles in this city",
+*/
+"Must be next to [Coast]",
+"Only available <after adopting [Natural History]>"
+]
     },
-    {
+{
         "name": "Copacabana",
         "replaces": "Water Park",
         "uniqueTo": "Brazil",
@@ -535,8 +567,14 @@
         "happiness": 3,
         "maintenance": 1,
         "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [5] per owned city","Must be next to [Coast]","Only available <after adopting [Natural History]>"]
+        "uniques": [
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Food] from [Trade Route (International)] tiles in this city",
+*/
+"Must be next to [Coast]",
+"Only available <after adopting [Natural History]>"
+]
     },
 
 // Wonders
@@ -1009,19 +1047,32 @@
     {
         "name": "Library",
         "cost": 90,
-        "science": 2,
+        "requiredBuilding": "Campus",
         "specialistSlots": {"Scientist": 1},
-        "greatPersonPoints": {"science": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 1,
-        "uniques": ["Only available <in cities with a [Campus]>"],
+        "uniques": [
+"[+2 Science] from [Campus] tiles [in this city]",
+"[+2 Science] from [Japanese Campus] tiles [in this city]",
+"[+2 Science] from [Brazilian Campus] tiles [in this city]",
+"[+2 Science] from [Dutch Campus] tiles [in this city]",
+],
         "requiredTech": "Writing"
     },
     {
         "name": "Shrine",
         "cost": 70,
-        "culture": 1,
+        "requiredBuilding": "Holy Site",
+        "specialistSlots": {"Priest": 1},
+        "greatPersonPoints": {"Great Prophet": 1},
         "maintenance": 1,
-        "uniques": ["Only available <in cities with a [Holy Site]>","[5]% Food is carried over after population increases [in this city]"],
+        "uniques": [
+"[+2 Faith] from [Holy Site] tiles [in this city]",
+"[+2 Faith] from [Lavra] tiles [in this city]"
+"[+2 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+2 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Astrology"
     },
     {
@@ -1074,24 +1125,35 @@
     {
         "name": "Amphitheater",
         "cost": 150,
-        "culture": 2,
+        "requiredBuilding": "Theatre Square",
         "specialistSlots": {"Artist": 1},
-        "greatPersonPoints": {"culture": 1},
+        "greatPersonPoints": {"Great Artist": 1},
         "maintenance": 1,
-        "uniques": ["Only available <after adopting [Drama and Poetry]>"],
+        "uniques": [
+"[+2 Culture] from [Theatre Square] tiles [in this city]",
+"[+2 Culture] from [Acropolis] tiles [in this city]",
+"[+2 Culture] from [Japanese Theatre Square] tiles [in this city]",
+"[+2 Culture] from [Brazilian Theatre Square] tiles [in this city]",
+"[+2 Culture] from [Dutch Theatre Square] tiles [in this city]",
+"Only available <after adopting [Drama and Poetry]>"
+],
     },
+
     {
         "name": "Marae",
         "replaces": "Amphitheater",
         "uniqueTo": "The Maori",
         "cost": 150,
-        "culture": 2,
-        "specialistSlots": {"Artist": 1},
-        "greatPersonPoints": {"culture": 1},
-        "maintenance": 1,
-        "uniques": ["[+1 Culture] from [Forest] tiles in this city","[+1 Culture] from [Jungle] tiles in this city",
-        	"[+1 Culture] from [Marsh] tiles in this city","[+1 Culture] from [Flood plains] tiles in this city",
-        	"[+1 Culture] from [Geothermal Fissure] tiles in this city","Only available <after adopting [Drama and Poetry]>"],
+        "requiredBuilding": "Theatre Square",
+        "maintenance": 0,
+        "uniques": [
+"[+1 Culture, +1 Faith] from [Forest] tiles in this city",
+"[+1 Culture, +1 Faith] from [Jungle] tiles in this city",
+"[+1 Culture, +1 Faith] from [Marsh] tiles in this city",
+"[+1 Culture, +1 Faith] from [Flood plains] tiles in this city",
+"[+1 Culture, +1 Faith] from [Geothermal Fissure] tiles in this city",
+"Only available <after adopting [Drama and Poetry]>"
+],
     },
     {
         "name": "Stable",
@@ -1130,30 +1192,40 @@
     {
         "name": "Arena",
         "cost": 150,
-        "happiness": 1,
-        "culture": 1,
+        "requiredBuilding": "Entertainment Complex",
         "maintenance": 1,
-        "uniques": ["Only available <if [Entertainment Complex] is constructed>","+1 Culture once Conservation is adopted",
-        	"Only available <after adopting [Games and Recreation]>"],
+        "uniques": [
+"[+1 Culture, +2 Happiness] from [Entertainment Complex] tiles [in this city]",
+"[+1 Culture, +2 Happiness] from [Street Carnival] tiles [in this city]",
+"[+1 Culture, +2 Happiness] from [Hippodrome] tiles [in this city]",
+"Only available <after adopting [Games and Recreation]>"],
     },
     {
         "name": "Tlachtli",
         "replaces": "Arena",
         "uniqueTo": "The Aztec",
         "cost": 135,
-        "happiness": 1,
-        "culture": 3,
+        "requiredBuilding": "Entertainment Complex",
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
-        "uniques": ["Only available <if [Entertainment Complex] is constructed>","+1 Culture once Conservation is adopted",
-        	"Only available <after adopting [Games and Recreation]>"],
+        "uniques": [
+"[+2 Culture, +2 Happiness, +2 Faith] from [Entertainment Complex] tiles [in this city]",
+"Only available <after adopting [Games and Recreation]>"
+],
     },
     {
         "name": "Market",
         "cost": 120,
-        "gold": 3,
+        "requiredBuilding": "Commercial Hub",
         "specialistSlots": {"Merchant": 1},
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["Only available <in cities with a [Commercial Hub]>","Provides [1] [Trade Route]"],
+        "greatPersonPoints": {"Great Merchant": 1},
+        "uniques": [
+"[+3 Gold] from [Commercial Hub] tiles [in this city]",
+"[+3 Gold] from [Suguba] tiles [in this city]",
+"[+3 Gold] from [Japanese Commercial Hub] tiles [in this city]",
+"[+3 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
+"Provides [1] [Trade Route]"
+],
         "requiredTech": "Currency"
     },
     {
@@ -1162,29 +1234,41 @@
         "uniqueTo": "Poland",
         "cost": 120,
         "gold": 3,
+        "requiredBuilding": "Commercial Hub",
         "specialistSlots": {"Merchant": 1},
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["Only available <in cities with a [Commercial Hub]>","Provides [1] [Trade Route]",
-        	"[+1 Gold, +1 Production] from each Trade Route"],
+        "greatPersonPoints": {"Great Merchant": 1},
+        "uniques": [
+"Gain a free [Trade Route Bonus] [in capital]",
+"[+3 Gold] from [Commercial Hub] tiles [in this city]",
+"Provides [1] [Trade Route]"],
         "requiredTech": "Currency"
+    },
+   {
+        "name": "Trade Route Bonus",
+        "uniqueTo": "Poland",
+        "isNationalWonder": "true",
+        "cost": -1,
+        "uniques": ["[+2 Production, +4 Gold] from each Trade Route", "Unbuildable"],
     },
     {
         "name": "Dam",
         "cost": 81,
         "happiness": 1,
         "maintenance": 1,
-        "uniques": ["[10]% Food is carried over after population increases [in this city]",
-            "Must be next to [Flood plains]"],
+        "uniques": [
+"[15]% Food is carried over after population increases [in this city]",
+"Must be next to [Flood plains]"],
         "requiredTech": "Buttress"
     },
     {
         "name": "Aqueduct",
         "cost": 36,
         "maintenance": 1,
-        "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
-            "[+2 Production] from [Terrace Farm] tiles in this city",
-            "[10]% Food is carried over after population increases [in this city]",
-            "Cost increases by [10] per owned city"],
+        "uniques": [
+"[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+"[+2 Production] from [Terrace Farm] tiles in this city",
+"[10]% Food is carried over after population increases [in this city]",
+],
         "requiredTech": "Engineering"
     },
     {
@@ -1194,63 +1278,86 @@
         "cost": 18,
         "happiness": 1,
         "maintenance": 1,
-        "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
-            "[15]% Food is carried over after population increases [in this city]","Cost increases by [5] per owned city"],
+        "uniques": [
+"[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+"[15]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Engineering"
     },
-    {
+{
         "name": "Temple",
         "cost": 120,
-        "culture": 2,
+        "requiredBuilding": "Shrine",
         "maintenance": 2,
         "specialistSlots": {"Priest": 1},
-        "uniques": ["Only available <if [Holy Site] is constructed>","Only available <in cities with a [Shrine]>",
-        	"Only available <after adopting [Theology]>"],
+        "greatPersonPoints": {"Great Prophet": 1},
+        "uniques": [
+"[+4 Faith] from [Holy Site] tiles [in this city]",
+"[+4 Faith] from [Lavra] tiles [in this city]"
+"[+4 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+4 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"Only available <after adopting [Theology]>"],
     },
-    {
+{
         "name": "Prasat",
         "replaces": "Temple",
         "uniqueTo": "The Khmer",
         "cost": 120,
-        "culture": 2,
-        "specialistSlots": {"Priest": 1},
+        "requiredBuilding": "Shrine",
         "maintenance": 2,
-        "uniques": ["Only available <if [Holy Site] is constructed>","Only available <in cities with a [Shrine]>"
-        	"All newly-trained [Civilian] units in this city receive the [Martyr] promotion","Only available <after adopting [Theology]>"],
+        "specialistSlots": {"Priest": 1},
+        "greatPersonPoints": {"Great Prophet": 1},
+        "uniques": [
+"[+1 Culture] per [2] population [in this city]"
+"[+6 Faith] from [Holy Site] tiles [in this city]",
+"All newly-trained [Civilian] units in this city receive the [Martyr] promotion",
+"Only available <after adopting [Theology]>"],
     },
-    {
+{
         "name": "Stave Church",
         "replaces": "Temple",
         "uniqueTo": "Norway",
         "cost": 120,
-        "culture": 2,
-        "production": 1,
-        "specialistSlots": {"Priest": 1},
+        "requiredBuilding": "Shrine",
         "maintenance": 2,
-        "uniques": ["Only available <if [Holy Site] is constructed>","Only available <in cities with a [Shrine]>",
-        	"[+1 Production] from [Water resource] tiles in this city","Only available <after adopting [Theology]>"],
+        "specialistSlots": {"Priest": 1},
+        "greatPersonPoints": {"Great Prophet": 1},
+        "uniques": [
+"[+4 Faith] from [Holy Site] tiles [in this city]",
+"[+1 Faith] from [Forest] tiles [in this city]",
+"[+1 Production] from [Water resource] tiles [in this city]",
+"Only available <after adopting [Theology]>"],
     },
 
     // Medieval Era 
-
-    {
+{
         "name": "Workshop",
         "cost": 195,
-        "production": 3,
-        "specialistSlots": {"Engineer": 1},
-        "greatPersonPoints": {"production": 1},
+        "requiredBuilding": "Shrine",
         "maintenance": 1,
-        "uniques": ["Only available <in cities with a [Industrial Zone]>"],
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+"[+3 Production] from [Industrial Zone] tiles [in this city]",
+"[+3 Production] from [Hansa] tiles [in this city]",
+"[+3 Production] from [Japanese Industrial Zone] tiles [in this city]",
+"[+3 Production] from [Dutch Industrial Zone] tiles [in this city]"],
         "requiredTech": "Apprenticeship"
     },
     {
         "name": "University",
         "cost": 250,
-        "science": 4,
+        "requiredBuilding": "Library",
         "specialistSlots": {"Scientist": 1},
-        "greatPersonPoints": {"science": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Campus]>","Only available <in cities with a [Library]>"],
+        "uniques": [
+"[+4 Science] from [Campus] tiles [in this city]",
+"[+4 Science] from [Japanese Campus] tiles [in this city]",
+"[+4 Science] from [Brazilian Campus] tiles [in this city]",
+"[+4 Science] from [Dutch Campus] tiles [in this city]",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Education"
     },
     {
@@ -1258,13 +1365,15 @@
         "replaces": "University",
         "uniqueTo": "Arabia",
         "cost": 250,
-        "science": 5,
-        "culture": 3,
+        "requiredBuilding": "Library",
         "specialistSlots": {"Scientist": 1},
-        "greatPersonPoints": {"science": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 2,
-        "uniques": ["Only available <if [Campus] is constructed>","Only available <in cities with a [Library]>",
-        	"Only available <after adopting [Theology]>"]
+        "uniques": [
+"[+5 Science, +5 Faith] from [Campus] tiles [in this city]",
+"Only available <after adopting [Theology]>",
+"[5]% Food is carried over after population increases [in this city]"
+]
     },
     {
         "name": "Armory",
@@ -1286,37 +1395,48 @@
     }, 
 
     // Renaissance Era 
-
     {
         "name": "Bank",
         "cost": 290,
-        "gold": 5,
+        "requiredBuilding": "Market",
         "specialistSlots": {"Merchant": 1},
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["Only available <in cities with a [Commercial Hub]>","Only available <in cities with a [Market]>"],
+        "greatPersonPoints": {"Great Merchant": 1},
+        "uniques": [
+"[+5 Gold] from [Commercial Hub] tiles [in this city]",
+"[+5 Gold] from [Suguba] tiles [in this city]",
+"[+5 Gold] from [Japanese Commercial Hub] tiles [in this city]",
+"[+5 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
+],
         "requiredTech": "Banking"
     },
-    {
+{
         "name": "Grand Bazaar",
         "replaces": "Bank",
         "uniqueTo": "The Ottomans",
         "cost": 220,
-        "gold": 5,
-        "happiness": 3,
+        "requiredBuilding": "Market",
         "specialistSlots": {"Merchant": 1},
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["Only available <in cities with a [Commercial Hub]>","Only available <in cities with a [Market]>"],
+        "greatPersonPoints": {"Great Merchant": 1},
+        "uniques": [
+"[+5 Gold] from [Commercial Hub] tiles [in this city]",
+"[+1 Happiness] from [Luxury resource] tiles [in this city]",
+],
         "requiredTech": "Banking"
     },
-    {
+ {
         "name": "Art Museum",
         "cost": 290,
-        "culture": 2,
+        "requiredBuilding": "Amphitheater",
         "specialistSlots": {"Artist": 1},
-        "greatPersonPoints": {"culture": 2},
-        "maintenance": 2,
-        "uniques": ["Only available <if [Amphitheater] is constructed>","Only available <in cities with a [Theater Square]>",
-        	"Only available <after adopting [Humanism]>"],
+        "greatPersonPoints": {"Great Artist": 2},
+        "uniques": [
+"[+2 Culture] from [Theatre Square] tiles [in this city]",
+"[+2 Culture] from [Acropolis] tiles [in this city]",
+"[+2 Culture] from [Japanese Theatre Square] tiles [in this city]",
+"[+2 Culture] from [Brazilian Theatre Square] tiles [in this city]",
+"[+2 Culture] from [Dutch Theatre Square] tiles [in this city]",
+"Only available <after adopting [Humanism]>"
+]
     },
     {
         "name": "Shipyard",
@@ -1396,10 +1516,15 @@
     {
         "name": "Stock Exchange",
         "cost": 330,
-        "gold": 7,
+        "requiredBuilding": "Bank",
         "specialistSlots": {"Merchant": 1},
-        "greatPersonPoints": {"gold": 1},
-        "uniques": ["Only available <in cities with a [Commercial Hub]>","Only available <in cities with a [Bank]>"],
+        "greatPersonPoints": {"Great Merchant": 1},
+        "uniques": [
+"[+7 Gold] from [Commercial Hub] tiles [in this city]",
+"[+7 Gold] from [Suguba] tiles [in this city]",
+"[+7 Gold] from [Japanese Commercial Hub] tiles [in this city]",
+"[+7 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
+],
         "requiredTech": "Economics"
     },
     {
@@ -1508,11 +1633,17 @@
     {
         "name": "Research Lab",
         "cost": 440,
-        "science": 5,
+        "requiredBuilding": "University",
         "specialistSlots": {"Scientist": 1},
-        "greatPersonPoints": {"science": 1},
+        "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 3,
-        "uniques": ["Only available <in cities with a [Campus]>","Only available <in cities with a [University]>"],
+        "uniques": [
+"[+5 Science] from [Campus] tiles [in this city]",
+"[+5 Science] from [Japanese Campus] tiles [in this city]",
+"[+5 Science] from [Brazilian Campus] tiles [in this city]",
+"[+5 Science] from [Dutch Campus] tiles [in this city]",
+"[+1 Science] from every specialist [in this city]"
+],
         "requiredTech": "Chemistry"
     },
     {
