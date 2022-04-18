@@ -411,6 +411,63 @@
 */
 ],
 	},
+{
+		"name": "Entertainment Complex",
+		"cost": 54,
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"cannotBeBuiltWith": "Water Park",
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Entertainment Complex Builder] appears", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Food] from [Trade Route (International)] tiles in this city",
+*/
+"Only available <after adopting [Games and Recreation]>"
+],
+	},
+{
+		"name": "Street Carnival",
+		"replaces": "Entertainment Complex",
+		"uniqueTo": "Brazil",
+		"cost": 27,
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"cannotBeBuiltWith": "Water Park",
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Street Carnival Builder] appears", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Food] from [Trade Route (International)] tiles in this city",
+*/
+"Only available <after adopting [Games and Recreation]>"
+],
+	},
+{
+		"name": "Hippodrome",
+		"replaces": "Entertainment Complex",
+		"uniqueTo": "Byzantium",
+		"cost": 27,
+            "requiredResource": "Districts",
+		"maintenance": 1,
+		"cannotBeBuiltWith": "Water Park",
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Hippodrome Builder] appears", 
+"Free [Tagma] appears <after adopting [Divine Right]>", 
+/*
+"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
+"[+1 Food] from [Trade Route (International)] tiles in this city",
+*/
+"Only available <after adopting [Games and Recreation]>"
+],
+	},
+
     {
         "name": "Harbor",
         "cost": 54,
@@ -445,38 +502,6 @@
         	"[+1 Gold] from [Water resource] tiles in this city","All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
             "Connects trade routes over water","Must be next to [Coast]","Cost increases by [5] per owned city"],
         "requiredTech": "Celestial Navigation"
-    },
-    {
-        "name": "Entertainment Complex",
-        "cost": 54,
-        "happiness": 1,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Water Park",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [10] per owned city","Only available <after adopting [Games and Recreation]>"]
-    },
-    {
-        "name": "Street Carnival",
-        "replaces": "Entertainment Complex",
-        "uniqueTo": "Brazil",
-        "cost": 27,
-        "happiness": 3,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Water Park",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"Cost increases by [5] per owned city","Only available <after adopting [Games and Recreation]>"]
-    },
-    {
-        "name": "Hippodrome",
-        "replaces": "Entertainment Complex",
-        "uniqueTo": "Byzantium",
-        "cost": 27,
-        "happiness": 4,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Water Park",
-        "uniques": ["[+1 Food] from [Trade Route (Domestic)] tiles in this city","[+1 Food] from [Trade Route (International)] tiles in this city",
-        	"[2] free [Knight] units appear","Only available <after adopting [Games and Recreation]>",
-            "Cost increases by [5] per owned city"]
     },
     {
         "name": "Neighborhood",

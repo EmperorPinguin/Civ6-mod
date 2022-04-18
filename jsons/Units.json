@@ -41,8 +41,8 @@
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 120,
-		"uniques": ["[+1] Sight","Founds a new city"]
+		"cost": 110,
+		"uniques": ["[+1] Sight","Founds a new city", "Excess Food converted to Production when under construction", "Requires at least [2] population"]
 	},
 	{
 		"name": "Trader",
@@ -1870,6 +1870,31 @@
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Dutch Industrial Zone]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Entertainment Complex Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Entertainment Complex]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Street Carnival Builder",
+		"uniqueTo": "Brazil",
+		"replaces": "Entertainment Complex Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Street Carnival]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Hippodrome Builder",
+		"uniqueTo": "Byzantium",
+		"replaces": "Entertainment Complex Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Hippodrome]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 ]

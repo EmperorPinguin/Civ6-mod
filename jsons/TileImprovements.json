@@ -691,7 +691,8 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
-"Gives a defensive bonus of [100]%"
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage"
 ]
 	},
 {
@@ -699,7 +700,8 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
-"Gives a defensive bonus of [100]%"
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage"
 ]
 	},
 {
@@ -785,7 +787,8 @@
 "Tile provides yield without assigned population",
 "[+2 Production] for each adjacent [Quarry]",
 "[+1 Production] for each adjacent [Strategic resource]",
-"Gives a defensive bonus of [100]%"
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage"
 ]
 	},
 {
@@ -841,7 +844,7 @@
 	},
 {
 		"name": "Street Carnival", 
-            "happiness": 3,
+            "happiness": 2,
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
