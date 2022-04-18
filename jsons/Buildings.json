@@ -453,23 +453,24 @@
 "Only available <after adopting [Games and Recreation]>"
 ],
 	},
-
 {
-        "name": "Harbor",
-        "cost": 54,
-        "gold": 4,
-        "food": 1,
-        "uniques": [
+		"name": "Harbor",
+		"cost": 54,
+		"greatPersonPoints": {"Great Admiral": 1},
+            "requiredResource": "Districts",
+		"maintenance": 0,
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+//"Free [Harbor Builder] appears",
+"[+1 Food, +2 Gold] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city",
+"[+3 Gold] from [Trade Route (International)] tiles in this city"
 */
-"[+1 Gold] from [Water resource] tiles in this city",
-"Must be next to [Coast]",
-"Connects trade routes over water",
- ],
-        "requiredTech": "Celestial Navigation"
-    },
+],
+		"requiredTech": "Celestial Navigation"
+	},
 {
         "name": "Cothon",
         "replaces": "Harbor",
