@@ -1494,7 +1494,7 @@
 "[+12 Production] from [Industrial Zone] tiles [in this city]",
 "[+12 Production] from [Hansa] tiles [in this city]",
 "[+12 Production] from [Oppidum] tiles [in this city]",
-"[+12 Production] from [Dutch Industrial Zone] tiles [in this city]"]
+"[+12 Production] from [Dutch Industrial Zone] tiles [in this city]"
 ],
         "requiredTech": "Industrialization"
     },
