@@ -245,7 +245,8 @@
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Faith] from [Trade Route (International)] tiles in this city",
 */
-"[-25]% Culture cost of natural border growth [in this city]"
+"[-25]% Culture cost of natural border growth [in this city]",
+"[-25]% Gold cost of acquiring tiles [in this city]"
 ],
 	},
 {
