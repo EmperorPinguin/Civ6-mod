@@ -1491,7 +1491,10 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 2,
         "uniques": [
-"[+3 Production] from every [City center]"
+"[+12 Production] from [Industrial Zone] tiles [in this city]",
+"[+12 Production] from [Hansa] tiles [in this city]",
+"[+12 Production] from [Oppidum] tiles [in this city]",
+"[+12 Production] from [Dutch Industrial Zone] tiles [in this city]"]
 ],
         "requiredTech": "Industrialization"
     },
@@ -1505,7 +1508,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 2,
         "uniques": [
-"[+4 Production] from every [City center]",
+"[+16 Production] from [Japanese Industrial Zone] tiles [in this city]",
 "[+4 Culture] <after discovering [Electricity]>"],
         "requiredTech": "Industrialization"
     },
@@ -1596,17 +1599,14 @@
         "maintenance": 3,
         "uniques": [
 "[+5 Production] from [Industrial Zone] tiles [in this city]",
-"[+1 Production] from every specialist [in this city]",
-"Gain a free [Power] [in this city]"
+"[+5 Production] from [Hansa] tiles [in this city]",
+"[+5 Production] from [Oppidum] tiles [in this city]",
+"[+5 Production] from [Japanese Industrial Zone] tiles [in this city]",
+"[+5 Production] from [Dutch Industrial Zone] tiles [in this city]"],
+"[+1 Production] from every specialist [in this city]"
 ],
-        "requiredTech": "Industrialization",
-        "cannotBeBuiltWith": "Power"
+        "requiredTech": "Industrialization"
     },
-{
-		"name": "Power",
-		"cost": -1,
-		"uniques": ["Unbuildable"],
-	},
 
     // Modern Era 
 
@@ -1646,12 +1646,13 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 3,
         "uniques": [
-"[+3 Production] from every [City center]",
-"[+1 Production] from every specialist [in this city]",
-"Gain a free [Power] [in this city]"
+"[+12 Production] from [Industrial Zone] tiles [in this city]",
+"[+12 Production] from [Hansa] tiles [in this city]",
+"[+12 Production] from [Oppidum] tiles [in this city]",
+"[+12 Production] from [Japanese Industrial Zone] tiles [in this city]",
+"[+12 Production] from [Dutch Industrial Zone] tiles [in this city]"
 ],
         "requiredTech": "Electricity",
-        "cannotBeBuiltWith": "Power"
     },
     {
         "name": "Broadcast Center",
@@ -1763,12 +1764,13 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 3,
         "uniques": [
-"[+4 Production, +3 Science] from every [City center]",
-"[+1 Production] from every specialist [in this city]",
-"Gain a free [Power] [in this city]"
+"[+16 Production, +12 Science] from [Industrial Zone] tiles [in this city]",
+"[+16 Production, +12 Science] from [Hansa] tiles [in this city]",
+"[+16 Production, +12 Science] from [Oppidum] tiles [in this city]",
+"[+16 Production, +12 Science] from [Japanese Industrial Zone] tiles [in this city]",
+"[+16 Production, +12 Science] from [Dutch Industrial Zone] tiles [in this city]"
 ],
         "requiredTech": "Nuclear Fission",
-        "cannotBeBuiltWith": "Power"
     },
     {
         "name": "Manhattan Project",
