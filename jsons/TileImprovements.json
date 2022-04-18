@@ -140,6 +140,7 @@
 		"name": "Archaeological Dig",
 		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 	},
+/*
 	{
 		"name": "Trade Route (Domestic)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
@@ -153,6 +154,7 @@
 		"gold": 3,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
+*/
 
 	// Military improvement
 	{
@@ -312,13 +314,12 @@
 	{
 		"name": "Kurgan",
 		"uniqueTo": "Scythia",
-		"culture": 2,
-		"gold": 1,
+		"faith": 1,
+		"gold": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow"],
-		"uniques": ["[+1 Culture] for each adjacent [Pasture]","+1 Production once Guilds is adopted",
-			"+1 Production once Capitalism is adopted"]
+		"uniques": ["[+1 Faith] for each adjacent [Pasture]","[+1 Faith] for each adjacent [Pasture] <after discovering [Stirrups]>", "Cannot be built on [Hill] tiles"]
 	},
 	{
 		"name": "Mekewap",
@@ -336,24 +337,30 @@
 	{
 		"name": "Mission",
 		"uniqueTo": "Spain",
-		"culture": 2,
+		"faith": 2,
 		"turnsToBuild": 7,
-		"techRequired": "Printing",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow",],
-		"uniques": ["+2 Culture, +1 Food, +1 Production, +1 Science once Exploration is adopted",
-			"+2 Science once Cultural Heritage is adopted"],
+		"techRequired": "Education",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
+		"uniques": ["[+2 Faith, +1 Food, +1 Production] <on foreign continents>", "[+1 Science] for each adjacent [Campus]", "[+1 Science] for each adjacent [Holy Site]",
+			"[+2 Science] <after adopting [Cultural Heritage]>"],
 	},
 	{
 		"name": "Nubian Pyramid",
 		"uniqueTo": "Nubia",
-		"culture": 1,
-		"food": 1,
-		"science": 1,
-		"gold": 1,
-		"production": 1,
+		"faith": 2,
+		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
-		"terrainsCanBeBuiltOn": ["Desert","Flood plains"]
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"uniques": [
+"[+1 Food] <with [1] to [6] neighboring [City center] tiles>",
+"[+1 Science] <with [1] to [6] neighboring [Campus] tiles>",
+"[+1 Gold] <with [1] to [6] neighboring [Commercial Hub] tiles>",
+"[+1 Gold] <with [1] to [6] neighboring [Harbor] tiles>",
+"[+1 Faith] <with [1] to [6] neighboring [Holy Site] tiles>",
+"[+1 Production] <with [1] to [6] neighboring [Industrial Zone] tiles>",
+"[+1 Culture] <with [1] to [6] neighboring [Theatre Square] tiles>"
+]
 	},
 	{
 		"name": "Open-Air Museum",
@@ -478,7 +485,7 @@
 {
 		"name": "Campus",
 		"uniques": [
-"Great Improvement",
+//"Great Improvement",
 "Tile provides yield without assigned population",
 "[+2 Science] for each adjacent [Geothermal Fissure]",
 "[+2 Science] for each adjacent [Reef]",
@@ -848,6 +855,19 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+]
+	},
+{
+		"name": "Harbor",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"[+2 Gold] for each adjacent [City center]",
+"[+1 Gold] for each adjacent [Water resource]",
+"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
 ]
 	},
 ]

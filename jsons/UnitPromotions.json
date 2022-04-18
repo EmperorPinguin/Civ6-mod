@@ -564,6 +564,11 @@
 		"unitTypes": ["WaterRanged","WaterSubmarine","WaterMelee","WaterAircraftCarrier"]
 	},
 	{
+		"name": "Cothon", //Phoenicia
+		"uniques": ["[+100] HP when healing <in [Friendly Land] tiles>"],
+		"unitTypes": ["WaterRanged","WaterSubmarine","WaterMelee","WaterAircraftCarrier"]
+	},
+	{
 		"name": "Martyr", //Khmer
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"]
 	},

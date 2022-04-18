@@ -1,5 +1,14 @@
 [
 //District Bonus
+/*
+{
+		"name": "Test District",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Creates a [Farm] improvement on a specific tile"]
+	},
+*/
 {
 		"name": "German District", 
 		"uniqueTo": "Germany",
@@ -66,6 +75,28 @@
 	},
 // Filler
 
+{
+		"name": "River Bonus",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Must be on [River]", "[15]% Food is carried over after population increases [in this city]"]
+	},
+{
+		"name": "Coastal Bonus",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Must be next to [Coast]", "[5]% Food is carried over after population increases [in this city]"]
+	},
+{
+		"name": "Hill Bonus",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"cityStrength": 5,
+		"uniques": ["Must be on [Hill]"]
+	},
     {
         "name": "~l1",
         "isNationalWonder": "true",
@@ -307,6 +338,7 @@
             "requiredResource": "Districts",
 		"maintenance": 1,
 		"requiredTech": "Currency"
+		"cannotBeBuiltWith": "Harbor",
 		"uniques": [
 "Unsellable",
 "Never destroyed when city is captured",
@@ -327,7 +359,8 @@
 		"greatPersonPoints": {"Great Merchant": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Currency"
+		"requiredTech": "Currency",
+		"cannotBeBuiltWith": "Harbor",
 		"uniques": [
 "Unsellable",
 "Never destroyed when city is captured",
@@ -463,10 +496,11 @@
 		"greatPersonPoints": {"Great Admiral": 1},
             "requiredResource": "Districts",
 		"maintenance": 0,
+		"cannotBeBuiltWith": "Commercial Hub",
 		"uniques": [
 "Unsellable",
 "Never destroyed when city is captured",
-//"Free [Harbor Builder] appears",
+"Free [Harbor Builder] appears",
 "[+1 Food, +2 Gold] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -476,38 +510,46 @@
 		"requiredTech": "Celestial Navigation"
 	},
 {
-        "name": "Cothon",
-        "replaces": "Harbor",
-        "uniqueTo": "Phoenicia",
-        "cost": 27,
-        "gold": 3,
-        "food": 1,
-        "uniques": [
+		"name": "Cothon",
+		"replaces": "Harbor",
+		"uniqueTo": "Phoenicia",
+		"greatPersonPoints": {"Great Admiral": 1},
+		"cost": 27,
+		"cannotBeBuiltWith": "Commercial Hub",
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Harbor Builder] appears",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
 */
-"[+1 Gold] from [Water resource] tiles in this city",
 "[+50]% Production when constructing [Water] units [in this city]",
 "[+50]% Production when constructing [Settler] units [in this city]",
+"All newly-trained [relevant] units in this city receive the [Cothon] promotion"
 "Connects trade routes over water",
-"Must be next to [Coast]"],
+"Must be next to [Coast]"
+],
         "requiredTech": "Celestial Navigation"
     },
 {
-        "name": "Royal Navy Dockyard",
-        "replaces": "Harbor",
-        "uniqueTo": "England",
-        "cost": 27,
-        "gold": 5,
-        "food": 1,
-        "uniques": [
+		"name": "Royal Navy Dockyard",
+		"replaces": "Harbor",
+		"uniqueTo": "England",
+		"greatPersonPoints": {"Great Admiral": 2},
+		"cost": 27,
+		"cannotBeBuiltWith": "Commercial Hub",
+		"uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Harbor Builder] appears",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
 */
 "[+1 Gold] from [Water resource] tiles in this city",
 "All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
+"[+2 Gold] <on foreign continents>",
 "Connects trade routes over water",
 "Must be next to [Coast]"
 ],
@@ -1074,7 +1116,7 @@
         "maintenance": 1,
         "uniques": [
 "[+2 Faith] from [Holy Site] tiles [in this city]",
-"[+2 Faith] from [Lavra] tiles [in this city]"
+"[+2 Faith] from [Lavra] tiles [in this city]",
 "[+2 Faith] from [Japanese Holy Site] tiles [in this city]",
 "[+2 Faith] from [Brazilian Holy Site] tiles [in this city]",
 "[5]% Food is carried over after population increases [in this city]"
@@ -1092,12 +1134,19 @@
     {
         "name": "Barracks",
         "cost": 90,
-        "production": 1,
+        "requiredBuilding": "Encampment",
         "specialistSlots": {"General": 1},
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Stable",
-		"uniques": ["Only available <in cities with a [Encampment]>","New [Melee] units start with [15] Experience in this city",
-			"New [Ranged] units start with [15] Experience in this city","New [Armor] units start with [15] Experience in this city"],
+		"uniques": [
+"[+1 Production] from [Encampment] tiles [in this city]",
+"[+1 Production] from [Ikanda] tiles [in this city]",
+"New [Melee] units start with [15] Experience in this city",
+"New [Ranged] units start with [15] Experience in this city",
+"New [Armor] units start with [15] Experience in this city",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Bronze Working"
     },
     {
@@ -1105,14 +1154,20 @@
         "replaces": "Barracks",
         "uniqueTo": "Macedon",
         "cost": 90,
-        "production": 1,
+        "production": 1,        
+        "requiredBuilding": "Encampment",
         "specialistSlots": {"General": 1},
-        "percentStatBonus": {"science": 25},
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Stable",
-		"uniques": ["Only available <in cities with a [Encampment]>","New [Melee] units start with [15] Experience in this city",
-			"New [Ranged] units start with [15] Experience in this city","New [Armor] units start with [15] Experience in this city",
-			"Science +25% vs +0%"],
+		"uniques": [
+"[+1 Production] from [Encampment] tiles [in this city]",
+"New [Melee] units start with [15] Experience in this city",
+"New [Ranged] units start with [15] Experience in this city",
+"New [Armor] units start with [15] Experience in this city",
+"[5]% Food is carried over after population increases [in this city]"
+"[+10]% [Science] [in this city]"
+],
         "requiredTech": "Bronze Working"
     },
     {
@@ -1120,7 +1175,7 @@
         "cost": 65, 
         "food": 1,
         "production": 1,
-        "uniques": ["[+1 Food] from [Wheat] tiles in this city","[+1 Food] from [Rice] tiles in this city",
+        "uniques": ["Must be on [River]", "[+1 Food] from [Wheat] tiles in this city","[+1 Food] from [Rice] tiles in this city",
         	"[+1 Food] from [Maize] tiles in this city"],
         "requiredTech": "Wheel"
     },
@@ -1164,12 +1219,18 @@
     {
         "name": "Stable",
         "cost": 120,
-        "production": 1,
+        "requiredBuilding": "Encampment",
         "specialistSlots": {"General": 1},
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Barracks",
-        "uniques": ["Only available <in cities with a [Encampment]>","New [Mounted] units start with [15] Experience in this city",
-        	"New [Siege] units start with [15] Experience in this city"],
+        "uniques": [
+"[+1 Production] from [Encampment] tiles [in this city]",
+"[+1 Production] from [Ikanda] tiles [in this city]",
+"New [Mounted] units start with [15] Experience in this city",
+"New [Siege] units start with [15] Experience in this city",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -1177,22 +1238,35 @@
         "replaces": "Stable",
         "uniqueTo": "Mongolia",
         "cost": 120,
-        "production": 1,
+        "requiredBuilding": "Encampment",
         "specialistSlots": {"General": 1},
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
         "cannotBeBuiltWith": "Barracks",
-        "uniques": ["Only available <in cities with a [Encampment]>","New [Mounted] units start with [15] Experience in this city",
-        	"New [Siege] units start with [15] Experience in this city","All newly-trained [Mounted] units in this city receive the [Ordu] promotion"],
+        "uniques": [
+"[+1 Production] from [Encampment] tiles [in this city]",
+"[+1 Production] from [Ikanda] tiles [in this city]",
+"New [Mounted] units start with [15] Experience in this city",
+"New [Siege] units start with [15] Experience in this city",
+"All newly-trained [Mounted] units in this city receive the [Ordu] promotion",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Horseback Riding"
     },
     {
         "name": "Lighthouse",
         "cost": 120,
-        "gold": 1,
-        "food": 1,
-        "uniques": ["Only available <in cities with a [Harbor]>","New [Water] units start with [15] Experience in this city",
-        	"[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Lake] tiles in this city",
-        	"Provides [1] [Trade Route]","[10]% Food is carried over after population increases [in this city]"],
+        "requiredBuilding": "Harbor",
+        "specialistSlots": {"Admiral": 1},
+        "greatPersonPoints": {"Great Admiral": 1},
+        "uniques": [
+"[+1 Food, +1 Gold] from [Harbor] tiles [in this city]",
+"New [Water] units start with [15] Experience in this city",
+"[+1 Food] from [Coast] tiles in this city",
+"[+1 Food] from [Lake] tiles in this city",
+"Provides [1] [Trade Route]",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -1452,15 +1526,16 @@
     {
         "name": "Shipyard",
         "cost": 290,
-        "production": 2,
         "maintenance": 2,
         "specialistSlots": {"Admiral": 1},
-        "greatPersonPoints": {"Great Admiral": 2},
+        "greatPersonPoints": {"Great Admiral": 1},
         "requiredBuilding": "Lighthouse",
         "uniques": [
+"[+5 Production] from [Harbor] tiles [in this city]",
 "New [Water] units start with [15] Experience in this city",
-"[+2 Production] from [Coast] tiles [in this city]",
-"[+2 Production] from [Lakes] tiles [in this city]"],
+"[+1 Production] from [Coast] tiles [in this city]",
+"[+1 Production] from [Lakes] tiles [in this city]"
+],
         "requiredTech": "Mass Production"
     },
     {
@@ -1632,11 +1707,12 @@
     {
         "name": "Seaport",
         "cost": 440,
-        "food": 2,
-        "gold": 2,
         "maintenance": 0,
         "requiredBuilding": "Shipyard",
+        "specialistSlots": {"Admiral": 1},
+        "greatPersonPoints": {"Great Admiral": 1},
         "uniques": [
+"[+2 Food, +2 Gold] from [Harbor] tiles [in this city]",
 "New [Water] units start with [15] Experience [in this city]",
 "[+2 Gold] from [Coast] tiles [in this city]",
 "[5]% Food is carried over after population increases [in this city]",

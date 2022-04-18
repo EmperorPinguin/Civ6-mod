@@ -44,6 +44,7 @@
 		"cost": 110,
 		"uniques": ["[+1] Sight","Founds a new city", "Excess Food converted to Production when under construction", "Requires at least [2] population"]
 	},
+/*
 	{
 		"name": "Trader",
 		"unitType": "Civilian",
@@ -53,6 +54,7 @@
 		"uniques": ["Can construct [Trade Route (Domestic)]","Can construct [Trade Route (International)]",
 			"Trade Routes on Coastal cities provide +3 yield","Only available <after adopting [Foreign Trade]>"]
 	},
+*/
 	{
 		"name": "Scout",
 		"unitType": "Scout",
@@ -1894,5 +1896,12 @@
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Hippodrome]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+{
+		"name": "Harbor Builder",
+            "cost": 1,
+		"unitType": "Civilian Water",
+		"uniques": ["Can construct [Harbor]", "Cannot enter ocean tiles", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 4
 	},
 ]
