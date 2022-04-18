@@ -20,42 +20,49 @@
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Requires at least [4] population"]
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [4] [Population]>"]
 	},
 {
 		"name": "District3",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Requires at least [7] population"]
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [7] [Population]>"]
 	},
 {
 		"name": "District4",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Requires at least [11] population"]
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [11] [Population]>"]
 	},
 {
 		"name": "District5",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Requires at least [14] population"]
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [14] [Population]>"]
 	},
 {
 		"name": "District6",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Requires at least [17] population"]
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [17] [Population]>"]
 	},
 {
 		"name": "District7",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Requires at least [20] population"]
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [20] [Population]>"]
+	},
+{
+		"name": "District8",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [23] [Population]>"]
 	},
 // Filler
 
