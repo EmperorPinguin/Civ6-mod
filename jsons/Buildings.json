@@ -445,6 +445,7 @@
 "Never destroyed when city is captured",
 "Free [Hippodrome Builder] appears", 
 "Free [Tagma] appears <after adopting [Divine Right]>", 
+"[1] units cost no maintenance",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -1375,14 +1376,18 @@
 "[5]% Food is carried over after population increases [in this city]"
 ]
     },
-    {
+{
         "name": "Armory",
         "cost": 195,
-        "production": 3,
+        "requiredBuilding": "Barracks",
         "specialistSlots": {"Commander": 1},
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Encampment]>","Only available <in cities with a [Barracks]>",
-        	"New [non-air] units start with [15] Experience in this city"],
+        "uniques": [
+"[+3 Production] from [Encampment] tiles [in this city]",
+"[+3 Production] from [Ikanda] tiles [in this city]",
+"New [non-air] units start with [15] Experience in this city"
+],
         "requiredTech": "Military Engineering"
     },  
     {
@@ -1390,7 +1395,8 @@
         "cost": 220,
         "cityHealth": 100,
         "cityStrength": 10,
-        "uniques": ["Only available <in cities with a [Ancient Walls]>","Cannot be purchased"],
+        "requiredBuilding": "Ancient Walls",
+        "uniques": ["Cannot be purchased"],
         "requiredTech": "Castles"
     }, 
 
@@ -1443,9 +1449,13 @@
         "cost": 290,
         "production": 2,
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Harbor]>","Only available <in cities with a [Lighthouse]>",
-        	"New [Water] units start with [15] Experience in this city","[+1 Gold, +1 Production] from [Coast] tiles in this city",
-        	"[+1 Gold, +1 Production] from [Lakes] tiles in this city"],
+        "specialistSlots": {"Commander": 1},
+        "greatPersonPoints": {"Great Admiral": 2},
+        "requiredBuilding": "Lighthouse",
+        "uniques": [
+"New [Water] units start with [15] Experience in this city",
+"[+2 Production] from [Coast] tiles [in this city]",
+"[+2 Production] from [Lakes] tiles [in this city]"],
         "requiredTech": "Mass Production"
     },
     {
@@ -1453,8 +1463,8 @@
         "cost": 300,
         "cityHealth": 100,
         "cityStrength": 10,
-        "uniques": ["Only available <in cities with a [Medieval Walls]>","Cannot be purchased",
-        	"+3 Culture once Conservation is adopted"],
+        "requiredBuilding": "Medieval Walls",
+        "uniques": ["Cannot be purchased", "+3 Culture once Conservation is adopted"],
         "requiredTech": "Siege Tactics"
     }, 
     {
@@ -1462,12 +1472,11 @@
         "replaces": "Renaissance Walls",
         "uniqueTo": "Georgia",
         "cost": 260,
-        "culture": 5,
+        "faith": 4,
         "cityHealth": 200,
         "cityStrength": 10,
         "requiredBuilding": "Medieval Walls",
-        "uniques": ["Only available <in cities with a [Medieval Walls]>","Cannot be purchased",
-        	"+3 Culture once Conservation is adopted"],
+        "uniques": ["[+4 Faith] [in this city] <during a Golden Age>", "Cannot be purchased", "+3 Culture once Conservation is adopted"],
         "requiredTech": "Siege Tactics"
     }, 
 
@@ -1476,11 +1485,13 @@
     {
         "name": "Factory",
         "cost": 330,
-        "production": 5,
+        "requiredBuilding": "Workshop",
         "specialistSlots": {"Engineer": 1},
-        "greatPersonPoints": {"production": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Workshop]>"],
+        "uniques": [
+"[+3 Production] from every [City center]"
+],
         "requiredTech": "Industrialization"
     },
     {
@@ -1488,22 +1499,28 @@
         "replaces": "Factory",
         "uniqueTo": "Japan",
         "cost": 330,
-        "production": 6,
+        "requiredBuilding": "Workshop",
         "specialistSlots": {"Engineer": 1},
-        "greatPersonPoints": {"production": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Workshop]>",
-        	"[+4 Culture] <after discovering [Electricity]>"],
+        "uniques": [
+"[+4 Production] from every [City center]",
+"[+4 Culture] <after discovering [Electricity]>"],
         "requiredTech": "Industrialization"
     },
     {
         "name": "Military Academy",
         "cost": 330,
-        "production": 4,
+        "requiredBuilding": "Armory",
         "specialistSlots": {"Commander": 1},
+        "greatPersonPoints": {"Great General": 1},
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Encampment]>","Only available <in cities with a [Armory]>",
-        	"New [non-air] units start with [15] Experience in this city","[5]% Food is carried over after population increases [in this city]"],
+        "uniques": [
+"[+4 Production] from [Encampment] tiles [in this city]",
+"[+4 Production] from [Ikanda] tiles [in this city]",
+"New [non-air] units start with [15] Experience in this city",
+"[5]% Food is carried over after population increases [in this city]"
+],
         "requiredTech": "Military Science"
     }, 
     {
@@ -1530,10 +1547,12 @@
     {
         "name": "Zoo",
         "cost": 360,
-        "happiness": 2,
         "maintenance": 2,
-        "uniques": ["Only available <if [Entertainment Complex] is constructed>","Only available <in cities with a [Arena]>",
-        	"[+1 Science] from [Forest] tiles in this city","[+1 Science] from [Marsh] tiles in this city",
+        "requiredBuilding": "Arena",
+        "uniques": [
+"[+1 Happiness] from every [City center]",
+"[+1 Science] from [Jungle] tiles in this city",
+"[+1 Science] from [Marsh] tiles in this city",
         	"Only available <after adopting [Natural History]>"]
     },
     {
@@ -1541,11 +1560,13 @@
         "replaces": "Zoo",
         "uniqueTo": "Hungary",
         "cost": 360,
-        "happiness": 3,
-        "production": 2,
         "maintenance": 2,
-        "uniques": ["Only available <if [Entertainment Complex] is constructed>","Only available <in cities with a [Zoo]>",
-        	"[+2 Happiness, +3 Culture] from [Geothermal Fissure] tiles in this city","Only available <after adopting [Natural History]>"]
+        "requiredBuilding": "Arena",
+        "uniques": [
+"[+2 Production, +2 Happiness] from every [City center]",
+"[+2 Happiness, +3 Culture] from [Geothermal Fissure] tiles [in this city]",
+"Only available <after adopting [Natural History]>"
+]
     },
     {
         "name": "Ferris Wheel",
@@ -1567,13 +1588,24 @@
     {
         "name": "Coal Power Plant",
         "cost": 300,
-        "production": 7,
+        "requiredResource": "Coal",
+        "requiredBuilding": "Factory",
         "specialistSlots": {"Engineer": 1},
-        "greatPersonPoints": {"production": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 3,
-        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Factory]>"],
-        "requiredTech": "Industrialization"
+        "uniques": [
+"[+5 Production] from [Industrial Zone] tiles [in this city]",
+"[+1 Production] from every specialist [in this city]",
+"Gain a free [Power] [in this city]"
+],
+        "requiredTech": "Industrialization",
+        "cannotBeBuiltWith": "Power"
     },
+{
+		"name": "Power",
+		"cost": -1,
+		"uniques": ["Unbuildable"],
+	},
 
     // Modern Era 
 
@@ -1582,7 +1614,11 @@
         "cost": 380,
         "production": 2,
         "maintenance": 1,
-        "uniques": ["Only available <in cities with a [Aerodrome]>","New [Fighter] units start with [15] Experience in this city","New [Bomber] units start with [15] Experience in this city"],
+        "requiredBuilding": "Aerodrome",
+        "uniques": [
+"New [Fighter] units start with [15] Experience in this city",
+"New [Bomber] units start with [15] Experience in this city"
+],
         "requiredTech": "Flight"
     },
     {
@@ -1590,31 +1626,47 @@
         "cost": 440,
         "food": 2,
         "gold": 2,
-        "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Harbor]>","Only available <in cities with a [Shipyard]>",
-        	"New [Water] units start with [15] Experience in this city","[+2 Gold] from [Coast] tiles in this city",
-        	"[5]% Food is carried over after population increases [in this city]"],
+        "maintenance": 0,
+        "requiredBuilding": "Shipyard",
+        "uniques": [
+"New [Water] units start with [15] Experience [in this city]",
+"[+2 Gold] from [Coast] tiles [in this city]",
+"[5]% Food is carried over after population increases [in this city]",
+"[+1 Food] from every specialist [in this city]"
+],
         "requiredTech": "Electricity"
     },
     {
         "name": "Oil Power Plant",
         "cost": 360,
-        "production": 7,
-        "specialistSlots": {"Engineer": 1},
-        "greatPersonPoints": {"production": 1},
-        "maintenance": 3,
-        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Factory]>"],
         "requiredResource": "Oil",
-        "requiredTech": "Electricity"
+        "requiredBuilding": "Factory",
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
+        "maintenance": 3,
+        "uniques": [
+"[+3 Production] from every [City center]",
+"[+1 Production] from every specialist [in this city]",
+"Gain a free [Power] [in this city]"
+],
+        "requiredTech": "Electricity",
+        "cannotBeBuiltWith": "Power"
     },
     {
         "name": "Broadcast Center",
         "cost": 440,
         "culture": 4,
+        "requiredBuilding": "Art Museum",
         "specialistSlots": {"Artist": 1},
-        "greatPersonPoints": {"culture": 2},
+        "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
-        "uniques": ["Only available <in cities with a [Theater Square]>","Only available <in cities with a [Art Museum]>"],
+        "uniques": [
+"[+4 Culture] from [Theatre Square] tiles [in this city]",
+"[+4 Culture] from [Acropolis] tiles [in this city]",
+"[+4 Culture] from [Japanese Theatre Square] tiles [in this city]",
+"[+4 Culture] from [Brazilian Theatre Square] tiles [in this city]",
+"[+4 Culture] from [Dutch Theatre Square] tiles [in this city]",
+],
         "requiredTech": "Radio"
     },
     {
@@ -1651,7 +1703,7 @@
         "cost": 440,
         "food": 5,
         "maintenance": 1,
-        "uniques": ["Only available <in cities with a [Neighborhood]>"],
+        "requiredBuilding": "Neighborhood",
         "cannotBeBuiltWith": "Shopping Mall",
         "requiredTech": "Replaceable Parts"
     },
@@ -1662,8 +1714,9 @@
         "gold": 3,
         "happiness": 1,
         "maintenance": 1,
-        "uniques": ["Only available <if [Neighborhood] is constructed>","Only available <after adopting [Capitalism]>"],
-        "cannotBeBuiltWith": "Shopping Mall"
+        "requiredBuilding": "Neighborhood",
+        "uniques": ["Only available <after adopting [Capitalism]>"],
+        "cannotBeBuiltWith": "Food Market"
     },
 
     // Atomic Era 
@@ -1673,18 +1726,23 @@
         "cost": 480,
         "production": 5,
         "maintenance": 2,
-        "uniques": ["Only available <in cities with a [Aerodrome]>","Only available <in cities with a [Hangar]>",
-        	"New [Fighter] units start with [30] Experience in this city","New [Bomber] units start with [30] Experience in this city"],
+        "requiredBuilding": "Hangar",
+        "uniques": [
+"Only available <in cities with a [Hangar]>",
+"New [Fighter] units start with [30] Experience in this city",
+"New [Bomber] units start with [30] Experience in this city"
+],
         "requiredTech": "Advanced Flight"
     },
     {
         "name": "Stadium",
         "cost": 480,
-        "culture": 5,
-        "happiness": 3,
         "maintenance": 3,
-        "uniques": ["Only available <if [Entertainment Complex] is constructed>","Only available <if [Zoo] is constructed>",
-        	"Only available <after adopting [Professional Sports]>"]
+        "requiredBuilding": "Zoo",
+        "uniques": [
+"[+2 Happiness] from every [City center]",
+"Only available <after adopting [Professional Sports]>"
+]
     },
     {
         "name": "Aquatics Center",
@@ -1698,14 +1756,18 @@
     {
         "name": "Nuclear Power Plant",
         "cost": 360,
-        "production": 10,
-        "science": 3,
-        "specialistSlots": {"Engineer": 1},
-        "greatPersonPoints": {"production": 1},
-        "maintenance": 3,
-        "uniques": ["Only available <in cities with a [Industrial Zone]>","Only available <in cities with a [Factory]>"],
         "requiredResource": "Uranium",
-        "requiredTech": "Nuclear Fission"
+        "requiredBuilding": "Factory",
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
+        "maintenance": 3,
+        "uniques": [
+"[+4 Production, +3 Science] from every [City center]",
+"[+1 Production] from every specialist [in this city]",
+"Gain a free [Power] [in this city]"
+],
+        "requiredTech": "Nuclear Fission",
+        "cannotBeBuiltWith": "Power"
     },
     {
         "name": "Manhattan Project",
