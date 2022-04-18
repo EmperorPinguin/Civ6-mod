@@ -1554,10 +1554,13 @@
         "maintenance": 2,
         "requiredBuilding": "Arena",
         "uniques": [
-"[+1 Happiness] from every [City center]",
+"[+4 Happiness] from [Entertainment Complex] tiles [in this city]",
+"[+4 Happiness] from [Street Carnival] tiles [in this city]",
+"[+4 Happiness] from [Hippodrome] tiles [in this city]",
 "[+1 Science] from [Jungle] tiles in this city",
 "[+1 Science] from [Marsh] tiles in this city",
-        	"Only available <after adopting [Natural History]>"]
+"Only available <after adopting [Natural History]>"
+]
     },
     {
         "name": "Thermal Bath",
@@ -1567,7 +1570,7 @@
         "maintenance": 2,
         "requiredBuilding": "Arena",
         "uniques": [
-"[+2 Production, +2 Happiness] from every [City center]",
+"[+8 Production, +8 Happiness] from [Entertainment Complex] tiles [in this city]",
 "[+2 Happiness, +3 Culture] from [Geothermal Fissure] tiles [in this city]",
 "Only available <after adopting [Natural History]>"
 ]
@@ -1742,7 +1745,9 @@
         "maintenance": 3,
         "requiredBuilding": "Zoo",
         "uniques": [
-"[+2 Happiness] from every [City center]",
+"[+8 Happiness] from [Entertainment Complex] tiles [in this city]",
+"[+8 Happiness] from [Street Carnival] tiles [in this city]",
+"[+8 Happiness] from [Hippodrome] tiles [in this city]",
 "Only available <after adopting [Professional Sports]>"
 ]
     },
