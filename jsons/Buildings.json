@@ -1176,12 +1176,11 @@
         "maintenance": 1,
         "cannotBeBuiltWith": "Stable",
 		"uniques": [
-"[+1 Production] from [Encampment] tiles [in this city]",
+"[+1 Production, +5 Science] from [Encampment] tiles [in this city]",
 "New [Melee] units start with [15] Experience in this city",
 "New [Ranged] units start with [15] Experience in this city",
 "New [Armor] units start with [15] Experience in this city",
 "[5]% Food is carried over after population increases [in this city]"
-"[+10]% [Science] [in this city]"
 ],
         "requiredTech": "Bronze Working"
     },
@@ -1535,6 +1534,7 @@
 "[+2 Culture] from [Japanese Theatre Square] tiles [in this city]",
 "[+2 Culture] from [Brazilian Theatre Square] tiles [in this city]",
 "[+2 Culture] from [Dutch Theatre Square] tiles [in this city]",
+"[+100]% Yield from every [Archaeological Dig]",
 "Only available <after adopting [Humanism]>"
 ]
     },
@@ -1639,6 +1639,7 @@
 "[+7 Gold] from [Suguba] tiles [in this city]",
 "[+7 Gold] from [Japanese Commercial Hub] tiles [in this city]",
 "[+7 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
+"[+1 Gold] from every specialist [in this city]"
 ],
         "requiredTech": "Economics"
     },
@@ -1766,7 +1767,6 @@
     {
         "name": "Broadcast Center",
         "cost": 440,
-        "culture": 4,
         "requiredBuilding": "Art Museum",
         "specialistSlots": {"Artist": 1},
         "greatPersonPoints": {"Great Artist": 2},
@@ -1777,6 +1777,7 @@
 "[+4 Culture] from [Japanese Theatre Square] tiles [in this city]",
 "[+4 Culture] from [Brazilian Theatre Square] tiles [in this city]",
 "[+4 Culture] from [Dutch Theatre Square] tiles [in this city]",
+"[+1 Culture] from every specialist [in this city]"
 ],
         "requiredTech": "Radio"
     },
@@ -1785,12 +1786,14 @@
         "replaces": "Broadcast Center",
         "uniqueTo": "America",
         "cost": 440,
-        "culture": 4,
-        "percentStatBonus": {"culture": 100},
         "specialistSlots": {"Artist": 1},
         "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
-        "uniques": ["Only available <in cities with a [Theater Square]>","Only available <in cities with a [Art Museum]>","Culture +100% vs +0%"],
+        "uniques": [
+"[+4 Culture] from [Theatre Square] tiles [in this city]",
+"[+1 Culture] from every specialist [in this city]",
+"[+100]% [Culture] [in this city]"
+],
         "requiredTech": "Radio"
     },
     {
@@ -1812,7 +1815,6 @@
     {
         "name": "Food Market",
         "cost": 380,
-        "food": 5,
         "maintenance": 1,
         "requiredBuilding": "Neighborhood",
         "cannotBeBuiltWith": "Shopping Mall",
