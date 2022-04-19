@@ -1904,5 +1904,15 @@
 
     // Future Era
 
+//Religious buildings
+{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 3,
+		"culture": 2,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding: "Holy Site"
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
 
 ]
