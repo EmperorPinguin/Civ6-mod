@@ -1695,7 +1695,7 @@
 	},
 {
 		"name": "Dutch Campus Builder",
-		"uniqueTo": "Dutch Campus Builder",
+		"uniqueTo": "The Netherlands",
 		"replaces": "Campus Builder",
             "cost": 1,
 		"unitType": "Civilian",

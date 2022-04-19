@@ -505,8 +505,9 @@
 "[+1 Food, +2 Gold] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city"
+"[+3 Gold] from [Trade Route (International)] tiles in this city",
 */
+"Must be next to [Coast]"
 ],
 		"requiredTech": "Celestial Navigation"
 	},
