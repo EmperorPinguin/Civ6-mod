@@ -1911,7 +1911,7 @@
 		"faith": 3,
 		"culture": 2,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding: "Holy Site"
+            "requiredBuilding": "Holy Site"
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 
