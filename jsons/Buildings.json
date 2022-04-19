@@ -1427,7 +1427,7 @@
 {
         "name": "Workshop",
         "cost": 195,
-        "requiredBuilding": "Shrine",
+        "requiredBuilding": "Industrial Zone",
         "maintenance": 1,
         "specialistSlots": {"Engineer": 1},
         "greatPersonPoints": {"Great Engineer": 1},
