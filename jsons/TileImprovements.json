@@ -870,4 +870,36 @@
 "[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
 ]
 	},
+{
+		"name": "Neighbourhood",
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+]
+	},
+{
+		"name": "Mbanza",
+            "food": 2,
+            "gold": 4,
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+]
+	},
+{
+		"name": "Water Park",
+            "happiness": 1,
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+]
+	},
+{
+		"name": "Copacabana",
+            "happiness": 2,
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+]
+	},
 ]

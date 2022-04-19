@@ -557,22 +557,31 @@
         "requiredTech": "Celestial Navigation"
     },
     {
-        "name": "Neighborhood",
-        "cost": 54,
-        "uniques": [
-"[10]% Food is carried over after population increases [in this city]",
-"Only available <after adopting [Urbanization]>"]
+            "name": "Neighborhood",
+            "cost": 54,
+            "requiredResource": "Districts",
+		"maintenance": 0,
+            "uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Neighbouhood Builder] appears",
+"[20]% Food is carried over after population increases [in this city]",
+"Only available <after adopting [Urbanization]>"
+]
     },
     {
-        "name": "Mbanza",
-        "replaces": "Neighborhood",
-        "uniqueTo": "Kongo",
-        "cost": 27,
-        "food": 2,
-        "gold": 4,
-        "uniques": [
-"[15]% Food is carried over after population increases [in this city]",
-"Only available <after adopting [Guilds]>"]
+            "name": "Mbanza",
+            "replaces": "Neighborhood",
+            "uniqueTo": "Kongo",
+            "requiredResource": "Districts",
+            "cost": 27,
+            "uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Mbanza Builder] appears",
+"[25]% Food is carried over after population increases [in this city]",
+"Only available <after adopting [Guilds]>"
+]
     },
     {
         "name": "Aerodrome",
@@ -594,12 +603,14 @@
         "requiredTech": "Rocketry"
     },
     {
-        "name": "Water Park",
-        "cost": 54,
-        "happiness": 1,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": [
+            "name": "Water Park",
+            "cost": 54,
+            "maintenance": 1,
+            "cannotBeBuiltWith": "Entertainment Complex",
+            "uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Water Park Builder] appears",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -609,14 +620,16 @@
 ]
     },
 {
-        "name": "Copacabana",
-        "replaces": "Water Park",
-        "uniqueTo": "Brazil",
-        "cost": 27,
-        "happiness": 3,
-        "maintenance": 1,
-        "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": [
+            "name": "Copacabana",
+            "replaces": "Water Park",
+            "uniqueTo": "Brazil",
+            "cost": 27,
+            "maintenance": 1,
+            "cannotBeBuiltWith": "Entertainment Complex",
+            "uniques": [
+"Unsellable",
+"Never destroyed when city is captured",
+"Free [Copacabana Builder] appears",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -1658,19 +1671,30 @@
     {
         "name": "Ferris Wheel",
         "cost": 290,
-        "culture": 4,
-        "happiness": 2,
         "maintenance": 1,
-        "uniques": ["Only available <if [Water Park] is constructed>","Only available <after adopting [Natural History]>"]
+        "requiredBuilding": "Water Park",
+        "uniques": [
+"[+3 Culture, +2 Happiness] from [Water Park] tiles [in this city]",
+"[+3 Culture, +2 Happiness] from [Copacabana] tiles [in this city]",
+"[+1 Science] from [Water resource] tiles in this city",
+"[+1 Science] from [Shipwreck] tiles in this city",
+"[+1 Science] from [Reef] tiles in this city",
+"Only available <after adopting [Natural History]>"
+]
     },
     {
         "name": "Aquarium",
         "cost": 360,
-        "culture": 4,
-        "happiness": 2,
         "maintenance": 1,
-        "uniques": ["Only available <if [Water Park] is constructed>","[+1 Science] from [Water resource] tiles in this city",
-        	"[+1 Science] from [Reef] tiles in this city","Only available <after adopting [Natural History]>"]
+        "requiredBuilding": "Ferris Wheel",
+        "uniques": [
+"[+4 Happiness] from [Water Park] tiles [in this city]",
+"[+4 Happiness] from [Copacabana] tiles [in this city]",
+"[+1 Science] from [Water resource] tiles in this city",
+"[+1 Science] from [Shipwreck] tiles in this city",
+"[+1 Science] from [Reef] tiles in this city",
+"Only available <after adopting [Natural History]>"
+]
     },
     {
         "name": "Coal Power Plant",
@@ -1786,22 +1810,27 @@
     },
     {
         "name": "Food Market",
-        "cost": 440,
+        "cost": 380,
         "food": 5,
         "maintenance": 1,
         "requiredBuilding": "Neighborhood",
         "cannotBeBuiltWith": "Shopping Mall",
+        "uniques": [
+"[+4 Food] from [Neighbourhood] tiles [in this city]",
+"[+4 Food] from [Mbanza] tiles [in this city]"
+],
         "requiredTech": "Replaceable Parts"
     },
     {
         "name": "Shopping Mall",
         "cost": 440,
-        "culture": 4,
-        "gold": 3,
-        "happiness": 1,
         "maintenance": 1,
         "requiredBuilding": "Neighborhood",
-        "uniques": ["Only available <after adopting [Capitalism]>"],
+        "uniques": [
+"[+2 Gold, +4 Culture, +1 Happiness] from [Neighbourhood] tiles [in this city]",
+"[+2 Gold, +4 Culture, +1 Happiness] from [Mbanza] tiles [in this city]",
+"Only available <after adopting [Capitalism]>"
+],
         "cannotBeBuiltWith": "Food Market"
     },
 

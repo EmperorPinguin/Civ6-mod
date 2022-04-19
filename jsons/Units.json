@@ -1904,4 +1904,36 @@
 		"uniques": ["Can construct [Harbor]", "Cannot enter ocean tiles", "Cannot be purchased", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
+{
+		"name": "Water Park Builder",
+            "cost": 1,
+		"unitType": "Civilian Water",
+		"uniques": ["Can construct [Water Park]", "Cannot enter ocean tiles", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+{
+		"name": "Copacabana Builder",
+		"uniqueTo": "Brazil",
+		"replaces": "Water Park Builder",
+            "cost": 1,
+		"unitType": "Civilian Water",
+		"uniques": ["Can construct [Copacabana]", "Cannot enter ocean tiles", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+{
+		"name": "Neighbourhood Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Neighbourhood]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+{
+		"name": "Mbanza Builder",
+		"uniqueTo": "Kongo",
+		"replaces": "Neighbourhood Builder",
+            "cost": 1,
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Mbanza]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]
