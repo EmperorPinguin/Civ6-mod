@@ -198,6 +198,11 @@
         "uniques": ["[+7 Faith] from every [Archaeological Dig]"]
     },
 {
+        "name": "Warrior Monks",
+        "type": "Follower",
+        "uniques": [May buy [baseUnitFilter] units for [amount] [stat] [cityFilter]]
+    },
+{
         "name": "Work Ethic",
         "type": "Follower",
         "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
