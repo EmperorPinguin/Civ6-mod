@@ -200,7 +200,7 @@
 {
         "name": "Warrior Monks",
         "type": "Follower",
-        "uniques": [May buy [baseUnitFilter] units for [amount] [stat] [cityFilter]]
+        "uniques": [May buy [Warrior Monk] units for [amount] [stat] [cityFilter]]
     },
 {
         "name": "Work Ethic",
