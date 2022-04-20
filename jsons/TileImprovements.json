@@ -239,7 +239,7 @@
 		"gold": 2,
 		"turnsToBuild":7,
 		"techRequired": "Printing",
-		"uniques": ["Can also be built on tiles adjacent to Fresh water",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+2 Culture] <after discovering [Flight]>"]
 	},
 	{
