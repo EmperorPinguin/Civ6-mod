@@ -89,14 +89,6 @@
 		"maintenance": 0,
 		"uniques": ["Must be next to [Coast]", "[5]% Food is carried over after population increases [in this city]"]
 	},
-{
-		"name": "Hill Bonus",
-		"cost": 1,
-		"hurryCostModifier": -100,
-		"maintenance": 0,
-		"cityStrength": 5,
-		"uniques": ["Must be on [Hill]"]
-	},
     {
         "name": "~l1",
         "isNationalWonder": "true",
