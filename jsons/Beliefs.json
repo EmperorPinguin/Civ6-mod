@@ -43,7 +43,7 @@
     {
         "name": "God of Healing",
         "type": "Pantheon",
-        "uniques": ["[+30] HP when healing <in [Holy Site] tiles> <for [All] units>"]
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
     },
     {
         "name": "God of the Forge",
@@ -78,7 +78,7 @@
 	    {
         "name": "Initiation Rites",
         "type": "Pantheon",
-        "uniques": ["Earn [100]% of killed [Barbarian] unit's [Strength] as [Faith]"]
+        "uniques": ["[+50 Faith] when a city adopts this religion for the first time (modified by game speed)"]
     },
     {
         "name": "Goddess of the Hunt",
@@ -88,7 +88,7 @@
 	    {
         "name": "Lady of the Reeds and Marshes",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood Plains]"]
+        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood plains]"]
     },
     {
         "name": "Monument to the Gods",
