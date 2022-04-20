@@ -245,7 +245,7 @@ Wonders enabled:
 * Barbary Corsair (No movement cost to pillage, Invisible to others, Can attack submarines, Strength: 40, Ranged strength: 50, Movement: 4
 Wonders enabled:
 * Angkor Wat (+2 Culture, +1 population in each city, +10% growth in all cities)",
-					"[+5]% [Culture] from every [Theater Square]"],
+					"[+5]% [Culture] from every [Theatre Square]"],
 				"requires": ["Feudalism"],
 				"row": 2,
 				"column": 17
@@ -430,7 +430,7 @@ Wonders enabled:
 				"name": "Drama and Poetry",
 				"uniques": [
 "Districts enabled:
-* Theater Square (+3 Culture, +1 Culture from every Wonder)
+* Theatre Square (+3 Culture, +1 Culture from every Wonder)
 * Acropolis (+6 Culture, +1 Culture from every Wonder)
 Buildings enabled:
 * Amphitheater (+2 Culture)
@@ -448,7 +448,7 @@ Buildings enabled:
 * Prasat (+2 Culture, All newly-trained Civilian units in this city receive the Martyr promotion)
 * Stave Church (+2 Culture, +1 Production, +1 Production from Water resource tiles in this city)
 * Madrasa (+5 science, +3 Culture, 5% of food is carried over after population increases)",
-					"[+10]% [Culture] from every [Theater Square]"],
+					"[+10]% [Culture] from every [Theatre Square]"],
 				"requires": ["Drama and Poetry","Mysticism"],
 				"row": 3,
 				"column": 13
@@ -476,7 +476,7 @@ Buildings enabled:
 				"uniques": [
 "Wonders enabled:
 * St. Basil's Cathedral (+1 Food, +1 Production, +1 Culture from Tundra tiles in this city)",
-					"[+4 Culture] from every [Theater Square]","[+2 Culture] from every [Golf Course]"],
+					"[+4 Culture] from every [Theatre Square]","[+2 Culture] from every [Golf Course]"],
 				"requires": ["Divine Right"],
 				"row": 3,
 				"column": 23
@@ -493,7 +493,7 @@ Buildings enabled:
 				"uniques": [
 "Wonders enabled:
 * Bolshoi Theatre (2 Free Social Policies, Must be on River)",
-					"[+10]% [Culture] from every [Theater Square]"],
+					"[+10]% [Culture] from every [Theatre Square]"],
 				"requires": ["The Enlightenment"],
 				"row": 3,
 				"column": 29
@@ -534,7 +534,7 @@ Buildings enabled:
 * Aquatics Center (+6 Culture, +4 Happiness)
 Wonders enabled:
 * Estadio de Maracana (+6 Culture, +2 Happiness in all cities)",
-					"[+10]% [Culture] from every [Theater Square]","[+1 Happiness] from every [Stadium]",
+					"[+10]% [Culture] from every [Theatre Square]","[+1 Happiness] from every [Stadium]",
 					"[+2 Culture] from every [Ice Hockey Rink]","[+1 Food] from every [Stepwell]"],
 				"requires": ["Ideology"],
 				"row": 3,

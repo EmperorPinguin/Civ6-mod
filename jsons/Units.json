@@ -318,7 +318,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["[+1] Sight","Double movement in [terrainFilter]",
+		"uniques": ["[+1] Sight","Double movement in [Woods]","Double movement in [Rainforest]",
 			"+33% Defence against ranged attacks","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
@@ -632,7 +632,7 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Double movement in [terrainFilter]","[+1] Sight"],
+		"uniques": ["Double movement in [Hill]","[+1] Sight"],
 		"attackSound": "horse"
 	},
 	{

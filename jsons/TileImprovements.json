@@ -239,7 +239,7 @@
 		"gold": 2,
 		"turnsToBuild":7,
 		"techRequired": "Printing",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
+		"uniques": ["Can also be built on tiles adjacent to Fresh water",
 			"[+2 Culture] <after discovering [Flight]>"]
 	},
 	{
@@ -447,7 +447,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"uniques": ["[+1 Production] from [fresh water] tiles <after discovering [Pottery]>",
+		"uniques": ["[+1 Production] from [Fresh water] tiles <after discovering [Pottery]>",
 		"[+1 Food] for each adjacent [Mountain]"]//Aqueducts should give +2 production per Terrace Farm
 	},
 	{
@@ -456,7 +456,7 @@
 		"science": 2,
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Grassland","Desert","Plains","Tundra"],
-		"uniques": ["[+1 Culture] from [fresh water] tiles <after discovering [Pottery]>",
+		"uniques": ["[+1 Culture] from [Fresh water] tiles <after discovering [Pottery]>",
 			"+1 Culture once Natural History is adopted"]
 	},
 { 
@@ -765,9 +765,9 @@
 "[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
 "[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
 "[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
-"[+1 Production] <with [2] to [3] neighboring [Lumber Mill] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Lumber Mill] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Lumber Mill] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
 "[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -808,9 +808,9 @@
 "[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
 "[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
 "[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
-"[+1 Production] <with [2] to [3] neighboring [Lumber Mill] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Lumber Mill] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Lumber Mill] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
 "[+1 Production] for each adjacent [Great Improvement]"
 ]
 	},
@@ -824,9 +824,9 @@
 "[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
 "[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
 "[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
-"[+1 Production] <with [2] to [3] neighboring [Lumber Mill] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Lumber Mill] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Lumber Mill] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
 "[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>",

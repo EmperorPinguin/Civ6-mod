@@ -3489,18 +3489,18 @@ TileSets/FantasyHex/Tiles/Grassland+Flood plains
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Antiquity Site
-  rotate: false
-  xy: 244, 17
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/Grassland+Geothermal Fissure
   rotate: false
-  xy: 1540, 702
+  xy: 244, 20
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Woods+Antiquity Site
+  rotate: false
+  xy: 1540, 699
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gypsum
@@ -3510,7 +3510,7 @@ TileSets/FantasyHex/Tiles/Gypsum
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site
+TileSets/FantasyHex/Tiles/Hill+Woods+Antiquity Site
   rotate: false
   xy: 324, 20
   size: 32, 28
@@ -3608,44 +3608,51 @@ TileSets/FantasyHex/Tiles/Plains+Flood plains
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest+Antiquity Site
+TileSets/FantasyHex/Tiles/Plains+Geothermal Fissure
   rotate: false
-  xy: 1860, 697
+  xy: 1860, 702
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Rainforest+Antiquity Site
+  rotate: false
+  xy: 1900, 697
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Geothermal Fissure
+TileSets/FantasyHex/Tiles/Rainforest
   rotate: false
-  xy: 1900, 702
-  size: 32, 28
-  orig: 32, 28
+  xy: 1940, 698
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rice
-  rotate: false
-  xy: 1940, 702
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Salt
   rotate: false
   xy: 1980, 702
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Salt
+  rotate: false
+  xy: 1071, 508
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Shipwreck
   rotate: false
-  xy: 1071, 506
+  xy: 1031, 473
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow+Geothermal Fissure
   rotate: false
-  xy: 1031, 475
+  xy: 1071, 472
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -3687,35 +3694,42 @@ TileSets/FantasyHex/Tiles/Trade Route (International)
   index: -1
 TileSets/FantasyHex/Tiles/Truffles
   rotate: false
-  xy: 858, 336
+  xy: 1111, 510
   size: 32, 28
   orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
-  rotate: false
-  xy: 1177, 575
-  size: 32, 32
-  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Geothermal Fissure
   rotate: false
-  xy: 768, 242
+  xy: 1111, 474
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Woods+Antiquity Site
+  rotate: false
+  xy: 858, 332
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Turtles
   rotate: false
-  xy: 898, 336
+  xy: 1177, 579
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Woods
+  rotate: false
+  xy: 768, 238
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Ziggurat
   rotate: false
-  xy: 1111, 540
+  xy: 660, 126
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -3736,7 +3750,7 @@ TileSets/FantasyHex/Units/Helicopter
   index: -1
 TileSets/FantasyHex/Units/Trader
   rotate: false
-  xy: 1071, 464
+  xy: 1111, 546
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
