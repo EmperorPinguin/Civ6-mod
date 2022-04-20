@@ -255,72 +255,46 @@
         "uniques": ["[+1 Culture] for every [4] global followers [in all cities]"]
     },
 // ENHANCERS
-/*
-	{
-        "name": "Defender of the Faith",
-        "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
-    },
-		{
-        "name": "Dharma",
-        "type": "Enhancer",
-        "uniques": ["[+8 Science] from every [Grand Temple]"]
-    },
-			{
-        "name": "Disciples",
-        "type": "Enhancer",
-        "uniques": ["[+2 Culture, +2 Gold] from every [Great Improvement]"]
-    },
-			{
-        "name": "Hajj",
-        "type": "Enhancer",
-        "uniques": ["[+3 Food, +3 Production, +3 Culture] from every [Palace]"]
-    },
-	{
-		"name": "Indulgences",
-		"type": "Enhancer",
-		"uniques": ["[+1 Food, +1 Production, +1 Gold, +1 Culture, +1 Faith] [in cities following this religion]"]
-	},
-	{
-        "name": "Just War",
+
+{
+        "name": "Crusade",
         "type": "Enhancer",
         "uniques": ["[+20]% Strength <for [Non-City] units> <when fighting in [Enemy Land] tiles>"],
     },
-	{
-		"name": "Karma",
-		"type": "Enhancer",
-		"uniques": ["[+8 Culture] [in holy cities]"]
-	},
-	{
-        "name": "Kotel",
+{
+        "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+6 Happiness] from every [Palace]"]
+        "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
     },
- {
-        "name": "Messiah",
+{
+        "name": "Holy Order",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
     },
-    {
+{
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+    },
+{
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+2] Movement <for [Great Prophet] units>", "[+2] Movement <for [Missionary] units>", "[+2] Movement <for [Inquisitor] units>"]
     },
-    {
-        "name": "Religious Texts",
+{
+        "name": "Monastic Isolation",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>", "[+25]% Spread Religion Strength <for [Great Prophet] units>"]
     },
-    {
-        "name": "Religious Unity",
+{
+        "name": "Religious Colonization",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+        "uniques": ["[+50]% Natural religion spread [in all cities connected to capital]"]
     },
-    {
-        "name": "Reliquary",
+{
+        "name": "Scripture",
         "type": "Enhancer",
-        "uniques": ["[+50 Faith] whenever a Great Person is expended"]
-    }
-*/
+        "uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Printing]>"]
+    },
 ]
 
