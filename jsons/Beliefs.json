@@ -200,7 +200,7 @@
 {
         "name": "Warrior Monks",
         "type": "Follower",
-        "uniques": ["May buy [Warrior Monk] units for [200] [Faith] [in all cities]"]
+        "uniques": ["May buy [Warrior Monk] units for [200] [Faith] <in cities with a [Temple]>"]
     },
 {
         "name": "Work Ethic",
