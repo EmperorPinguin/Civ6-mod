@@ -1093,13 +1093,12 @@
 "Indicates the capital city",
 "Gain a free [City Center] [in all cities]",
 "[-1 Gold] from every [River]",
- "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>",
- //"May buy [Great Prophet] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Ancient era]>"
+ "May buy [Great Admiral] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+ "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+ "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+ "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+ "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+ "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>"
 ]
     },
     {
