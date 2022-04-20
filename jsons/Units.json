@@ -1568,7 +1568,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [10]-turn golden age", "Great Person - [Culture]","Unbuildable"],
+		"uniques": ["Can start an [10]-turn golden age", "Great Person - [Culture]","Unbuildable","Uncapturable"],
 		"movement": 4
 	},
 	{
@@ -1596,7 +1596,7 @@
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
-			"Takes your religion over the one in their birth city"],
+			"Takes your religion over the one in their birth city", "Uncapturable"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},

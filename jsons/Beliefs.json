@@ -23,7 +23,7 @@
     {
         "name": "Earth Godess",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Forest] tiles without [Lumber Mill] [in this city]"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
     },
     {
         "name": "Fertility Rites",
@@ -88,7 +88,7 @@
 	    {
         "name": "Lady of the Reeds and Marshes",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Prduction] from every [Oasis]", "[+2 Prduction] from every [Flood Plains]"]
+        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood Plains]"]
     },
     {
         "name": "Monument to the Gods",
@@ -128,44 +128,49 @@
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
 {
-        "name": "Cathedrals",
+        "name": "Cathedral",
         "type": "Follower",
         "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Dar-e Mehr",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Dar-e Mehr] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Gurdwara",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Gurdwara] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Meeting House",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Meeting House] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Mosque",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Mosque] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Pagoda",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Pagoda] buildings for [225] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Stupa",
+        "type": "Follower",
+        "uniques": ["May buy [Stupa] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Synagogue",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Synagogue] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Wat",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Wat] buildings for [225] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Choral Music",

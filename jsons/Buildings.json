@@ -1534,7 +1534,7 @@
 "[+2 Culture] from [Japanese Theatre Square] tiles [in this city]",
 "[+2 Culture] from [Brazilian Theatre Square] tiles [in this city]",
 "[+2 Culture] from [Dutch Theatre Square] tiles [in this city]",
-"[+100]% Yield from every [Archaeological Dig]",
+"[+7 Culture] from every [Archaeological Dig]",
 "Only available <after adopting [Humanism]>"
 ]
     },
@@ -1908,11 +1908,141 @@
 {
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 3,
-		"culture": 2,
 		"specialistSlots": {"Prophet": 1},
             "requiredBuilding": "Holy Site"
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+"[+2 Culture, +3 Faith] from [Holy Site] tiles [in this city]",
+"[+2 Culture, +3 Faith] from [Lavra] tiles [in this city]"
+"[+2 Culture, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+2 Culture, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Gold] from every specialist [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Dar-e Mehr",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+5 Faith] from [Holy Site] tiles [in this city]",
+"[+5 Faith] from [Lavra] tiles [in this city]"
+"[+5 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+5 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Gurdwara",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+2 Food, +3 Faith] from [Holy Site] tiles [in this city]",
+"[+2 Food, +3 Faith] from [Lavra] tiles [in this city]"
+"[+2 Food, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+2 Food, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Meeting House",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+2 Production, +3 Faith] from [Holy Site] tiles [in this city]",
+"[+2 Production, +3 Faith] from [Lavra] tiles [in this city]"
+"[+2 Production, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+2 Production, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Mosque",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+3 Faith] from [Holy Site] tiles [in this city]",
+"[+3 Faith] from [Lavra] tiles [in this city]"
+"[+3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
+"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Pagoda",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+3 Faith] from [Holy Site] tiles [in this city]",
+"[+3 Faith] from [Lavra] tiles [in this city]"
+"[+3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"[5]% Food is carried over after population increases [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Stupa",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+1 Happiness, +3 Faith] from [Holy Site] tiles [in this city]",
+"[+1 Happiness, +3 Faith] from [Lavra] tiles [in this city]"
+"[+1 Happiness, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+1 Happiness, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Synagogue",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+3 Faith] from [Holy Site] tiles [in this city]",
+"[+3 Faith] from [Lavra] tiles [in this city]"
+"[+3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"[+25]% Great Person generation [in this city]"
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
+	},
+{
+		"name": "Wat",
+		"cost": 0,
+		"specialistSlots": {"Prophet": 1},
+            "requiredBuilding": "Holy Site"
+		"uniques": [
+"[+2 Science, +3 Faith] from [Holy Site] tiles [in this city]",
+"[+2 Science, +3 Faith] from [Lavra] tiles [in this city]"
+"[+2 Science, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+2 Science, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Faith] from every specialist [in this city]",
+"Unbuildable", 
+"Hidden when religion is disabled"
+]
 	},
 
 ]

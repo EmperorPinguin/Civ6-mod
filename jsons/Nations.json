@@ -479,7 +479,7 @@
 		"outerColor": [53,0,103],
 		"innerColor": [9,192,155],
 		"uniqueName": "Dharma",
-		"uniques": ["[+1 Culture] in all cities","[+1 Culture] from each Trade Route"],
+		"uniques": ["[+34%]% Natural religion spread [in all cities]", "May choose [1] additional [Founder] beliefs when [founding] a religion"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
@@ -639,10 +639,15 @@
 //		"uniqueText": " -20% Gold and Faith cost of purchasing items after discovering currency, -30% Production when constructing Buildings and Military Units in all cities, +1 Food and +1 Faith from every Desert, -1 Production and +4 Gold from every Mine
 //		",
 		"uniques": [
+"[+1 Food, +1 Faith] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
+"[+2 Food, +2 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
+"[+3 Food, +3 Faith] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
+"[+4 Food, +4 Faith] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
+"[+5 Food, +5 Faith] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
+"[+6 Food, +6 Faith] [in all cities] <with [6] to [6] neighboring [Desert] tiles>",
+"[-1 Production, +4 Gold] from every [Mine]",
 "[-30]% Production when constructing [All] buildings [in all cities]",
 "[-30]% Production when constructing [All] units [in all cities]",
-"[+1 Food, +1 Faith] from every [Desert]",
-"[-1 Production, +4 Gold] from every [Mine]", 
 "May buy [Commercial Hub] buildings with [Faith] [in all cities]",
 "[Gold] cost of purchasing items in cities [-20]% <after discovering [Currency]>",
 "[Faith] cost of purchasing items in cities [-20]% <after discovering [Currency]>"],
