@@ -3,7 +3,7 @@
 	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle"],
+		"terrainsCanBeFoundOn": ["Rainforest"],
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 2}
@@ -35,7 +35,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"terrainsCanBeFoundOn": ["Woods","Tundra"],
 		"production": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1,"gold": 1}
@@ -121,7 +121,7 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Hill","Forest"],
+		"terrainsCanBeFoundOn": ["Hill","Woods"],
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -139,7 +139,7 @@
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Radio",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Rainforest"],
 		"science": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -148,7 +148,7 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Combined Arms",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Grassland","Jungle"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Woods","Desert","Grassland","Rainforest"],
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -158,7 +158,7 @@
 	{
 		"name": "Amber",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle","Coast"], 
+		"terrainsCanBeFoundOn": ["Woods","Rainforest","Coast"], 
 		"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -174,7 +174,7 @@
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle"],
+		"terrainsCanBeFoundOn": ["Rainforest"],
 		"gold": 3,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1}
@@ -182,7 +182,7 @@
 	{
 		"name": "Coffee",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Jungle"],
+		"terrainsCanBeFoundOn": ["Grassland","Rainforest"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -198,7 +198,7 @@
 	{
 		"name": "Diamonds",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Hill"],
+		"terrainsCanBeFoundOn": ["Rainforest","Hill"],
 		"gold": 3,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -206,7 +206,7 @@
 	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"terrainsCanBeFoundOn": ["Rainforest","Woods"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -214,7 +214,7 @@
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"terrainsCanBeFoundOn": ["Woods","Tundra"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Camp",
@@ -248,7 +248,7 @@
 	{
 		"name": "Ivory",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Woods","Rainforest"],
 		"production": 1,
 		"gold": 1,
 		"improvement": "Camp",
@@ -306,7 +306,7 @@
 	{
 		"name": "Silk",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest"],
+		"terrainsCanBeFoundOn": ["Woods"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -322,7 +322,7 @@
 	{
 		"name": "Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"terrainsCanBeFoundOn": ["Rainforest","Woods"],
 		"food": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -346,7 +346,7 @@
 	{
 		"name": "Tobacco",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland","Plains"],
+		"terrainsCanBeFoundOn": ["Rainforest","Woods","Grassland","Plains"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -354,7 +354,7 @@
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"terrainsCanBeFoundOn": ["Woods","Marsh","Rainforest"],
 		"gold": 3,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1}
@@ -379,7 +379,7 @@
 	{
 		"name": "Wine",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Grassland","Plains"],
+		"terrainsCanBeFoundOn": ["Woods","Grassland","Plains"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",
@@ -401,7 +401,7 @@
 		"name": "Antiquity Site",
 		"resourceType": "Bonus",
 		"revealedBy": "Radio",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Woods","Rainforest","Desert"],
 		"improvement": "Archaeological Dig",
 		"improvementStats": {"culture": 7},
 	},

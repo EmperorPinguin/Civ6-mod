@@ -588,5 +588,10 @@
 		"name": "Reinforced Armor Plating", // GDR
 		"uniques": ["[+33]% Strength <when defending>"]
 	},
+//Promotions granted by Natural Wonders
+	{
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
 
 ]

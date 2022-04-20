@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Woods","Rainforest"],
 		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
@@ -82,7 +82,7 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"resourceTerrainAllow": ["Forest","Marsh"],
+		"resourceTerrainAllow": ["Woods","Marsh"],
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
@@ -107,7 +107,7 @@
 	},
 	{
 		"name": "Plantation",
-		"resourceTerrainAllow": ["Forest","Jungle"],
+		"resourceTerrainAllow": ["Woods","Rainforest"],
 		"turnsToBuild": 6,
 		"gold": 2,
 		"techRequired": "Irrigation",
@@ -138,19 +138,19 @@
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
-		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains"],
 	},
 /*
 	{
 		"name": "Trade Route (Domestic)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
 		"food": 1,
 		"production": 1,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Trade Route (International)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
 		"gold": 3,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
@@ -183,17 +183,17 @@
 	
 	// Removals
 	{
-		"name": "Remove Forest",
+		"name": "Remove Woods",
 		"turnsToBuild": 4,
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Woods"],
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
-		"name": "Remove Jungle",
+		"name": "Remove Rainforest",
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Jungle"],
+		"terrainsCanBeBuiltOn": ["Rainforest"],
 		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
@@ -254,7 +254,7 @@
 	{
 		"name": "Roman Fort",
 		"uniqueTo": "Rome",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
 		"uniques": ["Gives a defensive bonus of [25]%","Can only be built by Roman Legion"]
 	},
 	{
@@ -387,7 +387,7 @@
 	},
 	{
 		"name": "Pa",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
 		"uniques": ["Gives a defensive bonus of [25]%","Adjacent enemy units ending their turn take [30] damage"]
 	},
 	{
@@ -491,9 +491,9 @@
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
 "[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -507,9 +507,9 @@
 "[+2 Science] for each adjacent [Plantation]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
 "[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
@@ -539,9 +539,9 @@
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
 "[+1 Science] for each adjacent [Great Improvement]",
 ]
 	},
@@ -554,7 +554,7 @@
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] for each adjacent [Jungle]",
+"[+1 Science] for each adjacent [Rainforest]",
 "[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -569,9 +569,9 @@
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
 "[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
@@ -585,9 +585,9 @@
 "Tile provides yield without assigned population",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
-"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
 "[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -600,9 +600,9 @@
 "Tile provides yield without assigned population",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
-"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
 "[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -615,9 +615,9 @@
 "Tile provides yield without assigned population",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
-"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
 "[+1 Faith] for each adjacent [Great Improvement]"
 ]
 	},
@@ -628,10 +628,10 @@
 "Tile provides yield without assigned population",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
-"[+1 Faith] for each adjacent [Jungle]",
-"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] for each adjacent [Rainforest]",
+"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
 "[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -674,7 +674,7 @@
 "Great Improvement",
 "Tile provides yield without assigned population",
 "[+2 Culture] for each adjacent [Street Carnival]",
-"[+1 Culture] for each adjacent [Jungle]",
+"[+1 Culture] for each adjacent [Rainforest]",
 "[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -749,7 +749,7 @@
 "Great Improvement",
 "Tile provides yield without assigned population",
 "[+2 Gold] for each adjacent [River]",
-"[+1 Gold] for each adjacent [Jungle]",
+"[+1 Gold] for each adjacent [Rainforest]",
 "[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"

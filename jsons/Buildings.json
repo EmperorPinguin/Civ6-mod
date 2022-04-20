@@ -2019,12 +2019,11 @@
 		"specialistSlots": {"Prophet": 1},
             "requiredBuilding": "Holy Site"
 		"uniques": [
-"[+3 Faith] from [Holy Site] tiles [in this city]",
-"[+3 Faith] from [Lavra] tiles [in this city]"
-"[+3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+5 Faith] from [Holy Site] tiles [in this city]",
+"[+5 Faith] from [Lavra] tiles [in this city]"
+"[+5 Faith] from [Japanese Holy Site] tiles [in this city]",
+"[+5 Faith] from [Brazilian Holy Site] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"[+25]% Great Person generation [in this city]"
 "Unbuildable", 
 "Hidden when religion is disabled"
 ]
