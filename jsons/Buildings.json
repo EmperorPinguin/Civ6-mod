@@ -1088,7 +1088,7 @@
         "science": 2,
         "gold": 5,
         "culture": 1,
-        "happiness": 1,
+        "happiness": 2,
         "uniques": [
 "Indicates the capital city",
 "Gain a free [City Center] [in all cities]",
@@ -1098,7 +1098,8 @@
  "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
  "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
  "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>"
+ "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"[5]% Food is carried over after population increases [in this city]"
 ]
     },
     {
