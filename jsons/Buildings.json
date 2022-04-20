@@ -1085,10 +1085,11 @@
         "isNationalWonder": true,
         "cost": 1,
         "production": 2,
-        "science": 2,
         "gold": 5,
+        "science": 2,
         "culture": 1,
         "happiness": 2,
+        "cityStrength": 3,
         "uniques": [
 "Indicates the capital city",
 "Gain a free [City Center] [in all cities]",
