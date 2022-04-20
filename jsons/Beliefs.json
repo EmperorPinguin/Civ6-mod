@@ -130,47 +130,47 @@
 {
         "name": "Cathedral",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Cathedral] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Dar-e Mehr",
         "type": "Follower",
-        "uniques": ["May buy [Dar-e Mehr] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Dar-e Mehr] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Gurdwara",
         "type": "Follower",
-        "uniques": ["May buy [Gurdwara] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Gurdwara] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Meeting House",
         "type": "Follower",
-        "uniques": ["May buy [Meeting House] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Meeting House] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Mosque",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Mosque] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Pagoda",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Pagoda] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Stupa",
         "type": "Follower",
-        "uniques": ["May buy [Stupa] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Stupa] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Synagogue",
         "type": "Follower",
-        "uniques": ["May buy [Synagogue] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Synagogue] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Wat",
         "type": "Follower",
-        "uniques": ["May buy [Wat] buildings for [225] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Wat] buildings for [380] [Faith] [in cities following this religion]"]
     },
 {
         "name": "Choral Music",
