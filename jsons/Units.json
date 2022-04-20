@@ -2,23 +2,13 @@
 
 // Info according to https://www.civilopedia.net/en-US/gathering-storm (%bonus = bonus/30)
 
-	// Filler
+	// Diplomatic units
 	{
 		"name": "Envoy",
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": -1,
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence","Unbuildable"]
-	},
-	{
-		"name": "Warrior Monk",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 35,
-		"cost": -1,
-		"uniques": ["Unbuildable"],
-		"promotions": ["Shadow Strike"],
-		"attackSound": "nonmetalhit"
 	},
 
 	// Ancient Era 
@@ -1956,5 +1946,15 @@
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
+	},
+	{
+		"name": "Warrior Monk",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 40,
+		"cost": -1,
+		"uniques": ["Unbuildable"],
+		"promotions": ["Shadow Strike"],
+		"attackSound": "nonmetalhit"
 	},
 ]
