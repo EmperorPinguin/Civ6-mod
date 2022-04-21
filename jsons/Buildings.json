@@ -1092,6 +1092,7 @@
  "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
  "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
  "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+ "May buy [Naturalist] units for [600] [Faith] [in all cities] at an increasing price ([100]) <after adopting [Conservation]>",
 "[5]% Food is carried over after population increases [in this city]"
 ]
     },

@@ -1957,4 +1957,11 @@
 		"promotions": ["Shadow Strike"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Naturalist",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": -1,
+		"uniques": ["Unbuildable", "Can construct [National Park]", "[+1] Sight"],
+	},
 ]
