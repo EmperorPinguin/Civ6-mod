@@ -29,7 +29,7 @@
 	{
 		"name": "Merchant",
 		"gold": 4,
-		"greatPersonPoints": {"Great Scientist":3},
+		"greatPersonPoints": {"Great Merchant":3},
 		"color": [255,215,0]
 	},
 	{
