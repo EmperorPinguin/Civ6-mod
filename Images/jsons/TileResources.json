@@ -1,0 +1,499 @@
+[		
+	// Bonus resources
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Rainforest"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 2}
+	},
+	{
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Copper",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Crabs",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1,"gold": 1}
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Woods","Tundra"],
+		"production": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1,"gold": 1}
+	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Lakes","Reef"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1,"gold": 1},
+	},
+	{
+		"name": "Maize",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Flood plains"],
+		"gold": 2,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+// Strategic resources
+	{
+		"name": "Horses",
+		"resourceType": "Strategic",
+		"revealedBy": "Animal Husbandry",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
+		"food": 1,
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
+					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
+					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
+		"majorDepositAmount": {"sparse": 8, "default": 8, "abundant": 12},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6}
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Bronze Working",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Rainforest] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Woods] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
+					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 18},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6}
+	},
+	{
+		"name": "Niter",
+		"resourceType": "Strategic",
+		"revealedBy": "Military Engineering",
+		"terrainsCanBeFoundOn": ["Desert","Flood plains","Grassland","Plains","Tundra"],
+		"production": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [65] <in [Desert] tiles>",
+					"Generated with weight [65] <in [Coastal] tiles>",
+					"Minor deposits generated with weight [20] <in [Woods] tiles>"
+					"Minor deposits generated with weight [30] <in [Featureless] [Desert] tiles>",
+					"Minor deposits generated with weight [30] <in [Featureless] [Coastal] tiles>",
+],
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 18},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6}
+	},
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialization",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Rainforest","Woods","Marsh"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Rainforest] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Woods] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Rainforest] tiles>",
+					"Minor deposits generated with weight [10] <in [Woods] tiles>",
+					"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
+					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
+					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
+					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
+		"majorDepositAmount": {"sparse": 10, "default": 14, "abundant": 20},
+		"minorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6}
+	},
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Steel",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Rainforest"],
+		"production": 2,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 3}
+		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+					"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [60] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [65] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [100] <in [Featureless] [Coast] tiles>",
+					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Rainforest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
+		"majorDepositAmount": {"sparse": 10, "default": 14, "abundant": 18},
+		"minorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Radio",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Rainforest"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+		"uniques": ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [39] <in [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Rainforest] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+		"majorDepositAmount": {"sparse": 10, "default": 16, "abundant": 20},
+		"minorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Combined Arms",
+		"terrainsCanBeFoundOn": ["Marsh","Rainforest","Woods","Tundra","Snow"],
+		"production": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Rainforest] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Woods] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Woods] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 8},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6}
+	},
+
+	// Luxury resources
+	{
+		"name": "Amber",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Woods","Rainforest","Coast"], 
+		"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Rainforest"],
+		"gold": 3,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 1,"gold": 1}
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Rainforest"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Cotton",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Flood plains"],
+		"gold": 3,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Diamonds",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Rainforest","Hill"],
+		"gold": 3,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Rainforest","Woods"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Woods","Tundra"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Gypsum",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Hill"],
+		"gold": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Honey",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"culture": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+		"building": "Monastery"
+	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Woods","Rainforest"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Jade",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains"],
+		"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Hill"],
+		"culture": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Mercury",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"science": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Olives",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
+		"culture": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra"],
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Woods"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Silver",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Tundra"],
+		"gold": 3,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Rainforest","Woods"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Flood plains","Marsh"],
+		"food": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"science": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Tobacco",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Rainforest","Woods","Grassland","Plains"],
+		"culture": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Woods","Marsh","Rainforest"],
+		"gold": 3,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Turtles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Reef"],
+		"science": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Whales",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast","Lakes"],
+		"gold": 1,
+		"production": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Woods","Grassland","Plains"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	
+	// Ingame Mechanics
+	{
+		"name": "Trade Route",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	/*{
+		"name": "Power",
+		"resourceType": "Bonus",
+		"production": 1
+	},*/
+	{
+		"name": "Antiquity Site",
+		"resourceType": "Bonus",
+		"revealedBy": "Radio",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Woods","Rainforest","Desert"],
+		"improvement": "Archaeological Dig",
+		"improvementStats": {"culture": 7},
+	},
+	{
+		"name": "Shipwreck",
+		"resourceType": "Bonus",
+		"revealedBy": "Radio",
+		"terrainsCanBeFoundOn": ["Coast","Lakes","Ocean","Reef"],
+		"improvement": "Archaeological Dig",
+		"improvementStats": {"culture": 7},
+	},
+	{
+		"name": "Districts",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+]

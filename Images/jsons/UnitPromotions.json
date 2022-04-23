@@ -594,19 +594,8 @@
 		"uniques": ["[+10] HP when healing"]
 	},
 	{
-		"name": "Giant's Strength",
+		"name": "Giant Causeway ability",
 		"uniques": ["[+10]% Strength"]
 	},
-	{
-		"name": "Altitude Training",
-		"uniques": ["[+10]% Strength <when fighting in [Hill] tiles>","Double movement in [Hill]"]
-	},
-	{
-		"name": "Sherpa Training",
-		"uniques": ["Double movement in [Hill]"]
-	},
-	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["All healing effects doubled"]
-	},
+
 ]

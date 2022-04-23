@@ -1,0 +1,573 @@
+[
+	{
+		"name": "Civic Tree",
+		"era": "Ancient era",
+		"uniques": ["Each city founded increases culture cost of policies [100]% less than normal","Free Social Policy"],
+		"policies": [
+
+// Row 1s 
+			{
+				"name": "Craftsmanship",
+				"uniques":["[+15]% Production when constructing [Worker] units [in all cities]","[+2 Culture] from every [Chemamull]",
+					"[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Code of Laws"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Military Tradition", 
+				"uniques": ["[+30]% Production when constructing [Heavy Chariot] units [in all cities]","[+30]% Production when constructing [Horseman] units [in all cities]",
+					"[+30]% Production when constructing [War-Cart] units [in all cities]","[+30]% Production when constructing [Saka Horse Archer] units [in all cities]",
+					"[+30]% Production when constructing [Varu] units [in all cities]","[+30]% Production when constructing [Hetairoi] units [in all cities]",
+					"[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Craftsmanship"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Games and Recreation",
+				"uniques": [
+"Districts enabled:
+* Entertainment Complex (+1 Happiness)
+Wonders enabled:
+* Colosseum (+2 Culture, +3 Happiness)",
+					"[-10]% Culture cost of adopting new Policies"],
+				"requires": ["State Workforce"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Military Training",
+				"uniques": ["[30]% Production when constructing [Encampment] buildings [in all cities]","[30]% Production when constructing [Harbor] buildings [in all cities]",
+					"[30]% Production when constructing [Barracks] buildings [in all cities]","[30]% Production when constructing [Stable] buildings [in all cities]",
+					"[30]% Production when constructing [Lighthouse] buildings [in all cities]"],
+				"requires": ["Games and Recreation","Military Tradition"],
+				"row": 1,
+				"column": 11
+			},
+			{
+				"name": "Naval Tradition",
+				"uniques": ["[+20]% [Gold] from every [Harbor]"],
+				"requires": ["Defensive Tactics"],
+				"row": 1,
+				"column": 15
+			},
+			{
+				"name": "Mercenaries",
+				"uniques": [
+"Units enabled:
+* Winged Hussar (Bonus as Attacker 15%, Strength: 35, Movement: 4)
+* Jong (Strength: 45, Ranged Strength: 55, Movement: 5)",
+					"Gold cost of upgrading military units reduced by 33%"],
+				"requires": ["Feudalism","Military Training"],
+				"row": 1,
+				"column": 17
+			},
+			{
+				"name": "Exploration",
+				"uniques": ["Earn [10]% of [military] opponent's [Cost] as [Gold] for kills","[+1 Food] from every [Pasture]",
+					"[+2 Culture, +1 Food, +1 Production, +1 Science] from every [Mission]"],
+				"requires": ["Mercenaries","Medieval Faires"],
+				"row": 1,
+				"column": 21
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": [
+"Units enabled:
+* Privateer (Invisible to others, Can attack submarines, Strength: 40, Ranged strength: 50)
+* Sea Dog (Invisible to others, Can attack submarines, Strength: 40, Ranged strength: 50)",
+					"[+1 Gold, +1 Culture] from each Trade Route","[+1 Food, +1 Production] from every [Camp]"],
+				"requires": ["Humanism"],
+				"row": 1,
+				"column": 25
+			},
+			{
+				"name": "Colonialism",
+				"uniques": ["[+1 Production] from every [Fishing Boats]","Earn [10]% of [military] opponent's [Cost] as [Gold] for kills"], 
+				"requires": ["Mercantilism"],
+				"row": 1,
+				"column": 27
+			},
+			{
+				"name": "Natural History",
+				"uniques": [
+"Units enabled:
+* Archaeologist (Can construct Archaeological Dig)
+Districts enabled:
+* Water Park (+1 Happiness)
+* Capocabana (+3 Happiness)
+Buildings enabled:
+* Zoo (+2 Happiness, +1 Science from Forest and Marsh tiles in this city)
+* Thermal Bath (+3 Happiness, +2 Production, +2 Happiness, +3 Culture from Geothermal Fissure tiles in this city)
+Wonders enabled: 
+* Hermitage",
+					"[+8 Culture] from every [Archaeological Dig]","[+1 Culture] from every [Sphinx]",
+					"[+1 Culture] from every [Ziggurat]"],
+				"requires": ["Colonialism"],
+				"row": 1,
+				"column": 31
+			},
+			{
+				"name": "Conservation",
+				"uniques": ["Double quantity of [Oil] produced","Double quantity of [Aluminum] produced",
+					"[+1 Production] from every [Mekewap]"],
+				"requires": ["Natural History","Urbanization"],
+				"row": 1,
+				"column": 33
+			},
+			{
+				"name": "Cultural Heritage",
+				"uniques": [
+"Wonders enabled:
+* Sydney Opera House (+8 Culture, Must be next to Coast)",
+					"[+3 Culture] from every specialist [in all cities]","[+2 Science] from every [Mission]"],
+				"requires": ["Conservation"],
+				"row": 1,
+				"column": 35
+			},	
+			{
+				"name": "Suffrage",
+				"uniques": ["[+2 Food, +2 Production] from each Trade Route"],
+				"requires": ["Ideology"],
+				"row": 1,
+				"column": 37
+			},
+			{
+				"name": "Capitalism",
+				"uniques": [
+"Buildings enabled:
+* Shopping Mall (+4 Culture, +3 Gold, +1 Happiness)",
+					"[+2 Gold, +2 Culture, +2 Science] from each Trade Route","[+1 Production] from every [Kurgan]"],
+				"requires": ["Mass Media"],
+				"row": 1,
+				"column": 39
+			},
+			{
+				"name": "Rapid Deployment",
+				"uniques": [
+"Wonders enabled:
+* Amundsen-Scott Research Station (+20% Science and +10% Production from every City Center, Must be on Snow)",
+					"[+15]% Production when constructing [Melee] units [in all cities]","[+15]% Production when constructing [Ranged] units [in all cities]",
+					"[+1 Food] from every [Outback Station]"],
+				"requires": ["Cold War"],
+				"row": 1,
+				"column": 41
+			},
+			{
+				"name": "Environmentalism",
+				"uniques": ["Culture in all cities increased by 25%"],
+				"requires": ["Cultural Heritage","Rapid Deployment"],
+				"row": 1,
+				"column": 43
+			},
+			{
+				"name": "Near Future Governance",
+				"uniques": ["Free Social Policy"],
+				"requires": ["Environmentalism","Globalization"],
+				"row": 1,
+				"column": 45
+			},	
+			{
+				"name": "Global Warming Mitigation",
+				"uniques": ["Food and Culture from Friendly City-States are increased by 50%"],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignity","Optimization Imperative"],
+				"row": 1,
+				"column": 49
+			},	
+// Row 2s
+			{
+				"name": "Code of Laws",
+				"uniques": ["[+1 Culture, +1 Gold] in capital"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "State Workforce",
+				"uniques": ["[10]% Production when constructing [Wonders] buildings [in all cities]","[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Craftsmanship"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Early Empire",
+				"uniques": ["[+25]% Production when constructing [Settler] units [in all cities]","[-10]% Culture cost of adopting new Policies"],
+				"requires": ["Craftsmanship"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Political Philosophy",
+				"uniques": [
+"Wonders enabled:
+* Apadana (10 free Envoy units appear)",
+					"[-50]% City-State Influence degradation"],
+				"requires": ["State Workforce","Early Empire"],
+				"row": 2,
+				"column": 9
+			},
+			{
+				"name": "Defensive Tactics",
+				"uniques": [
+"Wonders enabled:
+* Mausoleum at Halicarnassus (+1 Science, +2 Culture from Coast tiles in this city, Worker construction increased 25%)",
+					"[50]% Production when constructing [Ancient Walls] buildings [in all cities]","[50]% Production when constructing [Medieval Walls] buildings [in all cities]",
+					"[50]% Production when constructing [Renaissance Walls] buildings [in all cities]"],
+				"requires": ["Games and Recreation","Political Philosophy"],
+				"row": 2,
+				"column": 11
+			},
+			{
+				"name": "Recorded History",
+				"uniques": [
+"Wonders enabled:
+* Great Library (+2 Science, Free Technology)",
+					"[+10]% [Science] from every [Campus]"],
+				"requires": ["Drama and Poetry","Political Philosophy"],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "Feudalism",
+				"uniques": ["[+20]% Production when constructing [Pike and Shot] units [in all cities]","[+20]% Production when constructing [Musketman] units [in all cities]",
+					"[+20]% Production when constructing [Crossbowman] units [in all cities]","[+20]% Production when constructing [Crouching Tiger] units [in all cities]",
+					"[+20]% Production when constructing [Keshig] units [in all cities]","[+20]% Production when constructing [Hwacha] units [in all cities]",
+					"[+1 Food] from every [Farm]","[+1 Food] from every [Plantation]","[+1 Food] from every [Stepwell]"],
+				"requires": ["Defensive Tactics"],
+				"row": 2,
+				"column": 15
+			},
+			{
+				"name": "Medieval Faires",
+				"uniques": [
+"Units enabled:
+* Barbary Corsair (No movement cost to pillage, Invisible to others, Can attack submarines, Strength: 40, Ranged strength: 50, Movement: 4
+Wonders enabled:
+* Angkor Wat (+2 Culture, +1 population in each city, +10% growth in all cities)",
+					"[+5]% [Culture] from every [Theatre Square]"],
+				"requires": ["Feudalism"],
+				"row": 2,
+				"column": 17
+			},
+			{
+				"name": "Guilds",
+				"uniques": [
+"Districts enabled:
+* Mbanza (+2 Food, +4 Gold, 50% of food is carried over after population increases)
+Wonders enabled:
+* Chichen Itza (+1 Production, 2 Culture from Jungle tiles in this city)",
+					"[+15]% [Production] from every [Industrial Zone]","[+1 Production] from every [Kurgan]"],
+				"requires": ["Feudalism","Civil Service"],
+				"row": 2,
+				"column": 19
+			},
+			{
+				"name": "Humanism",
+				"uniques": [
+"Buildings enabled:
+* Art Museum (+2 Culture)",
+					"[Great Artist] is earned [15]% faster"],
+				"requires": ["Medieval Faires","Guilds"],
+				"row": 2,
+				"column": 21
+			},
+			{
+				"name": "Diplomatic Service",
+				"uniques": ["[+2 Food, +2 Production] from each Trade Route","[+1 Culture] from every [Pairidaeza]"],
+				"requires": ["Guilds"],
+				"row": 2,
+				"column": 23
+			},
+			{
+				"name": "Civil Engineering",
+				"uniques": ["[+15]% Production when constructing [Worker] units [in all cities]","Tile improvement speed +25%",
+					"[+1 Production] from every [Kampung]","[+4 Gold] from every [Polder]"],
+				"requires": ["Mercantilism"],
+				"row": 2,
+				"column": 27
+			}, 
+			{
+				"name": "Nationalism",
+				"uniques": [
+"Units enabled:
+* Minas Geraes (100% chance to intercept air attacks, Bonus vs air units 30%, Strength: 70, Ranged strength: 80, Movement: 4",
+					"[+20]% Production when constructing [Field Cannon] units [in all cities]","[+20]% Production when constructing [Garde Impériale] units [in all cities]",
+					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
+				"requires": ["The Enlightenment"],
+				"row": 2,
+				"column": 29
+			},
+			{
+				"name": "Urbanization",
+				"uniques": [
+"Districts enabled:
+* Neighborhood (+40% of food is carried over after population increases)",
+					"[+2 Science] from every [Military Academy]","[+2 Science] from every [Seaport]",
+					"[+2 Science] from every [Renaissance Walls]"],
+				"requires": ["Civil Engineering","Nationalism"],
+				"row": 2,
+				"column": 31
+			},
+			{
+				"name": "Mass Media",
+				"uniques": [
+"Wonders enabled:
+* Broadway (Free Social Policy, Must not be on Hill)
+* Cristo Redentor (+4 Culture, +3 Culture from every Seaside Resort, Must be on Hill)",
+					"Double quantity of [Oil] produced","Double quantity of [Aluminum] produced"],
+				"requires": ["Natural History","Urbanization"],
+				"row": 2,
+				"column": 33
+			},
+			{
+				"name": "Ideology",
+				"uniques": ["[+4 Gold] from every [Campus]","[+4 Gold] from every [Industrial Zone]"],
+				"requires": ["Mass Media","Mobilization"],
+				"row": 2,
+				"column": 35
+			},
+			{
+				"name": "Totalitarianism",
+				"uniques": ["[+2 Culture, +4 Gold] from every [Research Lab]","[+2 Culture, +4 Gold] from every [Military Academy]",
+					"[+2 Culture, +4 Gold] from every [Coal Power Plant]","[+2 Culture, +4 Gold] from every [Oil Power Plant]",
+					"[+2 Culture, +4 Gold] from every [Nuclear Power Plant]"],
+				"requires": ["Ideology"],
+				"row": 2,
+				"column": 37
+			},
+			{
+				"name": "Cold War",
+				"uniques": ["[+30]% Production when constructing [Water] units [in all cities]"],
+				"requires": ["Ideology"],
+				"row": 2,
+				"column": 39
+			},	
+			{
+				"name": "Space Race",
+				"uniques": ["[15]% Production when constructing [Spaceship part] buildings [in all cities]"],
+				"requires": ["Cold War"],
+				"row": 2,
+				"column": 41
+			},
+			{
+				"name": "Globalization",
+				"uniques": ["[+2 Production, +5 Gold] from each Trade Route","[+2 Gold] from every [Plantation]"],
+				"requires": ["Rapid Deployment","Space Race"],
+				"row": 2,
+				"column": 43
+			},	
+			{
+				"name": "Venture Politics",
+				"uniques": ["[+10]% [Production] from every [Commercial Hub]","[+10]% [Production] from every [Encampment]"],
+				"requires": ["Globalization","Social Media"],
+				"row": 2,
+				"column": 45
+			},	
+			{
+				"name": "Distributed Sovereignity",
+				"uniques": ["[+2 Happiness] in all cities","[+2 Culture] from every specialist [in all cities]"],
+				"requires": ["Globalization","Social Media"],
+				"row": 2,
+				"column": 47
+			},
+			{
+				"name": "Information Warfare",
+				"uniques": ["[+30]% Production when constructing [Giant Death Robot] units [in all cities]"],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignity","Optimization Imperative"],
+				"row": 2,
+				"column": 49
+			},
+			{
+				"name": "Smart Power Doctrine",
+				"uniques": ["+15% combat strength for units fighting in friendly territory"],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignity","Optimization Imperative"],
+				"row": 2,
+				"column": 51
+			},	
+			{
+				"name": "Exodus Imperative",
+				"uniques": ["[+20]% [Gold] from every [City Center]"],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignity","Optimization Imperative"],
+				"row": 2,
+				"column": 53
+			},
+			{
+				"name": "Future Civic",
+				"uniques": ["Production to science conversion in cities increased by 33%"],
+				"requires": ["Information Warfare","Global Warming Mitigation","Cultural Hegemony",
+					"Smart Power Doctrine","Exodus Imperative"],
+				"row": 2,
+				"column": 55
+			}, 
+
+// Row 3s
+			{
+				"name": "Foreign Trade",
+				"uniques": [
+"Units enabled:
+* Trader (Can construct roads, Movement: 4)",
+					"[+2 Gold] from each Trade Route","[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Code of Laws"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Mysticism",
+				"uniques": [
+"Wonders enabled:
+* Oracle (+2 Culture, +25% great person generation in this city, Must be on Hill)",
+					"[Great Scientist] is earned [10]% faster","[Great Artist] is earned [10]% faster",
+					"[-20]% Culture cost of adopting new Policies"],
+				"requires": ["Foreign Trade"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Drama and Poetry",
+				"uniques": [
+"Districts enabled:
+* Theatre Square (+3 Culture, +1 Culture from every Wonder)
+* Acropolis (+6 Culture, +1 Culture from every Wonder)
+Buildings enabled:
+* Amphitheater (+2 Culture)
+* Marae (+2 Culture, +1 Culture from Forest, Jungle, Marsh, Flood plains, and Geothermal Fissure tiles in this city)",
+					"[Great Artist] is earned [25]% faster","[-10]% Culture cost of adopting new Policies"],
+				"requires": ["Early Empire"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "Theology",
+				"uniques": [
+"Buildings enabled:
+* Temple (+2 Culture)
+* Prasat (+2 Culture, All newly-trained Civilian units in this city receive the Martyr promotion)
+* Stave Church (+2 Culture, +1 Production, +1 Production from Water resource tiles in this city)
+* Madrasa (+5 science, +3 Culture, 5% of food is carried over after population increases)",
+					"[+10]% [Culture] from every [Theatre Square]"],
+				"requires": ["Drama and Poetry","Mysticism"],
+				"row": 3,
+				"column": 13
+			},
+			{
+				"name": "Civil Service",
+				"uniques": ["[+1 Happiness] in all cities with a garrison","[+1 Production] from every [Mekewap]"],
+				"requires": ["Defensive Tactics","Recorded History"],
+				"row": 3,
+				"column": 15
+			},
+			{
+				"name": "Divine Right",
+				"uniques": [
+"Wonders enabled:
+* Kotoku-in (4 free Warrior Monk units appear)",
+					"[+20]% Production when constructing [Cavalry] units [in all cities]","[+20]% Production when constructing [Cuirassier] units [in all cities]",
+					"[+20]% Production when constructing [Rough Rider] units [in all cities]"],
+				"requires": ["Civil Service","Theology"],
+				"row": 3,
+				"column": 19
+			},
+			{
+				"name": "Reformed Church",
+				"uniques": [
+"Wonders enabled:
+* St. Basil's Cathedral (+1 Food, +1 Production, +1 Culture from Tundra tiles in this city)",
+					"[+4 Culture] from every [Theatre Square]","[+2 Culture] from every [Golf Course]"],
+				"requires": ["Divine Right"],
+				"row": 3,
+				"column": 23
+			},
+			{
+				"name": "The Enlightenment",
+				"uniques": ["[+4 Gold] from every [Commercial Hub]"],
+				"requires": ["Diplomatic Service"],
+				"row": 3,
+				"column": 25
+			},
+			{
+				"name": "Opera and Ballet", 
+				"uniques": [
+"Wonders enabled:
+* Bolshoi Theatre (2 Free Social Policies, Must be on River)",
+					"[+10]% [Culture] from every [Theatre Square]"],
+				"requires": ["The Enlightenment"],
+				"row": 3,
+				"column": 29
+			},
+			{
+				"name": "Scorched Earth",
+				"uniques": ["-50% cost when purchasing tiles","[+20]% Production when constructing [Settler] units [in all cities]"],
+				"requires": ["Civil Engineering","Nationalism"],
+				"row": 3,
+				"column": 31
+			},
+			{
+				"name": "Mobilization",
+				"uniques": ["-25% land units maintenance"],
+				"requires": ["Urbanization"],
+				"row": 3,
+				"column": 33
+			},
+			{
+				"name": "Nuclear Program",
+				"uniques": ["[Great Scientist] is earned [20]% faster"],
+				"requires": ["Ideology"],
+				"row": 3,
+				"column": 35
+			},
+			{
+				"name": "Class Struggle",
+				"uniques": ["[+4 Food] from each Trade Route"],
+				"requires": ["Ideology"],
+				"row": 3,
+				"column": 37
+			},
+			{
+				"name": "Professional Sports",
+				"uniques": [
+"Buildings enabled:
+* Stadium (+5 Culture, +3 Happiness)
+* Aquatics Center (+6 Culture, +4 Happiness)
+Wonders enabled:
+* Estadio de Maracana (+6 Culture, +2 Happiness in all cities)",
+					"[+10]% [Culture] from every [Theatre Square]","[+1 Happiness] from every [Stadium]",
+					"[+2 Culture] from every [Ice Hockey Rink]","[+1 Food] from every [Stepwell]"],
+				"requires": ["Ideology"],
+				"row": 3,
+				"column": 39
+			},	
+			{
+				"name": "Social Media",
+				"uniques": ["[+4 Culture] from each Trade Route"],
+				"requires": ["Professional Sports","Space Race"],
+				"row": 3,
+				"column": 43
+			},	
+			{
+				"name": "Optimization Imperative",
+				"uniques": ["[30]% Production when constructing [Wonders] buildings [in all cities]"],
+				"requires": ["Globalization","Social Media"],
+				"row": 3,
+				"column": 47
+			},
+			{
+				"name": "Cultural Hegemony",
+				"uniques": ["+[30]% great person generation in all cities"],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignity","Optimization Imperative"],
+				"row": 3,
+				"column": 51
+			},	
+
+// Finisher
+			{
+				"name": "Civic Tree Complete"
+				"uniques": ["Triggers a Cultural Victory upon completion"],
+			},
+		]
+	}
+]

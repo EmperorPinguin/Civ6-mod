@@ -2,7 +2,6 @@
 [
 
 //Test wonders
-/*
 {
 		"name": "Bermuda Triangle",
 		"type": "NaturalWonder",
@@ -16,7 +15,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Chocolate Hills",
 		"type": "NaturalWonder",
@@ -25,7 +23,7 @@
 		"science": "1",
 		"occursOn": ["Grassland"],
 		"overrideStats": true,
-		"uniques": ["Must be adjacent to [] to [] [] tiles",
+		"uniques": [/*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [0] to [40] percent of distance equator to pole",
 			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Hill",
@@ -56,8 +54,8 @@
 		"faith": "5",
 		"overrideStats": true,
 		"occursOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow"],
-		"uniques": ["Fresh water", "Must be adjacent to [] to [] [] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+		"uniques": ["Fresh water", /*"Must be adjacent to [] to [] [] tiles",
+			"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [1] to [1] tiles"],
 		"turnsInto": "Lakes",
 		"impassable": false,
@@ -79,20 +77,18 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Delicate Arch",
 		"type": "NaturalWonder",
 		"occursOn": ["Desert"],
 		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [1] to [1] tiles"],
 		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Eye of the Sahara",
 		"type": "NaturalWonder",
@@ -100,14 +96,13 @@
 		"science": "1",
 		"occursOn": ["Desert"],
 		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [3] to [3] tiles", "[+1 Production, +3 Science] <starting from the [Atomic era]>"],
 		"turnsInto": "Desert",
 		"impassable": false,
 		"unbuildable": true,
-		"weight": 100
+		"weight": 10
 	},
-
 {
 		"name": "Eyjafjallajökull",
 		"type": "NaturalWonder",
@@ -120,7 +115,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
@@ -128,8 +122,7 @@
 		"faith": "4",
 		"overrideStats": true,
 		"occursOn": ["Grassland"],
-		"uniques": ["Fresh water", 
-			//"Must be adjacent to [2] to [6] [Rainforest] tiles",
+		"uniques": ["Fresh water", /*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [0] to [60] percent of distance equator to pole",
 			"Occurs in groups of [1] to [1] tiles", "Grants [Water of Life] ([+10 HP when healing]) to adjacent [Land] units for the rest of the game"],
 		"turnsInto": "Grassland",
@@ -137,13 +130,12 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Galapagos Islands",
 		"type": "NaturalWonder",
 		"overrideStats": true,
 		"occursOn": ["Coast"],
-		"uniques": ["Must be adjacent to [] to [] [] tiles",
+		"uniques": [/*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [0] to [30] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles", "[-2 Science] for each adjacent [Galapagos Islands]"],
 		"turnsInto": "Coast",
@@ -158,13 +150,12 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Must be adjacent to [2] to [4] [Land] tiles",
 			"Occurs on latitudes from [] to [] percent of distance equator to pole",
-			"Occurs in groups of [2] to [2] tiles", "Grants [Giant's Strength] ([+10% Strength]) to adjacent [Land] units for the rest of the game"],
+			"Occurs in groups of [2] to [2] tiles", "Grants [Giant Causeway ability] ([+10% Strength]) to adjacent [Land] units for the rest of the game"],
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Gobustan",
 		"type": "NaturalWonder",
@@ -172,7 +163,7 @@
 		"culture": "3",
 		"overrideStats": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [/*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [20] to [70] percent of distance equator to pole",
 			"Occurs in groups of [3] to [3] tiles"],
 		"turnsInto": "Hill",
@@ -221,14 +212,13 @@
 		"overrideStats": true,
 		"occursOn": ["Grassland", "Plains", "Desert"],
 		"uniques": ["Fresh water", "Must be adjacent to [0] [Water] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [2] to [2] tiles"],
 		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Lysefjord",
 		"type": "NaturalWonder",
@@ -245,7 +235,7 @@
 		"name": "Mato Tipila",
 		"type": "NaturalWonder",
 		"occursOn": ["Mountain"],
-		"uniques": ["Must be adjacent to [] to [] [] tiles",
+		"uniques": [/*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [10] to [90] percent of distance equator to pole",
 			"Occurs in groups of [1] to [1] tiles"],
 		"turnsInto": "Mountain",
@@ -272,7 +262,7 @@
 		"uniques": ["Must be adjacent to [2] to [5] [Mountain] tiles",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [3] to [3] tiles", "[-1 Faith] for each adjacent [Mount Everest]",
-			"Grants [Sherpa Training] ([double movement in hills]) to adjacent [Religious] units for the rest of the game"],
+			"Grants [Mount Everest ability] ([double movement in hills]) to adjacent [Religious] units for the rest of the game"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -306,7 +296,7 @@
 		"name": "Mount Vesuvius",
 		"type": "NaturalWonder",
 		"occursOn": ["Mountain"],
-		"uniques": ["Must be adjacent to [] to [] [] tiles",
+		"uniques": [/*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [20] to [80] percent of distance equator to pole",
 			"Occurs in groups of [1] to [1] tiles"],
 		"turnsInto": "Mountain",
@@ -319,8 +309,8 @@
 		"type": "NaturalWonder",
 		"occursOn": ["Desert"],
 		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
-			"Occurs in groups of [3] to [3] tiles", "[-2 Culture, -3 Gold] for each adjacent [Païtiti]"],
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
+			"Occurs in groups of [3] to [3] tiles", "[-2 Culture, -3 Gold] for each adjacent [Païtit]"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -331,7 +321,7 @@
 		"type": "NaturalWonder",
 		"Happiness": 1,
 		"occursOn": ["Mountain"],
-		"uniques": ["Fresh water", "Must be adjacent to [] to [] [] tiles",
+		"uniques": ["Fresh water", /*"Must be adjacent to [] to [] [] tiles",*/
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles", "Tile provides yield without assigned population"],
 		"turnsInto": "Mountain",
@@ -339,23 +329,21 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Pantanal",
 		"type": "NaturalWonder",
 		"food": "2",
 		"culture": "2",
 		"overrideStats": true,
-		"occursOn": ["Grassland", "Plains"],
-		"uniques": [
-			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
+		"occursOn": ["River"],
+		"uniques": ["Must be adjacent to [] to [] [] tiles",
+			"Occurs on latitudes from [] to [] percent of distance equator to pole",
 			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Marsh",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Piopiotahi",
 		"type": "NaturalWonder",
@@ -368,7 +356,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Sahara el Beyda",
 		"type": "NaturalWonder",
@@ -378,20 +365,19 @@
 		"overrideStats": true,
 		"occursOn": ["Desert"],
 		"uniques": ["Must be adjacent to [2] to [6] [Desert] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Desert",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Torres del Paine",
 		"type": "NaturalWonder",
 		"occursOn": ["Hill"],
 		"uniques": ["Must be adjacent to [0] [Mountain] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [2] to [2] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -403,14 +389,13 @@
 		"type": "NaturalWonder",
 		"occursOn": ["Mountain"],
 		"uniques": ["Must be adjacent to [0] [Mountain] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [1] to [1] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Ubsunur Hollow",
 		"type": "NaturalWonder",
@@ -419,20 +404,19 @@
 		"faith": "2",
 		"overrideStats": true,
 		"occursOn": ["Tundra"],
-		"uniques": [
+		"uniques": [/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [4] to [4] tiles"],
 		"turnsInto": "Marsh",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
-
 {
 		"name": "Uluru",
 		"type": "NaturalWonder",
 		"occursOn": ["Desert"],
 		"uniques": ["Must be adjacent to [4] to [6] [Desert] tiles",
-			"Occurs on latitudes from [] to [] percent of distance equator to pole",
+			/*"Occurs on latitudes from [] to [] percent of distance equator to pole",*/
 			"Occurs in groups of [1] to [1] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -451,7 +435,7 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-*/
+
 
 	// Base terrains
 	{
@@ -460,7 +444,7 @@
 		"movementCost": 1,
 		"food": 1,
 		"production": 1,
-		"defenceBonus": 0.1,
+		"defenceBonus": 0.3,
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
@@ -469,7 +453,7 @@
 		"type": "TerrainFeature",
 		"science": 1,
 		"movementCost": 1,
-		"defenceBonus": 0.0,
+		"defenceBonus": -0.1,
 		"occursOn": ["Grassland","Plains","Tundra","Snow","Desert"],
 		"uniques": ["Rare feature"]
 	},
@@ -481,7 +465,7 @@
 		"movementCost": 1,
 		"RGB": [45,108,145],
 		"uniques": [
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -497,7 +481,7 @@
 "[+1 Food, +1 Gold] for each adjacent [Torres del Paine]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 
 	},
@@ -510,7 +494,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation",
 					"Considered [Desirable] when determining start locations <on water maps>",
 					"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -526,7 +510,7 @@
 "[+1 Food] for each adjacent [Torres del Paine]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 	},
 	{
@@ -544,7 +528,6 @@
 			    "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
 			    "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
 				"[+3] to Fertility for Map Generation",
-				"Becomes [Flood plains] when adjacent to [River]",
 				"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
 				"A Region can not contain more [Plains] tiles than [Grassland] tiles",
 				"Considered [Desirable] when determining start locations",
@@ -554,7 +537,7 @@
 				"Considered [Food] when determining start locations <in [Grassland] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -570,7 +553,7 @@
 "[+2 Food] for each adjacent [Torres del Paine]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 	},
 	{
@@ -592,7 +575,6 @@
 			    "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
 			    "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 				"[+4] to Fertility for Map Generation",
-				"Becomes [Flood plains] when adjacent to [River]",
 				"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
 				"A Region can not contain more [Grassland] tiles than [Plains] tiles",
 				"Considered [Desirable] when determining start locations",
@@ -602,7 +584,7 @@
 				"Considered [Food] when determining start locations <in [Plains] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -618,7 +600,7 @@
 "[+1 Food, +1 Production] for each adjacent [Torres del Paine]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]",
 ]
 	},
 	{
@@ -638,7 +620,7 @@
 				"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 				"Becomes [Plains] when adjacent to [River]",
 				"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -654,7 +636,7 @@
 "[+1 Food] for each adjacent [Torres del Paine]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 	},
 	{
@@ -672,7 +654,7 @@
 				"Becomes [Flood plains] when adjacent to [River]",
 				"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 				"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -687,7 +669,7 @@
 "[+1 Gold, +1 Culture] for each adjacent [Piopiotahi]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 	},
 	{
@@ -700,7 +682,7 @@
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
 	},
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -716,7 +698,7 @@
 "[+1 Food, +1 Gold] for each adjacent [Torres del Paine]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 	{
 		"name": "Mountain",
 		"type": "Land",
@@ -728,7 +710,7 @@
 					"Occurs in chains at high elevations",
 					"Units ending their turn on this terrain take [50] damage",
 					"Always Fertility [-2] for Map Generation",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -743,7 +725,7 @@
 "[+1 Gold, +1 Culture] for each adjacent [Piopiotahi]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 	},
 	{
@@ -761,7 +743,7 @@
 				"Becomes [Tundra] when adjacent to [River]",
 				"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 				"Never receives any resources <in [Hill] tiles>",
-/*"[+5 Science] for each adjacent [Bermuda Triangle]",
+//"[+5 Science] for each adjacent [Bermuda Triangle]",
 "[+1 Gold, +1 Faith] for each adjacent [Delicate Arch]",
 "[+2 Food, +1 Culture] for each adjacent [Eyjafjallajökull]",
 "[+2 Science] for each adjacent [Galapagos Islands]",
@@ -776,7 +758,7 @@
 "[+1 Gold, +1 Culture] for each adjacent [Piopiotahi]",
 "[+1 Science, +1 Culture] for each adjacent [Tsingy de Bemahara]",
 "[+2 Culture, +2 Faith] for each adjacent [Uluru]",
-"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"*/
+"[+1 Food, +1 Gold, +1 Science] for each adjacent [Yosemite]"
 ]
 	},
 
@@ -787,7 +769,7 @@
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": false,
-		"defenceBonus": 0.20,
+		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
@@ -809,7 +791,7 @@
 		"movementCost": 2,
 		"overrideStats": false,
 		"unbuildable": true,
-		"defenceBonus": 0.20,
+		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
@@ -832,7 +814,7 @@
 		"movementCost": 2,
 		"overrideStats": false,
 		"unbuildable": true,
-		"defenceBonus": 0.20,
+		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
@@ -889,11 +871,10 @@
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
-		"food": 3,
-		"overrideStats": true,
+		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Grassland", "Plains", "Desert"],
+		"occursOn": ["Desert"],
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
@@ -918,7 +899,7 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
-*/
+
 	// Natural Wonders
 	{
 		"name": "Great Barrier Reef",
@@ -1132,7 +1113,7 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-/*
+
 	// BNW wonders
 	{
 		"name": "King Solomon's Mines",

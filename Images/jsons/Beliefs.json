@@ -1,0 +1,305 @@
+
+[
+    {
+        "name": "City Patron Godess",
+        "type": "Pantheon",
+        "uniques": ["[+25]% Production when constructing [All] buildings [in this city] <before the [Classical era]>"]
+    },
+    {
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Tundra]"]
+    },
+    {
+        "name": "Desert Folklore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Divine Spark",
+        "type": "Pantheon",
+        "uniques": ["[+25]% Great Person generation [in this city]"]
+    },
+    {
+        "name": "Earth Godess",
+        "type": "Pantheon",
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+    },
+    {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]"] 
+    },
+    {
+        "name": "Fire Godess",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Geothermal Fissure]"]
+    },
+    {
+        "name": "God of Craftsman",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Faith] from every [Strategic resource]"]
+    },
+    {
+        "name": "God of Healing",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+    },
+    {
+        "name": "God of the Forge",
+        "type": "Pantheon",
+        "uniques": ["[+25]% Production when constructing [Military] units [in this city] <before the [Medieval era]>"]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Plantation]"]
+    },
+    {
+        "name": "Goddess of the Harvest",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Wheat]", "[+2 Faith] from every [Maize]", "[+2 Faith] from every [Rice]"]
+    },
+	    {
+        "name": "Initiation Rites",
+        "type": "Pantheon",
+        "uniques": ["[+50 Faith] when a city adopts this religion for the first time (modified by game speed)"]
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food, +1 Production] from every [Camp]"]
+    },
+	    {
+        "name": "Lady of the Reeds and Marshes",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood plains]"]
+    },
+    {
+        "name": "Monument to the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [All] wonders [in all cities] <before the [Medieval era]>"]
+    },
+    {
+        "name": "Oral Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Plantation]"]
+    },
+    {
+        "name": "Religious Idols",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Amber]", "[+2 Faith] from every [Copper]", "[+2 Faith] from every [Gold Ore]", "[+2 Faith] from every [Jade]", "[+2 Faith] from every [Silver]"]
+    },
+    {
+        "name": "River Godess",
+        "type": "Pantheon",
+        "uniques": ["[+2 Happiness] in cities on [River] tiles"]
+    },
+    {
+        "name": "Religious Settlements",
+        "type": "Pantheon",
+        "uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "[-15]% Culture cost of natural border growth [in this city]"]
+    },
+    {
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Jungle]"]
+    },
+    {
+        "name": "Stone Circles",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Quarry]"]
+    },
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+
+{
+        "name": "Cathedral",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Dar-e Mehr",
+        "type": "Follower",
+        "uniques": ["May buy [Dar-e Mehr] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Gurdwara",
+        "type": "Follower",
+        "uniques": ["May buy [Gurdwara] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Meeting House",
+        "type": "Follower",
+        "uniques": ["May buy [Meeting House] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Mosque",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Pagoda",
+        "type": "Follower",
+        "uniques": ["May buy [Pagoda] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Stupa",
+        "type": "Follower",
+        "uniques": ["May buy [Stupa] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Synagogue",
+        "type": "Follower",
+        "uniques": ["May buy [Synagogue] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Wat",
+        "type": "Follower",
+        "uniques": ["May buy [Wat] buildings for [380] [Faith] [in cities following this religion]"]
+    },
+{
+        "name": "Choral Music",
+        "type": "Follower",
+        "uniques": ["[+2 Culture] from every [Shrine]", "[+4 Culture] from every [Temple]"]
+    },    
+{
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": ["[+4 Faith] from every [Wonder]"]
+    },
+{
+        "name": "Feed the World",
+        "type": "Follower",
+        "uniques": ["[+3 Food] from every [Shrine]", "[+3 Food] from every [Temple]"]
+    },
+{
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+2 Gold] from every [Holy Site]", "[+2 Gold] from every [Shrine]", "[+2 Gold] from every [Temple]"]
+    },
+{
+        "name": "Relinquaries",
+        "type": "Follower",
+        "uniques": ["[+7 Faith] from every [Archaeological Dig]"]
+    },
+{
+        "name": "Warrior Monks",
+        "type": "Follower",
+        "uniques": ["May buy [Warrior Monk] units for [200] [Faith] [in all cities] <in cities with a [Temple]>"]
+    },
+{
+        "name": "Work Ethic",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
+    },
+{
+        "name": "Zen meditation",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] <if this city has at least [1] specialists>"]
+    },
+	///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+    
+{
+        "name": "Cross-Cultural Dialogue",
+        "type": "Founder",
+        "uniques": ["[+1 Science] for every [4] global followers [in all cities]"]
+    },
+{
+        "name": "Lay ministery",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every [Holy Site]","[+1 Culture] from every [Theatre Square]"]
+    },
+{
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+3 Gold] for each global city following this religion"]
+    },
+{
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+    },
+{
+        "name": "Religious Unity",
+        "type": "Founder",
+        "uniques": ["Gifts of Gold to City-States generate [50]% more Influence"]
+    },
+{
+        "name": "Pilgrimage",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+{
+        "name": "Sacred Places",
+        "type": "Founder",
+        "uniques": ["[+2 Science, +2 Culture, +2 Gold, +2 Faith] from every [Wonder]"]
+    },
+{
+        "name": "Stewardship",
+        "type": "Founder",
+        "uniques": ["[+1 Science] from every [Campus]", "[+1 Gold] from every [Commercial Hub]"]
+    },
+{
+        "name": "World Church",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] for every [4] global followers [in all cities]"]
+    },
+// ENHANCERS
+
+{
+        "name": "Crusade",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [Non-City] units> <when fighting in [Enemy Land] tiles>"],
+    },
+{
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+    },
+{
+        "name": "Holy Order",
+        "type": "Enhancer",
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+    },
+{
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+    },
+{
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+2] Movement <for [Great Prophet] units>", "[+2] Movement <for [Missionary] units>", "[+2] Movement <for [Inquisitor] units>"]
+    },
+{
+        "name": "Monastic Isolation",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>", "[+25]% Spread Religion Strength <for [Great Prophet] units>"]
+    },
+{
+        "name": "Religious Colonization",
+        "type": "Enhancer",
+        "uniques": ["[+50]% Natural religion spread [in all cities connected to capital]"]
+    },
+{
+        "name": "Scripture",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Printing]>"]
+    },
+]
+
