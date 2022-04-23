@@ -850,7 +850,7 @@
 	{
 		"name": "Marsh",
 		"type": "TerrainFeature",
-		"food": -1,
+		"food": 1,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
