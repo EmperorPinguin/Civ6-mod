@@ -233,7 +233,7 @@ Wonders enabled:
 				"uniques": ["[+20]% Production when constructing [Pike and Shot] units [in all cities]","[+20]% Production when constructing [Musketman] units [in all cities]",
 					"[+20]% Production when constructing [Crossbowman] units [in all cities]","[+20]% Production when constructing [Crouching Tiger] units [in all cities]",
 					"[+20]% Production when constructing [Keshig] units [in all cities]","[+20]% Production when constructing [Hwacha] units [in all cities]",
-					"[+1 Food] from every [Farm]","[+1 Food] from every [Plantation]","[+1 Food] from every [Stepwell]"],
+					"+1 Food from every Farm","[+1 Food] from every [Plantation]","[+1 Food] from every [Stepwell]"],
 				"requires": ["Defensive Tactics"],
 				"row": 2,
 				"column": 15
