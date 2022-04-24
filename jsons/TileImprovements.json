@@ -409,12 +409,16 @@
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
 		"food": 1,
+		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Apprenticeship",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["[+1 Food, +1 Production] for each adjacent [Polder]",
-			"+4 Gold once Civil Engineering is adopted",
-			"[+1 Food, +1 Production] <after discovering [Replaceable Parts]>"]
+		"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
+		"uniques": [
+"[+1 Food] for each adjacent [Polder]",
+"[+4 Gold}] <after adopting [Civil Engineering]>",
+"[+1 Food, +1 Production] for each adjacent [Polder] <after discovering [Replaceable Parts]>",
+"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>"
+]
 	},	
 	{ 
 		"name": "Rock-Hewn Church",

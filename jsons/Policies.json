@@ -282,7 +282,7 @@ Wonders enabled:
 			{
 				"name": "Civil Engineering",
 				"uniques": ["[+15]% Production when constructing [Worker] units [in all cities]","Tile improvement speed +25%",
-					"[+1 Production] from every [Kampung]","[+4 Gold] from every [Polder]"],
+					"[+1 Production] from every [Kampung]","+4 Gold from every Polder"],
 				"requires": ["Mercantilism"],
 				"row": 2,
 				"column": 27
