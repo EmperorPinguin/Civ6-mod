@@ -641,7 +641,7 @@
         "cost": 180,
         "happiness": 1,
         "requiredTech": "Pottery",
-        "uniques": ["[+1 Culture] from [Flood plains] tiles in this city","[10]% Food is carried over after population increases [in this city]",
+        "uniques": ["[+1 Faith] from [Flood plains] tiles in this city", "[10]% Food is carried over after population increases [in this city]", 
             "Must have an owned [Flood plains] within [3] tiles"],
         "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
     },
@@ -649,17 +649,17 @@
         "name": "Stonehenge",
         "isWonder": true,
         "cost": 180,
-        "culture": 3,
+        "faith": 2,
         "requiredNearbyImprovedResources": ["Stone"],
         "requiredTech": "Astrology",
-        "uniques": ["Free [Great Artist] appears"],
+        "uniques": ["Free [Great Prophet] appears"],
         "quote": "'Can you imagine trying to talk six hundred people into helping you drag a fifty-ton stone eighteen miles across the countryside and muscle it into an upright position, and then saying, 'Right, lads! Another twenty like that...and then we can party!' –Bill Bryson"
     },
-    {
+	{
         "name": "Hanging Gardens",
         "isWonder": true,
         "cost": 180,
-        "uniques": ["+[15]% growth in all cities","[10]% Food is carried over after population increases [in this city]","Must be on [River]"],
+        "uniques": ["[+15]% growth [in all cities]", "[10]% Food is carried over after population increases [in this city]", "Must be on [River]"],
         "requiredTech": "Irrigation",
         "quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose, are continually employed in raising water from the Euphrates into the garden.' –Strabo"
     },
@@ -670,8 +670,8 @@
         "food": 4,
         "requiredNearbyImprovedResources": ["Deer","Furs","Honey","Ivory","Truffles"],
         "requiredTech": "Archery",
-        "uniques": ["[+1 Happiness] from [Camp] tiles in this city","[+1 Happiness] from [Pasture] tiles in this city",
-            "[+1 Happiness] from [Plantation] tiles in this city","[10]% Food is carried over after population increases [in this city]"],
+        "uniques": ["[+1 Happiness] from [Camp] tiles [in this city]", "[+1 Happiness] from [Pasture] tiles [in this city]",
+            "[+1 Happiness] from [Plantation] tiles [in this city]", "[10]% Food is carried over after population increases [in this city]"],
         "quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.' –Antipater of Sidon"
     },
     {
@@ -679,7 +679,7 @@
         "isWonder": true,
         "cost": 220,
         "culture": 2,
-        "uniques": ["Free [Worker] appears","Worker construction increased 25%","Must be on [Desert]"],
+        "uniques": ["Free [Worker] appears", "[-25]% tile improvement construction time", "Must be on [Desert]"],
         "requiredTech": "Masonry",
         "quote": "'From the height of these pyramids, forty centuries look down on us.' –Napolean Boneparte"
     },
@@ -687,9 +687,10 @@
         "name": "Oracle",
         "isWonder": true,
         "cost": 220,
-        "culture": 2,
-        "greatPersonPoints": {"production": 1,"culture": 1,"gold": 1,"science": 1},
-        "uniques": ["+[25]% great person generation in this city","Must be on [Hill]","Only available <after adopting [Mysticism]>"],
+        "culture": 1,
+		"faith": 1,
+        "greatPersonPoints": {"Great Engineer": 1, "Great Artist": 1, "Great Merchant": 1, "Great Scientist": 1},
+        "uniques": ["[+25]% Great Person generation [in this city]", "Must be on [Hill]", "Only available <after adopting [Mysticism]>"],
         "quote": "'I sprang upon the swift ship in the form of a dolphin, pray to me as Apollo Delphinius; also the altar itself shall be called Delphinius and overlooked forever.' –Homer"
     },
 
@@ -698,7 +699,7 @@
         "name": "Apadana",
         "isWonder": true,
         "cost": 400,
-        "uniques": ["[5] free [Envoy] units appear","Only available <in cities with a [Palace]>","Only available <after adopting [Political Philosophy]>"],
+        "uniques": ["[5] free [Envoy] units appear", "Only available <in cities with a [Palace]> <after adopting [Political Philosophy]>"], // 2 envoy
         "quote": "'My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana.' –Artaxerxes II"
     },
     {
@@ -715,8 +716,7 @@
         "isWonder": true,
         "cost": 400,
         "gold": 3,
-        "uniques": ["Provides [-1] [Trade Route]","[1] free [Trader] units appear",
-        	"Must be next to [Coast]"],
+        "uniques": ["Free [Trader] units appear", "Must be next to [Coast]"],
         "requiredTech": "Shipbuilding",
         "quote": "'At Rhodes was set up a Colossus of seventy cubits high, representing the Sun. The artist expended as much bronze on it as seemed likely to create a dearth in the mines.' –Philo of Byzantium"
     },
@@ -725,8 +725,8 @@
         "isWonder": true,
         "cost": 400,
         "science": 2,
-        "greatPersonPoints": {"science": 1},
-        "uniques": ["Free Technology","Only available <after adopting [Recorded History]>"],
+        "greatPersonPoints": {"Great Scientist": 1},
+        "uniques": ["Free Technology", "Only available <after adopting [Recorded History]> <in cities with a [Library]>"],
         "quote": "'We can roam the bloated stacks of the Library of Alexandria, where all imagination and knowledge are assembled, we can recognize in its destruction the warning that all we gather will be lost.' –Lucian of Samosata"
     },
     {
@@ -734,7 +734,7 @@
         "isWonder": true,
         "cost": 290,
         "gold": 3,
-        "uniques": ["+2 movement for all naval units","Must be next to [Coast]"],
+        "uniques": ["[+2] Movement <for [{Military} {Water}] units>", "Must be next to [Coast]"],
         "requiredTech": "Celestial Navigation",
         "quote": "'This lighthouse was the cynosure of all eyes.' –Henry David Thoreau"
     },
@@ -742,8 +742,8 @@
         "name": "Jebel Barkal",
         "isWonder": true,
         "cost": 400,
-        "culture": 8,
-        "uniques": ["Provides [2] [Iron]","Must be on [Hill]"],
+        "faith": 6,
+        "uniques": ["Provides [4] [Iron]", "Must be on [Hill]"],
         "requiredTech": "Iron Working",
         "quote": "'At the south-west corner a large perpendicular mass of sandstone has become separated by a deep fissure from the body of the mountain … it has all the appearance of a colossal statue.' –E. A. Wallis Budge"
     },
@@ -752,8 +752,8 @@
         "isWonder": true,
         "cost": 400,
         "gold": 4,
-        "uniques": ["[+1 Gold] from every [Commercial Hub]","[+1 Gold] from every [Industrial Zone]",
-            "[+1 Gold] from every [Theater Square]","Must be next to [Mountain]"],
+        "uniques": ["[+1 Gold] from every [Commercial Hub]", "[+1 Gold] from every [Industrial Zone]", 
+            "[+1 Gold] from every [Theater Square]", "Must be next to [Mountain]"],
         "requiredTech": "Engineering",
         "quote": "'T...Eagles fly, the turret rounds, and seem to flout the sky; They eye those walls now crumbling in decay, and scare from quiet rest their destined prey.' –Henry David Thoreau"
     },
@@ -762,7 +762,7 @@
         "isWonder": true,
         "cost": 400,
         "culture": 2,
-        "uniques": ["[+1 Science, +2 Culture] from [Coast] tiles in this city","Worker construction increased 25%",
+        "uniques": ["[+1 Science, +1 Faith, +1 Culture] from [Coast] tiles in this city", "[-25]% tile improvement construction time",
         	"Only available <after adopting [Defensive Tactics]>"],
         "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' –Lucian of Samosata"
     },
@@ -770,8 +770,7 @@
         "name": "Petra",
         "isWonder": true,
         "cost": 400,
-        "uniques": ["[+2 Food, +1 Production, +2 Gold] from [Desert] tiles in this city","[-2 Food, -1 Production, -2 Gold] from [Flood plains] tiles in this city",
-            "Must be next to [Desert]"],
+        "uniques": ["[+2 Food, +1 Production, +2 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Must be next to [Desert]"],
         "requiredTech": "Mathematics",
         "quote": "'Petra is a brilliant display of man's artistry in turning barren rock into majestic wonder.' –Edward Dawson"
     },

@@ -1,29 +1,27 @@
 [
-    // Source: the fandom, so take these with a grain of salt
-    // I also did some testing in the official version, but by far not all
-    
-    {
+	{
         "name": "Ancient era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Warrior",
+		"startingGold": 10,
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
         "friendBonus": {
-            "Cultured": ["Provides [+3 Culture] per turn"],
+            "Cultured": ["Provides [+3 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+2] Happiness"],
+            "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
             "Religious": ["Provides [+3 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Cultured": ["Provides [+6 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+6 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -33,26 +31,26 @@
         "name": "Classical era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
-        "startingWorkerCount": 0,
+        "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 2,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 10,
-        "startingCulture": 100,
-        "settlerPopulation": 1,
+        "startingCulture": 350,
+        "settlerPopulation": 2,
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
         "friendBonus": {
-            "Cultured": ["Provides [+3 Culture] per turn"],
+            "Cultured": ["Provides [+3 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+2] Happiness"],
+            "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
             "Religious": ["Provides [+3 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Cultured": ["Provides [+6 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+6 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -62,28 +60,28 @@
         "name": "Medieval era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
-        "startingWorkerCount": 1,
+        "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 25,
-        "startingCulture": 200,
-        "settlerPopulation": 1,
+        "startingCulture": 1250,
+        "settlerPopulation": 3,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 25,
         "friendBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Cultured": ["Provides [+6 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
             "Religious": ["Provides [+6 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
-            "Cultured": ["Provides [+12 Culture] per turn"],
+            "Cultured": ["Provides [+12 Culture] [in capital] per turn", "Provides [+4 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+6 Gold] [in capital] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+12 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -93,11 +91,11 @@
         "name": "Renaissance era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
-        "startingWorkerCount": 1,
+        "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Pikeman",
         "startingGold": 50,
-        "startingCulture": 300,
+        "startingCulture": 2500,
         "settlerPopulation": 2,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
@@ -105,16 +103,16 @@
         "embarkDefense": 8,
         "startPercent": 37,
         "friendBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Cultured": ["Provides [+6 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
             "Religious": ["Provides [+6 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
-            "Cultured": ["Provides [+12 Culture] per turn"],
+            "Cultured": ["Provides [+12 Culture] [in capital] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+6 Gold] [in capital] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+12 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -128,7 +126,7 @@
         "startingMilitaryUnitCount": 5,
         "startingMilitaryUnit": "Musketman",
         "startingGold": 100,
-        "startingCulture": 400,
+        "startingCulture": 3500,
         "settlerPopulation": 3,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
@@ -138,14 +136,14 @@
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+6 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+6 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -163,7 +161,7 @@
         "startingMilitaryUnitCount": 5,
         "startingMilitaryUnit": "Warrior",
         "startingGold": 200,
-        "startingCulture": 500,
+        "startingCulture": 5000,
         "settlerPopulation": 3,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
@@ -173,14 +171,14 @@
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+6 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+6 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -198,7 +196,7 @@
         "startingMilitaryUnitCount": 5,
         "startingMilitaryUnit": "Infantry",
         "startingGold": 200,
-        "startingCulture": 500,
+        "startingCulture": 6700,
         "settlerPopulation": 4,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
@@ -208,14 +206,14 @@
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+10 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+10 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
         },
@@ -237,7 +235,7 @@
         "settlerPopulation": 5,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
-        "baseUnitBuyCost": 1000,
+        "baseUnitBuyCost": 8750,
         "embarkDefense": 20,
         "startPercent": 80,
         // So theoretically this is always just all the wonders at least 2 eras old. So we could just use that. 
@@ -246,14 +244,14 @@
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+10 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+10 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
@@ -274,7 +272,7 @@
         "startingMilitaryUnitCount": 5,
         "startingMilitaryUnit": "Warrior",
         "startingGold": 400,
-        "startingCulture": 600,
+        "startingCulture": 10000,
         "settlerPopulation": 5,
         "settlerBuildings": ["Monument"],
         "startingObsoleteWonders": ["Stonehenge"],
@@ -284,14 +282,14 @@
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3] Happiness"],
+            "Mercantile": ["Provides [+10 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+10 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[17] turns"]
 
