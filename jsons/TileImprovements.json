@@ -120,6 +120,7 @@
 	},
 	{
 		"name": "Quarry",
+		"resourceTerrainAllow": ["Hill", "Grassland", "Plains", "Desert", "Tundra"],
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Mining",
