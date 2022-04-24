@@ -1856,7 +1856,7 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Guilds",
+		"requiredTech": "Apprenticeship",
 		"uniques": ["Can build [Polder] improvements on tiles", "Cannot enter ocean tiles <before discovering [Astronomy]>", "Uncapturable"]
 	},
 
