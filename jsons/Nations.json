@@ -7,6 +7,7 @@
 	},
 
 // Nations
+
 	{
 		"name": "America",
 		"leaderName": "Teddy Roosevelt",
@@ -23,7 +24,10 @@
 		"outerColor": [0,79,205],
 		"innerColor": [243,245,249],
 		"uniqueName": "Founding Fathers",
-		"uniques": ["[-10]% Culture cost of adopting new Policies","Provides 1 happiness per 2 additional social policies adopted"],
+		"uniques": [
+"[-10]% Culture cost of adopting new Policies",
+"Provides 1 happiness per 2 additional social policies adopted"
+],
 		"cities": ["Washington","New York","Philadelphia","Boston","Baltimore","Charleston","New Orleans","Cincinnati","Los Angeles","St. Louis",
 			"Chicago","Buffalo","San Francisco","Cleveland","Detroit","Houston","Atlanta","Dallas","San Diego","Phoenix",
 			"San Antonio","San Jose","Seattle","Portland","Miami","Denver","Jacksonville","Kansas City","Richmond","Pittsburgh",
@@ -45,7 +49,10 @@
 		"outerColor": [248,217,2],
 		"innerColor": [21,108,49],
 		"uniqueName": "The Last Prophet",
-		"uniques": ["[Great Artist] is earned [50]% faster","[+1 Science] from each Trade Route"],
+		"uniques": [
+"Free [Great Prophet] appears <upon discovering [Mathematics]>",
+"[+1 Science] from each Trade Route"
+],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
@@ -67,7 +74,13 @@
 		"outerColor": [21,108,49],
 		"innerColor": [248,217,2],
 		"uniqueName": "Land Down Under",
-		"uniques": ["[15]% Food is carried over after population increases [in all coastal cities]", "[+1 Science] from [Campus] tiles [in all cities]", "[+1 Gold] from [Commercial Hub] tiles [in all cities]", "[+1 Faith] from [Holy Site] tiles [in all cities]", "[+1 Culture] from [Theatre Square] tiles [in all cities]"],
+		"uniques": [
+"[15]% Food is carried over after population increases [in all coastal cities]", 
+"[+1 Science] from [Campus] tiles [in all cities]", 
+"[+1 Gold] from [Commercial Hub] tiles [in all cities]", 
+"[+1 Faith] from [Holy Site] tiles [in all cities]", 
+"[+1 Culture] from [Theatre Square] tiles [in all cities]"
+],
 		"cities": ["Canberra","Sydney","Launceston","Ballaarat","Perth","Brisbane","Toowoomba","Melbourne","Townsville","Geelong",
 			"Adelaide","Hobart","Bendigo","Broken Hill","Cairns","Newcastle","Maitland","Rockhampton","Wagga Wagga","Wollongong",
 			"Albury","Alice Springs","Bathurst","Queanbeyan","Bundaberg","Coffs Harbor","Darwin","Dremantle","Gladstone","Goulburn","Hervery Bay",
@@ -113,9 +126,37 @@
 		"outerColor": [75,188,0],
 		"innerColor": [248,217,2],
 		"uniqueName": "Amazon",
-		"uniqueText": " +1 Culture from every Jungle, and Campus, Commercial Hub, Holy Site and Theatre Square receive +1 yield for each adjacent Jungle
+		"uniqueText": " +1 Culture from every Rainforest, and Campus, Commercial Hub, Holy Site and Theatre Square receive +1 yield for each adjacent Jungle
 		",
-		"uniques": ["[+1 Culture] from every [Jungle]"],
+		"uniques": ["[+1 Culture] from every [Rainforest]",
+"[+1 Science] from every [Campus] <with [1] to [1] neighboring [Rainforest] tiles>",
+"[+2 Science] from every [Campus] <with [2] to [2] neighboring [Rainforest] tiles>",
+"[+3 Science] from every [Campus] <with [3] to [3] neighboring [Rainforest] tiles>",
+"[+4 Science] from every [Campus] <with [4] to [4] neighboring [Rainforest] tiles>",
+"[+5 Science] from every [Campus] <with [5] to [5] neighboring [Rainforest] tiles>",
+"[+6 Science] from every [Campus] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+1 Gold] from every [Commercial Hub] <with [1] to [1] neighboring [Rainforest] tiles>",
+"[+2 Gold] from every [Commercial Hub] <with [2] to [2] neighboring [Rainforest] tiles>",
+"[+3 Gold] from every [Commercial Hub] <with [3] to [3] neighboring [Rainforest] tiles>",
+"[+4 Gold] from every [Commercial Hub] <with [4] to [4] neighboring [Rainforest] tiles>",
+"[+5 Gold] from every [Commercial Hub] <with [5] to [5] neighboring [Rainforest] tiles>",
+"[+6 Gold] from every [Commercial Hub] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+1 Culture] from every [Theatre Square] <with [1] to [1] neighboring [Rainforest] tiles>",
+"[+2 Culture] from every [Theatre Square] <with [2] to [2] neighboring [Rainforest] tiles>",
+"[+3 Culture] from every [Theatre Square] <with [3] to [3] neighboring [Rainforest] tiles>",
+"[+4 Culture] from every [Theatre Square] <with [4] to [4] neighboring [Rainforest] tiles>",
+"[+5 Culture] from every [Theatre Square] <with [5] to [5] neighboring [Rainforest] tiles>",
+"[+6 Culture] from every [Theatre Square] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+1 Faith] from every [Holy Site] <with [1] to [1] neighboring [Rainforest] tiles>",
+"[+2 Faith] from every [Holy Site] <with [2] to [2] neighboring [Rainforest] tiles>",
+"[+3 Faith] from every [Holy Site] <with [3] to [3] neighboring [Rainforest] tiles>",
+"[+4 Faith] from every [Holy Site] <with [4] to [4] neighboring [Rainforest] tiles>",
+"[+5 Faith] from every [Holy Site] <with [5] to [5] neighboring [Rainforest] tiles>",
+"[+6 Faith] from every [Holy Site] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[-1 Science] from every [Campus] <with [2] to [3] neighboring [Rainforest] tiles>",
+"[-2 Science] from every [Campus] <with [4] to [5] neighboring [Rainforest] tiles>",
+"[-3 Science] from every [Campus] <with [6] to [6] neighboring [Rainforest] tiles>",
+],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
@@ -139,7 +180,11 @@
 		"uniqueName": "Taxis",
 		"uniqueText": " All military units receive +10% Combat Strength, Mounted units deal +33% more damage when attacking cities, Great Artist is earned 20% faster
 		",
-		"uniques": ["[military] units gain the [Taxis] promotion","[Mounted] units gain the [Porphyrogennetos] promotion","[Great Artist] is earned [20]% faster"],
+		"uniques": [
+"[military] units gain the [Taxis] promotion",
+"[Mounted] units gain the [Porphyrogennetos] promotion",
+"[Great Prophet] is earned [25]% faster"
+],
 		"cities": ["Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
 			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
 			"Koloneia","Tyana","Attalea","Sebasteia","Theodosiopolis","Mesembria","Arcadriopolis","Mount Athos","Dorystolon","Zara"]	
@@ -160,8 +205,12 @@
 		"outerColor": [249,249,249],
 		"innerColor": [205,0,1],
 		"uniqueName": "The Last Best West",
-		"uniques": ["[+1 Food] from every [Tundra]","[+1 Production] from every [Mine]",
-			"[+1 Production] from every [Lumber Mill]","[+1 Food] from every [Camp]"],
+		"uniques": [
+"[+1 Food] from every [Tundra]",
+"[+1 Production] from every [Mine]",
+"[+1 Production] from every [Lumber Mill]",
+"[+1 Food] from every [Camp]"
+],
 		"cities": ["Ottawa","Toronto","Montréal","Quebec City","Hamilton","Winnipeg","Halifax","Saint John","Vancouver","Victoria",
 			"Kingston","Brantford","Windsor","Charlottetown","Calgary","Sherbrooke","Guelph","Peterborough","Valleyfield","Edmonton",
 			"Trois-Rivières","Stratford","Saint Catharines","Waterloo","Saint Hyacinthe","Saint John’s","Dawson City","Belleville","Chatham",
@@ -184,8 +233,10 @@
 		"outerColor": [21,108,49],
 		"innerColor": [255,255,255],
 		"uniqueName": "Dynastic Cycle",
-		"uniques": ["[10]% Production when constructing [Wonders] buildings [in all cities]","[+10]% [Science] from every [Palace]",
-			"[+10]% [Culture] from every [Palace]"],
+		"uniques": [
+"[+5]% [Science] [in all cities]",
+"[+5]% [Culture] [in all cities]"
+],
 		"cities": ["Xi'an","Beijing","Taiyuan","Chengdu","Jiaodong","Changsha","Longxi","Guangzhou","Handan","Shenyang",
 			"Shanghai","Wuhan","Xiurong","Chen","Xingzhou","Quxian","Nanjing","Langfang","Linzi","Jiujiang",
 			"Kaifeng","Xuzhou","Hefei","Xinzheng","Lu’an","Qufu","Jiangzhou","Luoyang","Yinchuan"]
@@ -205,7 +256,7 @@
 		"outerColor": [1,42,108],
 		"innerColor": [70,175,10],
 		"uniqueName": "Nihithaw",
-		"uniques": ["Receive free [Worker] when you discover [Pottery]","[+2 Gold] from each Trade Route"],
+		"uniques": ["[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
 			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
 			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"]
@@ -226,7 +277,10 @@
 		"outerColor": [2,79,80],
 		"innerColor": [251,236,127],
 		"uniqueName": "Iteru",
-		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]","[10]% Production when constructing [All] buildings [in all cities]"],
+		"uniques": [
+"[+15]% Production when constructing [All] wonders [in all cities]",
+"[+10]% Production when constructing [All] buildings [in all cities]"
+],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -273,7 +327,12 @@
 		"outerColor": [248,217,2],
 		"innerColor": [21,108,49],
 		"uniqueName": "Aksumite Legacy",
-		"uniques": ["[+20]% Strength <for [All] units> <within [2] tiles of a [Hill]>", "[+1 Culture] from every [Strategic Resource]","[+1 Culture] from each Trade Route"],
+		"uniques": [
+"[+1 Faith] from every [Bonus resource]",
+"[+1 Faith] from every [Luxury resource]",
+"[+1 Faith] from every [Strategic resource]",
+"May buy [Archaeologist] units for [800] [Faith] [in all cities]"
+],
 		"cities": ["Addis Ababa","Gondar","Harar","Axum","Adwa","Lalibela","Mekele","Dessie","Jimma","Sodo","Dire Dawa","Adigrat",
 			"Weldiya","Ankober","Alamata","Yirgalem","Gore","Negele Borana","Ginir","Debarq","Nejo","Debre Berhan",
 			"Abiy Addi","Mersa","Soqota","Sayint Ajebar","Chencha","Antalo","Yifat","Dabat","Debre Sina"]
@@ -294,7 +353,12 @@
 		"outerColor": [0,79,205],
 		"innerColor": [251,236,127],
 		"uniqueName": "Grand Tour",
-		"uniques": ["[+15]% Production when constructing [Wonders] buildings [in all cities]","[+3 Culture] from every [Wonder]"],
+		"uniques": [
+"[+20]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>",
+"[+20]% Production when constructing [All] wonders [in all cities] <during the [Renaissance era]>",
+"[+20]% Production when constructing [All] wonders [in all cities] <during the [Industrial era]>",
+"[+4 Culture] from every [Wonder]"
+],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -410,7 +474,7 @@
 		"outerColor": [115,52,44],
 		"innerColor": [190,217,220],
 		"uniqueName": "Thermopylae",
-		"uniques": ["Earn [50]% of [military] opponent's [Strength] as [Culture] for kills"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -457,7 +521,17 @@
 		"outerColor": [148,73,1],
 		"innerColor": [248,217,2],
 		"uniqueName": "Mit'a",
-		"uniques": ["[+2 Production, +2 Food] from every [Mountain]"],
+		"uniqueText": " Mountains receive +2 Food, +1 Production for each adjacent Terrace Farm, and +1 Production after reaching the Industrial era.
+		",
+		"uniques": [
+"[+2 Food, +1 Production] from every [Mountain] <with [1] to [1] neighboring [Terrace Farm] tiles>",
+"[+4 Food, +2 Production] from every [Mountain] <with [2] to [2] neighboring [Terrace Farm] tiles>",
+"[+6 Food, +3 Production] from every [Mountain] <with [3] to [3] neighboring [Terrace Farm] tiles>",
+"[+8 Food, +4 Production] from every [Mountain] <with [4] to [4] neighboring [Terrace Farm] tiles>",
+"[+10 Food, +5 Production] from every [Mountain] <with [5] to [5] neighboring [Terrace Farm] tiles>",
+"[+12 Food, +6 Production] from every [Mountain] <with [6] to [6] neighboring [Terrace Farm] tiles>",
+"[+1 Production] from every [Mountain] <starting from the [Industrial era]>"
+],
 		"cities": ["Qusqu","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
@@ -501,13 +575,41 @@
 		"outerColor": [205,0,1],
 		"innerColor": [9,171,157],
 		"uniqueName": "Great Nusantara",
-		"uniques": ["[+1 Production] from every [Coast]","[+1 Production] from every [Lakes]",
-			"[+1 Happiness] from every [Harbor]"],
+		"uniqueText": " Campus, Holy Site, Industrial Zone and Theatre Square get +1 yield for every 2 adjacent Coast or Lakes, +1 Happiness for every Entertainment Complext next to Coast or Lakes.
+		",
+		"uniques": [
+"[+1 Science] from every [Campus] <with [2] to [3] neighboring [Coast] tiles>",
+"[+2 Science] from every [Campus] <with [4] to [5] neighboring [Coast] tiles>",
+"[+3 Science] from every [Campus] <with [6] to [6] neighboring [Coast] tiles>",
+"[+1 Faith] from every [Holy Site] <with [2] to [3] neighboring [Coast] tiles>",
+"[+2 Faith] from every [Holy Site] <with [4] to [5] neighboring [Coast] tiles>",
+"[+3 Faith] from every [Holy Site] <with [6] to [6] neighboring [Coast] tiles>",
+"[+1 Production] from every [Industrial Zone] <with [2] to [3] neighboring [Coast] tiles>",
+"[+2 Production] from every [Industrial Zone] <with [4] to [5] neighboring [Coast] tiles>",
+"[+3 Production] from every [Industrial Zone] <with [6] to [6] neighboring [Coast] tiles>",
+"[+1 Culture] from every [Theatre Square] <with [2] to [3] neighboring [Coast] tiles>",
+"[+2 Culture] from every [Theatre Square] <with [4] to [5] neighboring [Coast] tiles>",
+"[+3 Culture] from every [Theatre Square] <with [6] to [6] neighboring [Coast] tiles>",
+"[+1 Science] from every [Campus] <with [2] to [3] neighboring [Lakes] tiles>",
+"[+2 Science] from every [Campus] <with [4] to [5] neighboring [Lakes] tiles>",
+"[+3 Science] from every [Campus] <with [6] to [6] neighboring [Lakes] tiles>",
+"[+1 Faith] from every [Holy Site] <with [2] to [3] neighboring [Lakes] tiles>",
+"[+2 Faith] from every [Holy Site] <with [4] to [5] neighboring [Lakes] tiles>",
+"[+3 Faith] from every [Holy Site] <with [6] to [6] neighboring [Lakes] tiles>",
+"[+1 Production] from every [Industrial Zone] <with [2] to [3] neighboring [Lakes] tiles>",
+"[+2 Production] from every [Industrial Zone] <with [4] to [5] neighboring [Lakes] tiles>",
+"[+3 Production] from every [Industrial Zone] <with [6] to [6] neighboring [Lakes] tiles>",
+"[+1 Culture] from every [Theatre Square] <with [2] to [3] neighboring [Lakes] tiles>",
+"[+2 Culture] from every [Theatre Square] <with [4] to [5] neighboring [Lakes] tiles>",
+"[+3 Culture] from every [Theatre Square] <with [6] to [6] neighboring [Lakes] tiles>",
+"[+1 Happiness] from every [Entertainment Complex] <with [1] to [6] neighboring [Coast] tiles>",
+"[+1 Happiness] from every [Entertainment Complex] <with [1] to [6] neighboring [Lakes] tiles>"
+],
 		"cities": ["Majapahit","Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
 			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
-			"Yogyakarta","Bima","Sorong"]
+			"Yogyakarta","Bima","Sorong", "Mahajapit", "Majahapit", "Mapajahit", "Mahapajit", "Mapajahit"]
 	},
 	{
 		"name": "Japan",
@@ -527,6 +629,65 @@
 		"uniqueName": "Meiji Restoration",
 		"uniqueText": " Double adjacency bonus from Districts
 		",
+		"uniques": [
+"[+1 Science] from every [Campus] <with [1] to [1] neighboring [Great Improvement] tiles>",
+"[+2 Science] from every [Campus] <with [2] to [2] neighboring [Great Improvement] tiles>",
+"[+3 Science] from every [Campus] <with [3] to [3] neighboring [Great Improvement] tiles>",
+"[+4 Science] from every [Campus] <with [4] to [4] neighboring [Great Improvement] tiles>",
+"[+5 Science] from every [Campus] <with [5] to [5] neighboring [Great Improvement] tiles>",
+"[+6 Science] from every [Campus] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Gold] from every [Commercial Hub] <with [1] to [1] neighboring [Great Improvement] tiles>",
+"[+2 Gold] from every [Commercial Hub] <with [2] to [2] neighboring [Great Improvement] tiles>",
+"[+3 Gold] from every [Commercial Hub] <with [3] to [3] neighboring [Great Improvement] tiles>",
+"[+4 Gold] from every [Commercial Hub] <with [4] to [4] neighboring [Great Improvement] tiles>",
+"[+5 Gold] from every [Commercial Hub] <with [5] to [5] neighboring [Great Improvement] tiles>",
+"[+6 Gold] from every [Commercial Hub] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Gold] from every [Harbor] <with [1] to [1] neighboring [Great Improvement] tiles>",
+"[+2 Gold] from every [Harbor] <with [2] to [2] neighboring [Great Improvement] tiles>",
+"[+3 Gold] from every [Harbor] <with [3] to [3] neighboring [Great Improvement] tiles>",
+"[+4 Gold] from every [Harbor] <with [4] to [4] neighboring [Great Improvement] tiles>",
+"[+5 Gold] from every [Harbor] <with [5] to [5] neighboring [Great Improvement] tiles>",
+"[+6 Gold] from every [Harbor] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Faith] from every [Holy Site] <with [1] to [1] neighboring [Great Improvement] tiles>",
+"[+2 Faith] from every [Holy Site] <with [2] to [2] neighboring [Great Improvement] tiles>",
+"[+3 Faith] from every [Holy Site] <with [3] to [3] neighboring [Great Improvement] tiles>",
+"[+4 Faith] from every [Holy Site] <with [4] to [4] neighboring [Great Improvement] tiles>",
+"[+5 Faith] from every [Holy Site] <with [5] to [5] neighboring [Great Improvement] tiles>",
+"[+6 Faith] from every [Holy Site] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Production] from every [Industrial Zone] <with [1] to [1] neighboring [Great Improvement] tiles>",
+"[+2 Production] from every [Industrial Zone] <with [2] to [2] neighboring [Great Improvement] tiles>",
+"[+3 Production] from every [Industrial Zone] <with [3] to [3] neighboring [Great Improvement] tiles>",
+"[+4 Production] from every [Industrial Zone] <with [4] to [4] neighboring [Great Improvement] tiles>",
+"[+5 Production] from every [Industrial Zone] <with [5] to [5] neighboring [Great Improvement] tiles>",
+"[+6 Production] from every [Industrial Zone] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Culture] from every [Theatre Square] <with [1] to [1] neighboring [Great Improvement] tiles>",
+"[+2 Culture] from every [Theatre Square] <with [2] to [2] neighboring [Great Improvement] tiles>",
+"[+3 Culture] from every [Theatre Square] <with [3] to [3] neighboring [Great Improvement] tiles>",
+"[+4 Culture] from every [Theatre Square] <with [4] to [4] neighboring [Great Improvement] tiles>",
+"[+5 Culture] from every [Theatre Square] <with [5] to [5] neighboring [Great Improvement] tiles>",
+"[+6 Culture] from every [Theatre Square] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[-1 Science] from every [Campus] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[-2 Science] from every [Campus] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[-3 Science] from every [Campus] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[-1 Gold] from every [Commercial Hub] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[-2 Gold] from every [Commercial Hub] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[-3 Gold] from every [Commercial Hub] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[-1 Gold] from every [Harbor] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[-2 Gold] from every [Harbor] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[-3 Gold] from every [Harbor] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[-1 Faith] from every [Holy Site] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[-2 Faith] from every [Holy Site] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[-3 Faith] from every [Holy Site] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[-1 Production] from every [Industrial Zone] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[-2 Production] from every [Industrial Zone] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[-3 Production] from every [Industrial Zone] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[-1 Culture] from every [Theatre Square] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[-2 Culture] from every [Theatre Square] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[-3 Culture] from every [Theatre Square] <with [6] to [6] neighboring [Great Improvement] tiles>"
+],
+
+
+
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -549,7 +710,10 @@
 		"outerColor": [116,0,155],
 		"innerColor": [254,129,19],
 		"uniqueName": "Grand Barays", //Add CHOLOPHAL building for khmer
-		"uniques": ["[+3 Culture, +1 Happiness] from every [Aqueduct]"],
+		"uniques": [
+"[+3 Faith, +3 Happiness] from every [Aqueduct]",
+"[+1 Faith] from every [Farm] <with [1] to [6] neighboring [Holy Site] tiles>"
+],
 		"cities": ["Angkor Wat","Hariharalya","Yaodharapura","Mahendraparvata","Vimayapura","Indrapura","Lingapura","Preah Vihear","Bhavapura","Kompong Svay",
 			"Nagara Jayasri","Vyadhapura","Chaturmukha","Dviradapura","Rajavihara","Amarendrapura","Phanom Rung","Isvarapura","Muang Tam","Angkor Borei",
 			"Banteay Kdei","Phetchaburi","Chaiya","Isanapura","Pre Rup","Beng Melea","Lavodayapura","Shrestapura","Aninditapura"]
@@ -570,7 +734,7 @@
 		"outerColor": [248,217,2],
 		"innerColor": [205,0,1],
 		"uniqueName": "Nkisi",
-		"uniques": ["[+2 Food, +2 Production, +4 Gold] from all [Culture] buildings"],
+		"uniques": ["[+2 Food, +2 Production, +1 Faith, +4 Gold] from all [Culture] buildings", "[Great Artist] is earned [50]% faster"],
 		"cities": ["Mbumbi","Mbamba","Mbwila","Mpinda","Kwila","Mbanza Mbata","Kinchassa","Kwango","Mbuji-Mayi","Mbanza Mpangu",
 			"Bakavu","Sanga","Katango","Mbanza Wembo","Mbanza Lovata","Nkunga","Nkondo","Lemba-Bula","Kibangu","Manga",
 			"Mbanza Mpemba","Mulumbi","Makuta","Zombo","Banza","Umpuka","Matadi","Mbandaka","Lumbumbashi","Mbanza Soyo",
@@ -592,7 +756,22 @@
 		"outerColor": [205,0,1],
 		"innerColor": [117,163,243],
 		"uniqueName": "Three Kingdoms",
-		"uniques": ["Seowons provide +1 Food for every Farm and +1 Science for every Mine"], //Seowon should have this ability
+		"uniqueText": " Seowons provide +1 Food towards every adjacent Farm and +1 Science towards every adjacent Mine.
+		",
+		"uniques": [
+"[+1 Food] from every [Farm] <with [1] to [1] neighboring [Seowon] tiles>",
+"[+2 Food] from every [Farm] <with [2] to [2] neighboring [Seowon] tiles>",
+"[+3 Food] from every [Farm] <with [3] to [3] neighboring [Seowon] tiles>",
+"[+4 Food] from every [Farm] <with [4] to [4] neighboring [Seowon] tiles>",
+"[+5 Food] from every [Farm] <with [5] to [5] neighboring [Seowon] tiles>",
+"[+6 Food] from every [Farm] <with [6] to [6] neighboring [Seowon] tiles>",
+"[+1 Science] from every [Mine] <with [1] to [1] neighboring [Seowon] tiles>",
+"[+2 Science] from every [Mine] <with [2] to [2] neighboring [Seowon] tiles>",
+"[+3 Science] from every [Mine] <with [3] to [3] neighboring [Seowon] tiles>",
+"[+4 Science] from every [Mine] <with [4] to [4] neighboring [Seowon] tiles>",
+"[+5 Science] from every [Mine] <with [5] to [5] neighboring [Seowon] tiles>",
+"[+6 Science] from every [Mine] <with [6] to [6] neighboring [Seowon] tiles>"
+],
 		"cities": ["Gyeongju","Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung",
 			"Hamhung","Wonju","Ulsan","Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon",
 			"Geoje","Suncheon","Jinju","Sangju","Rason","Chungju","Sacheon","Gimje","Anju"]
@@ -636,8 +815,8 @@
 		"outerColor": [121,0,2],
 		"innerColor": [234,225,158],
 		"uniqueName": "Songs of the Jeli",
-//		"uniqueText": " -20% Gold and Faith cost of purchasing items after discovering currency, -30% Production when constructing Buildings and Military Units in all cities, +1 Food and +1 Faith from every Desert, -1 Production and +4 Gold from every Mine
-//		",
+		"uniqueText": " Cities get +1 Food, +1 Faith for every adjacent desert, -1 Production and +4 Gold from every Mine, -30% Production when constructing Buildings and Military Units in all cities, -20% Gold and Faith cost of purchasing items after discovering currency
+		",
 		"uniques": [
 "[+1 Food, +1 Faith] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
 "[+2 Food, +2 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
@@ -673,9 +852,17 @@
 		"uniqueName": "Mana",
 		"uniqueText": " Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. Unimproved Woods and Rainforests grant +2 Production. +1 Food from Fishing Boats. Great Artists cannot be earned.
 		",
-		"uniques": ["Starts with [Sailing]","Starts with [Shipbuilding]","Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","Defense bonus when embarked <for [All] units>",
-			"[Great Artist] is earned [-100]% faster","[+1 Food] from every [Fishing Boats]","[+2 Production] from every [Forest]",
-			"[+2 Production] from every [Jungle]","[-2 Production] from every [Lumber Mill]"],
+		"uniques": [
+"Starts with [Sailing]",
+"Starts with [Shipbuilding]",
+"Enables embarkation for land units <starting from the [Ancient era]>", 
+"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+"Defense bonus when embarked <for [All] units>",
+"[Great Artist] is earned [-100]% faster",
+"[+1 Food] from every [Fishing Boats]","[+2 Production] from every [Forest]",
+"[+2 Production] from every [Jungle]",
+"[-2 Production] from every [Lumber Mill]"
+],
 		"cities": ["Te Hokianga-nui-a-kupe","Ngaruawahia","Opango","Whakarewarewa","Kaiapoi","Whanganui","Kawhia","Taumutu","Kapiti","Te Pokohiwi",
 			"Otatara pa","Motupohue","Ruatoria","Maungakiekie pa","Taupiri","Whaingaroa","Pukemaire","Pari-ru","Taumatawhana pa","Whanganui-a-Tara",
 			"Waimapihi pa","Kororipo pa","Motakiora"]
@@ -697,7 +884,10 @@
 		"outerColor": [0,79,205],
 		"innerColor": [117,163,243],
 		"uniqueName": "Toqui",
-		"uniques": ["[50]% XP gained from combat <for [Military] units>","[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": [
+"[50]% XP gained from combat <for [Military] units>",
+"[+10]% Strength <for [All] units> <during a Golden Age>"
+],
 		"cities": ["Ngulu Mapu","Puel Mapu","Pikun Mapu","Nag Mapu","Willi Mapu","Pewen Mapu","Wente Mapu","Huilli Mapu","Lafken Mapu","Ina Pire Mapu","Mamull Mapu",
 			"Rangkul Mapu","Chadi Mapu","Pehuen Mapu","Puel Willi Mapu","Bafkeh Mapu","Peni Mapu","Boroa Mapu","Lelfun Mapu","Kallfu Mapu","Chol Chol Mapu","Makewe Mapu",
 			"Forowe Mapu","Warria Mapu","Tehuel Mapu","Kunko Mapu","Molu Mapu","Rani Mapu","Xuf Xuf Mapu","Fudi Mapu"]
@@ -719,7 +909,11 @@
 		"outerColor": [117,163,243],
 		"innerColor": [2,79,80],
 		"uniqueName": "Mayab",
-		"uniques": ["[+1 Happiness] from every [Luxury resource]","[+1 Gold] from every [Farm]"],
+		"uniques": [
+"[+1 Happiness] from every [Luxury resource]", 
+"[+1 Production] from every [Farm] <with [1] to [6] neighboring [Observatory] tiles>", 
+"[+1 Gold] from every [Farm]"
+],
 		"cities": ["Wak Kab'nal","Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna",
 			"Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
 			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
@@ -744,7 +938,10 @@
 		"uniqueName": "�rd��",
 		"uniqueText": " Land units receive +10% Combat Strength when on a Road, +10% Combat Strength for Mounted units
 		"
-		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion", "[+10]% Strength <for [Land] units> <when fighting in [Road] tiles>"],
+		"uniques": [
+"[Mounted] units gain the [Mongol Horde] promotion",
+"[+10]% Strength <for [Land] units> <when fighting in [Road] tiles>"
+],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -767,7 +964,10 @@
 		"outerColor": [43,51,128],
 		"innerColor": [233,45,24],
 		"uniqueName": "Knarr",
-		"uniques": ["[+50]% Production when constructing [Water] units [in all cities]","Units pay only 1 movement point to embark and disembark"],
+		"uniques": [
+"[+50]% Production when constructing [Water] units [in all cities]",
+"[1] Movement point cost to disembark <for [All] units>"
+],
 		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
 			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
 			"Skien","Sogndal","Stange","Stavanger","Stiklestad","Tjøtta","Tromsø","Verdal","Vinland","Alesund"]
@@ -788,8 +988,17 @@
 		"outerColor": [254,129,19],
 		"innerColor": [1,79,203],
 		"uniqueName": "Grote Rivieren",
-		"uniqueText": " Campus, Industrial Zone and Theatre Square receive +2 yield for each adjacent River
-		"
+		"uniqueText": " Campus, Industrial Zone and Theatre Square receive +2 yield when adjacent to a River
+		",
+		"uniques": [
+"[+2 Science] from every [Campus] <with [1] to [6] neighboring [River] tiles>",
+"[+2 Production] from every [Industrial Zone] <with [1] to [6] neighboring [River] tiles>",
+"[+2 Culture] from every [Theatre Square] <with [1] to [6] neighboring [River] tiles>"
+],
+
+
+
+
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
@@ -811,9 +1020,14 @@
 		"outerColor": [251,236,127],
 		"innerColor": [146,74,1],
 		"uniqueName": "Ta-Seti",
-		"uniqueText": " Ranged units gain +50% combat experience, +50% Production when constructing Ranged units in all cities, +1 Production, +2 Gold from every Strategic resource
+		"uniqueText": " Ranged units gain +50% combat experience, +30% Production when constructing Ranged units in all cities, +1 Production from every Strategic-, and +2 Gold for every Bonus resource
 		",
-		"uniques": ["[Ranged] units gain the [Ta-Seti] promotion","[+50]% Production when constructing [Ranged] units [in all cities]","[+1 Production, +2 Gold] from every [Strategic resource]"],
+		"uniques": [
+"[Ranged] units gain the [Ta-Seti] promotion",
+"[+30]% Production when constructing [Ranged] units [in all cities]",
+"[+1 Production] from every [Strategic resource]",
+"[+2 Gold] from every [Bonus resource]"
+],
 		"cities": ["Kerma","Napata","Nuri","El-Kurru","Kawa","Sedeinga","Heh","Qasr Ibrim","Faras","Shaat",
 			"Iken","Abu Simbel","Buhen","Dengeil","Miam","Tombos","Kurgus","Toshka","Soleb","Wad ban Naqa",
 			"Debba","Bugdumbush","Baki","Amara","Musawwarat es-Sufra","El Fura","Ukma","Pedeme","Defeia"]		
@@ -834,7 +1048,11 @@
 		"outerColor": [249,249,249],
 		"innerColor": [10,105,36],
 		"uniqueName": "Great Turkish Bombard",
-		"uniques": ["[+50]% Production when constructing [Siege] units [in all cities]"],
+		"uniques": [
+"[+30]% Production when constructing [Siege] units [in all cities]", 
+"[+17% Strength <for [Siege] units> <when fighting in [Great Improvement] tiles> <when attacking>", 
+"[+1 Happiness] [in annexed cities]"
+],
 		//Unique building for Annexed cities (+1 :D & +1 Culture), Courthouses dont exist anymore
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyabakir","Izmir","Kayseri","Malatya",
 			"Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Artuin",
@@ -857,7 +1075,10 @@
 		"outerColor": [183,128,231],
 		"innerColor": [205,0,1],
 		"uniqueName": "Sartrapies",
-		"uniques": ["[+2 Gold, +1 Culture] from each Trade Route","[+1] Movement <for [All] units> <during a Golden Age>"],
+		"uniques": [
+"[+2 Gold, +1 Culture] from each Trade Route",
+"[+1] Movement <for [All] units> <during a Golden Age>"
+],
 		"cities": ["Parsagadae","Persepolis","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -882,7 +1103,11 @@
 		"outerColor": [109,0,205],
 		"innerColor": [117,163,243],
 		"uniqueName": "Founder of Carthage",
-		"uniques": ["[+2] Movement <for [Civilian] units>","+1 Sight when embarked","Units pay only 1 movement point to embark and disembark"],
+		"uniques": [
+"[+2] Movement <for [Embarked] units>",
+"[+1] Sight <for [Embarked] units>", 
+"[1] Movement point cost to disembark <for [All] units>"
+],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -904,7 +1129,11 @@
 		"outerColor": [121,0,2],
 		"innerColor": [228,117,116],
 		"uniqueName": "Golden Liberty",
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]", "[+1 Gold, +1 Culture] from every specialist [in all cities]", "[+1 Faith] from every [Holy Site]"],
+		"uniques": [
+"[-25]% Culture cost of natural border growth [in all cities]", 
+"[-25]% Gold cost of acquiring tiles [in all cities]", 
+"[+4 Gold, +2 Culture, +2 Faith] from all [Faith] buildings"
+],
 		"cities": ["Kraków","Warsaw","�?ódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
@@ -926,7 +1155,10 @@
 		"outerColor": [109,0,205],
 		"innerColor": [246,217,6],
 		"uniqueName": "All Roads Lead to Rome",
-		"uniques": ["[+2 Gold] from each Trade Route", "Gain a free [Monument] [in all cities]"],
+		"uniques": [
+"[+2 Gold] from each Trade Route", 
+"Gain a free [Monument] [in all cities]"
+],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -949,7 +1181,11 @@
 		"outerColor": [246,217,2],
 		"innerColor": [31,29,23],
 		"uniqueName": "Mother Russia",
-		"uniques": ["[+1 Production, +1 Faith] from every [Tundra]", "[-25]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": [
+"[+1 Production, +1 Faith] from every [Tundra]", 
+"[-25]% Culture cost of natural border growth [in all cities]", 
+"[-25]% Gold cost of acquiring tiles [in all cities]"
+],
 		"cities": ["St. Petersburg","Moscow","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
@@ -1016,9 +1252,11 @@
 		"outerColor": [205,0,1],
 		"innerColor": [248,217,2],
 		"uniqueName": "Treasure Fleet",
-		"uniques": ["[+1 Production, +3 Gold, +2 Faith] from each Trade Route <after adopting [Mercantilism]>", 
+		"uniques": [
+"[+1 Production, +3 Gold, +2 Faith] from each Trade Route <after adopting [Mercantilism]>", 
 "[+2 Production, +6 Gold, +4 Faith] from each Trade Route <on foreign continents> <after adopting [Mercantilism]>",
-"[+25]% Production when constructing [All] buildings [in all cities] <on foreign continents>"],
+"[+25]% Production when constructing [All] buildings [in all cities] <on foreign continents>"
+],
 		"cities": ["Barcelona","Madrid","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
@@ -1040,7 +1278,10 @@
 		"outerColor": [1,42,107],
 		"innerColor": [254,129,19],
 		"uniqueName": "Epic Quest",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","[-50]% City-State Influence degradation"],
+		"uniques": [
+"Receive triple Gold from Barbarian encampments and pillaging Cities",
+"[-50]% City-State Influence degradation"
+],
 		"cities": ["Uruk","Eridu","Kish","Ur","Lagash","Nippur","Bad-Tibira","Sippar","Shuruppak","Adab",
 			"Isin","Hamazi","Larak","Abu Salabikh","Umma","Larsa","Girsu","Jemdet Nasr","Nina","Kuara",
 			"Dilbat","Kutha","Marad","Zabalam","Kisurra","Pazurish-Dagan","Harbidum","Kesh","Fallaka"]	
@@ -1061,7 +1302,11 @@
 		"outerColor": [117,163,243],
 		"innerColor": [245,216,5],
 		"uniqueName": "Nobel Prize",
-		"uniques": ["Provides a sum of gold each time you spend a Great Person", "[Great Scientist] is earned [34]% faster","[Great Engineer] is earned [34]% faster"],
+		"uniques": [
+"Provides a sum of gold each time you spend a Great Person", 
+"[Great Scientist] is earned [25]% faster",
+"[Great Engineer] is earned [25]% faster"
+],
 		"cities": ["Stockholm","Göteborg","Uppsala","Linköping","Örebro","Västerås","Jönköping","Norrköping","Helsingborg","Karlstad",
 			"Lund","Malmö","Umeå","Åbo","Umma","Halmstad","Strängnäs","Kalmar","Falun","Nyköping",
 			"Karlskrona","Borås","Fort Kristina","Reval","Vasa","Östersund","Torshälla","Kungälv","Växjö","Riga",
@@ -1083,7 +1328,10 @@
 		"outerColor": [120,62,2],
 		"innerColor": [255,255,255],
 		"uniqueName": "Isibongo",
-		"uniques": ["[-33]% maintenance costs <for [All] units>", "[+3 Happiness] [in all cities with a garrison]"],
+		"uniques": [
+"[-33]% maintenance costs <for [All] units>", 
+"[+3 Happiness] [in all cities with a garrison]"
+],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",

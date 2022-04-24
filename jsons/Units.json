@@ -1666,33 +1666,6 @@
 		"movement": 2
 	},
 {
-		"name": "Japanese Campus Builder",
-		"uniqueTo": "Japan",
-		"replaces": "Campus Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Japanese Campus]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Brazilian Campus Builder",
-		"uniqueTo": "Brazil",
-		"replaces": "Campus Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Brazilian Campus]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Dutch Campus Builder",
-		"uniqueTo": "The Netherlands",
-		"replaces": "Campus Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Dutch Campus]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
 		"name": "Holy Site Builder",
             "cost": 1,
 		"unitType": "Civilian",
@@ -1706,24 +1679,6 @@
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Lavra]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Japanese Holy Site Builder",
-		"uniqueTo": "Japan",
-		"replaces": "Holy Site Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Japanese Holy Site]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Brazilian Holy Site Builder",
-		"uniqueTo": "Brazil",
-		"replaces": "Holy Site Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Brazilian Holy Site]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
@@ -1759,33 +1714,6 @@
 		"movement": 2
 	},
 {
-		"name": "Japanese Theatre Square Builder",
-		"uniqueTo": "Japan",
-		"replaces": "Theatre Square Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Japanese Theatre Square]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Brazilian Theatre Square Builder",
-		"uniqueTo": "Brazil",
-		"replaces": "Theatre Square Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Brazilian Theatre Square]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Dutch Theatre Square Builder",
-		"uniqueTo": "The Netherlands",
-		"replaces": "Theatre Square Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Dutch Theatre Square]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
 		"name": "Commercial Hub Builder",
             "cost": 1,
 		"unitType": "Civilian",
@@ -1799,24 +1727,6 @@
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Suguba]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Japanese Commercial Hub Builder",
-		"uniqueTo": "Japan",
-		"replaces": "Commercial Hub Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Japanese Commercial Hub]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Brazilian Commercial Hub Builder",
-		"uniqueTo": "Brazil",
-		"replaces": "Commercial Hub Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Brazilian Commercial Hub]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
@@ -1842,24 +1752,6 @@
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Oppidum]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Japanese Industrial Zone Builder",
-		"uniqueTo": "Japan",
-		"replaces": "Industrial Zone Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Japanese Industrial Zone]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-{
-		"name": "Dutch Industrial Zone Builder",
-		"uniqueTo": "The Netherlands",
-		"replaces": "Industrial Zone Builder",
-            "cost": 1,
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Dutch Industrial Zone]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {

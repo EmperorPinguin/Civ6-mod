@@ -528,57 +528,7 @@
 "Great Improvement",
 "Tile provides yield without assigned population",
 "[-1 Science] for each adjacent [Great Improvement]",
-"[+1 Food] for each adjacent [Farm]",
-"[+1 Science] for each adjacent [Mine]",
 "Can only be built on [Hill] tiles"
-]
-	},
-{
-		"name": "Japanese Campus",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Science] for each adjacent [Geothermal Fissure]",
-"[+2 Science] for each adjacent [Reef]",
-"[+2 Science] for each adjacent [Great Barrier Reef]",
-"[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
-"[+1 Science] for each adjacent [Great Improvement]",
-]
-	},
-{
-		"name": "Brazilian Campus",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Science] for each adjacent [Geothermal Fissure]",
-"[+2 Science] for each adjacent [Reef]",
-"[+2 Science] for each adjacent [Great Barrier Reef]",
-"[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] for each adjacent [Rainforest]",
-"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>"
-]
-	},
-{
-		"name": "Dutch Campus",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Science] for each adjacent [Geothermal Fissure]",
-"[+2 Science] for each adjacent [Reef]",
-"[+2 Science] for each adjacent [Great Barrier Reef]",
-"[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
-"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
-"[+2 Science] for each adjacent [River]",
 ]
 	},
 {
@@ -612,35 +562,6 @@
 ]
 	},
 {
-		"name": "Japanese Holy Site",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Faith] for each adjacent [Natural Wonder]",
-"[+1 Faith] for each adjacent [Mountain]",
-"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
-"[+1 Faith] for each adjacent [Great Improvement]"
-]
-	},
-{
-		"name": "Brazilian Holy Site",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Faith] for each adjacent [Natural Wonder]",
-"[+1 Faith] for each adjacent [Mountain]",
-"[+1 Faith] for each adjacent [Rainforest]",
-"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
-"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
-]
-	},
-{
 		"name": "Theatre Square",
 		"uniques": [
 "Great Improvement",
@@ -662,40 +583,6 @@
 "[+1 Culture] for each adjacent [City center]",
 ]
 	},
-{
-		"name": "Japanese Theatre Square",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Culture] for each adjacent [Entertainment Complex]",
-"[+1 Culture] for each adjacent [Great Improvement]"
-]
-	},
-{
-		"name": "Brazilian Theatre Square",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Culture] for each adjacent [Street Carnival]",
-"[+1 Culture] for each adjacent [Rainforest]",
-"[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
-]
-	},
-{
-		"name": "Dutch Theatre Square",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Culture] for each adjacent [Entertainment Complex]",
-"[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>",
-"[+2 Culture] for each adjacent [River]"
-]
-	},
-
 {
 		"name": "Encampment",
 		"uniques": [
@@ -732,27 +619,6 @@
 "Tile provides yield without assigned population",
 "[+2 Gold] for each adjacent [River]",
 "[+2 Gold] for each adjacent [Holy Site]",
-"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
-]
-	},
-{
-		"name": "Japanese Commercial Hub",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Gold] for each adjacent [River]",
-"[+1 Gold] for each adjacent [Great Improvement]"
-]
-	},
-{
-		"name": "Brazilian Commercial Hub",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+2 Gold] for each adjacent [River]",
-"[+1 Gold] for each adjacent [Rainforest]",
 "[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -799,41 +665,6 @@
 "[+1 Production] for each adjacent [Strategic resource]",
 "Gives a defensive bonus of [100]%",
 "Adjacent enemy units ending their turn take [30] damage"
-]
-	},
-{
-		"name": "Japanese Industrial Zone",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+1 Production] for each adjacent [Quarry]",
-"[+1 Production] for each adjacent [Strategic resource]",
-"[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
-"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
-"[+1 Production] for each adjacent [Great Improvement]"
-]
-	},
-{
-		"name": "Dutch Industrial Zone",
-		"uniques": [
-"Great Improvement",
-"Tile provides yield without assigned population",
-"[+1 Production] for each adjacent [Quarry]",
-"[+1 Production] for each adjacent [Strategic resource]",
-"[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
-"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
-"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
-"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>",
-"[+2 Production] for each adjacent [River]",
 ]
 	},
 {

@@ -6,1715 +6,1715 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Acropolis
   rotate: false
-  xy: 524, 672
+  xy: 1588, 1804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Theater Square
   rotate: false
-  xy: 524, 672
+  xy: 1588, 1804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Aerodrome
   rotate: false
-  xy: 1696, 1932
+  xy: 1832, 1940
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Airport
   rotate: false
-  xy: 221, 4
+  xy: 221, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Amphitheater
   rotate: false
-  xy: 1804, 1824
+  xy: 329, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Amundsen-Scott Research Station
   rotate: false
-  xy: 1912, 1932
+  xy: 1369, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ancient Walls
   rotate: false
-  xy: 1912, 1824
+  xy: 718, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Apadana
   rotate: false
-  xy: 1369, 1523
+  xy: 990, 1419
   size: 100, 101
   orig: 100, 101
   offset: 0, 0
   index: -1
 BuildingIcons/Aquarium
   rotate: false
-  xy: 521, 240
+  xy: 1585, 1560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Aquatics Center
   rotate: false
-  xy: 520, 132
+  xy: 660, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Arena
   rotate: false
-  xy: 1912, 1716
+  xy: 660, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Art Museum
   rotate: false
-  xy: 934, 1276
+  xy: 768, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Basilikoi Paides
   rotate: false
-  xy: 660, 844
+  xy: 768, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bath
   rotate: false
-  xy: 768, 952
+  xy: 876, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Biosphere
   rotate: false
-  xy: 876, 952
+  xy: 848, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bolshoi Theatre
   rotate: false
-  xy: 876, 736
+  xy: 524, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Broadcast Center
   rotate: false
-  xy: 632, 412
+  xy: 984, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Broadway
   rotate: false
-  xy: 740, 520
+  xy: 984, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Campus
   rotate: false
-  xy: 632, 304
+  xy: 956, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Campus 2
   rotate: false
-  xy: 632, 304
+  xy: 956, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Seowon
   rotate: false
-  xy: 632, 304
+  xy: 956, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Casa de Contratacion
   rotate: false
-  xy: 845, 196
+  xy: 1314, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/City Center
   rotate: false
-  xy: 956, 520
+  xy: 628, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Coal Power Plant
   rotate: false
-  xy: 956, 304
+  xy: 844, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Colosseum
   rotate: false
-  xy: 1585, 1608
+  xy: 1150, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Commercial Hub
   rotate: false
-  xy: 1909, 1608
+  xy: 1474, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Commercial Hub 2
   rotate: false
-  xy: 1909, 1608
+  xy: 1474, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Suguba
   rotate: false
-  xy: 1909, 1608
+  xy: 1474, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Copacabana
   rotate: false
-  xy: 1477, 1444
+  xy: 1092, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Water Park
   rotate: false
-  xy: 1477, 1444
+  xy: 1092, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Water Park 2
   rotate: false
-  xy: 1477, 1444
+  xy: 1092, 987
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Cothon
   rotate: false
-  xy: 1801, 1392
+  xy: 1092, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Harbor
   rotate: false
-  xy: 1801, 1392
+  xy: 1092, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Navy Dockyard
   rotate: false
-  xy: 1801, 1392
+  xy: 1092, 663
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dam
   rotate: false
-  xy: 1060, 88
+  xy: 1200, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Electronics Factory
   rotate: false
-  xy: 1906, 1176
+  xy: 1524, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Encampment
   rotate: false
-  xy: 1092, 1196
+  xy: 1632, 1236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Encampment 2
   rotate: false
-  xy: 1092, 1196
+  xy: 1632, 1236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ikanda
   rotate: false
-  xy: 1092, 1196
+  xy: 1632, 1236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Entertainment Complex
   rotate: false
-  xy: 1092, 980
+  xy: 1632, 1020
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Entertainment Complex 2
   rotate: false
-  xy: 1092, 980
+  xy: 1632, 1020
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hippodrome
   rotate: false
-  xy: 1092, 980
+  xy: 1632, 1020
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Street Caranival
   rotate: false
-  xy: 1092, 980
+  xy: 1632, 1020
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Street Carnival
   rotate: false
-  xy: 1092, 980
+  xy: 1632, 1020
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Estadio do Maracana
   rotate: false
-  xy: 1092, 764
+  xy: 1632, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ferris Wheel
   rotate: false
-  xy: 1200, 1091
+  xy: 1740, 1128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Film Studio
   rotate: false
-  xy: 1200, 875
+  xy: 1740, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Food Market
   rotate: false
-  xy: 1416, 1012
+  xy: 1060, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Forbidden City
   rotate: false
-  xy: 1416, 904
+  xy: 1696, 1804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Golden Gate Bridge
   rotate: false
-  xy: 1632, 744
+  xy: 1848, 940
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Grand Bazaar
   rotate: false
-  xy: 1416, 688
+  xy: 1909, 1616
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Bath
   rotate: false
-  xy: 1632, 636
+  xy: 1740, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Library
   rotate: false
-  xy: 437, 24
+  xy: 437, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Lighthouse
   rotate: false
-  xy: 1169, 196
+  xy: 1200, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Zimbabwe
   rotate: false
-  xy: 1416, 580
+  xy: 1172, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hangar
   rotate: false
-  xy: 1280, 335
+  xy: 1496, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hansa
   rotate: false
-  xy: 1388, 472
+  xy: 1496, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Holy Site
   rotate: false
-  xy: 1848, 528
+  xy: 1277, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Holy Site 2
   rotate: false
-  xy: 1848, 528
+  xy: 1277, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Lavra
   rotate: false
-  xy: 1848, 528
+  xy: 1277, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Huey Teocalli
   rotate: false
-  xy: 1604, 312
+  xy: 1604, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Industrial Zone
   rotate: false
-  xy: 1817, 95
+  xy: 1496, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Oppidum
   rotate: false
-  xy: 1817, 95
+  xy: 1496, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Archaeological Dig
   rotate: false
-  xy: 826, 1276
+  xy: 768, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Camp
   rotate: false
-  xy: 848, 412
+  xy: 984, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Chateau
   rotate: false
-  xy: 984, 952
+  xy: 737, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Chemamull
   rotate: false
-  xy: 984, 844
+  xy: 845, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Farm
   rotate: false
-  xy: 1308, 1199
+  xy: 1740, 1236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fishing Boats
   rotate: false
-  xy: 1308, 875
+  xy: 1064, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fort
   rotate: false
-  xy: 1416, 796
+  xy: 1668, 1696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Roman Fort
   rotate: false
-  xy: 1416, 796
+  xy: 1668, 1696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Geothermal Plant
   rotate: false
-  xy: 1740, 852
+  xy: 1906, 1372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Golf Course
   rotate: false
-  xy: 1740, 744
+  xy: 1848, 832
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Great Wall
   rotate: false
-  xy: 1308, 659
+  xy: 1524, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Hacienda
   rotate: false
-  xy: 1280, 443
+  xy: 1388, 348
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Ice Hockey Rink
   rotate: false
-  xy: 1712, 204
+  xy: 1820, 292
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/America
   rotate: false
-  xy: 524, 456
+  xy: 1261, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Arabia
   rotate: false
-  xy: 718, 1276
+  xy: 660, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Australia
   rotate: false
-  xy: 660, 1060
+  xy: 876, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Brazil
   rotate: false
-  xy: 740, 628
+  xy: 848, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Byzantium
   rotate: false
-  xy: 848, 520
+  xy: 984, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Canada
   rotate: false
-  xy: 740, 304
+  xy: 956, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/China
   rotate: false
-  xy: 984, 736
+  xy: 953, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Egypt
   rotate: false
-  xy: 1690, 1176
+  xy: 1524, 884
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/England
   rotate: false
-  xy: 524, 1324
+  xy: 524, 1332
   size: 186, 188
   orig: 186, 188
   offset: 0, 0
   index: -1
 NationIcons/Ethiopia
   rotate: false
-  xy: 1200, 1199
+  xy: 1632, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/France
   rotate: false
-  xy: 1524, 1068
+  xy: 1804, 1832
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gaul
   rotate: false
-  xy: 1740, 960
+  xy: 1854, 1480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Georgia
   rotate: false
-  xy: 1848, 1068
+  xy: 1798, 1372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Germany
   rotate: false
-  xy: 1848, 960
+  xy: 1848, 1264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gran Colombia
   rotate: false
-  xy: 1848, 744
+  xy: 1848, 724
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Greece
   rotate: false
-  xy: 1172, 551
+  xy: 1172, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Hungary
   rotate: false
-  xy: 1820, 311
+  xy: 1712, 263
   size: 100, 101
   orig: 100, 101
   offset: 0, 0
   index: -1
 NationIcons/Inca
   rotate: false
-  xy: 1385, 148
+  xy: 1928, 292
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/India
   rotate: false
-  xy: 1601, 96
+  xy: 1928, 76
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Indonesia
   rotate: false
-  xy: 1709, 96
+  xy: 1388, 132
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Japan
   rotate: false
-  xy: 1044, 1528
+  xy: 1044, 1536
   size: 101, 96
   orig: 101, 96
   offset: 0, 0
   index: -1
 ResourceIcons/Aluminum
   rotate: false
-  xy: 1696, 1824
+  xy: 1940, 1940
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Amber
   rotate: false
-  xy: 1804, 1932
+  xy: 1153, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Antiquity Site
   rotate: false
-  xy: 329, 4
+  xy: 1477, 1560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Bananas
   rotate: false
-  xy: 660, 952
+  xy: 876, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cattle
   rotate: false
-  xy: 844, 88
+  xy: 1638, 1452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cinnamon
   rotate: false
-  xy: 956, 628
+  xy: 520, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coal
   rotate: false
-  xy: 956, 412
+  xy: 736, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cocoa
   rotate: false
-  xy: 953, 196
+  xy: 952, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coffee
   rotate: false
-  xy: 952, 88
+  xy: 1042, 1311
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Copper
   rotate: false
-  xy: 1585, 1392
+  xy: 1092, 879
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cotton
   rotate: false
-  xy: 1909, 1392
+  xy: 1200, 1208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Crabs
   rotate: false
-  xy: 1206, 1416
+  xy: 1308, 1208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Deer
   rotate: false
-  xy: 1150, 1308
+  xy: 1416, 992
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Diamonds
   rotate: false
-  xy: 1366, 1307
+  xy: 1308, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Dyes
   rotate: false
-  xy: 1798, 1284
+  xy: 1416, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Fish
   rotate: false
-  xy: 1308, 983
+  xy: 1740, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Furs
   rotate: false
-  xy: 1632, 1068
+  xy: 1693, 1588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Gypsum
   rotate: false
-  xy: 1172, 339
+  xy: 1388, 456
   size: 100, 96
   orig: 100, 96
   offset: 0, 0
   index: -1
 ResourceIcons/Honey
   rotate: false
-  xy: 1496, 420
+  xy: 1168, 20
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Horses
   rotate: false
-  xy: 1496, 312
+  xy: 1604, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Incense
   rotate: false
-  xy: 1493, 96
+  xy: 1928, 184
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Iron
   rotate: false
-  xy: 1928, 420
+  xy: 1385, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 1064, 412
+  xy: 1200, 884
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 1416, 1120
+  xy: 1061, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 1524, 744
+  xy: 1848, 1048
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 1388, 364
+  xy: 1172, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced AI
   rotate: false
-  xy: 1452, 1660
+  xy: 1724, 1940
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced Ballistics
   rotate: false
-  xy: 113, 4
+  xy: 524, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced Flight
   rotate: false
-  xy: 412, 168
+  xy: 113, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced Power Cells
   rotate: false
-  xy: 1588, 1824
+  xy: 412, 176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Animal Husbandry
   rotate: false
-  xy: 1153, 1524
+  xy: 826, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Apprenticeship
   rotate: false
-  xy: 524, 348
+  xy: 1560, 1668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Archery
   rotate: false
-  xy: 1804, 1716
+  xy: 876, 1176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Astrology
   rotate: false
-  xy: 990, 1412
+  xy: 660, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Astronomy
   rotate: false
-  xy: 660, 1168
+  xy: 768, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Ballistics
   rotate: false
-  xy: 768, 1168
+  xy: 768, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Banking
   rotate: false
-  xy: 768, 1060
+  xy: 876, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Bronze Working
   rotate: false
-  xy: 848, 628
+  xy: 984, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Buttress
   rotate: false
-  xy: 740, 412
+  xy: 984, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cartography
   rotate: false
-  xy: 737, 196
+  xy: 1206, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Castles
   rotate: false
-  xy: 628, 88
+  xy: 1422, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Celestial Navigation
   rotate: false
-  xy: 984, 1060
+  xy: 629, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Chemistry
   rotate: false
-  xy: 4, 4
+  xy: 4, 12
   size: 101, 100
   orig: 101, 100
   offset: 0, 0
   index: -1
 TechIcons/Combined Arms
   rotate: false
-  xy: 1693, 1608
+  xy: 1258, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Combustion
   rotate: false
-  xy: 1801, 1608
+  xy: 1366, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Composites
   rotate: false
-  xy: 1585, 1500
+  xy: 1582, 1344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Computers
   rotate: false
-  xy: 1693, 1500
+  xy: 1690, 1344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Construction
   rotate: false
-  xy: 1909, 1500
+  xy: 1092, 1095
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Currency
   rotate: false
-  xy: 1064, 304
+  xy: 1308, 992
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cybernetics
   rotate: false
-  xy: 1061, 196
+  xy: 1416, 1100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Economics
   rotate: false
-  xy: 1474, 1228
+  xy: 1524, 1100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Education
   rotate: false
-  xy: 1582, 1176
+  xy: 1524, 992
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Electricity
   rotate: false
-  xy: 1798, 1176
+  xy: 1524, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Engineering
   rotate: false
-  xy: 1092, 1088
+  xy: 1632, 1128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 1200, 767
+  xy: 1064, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Flight
   rotate: false
-  xy: 1308, 767
+  xy: 1064, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Future Tech
   rotate: false
-  xy: 1524, 852
+  xy: 1776, 1696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Guidance Systems
   rotate: false
-  xy: 1172, 443
+  xy: 1280, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Gunpowder
   rotate: false
-  xy: 1280, 551
+  xy: 1280, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Horseback Riding
   rotate: false
-  xy: 1712, 420
+  xy: 1632, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Industrialization
   rotate: false
-  xy: 1385, 40
+  xy: 1604, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Iron Working
   rotate: false
-  xy: 1928, 312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Irrigation
-  rotate: false
-  xy: 1925, 95
+  xy: 1493, 20
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cattle
   rotate: false
-  xy: 1044, 1904
+  xy: 1044, 1912
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coast
   rotate: false
-  xy: 4, 248
+  xy: 4, 256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deer
   rotate: false
-  xy: 524, 1188
+  xy: 524, 1196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 4, 1520
+  xy: 4, 1528
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 718, 1384
+  xy: 718, 1392
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Flood plains
   rotate: false
-  xy: 1044, 1768
+  xy: 1044, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Furs
   rotate: false
-  xy: 1180, 1904
+  xy: 1180, 1912
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Geothermal Fissure
   rotate: false
-  xy: 4, 112
+  xy: 4, 120
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 140, 248
+  xy: 140, 256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill
   rotate: false
-  xy: 524, 1052
+  xy: 524, 1060
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Horses
   rotate: false
-  xy: 854, 1384
+  xy: 854, 1392
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lakes
   rotate: false
-  xy: 4, 1000
+  xy: 4, 1008
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Marsh
   rotate: false
-  xy: 524, 1520
+  xy: 524, 1528
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mine
   rotate: false
-  xy: 1044, 1632
+  xy: 1044, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 4, 384
+  xy: 4, 392
   size: 512, 608
   orig: 512, 608
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Oasis
+  rotate: false
+  xy: 1180, 1776
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Oasis - Copy
+  rotate: false
+  xy: 1316, 1912
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Ocean
   rotate: false
-  xy: 1180, 1768
+  xy: 140, 120
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PHTree1
   rotate: false
-  xy: 1316, 1904
+  xy: 276, 256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PHTree2
   rotate: false
-  xy: 140, 112
+  xy: 524, 924
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PHTree3
   rotate: false
-  xy: 276, 248
+  xy: 1180, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PHTree4
   rotate: false
-  xy: 524, 916
+  xy: 1316, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 1180, 1632
+  xy: 1452, 1912
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Quarry
   rotate: false
-  xy: 1316, 1768
+  xy: 276, 120
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rainforest
   rotate: false
-  xy: 1452, 1904
+  xy: 524, 788
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sheep
   rotate: false
-  xy: 276, 112
+  xy: 1316, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 524, 780
+  xy: 1452, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 1316, 1632
+  xy: 1588, 1912
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Woods
   rotate: false
-  xy: 1452, 1768
+  xy: 524, 652
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/AT Crew
   rotate: false
-  xy: 1588, 1932
+  xy: 1452, 1668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Aircraft Carrier
   rotate: false
-  xy: 524, 564
+  xy: 524, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Anti-Air Gun
   rotate: false
-  xy: 1261, 1524
+  xy: 934, 1284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archaeologist
   rotate: false
-  xy: 1588, 1716
+  xy: 660, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archer
   rotate: false
-  xy: 1696, 1716
+  xy: 768, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Artillery
   rotate: false
-  xy: 1477, 1552
+  xy: 876, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Barbary Corsair
   rotate: false
-  xy: 876, 1168
+  xy: 660, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Battleship
   rotate: false
-  xy: 876, 1060
+  xy: 632, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Berserker
   rotate: false
-  xy: 768, 844
+  xy: 740, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Biplane
   rotate: false
-  xy: 876, 844
+  xy: 632, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bireme
   rotate: false
-  xy: 660, 736
+  xy: 740, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Black Army
   rotate: false
-  xy: 768, 736
+  xy: 848, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bombard
   rotate: false
-  xy: 632, 628
+  xy: 632, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bomber
   rotate: false
-  xy: 632, 520
+  xy: 740, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Caravel
   rotate: false
-  xy: 848, 304
+  xy: 956, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Carolean
   rotate: false
-  xy: 629, 196
+  xy: 1098, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Catapult
   rotate: false
-  xy: 736, 88
+  xy: 1530, 1452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cavalry
   rotate: false
-  xy: 984, 1168
+  xy: 521, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Conquistador
   rotate: false
-  xy: 1801, 1500
+  xy: 1092, 1203
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cossack
   rotate: false
-  xy: 1693, 1392
+  xy: 1092, 771
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Courser
   rotate: false
-  xy: 1098, 1416
+  xy: 1200, 1100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Crossbowman
   rotate: false
-  xy: 1314, 1415
+  xy: 1200, 992
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Crouching Tiger
   rotate: false
-  xy: 1064, 628
+  xy: 1308, 1100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cuirassier
   rotate: false
-  xy: 1064, 520
+  xy: 1416, 1208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/De Zeven Provincien
   rotate: false
-  xy: 1042, 1304
+  xy: 1308, 884
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Destroyer
   rotate: false
-  xy: 1258, 1307
+  xy: 1200, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Digger
   rotate: false
-  xy: 1474, 1336
+  xy: 1416, 884
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Domrey
   rotate: false
-  xy: 1582, 1284
+  xy: 1308, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dromon
   rotate: false
-  xy: 1690, 1284
+  xy: 1416, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Eagle Warrior
   rotate: false
-  xy: 1906, 1284
+  xy: 1524, 1208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Envoy
   rotate: false
-  xy: 1092, 872
+  xy: 1632, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Field Cannon
   rotate: false
-  xy: 1200, 983
+  xy: 1740, 1020
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Fighter
   rotate: false
-  xy: 1308, 1091
+  xy: 1740, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Frigate
   rotate: false
-  xy: 1524, 960
+  xy: 1912, 1832
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gaesatae
   rotate: false
-  xy: 1632, 960
+  xy: 1801, 1588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 1740, 1068
+  xy: 1746, 1480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Garde Imperiale
   rotate: false
-  xy: 1632, 852
+  xy: 1884, 1724
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Giant Death Robot
   rotate: false
-  xy: 1848, 852
+  xy: 1848, 1156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Artist
   rotate: false
-  xy: 1524, 636
+  xy: 1632, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Engineer
   rotate: false
-  xy: 1740, 636
+  xy: 1848, 616
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great General
   rotate: false
-  xy: 1848, 636
+  xy: 1848, 508
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Merchant
   rotate: false
-  xy: 1168, 88
+  xy: 1308, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Scientist
   rotate: false
-  xy: 1200, 659
+  xy: 1416, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Heavy Chariot
   rotate: false
-  xy: 1277, 227
+  xy: 1280, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Helicopter
   rotate: false
-  xy: 1524, 528
+  xy: 1388, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hetairoi
   rotate: false
-  xy: 1632, 528
+  xy: 1496, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Highlander
   rotate: false
-  xy: 1740, 528
+  xy: 1169, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hoplite
   rotate: false
-  xy: 1604, 420
+  xy: 1276, 20
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Horseman
   rotate: false
-  xy: 1820, 420
+  xy: 1740, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hul'che
   rotate: false
-  xy: 1712, 312
+  xy: 1712, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Huszar
   rotate: false
-  xy: 1388, 256
+  xy: 1604, 156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hwacha
   rotate: false
-  xy: 1496, 204
+  xy: 1712, 155
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hypaspist
   rotate: false
-  xy: 1604, 204
+  xy: 1848, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Immortal
   rotate: false
-  xy: 1820, 203
+  xy: 1820, 184
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Impi
   rotate: false
-  xy: 1277, 119
+  xy: 1820, 76
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Infantry
   rotate: false
-  xy: 1276, 11
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ironclad
-  rotate: false
-  xy: 1928, 204
+  xy: 1712, 47
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Rocket Artillery
   rotate: false
-  xy: 412, 276
+  xy: 412, 284
   size: 101, 100
   orig: 101, 100
   offset: 0, 0
@@ -1727,574 +1727,574 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Jebel Barkal
   rotate: false
-  xy: 4, 1728
+  xy: 220, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kilwa Kisiwani
   rotate: false
-  xy: 4, 1512
+  xy: 220, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kotoku-in
   rotate: false
-  xy: 436, 1944
+  xy: 112, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Madrasa
   rotate: false
-  xy: 220, 1511
+  xy: 436, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Marae
   rotate: false
-  xy: 112, 1296
+  xy: 328, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mausoleum at Halicarnassus
   rotate: false
-  xy: 652, 1836
+  xy: 4, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mbanza
   rotate: false
-  xy: 760, 1944
+  xy: 112, 1187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Neighborhood
   rotate: false
-  xy: 760, 1944
+  xy: 112, 1187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Medieval Walls
   rotate: false
-  xy: 220, 1295
+  xy: 436, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Nuclear Power Plant
   rotate: false
-  xy: 760, 1620
+  xy: 976, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Oil Power Plant
   rotate: false
-  xy: 112, 864
+  xy: 328, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Oracle
   rotate: false
-  xy: 544, 1296
+  xy: 760, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ordu
   rotate: false
-  xy: 652, 1404
+  xy: 868, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Orszaghaz
   rotate: false
-  xy: 868, 1620
+  xy: 1084, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Petra
   rotate: false
-  xy: 328, 972
+  xy: 544, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Potala Palace
   rotate: false
-  xy: 1300, 1944
+  xy: 112, 647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prasat
   rotate: false
-  xy: 4, 540
+  xy: 220, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pyramids
   rotate: false
-  xy: 544, 1080
+  xy: 760, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Renaissance Walls
   rotate: false
-  xy: 1300, 1836
+  xy: 4, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ruhr Valley
   rotate: false
-  xy: 544, 972
+  xy: 760, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sewer
   rotate: false
-  xy: 760, 1080
+  xy: 976, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shipyard
   rotate: false
-  xy: 1192, 1512
+  xy: 1408, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shopping Mall
   rotate: false
-  xy: 1300, 1620
+  xy: 1516, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine
   rotate: false
-  xy: 1408, 1728
+  xy: 1624, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Spaceport
   rotate: false
-  xy: 652, 864
+  xy: 868, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/St. Basil's Cathedral
   rotate: false
-  xy: 1192, 1404
+  xy: 1408, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Stave Church
   rotate: false
-  xy: 1300, 1512
+  xy: 1516, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sukiennice
   rotate: false
-  xy: 220, 323
+  xy: 436, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Thermal Bath
   rotate: false
-  xy: 436, 432
+  xy: 760, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tlachtli
   rotate: false
-  xy: 544, 540
+  xy: 868, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tsikhe
   rotate: false
-  xy: 1192, 1188
+  xy: 1516, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/University of Sankore
   rotate: false
-  xy: 1516, 1512
+  xy: 1840, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Venetian Arsenal
   rotate: false
-  xy: 1840, 1836
+  xy: 544, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Zoo
   rotate: false
-  xy: 1732, 1620
+  xy: 544, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kampung
   rotate: false
-  xy: 112, 1728
+  xy: 328, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kurgan
   rotate: false
-  xy: 4, 1404
+  xy: 220, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Lumber mill
   rotate: false
-  xy: 436, 1836
+  xy: 4, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Mekewap
   rotate: false
-  xy: 544, 324
+  xy: 868, 648
   size: 92, 100
   orig: 92, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Mine
   rotate: false
-  xy: 4, 972
+  xy: 220, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Mission
   rotate: false
-  xy: 328, 1296
+  xy: 544, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Nubian Pyramid
   rotate: false
-  xy: 436, 1296
+  xy: 652, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Offshore Wind Farm
   rotate: false
-  xy: 976, 1836
+  xy: 4, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Open-Air Museum
   rotate: false
-  xy: 436, 1188
+  xy: 652, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Outback Station
   rotate: false
-  xy: 976, 1728
+  xy: 1192, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Pa
   rotate: false
-  xy: 1192, 1944
+  xy: 112, 755
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Pairidaeza
   rotate: false
-  xy: 4, 648
+  xy: 220, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Pasture
   rotate: false
-  xy: 112, 756
+  xy: 328, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Plantation
   rotate: false
-  xy: 760, 1404
+  xy: 976, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Polder
   rotate: false
-  xy: 1084, 1728
+  xy: 1300, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Quarry
   rotate: false
-  xy: 760, 1296
+  xy: 976, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Seaside Resort
   rotate: false
-  xy: 328, 648
+  xy: 544, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Seastead
   rotate: false
-  xy: 436, 756
+  xy: 652, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Ski Resort
   rotate: false
-  xy: 112, 324
+  xy: 328, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Solar Farm
   rotate: false
-  xy: 544, 756
+  xy: 760, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wind Farm
   rotate: false
-  xy: 1192, 1080
+  xy: 1516, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kongo
   rotate: false
-  xy: 220, 1727
+  xy: 436, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Korea
   rotate: false
-  xy: 328, 1836
+  xy: 4, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Macedon
   rotate: false
-  xy: 544, 1944
+  xy: 112, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mali
   rotate: false
-  xy: 436, 1728
+  xy: 652, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mongolia
   rotate: false
-  xy: 652, 1620
+  xy: 868, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Norway
   rotate: false
-  xy: 220, 1079
+  xy: 436, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nubia
   rotate: false
-  xy: 328, 1188
+  xy: 544, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Persia
   rotate: false
-  xy: 220, 863
+  xy: 436, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Phoenicia
   rotate: false
-  xy: 436, 1080
+  xy: 652, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Poland
   rotate: false
-  xy: 976, 1620
+  xy: 1192, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Rome
   rotate: false
-  xy: 328, 756
+  xy: 544, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Russia
   rotate: false
-  xy: 652, 1080
+  xy: 868, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Scotland
   rotate: false
-  xy: 1516, 1944
+  xy: 112, 431
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Scythia
   rotate: false
-  xy: 112, 432
+  xy: 328, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Spain
   rotate: false
-  xy: 760, 972
+  xy: 976, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sumeria
   rotate: false
-  xy: 328, 432
+  xy: 544, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sweden
   rotate: false
-  xy: 544, 648
+  xy: 760, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Aztec
   rotate: false
-  xy: 1300, 1404
+  xy: 1516, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Cree
   rotate: false
-  xy: 1408, 1512
+  xy: 1624, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Khmer
   rotate: false
-  xy: 1516, 1620
+  xy: 1732, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Maori
   rotate: false
-  xy: 1624, 1728
+  xy: 1840, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mapuche
   rotate: false
-  xy: 1732, 1836
+  xy: 220, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Maya
   rotate: false
-  xy: 1840, 1944
+  xy: 328, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Netherlands
   rotate: false
-  xy: 112, 108
+  xy: 436, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Ottomans
   rotate: false
-  xy: 220, 215
+  xy: 544, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Zulu
   rotate: false
-  xy: 328, 324
+  xy: 652, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Capitalism
   rotate: false
-  xy: 541, 266
+  xy: 865, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2308,728 +2308,735 @@ PolicyIcons/Civil Engineering
   index: -1
 PolicyIcons/Civil Service
   rotate: false
-  xy: 644, 374
+  xy: 968, 698
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Class Struggle
   rotate: false
-  xy: 745, 482
+  xy: 1069, 806
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Code of Laws
   rotate: false
-  xy: 76, 50
+  xy: 1948, 1828
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cold War
   rotate: false
-  xy: 134, 50
+  xy: 1948, 1770
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Colonialism
   rotate: false
-  xy: 278, 157
+  xy: 170, 157
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Conservation
   rotate: false
-  xy: 336, 158
+  xy: 228, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Craftsmanship
   rotate: false
-  xy: 452, 158
+  xy: 344, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Hegemony
   rotate: false
-  xy: 926, 698
+  xy: 460, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Heritage
   rotate: false
-  xy: 926, 640
+  xy: 1192, 964
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Defensive Tactics
   rotate: false
-  xy: 1034, 806
+  xy: 1250, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Diplomatic Service
   rotate: false
-  xy: 1250, 1022
+  xy: 1358, 1130
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Distributed Sovereignity
   rotate: false
-  xy: 1358, 1130
+  xy: 1466, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Divine Right
   rotate: false
-  xy: 818, 292
+  xy: 1142, 674
   size: 48, 50
   orig: 48, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Drama and Poetry
   rotate: false
-  xy: 1466, 1238
+  xy: 1574, 1346
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Early Empire
   rotate: false
-  xy: 1682, 1454
+  xy: 1790, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Environmentalism
   rotate: false
-  xy: 1790, 1562
+  xy: 1898, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Exodus Imperative
   rotate: false
-  xy: 541, 208
+  xy: 544, 208
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Exploration
   rotate: false
-  xy: 1948, 1828
+  xy: 602, 266
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Feudalism
   rotate: false
-  xy: 1946, 1770
+  xy: 602, 208
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Foreign Trade
   rotate: false
-  xy: 644, 316
+  xy: 758, 424
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Future Civic
   rotate: false
-  xy: 745, 424
+  xy: 865, 532
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Games and Recreation
   rotate: false
-  xy: 220, 99
+  xy: 968, 640
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Global Warming Mitigation
   rotate: false
-  xy: 278, 99
+  xy: 1069, 748
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Globalization
   rotate: false
-  xy: 336, 100
+  xy: 112, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Guilds
   rotate: false
-  xy: 452, 100
+  xy: 228, 100
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Humanism
   rotate: false
-  xy: 1898, 1670
+  xy: 286, 100
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Ideology
   rotate: false
-  xy: 803, 482
+  xy: 344, 100
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Information Warfare
   rotate: false
-  xy: 803, 424
+  xy: 402, 100
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mass Media
   rotate: false
-  xy: 510, 150
+  xy: 460, 100
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Medieval Faires
   rotate: false
-  xy: 510, 92
+  xy: 518, 150
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mercantilism
   rotate: false
-  xy: 568, 150
+  xy: 576, 150
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mercenaries
   rotate: false
-  xy: 568, 92
+  xy: 518, 92
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Military Tradition
   rotate: false
-  xy: 834, 582
+  xy: 576, 92
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Military Training
   rotate: false
-  xy: 892, 582
+  xy: 1127, 806
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mobilization
   rotate: false
-  xy: 950, 582
+  xy: 1127, 748
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mysticism
   rotate: false
-  xy: 192, 41
+  xy: 634, 150
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nationalism
   rotate: false
-  xy: 250, 41
+  xy: 634, 92
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Natural History
   rotate: false
-  xy: 308, 41
+  xy: 1158, 906
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Naval Tradition
   rotate: false
-  xy: 366, 42
+  xy: 1216, 906
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Near Future Governance
   rotate: false
-  xy: 424, 42
+  xy: 1274, 906
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nuclear Program
   rotate: false
-  xy: 482, 34
+  xy: 76, 41
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Opera and Ballet
   rotate: false
-  xy: 540, 34
+  xy: 134, 41
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Optimization Imperative
   rotate: false
-  xy: 598, 34
+  xy: 192, 41
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Political Philosophy
   rotate: false
-  xy: 861, 524
+  xy: 250, 42
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Professional Sports
   rotate: false
-  xy: 861, 466
+  xy: 308, 42
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Rapid Deployment
   rotate: false
-  xy: 919, 524
+  xy: 366, 42
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Recorded History
   rotate: false
-  xy: 919, 466
+  xy: 424, 42
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Reformed Church
   rotate: false
-  xy: 861, 408
+  xy: 1185, 848
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Scorched Earth
   rotate: false
-  xy: 919, 408
+  xy: 1185, 790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Smart Power Doctrine
   rotate: false
-  xy: 977, 524
+  xy: 1243, 848
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Social Media
   rotate: false
-  xy: 977, 466
+  xy: 1243, 790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Space Race
   rotate: false
-  xy: 977, 408
+  xy: 1185, 732
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/State Workforce
   rotate: false
-  xy: 702, 366
+  xy: 1243, 732
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Suffrage
   rotate: false
-  xy: 760, 366
+  xy: 1301, 848
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/The Enlightenment
   rotate: false
-  xy: 760, 308
+  xy: 1301, 732
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Theology
   rotate: false
-  xy: 818, 350
+  xy: 1026, 690
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Totalitarianism
   rotate: false
-  xy: 876, 350
+  xy: 1084, 690
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Urbanization
   rotate: false
-  xy: 934, 350
+  xy: 1026, 632
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Venture Politics
   rotate: false
-  xy: 992, 350
+  xy: 1084, 632
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Citrus
   rotate: false
-  xy: 436, 216
+  xy: 760, 540
   size: 97, 100
   orig: 97, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ivory
   rotate: false
-  xy: 4, 1944
+  xy: 112, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Jade
   rotate: false
-  xy: 4, 1836
+  xy: 4, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Maize
   rotate: false
-  xy: 328, 1620
+  xy: 544, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Mercury
   rotate: false
-  xy: 328, 1404
+  xy: 544, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Niter
   rotate: false
-  xy: 112, 972
+  xy: 328, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Oil
   rotate: false
-  xy: 4, 756
+  xy: 220, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Olives
   rotate: false
-  xy: 328, 1080
+  xy: 544, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Rice
   rotate: false
-  xy: 1840, 1728
+  xy: 652, 432
   size: 98, 100
   orig: 98, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Salt
   rotate: false
-  xy: 976, 1404
+  xy: 1192, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Sheep
   rotate: false
-  xy: 868, 1188
+  xy: 1084, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Shipwreck
   rotate: false
-  xy: 1084, 1404
+  xy: 1300, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Silk
   rotate: false
-  xy: 1624, 1944
+  xy: 112, 323
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Silver
   rotate: false
-  xy: 4, 216
+  xy: 220, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Spices
   rotate: false
-  xy: 976, 1188
+  xy: 1192, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Sugar
   rotate: false
-  xy: 112, 216
+  xy: 328, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 1084, 1188
+  xy: 1300, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tobacco
   rotate: false
-  xy: 760, 756
+  xy: 1084, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Trade Route
   rotate: false
-  xy: 868, 864
+  xy: 1192, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Trade Route (Domestic)
   rotate: false
-  xy: 868, 864
+  xy: 1192, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Trade Route (International)
   rotate: false
-  xy: 868, 864
+  xy: 1192, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Truffles
   rotate: false
-  xy: 1084, 1080
+  xy: 1408, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Turtles
   rotate: false
-  xy: 1300, 1296
+  xy: 1624, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Uranium
   rotate: false
-  xy: 1624, 1620
+  xy: 328, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Whales
   rotate: false
-  xy: 868, 756
+  xy: 1192, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Wheat
   rotate: false
-  xy: 976, 864
+  xy: 1300, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Wine
   rotate: false
-  xy: 1300, 1188
+  xy: 1624, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Population
   rotate: false
-  xy: 1192, 1836
+  xy: 4, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Production
   rotate: false
-  xy: 436, 972
+  xy: 652, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 1300, 1728
+  xy: 1516, 1944
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Irrigation
+  rotate: false
+  xy: 4, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Lasers
   rotate: false
-  xy: 112, 1512
+  xy: 328, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Machinery
   rotate: false
-  xy: 112, 1404
+  xy: 328, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Masonry
   rotate: false
-  xy: 328, 1512
+  xy: 544, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mass Production
   rotate: false
-  xy: 436, 1620
+  xy: 652, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mathematics
   rotate: false
-  xy: 544, 1728
+  xy: 760, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metal Casting
   rotate: false
-  xy: 436, 1512
+  xy: 652, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Military Engineering
   rotate: false
-  xy: 544, 1620
+  xy: 760, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Military Science
   rotate: false
-  xy: 652, 1728
+  xy: 868, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Military Tactics
   rotate: false
-  xy: 760, 1836
+  xy: 4, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mining
   rotate: false
-  xy: 112, 1080
+  xy: 328, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Nanotechnology
   rotate: false
-  xy: 976, 1944
+  xy: 112, 971
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Nuclear Fission
   rotate: false
-  xy: 544, 1404
+  xy: 760, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Nuclear Fusion
   rotate: false
-  xy: 652, 1512
+  xy: 868, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Offworld Mission
   rotate: false
-  xy: 1084, 1944
+  xy: 112, 863
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Plastics
   rotate: false
-  xy: 868, 1512
+  xy: 1084, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3043,175 +3050,175 @@ TechIcons/Pottery
   index: -1
 TechIcons/Predictive Systems
   rotate: false
-  xy: 112, 648
+  xy: 328, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Printing
   rotate: false
-  xy: 220, 755
+  xy: 436, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Radio
   rotate: false
-  xy: 868, 1404
+  xy: 1084, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Refining
   rotate: false
-  xy: 1192, 1728
+  xy: 1408, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Replaceable Parts
   rotate: false
-  xy: 1408, 1944
+  xy: 112, 539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Rifling
   rotate: false
-  xy: 4, 432
+  xy: 220, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Robotics
   rotate: false
-  xy: 112, 540
+  xy: 328, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Rocketry
   rotate: false
-  xy: 220, 647
+  xy: 436, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sailing
   rotate: false
-  xy: 760, 1188
+  xy: 976, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sanitation
   rotate: false
-  xy: 1084, 1512
+  xy: 1300, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Satellites
   rotate: false
-  xy: 1192, 1620
+  xy: 1408, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Scientific Theory
   rotate: false
-  xy: 1408, 1836
+  xy: 4, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Seasteads
   rotate: false
-  xy: 544, 864
+  xy: 760, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Shipbuilding
   rotate: false
-  xy: 976, 1296
+  xy: 1192, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Siege Tactics
   rotate: false
-  xy: 1516, 1836
+  xy: 4, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Smart Materials
   rotate: false
-  xy: 436, 648
+  xy: 652, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Square Rigging
   rotate: false
-  xy: 1084, 1296
+  xy: 1300, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stealth Technology
   rotate: false
-  xy: 1408, 1620
+  xy: 1624, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Steam Power
   rotate: false
-  xy: 1516, 1728
+  xy: 1732, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Steel
   rotate: false
-  xy: 1624, 1836
+  xy: 4, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stirrups
   rotate: false
-  xy: 1732, 1944
+  xy: 112, 215
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Synthetic Materials
   rotate: false
-  xy: 760, 864
+  xy: 976, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Telecommunications
   rotate: false
-  xy: 1192, 1296
+  xy: 1408, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Wheel
   rotate: false
-  xy: 1084, 972
+  xy: 1408, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Writing
   rotate: false
-  xy: 1624, 1512
+  xy: 436, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3225,133 +3232,133 @@ TileSets/FantasyHex/Tiles/Amber
   index: -1
 TileSets/FantasyHex/Tiles/Ancient ruins
   rotate: false
-  xy: 976, 770
+  xy: 1300, 1094
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Antiquity Site
   rotate: false
-  xy: 1084, 878
+  xy: 1408, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Archaeological Dig
   rotate: false
-  xy: 366, 4
+  xy: 250, 4
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Camp
   rotate: false
-  xy: 1300, 1090
+  xy: 1624, 1414
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Campus
   rotate: false
-  xy: 1408, 1194
+  xy: 1732, 1518
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Campus-Snow
   rotate: false
-  xy: 1516, 1303
+  xy: 1840, 1627
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chateau
   rotate: false
-  xy: 1624, 1413
+  xy: 1948, 1729
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chemamull
   rotate: false
-  xy: 1732, 1513
+  xy: 652, 325
   size: 32, 41
   orig: 32, 41
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Citrus
   rotate: false
-  xy: 1840, 1634
+  xy: 710, 396
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cocoa
   rotate: false
-  xy: 1946, 1734
+  xy: 816, 504
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee
   rotate: false
-  xy: 406, 4
+  xy: 290, 4
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Commercial Hub
   rotate: false
-  xy: 599, 281
+  xy: 923, 605
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Copper
   rotate: false
-  xy: 874, 314
+  xy: 1142, 638
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crabs
   rotate: false
-  xy: 2006, 1872
+  xy: 1198, 696
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Diamonds
   rotate: false
-  xy: 1016, 770
+  xy: 2006, 1872
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Encampment
   rotate: false
-  xy: 1448, 1195
+  xy: 1772, 1519
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Encampment-Snow
   rotate: false
-  xy: 1340, 1092
+  xy: 330, 4
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gypsum
   rotate: false
-  xy: 1124, 878
+  xy: 1340, 1094
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Holy Site
   rotate: false
-  xy: 1772, 1518
+  xy: 816, 460
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
@@ -3365,7 +3372,7 @@ TileSets/FantasyHex/Tiles/Honey
   index: -1
 TileSets/FantasyHex/Tiles/Industrial Zone
   rotate: false
-  xy: 599, 234
+  xy: 923, 558
   size: 32, 39
   orig: 32, 39
   offset: 0, 0
@@ -3386,49 +3393,49 @@ TileSets/FantasyHex/Tiles/Kurgan
   index: -1
 TileSets/FantasyHex/Tiles/Maize
   rotate: false
-  xy: 1880, 1632
+  xy: 370, 4
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mekewap
   rotate: false
-  xy: 914, 314
+  xy: 1880, 1634
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mercury
   rotate: false
-  xy: 954, 314
+  xy: 1238, 696
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Niter
   rotate: false
-  xy: 994, 313
+  xy: 76, 4
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Nubian Pyramid
   rotate: false
-  xy: 2004, 1779
+  xy: 2006, 1779
   size: 32, 37
   orig: 32, 37
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Olives
   rotate: false
-  xy: 1488, 1196
+  xy: 1812, 1520
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Outback Station
   rotate: false
-  xy: 639, 268
+  xy: 963, 592
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -3442,1162 +3449,1169 @@ TileSets/FantasyHex/Tiles/Plain-64x
   index: -1
 TileSets/FantasyHex/Tiles/Rice
   rotate: false
-  xy: 639, 232
+  xy: 816, 424
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Salt
   rotate: false
-  xy: 1056, 770
+  xy: 410, 6
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tea
   rotate: false
-  xy: 1380, 1094
+  xy: 1278, 696
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Theatre Square
   rotate: false
-  xy: 1812, 1518
+  xy: 1318, 688
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tobacco
   rotate: false
-  xy: 1164, 878
+  xy: 116, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Route (Domestic)
   rotate: false
-  xy: 1920, 1628
+  xy: 963, 550
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Route (International)
   rotate: false
-  xy: 1920, 1628
+  xy: 963, 550
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles
   rotate: false
-  xy: 1272, 986
+  xy: 156, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Turtles
   rotate: false
-  xy: 1596, 1310
+  xy: 196, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ziggurat
   rotate: false
-  xy: 1780, 1470
+  xy: 1956, 1681
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archaeologist
   rotate: false
-  xy: 1192, 986
+  xy: 1516, 1310
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Helicopter
   rotate: false
-  xy: 1232, 986
+  xy: 1448, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trader
   rotate: false
-  xy: 1740, 1471
+  xy: 923, 516
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
-UnitIcons/Janissary
+UnitIcons/Ironclad
   rotate: false
-  xy: 112, 1944
+  xy: 4, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Jet Bomber
+UnitIcons/Janissary
   rotate: false
   xy: 112, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Jet Fighter
-  rotate: false
-  xy: 220, 1943
-  size: 100, 101
-  orig: 100, 101
-  offset: 0, 0
-  index: -1
-UnitIcons/Jong
+UnitIcons/Jet Bomber
   rotate: false
   xy: 4, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Jet Fighter
+  rotate: false
+  xy: 112, 1727
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+UnitIcons/Jong
+  rotate: false
+  xy: 220, 1836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Keshig
   rotate: false
-  xy: 220, 1835
+  xy: 4, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Khevsur
   rotate: false
-  xy: 328, 1944
+  xy: 112, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Knight
   rotate: false
-  xy: 112, 1620
+  xy: 328, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Legion
   rotate: false
-  xy: 220, 1619
+  xy: 436, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Llanero
   rotate: false
-  xy: 328, 1728
+  xy: 544, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Machine Gun
   rotate: false
-  xy: 4, 1296
+  xy: 220, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Malon Raider
   rotate: false
-  xy: 544, 1836
+  xy: 4, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mamluk
   rotate: false
-  xy: 652, 1944
+  xy: 112, 1295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mandekalu Cavalry
   rotate: false
-  xy: 4, 1188
+  xy: 220, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maryannu Chariot Archer
   rotate: false
-  xy: 220, 1403
+  xy: 436, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mechanized Infantry
   rotate: false
-  xy: 4, 1080
+  xy: 220, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Medic
   rotate: false
-  xy: 112, 1188
+  xy: 328, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Minas Geraes
   rotate: false
-  xy: 868, 1944
+  xy: 112, 1079
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missile Cruiser
   rotate: false
-  xy: 220, 1187
+  xy: 436, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mobile SAM
   rotate: false
-  xy: 436, 1404
+  xy: 652, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Modern AT
   rotate: false
-  xy: 544, 1512
+  xy: 760, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mountie
   rotate: false
-  xy: 760, 1728
+  xy: 976, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Musketman
   rotate: false
-  xy: 868, 1836
+  xy: 4, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ngao Mbeba
   rotate: false
-  xy: 4, 864
+  xy: 220, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nuclear Submarine
   rotate: false
-  xy: 868, 1728
+  xy: 1084, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Okihtcitaw
   rotate: false
-  xy: 220, 971
+  xy: 436, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Oromo Cavalry
   rotate: false
-  xy: 760, 1512
+  xy: 976, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/P-51 Mustang
   rotate: false
-  xy: 1084, 1836
+  xy: 4, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pike and Shot
   rotate: false
-  xy: 544, 1188
+  xy: 760, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pikeman
   rotate: false
-  xy: 760, 540
+  xy: 1084, 864
   size: 66, 100
   orig: 66, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pitati Archer
   rotate: false
-  xy: 652, 1296
+  xy: 868, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Privateer
   rotate: false
-  xy: 328, 864
+  xy: 544, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Quadrireme
   rotate: false
-  xy: 652, 1188
+  xy: 868, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ranger
   rotate: false
-  xy: 976, 1512
+  xy: 1192, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Redcoat
   rotate: false
-  xy: 1084, 1620
+  xy: 1300, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Rough Rider
   rotate: false
-  xy: 436, 864
+  xy: 652, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Saka Horse Archer
   rotate: false
-  xy: 868, 1296
+  xy: 1084, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Samurai
   rotate: false
-  xy: 652, 432
+  xy: 976, 756
   size: 85, 100
   orig: 85, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scout
   rotate: false
-  xy: 4, 324
+  xy: 220, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sea Dog
   rotate: false
-  xy: 220, 539
+  xy: 436, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Settler
   rotate: false
-  xy: 652, 972
+  xy: 868, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skirmisher
   rotate: false
-  xy: 220, 431
+  xy: 436, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Slinger
   rotate: false
-  xy: 328, 540
+  xy: 544, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Spec Ops
   rotate: false
-  xy: 868, 1080
+  xy: 1084, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Submarine
   rotate: false
-  xy: 4, 108
+  xy: 220, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Supply Convoy
   rotate: false
-  xy: 436, 540
+  xy: 652, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Swordsman
   rotate: false
-  xy: 652, 756
+  xy: 868, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tagma
   rotate: false
-  xy: 868, 972
+  xy: 1084, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tank
   rotate: false
-  xy: 976, 1080
+  xy: 1192, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Toa
   rotate: false
-  xy: 652, 648
+  xy: 976, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Trader
   rotate: false
-  xy: 976, 972
+  xy: 1300, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/U-Boat
   rotate: false
-  xy: 1408, 1404
+  xy: 1732, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Varu
   rotate: false
-  xy: 1732, 1728
+  xy: 436, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Viking Longship
   rotate: false
-  xy: 328, 216
+  xy: 652, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War-Cart
   rotate: false
-  xy: 436, 324
+  xy: 760, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warak'aq
   rotate: false
-  xy: 544, 432
+  xy: 868, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 652, 540
+  xy: 976, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior Monk
   rotate: false
-  xy: 760, 648
+  xy: 1084, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Winged Hussar
   rotate: false
-  xy: 1408, 1296
+  xy: 1732, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 1516, 1404
+  xy: 1840, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Advanced Engines
   rotate: false
-  xy: 220, 157
+  xy: 112, 157
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Flight Deck
   rotate: false
-  xy: 220, 157
+  xy: 112, 157
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Folding Wings
   rotate: false
-  xy: 220, 157
+  xy: 112, 157
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Advanced Rangefinding
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armor Piercing
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Arrow Storm
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bombardment
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Box Formation
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Charge
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Coincidence Rangefinding
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Commando
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crew Weapons
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dogfighting
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Embolon
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Evasive Maneuvers
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Expert Crew
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Expert Marksman
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forward Observers
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Homing Torpedoes
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Incendiaries
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Interceptor
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Line of Battle
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Marauding
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Preparatory Fire
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Hull
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rolling Barrage
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Schiltron
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shells
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Silent Running
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strafe
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tank Buster
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Thrust
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Volley
   rotate: false
-  xy: 868, 698
+  xy: 1192, 1022
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Alpine
   rotate: false
-  xy: 976, 806
+  xy: 1300, 1130
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Caparison
   rotate: false
-  xy: 976, 806
+  xy: 1300, 1130
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ranger
   rotate: false
-  xy: 976, 806
+  xy: 1300, 1130
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ambush
   rotate: false
-  xy: 1084, 914
+  xy: 1408, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elite Guard
   rotate: false
-  xy: 1084, 914
+  xy: 1408, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Grape Shot
   rotate: false
-  xy: 1084, 914
+  xy: 1408, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shrapnel
   rotate: false
-  xy: 1084, 914
+  xy: 1408, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Amphibious
   rotate: false
-  xy: 1192, 1022
+  xy: 1516, 1346
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Auxillary Ships
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Deck Crews
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ground Crews
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Supercarrier
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Supply Fleet
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tactical Maintenance
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Zweihander
   rotate: false
-  xy: 1300, 1130
+  xy: 1624, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Barding
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Close Air Support
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cockpit Armor
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Convoy
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Emplacement
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exploding Palms
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Proximity Fuses
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reactive Armor
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Square
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Torpedo Bomber
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tortoise
   rotate: false
-  xy: 1408, 1238
+  xy: 1732, 1562
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Battlecry
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Choke Points
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cobra Strike
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dancing Crane
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Echelon
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Garrison
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hold the Line
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rout
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shadow Strike
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Urban Warfare
   rotate: false
-  xy: 1516, 1346
+  xy: 1840, 1670
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Boarding
   rotate: false
-  xy: 1624, 1454
+  xy: 544, 266
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Loot
   rotate: false
-  xy: 1624, 1454
+  xy: 544, 266
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Breakthrough
   rotate: false
-  xy: 1732, 1562
+  xy: 652, 374
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Camouflage
   rotate: false
-  xy: 1840, 1670
+  xy: 758, 482
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wolfpack
   rotate: false
-  xy: 1840, 1670
+  xy: 758, 482
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Creeping Attack
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hangar Deck
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Helmsman
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Observation
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rutter
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sentry
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spyglass
   rotate: false
-  xy: 868, 640
+  xy: 402, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Drop Tanks
   rotate: false
-  xy: 1574, 1346
+  xy: 1682, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Long Range
   rotate: false
-  xy: 1574, 1346
+  xy: 1682, 1454
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Guerrilla
   rotate: false
-  xy: 394, 100
+  xy: 170, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pursuit
   rotate: false
-  xy: 394, 100
+  xy: 170, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Redeploy
   rotate: false
-  xy: 394, 100
+  xy: 170, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scout Planes
   rotate: false
-  xy: 394, 100
+  xy: 170, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sweeping Wind
   rotate: false
-  xy: 394, 100
+  xy: 170, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Swift Keel
   rotate: false
-  xy: 394, 100
+  xy: 170, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/New folder/Coursers
   rotate: false
-  xy: 394, 158
+  xy: 286, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/New folder/Double Envelopment
   rotate: false
-  xy: 394, 158
+  xy: 286, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Superfortress
   rotate: false
-  xy: 394, 158
+  xy: 286, 158
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/New folder/Depredation
   rotate: false
-  xy: 1142, 914
+  xy: 1250, 964
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Suppression
   rotate: false
-  xy: 702, 308
+  xy: 1301, 790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

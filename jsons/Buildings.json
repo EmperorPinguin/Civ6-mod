@@ -144,7 +144,7 @@
 		"uniques": ["Remove extra unhappiness from annexed cities"]
 	},
 {
-		"name": "Campus",
+		"name": "Campus District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Scientist": 1},
             "requiredResource": "Districts",
@@ -163,7 +163,7 @@
 	},
 {
 		"name": "Observatory",
-		"replaces": "Campus",
+		"replaces": "Campus District",
 		"uniqueTo": "The Maya",
 		"cost": 27,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -183,7 +183,7 @@
 	},
 {
 		"name": "Seowon",
-		"replaces": "Campus",
+		"replaces": "Campus District",
 		"uniqueTo": "Korea",
 		"cost": 27,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -202,7 +202,7 @@
 ],
 	},
 {
-		"name": "Holy Site",
+		"name": "Holy Site District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Prophet": 1},
             "requiredResource": "Districts",
@@ -221,7 +221,7 @@
 	},
 {
 		"name": "Lavra",
-		"replaces": "Holy Site",
+		"replaces": "Holy Site District",
 		"uniqueTo": "Russia",
 		"cost": 27,
 		"greatPersonPoints": {"Great Prophet": 2},
@@ -242,7 +242,7 @@
 ],
 	},
 {
-		"name": "Theatre Square",
+		"name": "Theatre Square District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Artist": 1},
             "requiredResource": "Districts",
@@ -263,7 +263,7 @@
 	},
 {
 		"name": "Acropolis",
-		"replaces": "Theatre Square",
+		"replaces": "Theatre Square District",
 		"uniqueTo": "Greece",
 		"cost": 27,
 		"greatPersonPoints": {"Great Artist": 1},
@@ -285,7 +285,7 @@
 ],
 	},
 {
-		"name": "Encampment",
+		"name": "Encampment District",
 		"cost": 54,
 		"greatPersonPoints": {"Great General": 1},
             "requiredResource": "Districts",
@@ -304,7 +304,7 @@
 	},
 {
 		"name": "Ikanda",
-		"replaces": "Encampment",
+		"replaces": "Encampment District",
 		"uniqueTo": "The Zulu",
 		"cost": 27,
 		"greatPersonPoints": {"Great General": 1},
@@ -325,7 +325,7 @@
 ],
 	},
 {
-		"name": "Commercial Hub",
+		"name": "Commercial Hub District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Merchant": 1},
             "requiredResource": "Districts",
@@ -345,8 +345,8 @@
 ],
 	},
 {
-		"name": "Suguba",
-		"replaces": "Commercial Hub",
+		"name": "Suguba District",
+		"replaces": "Commercial Hub District",
 		"uniqueTo": "Mali", 
       	"cost": 27,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -369,7 +369,7 @@
 ],
 	},
 {
-		"name": "Industrial Zone",
+		"name": "Industrial Zone District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Engineer": 1},
             "requiredResource": "Districts",
@@ -388,7 +388,7 @@
 	},
 {
 		"name": "Hansa",
-		"replaces": "Industrial Zone",
+		"replaces": "Industrial Zone District",
 		"uniqueTo": "Germany",
 		"cost": 27,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -408,7 +408,7 @@
 	},
 {
 		"name": "Oppidum",
-		"replaces": "Industrial Zone",
+		"replaces": "Industrial Zone District",
 		"uniqueTo": "Gaul",
 		"cost": 27,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -427,7 +427,7 @@
 ],
 	},
 {
-		"name": "Entertainment Complex",
+		"name": "Entertainment Complex District",
 		"cost": 54,
             "requiredResource": "Districts",
 		"maintenance": 1,
@@ -445,7 +445,7 @@
 	},
 {
 		"name": "Street Carnival",
-		"replaces": "Entertainment Complex",
+		"replaces": "Entertainment Complex District",
 		"uniqueTo": "Brazil",
 		"cost": 27,
             "requiredResource": "Districts",
@@ -464,7 +464,7 @@
 	},
 {
 		"name": "Hippodrome",
-		"replaces": "Entertainment Complex",
+		"replaces": "Entertainment Complex District",
 		"uniqueTo": "Byzantium",
 		"cost": 27,
             "requiredResource": "Districts",
@@ -484,7 +484,7 @@
 ],
 	},
 {
-		"name": "Harbor",
+		"name": "Harbor District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Admiral": 1},
             "requiredResource": "Districts",
@@ -505,7 +505,7 @@
 	},
 {
 		"name": "Cothon",
-		"replaces": "Harbor",
+		"replaces": "Harbor District",
 		"uniqueTo": "Phoenicia",
 		"greatPersonPoints": {"Great Admiral": 1},
 		"cost": 27,
@@ -528,7 +528,7 @@
     },
 {
 		"name": "Royal Navy Dockyard",
-		"replaces": "Harbor",
+		"replaces": "Harbor District",
 		"uniqueTo": "England",
 		"greatPersonPoints": {"Great Admiral": 2},
 		"cost": 27,
@@ -550,7 +550,7 @@
         "requiredTech": "Celestial Navigation"
     },
     {
-            "name": "Neighborhood",
+            "name": "Neighborhood District",
             "cost": 54,
             "requiredResource": "Districts",
 		"maintenance": 0,
@@ -564,7 +564,7 @@
     },
     {
             "name": "Mbanza",
-            "replaces": "Neighborhood",
+            "replaces": "Neighborhood District",
             "uniqueTo": "Kongo",
             "requiredResource": "Districts",
             "cost": 27,
@@ -596,7 +596,7 @@
         "requiredTech": "Rocketry"
     },
     {
-            "name": "Water Park",
+            "name": "Water Park District",
             "cost": 54,
             "maintenance": 1,
             "cannotBeBuiltWith": "Entertainment Complex",
@@ -614,7 +614,7 @@
     },
 {
             "name": "Copacabana",
-            "replaces": "Water Park",
+            "replaces": "Water Park District",
             "uniqueTo": "Brazil",
             "cost": 27,
             "maintenance": 1,
@@ -1111,30 +1111,27 @@
     {
         "name": "Library",
         "cost": 90,
-        "requiredBuilding": "Campus",
+        "requiredBuilding": "Campus District",
         "specialistSlots": {"Scientist": 1},
         "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 1,
         "uniques": [
 "[+2 Science] from [Campus] tiles [in this city]",
-"[+2 Science] from [Japanese Campus] tiles [in this city]",
-"[+2 Science] from [Brazilian Campus] tiles [in this city]",
-"[+2 Science] from [Dutch Campus] tiles [in this city]",
+"[+2 Science] from [Observatory] tiles [in this city]",
+"[+2 Science] from [Seowon] tiles [in this city]"
 ],
         "requiredTech": "Writing"
     },
     {
         "name": "Shrine",
         "cost": 70,
-        "requiredBuilding": "Holy Site",
+        "requiredBuilding": "Holy Site District",
         "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "maintenance": 1,
         "uniques": [
 "[+2 Faith] from [Holy Site] tiles [in this city]",
 "[+2 Faith] from [Lavra] tiles [in this city]",
-"[+2 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+2 Faith] from [Brazilian Holy Site] tiles [in this city]",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Astrology"
@@ -1150,7 +1147,7 @@
     {
         "name": "Barracks",
         "cost": 90,
-        "requiredBuilding": "Encampment",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1171,7 +1168,7 @@
         "uniqueTo": "Macedon",
         "cost": 90,
         "production": 1,        
-        "requiredBuilding": "Encampment",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1190,8 +1187,12 @@
         "cost": 65, 
         "food": 1,
         "production": 1,
-        "uniques": ["Must be on [River]", "[+1 Food] from [Wheat] tiles in this city","[+1 Food] from [Rice] tiles in this city",
-        	"[+1 Food] from [Maize] tiles in this city"],
+        "uniques": [
+"Must be on [River]", 
+"[+1 Food] from [Wheat] tiles in this city",
+"[+1 Food] from [Rice] tiles in this city",
+"[+1 Food] from [Maize] tiles in this city"
+],
         "requiredTech": "Wheel"
     },
 
@@ -1201,16 +1202,13 @@
     {
         "name": "Amphitheater",
         "cost": 150,
-        "requiredBuilding": "Theatre Square",
+        "requiredBuilding": "Theatre Square District",
         "specialistSlots": {"Artist": 1},
         "greatPersonPoints": {"Great Artist": 1},
         "maintenance": 1,
         "uniques": [
 "[+2 Culture] from [Theatre Square] tiles [in this city]",
 "[+2 Culture] from [Acropolis] tiles [in this city]",
-"[+2 Culture] from [Japanese Theatre Square] tiles [in this city]",
-"[+2 Culture] from [Brazilian Theatre Square] tiles [in this city]",
-"[+2 Culture] from [Dutch Theatre Square] tiles [in this city]",
 "Only available <after adopting [Drama and Poetry]>"
 ],
     },
@@ -1220,7 +1218,7 @@
         "replaces": "Amphitheater",
         "uniqueTo": "The Maori",
         "cost": 150,
-        "requiredBuilding": "Theatre Square",
+        "requiredBuilding": "Theatre Square District",
         "maintenance": 0,
         "uniques": [
 "[+1 Culture, +1 Faith] from [Woods] tiles in this city",
@@ -1234,7 +1232,7 @@
     {
         "name": "Stable",
         "cost": 120,
-        "requiredBuilding": "Encampment",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1253,7 +1251,7 @@
         "replaces": "Stable",
         "uniqueTo": "Mongolia",
         "cost": 120,
-        "requiredBuilding": "Encampment",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1271,7 +1269,7 @@
     {
         "name": "Lighthouse",
         "cost": 120,
-        "requiredBuilding": "Harbor",
+        "requiredBuilding": "Harbor District",
         "specialistSlots": {"Admiral": 1},
         "greatPersonPoints": {"Great Admiral": 1},
         "uniques": [
@@ -1287,7 +1285,7 @@
     {
         "name": "Arena",
         "cost": 150,
-        "requiredBuilding": "Entertainment Complex",
+        "requiredBuilding": "Entertainment Complex District",
         "maintenance": 1,
         "uniques": [
 "[+1 Culture, +2 Happiness] from [Entertainment Complex] tiles [in this city]",
@@ -1300,7 +1298,7 @@
         "replaces": "Arena",
         "uniqueTo": "The Aztec",
         "cost": 135,
-        "requiredBuilding": "Entertainment Complex",
+        "requiredBuilding": "Entertainment Complex District",
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
         "uniques": [
@@ -1311,14 +1309,12 @@
     {
         "name": "Market",
         "cost": 120,
-        "requiredBuilding": "Commercial Hub",
+        "requiredBuilding": "Commercial Hub District",
         "specialistSlots": {"Merchant": 1},
         "greatPersonPoints": {"Great Merchant": 1},
         "uniques": [
 "[+3 Gold] from [Commercial Hub] tiles [in this city]",
 "[+3 Gold] from [Suguba] tiles [in this city]",
-"[+3 Gold] from [Japanese Commercial Hub] tiles [in this city]",
-"[+3 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
 "Provides [1] [Trade Route]"
 ],
         "requiredTech": "Currency"
@@ -1328,22 +1324,16 @@
         "replaces": "Market",
         "uniqueTo": "Poland",
         "cost": 120,
-        "gold": 3,
-        "requiredBuilding": "Commercial Hub",
+        "production": 2,
+        "gold": 4,
+        "requiredBuilding": "Commercial Hub District",
         "specialistSlots": {"Merchant": 1},
         "greatPersonPoints": {"Great Merchant": 1},
         "uniques": [
-"Gain a free [Trade Route Bonus] [in capital]",
 "[+3 Gold] from [Commercial Hub] tiles [in this city]",
-"Provides [1] [Trade Route]"],
+"Provides [1] [Trade Route]"
+],
         "requiredTech": "Currency"
-    },
-   {
-        "name": "Trade Route Bonus",
-        "uniqueTo": "Poland",
-        "isNationalWonder": "true",
-        "cost": -1,
-        "uniques": ["[+2 Production, +4 Gold] from each Trade Route", "Unbuildable"],
     },
     {
         "name": "Dam",
@@ -1388,9 +1378,7 @@
         "greatPersonPoints": {"Great Prophet": 1},
         "uniques": [
 "[+4 Faith] from [Holy Site] tiles [in this city]",
-"[+4 Faith] from [Lavra] tiles [in this city]"
-"[+4 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+4 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+4 Faith] from [Lavra] tiles [in this city]",
 "Only available <after adopting [Theology]>"],
     },
 {
@@ -1428,15 +1416,14 @@
 {
         "name": "Workshop",
         "cost": 195,
-        "requiredBuilding": "Industrial Zone",
+        "requiredBuilding": "Industrial Zone District",
         "maintenance": 1,
         "specialistSlots": {"Engineer": 1},
         "greatPersonPoints": {"Great Engineer": 1},
         "uniques": [
 "[+3 Production] from [Industrial Zone] tiles [in this city]",
-"[+3 Production] from [Hansa] tiles [in this city]",
-"[+3 Production] from [Japanese Industrial Zone] tiles [in this city]",
-"[+3 Production] from [Dutch Industrial Zone] tiles [in this city]"],
+"[+3 Production] from [Hansa] tiles [in this city]"
+],
         "requiredTech": "Apprenticeship"
     },
     {
@@ -1448,9 +1435,8 @@
         "maintenance": 2,
         "uniques": [
 "[+4 Science] from [Campus] tiles [in this city]",
-"[+4 Science] from [Japanese Campus] tiles [in this city]",
-"[+4 Science] from [Brazilian Campus] tiles [in this city]",
-"[+4 Science] from [Dutch Campus] tiles [in this city]",
+"[+4 Science] from [Observatory] tiles [in this city]",
+"[+4 Science] from [Seowon] tiles [in this city]",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Education"
@@ -1504,8 +1490,6 @@
         "uniques": [
 "[+5 Gold] from [Commercial Hub] tiles [in this city]",
 "[+5 Gold] from [Suguba] tiles [in this city]",
-"[+5 Gold] from [Japanese Commercial Hub] tiles [in this city]",
-"[+5 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
 ],
         "requiredTech": "Banking"
     },
@@ -1532,9 +1516,6 @@
         "uniques": [
 "[+2 Culture] from [Theatre Square] tiles [in this city]",
 "[+2 Culture] from [Acropolis] tiles [in this city]",
-"[+2 Culture] from [Japanese Theatre Square] tiles [in this city]",
-"[+2 Culture] from [Brazilian Theatre Square] tiles [in this city]",
-"[+2 Culture] from [Dutch Theatre Square] tiles [in this city]",
 "[+7 Culture] from every [Archaeological Dig]",
 "Only available <after adopting [Humanism]>"
 ]
@@ -1588,8 +1569,7 @@
         "uniques": [
 "[+12 Production] from [Industrial Zone] tiles [in this city]",
 "[+12 Production] from [Hansa] tiles [in this city]",
-"[+12 Production] from [Oppidum] tiles [in this city]",
-"[+12 Production] from [Dutch Industrial Zone] tiles [in this city]"
+"[+12 Production] from [Oppidum] tiles [in this city]"
 ],
         "requiredTech": "Industrialization"
     },
@@ -1603,7 +1583,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 2,
         "uniques": [
-"[+16 Production] from [Japanese Industrial Zone] tiles [in this city]",
+"[+16 Production] from [Industrial Zone] tiles [in this city]",
 "[+4 Culture] <after discovering [Electricity]>"],
         "requiredTech": "Industrialization"
     },
@@ -1638,8 +1618,6 @@
         "uniques": [
 "[+7 Gold] from [Commercial Hub] tiles [in this city]",
 "[+7 Gold] from [Suguba] tiles [in this city]",
-"[+7 Gold] from [Japanese Commercial Hub] tiles [in this city]",
-"[+7 Gold] from [Brazilian Commercial Hub] tiles [in this city]",
 "[+1 Gold] from every specialist [in this city]"
 ],
         "requiredTech": "Economics"
@@ -1675,7 +1653,7 @@
         "name": "Ferris Wheel",
         "cost": 290,
         "maintenance": 1,
-        "requiredBuilding": "Water Park",
+        "requiredBuilding": "Water Park District",
         "uniques": [
 "[+3 Culture, +2 Happiness] from [Water Park] tiles [in this city]",
 "[+3 Culture, +2 Happiness] from [Copacabana] tiles [in this city]",
@@ -1711,8 +1689,6 @@
 "[+5 Production] from [Industrial Zone] tiles [in this city]",
 "[+5 Production] from [Hansa] tiles [in this city]",
 "[+5 Production] from [Oppidum] tiles [in this city]",
-"[+5 Production] from [Japanese Industrial Zone] tiles [in this city]",
-"[+5 Production] from [Dutch Industrial Zone] tiles [in this city]",
 "[+1 Production] from every specialist [in this city]"
 ],
         "requiredTech": "Industrialization"
@@ -1759,9 +1735,7 @@
         "uniques": [
 "[+12 Production] from [Industrial Zone] tiles [in this city]",
 "[+12 Production] from [Hansa] tiles [in this city]",
-"[+12 Production] from [Oppidum] tiles [in this city]",
-"[+12 Production] from [Japanese Industrial Zone] tiles [in this city]",
-"[+12 Production] from [Dutch Industrial Zone] tiles [in this city]"
+"[+12 Production] from [Oppidum] tiles [in this city]"
 ],
         "requiredTech": "Electricity",
     },
@@ -1775,9 +1749,6 @@
         "uniques": [
 "[+4 Culture] from [Theatre Square] tiles [in this city]",
 "[+4 Culture] from [Acropolis] tiles [in this city]",
-"[+4 Culture] from [Japanese Theatre Square] tiles [in this city]",
-"[+4 Culture] from [Brazilian Theatre Square] tiles [in this city]",
-"[+4 Culture] from [Dutch Theatre Square] tiles [in this city]",
 "[+1 Culture] from every specialist [in this city]"
 ],
         "requiredTech": "Radio"
@@ -1806,9 +1777,8 @@
         "maintenance": 3,
         "uniques": [
 "[+5 Science] from [Campus] tiles [in this city]",
-"[+5 Science] from [Japanese Campus] tiles [in this city]",
-"[+5 Science] from [Brazilian Campus] tiles [in this city]",
-"[+5 Science] from [Dutch Campus] tiles [in this city]",
+"[+5 Science] from [Observatory] tiles [in this city]",
+"[+5 Science] from [Seowon] tiles [in this city]",
 "[+1 Science] from every specialist [in this city]"
 ],
         "requiredTech": "Chemistry"
@@ -1817,7 +1787,7 @@
         "name": "Food Market",
         "cost": 380,
         "maintenance": 1,
-        "requiredBuilding": "Neighborhood",
+        "requiredBuilding": "Neighborhood District",
         "cannotBeBuiltWith": "Shopping Mall",
         "uniques": [
 "[+4 Food] from [Neighbourhood] tiles [in this city]",
@@ -1829,7 +1799,7 @@
         "name": "Shopping Mall",
         "cost": 440,
         "maintenance": 1,
-        "requiredBuilding": "Neighborhood",
+        "requiredBuilding": "Neighborhood District",
         "uniques": [
 "[+2 Gold, +4 Culture, +1 Happiness] from [Neighbourhood] tiles [in this city]",
 "[+2 Gold, +4 Culture, +1 Happiness] from [Mbanza] tiles [in this city]",
@@ -1871,7 +1841,7 @@
         "culture": 6,
         "happiness": 4,
         "maintenance": 3,
-        "uniques": ["Only available <if [Water Park] is constructed>","Only available <if [Aquarium] is constructed>",
+        "uniques": ["Only available <if [Water Park District] is constructed>","Only available <if [Aquarium] is constructed>",
         	"Only available <after adopting [Professional Sports]>"]
     },
     {
@@ -1885,9 +1855,7 @@
         "uniques": [
 "[+16 Production, +12 Science] from [Industrial Zone] tiles [in this city]",
 "[+16 Production, +12 Science] from [Hansa] tiles [in this city]",
-"[+16 Production, +12 Science] from [Oppidum] tiles [in this city]",
-"[+16 Production, +12 Science] from [Japanese Industrial Zone] tiles [in this city]",
-"[+16 Production, +12 Science] from [Dutch Industrial Zone] tiles [in this city]"
+"[+16 Production, +12 Science] from [Oppidum] tiles [in this city]"
 ],
         "requiredTech": "Nuclear Fission",
     },
@@ -1910,12 +1878,10 @@
 		"name": "Cathedral",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Culture, +3 Faith] from [Holy Site] tiles [in this city]",
 "[+2 Culture, +3 Faith] from [Lavra] tiles [in this city]"
-"[+2 Culture, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+2 Culture, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
 "[+1 Gold] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -1925,12 +1891,10 @@
 		"name": "Dar-e Mehr",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+5 Faith] from [Holy Site] tiles [in this city]",
-"[+5 Faith] from [Lavra] tiles [in this city]"
-"[+5 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+5 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+5 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -1940,12 +1904,10 @@
 		"name": "Gurdwara",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Food, +3 Faith] from [Holy Site] tiles [in this city]",
-"[+2 Food, +3 Faith] from [Lavra] tiles [in this city]"
-"[+2 Food, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+2 Food, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+2 Food, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -1955,12 +1917,10 @@
 		"name": "Meeting House",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Production, +3 Faith] from [Holy Site] tiles [in this city]",
-"[+2 Production, +3 Faith] from [Lavra] tiles [in this city]"
-"[+2 Production, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+2 Production, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+2 Production, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -1970,12 +1930,10 @@
 		"name": "Mosque",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+3 Faith] from [Holy Site] tiles [in this city]",
-"[+3 Faith] from [Lavra] tiles [in this city]"
-"[+3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
 "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
@@ -1987,12 +1945,10 @@
 		"name": "Pagoda",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+3 Faith] from [Holy Site] tiles [in this city]",
-"[+3 Faith] from [Lavra] tiles [in this city]"
-"[+3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "[5]% Food is carried over after population increases [in this city]",
 "Unbuildable", 
@@ -2003,12 +1959,10 @@
 		"name": "Stupa",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+1 Happiness, +3 Faith] from [Holy Site] tiles [in this city]",
-"[+1 Happiness, +3 Faith] from [Lavra] tiles [in this city]"
-"[+1 Happiness, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+1 Happiness, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+1 Happiness, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2018,12 +1972,10 @@
 		"name": "Synagogue",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+5 Faith] from [Holy Site] tiles [in this city]",
-"[+5 Faith] from [Lavra] tiles [in this city]"
-"[+5 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+5 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+5 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2033,12 +1985,10 @@
 		"name": "Wat",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Science, +3 Faith] from [Holy Site] tiles [in this city]",
-"[+2 Science, +3 Faith] from [Lavra] tiles [in this city]"
-"[+2 Science, +3 Faith] from [Japanese Holy Site] tiles [in this city]",
-"[+2 Science, +3 Faith] from [Brazilian Holy Site] tiles [in this city]",
+"[+2 Science, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Unbuildable", 
 "Hidden when religion is disabled"
