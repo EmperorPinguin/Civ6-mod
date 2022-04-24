@@ -464,6 +464,19 @@
 		"improvementStats": {"gold": 1}
 	},
 	
+	{
+		"name": "Cinnamon",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Cloves",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	
 	// Ingame Mechanics
 	{
 		"name": "Trade Route",

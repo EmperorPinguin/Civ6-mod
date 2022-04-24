@@ -158,7 +158,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Bonus vs wounded units 6%","Penalty vs City 57%","Penalty vs water units 57%"],
+		"uniques": ["[+6]% Strength <vs [Wounded] units> <when attacking>", "Penalty vs City 57%","Penalty vs water units 57%"],
 		"attackSound": "arrow"
 	},
 	{
@@ -168,7 +168,7 @@
 		"strength": 30,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -182,7 +182,8 @@
 		"strength": 35,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Double movement in [Coast]","Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"uniques": ["[+1] Movement <in [Coast] tiles>", "Ignores Zone of Control", 
+			"Cannot enter ocean tiles <before discovering [Shipbuilding]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -196,7 +197,7 @@
 		"strength": 35,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -210,6 +211,7 @@
 		"requiredTech": "Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Stirrups",
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>", "Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -224,7 +226,7 @@
 		"requiredTech": "Wheel",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Penalty vs City 57%","Penalty vs water units 57%"],
+		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control", "Penalty vs City 57%","Penalty vs water units 57%"],
 		"attackSound": "arrow"
 	},
 	{
@@ -234,7 +236,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 55,
-		"uniques": ["Bonus vs Armor 16%"],
+		"uniques": ["[+15]% Strength <vs [Armor] units>", "[+1] Movement <in [Open terrain] tiles>", "Ignores Zone of Control"],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Stirrups",
 		"attackSound": "horse"
@@ -293,7 +295,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Can construct [Roman Fort]","Bonus vs Armor 33%"],
+		"uniques": ["Can build [Roman Fort] improvements on tiles", "Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -339,7 +341,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Bonus vs City 16%","Bonus vs wounded units 10%","Bonus vs Armor 33%"],
+		"uniques": ["[+15]% Strength <vs cities> <when attacking>", "Bonus vs wounded units 10%","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -381,6 +383,7 @@
 		"obsoleteTech": "Castles",
 		"requiredResource": "Horses",
 		"upgradesTo": "Courser",
+		"uniques": ["Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -396,7 +399,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Courser",
 		"promotions": ["Charge"],
-		"uniques": ["Combat very likely to create Great Generals","-10% combat strength for adjacent enemy units"],
+		"uniques": ["[Great General] is earned [50]% faster", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
+			"Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -436,7 +440,7 @@
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -452,8 +456,8 @@
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
-		"uniques": ["Bonus vs land units 33%","Bonus vs water units 33%",
-			"Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"uniques": ["[+33]% Strength <vs [Land] units>", "[+33]% Strength <vs [Water] units>",
+			"Cannot enter ocean tiles <before discovering [Cartography]>"],
 		"attackSound": "arrow"
 	},
 
@@ -734,7 +738,8 @@
 		"cost": 300,
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Battleship",
-		"uniques": ["Only available <after adopting [Mercenaries]>"],
+		"uniques": ["Only available <after adopting [Mercenaries]>", "Transfer Movement to [Civilian]", 
+			"[+15]% Strength <when adjacent to a [Jong] unit>"],
 		"attackSound": "shot"
 	},
 	{
