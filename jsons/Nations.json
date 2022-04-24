@@ -850,18 +850,24 @@
 		"outerColor": [205,0,1],
 		"innerColor": [125,235,228],
 		"uniqueName": "Mana",
-		"uniqueText": " Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. Unimproved Woods and Rainforests grant +2 Production. +1 Food from Fishing Boats. Great Artists cannot be earned.
+		"uniqueText": " Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. +1 Production for unimproved Woods and Rainforest tiles, enhanced to +2 with Mercantilism and +3 with Conservation, +1 Food from Fishing Boats. Great Artists cannot be earned.
 		",
 		"uniques": [
 "Starts with [Sailing]",
 "Starts with [Shipbuilding]",
 "Enables embarkation for land units <starting from the [Ancient era]>", 
 "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+"[+2] Movement <for [Embarked] units>",
+"[+1] Sight <for [Embarked] units>", 
 "Defense bonus when embarked <for [All] units>",
 "[Great Artist] is earned [-100]% faster",
-"[+1 Food] from every [Fishing Boats]","[+2 Production] from every [Forest]",
-"[+2 Production] from every [Jungle]",
-"[-2 Production] from every [Lumber Mill]"
+"[+1 Food] from every [Fishing Boats]",
+"[+1 Production] from every [Woods] <in [unimproved] [Woods] tiles>",
+"[+1 Production] from every [Woods] <in [unimproved] [Woods] tiles> <after adopting [Mercantilism]>",
+"[+1 Production] from every [Woods] <in [unimproved] [Woods] tiles> <after adopting [Conservation]>",
+"[+1 Production] from every [Rainforest] <in [unimproved] [Rainforest] tiles>",
+"[+1 Production] from every [Rainforest] <in [unimproved] [Rainforest] tiles> <after adopting [Mercantilism]>",
+"[+1 Production] from every [Rainforest] <in [unimproved] [Rainforest] tiles> <after adopting [Conservation]>"
 ],
 		"cities": ["Te Hokianga-nui-a-kupe","Ngaruawahia","Opango","Whakarewarewa","Kaiapoi","Whanganui","Kawhia","Taumutu","Kapiti","Te Pokohiwi",
 			"Otatara pa","Motupohue","Ruatoria","Maungakiekie pa","Taupiri","Whaingaroa","Pukemaire","Pari-ru","Taumatawhana pa","Whanganui-a-Tara",
@@ -1106,7 +1112,7 @@
 		"uniques": [
 "[+2] Movement <for [Embarked] units>",
 "[+1] Sight <for [Embarked] units>", 
-"[1] Movement point cost to disembark <for [All] units>"
+"[1] Movement point cost to disembark <for [Settler] units>"
 ],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",

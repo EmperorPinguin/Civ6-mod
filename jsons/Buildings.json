@@ -162,7 +162,7 @@
 ],
 	},
 {
-		"name": "Observatory",
+		"name": "Observatory District",
 		"replaces": "Campus District",
 		"uniqueTo": "The Maya",
 		"cost": 27,
@@ -182,7 +182,7 @@
 ],
 	},
 {
-		"name": "Seowon",
+		"name": "Seowon District",
 		"replaces": "Campus District",
 		"uniqueTo": "Korea",
 		"cost": 27,
@@ -220,7 +220,7 @@
 ],
 	},
 {
-		"name": "Lavra",
+		"name": "Lavra District",
 		"replaces": "Holy Site District",
 		"uniqueTo": "Russia",
 		"cost": 27,
@@ -262,7 +262,7 @@
 ],
 	},
 {
-		"name": "Acropolis",
+		"name": "Acropolis District",
 		"replaces": "Theatre Square District",
 		"uniqueTo": "Greece",
 		"cost": 27,
@@ -303,7 +303,7 @@
 ],
 	},
 {
-		"name": "Ikanda",
+		"name": "Ikanda District",
 		"replaces": "Encampment District",
 		"uniqueTo": "The Zulu",
 		"cost": 27,
@@ -387,7 +387,7 @@
 ],
 	},
 {
-		"name": "Hansa",
+		"name": "Hansa District",
 		"replaces": "Industrial Zone District",
 		"uniqueTo": "Germany",
 		"cost": 27,
@@ -407,7 +407,7 @@
 ],
 	},
 {
-		"name": "Oppidum",
+		"name": "Oppidum District",
 		"replaces": "Industrial Zone District",
 		"uniqueTo": "Gaul",
 		"cost": 27,
@@ -444,7 +444,7 @@
 ],
 	},
 {
-		"name": "Street Carnival",
+		"name": "Street Carnival District",
 		"replaces": "Entertainment Complex District",
 		"uniqueTo": "Brazil",
 		"cost": 27,
@@ -463,7 +463,7 @@
 ],
 	},
 {
-		"name": "Hippodrome",
+		"name": "Hippodrome District",
 		"replaces": "Entertainment Complex District",
 		"uniqueTo": "Byzantium",
 		"cost": 27,
@@ -563,7 +563,7 @@
 ]
     },
     {
-            "name": "Mbanza",
+            "name": "Mbanza District",
             "replaces": "Neighborhood District",
             "uniqueTo": "Kongo",
             "requiredResource": "Districts",
@@ -613,7 +613,7 @@
 ]
     },
 {
-            "name": "Copacabana",
+            "name": "Copacabana District",
             "replaces": "Water Park District",
             "uniqueTo": "Brazil",
             "cost": 27,
