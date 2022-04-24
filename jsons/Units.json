@@ -1650,7 +1650,6 @@
 	{
 		"name": "Observatory Builder",
 		"uniqueTo": "The Maya",
-		"replaces": "Campus Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Observatory]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1659,7 +1658,6 @@
 {
 		"name": "Seowon Builder",
 		"uniqueTo": "Korea",
-		"replaces": "Campus Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Seowon]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1675,7 +1673,6 @@
 {
 		"name": "Lavra Builder",
 		"uniqueTo": "Russia",
-		"replaces": "Holy Site Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Lavra]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1691,7 +1688,6 @@
 {
 		"name": "Ikanda Builder",
 		"uniqueTo": "The Zulu",
-		"replaces": "Encampment Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Ikanda]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1707,7 +1703,6 @@
 {
 		"name": "Acropolis Builder",
 		"uniqueTo": "Greece",
-		"replaces": "Theatre Square Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Acropolis]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1723,7 +1718,6 @@
 {
 		"name": "Suguba Builder",
 		"uniqueTo": "Mali",
-		"replaces": "Commercial Hub Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Suguba]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1739,7 +1733,6 @@
 {
 		"name": "Hansa Builder",
 		"uniqueTo": "Germany",
-		"replaces": "Industrial Zone Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Hansa]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1748,7 +1741,6 @@
 {
 		"name": "Oppidum Builder",
 		"uniqueTo": "Gaul",
-		"replaces": "Industrial Zone Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Oppidum]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1764,7 +1756,6 @@
 {
 		"name": "Street Carnival Builder",
 		"uniqueTo": "Brazil",
-		"replaces": "Entertainment Complex Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Street Carnival]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1773,7 +1764,6 @@
 {
 		"name": "Hippodrome Builder",
 		"uniqueTo": "Byzantium",
-		"replaces": "Entertainment Complex Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Hippodrome]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1796,7 +1786,6 @@
 {
 		"name": "Copacabana Builder",
 		"uniqueTo": "Brazil",
-		"replaces": "Water Park Builder",
             "cost": 1,
 		"unitType": "Civilian Water",
 		"uniques": ["Can construct [Copacabana]", "Cannot enter ocean tiles", "Cannot be purchased", "Unbuildable", "Uncapturable"],
@@ -1812,7 +1801,6 @@
 {
 		"name": "Mbanza Builder",
 		"uniqueTo": "Kongo",
-		"replaces": "Neighbourhood Builder",
             "cost": 1,
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Mbanza]", "Cannot be purchased", "Unbuildable", "Uncapturable"],

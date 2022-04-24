@@ -744,7 +744,7 @@
 		"name": "Korea",
 		"leaderName": "Seondeok",
 		"adjective": ["Korean"],
-		"startBias": ["Hill","Avoid [Snow]"],
+		"startBias": ["Hill",/*"Avoid [Snow]"*/],
 		"preferredVictoryType": "Scientific",
 		"declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
 		"attacked": "Your defeat shall be swift … your people, forgotten. This I have foreseen.",
