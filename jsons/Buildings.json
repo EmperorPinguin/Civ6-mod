@@ -688,9 +688,18 @@
         "isWonder": true,
         "cost": 220,
         "culture": 1,
-		"faith": 1,
+        "faith": 1,
         "greatPersonPoints": {"Great Engineer": 1, "Great Artist": 1, "Great Merchant": 1, "Great Scientist": 1},
-        "uniques": ["[+25]% Great Person generation [in this city]", "Must be on [Hill]", "Only available <after adopting [Mysticism]>"],
+        "uniques": [
+"[Faith] cost of purchasing [Great Admiral] units [-25]%",
+"[Faith] cost of purchasing [Great Artist] units [-25]%",
+"[Faith] cost of purchasing [Great Engineer] units [-25]%",
+"[Faith] cost of purchasing [Great General] units [-25]%",
+"[Faith] cost of purchasing [Great Merchant] units [-25]%",
+"[Faith] cost of purchasing [Great Scientist] units [-25]%",
+"Must be on [Hill]", 
+"Only available <after adopting [Mysticism]>"
+],
         "quote": "'I sprang upon the swift ship in the form of a dolphin, pray to me as Apollo Delphinius; also the altar itself shall be called Delphinius and overlooked forever.' –Homer"
     },
 
@@ -716,7 +725,7 @@
         "isWonder": true,
         "cost": 400,
         "gold": 3,
-        "uniques": ["Free [Trader] units appear", "Must be next to [Coast]"],
+        "uniques": ["Free [Great Merchant] appears", "Must be next to [Coast]"],
         "requiredTech": "Shipbuilding",
         "quote": "'At Rhodes was set up a Colossus of seventy cubits high, representing the Sun. The artist expended as much bronze on it as seemed likely to create a dearth in the mines.' –Philo of Byzantium"
     },
@@ -734,7 +743,8 @@
         "isWonder": true,
         "cost": 290,
         "gold": 3,
-        "uniques": ["[+2] Movement <for [{Military} {Water}] units>", "Must be next to [Coast]"],
+        "greatPersonPoints": {"Great Admiral": 1},
+        "uniques": ["[+1] Movement <for [{Military} {Water}] units>", "Must be next to [Coast]"],
         "requiredTech": "Celestial Navigation",
         "quote": "'This lighthouse was the cynosure of all eyes.' –Henry David Thoreau"
     },

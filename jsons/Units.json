@@ -17,15 +17,12 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","May create improvements on water resources"],
+		"uniques": [
+"Can build [Land] improvements on tiles",
+"May create improvements on water resources",
+"Can build [Water] improvements on tiles"
+],
 		"cost": 100
-	},
-	{
-		"name": "Work Boats",
-		"unitType": "WaterCivilian",
-		"movement": 4,
-		"cost": 30,
-		"uniques": ["Can build [Land] improvements on tiles","May create improvements on water resources"]
 	},
 	{
 		"name": "Settler",
