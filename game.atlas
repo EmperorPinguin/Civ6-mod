@@ -2348,7 +2348,7 @@ BuildingIcons/Neighborhood District
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Neighborhood
+ImprovementIcons/Neighbourhood
   rotate: false
   xy: 868, 1836
   size: 100, 100
@@ -2374,6 +2374,13 @@ ImprovementIcons/Mission
   xy: 4, 755
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/National Park
+  rotate: false
+  xy: 1343, 914
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/Nubian Pyramid
@@ -2791,7 +2798,7 @@ PolicyIcons/Distributed Sovereignity
   index: -1
 PolicyIcons/Divine Right
   rotate: false
-  xy: 1474, 782
+  xy: 1358, 724
   size: 48, 50
   orig: 48, 50
   offset: 0, 0
@@ -2959,161 +2966,161 @@ PolicyIcons/Mysticism
   index: -1
 PolicyIcons/Nationalism
   rotate: false
-  xy: 1343, 914
+  xy: 1343, 856
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Natural History
   rotate: false
-  xy: 1343, 856
+  xy: 742, 150
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Naval Tradition
   rotate: false
-  xy: 742, 150
+  xy: 1374, 1014
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Near Future Governance
   rotate: false
-  xy: 742, 92
+  xy: 1432, 1014
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nuclear Program
   rotate: false
-  xy: 1374, 1014
+  xy: 1490, 1014
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Opera and Ballet
   rotate: false
-  xy: 1432, 1014
+  xy: 1956, 1596
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Optimization Imperative
   rotate: false
-  xy: 1490, 1014
+  xy: 1956, 1538
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Political Philosophy
   rotate: false
-  xy: 1956, 1596
+  xy: 1401, 956
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Professional Sports
   rotate: false
-  xy: 1956, 1538
+  xy: 1401, 898
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Rapid Deployment
   rotate: false
-  xy: 1401, 956
+  xy: 1459, 956
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Recorded History
   rotate: false
-  xy: 1401, 898
+  xy: 1459, 898
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Reformed Church
   rotate: false
-  xy: 1459, 956
+  xy: 1401, 840
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Scorched Earth
   rotate: false
-  xy: 1459, 898
+  xy: 1459, 840
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Smart Power Doctrine
   rotate: false
-  xy: 1401, 840
+  xy: 1517, 956
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Social Media
   rotate: false
-  xy: 1459, 840
+  xy: 1517, 898
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Space Race
   rotate: false
-  xy: 1517, 956
+  xy: 1517, 840
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/State Workforce
   rotate: false
-  xy: 1517, 898
+  xy: 1242, 798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Suffrage
   rotate: false
-  xy: 1517, 840
+  xy: 1300, 798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/The Enlightenment
   rotate: false
-  xy: 1300, 798
+  xy: 1300, 740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Theology
   rotate: false
-  xy: 1242, 740
+  xy: 1358, 782
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Totalitarianism
   rotate: false
-  xy: 1300, 740
+  xy: 1416, 782
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Urbanization
   rotate: false
-  xy: 1358, 782
+  xy: 1474, 782
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Venture Politics
   rotate: false
-  xy: 1416, 782
+  xy: 1532, 782
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -3736,28 +3743,28 @@ TileSets/FantasyHex/Tiles/Coffee
   index: -1
 TileSets/FantasyHex/Tiles/Commercial Hub
   rotate: false
-  xy: 1530, 797
+  xy: 1414, 739
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Copper
   rotate: false
-  xy: 1358, 746
+  xy: 44, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crabs
   rotate: false
-  xy: 44, 13
+  xy: 1556, 1202
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Diamonds
   rotate: false
-  xy: 1556, 1202
+  xy: 1664, 1310
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -3778,14 +3785,14 @@ TileSets/FantasyHex/Tiles/Encampment-Snow
   index: -1
 TileSets/FantasyHex/Tiles/Gypsum
   rotate: false
-  xy: 1664, 1310
+  xy: 1139, 679
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Holy Site
   rotate: false
-  xy: 2006, 1864
+  xy: 2006, 1828
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
@@ -3799,21 +3806,21 @@ TileSets/FantasyHex/Tiles/Honey
   index: -1
 TileSets/FantasyHex/Tiles/Industrial Zone
   rotate: false
-  xy: 2006, 1817
+  xy: 2006, 1781
   size: 32, 39
   orig: 32, 39
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Jade
   rotate: false
-  xy: 1398, 746
+  xy: 1454, 746
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kurgan
   rotate: false
-  xy: 2006, 1769
+  xy: 2006, 1733
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -3827,21 +3834,21 @@ TileSets/FantasyHex/Tiles/Maize
   index: -1
 TileSets/FantasyHex/Tiles/Mekewap
   rotate: false
-  xy: 1438, 746
+  xy: 1494, 746
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mercury
   rotate: false
-  xy: 2006, 1733
+  xy: 2006, 1697
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Niter
   rotate: false
-  xy: 2006, 1696
+  xy: 2006, 1660
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
@@ -3855,7 +3862,7 @@ TileSets/FantasyHex/Tiles/Nubian Pyramid
   index: -1
 TileSets/FantasyHex/Tiles/Olives
   rotate: false
-  xy: 2006, 1654
+  xy: 124, 8
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
@@ -3869,7 +3876,7 @@ TileSets/FantasyHex/Tiles/Outback Station
   index: -1
 TileSets/FantasyHex/Tiles/Rice
   rotate: false
-  xy: 1478, 746
+  xy: 1534, 746
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -3883,49 +3890,49 @@ TileSets/FantasyHex/Tiles/Salt
   index: -1
 TileSets/FantasyHex/Tiles/Tea
   rotate: false
-  xy: 124, 14
+  xy: 218, 63
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Theatre Square
   rotate: false
-  xy: 218, 55
+  xy: 258, 55
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tobacco
   rotate: false
-  xy: 258, 63
+  xy: 298, 63
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Route (Domestic)
   rotate: false
-  xy: 1812, 1412
+  xy: 338, 58
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Route (International)
   rotate: false
-  xy: 1812, 1412
+  xy: 338, 58
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles
   rotate: false
-  xy: 338, 64
+  xy: 418, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Turtles
   rotate: false
-  xy: 378, 64
+  xy: 458, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -3946,14 +3953,14 @@ TileSets/FantasyHex/Units/Archaeologist
   index: -1
 TileSets/FantasyHex/Units/Helicopter
   rotate: false
-  xy: 1139, 679
+  xy: 2006, 1872
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trader
   rotate: false
-  xy: 298, 57
+  xy: 378, 58
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
@@ -4159,6 +4166,13 @@ UnitIcons/Musketman
   xy: 544, 1296
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Naturalist
+  rotate: false
+  xy: 742, 92
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Ngao Mbeba
@@ -5073,7 +5087,7 @@ UnitPromotionIcons/New folder/Depredation
   index: -1
 UnitPromotionIcons/Suppression
   rotate: false
-  xy: 1242, 798
+  xy: 1242, 740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
