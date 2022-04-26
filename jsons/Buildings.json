@@ -1095,14 +1095,21 @@
 "Indicates the capital city",
 "Gain a free [City Center] [in all cities]",
 "[-1 Gold] from every [River]",
- "May buy [Great Admiral] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
- "May buy [Naturalist] units for [600] [Faith] [in all cities] at an increasing price ([100]) <after adopting [Conservation]>",
-"[5]% Food is carried over after population increases [in this city]"
+"May buy [Great Admiral] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500]) <starting from the [Ancient era]>",
+"May buy [Naturalist] units for [600] [Faith] [in all cities] at an increasing price ([100]) <after adopting [Conservation]>",
+"[5]% Food is carried over after population increases [in this city]",
+"[+1 Science, +1 Faith] from [All] tiles [in all cities] <with [1] to [1] neighboring [Mount Roraima] tiles>",
+"[+2 Science, +2 Faith] from [All] tiles [in all cities] <with [2] to [2] neighboring [Mount Roraima] tiles>",
+"[+3 Science, +3 Faith] from [All] tiles [in all cities] <with [3] to [3] neighboring [Mount Roraima] tiles>",
+"[+4 Science, +4 Faith] from [All] tiles [in all cities] <with [4] to [4] neighboring [Mount Roraima] tiles>",
+"[-1 Science, -1 Faith] from [Mount Roraima] tiles [in all cities] <with [1] to [1] neighboring [Mount Roraima] tiles>",
+"[-2 Science, -2 Faith] from [Mount Roraima] tiles [in all cities] <with [2] to [2] neighboring [Mount Roraima] tiles>",
+"[-3 Science, -3 Faith] from [Mount Roraima] tiles [in all cities] <with [3] to [3] neighboring [Mount Roraima] tiles>",
 ]
     },
     {
@@ -2006,5 +2013,8 @@
 "Hidden when religion is disabled"
 ]
 	},
+//Social policies
+
+
 
 ]

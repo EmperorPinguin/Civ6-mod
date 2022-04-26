@@ -290,6 +290,7 @@
 		"unbuildable": true,
 		"weight": 10
 	},
+*/
 {
 		"name": "Mount Roraima",
 		"type": "NaturalWonder",
@@ -300,8 +301,9 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1000
 	},
+/*
 {
 		"name": "Mount Vesuvius",
 		"type": "NaturalWonder",

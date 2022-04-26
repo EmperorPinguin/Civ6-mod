@@ -945,7 +945,7 @@
 		"uniqueText": " Land units receive +10% Combat Strength when on a Road, +10% Combat Strength for Mounted units
 		"
 		"uniques": [
-"[Mounted] units gain the [Mongol Horde] promotion",
+"[Light Cavalry] units gain the [Mongol Horde] promotion",
 "[+20]% Strength <for [Land] units> <when fighting in [Road] tiles>"
 ],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
@@ -1056,7 +1056,7 @@
 		"uniqueName": "Great Turkish Bombard",
 		"uniques": [
 "[+30]% Production when constructing [Siege] units [in all cities]", 
-"[+17% Strength <for [Siege] units> <when fighting in [Great Improvement] tiles> <when attacking>", 
+"[+33% Strength <for [Siege] units> <when fighting in [Great Improvement] tiles> <when attacking>", 
 "[+1 Happiness] [in annexed cities]"
 ],
 		//Unique building for Annexed cities (+1 :D & +1 Culture), Courthouses dont exist anymore
