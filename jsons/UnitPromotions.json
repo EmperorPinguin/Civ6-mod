@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Garrison",
-		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <in tiles without [City centre]> <when defending>","[+67]% Strength <in [Fort] tiles> <when defending>"],
+		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <in tiles without [City center]> <when defending>","[+67]% Strength <in [Fort] tiles> <when defending>"],
 		"unitTypes": ["Ranged"]
 	},
 	{
