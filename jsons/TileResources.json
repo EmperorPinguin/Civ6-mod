@@ -509,4 +509,24 @@
 		"resourceType": "Strategic",
 		"gold": 1
 	},
+	{
+		"name": "Military Policy Slots",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Economic Policy Slots",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Wildcard Policy Slots",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Diplomatic Policy Slots",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
 ]
