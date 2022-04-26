@@ -1485,7 +1485,7 @@
         "uniques": [
 "[+3 Production] from [Encampment] tiles [in this city]",
 "[+3 Production] from [Ikanda] tiles [in this city]",
-"All newly-trained [{Military}{Land}] units [in this city] receive the [Quick Study II] promotion"
+"All newly-trained [{Military} {Land}] units [in this city] receive the [Quick Study II] promotion"
 ],
         "requiredTech": "Military Engineering"
     },  
@@ -1616,7 +1616,7 @@
         "uniques": [
 "[+4 Production] from [Encampment] tiles [in this city]",
 "[+4 Production] from [Ikanda] tiles [in this city]",
-"All newly-trained [{Military}{Land}] units [in this city] receive the [Quick Study III] promotion",
+"All newly-trained [{Military} {Land}] units [in this city] receive the [Quick Study III] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Military Science"
