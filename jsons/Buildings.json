@@ -1164,9 +1164,9 @@
 		"uniques": [
 "[+1 Production] from [Encampment] tiles [in this city]",
 "[+1 Production] from [Ikanda] tiles [in this city]",
-"New [Melee] units start with [15] Experience in this city",
-"New [Ranged] units start with [15] Experience in this city",
-"New [Armor] units start with [15] Experience in this city",
+"All newly-trained [Melee] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Anti-Cavalry] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Ranged] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Bronze Working"
@@ -1184,9 +1184,9 @@
         "cannotBeBuiltWith": "Stable",
 		"uniques": [
 "[+1 Production, +5 Science] from [Encampment] tiles [in this city]",
-"New [Melee] units start with [15] Experience in this city",
-"New [Ranged] units start with [15] Experience in this city",
-"New [Armor] units start with [15] Experience in this city",
+"All newly-trained [Melee] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Anti-Cavalry] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Ranged] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Bronze Working"
@@ -1249,8 +1249,9 @@
         "uniques": [
 "[+1 Production] from [Encampment] tiles [in this city]",
 "[+1 Production] from [Ikanda] tiles [in this city]",
-"New [Mounted] units start with [15] Experience in this city",
-"New [Siege] units start with [15] Experience in this city",
+"All newly-trained [Light Cavalry] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Heavy Cavalry] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Siege] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Horseback Riding"
@@ -1268,9 +1269,11 @@
         "uniques": [
 "[+1 Production] from [Encampment] tiles [in this city]",
 "[+1 Production] from [Ikanda] tiles [in this city]",
-"New [Mounted] units start with [15] Experience in this city",
-"New [Siege] units start with [15] Experience in this city",
-"All newly-trained [Mounted] units in this city receive the [Ordu] promotion",
+"All newly-trained [Light Cavalry] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Heavy Cavalry] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Siege] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Light Cavalry] units in this city receive the [Ordu] promotion",
+"All newly-trained [Light Cavalry] units in this city receive the [Ordu] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Horseback Riding"
@@ -1468,14 +1471,14 @@
 {
         "name": "Armory",
         "cost": 195,
-        "requiredBuilding": "Barracks",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 2,
         "uniques": [
 "[+3 Production] from [Encampment] tiles [in this city]",
 "[+3 Production] from [Ikanda] tiles [in this city]",
-"New [non-air] units start with [15] Experience in this city"
+"All newly-trained [{Military}{Land}] units [in this city] receive the [Quick Study II] promotion"
 ],
         "requiredTech": "Military Engineering"
     },  
@@ -1606,7 +1609,7 @@
         "uniques": [
 "[+4 Production] from [Encampment] tiles [in this city]",
 "[+4 Production] from [Ikanda] tiles [in this city]",
-"New [non-air] units start with [15] Experience in this city",
+"All newly-trained [{Military}{Land}] units [in this city] receive the [Quick Study III] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Military Science"

@@ -608,7 +608,7 @@
 				"name": "Advanced AI",
 				"row": 4,
 				"prerequisites": ["Nuclear Fusion","Nanotechnology"],
-				"uniques": ["[Mounted] units gain the [Drone Air Defense] promotion"],
+				"uniques": ["[GDR] units gain the [Drone Air Defense] promotion"],
 				"quote": "'Will no entreaties cause thee to turn a favourable eye upon thy creature, woh implores thy goodness and compassion?' - Mary Shelley"
 			}
 		]	
@@ -624,21 +624,21 @@
 				"name": "Advanced Power Cells",
 				"row": 2,
 				"prerequisites": ["Seasteads"],
-				"uniques": ["[Mounted] units gain the [Particle Beam Siege Cannon] promotion"],
+				"uniques": ["[GDR] units gain the [Particle Beam Siege Cannon] promotion"],
 				"quote": "'The incomplete becomes complete; the crooked becomes straight; the empty becomes full; the worn out becomes new.' - Tao Te Ching, Lao Tzu"
 			},
 			{
 				"name": "Cybernetics",
 				"row": 5,
 				"prerequisites": ["Seasteads","Advanced AI"],
-				"uniques": ["[Mounted] units gain the [Enhanced Mobility] promotion"],
+				"uniques": ["[GDR] units gain the [Enhanced Mobility] promotion"],
 				"quote": "'If there is any work in the afterlife, you must do it. Behold me whenever you are called. Be watchful at any moment to work there. Plough my fields, carry water and sand to the east and west. Behold me whenever you are called.' - Incsciription on an Egyptian Ushabti"
 			},
 			{
 				"name": "Smart Materials",
 				"row": 7,
 				"prerequisites": ["Seasteads","Advanced AI"],
-				"uniques": ["[Mounted] units gain the [Reinforced Armor Plating] promotion"],
+				"uniques": ["[GDR] units gain the [Reinforced Armor Plating] promotion"],
 				"quote": "'It ascends from the earth to the heaven, and it again descends to the earth and receives the force of things superior and inferior.' - Hermes Trismegistus"
 			},
 			{

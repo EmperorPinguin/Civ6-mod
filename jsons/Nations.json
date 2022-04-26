@@ -113,7 +113,7 @@
 		"name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
-		"startBias": ["Jungle"],
+		"startBias": ["Rainforest"],
 		"preferredVictoryType": "Cultural",
 	
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed.",
@@ -722,7 +722,7 @@
 		"name": "Kongo",
 		"leaderName": "Mvemba a Nzinga",
 		"adjective": ["Kongolese"],
-		"startBias": ["Jungle","Forest"],
+		"startBias": ["Woods","Rainforest"],
 
 		"declaringWar": "We are no strangers to war. You have strayed from God's path, and now we will correct it.",
 		"attacked": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
@@ -877,7 +877,7 @@
 		"name": "The Mapuche",
 		"leaderName": "Lautaro",
 		"adjective": ["Mapuche"],
-		"startBias": ["Mountain","Avoid [Snow]"],
+		"startBias": ["Mountain",/*"Avoid [Snow]"*/],
 		"preferredVictoryType": "Domination",
 
 		"declaringWar": "It comes to war. Mapuche shall use your own weapons against you!",
@@ -946,7 +946,7 @@
 		"
 		"uniques": [
 "[Mounted] units gain the [Mongol Horde] promotion",
-"[+10]% Strength <for [Land] units> <when fighting in [Road] tiles>"
+"[+20]% Strength <for [Land] units> <when fighting in [Road] tiles>"
 ],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",

@@ -44,7 +44,7 @@
 */
 	{
 		"name": "Scout",
-		"unitType": "Scout",
+		"unitType": "Recon",
 		"movement": 3,
 		"strength": 10,
 		"cost": 30,
@@ -56,7 +56,7 @@
 		"name": "Okihtcitaw",
 		"uniqueTo": "The Cree",
 		"replaces": "Scout",
-		"unitType": "Scout",
+		"unitType": "Recon",
 		"movement": 3,
 		"strength": 20,
 		"cost": 40,
@@ -73,7 +73,6 @@
 		"cost": 40,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -86,7 +85,6 @@
 		"cost": 65,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -99,7 +97,6 @@
 		"cost": 60,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Musketman",
-		"uniques": ["[33]% Strength","Bonus vs City 15%","Bonus vs Armor 33%"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -160,7 +157,7 @@
 	},
 	{
 		"name": "Galley",
-		"unitType": "WaterMelee",
+		"unitType": "Naval Melee",
 		"movement": 3,
 		"strength": 30,
 		"cost": 65,
@@ -174,7 +171,7 @@
 		"name": "Viking Longship",
 		"uniqueTo": "Norway",
 		"replaces": "Galley",
-		"unitType": "WaterMelee",
+		"unitType": "Naval Melee",
 		"movement": 3,
 		"strength": 35,
 		"cost": 65,
@@ -189,7 +186,7 @@
 		"name": "Bireme",
 		"uniqueTo": "Phoenicia",
 		"replaces": "Galley",
-		"unitType": "WaterMelee",
+		"unitType": "Naval Melee",
 		"movement": 4,
 		"strength": 35,
 		"cost": 65,
@@ -201,7 +198,7 @@
 	},
 	{
 		"name": "Heavy Chariot",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 3,
 		"strength": 28,
 		"cost": 65,
@@ -214,8 +211,7 @@
 	{
 		"name": "Maryannu Chariot Archer",
 		"uniqueTo": "Egypt",
-		"replaces": "Heavy Chariot",
-		"unitType": "Ranged",
+		"unitType": "Heavy Cavalry",
 		"movement": 3,
 		"strength": 25,
 		"rangedStrength": 35,
@@ -229,7 +225,7 @@
 	{
 		"name": "War-Cart",
 		"uniqueTo": "Sumeria",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 30,
 		"cost": 55,
@@ -240,28 +236,26 @@
 	},
 	{
 		"name": "Spearman",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
 		"strength": 25,
 		"cost": 65,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Military Tactics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Hoplite",
 		"uniqueTo": "Greece",
 		"replaces": "Spearman",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
 		"strength": 33,
 		"cost": 65,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Military Tactics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "metalhit"
 	},
 
@@ -277,7 +271,6 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -292,7 +285,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Can build [Roman Fort] improvements on tiles", "Bonus vs Armor 33%"],
+		"uniques": ["Can build [Roman Fort] improvements on tiles"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -308,14 +301,14 @@
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
 		"uniques": ["[+1] Sight","Double movement in [Woods]","Double movement in [Rainforest]",
-			"+33% Defence against ranged attacks","Bonus vs Armor 33%"],
+			"+33% Defence against ranged attacks"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Immortal",
 		"uniqueTo": "Persia",
 		"replaces": "Swordsman",
-		"unitType": "Ranged",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 25,
@@ -323,7 +316,6 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Penalty vs City 57%","Bonus vs Armor 33%","Penalty vs water units 57%"],
 		"attackSound": "arrow"
 	},
 	{
@@ -338,7 +330,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["[+15]% Strength <vs cities> <when attacking>", "Bonus vs wounded units 10%","Bonus vs Armor 33%"],
+		"uniques": ["[+15]% Strength <vs cities> <when attacking>", "Bonus vs wounded units 10%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -352,7 +344,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Can construct [Pa]","-10% combat strength for adjacent enemy units","Bonus vs Armor 33%"],
+		"uniques": ["Can construct [Pa]","-10% combat strength for adjacent enemy units"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -372,7 +364,7 @@
 	},
 	{
 		"name": "Horseman",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 4,
 		"strength": 36,
 		"cost": 80,
@@ -387,7 +379,7 @@
 		"name": "Hetairoi",
 		"uniqueTo": "Macedon",
 		"replaces": "Horseman",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 40,
 		"cost": 100,
@@ -403,7 +395,7 @@
 	{
 		"name": "Varu",
 		"uniqueTo": "India",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 2,
 		"strength": 40,
 		"cost": 120,
@@ -423,12 +415,12 @@
 		"requiredTech": "Engineering",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bombard",
-		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
 		"name": "Quadrireme",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 3,
 		"range": 1,
 		"strength": 20,
@@ -444,7 +436,7 @@
 		"name": "Dromon",
 		"uniqueTo": "Byzantium",
 		"replaces": "Quadrireme",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 3,
 		"range": 2,
 		"strength": 20,
@@ -462,7 +454,7 @@
 
 	{
 		"name": "Skirmisher",
-		"unitType": "Ranged",
+		"unitType": "Recon",
 		"movement": 3,
 		"range": 1,
 		"strength": 20,
@@ -478,7 +470,7 @@
 		"name": "Warak'aq",
 		"uniqueTo": "Inca",
 		"replaces": "Skirmisher",
-		"unitType": "Ranged",
+		"unitType": "Recon",
 		"movement": 3,
 		"range": 1,
 		"strength": 20,
@@ -501,7 +493,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["[+33]% Strength <when attacking>","No movement cost to pillage","Bonus vs Armor 33%"],
+		"uniques": ["[+33]% Strength <when attacking>","No movement cost to pillage"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -515,7 +507,6 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -529,7 +520,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Ignores terrain cost","+[25]% combat bonus in [Hill]","Bonus vs Armor 33%"],
+		"uniques": ["Ignores terrain cost","+[25]% combat bonus in [Hill]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -570,38 +561,36 @@
 		"cost": 220,
 		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Steel",
-		"upgradesTo": "Artillery",
-		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%"]
+		"upgradesTo": "Artillery"
 	},
 	{
 		"name": "Pikeman",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
 		"strength": 41,
 		"cost": 180,
 		"requiredTech": "Military Tactics",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pike and Shot",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Impi",
 		"uniqueTo": "The Zulu",
 		"replaces": "Pikeman",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
 		"strength": 41,
 		"cost": 125,
 		"requiredTech": "Military Tactics",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pike and Shot",
-		"uniques": ["Bonus vs wounded units 20%","[50]% XP gained from combat","Bonus vs Mounted 33%"],
+		"uniques": ["Bonus vs wounded units 20%","[50]% XP gained from combat"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Courser",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 44,
 		"cost": 200,
@@ -615,7 +604,7 @@
 		"name": "Oromo Cavalry",
 		"uniqueTo": "Ethiopia",
 		"replaces": "Courser",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 46,
 		"cost": 200,
@@ -630,7 +619,7 @@
 		"name": "Black Army",
 		"uniqueTo": "Hungary",
 		"replaces": "Courser",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 47,
 		"cost": 205,
@@ -643,7 +632,7 @@
 	},
 	{
 		"name": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 48,
 		"cost": 220,
@@ -657,7 +646,7 @@
 		"name": "Tagma",
 		"uniqueTo": "Byzantium",
 		"replaces": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 48,
 		"cost": 220,
@@ -671,7 +660,7 @@
 		"name": "Mamluk",
 		"uniqueTo": "Arabia",
 		"replaces": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 48,
 		"cost": 220,
@@ -686,7 +675,7 @@
 		"name": "Mandekalu Cavalry",
 		"uniqueTo": "Mali",
 		"replaces": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 49,
 		"cost": 220,
@@ -700,7 +689,7 @@
 	{
 		"name": "Winged Hussar",
 		"uniqueTo": "Poland",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 55,
 		"cost": 220,
@@ -728,7 +717,7 @@
 		"name": "Jong",
 		"uniqueTo": "Indonesia",
 		"replaces": "Frigate",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 5,
 		"strength": 45,
 		"rangedStrength": 55,
@@ -743,7 +732,7 @@
 		"name": "Barbary Corsair",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Privateer",
-		"unitType": "WaterSubmarine",
+		"unitType": "Naval Raider",
 		"movement": 4,
 		"strength": 40,
 		"rangedStrength": 50,
@@ -759,7 +748,7 @@
 
 	{
 		"name": "Caravel",
-		"unitType": "WaterMelee",
+		"unitType": "Naval Melee",
 		"movement": 4,
 		"strength": 55,
 		"cost": 240,
@@ -771,7 +760,7 @@
 	},
 	{
 		"name": "Privateer",
-		"unitType": "WaterSubmarine",
+		"unitType": "Naval Raider",
 		"movement": 4,
 		"strength": 40,
 		"rangedStrength": 50,
@@ -785,7 +774,7 @@
 		"name": "Sea Dog",
 		"uniqueTo": "England",
 		"replaces": "Privateer",
-		"unitType": "WaterSubmarine",
+		"unitType": "Naval Raider",
 		"movement": 4,
 		"strength": 40,
 		"rangedStrength": 50,
@@ -798,7 +787,7 @@
 	{
 		"name": "Malon Raider",
 		"uniqueTo": "The Mapuche",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 4,
 		"strength": 55,
 		"cost": 250,
@@ -811,28 +800,26 @@
 	},
 	{
 		"name": "Pike and Shot",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
 		"strength": 55,
 		"cost": 250,
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "AT Crew",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Carolean",
 		"uniqueTo": "Sweden",
 		"replaces": "Pike and Shot",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 3,
 		"strength": 60,
 		"cost": 250,
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "AT Crew",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "shot"
 	},
 	{
@@ -845,7 +832,6 @@
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Niter",
 		"upgradesTo": "Infantry",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "shot"
 	},
 	{
@@ -860,7 +846,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Niter",
 		"upgradesTo": "Infantry",
-		"uniques": ["Bonus for units in 2 tile radius 15%","Bonus vs Armor 33%"],
+		"uniques": ["Bonus for units in 2 tile radius 15%"],
 		"attackSound": "shot"
 	},
 	{
@@ -876,12 +862,12 @@
 		"requiredResource": "Niter",
 		"upgradesTo": "Infantry",
 		"promotions": ["Battlecry"],
-		"uniques": ["Bonus for units in 2 tile radius 15%","Bonus vs Armor 33%"],
+		"uniques": ["Bonus for units in 2 tile radius 15%"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Frigate",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 4,
 		"strength": 45,
 		"rangedStrength": 55,
@@ -896,7 +882,7 @@
 		"name": "De Zeven Provincien",
 		"uniqueTo": "The Netherlands",
 		"replaces": "Frigate",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 4,
 		"strength": 50,
 		"rangedStrength": 60,
@@ -919,7 +905,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Niter",
 		"upgradesTo": "Artillery",
-		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -963,7 +949,7 @@
 	},
 	{
 		"name": "Ironclad",
-		"unitType": "WaterMelee",
+		"unitType": "Naval Melee",
 		"movement": 6,
 		"strength": 70,
 		"cost": 380,
@@ -978,7 +964,7 @@
 		"name": "Minas Geraes",
 		"uniqueTo": "Brazil",
 		"replaces": "Battleship",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 4,
 		"range": 3,
 		"interceptRange": 2,
@@ -1003,7 +989,7 @@
 	},
 	{
 		"name": "Ranger",
-		"unitType": "Ranged",
+		"unitType": "Recon",
 		"movement": 3,
 		"range": 1,
 		"strength": 45,
@@ -1019,7 +1005,7 @@
 		"name": "Highlander",
 		"uniqueTo": "Scotland",
 		"replaces": "Ranger",
-		"unitType": "Ranged",
+		"unitType": "Recon",
 		"movement": 3,
 		"range": 1,
 		"strength": 50,
@@ -1028,12 +1014,12 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Spec Ops",
-		"uniques": ["Bonus vs units in rough terrain 16%","Penalty vs City 57%","Penalty vs water units 57%"],
+		"uniques": ["Bonus vs units in rough terrain 16%"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 62,
 		"cost": 330,
@@ -1047,7 +1033,7 @@
 		"name": "Cossack",
 		"uniqueTo": "Russia",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 70,
 		"cost": 340,
@@ -1062,7 +1048,7 @@
 		"name": "Huszar",
 		"uniqueTo": "Hungary",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 71,
 		"cost": 335,
@@ -1076,7 +1062,7 @@
 		"name": "Llanero",
 		"uniqueTo": "Gran Colombia",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 62,
 		"cost": 310,
@@ -1089,7 +1075,7 @@
 	},
 	{
 		"name": "Cuirassier",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 64,
 		"cost": 330,
@@ -1102,7 +1088,7 @@
 	{
 		"name": "Rough Rider",
 		"uniqueTo": "America",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 67,
 		"cost": 385,
@@ -1123,7 +1109,7 @@
 		"obsoleteTech": "Satellites",
 		"requiredResource": "Niter",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["+[30]% combat bonus in [Friendly Land]","Combat very likely to create Great Generals","Bonus vs Armor 33%"],
+		"uniques": ["+[30]% combat bonus in [Friendly Land]","Combat very likely to create Great Generals"],
 		"attackSound": "shot"
 	},
 	{
@@ -1137,7 +1123,7 @@
 		"obsoleteTech": "Satellites",
 		"requiredResource": "Niter",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["+[30]% combat bonus in [Foreign Land]","Amphibious","Bonus vs Armor 33%"],
+		"uniques": ["+[30]% combat bonus in [Foreign Land]","Amphibious"],
 		"attackSound": "shot"
 	},
 
@@ -1152,7 +1138,7 @@
 	},*/
 	{
 		"name": "Biplane",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"range": 4,
 		"interceptRange": 4,
@@ -1176,7 +1162,6 @@
 		"obsoleteTech": "Satellites",
 		"requiredResource": "Oil",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "shot"
 	},
 	{
@@ -1190,7 +1175,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Satellites",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["+[33]% combat bonus in [Coast]","+[15]% combat bonus in [Foreign Land]","Bonus vs Armor 33%"],
+		"uniques": ["+[33]% combat bonus in [Coast]","+[15]% combat bonus in [Foreign Land]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1204,12 +1189,12 @@
 		"obsoleteTech": "Guidance Systems",
 		"requiredResource": "Oil",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Battleship",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 5,
 		"range": 3,
 		"interceptRange": 3,
@@ -1225,7 +1210,7 @@
 	},
 	{
 		"name": "Submarine",
-		"unitType": "WaterSubmarine",
+		"unitType": "Naval Raider",
 		"movement": 3,
 		"strength": 65,
 		"rangedStrength": 75,
@@ -1241,7 +1226,7 @@
 		"name": "U-Boat",
 		"uniqueTo": "Germany",
 		"replaces": "Submarine",
-		"unitType": "WaterSubmarine",
+		"unitType": "Naval Raider",
 		"movement": 3,
 		"strength": 65,
 		"rangedStrength": 75,
@@ -1255,19 +1240,18 @@
 	},
 	{
 		"name": "AT Crew",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 400,
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Composites",
 		"upgradesTo": "Modern AT",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Tank",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 80,
 		"cost": 330,
@@ -1277,23 +1261,23 @@
 		"upgradesTo": "Modern Armor",
 		"attackSound": "shot"
 	},
-	/*{
+	{
 		"name": "Mountie",
 		"uniqueTo": "Canada",
-		"unitType": "Mounted",
+		"unitType": "Anti-Cavalry",
 		"movement": 5,
 		"strength": 60,
 		"cost": 400,
 		"requiredTech": "Replaceable Parts",
 		//"uniques": ["+[33]% combat bonus in [National Park]","Can construct [National Park]"],
 		"attackSound": "horse"
-	},*/
+	},
 
 	// Atomic Era
 
 	{
 		"name": "Fighter",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"range": 5,
 		"interceptRange": 5,
@@ -1311,7 +1295,7 @@
 		"name": "P-51 Mustang",
 		"uniqueTo": "America",
 		"replaces": "Fighter",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"range": 5,
 		"interceptRange": 5,
@@ -1328,7 +1312,7 @@
 	},
 	{
 		"name": "Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"range": 10,
 		"strength": 85,
@@ -1375,7 +1359,7 @@
 	},
 	{
 		"name": "Spec Ops",
-		"unitType": "Ranged",
+		"unitType": "Recon",
 		"movement": 6,
 		"strength": 60,
 		"rangedStrength": 65,
@@ -1386,7 +1370,7 @@
 	},
 	{
 		"name": "Aircraft Carrier",
-		"unitType": "WaterAircraftCarrier",
+		"unitType": "Naval Carrier",
 		"movement": 3,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -1397,7 +1381,7 @@
 	},
 	{
 		"name": "Destroyer",
-		"unitType": "WaterMelee",
+		"unitType": "Naval Melee",
 		"movement": 6,
 		"interceptRange": 2,
 		"strength": 80,
@@ -1409,7 +1393,7 @@
 	},
 	{
 		"name": "Helicopter",
-		"unitType": "Mounted",
+		"unitType": "Light Cavalry",
 		"movement": 4,
 		"strength": 82,
 		"cost": 600,
@@ -1423,7 +1407,7 @@
 	
 	{
 		"name": "Nuclear Submarine",
-		"unitType": "WaterSubmarine",
+		"unitType": "Naval Raider",
 		"movement": 4,
 		"strength": 80,
 		"rangedStrength": 85,
@@ -1441,7 +1425,6 @@
 		"cost": 650,
 		"requiredTech": "Satellites",
 		"requiredResource": "Oil",
-		"uniques": ["Bonus vs Armor 33%"],
 		"attackSound": "shot"
 	},
 	{
@@ -1454,7 +1437,7 @@
 		"cost": 680,
 		"requiredTech": "Guidance Systems",
 		"requiredResource": "Oil",
-		"uniques": ["[+1] Sight","[-57]% Strength <when attacking>","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["[+1] Sight","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -1470,7 +1453,7 @@
 	},
 	{
 		"name": "Jet Fighter",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"range": 6,
 		"interceptRange": 6,
@@ -1484,7 +1467,7 @@
 	},
 	{
 		"name": "Missile Cruiser",
-		"unitType": "WaterRanged",
+		"unitType": "Naval Ranged",
 		"movement": 5,
 		"interceptRange": 3,
 		"range": 3,
@@ -1498,17 +1481,16 @@
 	},
 	{
 		"name": "Modern AT",
-		"unitType": "Armor",
+		"unitType": "Anti-Cavalry",
 		"movement": 3,
 		"strength": 80,
 		"cost": 580,
 		"requiredTech": "Composites",
-		"uniques": ["Bonus vs Mounted 33%"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Modern Armor",
-		"unitType": "Mounted",
+		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 90,
 		"cost": 680,
@@ -1518,7 +1500,7 @@
 	},
 	{
 		"name": "Jet Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"range": 15,
 		"strength": 95,
@@ -1531,7 +1513,7 @@
 	},
 	{
 		"name": "Giant Death Robot",
-		"unitType": "Ranged",
+		"unitType": "GDR",
 		"movement": 5,
 		"interceptRange": 3,
 		"range": 3,
@@ -1545,7 +1527,7 @@
 	},
 	{
 		"name": "Nuclear Missile",
-		"unitType": "Missile",
+		"unitType": "Thermonuclear Device",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
@@ -1837,6 +1819,7 @@
 		"cost": -1,
 		"uniques": ["Unbuildable"],
 		"promotions": ["Shadow Strike"],
+		"religiousStrength": 1000,
 		"attackSound": "nonmetalhit"
 	},
 	{
