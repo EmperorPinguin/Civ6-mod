@@ -80,7 +80,7 @@
 	{
 		"name": "Urban Warfare",
 		"prerequisites": ["Commando","Amphibious"],
-		"uniques": ["[+67]% Strength <when fighting in [Great Improvement] tiles>"],
+		"uniques": ["[+67]% Strength <when fighting in [Great Improvement] tiles> <in tiles without [City center]>"],
 		"unitTypes": ["Melee"]
 	},
 	{
@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Garrison",
-		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <when defending>","[+67]% Strength <in [Fort] tiles> <when defending>"],
+		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <in tiles without [City centre]> <when defending>","[+67]% Strength <in [Fort] tiles> <when defending>"],
 		"unitTypes": ["Ranged"]
 	},
 	{
@@ -188,7 +188,7 @@
 	{
 		"name": "Marauding",
 		"prerequisites": ["Charge","Rout"],
-		"uniques": ["[+47]% Strength <in [Great Improvement] tiles> <when attacking>"],
+		"uniques": ["[+47]% Strength <in [Great Improvement] tiles> <in tiles without [City center]> <when attacking>"],
 		"unitTypes": ["Heavy Cavalry"]
 	},
 	{
