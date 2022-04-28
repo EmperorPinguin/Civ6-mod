@@ -1,12 +1,13 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Flood plains", "Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
 "[+1 Food] <with [2] to [6] neighboring [Farm] tiles> <after adopting [Feudalism]>",
 "[+1 Food] for each adjacent [Farm] <after discovering [Replaceable Parts]>",
+"Cannot be built on [Hill] tiles <before adopting [Civil Engineering]>",
 ],
 		"shortcutKey": "F"
 	},
