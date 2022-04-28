@@ -1933,7 +1933,16 @@
 
     // Information Era
 
-
+{
+		"name": "United Nations",
+		"isWonder": true,
+		"cost": 1800,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Telecommunications",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
 
     // Future Era
 

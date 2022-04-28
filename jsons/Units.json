@@ -1593,7 +1593,7 @@
 		"cost": 1500,
 		"requiredTech": "Satellites",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Spaceport] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
 	},
 	{
 		"name": "SS Cockpit",
@@ -1602,7 +1602,7 @@
 		"cost": 1800,
 		"requiredTech": "Robotics",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
 		"name": "SS Engine",
@@ -1611,7 +1611,7 @@
 		"cost": 2100,
 		"requiredTech": "Offworld Mission",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 
 	},
 	{
@@ -1621,14 +1621,14 @@
 		"cost": 1800,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 //District Builders
 	{
 		"name": "Campus Builder",
             "cost": 1,
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Campus]", "Cannot be purchased", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can construct [Campus]", "Cannot be purchased", "Only available <if [Spaceport] is constructed>", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
