@@ -1278,79 +1278,107 @@ TileSets/FantasyHex/Tiles/Flood plains
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Furs
+TileSets/FantasyHex/Tiles/Forest
   rotate: false
   xy: 1044, 1572
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Geothermal Fissure
+TileSets/FantasyHex/Tiles/Woods
+  rotate: false
+  xy: 1044, 1572
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Furs
   rotate: false
   xy: 1374, 1904
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland
+TileSets/FantasyHex/Tiles/Geothermal Fissure
   rotate: false
   xy: 140, 112
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Grassland
+  rotate: false
+  xy: 276, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Grassland+Farm
-  rotate: false
-  xy: 276, 248
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Flood plains+Farm
-  rotate: false
-  xy: 276, 248
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Hill+Farm
   rotate: false
   xy: 524, 904
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill
+TileSets/FantasyHex/Tiles/Grassland+Flood plains+Farm
+  rotate: false
+  xy: 524, 904
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Hill+Farm
   rotate: false
   xy: 1510, 1904
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill-Caballero
+TileSets/FantasyHex/Tiles/Hill
   rotate: false
   xy: 276, 112
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/HillFarm1-128x
+TileSets/FantasyHex/Tiles/Hill-Caballero
   rotate: false
   xy: 524, 768
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Horses
+TileSets/FantasyHex/Tiles/HillFarm1-128x
   rotate: false
   xy: 1646, 1904
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Horses+Pasture
+TileSets/FantasyHex/Tiles/Horses
   rotate: false
   xy: 524, 632
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Horses+Pasture
+  rotate: false
+  xy: 1782, 1904
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jungle
+  rotate: false
+  xy: 524, 496
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rainforest
+  rotate: false
+  xy: 524, 496
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1371,7 +1399,7 @@ TileSets/FantasyHex/Tiles/Marsh
   index: -1
 TileSets/FantasyHex/Tiles/Mine
   rotate: false
-  xy: 1782, 1904
+  xy: 412, 248
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1385,124 +1413,110 @@ TileSets/FantasyHex/Tiles/Mountain
   index: -1
 TileSets/FantasyHex/Tiles/Mountain2-128x
   rotate: false
-  xy: 524, 496
+  xy: 412, 112
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Oasis
   rotate: false
-  xy: 412, 248
+  xy: 660, 1176
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean
   rotate: false
-  xy: 412, 112
+  xy: 660, 1040
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PalmTree1--Features-128x
   rotate: false
-  xy: 660, 1176
+  xy: 660, 904
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pasture
   rotate: false
-  xy: 660, 1040
+  xy: 660, 768
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 660, 904
+  xy: 660, 632
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Farm
   rotate: false
-  xy: 660, 768
+  xy: 660, 496
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Flood plains+Farm
   rotate: false
-  xy: 660, 768
+  xy: 660, 496
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Hill+Farm
   rotate: false
-  xy: 660, 632
+  xy: 796, 1248
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Polder
   rotate: false
-  xy: 660, 496
+  xy: 796, 1112
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Polder-x
   rotate: false
-  xy: 796, 1248
+  xy: 796, 976
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Quarry
   rotate: false
-  xy: 796, 1112
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Rainforest
-  rotate: false
-  xy: 796, 976
+  xy: 796, 840
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sheep
   rotate: false
-  xy: 796, 840
+  xy: 796, 704
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sheep+Pasture
   rotate: false
-  xy: 796, 704
+  xy: 796, 568
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 796, 568
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra
-  rotate: false
   xy: 932, 1248
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Woods
+TileSets/FantasyHex/Tiles/Tundra
   rotate: false
   xy: 932, 1112
   size: 128, 128
