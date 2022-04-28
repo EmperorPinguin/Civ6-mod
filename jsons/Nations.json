@@ -61,7 +61,6 @@
 		"name": "Australia",
 		"leaderName": "John Curtin",
 		"adjective": ["Australian"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 		
 		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, war is upon us.",
@@ -113,7 +112,6 @@
 		"name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
-		"startBias": ["Rainforest"],
 		"preferredVictoryType": "Cultural",
 	
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed.",
@@ -193,7 +191,6 @@
 		"name": "Canada",
 		"leaderName": "Wilfrid Laurier",
 		"adjective": ["Canadian"],
-		"startBias": ["Tundra"],
 		
 		"declaringWar": "As an unstinting malignancy defines your relationship to Canada, we have no recourse than war.",
 		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
@@ -265,7 +262,6 @@
 		"name": "Egypt",
 		"leaderName": "Cleopatra",
 		"adjective": ["Egyptian"],
-		"startBias": ["Flood plains"],
 		
 		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
 		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
@@ -291,7 +287,6 @@
 		"name": "England",
 		"leaderName": "Victoria",
 		"adjective": ["English"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		
 		"declaringWar": "As our protests are in vain, we hereby declare war.",
@@ -314,7 +309,6 @@
 		"name": "Ethiopia",
 		"leaderName": "Menelik II",
 		"adjective": ["Ethiopian"],
-		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		
 		"declaringWar": "Your actions insult the people of Ethiopia, and for that you must pay a heavy price.",
@@ -461,7 +455,6 @@
 		"name": "Greece",
 		"leaderName": "Gorgo",
 		"adjective": ["Greek"],
-		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		
 		"declaringWar": "Now, we will test your strength! Prepare yourselves!",
@@ -485,7 +478,6 @@
 		"name": "Hungary",
 		"leaderName": "Matthias Corvinus",
 		"adjective": ["Hungarian"],
-		"startBias": ["Geothermal Fissure"],
 		"preferredVictoryType": "Domination",
 		
 		"declaringWar": "Your insolence has provoked this war, and I shall be happy to lead the Black Army to victory over you.",
@@ -509,8 +501,7 @@
 		"name": "Inca",
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
-		"startBias": ["Mountain"],
-		
+
 		"declaringWar": "Let there be war between us! I will wrestle your lands away, and rule your subjects with strength.",
 		"attacked": "Now is the time for war. Hear the stamp of our warriors—warriors with the hearts of the puma.",
 		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
@@ -562,7 +553,6 @@
 		"name": "Indonesia",
 		"leaderName": "Gitarja",
 		"adjective": ["Indonesian"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 
 		"declaringWar": "Before this war ends, you will know the fury of a thousand ships.",
@@ -697,7 +687,6 @@
 		"name": "The Khmer",
 		"leaderName": "Jayavarman VII",
 		"adjective": ["Khmer"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 
 		"declaringWar": "I will not allow the Empire to suffer you any longer. The time has come to end this charade!",
@@ -722,7 +711,6 @@
 		"name": "Kongo",
 		"leaderName": "Mvemba a Nzinga",
 		"adjective": ["Kongolese"],
-		"startBias": ["Woods","Rainforest"],
 
 		"declaringWar": "We are no strangers to war. You have strayed from God's path, and now we will correct it.",
 		"attacked": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
@@ -744,7 +732,6 @@
 		"name": "Korea",
 		"leaderName": "Seondeok",
 		"adjective": ["Korean"],
-		"startBias": ["Hill",/*"Avoid [Snow]"*/],
 		"preferredVictoryType": "Scientific",
 		"declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
 		"attacked": "Your defeat shall be swift … your people, forgotten. This I have foreseen.",
@@ -803,7 +790,6 @@
 		"name": "Mali",
 		"leaderName": "Mansa Musa",
 		"adjective": ["Malian"],
-		"startBias": ["Desert"],
 
 		"declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
 		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
@@ -838,7 +824,6 @@
 		"name": "The Maori",
 		"leaderName": "Kupi",
 		"adjective": ["M�?ori"],
-		"startBias": ["Coast"],
 
 		"declaringWar": "You choose death! Your people wail and moan! The pillars of your houses shake, all your lands are shaking!",
 		"attacked": "Look at the big civ leader over there with the war declaration! Great job, mate. Really shows off how hard you are.",
@@ -877,7 +862,6 @@
 		"name": "The Mapuche",
 		"leaderName": "Lautaro",
 		"adjective": ["Mapuche"],
-		"startBias": ["Mountain",/*"Avoid [Snow]"*/],
 		"preferredVictoryType": "Domination",
 
 		"declaringWar": "It comes to war. Mapuche shall use your own weapons against you!",
@@ -902,7 +886,6 @@
 		"name": "The Maya",
 		"leaderName": "Lady Six Sky",
 		"adjective": ["Mayan"],
-		"startBias": ["Grassland","Plains"],
 		"preferredVictoryType": "Scientific",
 
 		"declaringWar": "You are unworthy of rulership. I will take your cities and your people, and rule them for you.",
@@ -929,7 +912,6 @@
 		"name": "Mongolia",
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
-		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 
 		"declaringWar": "You stand in the way of my armies. Soon, you shall fall before them.",
@@ -957,7 +939,6 @@
 		"name": "Norway",
 		"leaderName": "Harald Hardrada",
 		"adjective": ["Norwegian"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
 		"declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death.",
@@ -982,7 +963,6 @@
 		"name": "The Netherlands", 
 		"leaderName": "Wilhelmina",
 		"adjective": ["Dutch"],
-		"startBias": ["Coast"],
 		
 		"declaringWar": "The Netherlands does not fear you. When we defeat you, we will be stronger than ever.",
 		"attacked": "Your treacherous aggression shall not succeed. The Netherlands will endure!",
@@ -1014,7 +994,6 @@
 		"name": "Nubia", 
 		"leaderName": "Amanitore",
 		"adjective": ["Nubian"],
-		"startBias": ["Desert","Hill"],
 		
 		"declaringWar": "We have arrows, finely honed. We shall deliver them freely to your throat.",
 		"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
@@ -1097,7 +1076,6 @@
 		"name": "Phoenicia", 
 		"leaderName": "Dido",
 		"adjective": ["Phoenician"],
-		"startBias": ["Coast"],
 		
 		"declaringWar": "Now we have war between us. Look to the seas——already the horizon is crowded with the sails of my fleets.",
 		"attacked": "War? Are you a fool? Your cities will suffer the fate of Epirus and Saguntum.",
@@ -1174,7 +1152,6 @@
 		"name": "Russia", 
 		"leaderName": "Peter",
 		"adjective": ["Russian"],
-		"startBias": ["Tundra"],
 		"preferredVictoryType": "Scientific",
 
 		"declaringWar": "I hereby proclaim you an enemy to Russia, our allies, and God, may he have mercy on your soul.",
@@ -1223,7 +1200,6 @@
 		"name": "Scythia", 
 		"leaderName": "Tomyris",
 		"adjective": ["Sycthian"],
-		"startBias": ["Grassland","Plains"],
 		"preferredVictoryType": "Domination",
 
 		"declaringWar": "The Empress calls for your head. You will be drowned in your own blood!",
@@ -1245,7 +1221,6 @@
 		"name": "Spain", 
 		"leaderName": "Philip II",
 		"adjective": ["Spanish"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 
 		"declaringWar": "You have transgressed against my kingdom and the kingdom of God… you must answer for your sins.",
