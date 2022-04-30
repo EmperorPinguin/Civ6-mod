@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Flood plains", "Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Flood plains", "Hill", "Volcanic Soil"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
@@ -28,7 +28,7 @@
 	{
 		"name": "Mine",
 		"resourceTerrainAllow": ["Coast"],
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill", "Volcanic Soil"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
@@ -245,7 +245,7 @@
 		"name": "Chateau",
 		"uniqueTo": "France",
 		"culture": 2,
-		"gold": 2,
+		"gold": 3,
 		"turnsToBuild":7,
 		"techRequired": "Printing",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
@@ -254,11 +254,24 @@
 	{
 		"name": "Chemamull",
 		"uniqueTo": "The Mapuche",
-		"culture": 1,
+		"production": 1,
 		"turnsToBuild":7,
 		"techRequired": "Pottery",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra"],
-		"uniques": ["+2 Culture once Craftsmanship is adopted"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra", "Hill"],
+		"uniques": [
+"[+1 Culture] for each adjacent [Natural Wonder]",
+"[+1 Culture] for each adjacent [Mountain]",
+"[+1 Culture] for each adjacent [Woods]",
+"[+1 Culture] for each adjacent [Coast]",
+"[+1 Culture] for each adjacent [Holy Site]",
+"[+1 Culture] for each adjacent [Theatre Square]",
+"[+1 Culture] for each adjacent [Entertainment Complex]",
+"[-1 Culture] for each adjacent [Industrial Zone]",
+"[-1 Culture] for each adjacent [Mine]",
+"[-1 Culture] for each adjacent [Quarry]",
+"[-1 Culture] for each adjacent [Rainforest]",
+"[-1 Culture] for each adjacent [Marsh]",
+],
 	},
 	{
 		"name": "Roman Fort",
@@ -285,7 +298,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
-		"uniques": ["Gives a defensive bonus of [25]%","[+2 Culture, +2 Gold] for each adjacent [Great Wall]"]
+		"uniques": ["Gives a defensive bonus of [27]%","[+2 Culture, +2 Gold] for each adjacent [Great Wall]"]
 	},
 	{
 		"name": "Hacienda",
@@ -318,7 +331,7 @@
 		"techRequired": "Shipbuilding",
 		"terrainsCanBeBuiltOn": ["Coast"/*,"Lakes"*/],
 		"uniques": ["[+1 Food] for each adjacent [Fishing Boats]",
-			"+1 Production once Civil Engineering is adopted",
+			"[+1 Production] <after adopting [Civil Engineering]>",
 			"[+1 Culture] <after discovering [Flight]>"]
 	},
 	{
@@ -339,10 +352,14 @@
 		"turnsToBuild": 7,
 		"techRequired": "Pottery",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
-		"uniques": ["[+1 Food] for each adjacent [Wheat]","[+1 Food] for each adjacent [Bananas]",
-			"[+1 Food] for each adjacent [Rice]","[+1 Food] for each adjacent [Maize]",
-			"[+1 Food] for each adjacent [Pasture]","+1 Production once Civil Service is adopted",
-			"+1 Food once Conservation is adopted"]
+		"uniques": [
+"[+1 Production] <after adopting [Civil Service]>",
+"[+2 Gold] for each adjacent [Luxury resource] <after discovering [Cartography]>",
+"[+1 Food] <with [2] to [3] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
+"[+2 Food] <with [4] to [5] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
+"[+3 Food] <with [6] to [6] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
+"[+1 Food] for each adjacent [Bonus resource] <after adopting [Conservation]>",
+]
 	},
 	{
 		"name": "Mission",
@@ -390,26 +407,37 @@
 		"turnsToBuild": 7,
 		"techRequired": "Apprenticeship",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
-		"uniques": ["[+1 Food] for each adjacent [Pasture]",
-			"[+1 Production] for each adjacent [Outback Station]",
-			"[+1 Production] <after discovering [Steam Power]>",
-			"+1 Food once Rapid Deployment is adopted"]
+		"uniques": [
+"[+1 Food] for each adjacent [Pasture]",
+"[+1 Food] for each adjacent [Pasture] <after discovering [Steam Power]>",
+"[+1 Food] <with [2] to [3] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+"[+2 Food] <with [4] to [5] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+"[+3 Food] <with [6] to [6] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+"[+1 Production] <with [2] to [3] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
+"[+2 Production] <with [4] to [5] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
+"[+3 Production] <with [6] to [6] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
+]
 	},
 	{
 		"name": "Pa",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
-		"uniques": ["Gives a defensive bonus of [25]%","Adjacent enemy units ending their turn take [30] damage"]
+		"uniques": ["Gives a defensive bonus of [27]%","Adjacent enemy units ending their turn take [30] damage"]
 	},
 	{
 		"name": "Pairidaeza",
 		"uniqueTo": "Persia",
-		"culture": 2,
-		"gold": 3,
-		"happiness": 1,
+		"culture": 1,
+		"gold": 2,
 		"turnsToBuild": 7,
-		"techRequired": "Pottery",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill"],
-		"uniques": ["+1 Culture once Diplomatic Service is adopted"]
+		"uniques": [
+"Only available <after adopting [Early Empire]>",
+"[+1 Culture] for each adjacent [Holy Site]",
+"[+1 Culture] for each adjacent [Theatre Square]",
+"[+1 Gold] for each adjacent [Commercial Hub]",
+"[+1 Gold] for each adjacent [City center]",
+"[+1 Culture} <after adopting [Diplomatic Service]>",
+]
 	},
 	{
 		"name": "Polder",

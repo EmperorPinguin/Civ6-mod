@@ -51,7 +51,7 @@
 	{
 		"name": "Maize",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Flood plains"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Farm",
 		"improvementStats": {"food": 1}
@@ -59,7 +59,7 @@
 	{
 		"name": "Rice",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Flood plains", "Marsh"],
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"food": 1}
