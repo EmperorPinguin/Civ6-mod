@@ -50,8 +50,8 @@
 		"innerColor": [21,108,49],
 		"uniqueName": "The Last Prophet",
 		"uniques": [
-"Free [Great Prophet] appears <upon discovering [Mathematics]>",
-"[+1 Science] from each Trade Route"
+"Free [Great Prophet] appears <upon discovering [Writing]>",
+"May choose [1] additional [Founder] beliefs when [founding] a religion",
 ],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -154,6 +154,12 @@
 "[-1 Science] from every [Campus] <with [2] to [3] neighboring [Rainforest] tiles>",
 "[-2 Science] from every [Campus] <with [4] to [5] neighboring [Rainforest] tiles>",
 "[-3 Science] from every [Campus] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+2 Gold] from every [Seaside Resort] <with [1] to [1] neighboring [Rainforest] tiles>",
+"[+4 Gold] from every [Seaside Resort] <with [2] to [2] neighboring [Rainforest] tiles>",
+"[+6 Gold] from every [Seaside Resort] <with [3] to [3] neighboring [Rainforest] tiles>",
+"[+8 Gold] from every [Seaside Resort] <with [4] to [4] neighboring [Rainforest] tiles>",
+"[+10 Gold] from every [Seaside Resort] <with [5] to [5] neighboring [Rainforest] tiles>",
+"[+12 Gold] from every [Seaside Resort] <with [6] to [6] neighboring [Rainforest] tiles>"
 ],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
@@ -544,7 +550,10 @@
 		"outerColor": [53,0,103],
 		"innerColor": [9,192,155],
 		"uniqueName": "Dharma",
-		"uniques": ["[+25]% Natural religion spread [in all cities]", "May choose [1] additional [Founder] beliefs when [founding] a religion"],
+		"uniques": [
+"[+25]% Natural religion spread [in all cities]", 
+"[+2 Happiness] [in all cities in which the majority religion is a major religion]",
+],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]

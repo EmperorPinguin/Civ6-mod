@@ -23,7 +23,8 @@
 "May buy [Naturalist] units for [600] [Faith] [in all cities] at an increasing price ([100]) <after adopting [Conservation]>",
 "[5]% Food is carried over after population increases [in this city]",
 "[+3 Happiness] [in all cities]",
-"[-50]% Unhappiness from [Population] [in all cities]"
+"[-50]% Unhappiness from [Population] [in all cities]",
+"[+100]% maintenance costs <for [Military] units>",
 "[+5 Science] from [All] tiles [in all cities] <with [1] to [1] neighboring [Bermuda Triangle] tiles>",
 "[+10 Science] from [All] tiles [in all cities] <with [2] to [2] neighboring [Bermuda Triangle] tiles>",
 "[+15 Science] from [All] tiles [in all cities] <with [3] to [3] neighboring [Bermuda Triangle] tiles>",
