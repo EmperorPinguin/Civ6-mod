@@ -51,7 +51,7 @@
 				"name": "Writing",
 				"row": 5,
 				"prerequisites": ["Pottery"],
-				"uniques": ["Enables conversion of city production to science","Enables Open Borders agreements"],
+				"uniques": ["Enables conversion of city production to science"],
 				"quote": "'The man who has grit enough to bring about the afforestation or the irrigation of a country is not less worthy of honor than its conqueror' - Paulo Coelho"
 			},
 			{

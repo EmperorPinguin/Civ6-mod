@@ -25,6 +25,21 @@
 "[+3 Happiness] [in all cities]",
 "[-50]% Unhappiness from [Population] [in all cities]",
 "[+100]% maintenance costs <for [Military] units>",
+"Gain [20] Influence with a [Envoy] gift to a City-State",
+"Provides [1] [Military Policy Slots] <after adopting [Code of Laws]>",
+"Provides [1] [Economic Policy Slots] <after adopting [Code of Laws]>",
+"Provides [1] [Military Policy Slots] <after adopting [Political Philosophy]>",
+"Provides [1] [Diplomatic Policy Slots] <after adopting [Political Philosophy]>",
+"Provides [1] [Wildcard Policy Slots] <after adopting [Political Philosophy]>",
+"Provides [1] [Diplomatic Policy Slots] <after adopting [Exploration]>",
+"Provides [1] [Wildcard Policy Slots] <after adopting [Divine Right]>",
+"Provides [1] [Economic Policy Slots] <after adopting [Reformed Church]>",
+"Provides [1] [Economic Policy Slots] <after adopting [Class Struggle]>",
+"Provides [1] [Wildcard Policy Slots] <after adopting [Suffrage]>",
+"Provides [1] [Military Policy Slots] <after adopting [Totalitarianism]>",
+"Provides [1] [Wildcard Policy Slots] <after adopting [Distributed Sovereignty]>",
+"Provides [1] [Wildcard Policy Slots] <after adopting [Optimization Imperative]>",
+"Provides [1] [Wildcard Policy Slots] <after adopting [Venture Politics]>",
 "[+5 Science] from [All] tiles [in all cities] <with [1] to [1] neighboring [Bermuda Triangle] tiles>",
 "[+10 Science] from [All] tiles [in all cities] <with [2] to [2] neighboring [Bermuda Triangle] tiles>",
 "[+15 Science] from [All] tiles [in all cities] <with [3] to [3] neighboring [Bermuda Triangle] tiles>",
@@ -76,6 +91,24 @@
 "[+2 Food, +2 Gold, +2 Science] from [All] tiles [in all cities] <with [2] to [2] neighboring [Yosemite] tiles>",
 ]
     },
+//This might need a separate category
+
+{
+		"name": "Intelligence Agency",
+		"cost": 290,
+		"maintenance": 2,
+		"uniques": [
+"Only available <after adopting [Diplomatic Service]>",
+"Can only be built [in capital]",
+"Destroyed when the city is captured",
+"Provides [1] [Spies]", 
+"Provides [1] [Spies] <after adopting [Diplomatic Service]>",
+"Provides [1] [Spies] <after adopting [Nationalism]>",
+"Provides [1] [Spies] <after adopting [Ideology]>",
+"Provides [1] [Spies] <after adopting [Cold War]>",
+"Provides [1] [Spies] <after discovering [Computers]>",
+],
+	},
 //District Bonus
 /*
 {
@@ -179,15 +212,6 @@
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
         "uniques": ["Can only be built [in annexed cities]","Free Technology","Free Social Policy",
-            "Will not be displayed in Civilopedia"]
-    },
-    {
-        "name": "Hungary Bonus",
-        "uniqueTo": "Hungary",
-        "cost": -1,
-        "cannotBeBuiltWith": "~l1",
-        "providesFreeBuilding": "~l1",
-        "uniques": ["Must be on [River]","[+50]% Production when constructing [All] buildings [in this city]",
             "Will not be displayed in Civilopedia"]
     },
     {
@@ -2069,6 +2093,7 @@
 ]
 	},
 
+/*
 //Governments
 {
 		"name": "Chiefdom",
@@ -2223,6 +2248,41 @@
 "Only available <in cities without a [Oligarchy]>",
 "Only available <in cities without a [Merchant Republic]>",
 "Only available <in cities without a [Monarchy]>",
+],
+	},
+*/
+//Converters
+{
+		"name": "Wildcard-Military Policy Slot converter",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Can only be built [in capital]",
+"Unsellable",
+"Destroyed when the city is captured",
+"Provides [1] [Military Policy Slots]",
+],
+	},
+{
+		"name": "Wildcard-Economic Policy Slot converter",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Can only be built [in capital]",
+"Unsellable",
+"Destroyed when the city is captured",
+"Provides [1] [Economic Policy Slots]",
+],
+	},
+{
+		"name": "Wildcard-Diplomatic Policy Slot converter",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Can only be built [in capital]",
+"Unsellable",
+"Destroyed when the city is captured",
+"Provides [1] [Diplomatic Policy Slots]",
 ],
 	},
 

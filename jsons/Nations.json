@@ -498,6 +498,7 @@
 		"uniqueName": "Pearl of the Danube",
 		"uniqueText": " +50% for districts and buildings in cities built along a river.
 		",
+		"uniques": ["[+50]% Production when constructing [All] buildings [in all cities] <in [River] tiles>"],
 		"cities": ["Buda","Debrecen","Esztergom","Pécs","Pest","Eger","Tahiti","Miskolc","Szeged","Győr",
 			"Székesfehérvár","Óbuda","Kőszeg","Tatabánya","Kolozsvár","Diósgyőr","Kiritimati","Mohács","Tata","Szolnok",
 			"Kassa","Kecskemét","Szombathely","Simontornya","Nyíregyháza","Sárvár","Sopron","Csesznek","Zágráb","Temesvár","Nagyvázsony",
@@ -518,9 +519,10 @@
 		"outerColor": [148,73,1],
 		"innerColor": [248,217,2],
 		"uniqueName": "Mit'a",
-		"uniqueText": " Mountains receive +2 Food, +1 Production for each adjacent Terrace Farm, and +1 Production after reaching the Industrial era.
+		"uniqueText": " Mountains receive +2 Production, and +2 Food, +1 Production for each adjacent Terrace Farm, and +1 Production after reaching the Industrial era.
 		",
 		"uniques": [
+"[+2 Production] from every [Mountain]",
 "[+2 Food, +1 Production] from every [Mountain] <with [1] to [1] neighboring [Terrace Farm] tiles>",
 "[+4 Food, +2 Production] from every [Mountain] <with [2] to [2] neighboring [Terrace Farm] tiles>",
 "[+6 Food, +3 Production] from every [Mountain] <with [3] to [3] neighboring [Terrace Farm] tiles>",

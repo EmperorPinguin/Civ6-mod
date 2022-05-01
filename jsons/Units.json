@@ -7,8 +7,8 @@
 		"name": "Envoy",
 		"unitType": "Civilian",
 		"movement": 4,
-		"cost": -1,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence","Unbuildable"]
+		"cost": 1,
+		"uniques": ["Unbuildable", "Cannot be purchased"]
 	},
 
 	// Ancient Era 
@@ -691,12 +691,12 @@
 		"uniqueTo": "Poland",
 		"unitType": "Heavy Cavalry",
 		"movement": 4,
-		"strength": 55,
-		"cost": 220,
+		"strength": 64,
+		"cost": 330,
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["[+15]% Strength <when attacking>","Only available <after adopting [Mercenaries]>"],
+		"uniques": ["[+15]% Strength <when attacking>","Only available <after adopting [Mercantilism]>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1838,6 +1838,21 @@
 		"cost": 30,
 		"requiredTech": "Apprenticeship",
 		"uniques": ["Can build [Polder] improvements on tiles", "Cannot enter ocean tiles <before discovering [Astronomy]>", "Uncapturable"]
+	},
+	{
+		"name": "Spy",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 225,
+		"requiredResource": "Spies",
+		"uniques": [
+"Only available <after adopting [Diplomatic Service]>",
+"Invisible to non-adjacent units",
+"[+1] Sight",
+"May enter foreign tiles without open borders",
+"Uncapturable",
+"Cannot be purchased",
+]
 	},
 
 ]

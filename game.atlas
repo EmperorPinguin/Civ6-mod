@@ -1299,14 +1299,14 @@ TileSets/FantasyHex/Tiles/Antiquity Sitex
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Archaeological Dig
+TileSets/FantasyHex/Tiles/Archaeological Digx
   rotate: false
   xy: 4, 8
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Archaeological Digx
+TileSets/FantasyHex/Tiles/Atiquity Site+Archaeological Dig
   rotate: false
   xy: 140, 280
   size: 128, 128
@@ -1523,21 +1523,21 @@ TileSets/FantasyHex/Tiles/Maize
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Maize+Farm
+TileSets/FantasyHex/Tiles/MaizeFarm
   rotate: false
   xy: 684, 4
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Rice+Farm
+TileSets/FantasyHex/Tiles/RiceFarm
   rotate: false
   xy: 684, 4
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Wheat+Farm
+TileSets/FantasyHex/Tiles/WheatFarm
   rotate: false
   xy: 684, 4
   size: 128, 128
@@ -3069,7 +3069,7 @@ PolicyIcons/Diplomatic Service
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Distributed Sovereignity
+PolicyIcons/Distributed Sovereignty
   rotate: false
   xy: 576, 148
   size: 50, 50

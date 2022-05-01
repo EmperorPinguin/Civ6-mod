@@ -529,4 +529,9 @@
 		"resourceType": "Strategic",
 		"gold": 1
 	},
+	{
+		"name": "Spies",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
 ]

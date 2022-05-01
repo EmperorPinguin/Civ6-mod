@@ -7,6 +7,7 @@
 		"uniques": [
 "[+1 Food] <with [2] to [6] neighboring [Farm] tiles> <after adopting [Feudalism]>",
 "[+1 Food] for each adjacent [Farm] <after discovering [Replaceable Parts]>",
+"[+1 Food] <with [1] to [6] neighboring [Stepwell] tiles>",
 "Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles> <before adopting [Civil Engineering]>",
 "Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles> <before adopting [Civil Engineering]>",
 "Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
@@ -200,9 +201,16 @@
 		"uniqueTo": "The Mapuche",
 		"production": 1,
 		"turnsToBuild":7,
-		"techRequired": "Pottery",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra", "Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow","Flood plains","Volcanic Soil"],
 		"uniques": [
+"Cannot be built on [Grassland] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Plains] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Desert] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Hill] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Tundra] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Snow] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Flood Plains] tiles <before dopting [Craftsmanship]>",
+"Cannot be built on [Volcanic Soil] tiles <before dopting [Craftsmanship]>",	
 "[+2 Culture] for each adjacent [Natural Wonder]",
 "[+2 Culture] for each adjacent [Sphinx]",
 "[+2 Culture] for each adjacent [Ice Hockey Rink]",
@@ -221,7 +229,6 @@
 "[-1 Culture] for each adjacent [Oil well]",
 "[-1 Culture] for each adjacent [Rainforest]",
 "[-1 Culture] for each adjacent [Marsh]",
-
 ],
 	},
 	{
@@ -242,6 +249,14 @@
 		"uniques": [
 "[+1 Culture] <with [1] to [6] neighboring [City center] tiles>",
 "[+1 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
+"Cannot be built on [Grassland] tiles <before adopting [Reformed Church]>",
+"Cannot be built on [Plains] tiles <before adopting [Reformed Church]>",
+"Cannot be built on [Tundra] tiles <before adopting [Reformed Church]>",
+"Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles> <before adopting [Reformed Church]>",
+"Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles> <before adopting [Reformed Church]>",
+"Cannot be built on [Hill] tiles <in [Tundra] [Hill] tiles> <before adopting [Reformed Church]>",
+"Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
+"Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
 ]
 	},
 	{
@@ -277,12 +292,18 @@
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
 		"uniques": [
-"Only available <after adopting [Colonialism]>",
 "[+1 Culture] for each adjacent [Tundra]",
 "[+1 Culture] for each adjacent [Snow]",
-"[+4 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
+"[+4 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles> <in cities with a [Stadium]>",
 "[+2 Food, +2 Production] <after adopting [Professional Sports]>",
 "Cannot be built on [All] tiles <with [1] to [6] neighboring [Ice Hockey Rink] tiles>",
+"Cannot be built on [Tundra] tiles <before adopting [Colonialism]>",
+"Cannot be built on [Snow] tiles <before adopting [Colonialism]>",
+"Cannot be built on [Hill] tiles <in [Tundra] [Hill tiles> <before adopting [Colonialism]>",
+"Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles> <before adopting [Colonialism]>",
+"Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles>",
+"Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles>",
+"Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
 ]
 	},
 	{
@@ -292,9 +313,12 @@
 		"turnsToBuild": 7,
 		"techRequired": "Shipbuilding",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
-		"uniques": ["[+1 Food] for each adjacent [Fishing Boats]",
-			"[+1 Production] <after adopting [Civil Engineering]>",
-			"[+1 Culture] <after discovering [Flight]>"]
+		"uniques": [
+"[+1 Food] for each adjacent [Fishing Boats]",
+"[+1 Food] <after discovering [Mass Production]>",
+"[+1 Production] <after adopting [Civil Engineering]>",
+"[+1 Culture] for each adjacent [Fishing Boats] <after discovering [Flight]>",
+]
 	},
 	{
 		"name": "Kurgan",
@@ -319,12 +343,15 @@
 		"techRequired": "Pottery",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"uniques": [
-"[+1 Production] <after adopting [Civil Service]>",
+"[+1 Food, +1 Production] <after adopting [Civil Service]>",
 "[+2 Gold] for each adjacent [Luxury resource] <after discovering [Cartography]>",
 "[+1 Food] <with [2] to [3] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
 "[+2 Food] <with [4] to [5] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
 "[+3 Food] <with [6] to [6] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
 "[+1 Food] for each adjacent [Bonus resource] <after adopting [Conservation]>",
+"Cannot be built on [All] tiles <with [1] to [6] neighboring [Mekewap] tiles>",
+"Cannot be built on [All] tiles <with [0] to [0] neighboring [Bonus resource] tiles>",
+"Cannot be built on [All] tiles <with [0] to [0] neighboring [Luxury resource] tiles>",
 ]
 	},
 	{
@@ -375,9 +402,11 @@
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Apprenticeship",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
 		"uniques": [
+"Cannot be built on [Grassland] tiles <before adopting [Guilds]>",
+"Cannot be built on [Plains] tiles <before adopting [Guilds]>",
+"Cannot be built on [Desert] tiles <before adopting [Guilds]>",
 "[+1 Food] for each adjacent [Pasture]",
 "[+1 Food] <with [2] to [3] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
 "[+2 Food] <with [4] to [5] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
@@ -400,7 +429,10 @@
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill"],
 		"uniques": [
-"Only available <after adopting [Early Empire]>",
+"Cannot be built on [Grassland] tiles <before adopting [Early Empire]>",
+"Cannot be built on [Plains] tiles <before adopting [Early Empire]>",
+"Cannot be built on [Desert] tiles <before adopting [Early Empire]>",
+"Cannot be built on [Hill] tiles <before adopting [Early Empire]>",
 "[+1 Culture] for each adjacent [Holy Site]",
 "[+1 Culture] for each adjacent [Theatre Square]",
 "[+1 Gold] for each adjacent [Commercial Hub]",
@@ -414,11 +446,11 @@
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Apprenticeship",
 		"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
 		"uniques": [
+"Only available <after adopting [Guilds]>",
 "[+1 Food] for each adjacent [Polder]",
-"[+4 Gold}] <after adopting [Civil Engineering]>",
+"[+4 Gold] <after adopting [Civil Engineering]>",
 "[+1 Food, +1 Production] for each adjacent [Polder] <after discovering [Replaceable Parts]>",
 "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>"
 ]
@@ -439,9 +471,11 @@
 		"culture": 2,
 		"faith": 2,
 		"turnsToBuild": 7,
-		"techRequired": "Pottery",
 		"terrainsCanBeBuiltOn": ["Flood plains"],
-		"uniques": ["[+1 Culture] <after adopting [Natural History]>"]
+		"uniques": [
+"Only available <after adopting [Craftsmanship]>",
+"[+1 Culture] <after adopting [Natural History]>",
+]
 	},
 	{
 		"name": "Stepwell",
@@ -449,9 +483,14 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Pottery",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra"],
-		"uniques": ["[+1 Food] for each adjacent [Farm]","+1 Culture once Feudalism is adopted",
-			"+1 Food once Proffesional Sports is adopted"]
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Flood plains"],
+		"uniques": [
+"[+1 Food] <with [1] to [6] neighboring [Farm] tiles>",
+"[+1 Faith] <with [1] to [6] neighboring [Holy Site] tiles>",
+"[+1 Faith] <after adopting [Feudalism]>",
+"[+1 Food] <after adopting [Professional Sports]>",
+"Cannot be built on [All] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+]
 	},
 	{
 		"name": "Terrace Farm",
