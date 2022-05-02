@@ -534,4 +534,24 @@
 		"resourceType": "Strategic",
 		"gold": 1
 	},
+	{
+		"name": "Tier 1 Government",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Tier 2 Government",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Tier 3 Government",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+	{
+		"name": "Tier 4 Government",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
 ]
