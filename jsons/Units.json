@@ -1219,7 +1219,6 @@
 		"obsoleteTech": "Telecommunications",
 		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["Invisible to others","Can attack submarines"],
 		"attackSound": "shot"
 	},
 	{
@@ -1235,7 +1234,7 @@
 		"obsoleteTech": "Telecommunications",
 		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["+[33]% combat bonus in [Ocean]","[+2] Sight","Invisible to others","Can attack submarines"],
+		"uniques": ["+[33]% combat bonus in [Ocean]","[+2] Sight"],
 		"attackSound": "shot"
 	},
 	{
@@ -1414,7 +1413,6 @@
 		"cost": 680,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
-		"uniques": ["Invisible to others","Can attack submarines"],
 		"attackSound": "shot"
 	},	
 	{
