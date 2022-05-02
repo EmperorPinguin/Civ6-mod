@@ -1275,7 +1275,7 @@
 "[+1 Culture, +1 Faith] from [Reef] tiles [in this city]",
 "[+1 Culture, +1 Faith] from [Flood plains] tiles [in this city]",
 "[+1 Culture, +1 Faith] from [Geothermal Fissure] tiles [in this city]",
-"[+1 Culture, +1 Faith] from [Volcaninc Soil] tiles [in this city]",
+"[+1 Culture, +1 Faith] from [Volcanic Soil] tiles [in this city]",
 "[+1 Culture, +1 Faith] from [Natural Wonder] tiles without [Mountain] [in this city]",
 "Only available <after adopting [Drama and Poetry]>"
 ],
@@ -3647,7 +3647,7 @@
 		"uniques": [
 "Only available <after adopting [Ideology]>",
 "Can only be built [in capital]",
-"[+1 Sight] <for [Spy] units>",
+"[+1] Sight <for [Spy] units>",
 ],
 	},
 {
@@ -3767,7 +3767,7 @@
 "Can only be built [in capital]",
 "[+5] Unit Supply <when at war>",
 "[+1 Happiness] [in annexed cities] <when at war>",
-"[+2 Happiness] [in cities with a garrison] <when at war>",
+"[+2 Happiness] [in all cities with a garrison] <when at war>",
 ],
 	},
 {
@@ -3929,7 +3929,7 @@
 		"uniques": [
 "Only available <after adopting [Cold War]>",
 "Can only be built [in capital]",
-"[+1 Sight] <for [Spy] units>",
+"[+1] Sight <for [Spy] units>",
 ],
 	},
 {
@@ -4006,7 +4006,7 @@
 "[+4 Culture] for every [Theatre Square] <with [2] to [2] neighboring [Pamukkale] tiles>",
 "[+1 Culture] for every [Theatre Square] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Culture] for every [Theatre Square] <with [4] to [5] neighboring [Great Improvement] tiles>",
-"[+3 Culture] for every [Theatre Square] <with [6] to [6] neighboring [Great Improvement] tiles>,
+"[+3 Culture] for every [Theatre Square] <with [6] to [6] neighboring [Great Improvement] tiles>",
 "[+2 Culture] for every [Acropolis] <with [1] to [1] neighboring [Entertainment Complex] tiles>",
 "[+4 Culture] for every [Acropolis] <with [2] to [2] neighboring [Entertainment Complex] tiles>",
 "[+6 Culture] for every [Acropolis] <with [3] to [3] neighboring [Entertainment Complex] tiles>",
