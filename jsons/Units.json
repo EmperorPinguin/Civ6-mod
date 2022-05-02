@@ -1129,13 +1129,13 @@
 
 	// Modern Era
 
-	/*{
+      {
 		"name": "Observation Balloon",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 240,
-		"uniques": ["[+1] Sight"],
-	},*/
+		"uniques": ["[+1] Sight", "Can see over obstacles",],
+	},
 	{
 		"name": "Biplane",
 		"unitType": "Air Fighter",
@@ -1343,7 +1343,7 @@
 		"movement": 4,
 		"cost": 450,
 		"requiredTech": "Combustion",
-		"uniques": ["All adjacent units heal [+15] HP when healing","This unit and all others in adjacent tiles heal 5 additional HP per turn"],
+		"uniques": ["All adjacent units heal [+20] HP when healing"],
 	},
 	{
 		"name": "Machine Gun",
