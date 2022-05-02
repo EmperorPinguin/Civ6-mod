@@ -156,6 +156,10 @@
 "[+1 Food] <after adopting [Feudalism]>",
 "[+1 Food] <after discovering [Scientific Theory]>",
 "[+2 Gold] <after adopting [Globalization]>",
+"[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+1 Productio] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
 ],
 		"shortcutKey": "P"
 	},
@@ -277,8 +281,21 @@
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains", "Hill"],
 		"uniques": [
-"[+1 Food] for each adjacent [Plantation]",
-"[+1 Production] for each adjacent [Hacienda]",
+"[+1 Food] <with [2] to [3] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
+"[+2 Food] <with [4] to [5] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
+"[+3 Food] <with [6] to [6] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
+"[+1 Food] for each adjacent [Plantation] <after discovering [Replaceable Parts]>",
+"[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+1 Production] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
+"Cannot be built on [Grassland] tiles <before adopting [Mercantilism]>",
+"Cannot be built on [Plains] tiles <before adopting [Mercantilism]>",
+"Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles> <before adopting [Mercantilism]>",
+"Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles> <before adopting [Mercantilism]>",
+"Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
+"Cannot be built on [Hill] tiles <in [Tundra] [Hill] tiles>",
+"Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
 ]
 	},
 	{
@@ -455,12 +472,16 @@
 	{ 
 		"name": "Rock-Hewn Church",
 		"uniqueTo": "Ethiopia",
-		"culture": 2,
+		"faith": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Celestial Navigation",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra"],
-		"uniques": ["[+1 Culture] for each adjacent [Mountain]","[+1 Culture] for each adjacent [Hill]",
-			"[+1 Culture] <after discovering [Flight]>"]
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": [
+"[+1 Faith] for each adjacent [Mountain]",
+"[+1 Faith] for each adjacent [Hill]",
+"Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Rock-Hewn Church] tiles>"
+
+]
 	},	
 	{
 		"name": "Sphinx",
@@ -503,9 +524,11 @@
 		"uniqueTo": "Sumeria",
 		"science": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Grassland","Desert","Plains","Tundra"],
-		"uniques": ["[+1 Culture] from [Fresh water] tiles <after discovering [Pottery]>",
-			"+1 Culture once Natural History is adopted"]
+		"terrainsCanBeBuiltOn": ["Grassland","Desert","Plains","Tundra","Flood plains"],
+		"uniques": [
+"[+1 Culture] <with [1] to [6] neighboring [River] tiles>",
+"[+1 Culture] <after adopting [Natural History]>",
+]
 	},
 
 	// Special improvement

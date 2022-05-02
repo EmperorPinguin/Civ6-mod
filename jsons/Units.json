@@ -739,7 +739,7 @@
 		"cost": 240,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["No movement cost to pillage","Invisible to others","Can attack submarines",
+		"uniques": ["No movement cost to pillage",
 			"Only available <after adopting [Medieval Faires]>"],
 		"attackSound": "shot"
 	},
@@ -767,7 +767,7 @@
 		"cost": 280,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Invisible to others","Can attack submarines","Only available <after adopting [Mercantilism]>"],
+		"uniques": ["Only available <after adopting [Mercantilism]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -781,7 +781,7 @@
 		"cost": 240,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Invisible to others","Can attack submarines","Only available <after adopting [Mercantilism]>"],
+		"uniques": ["Only available <after adopting [Mercantilism]>"],
 		"attackSound": "shot"
 	},
 	{
