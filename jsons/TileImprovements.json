@@ -653,7 +653,7 @@
 {
 		"name": "Campus",
 		"uniques": [
-//"Great Improvement",
+"Great Improvement",
 "Tile provides yield without assigned population",
 "[+2 Science] for each adjacent [Geothermal Fissure]",
 "[+2 Science] for each adjacent [Reef]",
