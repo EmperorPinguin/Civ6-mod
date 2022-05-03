@@ -198,7 +198,7 @@
 		"weight": 10
 	},
 {
-		"name": "Ha long Bay",
+		"name": "Ha Long Bay",
 		"type": "NaturalWonder",
 		"food": "3",
 		"production": "1",
@@ -445,6 +445,7 @@
 		"name": "Yosemite",
 		"type": "NaturalWonder",
 		"occursOn": ["Plains"],
+		"overrideStats": true,
 		"uniques": ["Must be adjacent to [0] [Mountain] tiles",
 			"Occurs on latitudes from [30] to [90] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles"],

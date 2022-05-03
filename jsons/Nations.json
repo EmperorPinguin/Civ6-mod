@@ -26,7 +26,7 @@
 		"uniqueName": "Founding Fathers",
 		"uniques": [
 "[-10]% Culture cost of adopting new Policies",
-"Provides 1 happiness per 2 additional social policies adopted"
+"Provides 1 happiness per 2 additional social policies adopted",
 ],
 		"cities": ["Washington","New York","Philadelphia","Boston","Baltimore","Charleston","New Orleans","Cincinnati","Los Angeles","St. Louis",
 			"Chicago","Buffalo","San Francisco","Cleveland","Detroit","Houston","Atlanta","Dallas","San Diego","Phoenix",
