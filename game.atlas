@@ -5575,6 +5575,27 @@ UnitPromotionIcons/Wolfpack
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Coursers
+  rotate: false
+  xy: 1084, 518
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Double Envelopment
+  rotate: false
+  xy: 1084, 518
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Superfortress
+  rotate: false
+  xy: 1084, 518
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Creeping Attack
   rotate: false
   xy: 1297, 734
@@ -5620,6 +5641,13 @@ UnitPromotionIcons/Sentry
 UnitPromotionIcons/Spyglass
   rotate: false
   xy: 1297, 734
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Depredation
+  rotate: false
+  xy: 62, 13
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -5676,34 +5704,6 @@ UnitPromotionIcons/Sweeping Wind
 UnitPromotionIcons/Swift Keel
   rotate: false
   xy: 776, 252
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/New folder/Coursers
-  rotate: false
-  xy: 1084, 518
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/New folder/Double Envelopment
-  rotate: false
-  xy: 1084, 518
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Superfortress
-  rotate: false
-  xy: 1084, 518
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/New folder/Depredation
-  rotate: false
-  xy: 62, 13
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

@@ -767,7 +767,7 @@
 		"cost": 280,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Mercantilism]>"],
+		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit <before the [Renaissance era]>"],
 		"attackSound": "shot"
 	},
 	{
