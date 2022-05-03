@@ -739,7 +739,7 @@
 		"cost": 240,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["No movement cost to pillage",
+		"uniques": ["No movement cost to pillage", "Never appears as a Barbarian unit <before the [Renaissance era]>",
 			"Only available <after adopting [Medieval Faires]>"],
 		"attackSound": "shot"
 	},
@@ -781,7 +781,7 @@
 		"cost": 240,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Mercantilism]>"],
+		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit <before the [Renaissance era]>"],
 		"attackSound": "shot"
 	},
 	{
