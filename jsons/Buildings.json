@@ -468,11 +468,11 @@
 // Filler
 
 {
-		"name": "River Bonus",
+		"name": "Fresh Water Bonus",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Must be on [River]", "[15]% Food is carried over after population increases [in this city]"]
+		"uniques": ["Must be next to [Fresh water]", "[15]% Food is carried over after population increases [in this city]"]
 	},
 {
 		"name": "Coastal Bonus",
@@ -780,7 +780,7 @@
 		"uniques": [
 "Unsellable",
 "Never destroyed when city is captured",
-"Free [Hansa Builder] appears",
+"Free [Oppidum Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",

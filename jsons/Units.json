@@ -93,7 +93,7 @@
 		"replaces": "Warrior",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 20,
+		"strength": 30,
 		"cost": 60,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Musketman",
