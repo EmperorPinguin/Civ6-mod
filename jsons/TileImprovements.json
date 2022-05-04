@@ -501,13 +501,16 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Pottery",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra"],
 		"uniques": [
 "[+1 Food] <with [1] to [6] neighboring [Farm] tiles>",
 "[+1 Faith] <with [1] to [6] neighboring [Holy Site] tiles>",
 "[+1 Faith] <after adopting [Feudalism]>",
 "[+1 Food] <after adopting [Professional Sports]>",
-"Cannot be built on [All] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Grassland] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Plains] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Tundra] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
 ]
 	},
 	{
