@@ -23,7 +23,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -47,7 +47,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -56,7 +56,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -82,7 +82,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -91,7 +91,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -117,7 +117,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -126,7 +126,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -152,7 +152,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -161,7 +161,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -191,7 +191,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -200,7 +200,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -230,7 +230,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -239,7 +239,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -272,7 +272,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -281,7 +281,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
@@ -313,7 +313,7 @@
         "friendBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn"],
-            "Militaristic": ["Provides military units every ≈[15] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn"],
@@ -322,7 +322,7 @@
         "allyBonus": {
             "Cultured": ["Provides [+2 Culture] [in capital] per turn", "Provides [+2 Culture] [in all cities] per turn"],
             //"Industrial": ["Provides [+2 Production] [in capital] per turn", "Provides [+2 Production] [in all cities] per turn"],
-            "Militaristic": ["Provides military units every ≈[10] turns"],
+            "Militaristic": ["Provides [+2 Production] [in capital] per turn", "Provides [+1 Production] [in all cities] per turn"],
             "Religious": ["Provides [+2 Faith] [in capital] per turn", "Provides [+2 Faith] [in all cities] per turn"],
             //"Scientific": ["Provides [+2 Science] [in capital] per turn", "Provides [+2 Science] [in all cities] per turn"],
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
