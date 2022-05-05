@@ -10,6 +10,36 @@
         "culture": 1,
         "happiness": 2,
         "cityStrength": 3,
+            "replacementTextForUniques": "
+Gain a fre City Center in all cities,
+-1 Gold from every River,
+May buy (non-Great Prophet) Great Persons for 1000 Faith at an increasing cost (500),
+May buy Naturalists for 600 Faith at an increasing cost (100) after adopting Conservation,
+5% Food is carried over after population increases in this city,
++3 Happiness in all cities,
+-50% Unhappiness from Population in all cities,
++100% maintenance costs for Military units,
+Gain 20 Influence with a Envoy gift to a City-State,
+Natural Wonders give the following yields to adjacent tiles:
+Bermuda Triangle: 5 Science,
+Delicate Arch: 1 Gold, 1 Faith,
+Eyjafjallajökull: 2 Food, 1 Culture,
+Galapagos Islands: 2 Science,
+Giant's Causeway: 1 Culture,
+Lysefjord: 1 Production,
+Mato Tipila: 1 Production, 1 Faith,
+Mount Everest: 1 Faith,
+Mount Kilimanjaro: 2 Food,
+Mount Roraima: 1 Science, 1 Faith,
+Païtiti: 3 Gold, 2 Culture,
+Pamukkale: receives +1 Happiness for being adjacent to a Entertainment Complex,
+Piopiotahi: 1 Gold, 1 Culture,
+Torres del Paine: doubles base terrain yields,
+Tsingey de Bemahara: 1 Science, 1 Culture,
+Uluru: 2 Culture, 1 Faith,
+Mount Vesuvius: 1 Production,
+Yosemite: 1 Food, 1 Gold, 1 Science.
+",
         "uniques": [
 "Indicates the capital city",
 "Gain a free [City Center] [in all cities]",
@@ -1134,6 +1164,7 @@
         "isWonder": true,
         "cost": 400,
         "gold": 4,
+        "replacementTextForUniques": "Commercial Hub, Industrial Zone and Theater Square (and replacements) receive +1 yield for each adjacent Mountain.",
         "uniques": [
 "Must be next to [Mountain]",
 "Must not be next to [Volcano]",
@@ -1472,7 +1503,7 @@
         "isWonder": true,
         "cost": 920,
         "faith": 12,
-        "percentStatBonus": {"culture": 20},
+        "percentStatBonus": {"culture": 50},
         "uniques": ["[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles in this city","Only available <after adopting [Reformed Church]>", "Must be next to [Tundra]"],
         "quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' –Katharine Blanche Guthrie"
     },
@@ -3440,6 +3471,7 @@
 		"name": "Natural Philosophy",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Campus (and replacements).",
 		"uniques": [
 "Only available <after adopting [Recorded History]>",
 "Only available <before adopting [Class Struggle]>",
@@ -3499,6 +3531,7 @@
 		"name": "Scripture",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Holy Site (and replacements).",
 		"uniques": [
 "Only available <after adopting [Theology]>",
 "Can only be built [in capital]",
@@ -3562,6 +3595,7 @@
 		"name": "Naval Infrastructure",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Harbor (and replacements).",
 		"uniques": [
 "Only available <after adopting [Naval Tradition]>",
 "Only available <before adopting [Suffrage]>",
@@ -3723,6 +3757,7 @@
 		"name": "Aesthetics",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Theatre Square (and replacements).",
 		"uniques": [
 "Only available <after adopting [Medieval Faires]>",
 "Only available <before adopting [Civil Engineering]>",
@@ -3820,6 +3855,7 @@
 		"name": "Craftsmen",
 		"cost": 1,
             "requiredResource": "Military Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Industrial Zone (and replacements).",
 		"uniques": [
 "Only available <after adopting [Guilds]>",
 "Only available <before adopting [Civil Engineering]>",
@@ -3891,6 +3927,7 @@
 		"name": "Town Charters",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Commercial Hub (and replacements).",
 		"uniques": [
 "Only available <after adopting [Guilds]>",
 "Only available <before adopting [Civil Engineering]>",
@@ -4405,6 +4442,7 @@
 		"name": "Economic Union",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Commercial Hub and Harbor (and replacements).",
 		"uniques": [
 "Only available <after adopting [Suffrage]>",
 "Can only be built [in capital]",
@@ -4536,6 +4574,7 @@
 		"name": "Five-Year Plan",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Campus and Industrial Zone (and replacements).",
 		"uniques": [
 "Only available <after adopting [Class Struggle]>",
 "Can only be built [in capital]",
@@ -4719,6 +4758,7 @@
 		"name": "Sports Media",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% adjacency bonus for every Theatre Square (and replacements), +1 Happiness from every Stadium.",
 		"uniques": [
 "Only available <after adopting [Professional Sports]>",
 "Can only be built [in capital]",

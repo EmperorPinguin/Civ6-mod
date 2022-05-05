@@ -8,6 +8,7 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
+        "replacementTextForUniques": "Holy Sites (and replacements) get +1 Faith for each adjacent Tundra.", 
         "uniques": [
 "[+1 Faith] from every [Holy Site] <with [1] to [1] neighboring [Tundra] tiles>",
 "[+2 Faith] from every [Holy Site] <with [2] to [2] neighboring [Tundra] tiles>",
@@ -38,6 +39,7 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
+        "replacementTextForUniques": "Holy Sites (and replacements) get +1 Faith for each adjacent Desert.", 
         "uniques": [
 "[+1 Faith] from every [Holy Site] <with [1] to [1] neighboring [Desert] tiles>",
 "[+2 Faith] from every [Holy Site] <with [2] to [2] neighboring [Desert] tiles>",
@@ -168,6 +170,7 @@
     {
         "name": "Sacred Path",
         "type": "Pantheon",
+        "replacementTextForUniques": "Holy Sites (and replacements) get +1 Faith for each adjacent Rainforest.", 
         "uniques": [
 "[+1 Faith] from every [Holy Site] <with [1] to [1] neighboring [Rainforest] tiles>",
 "[+2 Faith] from every [Holy Site] <with [2] to [2] neighboring [Rainforest] tiles>",
