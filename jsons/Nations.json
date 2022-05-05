@@ -24,9 +24,32 @@
 		"outerColor": [0,79,205],
 		"innerColor": [243,245,249],
 		"uniqueName": "Founding Fathers",
+		"uniqueText": "Receive twice the permanent bonus from government, and receive the ability to convert Diplomatic Policy Slots into Wildcard Policy Slots (get -5% City-State influence degradation each time you do so). 
+		",
 		"uniques": [
-"[-10]% Culture cost of adopting new Policies",
-"Provides 1 happiness per 2 additional social policies adopted",
+"[+10]% Production when constructing [All] wonders [in all cities] <if [Autocracy] is constructed>",
+"[+15]% Great Person generation [in all cities] <if [Classical Republic] is constructed>",
+"[+20]% XP gained from combat <for [Military] units> <if [Oligarchy] is constructed>",
+"[Gold] cost of purchasing items in cities [-15]% <if [Merchant Republic] is constructed>",
+"[-25]% City-State Influence degradation <if [Monarchy] is constructed>",
+"[Faith] cost of purchasing items in cities [-15]% <if [Theocracy] is constructed>",
+"[+3 Production] per [5] population [in all cities] <if [Communism] is constructed>",
+"[+2 Science] from every [Campus] <if [Democracy] is constructed>",
+"[+2 Science] from every [Observatory] <if [Democracy] is constructed>",
+"[+2 Science] from every [Seowon] <if [Democracy] is constructed>",
+"[+4 Gold] from every [Commercial Hub] <if [Democracy] is constructed>",
+"[+4 Gold] from every [Suguba] <if [Democracy] is constructed>",
+"[+1 Food, +2 Gold] from every [Harbor] <if [Democracy] is constructed>",
+"[+2 Faith] from every [Holy Site] <if [Democracy] is constructed>",
+"[+2 Faith] from every [Lavra] <if [Democracy] is constructed>",
+"[+2 Production] from every [Industrial Zone] <if [Democracy] is constructed>",
+"[+2 Production] from every [Hansa] <if [Democracy] is constructed>",
+"[+2 Production] from every [Oppidum] <if [Democracy] is constructed>",
+"[+2 Culture] from every [Theatre Square] <if [Democracy] is constructed>",
+"[+2 Culture] from every [Acropolis] <if [Democracy] is constructed>",
+"[+1 Production, +2 Gold] from every [Encampment] <if [Democracy] is constructed>",
+"[+1 Production, +2 Gold] from every [Ikanda] <if [Democracy] is constructed>",
+"[+50]% Production when constructing [Military] units [in all cities] <if [Fascism] is constructed>",
 ],
 		"cities": ["Washington","New York","Philadelphia","Boston","Baltimore","Charleston","New Orleans","Cincinnati","Los Angeles","St. Louis",
 			"Chicago","Buffalo","San Francisco","Cleveland","Detroit","Houston","Atlanta","Dallas","San Diego","Phoenix",
@@ -101,7 +124,7 @@
 		"outerColor": [125,235,238],
 		"innerColor": [119,21,20],
 		"uniqueName": "Legend of the Five Suns",
-		"uniques": ["[-25]% tile improvement construction time"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]","[-25]% tile improvement construction time"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
@@ -307,7 +330,7 @@
 		"outerColor": [1,42,108],
 		"innerColor": [70,175,10],
 		"uniqueName": "Nihithaw",
-		"uniques": ["Receive free [Trader] when you discover [Pottery]","[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["Receive free [Worker] when you discover [Pottery]","[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
 			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
 			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"]
@@ -428,7 +451,7 @@
 		"outerColor": [21,108,49],
 		"innerColor": [124,237,229],
 		"uniqueName": "Hallstatt Culture",
-		"uniqueText": " +1 Culture from every Mine, -25% Gold and Culture cost of acquiring new tiles, and Districts receive yields from adajacent Mines instead adjacent Districts
+		"uniqueText": "+1 Culture from every Mine, -25% Gold and Culture cost of acquiring new tiles, and Districts receive yields from adajacent Mines instead adjacent Districts
 		",
 		"uniques": [
 "[+1 Culture] from every [Mine]",
@@ -548,7 +571,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [254,124,19],
 		"uniqueName": "Strength in Unity",
-		"uniqueText": " +50% Production when constructing Walls in all cities, +1 Movement for all units during Golden Age, +10% Strength for all units during a Golden Age
+		"uniqueText": "+50% Production when constructing Walls in all cities, +1 Movement for all units during Golden Age, +10% Strength for all units during a Golden Age
 		",
 		"uniques": ["[+50]% Production when constructing [Ancient Walls] buildings [in all cities]","[+50]% Production when constructing [Medieval Walls] buildings [in all cities]",
 			"[+50]% Production when constructing [Renaissance Walls] buildings [in all cities]","[+1] Movement <for [All] units> <during a Golden Age>",
@@ -573,7 +596,7 @@
 		"outerColor": [175,175,175],
 		"innerColor": [24,24,24],
 		"uniqueName": "Free Imperial Cities",
-		"uniqueText": " All cities can construct 1 additional District
+		"uniqueText": "All cities can construct 1 additional District
 		",
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
@@ -619,8 +642,9 @@
 		"tradeRequest": "A Spartan delegation honors you with gifts. Accept them with honor.",
 		"outerColor": [115,52,44],
 		"innerColor": [190,217,220],
-		"uniqueName": "Thermopylae",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniqueName": "Plato's Republic",
+		"uniqueText": "Receive 1 additional Wildcard Policy Slot
+		",
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -643,8 +667,6 @@
 		"outerColor": [21,108,49],
 		"innerColor": [254,129,19],
 		"uniqueName": "Pearl of the Danube",
-		"uniqueText": " +50% for districts and buildings in cities built along a river.
-		",
 		"uniques": ["[+50]% Production when constructing [All] buildings [in all cities] <in [River] tiles>"],
 		"cities": ["Buda","Debrecen","Esztergom","Pécs","Pest","Eger","Tahiti","Miskolc","Szeged","Győr",
 			"Székesfehérvár","Óbuda","Kőszeg","Tatabánya","Kolozsvár","Diósgyőr","Kiritimati","Mohács","Tata","Szolnok",
@@ -666,7 +688,7 @@
 		"outerColor": [148,73,1],
 		"innerColor": [248,217,2],
 		"uniqueName": "Mit'a",
-		"uniqueText": " Mountains receive +2 Production, and +2 Food, +1 Production for each adjacent Terrace Farm, and +1 Production after reaching the Industrial era.
+		"uniqueText": "Mountains receive +2 Production, additional +2 Food, +1 Production for each adjacent Terrace Farm, and +1 Production after reaching the Industrial era.
 		",
 		"uniques": [
 "[+2 Production] from every [Mountain]",
@@ -723,7 +745,7 @@
 		"outerColor": [205,0,1],
 		"innerColor": [9,171,157],
 		"uniqueName": "Great Nusantara",
-		"uniqueText": " Campus, Holy Site, Industrial Zone and Theatre Square get +1 yield for every 2 adjacent Coast or Lakes, +1 Happiness for every Entertainment Complext next to Coast or Lakes.
+		"uniqueText": "Campus, Holy Site, Industrial Zone and Theatre Square get +1 yield for every 2 adjacent Coast or Lakes, +1 Happiness for every Entertainment Complext next to Coast or Lakes.
 		",
 		"uniques": [
 "[+1 Science] from every [Campus] <with [2] to [3] neighboring [Coast] tiles>",
@@ -817,7 +839,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [121,0,2],
 		"uniqueName": "Meiji Restoration",
-		"uniqueText": " Double adjacency bonus from Districts
+		"uniqueText": "Double adjacency bonus from Districts
 		",
 		"uniques": [
 "[+1 Science] from every [Campus] <with [1] to [1] neighboring [Great Improvement] tiles>",
@@ -1043,7 +1065,7 @@
 		"outerColor": [205,0,1],
 		"innerColor": [117,163,243],
 		"uniqueName": "Three Kingdoms",
-		"uniqueText": " Seowons provide +1 Food towards every adjacent Farm and +1 Science towards every adjacent Mine.
+		"uniqueText": "Seowons provide +1 Food towards every adjacent Farm and +1 Science towards every adjacent Mine.
 		",
 		"uniques": [
 "[+1 Food] from every [Farm] <with [1] to [1] neighboring [Seowon] tiles>",
@@ -1079,7 +1101,7 @@
 		"outerColor": [158,158,158], //175,175,175
 		"innerColor": [243,216,9],
 		"uniqueName": "Hellenistic Fusion",
-		"uniqueText": " Conquering and annexing a city grants a free Technology and a free Civic
+		"uniqueText": "Conquering and annexing a city grants a free Technology and a free Civic
 		", 
 		"cities": ["Pella","Aigai","Alexandria","Methone","Chalkidiki","Dion","Alexandropouli","Amphipolis","Alexandria Troas","Pydna",
 			"Alexandria by the Latmus","Alexandretta","ALexandria in Aria","Alexandria Prophthasia","Alexandria in Arachosia","Aiani",
@@ -1101,7 +1123,7 @@
 		"outerColor": [121,0,2],
 		"innerColor": [234,225,158],
 		"uniqueName": "Songs of the Jeli",
-		"uniqueText": " Cities get +1 Food, +1 Faith for every adjacent desert, -1 Production and +4 Gold from every Mine, -30% Production when constructing Buildings and Military Units in all cities, -20% Gold and Faith cost of purchasing items after discovering currency
+		"uniqueText": "Cities get +1 Food, +1 Faith for every adjacent desert, -1 Production and +4 Gold from every Mine, -30% Production when constructing Buildings and Military Units in all cities, -20% Gold and Faith cost of purchasing items after discovering currency
 		",
 		"uniques": [
 "[+1 Food, +1 Faith] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
@@ -1135,7 +1157,7 @@
 		"outerColor": [205,0,1],
 		"innerColor": [125,235,228],
 		"uniqueName": "Mana",
-		"uniqueText": " Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. +1 Production for unimproved Woods and Rainforest tiles, enhanced to +2 with Mercantilism and +3 with Conservation, +1 Food from Fishing Boats. Great Artists cannot be earned.
+		"uniqueText": "Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. +1 Production for unimproved Woods and Rainforest tiles, enhanced to +2 with Mercantilism and +3 with Conservation, +1 Food from Fishing Boats. Great Artists cannot be earned.
 		",
 		"uniques": [
 "Starts with [Sailing]",
@@ -1224,7 +1246,7 @@
 		"outerColor": [121,0,2],
 		"innerColor": [253,126,25],
 		"uniqueName": "�rd��",
-		"uniqueText": " Land units receive +10% Combat Strength when on a Road, +10% Combat Strength for Mounted units
+		"uniqueText": "Land units receive +10% Combat Strength when on a Road, +10% Combat Strength for Mounted units
 		"
 		"uniques": [
 "[Light Cavalry] units gain the [Mongol Horde] promotion",
@@ -1274,7 +1296,7 @@
 		"outerColor": [254,129,19],
 		"innerColor": [1,79,203],
 		"uniqueName": "Grote Rivieren",
-		"uniqueText": " Campus, Industrial Zone and Theatre Square receive +2 yield when adjacent to a River
+		"uniqueText": "Campus, Industrial Zone and Theatre Square receive +2 yield when adjacent to a River
 		",
 		"uniques": [
 "[+2 Science] from every [Campus] <with [1] to [6] neighboring [River] tiles>",
@@ -1311,7 +1333,7 @@
 		"outerColor": [251,236,127],
 		"innerColor": [146,74,1],
 		"uniqueName": "Ta-Seti",
-		"uniqueText": " Ranged units gain +50% combat experience, +30% Production when constructing Ranged units in all cities, +1 Production from every Strategic-, and +2 Gold for every Bonus resource
+		"uniqueText": "Ranged units gain +50% combat experience, +30% Production when constructing Ranged units in all cities, +1 Production from every Strategic-, and +2 Gold for every Bonus resource
 		",
 		"uniques": [
 "[Ranged] units gain the [Ta-Seti] promotion",
@@ -1624,8 +1646,6 @@
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
 			"Mthatha","Maseru","Lobamba","Qunu"]
 	}, 
-
-//Test
 
 
 	// City-States sorted by cityStateType, name
