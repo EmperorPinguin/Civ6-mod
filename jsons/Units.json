@@ -93,10 +93,11 @@
 		"replaces": "Warrior",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 30,
+		"strength": 25,
 		"cost": 60,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Musketman",
+		"uniques": ["[+33]% Strength <in [Great Improvement] tiles> <in tiles without [City center]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{

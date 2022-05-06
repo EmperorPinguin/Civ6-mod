@@ -3588,7 +3588,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <before adopting [Social Media]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+2 Happiness] [in all cities] <before adopting [Social Media]>",
+"[+1 Happiness] [in all cities] <before adopting [Social Media]>",
 ],
 	},
 {
@@ -4839,6 +4839,186 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Culture] for every [Acropolis] <with [1] to [6] neighboring [City center] tiles>",
 ],
 	},
+{
+		"name": "Military First",
+		"cost": 1,
+            "requiredResource": "Military Policy Slots",
+		"uniques": [
+"Only available <after adopting [Rapid Deployment]>",
+"Can only be built [in capital]",
+"[+50]% Production when constructing [Melee] units [in all cities]",
+"[+50]% Production when constructing [Anti-Cavalry] units [in all cities]",
+"[+50]% Production when constructing [Ranged] units [in all cities]",
+],
+	},
+{
+		"name": "Satellite Bradcasts",
+		"cost": 1,
+            "requiredResource": "Economic Policy Slots",
+		"uniques": [
+"Only available <after adopting [Space Race]>",
+"Can only be built [in capital]",
+"[+50]% [Culture] from every [Broadcast Center]",
+],
+	},
+{
+		"name": "Integrated Space Cell",
+		"cost": 1,
+            "requiredResource": "Military Policy Slots",
+		"uniques": [
+"Only available <after adopting [Rapid Deployment]>",
+"Can only be built [in capital]",
+"[+15]% Production when constructing [Spaceship part] units [in all cities]",
+],
+	},
+{
+		"name": "Second Strike Capability",
+		"cost": 1,
+            "requiredResource": "Military Policy Slots",
+		"uniques": [
+"Only available <after adopting [Rapid Deployment]>",
+"Can only be built [in capital]",
+"[-50]% maintenance costs <for [Nuclear Device] units>",
+"[-50]% maintenance costs <for [Thermonuclear Device] units>",
+],
+	},
+{
+		"name": "After Action Reports",
+		"cost": 1,
+            "requiredResource": "Military Policy Slots",
+		"uniques": [
+"Only available <after adopting [Rapid Deployment]>",
+"Can only be built [in capital]",
+"[+50]% XP gained from combat <for [Military] units>",
+],
+	},
+{
+		"name": "Strategic Air Force",
+		"cost": 1,
+            "requiredResource": "Military Policy Slots",
+		"uniques": [
+"Only available <after adopting [Globalization]>",
+"Can only be built [in capital]",
+"[+50]% Production when constructing [Air Fighter] units [in all cities]",
+"[+50]% Production when constructing [Air Bomber] units [in all cities]",
+"[+50]% Production when constructing [Naval Carrier] units [in all cities]",
+],
+	},
+{
+		"name": "Ecommerce",
+		"cost": 1,
+            "requiredResource": "Economic Policy Slots",
+		"uniques": [
+"Only available <after adopting [Globalization]>",
+"Can only be built [in capital]",
+"[+2 Production, +5 Gold] from each Trade Route",
+],
+	},
+{
+		"name": "International Space Agency",
+		"cost": 1,
+            "requiredResource": "Diplomatic Policy Slots",
+		"uniques": [
+"Only available <after adopting [Globalization]>",
+"Can only be built [in capital]",
+"Allied City-States provide [Science] equal to [200]% of what they produce for themselves",
+],
+	},
+{
+		"name": "Online Communities",
+		"cost": 1,
+            "requiredResource": "Economic Policy Slots",
+		"uniques": [
+"Only available <after adopting [Social Media]>",
+"Can only be built [in capital]",
+"Destroyed when the city is captured",
+"[+100]% [Culture] from City-States",
+],
+	},
+{
+		"name": "Collective Activism",
+		"cost": 1,
+            "requiredResource": "Diplomatic Policy Slots",
+		"uniques": [
+"Only available <after adopting [Social Media]>",
+"Can only be built [in capital]",
+"Allied City-States provide [Culture] equal to [200]% of what they produce for themselves",
+],
+	},
+{
+		"name": "Communications Office",
+		"cost": 1,
+            "requiredResource": "Diplomatic Policy Slots",
+		"uniques": [
+"Only available <after adopting [Social Media]>",
+"Can only be built [in capital]",
+"[+1 Happiness] [in all cities]",
+],
+	},
+{
+		"name": "Aerospace Contractors",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Only available <after adopting [Exodus Imperative]>",
+"Can only be built [in capital]",
+"Provides [3] [Aluminum]",
+"[+3 Production] from every [Spaceport]",
+],
+	},
+{
+		"name": "Non-State Actors",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Only available <after adopting [Cultural Hegemony]>",
+"Can only be built [in capital]",
+"[+1] Sight <for [Spy] units>",
+],
+	},
+{
+		"name": "Integrated Attack Logistics",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Only available <after adopting [Information Warfare]>",
+"Can only be built [in capital]",
+"[+1] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>",
+"[+50]% Production when constructing [GDR] units [in all cities]",
+],
+	},
+{
+		"name": "Rabblerousing",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Only available <after adopting [Information Warfare]>",
+"Can only be built [in capital]",
+"Influence of all other civilizations with all city-states degrades [50]% faster",
+],
+	},
+{
+		"name": "Diplomatic Capital",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Only available <after adopting [Smart Power Doctrine]>",
+"Can only be built [in capital]",
+"Gifts of Gold to City-States generate [50]% more Influence",
+],
+	},
+{
+		"name": "Global Coalition",
+		"cost": 1,
+            "requiredResource": "Wildcard Policy Slots",
+		"uniques": [
+"Only available <after adopting [Smart Power Doctrine]>",
+"Can only be built [in capital]",
+"[+47]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+],
+	},
+
+
 
 
 /*

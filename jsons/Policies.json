@@ -664,8 +664,7 @@ Plantation:
 				"name": "Exodus Imperative",
 				"uniques": [
 "Policies enabled:
-* Aerospace Contractors
-* Space Tourism ",
+* Aerospace Contractors ",
 ],
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
@@ -939,7 +938,6 @@ Policies Obsolete:
 				"name": "Cultural Hegemony",
 				"uniques": [
 "Policies enabled: 
-* Hallyu 
 * Non-State Actors ",
 ],
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",

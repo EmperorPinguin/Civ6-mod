@@ -6,6 +6,7 @@
 		"unitTypes": ["Anti-Cavalry", "Melee","Light Cavalry","Heavy Cavalry","Recon","Siege","Ranged","Naval Melee","Naval Ranged","Naval Raider"]
 	},
 
+
 	// Recon
 	{
 		"name": "Ranger",
@@ -14,7 +15,7 @@
 	},
 	{
 		"name": "Alpine",
-		"uniques": ["Double movement in [Woods]"],
+		"uniques": ["Double movement in [Hill]"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -48,6 +49,7 @@
 		"unitTypes": ["Recon"]
 	},	
 
+
 // Melee
 	{
 		"name": "Battlecry",
@@ -80,7 +82,7 @@
 	{
 		"name": "Urban Warfare",
 		"prerequisites": ["Commando","Amphibious"],
-		"uniques": ["[+67]% Strength <when fighting in [Great Improvement] tiles> <in tiles without [City center]>"],
+		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <in tiles without [City center]>"],
 		"unitTypes": ["Melee"]
 	},
 	{
@@ -89,6 +91,7 @@
 		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
 		"unitTypes": ["Melee"]
 	},
+
 
 	// Ranged
 	{
@@ -132,6 +135,7 @@
 		"unitTypes": ["Ranged"]
 	},
 
+
 	// Anti-Cavalry
 	{
 		"name": "Echelon",
@@ -174,6 +178,50 @@
 		"unitTypes": ["Anti-Cavalry"]
 	},
 
+
+	//Light Cavalry
+	{
+		"name": "Caparison",
+		"uniques": ["[+33]% Strength <vs [Anti-Cavalry] units>"],
+		"unitTypes": ["Heavy Cavalry"]
+	},
+	{
+		"name": "Coursers",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when attacking>","[+33]% Strength <vs [Siege] units> <when attacking>"],
+		"unitTypes": ["Heavy Cavalry"]
+	},
+	{
+		"name": "Depredation",
+		"prerequisites": ["Charge","Rout"],
+		"uniques": ["No movement cost to pillage"],
+		"unitTypes": ["Heavy Cavalry"]
+	},
+	{
+		"name": "Double Envelopment",
+		"prerequisites": ["Barding","Marauding"],
+		"uniques": ["[+100]% to Flank Attack bonuses"],
+		"unitTypes": ["Heavy Cavalry"]
+	},	
+	{
+		"name": "Spiking the Guns",
+		"prerequisites": ["Marauding","Rout"],
+		"uniques": ["[+47]% Strength <vs [Siege] units>"],
+		"unitTypes": ["Heavy Cavalry"]
+	},	
+	{
+		"name": "Pursuit",
+		"prerequisites": ["Rout"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Heavy Cavalry"]
+	},
+	{
+		"name": "Escort Mobility",
+		"prerequisites": ["Armor Piercing","Reactive Armor"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Heavy Cavalry"]
+	},	
+
+
 	// Heavy Cavalry
 	{
 		"name": "Charge",
@@ -215,6 +263,7 @@
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Heavy Cavalry"]
 	},	
+
 
 	// Siege
 	{
@@ -551,6 +600,8 @@
 		"prerequisites": ["Sweeping Wind", "Dancing Crane"],
 		"uniques": ["[+100]% Strength"],
 	},
+
+
       //GDR
 	{
 		"name": "Drone Air Defense", // GDR
@@ -558,7 +609,7 @@
 	},
 	{
 		"name": "Particle Beam Siege Cannon", // GDR
-		"uniques": ["[+100]% Strength","[+100]% Strength <vs cities>"]
+		"uniques": ["[+100]% Strength"]
 	},
 	{
 		"name": "Enhanced Mobility", // GDR
@@ -606,6 +657,7 @@
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
 	},
 	
+
 //Promotions granted by Natural Wonders
 	{
 		"name": "Water of Life", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -617,7 +669,7 @@
 	},
 	{
 		"name": "Altitude Training",
-		"uniques": ["[+10]% Strength <when fighting in [Hill] tiles>","Double movement in [Hill]"]
+		"uniques": ["[+10]% Strength <in [Hill] tiles>","Double movement in [Hill]"]
 	},
 	{
 		"name": "Sherpa Training",
@@ -627,6 +679,8 @@
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
 	},
+
+
 //Promotions granted by buildings
 {
 		"name": "Quick Study I",

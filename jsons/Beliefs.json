@@ -127,11 +127,6 @@
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Wheat]", "[+2 Faith] from every [Maize]", "[+2 Faith] from every [Rice]"]
     },
-	    {
-        "name": "Initiation Rites",
-        "type": "Pantheon",
-        "uniques": ["[+50 Faith] when a city adopts this religion for the first time (modified by game speed)"]
-    },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
@@ -140,7 +135,7 @@
 	    {
         "name": "Lady of the Reeds and Marshes",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood plains]"]
+        "uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+1 Production] from every [Flood plains]"]
     },
     {
         "name": "Monument to the Gods",
