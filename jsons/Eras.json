@@ -260,7 +260,7 @@
         "startingSettlerCount": 4,
         "startingWorkerCount": 4,
         "startingMilitaryUnitCount": 4,
-        "startingMilitaryUnit": "AT Crew",
+        "startingMilitaryUnit": "Modern AT",
         "startingGold": 710,
         "startingCulture": 70250,
         "settlerPopulation": 13,
