@@ -20,9 +20,20 @@
 		"uniques": [
 "Can build [Land] improvements on tiles",
 "May create improvements on water resources",
-"Can build [Water] improvements on tiles"
 ],
 		"cost": 100
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+"May create improvements on water resources", 
+"Can build [Water] improvements on tiles",
+],
 	},
 	{
 		"name": "Settler",

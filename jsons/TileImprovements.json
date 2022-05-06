@@ -49,6 +49,9 @@
 		"techRequired": "Radio",
 		"uniques": [
 "Can only be built on [Coastal] tiles",
+"Cannot be built on [Hill] tiles",
+"Cannot be built on [Coast] tiles",
+"Cannot be built on [Ocean] tiles",
 "[+2 Gold] for each adjacent [Natural Wonder]",
 "[+2 Gold] for each adjacent [Sphinx]",
 "[+2 Gold] for each adjacent [Ice Hockey Rink]",
