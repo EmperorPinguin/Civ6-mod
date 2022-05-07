@@ -3097,13 +3097,6 @@ ImprovementIcons/Mission
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/National Park
-  rotate: false
-  xy: 1848, 1400
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 ImprovementIcons/Nubian Pyramid
   rotate: false
   xy: 760, 1713
@@ -3165,6 +3158,13 @@ ImprovementIcons/Polder
   xy: 436, 1065
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Preserve
+  rotate: false
+  xy: 934, 559
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/Quarry
@@ -3659,56 +3659,56 @@ PolicyIcons/Mysticism
   index: -1
 PolicyIcons/Nationalism
   rotate: false
-  xy: 352, 4
+  xy: 1848, 1400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Natural History
   rotate: false
-  xy: 410, 4
+  xy: 352, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Naval Tradition
   rotate: false
-  xy: 1000, 675
+  xy: 942, 675
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Near Future Governance
   rotate: false
-  xy: 942, 617
+  xy: 1000, 675
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nuclear Program
   rotate: false
-  xy: 1000, 617
+  xy: 942, 617
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Opera and Ballet
   rotate: false
-  xy: 1058, 675
+  xy: 1000, 617
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Optimization Imperative
   rotate: false
-  xy: 1058, 617
+  xy: 1058, 675
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Political Philosophy
   rotate: false
-  xy: 934, 559
+  xy: 1058, 617
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4856,7 +4856,7 @@ UnitIcons/Musketman
   index: -1
 UnitIcons/Naturalist
   rotate: false
-  xy: 942, 675
+  xy: 410, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

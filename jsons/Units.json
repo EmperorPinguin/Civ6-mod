@@ -1282,7 +1282,7 @@
 		"strength": 60,
 		"cost": 400,
 		"requiredTech": "Replaceable Parts",
-		//"uniques": ["+[33]% combat bonus in [National Park]","Can construct [National Park]"],
+		//"uniques": ["+[33]% combat bonus in [Preserve]","Can construct [Preserve]"],
 		"attackSound": "horse"
 	},
 
@@ -1847,7 +1847,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": -1,
-		"uniques": ["Unbuildable", "Can construct [National Park]", "[+1] Sight"],
+		"uniques": ["Unbuildable", "Can construct [Preserve]", "[+1] Sight"],
 	},
 //Other
 {
