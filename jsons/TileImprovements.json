@@ -115,6 +115,23 @@
 "[+1 Culture] for each adjacent [Reef]"
 ]
 	},
+	{
+		"name": "Woods",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains", "Tundra", "Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+"Cannot be built on [Grassland] tiles <before adopting [Conservation]>",
+"Cannot be built on [Plains] tiles <before adopting [Conservation]>",
+"Cannot be built on [Tundra] tiles <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles> <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles> <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [Tundra] [Hill] tiles> <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
+"Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
+],
+		"shortcutKey": "F"
+	},
 	// Resource-specific
 	{
 		"name": "Camp",
