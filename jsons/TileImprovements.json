@@ -925,13 +925,10 @@
 	},
 {
 		"name": "National Park",
-            "happiness": 6,
 		"uniques": [
+"Great Improvement",
+"Must be next to [Natural Wonder]",
 "Tile provides yield without assigned population",
-"[+4 Culture] for each adjacent [Natural Wonder]",
-"[+4 Culture] for each adjacent [Mountain]",
-"[+2 Culture] for each adjacent [Woods]",
-"[+2 Culture] for each adjacent [Rare feature]",
 ]
 	},
 ]

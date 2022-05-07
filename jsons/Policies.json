@@ -268,7 +268,8 @@ Outback Station:
 			{
 				"name": "Environmentalism",
 				"uniques": [
-"[-10]% Culture cost of adopting new Policies"
+"Policies enabled:
+* Ecotourism ",
 ],
 				"requires": ["Cultural Heritage","Rapid Deployment"],
 				"row": 1,

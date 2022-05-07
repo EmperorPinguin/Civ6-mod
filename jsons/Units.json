@@ -27,7 +27,7 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 30,
+		"cost": 50,
 		"requiredTech": "Sailing",
 		"uniques": [
 "Cannot enter ocean tiles <before discovering [Astronomy]>", 
@@ -1144,9 +1144,11 @@
       {
 		"name": "Observation Balloon",
 		"unitType": "Civilian",
+		"requiredTech": "Flight",
+		"obsoleteTech": "Computers",
 		"movement": 2,
 		"cost": 240,
-		"uniques": ["[+1] Sight", "Can see over obstacles",],
+		"uniques": ["[+1] Sight", "Can see over obstacles"],
 	},
 	{
 		"name": "Biplane",
@@ -1285,6 +1287,14 @@
 	},
 
 	// Atomic Era
+      {
+		"name": "Drone",
+		"unitType": "Civilian",
+		"requiredTech": "Computers",
+		"movement": 3,
+		"cost": 420,
+		"uniques": ["[+2] Sight", "Can see over obstacles"],
+	},
 
 	{
 		"name": "Fighter",

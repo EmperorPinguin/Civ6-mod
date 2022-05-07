@@ -1621,7 +1621,7 @@ TileSets/FantasyHex/Tiles/Desert+Flood plains+Farm
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Eyjafjallajökull
+TileSets/FantasyHex/Tiles/Eyjafjallajoekull
   rotate: false
   xy: 4, 412
   size: 128, 128
@@ -1677,14 +1677,14 @@ TileSets/FantasyHex/Tiles/NW - Mountain
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Pamukkale
+TileSets/FantasyHex/Tiles/Paititi
   rotate: false
   xy: 4, 412
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Païtiti
+TileSets/FantasyHex/Tiles/Pamukkale
   rotate: false
   xy: 4, 412
   size: 128, 128
