@@ -313,8 +313,8 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "Dynastic Cycle",
 		"uniques": [
-"[+5]% [Science] [in all cities]",
-"[+5]% [Culture] [in all cities]"
+"[+10]% [Science] [in all cities with a world wonder]",
+"[+10]% [Culture] [in all cities with a world wonder]",
 ],
 		"cities": ["Xi'an","Beijing","Taiyuan","Chengdu","Jiaodong","Changsha","Longxi","Guangzhou","Handan","Shenyang",
 			"Shanghai","Wuhan","Xiurong","Chen","Xingzhou","Quxian","Nanjing","Langfang","Linzi","Jiujiang",
