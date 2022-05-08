@@ -1354,7 +1354,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Petra",
         "isWonder": true,
         "cost": 400,
-        "uniques": ["[+2 Food, +1 Production, +2 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Must be on to [Desert]", "Must not be on [Hill]"],
+        "uniques": ["[+2 Food, +1 Production, +2 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Must be on [Desert]", "Must not be on [Hill]"],
         "requiredTech": "Mathematics",
         "quote": "'Petra is a brilliant display of man's artistry in turning barren rock into majestic wonder.' –Edward Dawson"
     },
