@@ -234,6 +234,8 @@
 "[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Rainforest] tiles [in all cities] <with [1] to [1] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
 "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [Rainforest] tiles [in all cities] <with [2] to [2] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
 "[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from [Rainforest] tiles [in all cities] <with [3] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
+"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Rainforest] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]> <if [Ecotourism] is constructed>",
+
 ],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",

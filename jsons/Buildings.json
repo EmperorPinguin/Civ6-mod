@@ -5034,10 +5034,13 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"name": "Ecotourism",
 		"cost": 1,
             "requiredResource": "Economic Policy Slots",
+            "replacementTextForUniques": "+100% Yield from every Natural Wonder and Mountains and unimproved Woods get 1 additional times the Preserve adjacency bonus.",
 		"uniques": [
 "Only available <after adopting [Environmentalism]>",
 "Can only be built [in capital]",
 "[+100]% Yield from every [Natural Wonder]",
+"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Mountain] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Natural Wonder]>",
+"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Woods] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
 ],
 	},
 
