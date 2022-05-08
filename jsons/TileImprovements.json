@@ -135,13 +135,16 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"resourceTerrainAllow": ["Woods","Marsh"],
+		"resourceTerrainAllow": ["Woods","Marsh","Rainforest"],
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
 "[+1 Food, +1 Production] <after adopting [Mercantilism]>",
-"[+2 Gold] <after discovering [Synthetic Materials]>"
+"[+2 Gold] <after discovering [Synthetic Materials]>",
+"Does not need removal of [Woods]",
+"Does not need removal of [Marsh]",
+"Does not need removal of [Rainforest]",
 ],
 		"shortcutKey": "C"
 	},
@@ -180,6 +183,8 @@
 "[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
 "[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
 "[+1 Productio] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
+"Does not need removal of [Woods]",
+"Does not need removal of [Rainforest]",
 ],
 		"shortcutKey": "P"
 	},
@@ -741,6 +746,7 @@
 		"name": "Lavra",
 		"uniques": [
 "Great Improvement",
+"Constructing it will take over the tiles around it and assign them to your closest city",
 "Tile provides yield without assigned population",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
