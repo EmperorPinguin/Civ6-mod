@@ -55,6 +55,10 @@
 "Plains+Flood plains+Rice+Farm": ["Plains","Bonus resource Farm"],
 "Desert+Flood plains+Wheat+Farm": ["Desert","Bonus resource Farm"],
 "Desert+Flood plains+Rice+Farm": ["Desert","Bonus resource Farm"],
+//Flood plains Farm
+"Grassland+Flood plains+Farm": ["Grassland","Farm"],
+"Plains+Flood plains+Farm": ["Plains","Farm"],
+"Desert+Flood plains+Farm": ["Desert","Farm"],
         //resources behind Woods and Rainforest
             //TODO all the resources...
         //Grassland
