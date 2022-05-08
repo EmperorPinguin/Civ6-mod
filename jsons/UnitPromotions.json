@@ -50,46 +50,46 @@
 	},	
 
 
-// Melee
+//Land Melee
 	{
 		"name": "Battlecry",
-		"uniques": ["[+47]% Strength <vs [Melee] units>","[+47]% Strength <vs [Ranged] units>"],
-		"unitTypes": ["Melee"]
+		"uniques": ["[+47]% Strength <vs [Land Melee] units>","[+47]% Strength <vs [Ranged] units>"],
+		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Tortoise",
 		"uniques": ["[+67]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Commando",
 		"prerequisites": ["Battlecry","Amphibious"],
 		"uniques": ["[+1] Movement","Can pass through impassable tiles"],
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Tortoise","Commando"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Zweihander",
 		"prerequisites": ["Commando","Amphibious"],
 		"uniques": ["[+47]% Strength <vs [Anti-Cavalry] units>"],
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Urban Warfare",
 		"prerequisites": ["Commando","Amphibious"],
 		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <in tiles without [City center]>"],
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Elite Guard",
 		"prerequisites": ["Zweihander","Urban Warfare"],
 		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
-		"unitTypes": ["Melee"]
+		"unitTypes": ["Land Melee"]
 	},
 
 
@@ -144,7 +144,7 @@
 	},
 	{
 		"name": "Thrust",
-		"uniques": ["[+33]% Strength <vs [Melee] units>"],
+		"uniques": ["[+33]% Strength <vs [Land Melee] units>"],
 		"unitTypes": ["Anti-Cavalry"]
 	},
 	{
@@ -156,7 +156,7 @@
 	{
 		"name": "Schiltron",
 		"prerequisites": ["Thrust"],
-		"uniques": ["[+67]% Strength <vs [Melee] units> <when defending>"],
+		"uniques": ["[+67]% Strength <vs [Land Melee] units> <when defending>"],
 		"unitTypes": ["Anti-Cavalry"]
 	},
 	{
@@ -499,7 +499,7 @@
 	{
 		"name": "Strafe",
 		"prerequisites": ["Cockpit Armor"],
-		"uniques": ["[+113]% Strength <vs [Melee] units>","[+113]% Strength <vs [Anti-Cavalry] units>","[+113]% Strength <vs [Recon] units>","[+113]% Strength <vs [Water] units>","[+113]% Strength <vs [Air] units>"],
+		"uniques": ["[+113]% Strength <vs [Land Melee] units>","[+113]% Strength <vs [Anti-Cavalry] units>","[+113]% Strength <vs [Recon] units>","[+113]% Strength <vs [Water] units>","[+113]% Strength <vs [Air] units>"],
 		"unitTypes": ["Air Fighter"]
 	},
 	{

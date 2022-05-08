@@ -1794,7 +1794,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"uniques": [
 "[+1 Production] from [Encampment] tiles [in this city]",
 "[+1 Production] from [Ikanda] tiles [in this city]",
-"All newly-trained [Melee] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Land Melee] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Anti-Cavalry] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Ranged] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
@@ -1814,7 +1814,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cannotBeBuiltWith": "Stable",
 		"uniques": [
 "[+1 Production, +5 Science] from [Encampment] tiles [in this city]",
-"All newly-trained [Melee] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Land Melee] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Anti-Cavalry] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Ranged] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
@@ -2716,7 +2716,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Provides [2] [Military Policy Slots] <with [Tier 2 Government]>",
 "Provides [1] [Economic Policy Slots] <with [Tier 2 Government]>",
 "Provides [1] [Wildcard Policy Slots] <with [Tier 2 Government]>",
-"[+27]% Strength <for [Melee] units> <with [Tier 2 Government]>",
+"[+27]% Strength <for [Land Melee] units> <with [Tier 2 Government]>",
 "[+27]% Strength <for [Anti-Cavalry] units> <with [Tier 2 Government]>",
 "[+27]% Strength <for [Naval Melee] units> <with [Tier 2 Government]>",
 "[+20]% XP gained from combat <for [Military] units>",
@@ -3286,7 +3286,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <before adopting [Feudalism]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+50]% Production when constructing [Melee] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
+"[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 "[+50]% Production when constructing [Ranged] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 "[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 ],
@@ -3734,7 +3734,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <before adopting [Nationalism]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+50]% Production when constructing [Melee] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
+"[+50]% Production when constructing [Land Melee] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 "[+50]% Production when constructing [Ranged] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 "[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 ],
@@ -4359,7 +4359,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <before adopting [Rapid Deployment]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+50]% Production when constructing [Melee] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
+"[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
 "[+50]% Production when constructing [Ranged] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
 ],
 	},
@@ -5016,7 +5016,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"uniques": [
 "Only available <after adopting [Rapid Deployment]>",
 "Can only be built [in capital]",
-"[+50]% Production when constructing [Melee] units [in all cities]",
+"[+50]% Production when constructing [Land Melee] units [in all cities]",
 "[+50]% Production when constructing [Anti-Cavalry] units [in all cities]",
 "[+50]% Production when constructing [Ranged] units [in all cities]",
 ],
