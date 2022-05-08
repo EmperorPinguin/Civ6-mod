@@ -771,7 +771,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Currency",
 		"uniques": [
 "Unsellable",
-"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Suguba Builder] appears",
 "[+4 Gold] per [1] population [in this city]",
