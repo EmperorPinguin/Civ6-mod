@@ -559,6 +559,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Writing"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Campus Builder] appears",
 "[+2 Science] per [1] population [in this city]", 
@@ -579,6 +580,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Writing"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Observatory Builder] appears",
 "[+2 Science] per [1] population [in this city]", 
@@ -599,6 +601,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Writing"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Seowon Builder] appears",
 "[+2 Science] per [1] population [in this city]", 
@@ -617,6 +620,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Astrology"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Holy Site Builder] appears",
 "[+2 Faith] per [1] population [in this city]",
@@ -637,6 +641,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Astrology"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Lavra Builder] appears",
 "[+2 Faith] per [1] population [in this city]", 
@@ -656,6 +661,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Theatre Square Builder] appears",
 "[+2 Culture] per [1] population [in this city]", 
@@ -678,6 +684,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Acropolis Builder] appears",
 "Free [Envoy] appears",
@@ -700,6 +707,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Bronze Working"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Encampment Builder] appears",
 "[+1 Production, +2 Gold] per [1] population [in this city]"
@@ -720,6 +728,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Bronze Working"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Ikanda Builder] appears",
 "[+1 Production, +2 Gold] per [1] population [in this city]",
@@ -740,6 +749,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Currency"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Commercial Hub Builder] appears",
 "[+4 Gold] per [1] population [in this city]",
@@ -761,6 +771,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Currency",
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Suguba Builder] appears",
 "[+4 Gold] per [1] population [in this city]",
@@ -782,6 +793,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Apprenticeship"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Industrial Zone Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
@@ -802,6 +814,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Apprenticeship"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Hansa Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
@@ -822,6 +835,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"requiredTech": "Apprenticeship"
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Oppidum Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
@@ -839,6 +853,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Entertainment Complex Builder] appears", 
 /*
@@ -858,6 +873,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Street Carnival Builder] appears", 
 /*
@@ -877,6 +893,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Hippodrome Builder] appears", 
 "Free [Tagma] appears <after adopting [Divine Right]>", 
@@ -896,6 +913,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 0,
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Harbor Builder] appears",
 "[+1 Food, +2 Gold] per [1] population [in this city]", 
@@ -915,6 +933,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 27,
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Harbor Builder] appears",
 /*
@@ -937,6 +956,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 27,
 		"uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Harbor Builder] appears",
 /*
@@ -958,6 +978,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 0,
             "uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Neighbourhood Builder] appears",
 "[20]% Food is carried over after population increases [in this city]",
@@ -972,6 +993,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "cost": 27,
             "uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Mbanza Builder] appears",
 "[25]% Food is carried over after population increases [in this city]",
@@ -1004,6 +1026,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "cannotBeBuiltWith": "Entertainment Complex",
             "uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Water Park Builder] appears",
 /*
@@ -1023,6 +1046,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "cannotBeBuiltWith": "Entertainment Complex",
             "uniques": [
 "Unsellable",
+"Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Copacabana Builder] appears",
 /*
@@ -1043,7 +1067,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 180,
         "science": 2,
         "requiredTech": "Pottery",
-        "uniques": ["[+2 Production, +1 Science] from [Marsh] tiles in this city", "[+1 Production, +1 Science] from [Flood plains] tiles in this city", "Must be on [Flood plains]"],
+        "uniques": ["[+2 Production, +1 Science] from [Marsh] tiles [in this city]", "[+1 Production, +1 Science] from [Flood plains] tiles [in this city]", "Must be on [Flood plains]"],
         "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
     },
     {
@@ -2630,7 +2654,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 //Governments
 {
 		"name": "Chiefdom",
-		"cost": 1,
+		"cost": 1,		
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Code of Laws]>",
 "Can only be built [in capital]",
@@ -2644,6 +2669,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Autocracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Political Philosophy]>",
 "Can only be built [in capital]",
@@ -2663,6 +2689,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Classical Republic",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Political Philosophy]>",
 "Can only be built [in capital]",
@@ -2682,6 +2709,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Oligarchy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Political Philosophy]>",
 "Can only be built [in capital]",
@@ -2702,6 +2730,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Merchant Republic",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Exploration]>",
 "Can only be built [in capital]",
@@ -2730,6 +2759,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Monarchy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Divine Right]>",
 "Can only be built [in capital]",
@@ -2751,6 +2781,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Theocracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Reformed Church]>",
 "Can only be built [in capital]",
@@ -2772,6 +2803,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Communism",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Class Struggle]>",
 "Can only be built [in capital]",
@@ -2791,6 +2823,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Democracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Suffrage]>",
 "Can only be built [in capital]",
@@ -2827,6 +2860,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Fascism",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Totalitarianism]>",
 "Can only be built [in capital]",
@@ -2846,6 +2880,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Digital Democracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Distributed Sovereignty]>",
 "Can only be built [in capital]",
@@ -2879,6 +2914,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Synthetic Technocracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Optimization Imperative]>",
 "Can only be built [in capital]",
@@ -2896,6 +2932,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Corporate Libertarianism",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniques": [
 "Only available <after adopting [Venture Politics]>",
 "Can only be built [in capital]",
@@ -2916,6 +2953,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Plato's Republic",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniqueTo": "Greece",
 		"uniques": [
 "Can only be built [in capital]",
@@ -2928,6 +2966,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Founding Fathers 1",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniqueTo": "America",
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
@@ -2941,6 +2980,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Founding Fathers 2",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniqueTo": "America",
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
@@ -2954,6 +2994,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Founding Fathers 3",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniqueTo": "America",
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
@@ -2967,6 +3008,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Founding Fathers 4",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"uniqueTo": "America",
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
@@ -2980,6 +3022,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Military Policy Slot converter 1",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -2991,6 +3034,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Military Policy Slot converter 2",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3002,6 +3046,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Military Policy Slot converter 3",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3013,6 +3058,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Military Policy Slot converter 4",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3024,6 +3070,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Military Policy Slot converter 5",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3035,6 +3082,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Economic Policy Slot converter 1",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3046,6 +3094,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Economic Policy Slot converter 2",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3057,6 +3106,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Economic Policy Slot converter 3",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3068,6 +3118,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Economic Policy Slot converter 4",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3079,6 +3130,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Economic Policy Slot converter 5",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3090,6 +3142,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Diplomatic Policy Slot converter 1",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3101,6 +3154,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Diplomatic Policy Slot converter 2",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3112,6 +3166,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Diplomatic Policy Slot converter 3",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3123,6 +3178,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Diplomatic Policy Slot converter 4",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3134,6 +3190,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Diplomatic Policy Slot converter 5",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3145,6 +3202,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wildcard-Diplomatic Policy Slot Converter 2",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Can only be built [in capital]",
@@ -3159,6 +3217,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Survey",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Code of Laws]>",
@@ -3170,6 +3229,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "God King",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Code of Laws]>",
@@ -3181,6 +3241,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Discipline",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Code of Laws]>",
@@ -3193,10 +3254,11 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Urban Planning",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Code of Laws]>",
-"Only available <after adopting [The Enlightenment]>",
+"Only available <before adopting [The Enlightenment]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
 "[+1 Production] [in all cities] <before adopting [The Enlightenment]>",
@@ -3205,6 +3267,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Ilkum",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Craftsmanship]>",
@@ -3217,6 +3280,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Agoge",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Craftsmanship]>",
@@ -3231,6 +3295,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Caravansaries",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Foreign Trade]>",
@@ -3243,6 +3308,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Maritime Industries",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Foreign Trade]>",
@@ -3256,6 +3322,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Maneuver",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Military Tradition]>",
@@ -3270,6 +3337,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Strategos",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great General": 2},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -3282,6 +3350,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Conscription",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [State Workforce]>",
@@ -3294,6 +3363,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Corvée",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [State Workforce]>",
@@ -3307,6 +3377,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Land Surveyors",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Early Empire]>",
@@ -3320,6 +3391,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Colonization",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Early Empire]>",
@@ -3332,6 +3404,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Limitanei",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Early Empire]>",
@@ -3343,6 +3416,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Inspiration",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Scientist": 2},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -3355,6 +3429,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Revelation",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Prophet": 2},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -3367,6 +3442,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Insulae",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Games and Recreation]>",
@@ -3379,6 +3455,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Charismatic Leader",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Political Philosophy]>",
@@ -3391,6 +3468,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Diplomatic League",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Political Philosophy]>",
@@ -3402,6 +3480,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Literary Tradition",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Artist": 2},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -3413,6 +3492,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Raid",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Military Training]>",
@@ -3425,6 +3505,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Veterancy",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Military Training]>",
@@ -3444,6 +3525,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Equestrian Orders",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Military Training]>",
@@ -3455,6 +3537,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Bastions",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Defensive Tactics]>",
@@ -3468,6 +3551,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Limes",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Defensive Tactics]>",
@@ -3482,6 +3566,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Natural Philosophy",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Campus (and replacements).",
 		"uniques": [
@@ -3542,6 +3627,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Scripture",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Holy Site (and replacements).",
 		"uniques": [
@@ -3594,6 +3680,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Praetorium",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Recorded History]>",
@@ -3606,6 +3693,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Naval Infrastructure",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Harbor (and replacements).",
 		"uniques": [
@@ -3628,6 +3716,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Navigation",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Admiral": 2},
             "requiredResource": "Military Policy Slots",
 		"uniques": [
@@ -3639,6 +3728,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Feudal Contract",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Feudalism]>",
@@ -3653,6 +3743,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Serfdom",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Feudalism]>",
@@ -3665,6 +3756,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Meritocracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Civil Service]>",
@@ -3682,6 +3774,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Retainers",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Civil Service]>",
@@ -3694,6 +3787,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Civil Prestige",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Civil Service]>",
@@ -3706,6 +3800,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Sack",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercenaries]>",
@@ -3718,6 +3813,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Professional Army",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercenaries]>",
@@ -3731,6 +3827,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Retinues",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercenaries]>",
@@ -3743,6 +3840,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Trade Confederation",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercenaries]>",
@@ -3757,6 +3855,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Merchant Confederation",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Medieval Faires]>",
@@ -3768,6 +3867,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Aesthetics",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Theatre Square (and replacements).",
 		"uniques": [
@@ -3854,6 +3954,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Medina Quarter",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Medieval Faires]>",
@@ -3866,6 +3967,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Craftsmen",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Industrial Zone (and replacements).",
 		"uniques": [
@@ -3938,6 +4040,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Town Charters",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Commercial Hub (and replacements).",
 		"uniques": [
@@ -3982,6 +4085,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Traveling Merchants",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Admiral": 2},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -3994,6 +4098,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Chivalry",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Divine Right]>",
@@ -4007,6 +4112,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Gothic Architecture",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Divine Right]>",
@@ -4019,6 +4125,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Native Conquest",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Colonialism]>",
@@ -4030,6 +4137,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Colonial Offices",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Colonialism]>",
@@ -4041,6 +4149,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Colonial Taxes",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Colonialism]>",
@@ -4053,6 +4162,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Raj",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Colonialism]>",
@@ -4067,6 +4177,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Invention",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Engineer": 12},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -4078,6 +4189,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Frescoes",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Artist": 10},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -4089,6 +4201,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Machiavellianism",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Diplomatic Service]>",
@@ -4100,6 +4213,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wisselbanken",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Diplomatic Service]>",
@@ -4113,6 +4227,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Wars of Religion",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Reformed Church]>",
@@ -4124,6 +4239,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Simultaneum",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Reformed Church]>",
@@ -4145,6 +4261,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Religious Orders",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Reformed Church]>",
@@ -4157,6 +4274,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Logistics",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercantilism]>",
@@ -4168,6 +4286,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Triangular Trade",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercantilism]>",
@@ -4180,6 +4299,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Drill Manuals",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mercantilism]>",
@@ -4192,6 +4312,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Rationalism",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [The Enlightenment]>",
@@ -4205,6 +4326,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Free Market",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [The Enlightenment]>",
@@ -4218,6 +4340,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Liberalism",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [The Enlightenment]>",
@@ -4230,6 +4353,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Grande Armée",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Nationalism]>",
@@ -4243,6 +4367,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "National Identity",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Nationalism]>",
@@ -4254,6 +4379,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Press Gangs",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Nationalism]>",
@@ -4266,6 +4392,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Public Works",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Civil Engineering]>",
@@ -4278,6 +4405,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Skyscrapers",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Civil Engineering]>",
@@ -4289,6 +4417,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Grand Opera",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Opera and Ballet]>",
@@ -4303,6 +4432,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Symphonies",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Artist": 20},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -4314,6 +4444,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Public Transport",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Urbanization]>",
@@ -4328,6 +4459,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Military Research",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Urbanization]>",
@@ -4342,6 +4474,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Force Modernization",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Urbanization]>",
@@ -4353,6 +4486,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Total War",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Scorched Earth]>",
@@ -4364,6 +4498,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Expropriation",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Scorched Earth]>",
@@ -4376,6 +4511,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Military Organization",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great General": 24},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -4388,6 +4524,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Resource Management",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Conservation]>",
@@ -4400,6 +4537,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Propaganda",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mass Media]>",
@@ -4412,6 +4550,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Levée en Masse",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Mobilization]>",
@@ -4423,6 +4562,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Laissez Faire",
 		"cost": 1,
+		"hurryCostModifier": -100,
 		"greatPersonPoints": {"Great Merchant": 24, "Great Admiral": 24},
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
@@ -4433,6 +4573,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Market Economy",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Capitalism]>",
@@ -4443,6 +4584,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Police State",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Ideology]>",
@@ -4453,6 +4595,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Economic Union",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Commercial Hub and Harbor (and replacements).",
 		"uniques": [
@@ -4505,6 +4648,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Their Finest Hour",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Suffrage]>",
@@ -4515,6 +4659,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Arsenal of Democracy",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Suffrage]>",
@@ -4526,6 +4671,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "New Deal",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Suffrage]>",
@@ -4537,6 +4683,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Lightning Warfare",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Totalitarianism]>",
@@ -4548,6 +4695,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Third Alternative",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Totalitarianism]>",
@@ -4562,6 +4710,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Martial Law",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Totalitarianism]>",
@@ -4574,6 +4723,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Gunboat Diplomacy",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Totalitarianism]>",
@@ -4585,6 +4735,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Five-Year Plan",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Campus and Industrial Zone (and replacements).",
 		"uniques": [
@@ -4703,6 +4854,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Collectivization",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Capitalism]>",
@@ -4713,6 +4865,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Defence of the Motherland",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Capitalism]>",
@@ -4727,6 +4880,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Cryptography",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Cold War]>",
@@ -4737,6 +4891,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "International Waters",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Cold War]>",
@@ -4749,6 +4904,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Containment",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Cold War]>",
@@ -4759,6 +4915,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Heritage Tourism",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Cultural Heritage]>",
@@ -4769,6 +4926,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Sports Media",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% adjacency bonus for every Theatre Square (and replacements), +1 Happiness from every Stadium.",
 		"uniques": [
@@ -4854,6 +5012,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Military First",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Rapid Deployment]>",
@@ -4866,6 +5025,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Satellite Bradcasts",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Space Race]>",
@@ -4876,6 +5036,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Integrated Space Cell",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Rapid Deployment]>",
@@ -4886,6 +5047,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Second Strike Capability",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Rapid Deployment]>",
@@ -4897,6 +5059,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "After Action Reports",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Rapid Deployment]>",
@@ -4907,6 +5070,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Strategic Air Force",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Military Policy Slots",
 		"uniques": [
 "Only available <after adopting [Globalization]>",
@@ -4919,6 +5083,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Ecommerce",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Globalization]>",
@@ -4929,6 +5094,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "International Space Agency",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Globalization]>",
@@ -4939,6 +5105,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Online Communities",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Social Media]>",
@@ -4950,6 +5117,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Collective Activism",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Social Media]>",
@@ -4960,6 +5128,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Communications Office",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 "Only available <after adopting [Social Media]>",
@@ -4970,6 +5139,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Aerospace Contractors",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Exodus Imperative]>",
@@ -4981,6 +5151,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Non-State Actors",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Cultural Hegemony]>",
@@ -4991,6 +5162,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Integrated Attack Logistics",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Information Warfare]>",
@@ -5002,6 +5174,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Rabblerousing",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Information Warfare]>",
@@ -5012,6 +5185,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Diplomatic Capital",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Smart Power Doctrine]>",
@@ -5022,6 +5196,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Global Coalition",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 "Only available <after adopting [Smart Power Doctrine]>",
@@ -5033,6 +5208,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "Ecotourism",
 		"cost": 1,
+		"hurryCostModifier": -100,
             "requiredResource": "Economic Policy Slots",
             "replacementTextForUniques": "+100% Yield from every Natural Wonder and Mountains and unimproved Woods get 1 additional times the Preserve adjacency bonus.",
 		"uniques": [
