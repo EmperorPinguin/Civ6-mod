@@ -1923,7 +1923,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "New [Water] units start with [15] Experience in this city",
 "[+1 Food] from [Coast] tiles in this city",
 "[+1 Food] from [Lake] tiles in this city",
-"Provides [1] [Trade Route]",
+//"Provides [1] [Trade Route]",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Celestial Navigation"
