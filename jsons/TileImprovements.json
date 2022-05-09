@@ -24,7 +24,9 @@
 		"techRequired": "Machinery",
 		"uniques": [
 "[+1 Production] <after discovering [Steel]>",
-"[+1 Production] <after discovering [Cybernetics]>"
+"[+1 Production] <after discovering [Cybernetics]>",
+"Does not need removal of [Woods]",
+"Does not need removal of [Rainforest]"
 ],
 		"shortcutKey": "L"
 	},
@@ -130,7 +132,6 @@
 "Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
 "Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
 ],
-		"shortcutKey": "F"
 	},
 	// Resource-specific
 	{
