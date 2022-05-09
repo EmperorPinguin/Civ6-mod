@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
-		"unitTypes": ["Anti-Cavalry", "Land Melee","Light Cavalry","Heavy Cavalry","Recon","Siege","Ranged","Naval Melee","Naval Ranged","Naval Raider"]
+		"unitTypes": ["Anti-Cavalry", "Land Melee","Light Cavalry","Heavy Cavalry","Recon","Siege","Land Ranged","Naval Melee","Naval Ranged","Naval Raider"]
 	},
 
 
@@ -53,12 +53,12 @@
 //Land Melee
 	{
 		"name": "Battlecry",
-		"uniques": ["[+47]% Strength <vs [Land Melee] units>","[+47]% Strength <vs [Ranged] units>"],
+		"uniques": ["[+47]% Strength <vs [Land Melee] units>","[+47]% Strength <vs [Land Ranged] units>"],
 		"unitTypes": ["Land Melee"]
 	},
 	{
 		"name": "Tortoise",
-		"uniques": ["[+67]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+67]% Strength <vs [Land Ranged] units> <when defending>"],
 		"unitTypes": ["Land Melee"]
 	},
 	{
@@ -97,42 +97,42 @@
 	{
 		"name": "Volley",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 	{
 		"name": "Garrison",
 		"uniques": ["[+67]% Strength <in [Great Improvement] tiles> <in tiles without [City center]> <when defending>","[+67]% Strength <in [Fort] tiles> <when defending>"],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 	{
 		"name": "Arrow Storm",
 		"prerequisites": ["Volley"],
 		"uniques": ["[+47]% Strength <vs [Land] units>",],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 	{
 		"name": "Incendiaries",
 		"prerequisites": ["Garrison"],
 		"uniques": ["[+47]% Strength <vs cities> <when attacking>","[+47]% Strength <in [Encampment] tiles> <when attacking>","[+47]% Strength <in [Ikanda] tiles> <when attacking>"],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 	{
 		"name": "Suppression",
 		"prerequisites": ["Arrow Storm","Incendiaries"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 	{
 		"name": "Emplacement",
 		"prerequisites": ["Arrow Storm","Incendiaries"],
 		"uniques": ["[+67]% Strength <vs cities> <when defending>"],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 	{
 		"name": "Expert Marksman",
 		"prerequisites": ["Suppression","Emplacement"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Ranged"]
+		"unitTypes": ["Land Ranged"]
 	},
 
 
@@ -187,7 +187,7 @@
 	},
 	{
 		"name": "Coursers",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when attacking>","[+33]% Strength <vs [Siege] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Land Ranged] units> <when attacking>","[+33]% Strength <vs [Siege] units> <when attacking>"],
 		"unitTypes": ["Heavy Cavalry"]
 	},
 	{
@@ -230,7 +230,7 @@
 	},
 	{
 		"name": "Barding",
-		"uniques": ["[+47]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+47]% Strength <vs [Land Ranged] units> <when defending>"],
 		"unitTypes": ["Heavy Cavalry"]
 	},
 	{
@@ -328,7 +328,7 @@
 	{
 		"name": "Reinforced Hull",
 		"prerequisites": ["Embolon"],
-		"uniques": ["[+67]% Strength <vs [Ranged] units> <when defending>", "[+67]% Strength <vs [Naval Ranged] units> <when defending>", "[+67]% Strength <vs [Naval Raider] units> <when defending>"],
+		"uniques": ["[+67]% Strength <vs [Land Ranged] units> <when defending>", "[+67]% Strength <vs [Naval Ranged] units> <when defending>", "[+67]% Strength <vs [Naval Raider] units> <when defending>"],
 		"unitTypes": ["Naval Melee"]
 	},
 	{

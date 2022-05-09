@@ -16,7 +16,7 @@
         "uniques": ["[+33]% Strength <vs [Anti-Mounted] units>"]
     },
     {
-        "name": "Ranged",
+        "name": "Land Ranged",
         "movementType": "Land",
         "uniques": ["[-57]% Strength <vs cities> <when attacking>"]
     },

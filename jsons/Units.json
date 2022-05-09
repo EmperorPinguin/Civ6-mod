@@ -113,7 +113,7 @@
 	},
 	{
 		"name": "Slinger",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"range": 1,
 		"strength": 5,
@@ -126,7 +126,7 @@
 	},
 	{
 		"name": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"strength": 15,
 		"rangedStrength": 25,
@@ -141,7 +141,7 @@
 		"name": "Pitati Archer",
 		"uniqueTo": "Nubia",
 		"replaces": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 3,
 		"strength": 17,
 		"rangedStrength": 30,
@@ -156,7 +156,7 @@
 		"name": "Hul'che",
 		"uniqueTo": "The Maya",
 		"replaces": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 3,
 		"strength": 17,
 		"rangedStrength": 28,
@@ -362,7 +362,7 @@
 	{
 		"name": "Saka Horse Archer",
 		"uniqueTo": "Scythia",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 4,
 		"range": 1,
 		"strength": 15,
@@ -537,7 +537,7 @@
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 40,
@@ -551,7 +551,7 @@
 	{
 		"name": "Crouching Tiger",
 		"uniqueTo": "China",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"range": 1,
 		"strength": 30,
@@ -714,7 +714,7 @@
 	{
 		"name": "Keshig",
 		"uniqueTo": "Mongolia",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 4,
 		"strength": 33,
 		"rangedStrength": 40,
@@ -924,7 +924,7 @@
 		"name": "Hwacha",
 		"uniqueTo": "Korea",
 		"replaces": "Field Cannon",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
@@ -948,7 +948,7 @@
 	},
 	{
 		"name": "Field Cannon",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 60,
@@ -1369,7 +1369,7 @@
 	},
 	{
 		"name": "Machine Gun",
-		"unitType": "Ranged",
+		"unitType": "Land Ranged",
 		"movement": 2,
 		"strength": 65,
 		"rangedStrength": 75,

@@ -562,6 +562,7 @@
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
+		"culture": 7,
 		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains"],
 	},
 /*

@@ -684,7 +684,7 @@
 		"movementCost": 2,
 		"overrideStats": false,
 		"unbuildable": true,
-		"defenceBonus": 0.20,
+		"defenceBonus": 0.0,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",

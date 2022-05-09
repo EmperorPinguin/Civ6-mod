@@ -19,6 +19,7 @@ May buy Naturalists for 600 Faith at an increasing cost (100) after adopting Con
 +3 Happiness in all cities,
 -50% Unhappiness from Population in all cities,
 +100% maintenance costs for Military units,
++20% Strength for Military units when defending in Woods tiles,
 Gain 20 Influence with a Envoy gift to a City-State,
 Natural Wonders get +2 Food, Production, Gold, Science, Culture and Faith for each adjacent Preserve (max. 3×),
 Mountains and unimproved Woods get +1 Food, Production, Science, Culture and Faith for each adjacent Preserve (max. 3×),
@@ -57,6 +58,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+3 Happiness] [in all cities]",
 "[-50]% Unhappiness from [Population] [in all cities]",
 "[+100]% maintenance costs <for [Military] units>",
+"[+20]% Strength <when fighting in [Woods] tiles> <when defending>",
 "Gain [20] Influence with a [Envoy] gift to a City-State",
 "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [Natural Wonder] tiles [in all cities] <with [1] to [1] neighboring [Preserve] tiles>",
 "[+4 Food, +4 Production, +4 Gold, +4 Science, +4 Culture, +4 Faith] from [Natural Wonder] tiles [in all cities] <with [2] to [2] neighboring [Preserve] tiles>",
@@ -1803,7 +1805,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Production] from [Ikanda] tiles [in this city]",
 "All newly-trained [Land Melee] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Anti-Cavalry] units [in this city] receive the [Quick Study I] promotion",
-"All newly-trained [Ranged] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Land Ranged] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Bronze Working"
@@ -1823,7 +1825,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Production, +5 Science] from [Encampment] tiles [in this city]",
 "All newly-trained [Land Melee] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Anti-Cavalry] units [in this city] receive the [Quick Study I] promotion",
-"All newly-trained [Ranged] units [in this city] receive the [Quick Study I] promotion",
+"All newly-trained [Land Ranged] units [in this city] receive the [Quick Study I] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Bronze Working"
@@ -1968,7 +1970,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "uniques": [
 "[+3 Gold] from [Commercial Hub] tiles [in this city]",
 "[+3 Gold] from [Suguba] tiles [in this city]",
-"Provides [1] [Trade Route]"
+//"Provides [1] [Trade Route]"
 ],
         "requiredTech": "Currency"
     },
@@ -1984,7 +1986,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "greatPersonPoints": {"Great Merchant": 1},
         "uniques": [
 "[+3 Gold] from [Commercial Hub] tiles [in this city]",
-"Provides [1] [Trade Route]"
+//"Provides [1] [Trade Route]"
 ],
         "requiredTech": "Currency"
     },
@@ -3294,7 +3296,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
 "[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
-"[+50]% Production when constructing [Ranged] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
+"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 "[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 ],
 	},
@@ -3742,7 +3744,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
 "[+50]% Production when constructing [Land Melee] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
-"[+50]% Production when constructing [Ranged] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
+"[+50]% Production when constructing [Land Ranged] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 "[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 ],
 	},
@@ -4367,7 +4369,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
 "[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
-"[+50]% Production when constructing [Ranged] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
+"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
 ],
 	},
 {
@@ -5025,7 +5027,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Can only be built [in capital]",
 "[+50]% Production when constructing [Land Melee] units [in all cities]",
 "[+50]% Production when constructing [Anti-Cavalry] units [in all cities]",
-"[+50]% Production when constructing [Ranged] units [in all cities]",
+"[+50]% Production when constructing [Land Ranged] units [in all cities]",
 ],
 	},
 {

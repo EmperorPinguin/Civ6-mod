@@ -478,12 +478,13 @@
 	},
 	
 	// Ingame Mechanics
+/*
 	{
 		"name": "Trade Route",
 		"resourceType": "Strategic",
 		"gold": 1
 	},
-	/*{
+	{
 		"name": "Power",
 		"resourceType": "Bonus",
 		"production": 1
@@ -494,7 +495,6 @@
 		"revealedBy": "Radio",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Woods","Rainforest","Desert"],
 		"improvement": "Archaeological Dig",
-		"improvementStats": {"culture": 7},
 	},
 	{
 		"name": "Shipwreck",
@@ -502,7 +502,6 @@
 		"revealedBy": "Radio",
 		"terrainsCanBeFoundOn": ["Coast","Lakes","Ocean","Reef"],
 		"improvement": "Archaeological Dig",
-		"improvementStats": {"culture": 7},
 	},
 	{
 		"name": "Districts",
