@@ -746,7 +746,6 @@
 		"name": "Lavra",
 		"uniques": [
 "Great Improvement",
-"Constructing it will take over the tiles around it and assign them to your closest city",
 "Tile provides yield without assigned population",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
@@ -873,6 +872,7 @@
 "Tile provides yield without assigned population",
 "[+2 Production] for each adjacent [Quarry]",
 "[+2 Production] for each adjacent [Strategic resource]",
+"Unpillagable",
 "Gives a defensive bonus of [100]%",
 "Adjacent enemy units ending their turn take [30] damage"
 ]

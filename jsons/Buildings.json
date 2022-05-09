@@ -558,10 +558,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Writing"
 		"uniques": [
+"Creates a [Campus] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Campus Builder] appears",
 "[+2 Science] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
@@ -579,10 +579,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Writing"
 		"uniques": [
+"Creates a [Observatory] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Observatory Builder] appears",
 "[+2 Science] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
@@ -600,10 +600,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Writing"
 		"uniques": [
+"Creates a [Seowon] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Seowon Builder] appears",
 "[+2 Science] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
@@ -619,10 +619,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Astrology"
 		"uniques": [
+"Creates a [Holy Site] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Holy Site Builder] appears",
 "[+2 Faith] per [1] population [in this city]",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
@@ -640,15 +640,17 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Astrology"
 		"uniques": [
+"Creates a [Lavra] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Lavra Builder] appears",
 "[+2 Faith] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Faith] from [Trade Route (International)] tiles in this city",
 */
+"[-25]% Culture cost of natural border growth [in this city]", 
+"[-25]% Gold cost of acquiring tiles [in this city]",
 ],
 	},
 {
@@ -658,10 +660,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "requiredResource": "Districts",
 		"maintenance": 1,
 		"uniques": [
+"Creates a [Theatre Square] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Theatre Square Builder] appears",
 "[+2 Culture] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
@@ -681,10 +683,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "requiredResource": "Districts",
 		"maintenance": 1,
 		"uniques": [
+"Creates a [Acropolis] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Acropolis Builder] appears",
 "Free [Envoy] appears",
 "[+2 Culture] per [1] population [in this city]", 
 /*
@@ -704,10 +706,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Bronze Working"
 		"uniques": [
+"Creates a [Encampment] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Encampment Builder] appears",
 "[+1 Production, +2 Gold] per [1] population [in this city]"
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -725,10 +727,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Bronze Working"
 		"uniques": [
+"Creates a [Ikanda] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Ikanda Builder] appears",
 "[+1 Production, +2 Gold] per [1] population [in this city]",
 "[5]% Food is carried over after population increases [in this city]",
 "[+25]% Production when constructing [Military] units [in this city]",
@@ -746,10 +748,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Currency"
 		"uniques": [
+"Creates a [Commercial Hub] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Commercial Hub Builder] appears",
 "[+4 Gold] per [1] population [in this city]",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -768,9 +770,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Currency",
 		"uniques": [
+"Creates a [Suguba] improvement on a specific tile",
 "Unsellable",
 "Never destroyed when city is captured",
-"Free [Suguba Builder] appears",
 "[+4 Gold] per [1] population [in this city]",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -789,10 +791,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Apprenticeship"
 		"uniques": [
+"Creates a [Industrial Zone] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Industrial Zone Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -810,10 +812,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"requiredTech": "Apprenticeship"
 		"uniques": [
+"Creates a [Hansa] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Hansa Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -829,12 +831,12 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"greatPersonPoints": {"Great Engineer": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Apprenticeship"
+		"requiredTech": "Iron Working"
 		"uniques": [
+"Creates a [Oppidum] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Oppidum Builder] appears",
 "[+2 Production] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -849,10 +851,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
+"Creates a [Entertainment Complex] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
-"Free [Entertainment Complex Builder] appears", 
+"Never destroyed when city is captured", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -869,10 +871,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
+"Creates a [Street Carnival] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Street Carnival Builder] appears", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -889,10 +891,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 1,
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
+"Creates a [Entertainment Complex] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
-"Free [Hippodrome Builder] appears", 
+"Never destroyed when city is captured", 
 "Free [Tagma] appears <after adopting [Divine Right]>", 
 "[1] units cost no maintenance",
 /*
@@ -909,10 +911,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "requiredResource": "Districts",
 		"maintenance": 0,
 		"uniques": [
+"Creates a [Harbor] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Harbor Builder] appears",
 "[+1 Food, +2 Gold] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
@@ -929,10 +931,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"greatPersonPoints": {"Great Admiral": 1},
 		"cost": 27,
 		"uniques": [
+"Creates a [Harbor] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Harbor Builder] appears",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
@@ -952,10 +954,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"greatPersonPoints": {"Great Admiral": 2},
 		"cost": 27,
 		"uniques": [
+"Creates a [Harbor] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Harbor Builder] appears",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
@@ -969,30 +971,30 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "requiredTech": "Celestial Navigation"
     },
     {
-            "name": "Neighborhood District",
+            "name": "Neighbourhood District",
             "cost": 54,
             "requiredResource": "Districts",
 		"maintenance": 0,
             "uniques": [
+"Creates a [Neighbourhood] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Neighbourhood Builder] appears",
 "[20]% Food is carried over after population increases [in this city]",
 "Only available <after adopting [Urbanization]>"
 ]
     },
     {
             "name": "Mbanza District",
-            "replaces": "Neighborhood District",
+            "replaces": "Neighbourhood District",
             "uniqueTo": "Kongo",
             "requiredResource": "Districts",
             "cost": 27,
             "uniques": [
+"Creates a [Mbanza] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Mbanza Builder] appears",
 "[25]% Food is carried over after population increases [in this city]",
 "Only available <after adopting [Guilds]>"
 ]
@@ -1022,10 +1024,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "maintenance": 1,
             "cannotBeBuiltWith": "Entertainment Complex",
             "uniques": [
+"Creates a [Water Park] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Water Park Builder] appears",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -1042,10 +1044,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "maintenance": 1,
             "cannotBeBuiltWith": "Entertainment Complex",
             "uniques": [
+"Creates a [Copacabana] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"Free [Copacabana Builder] appears",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Food] from [Trade Route (International)] tiles in this city",
@@ -2430,7 +2432,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Food Market",
         "cost": 380,
         "maintenance": 1,
-        "requiredBuilding": "Neighborhood District",
+        "requiredBuilding": "Neighbourhood District",
         "cannotBeBuiltWith": "Shopping Mall",
         "uniques": [
 "[+4 Food] from [Neighbourhood] tiles [in this city]",
@@ -2442,7 +2444,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Shopping Mall",
         "cost": 440,
         "maintenance": 1,
-        "requiredBuilding": "Neighborhood District",
+        "requiredBuilding": "Neighbourhood District",
         "uniques": [
 "[+2 Gold, +4 Culture, +1 Happiness] from [Neighbourhood] tiles [in this city]",
 "[+2 Gold, +4 Culture, +1 Happiness] from [Mbanza] tiles [in this city]",
