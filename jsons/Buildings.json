@@ -508,6 +508,13 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [23] [Population]>"]
 	},
+{
+		"name": "District9",
+		"cost": 1,
+		"hurryCostModifier": -100,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [27] [Population]>"]
+	},
 // Filler
 
 {
