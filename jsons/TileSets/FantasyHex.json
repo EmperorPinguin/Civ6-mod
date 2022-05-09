@@ -59,6 +59,9 @@
 "Grassland+Flood plains+Farm": ["Grassland","Farm"],
 "Plains+Flood plains+Farm": ["Plains","Farm"],
 "Desert+Flood plains+Farm": ["Desert","Farm"],
+//Other
+"Grassland+Farm": ["Grassland","Farm"],
+"Plains+Farm": ["Plains","Farm"],
         //resources behind Woods and Rainforest
             //TODO all the resources...
         //Grassland
