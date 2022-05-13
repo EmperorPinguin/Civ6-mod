@@ -18,12 +18,12 @@
     {
         "name": "Land Ranged",
         "movementType": "Land",
-        "uniques": ["[-57]% Strength <vs cities> <when attacking>"]
+        "uniques": ["[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"]
     },
     {
         "name": "Siege",
         "movementType": "Land",
-        "uniques": ["[-57]% Strength <vs [Land] units> <when attacking>","[-57]% Strength <vs [Water] units> <when attacking>"]
+        "uniques": ["[-46]% Strength <vs [Land] units> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"]
     },
     {
         "name": "Light Cavalry",

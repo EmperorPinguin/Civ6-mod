@@ -136,11 +136,11 @@
 	// Resource-specific
 	{
 		"name": "Camp",
-		"resourceTerrainAllow": ["Woods","Marsh","Rainforest"],
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
+"Can only be built to improve a resource",
 "[+1 Food, +1 Production] <after adopting [Mercantilism]>",
 "[+2 Gold] <after discovering [Synthetic Materials]>",
 "Does not need removal of [Woods]",
@@ -155,6 +155,7 @@
 		"turnsToBuild": 9,
 		"techRequired": "Refining"
 		"uniques": [
+"Can only be built to improve a resource",
 "[+1 Production] <after discovering [Predictive Systems]>"
 ],
 	},
@@ -164,6 +165,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
+"Can only be built to improve a resource"
 "[+1 Food] <after discovering [Stirrups]>",
 "[+1 Production] for each adjacent [Outback Station] <after discovering [Steam Power]>",
 "[+1 Production] <after discovering [Replaceable Parts]>",
@@ -172,11 +174,11 @@
 	},
 	{
 		"name": "Plantation",
-		"resourceTerrainAllow": ["Woods","Rainforest"],
 		"turnsToBuild": 6,
 		"gold": 2,
 		"techRequired": "Irrigation",
 		"uniques": [
+"Can only be built to improve a resource",
 "[+1 Food] <after adopting [Feudalism]>",
 "[+1 Food] <after discovering [Scientific Theory]>",
 "[+2 Gold] <after adopting [Globalization]>",
@@ -191,11 +193,11 @@
 	},
 	{
 		"name": "Quarry",
-		"resourceTerrainAllow": ["Hill", "Grassland", "Plains", "Desert", "Tundra"],
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Mining",
 		"uniques": [
+"Can only be built to improve a resource",
 "[+1 Production] <after discovering [Gunpowder]>",
 "[+1 Production] <after discovering [Rocketry]>",
 "[+1 Production] <after discovering [Predictive Systems]>"
@@ -204,11 +206,11 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"resourceTerrainAllow": ["Coast","Lakes","Reef"],
 		"turnsToBuild": "6",
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": [
+"Can only be built to improve a resource",
 "[+2 Gold] <after discovering [Cartography]>",
 "[+1 Production] <after adopting [Colonialism]>",
 "[+1 Food] <after discovering [Plastics]>",
