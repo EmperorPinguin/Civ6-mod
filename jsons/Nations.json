@@ -2024,8 +2024,8 @@
 	//Barbarian
 	{
 		"name": "Barbarians",
-		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
+		"outerColor": [202,20,21],
+		"innerColor": [24,24,24],
 		"uniques": ["Can only heal by pillaging"]
 	}
 
