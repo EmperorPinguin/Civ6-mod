@@ -663,6 +663,355 @@
 		"requiredTech": "Composites",
 		"attackSound": "shot"
 	},
+//Light Cavalry
+	{
+		"name": "Horseman",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 36,
+		"cost": 80,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Castles",
+		"requiredResource": "Horses",
+		"upgradesTo": "Courser",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Courser",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 52,
+		"cost": 200,
+		"requiredTech": "Castles",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Black Army",
+		"uniqueTo": "Hungary",
+		"replaces": "Courser",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 58,
+		"cost": 205,
+		"requiredTech": "Castles",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Oromo Cavalry",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Courser",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 56,
+		"cost": 200,
+		"requiredTech": "Castles",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Double movement in [Hill]","[+1] Sight"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 93,
+		"cost": 330,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Synthetic Materials",
+		"requiredResource": "Horses",
+		"upgradesTo": "Helicopter",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cossack",
+		"uniqueTo": "Russia",
+		"replaces": "Cavalry",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 112,
+		"cost": 340,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Synthetic Materials",
+		"requiredResource": "Horses",
+		"upgradesTo": "Helicopter",
+		"uniques": ["[+33]% Strength <when fighting in [Friendly Land] tiles>","Can move after attacking"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Huszar",
+		"uniqueTo": "Hungary",
+		"replaces": "Cavalry",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 104,
+		"cost": 335,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Synthetic Materials",
+		"requiredResource": "Horses",
+		"upgradesTo": "Helicopter",
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Llanero",
+		"uniqueTo": "Gran Colombia",
+		"replaces": "Cavalry",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 93,
+		"cost": 330,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Synthetic Materials",
+		"requiredResource": "Horses",
+		"upgradesTo": "Helicopter",
+		"uniques": ["[+40]% Strength <when adjacent to a [Llanero] unit>","[-60]% maintenance costs"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Malon Raider",
+		"uniqueTo": "The Mapuche",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 72,
+		"cost": 230,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["[+33]% Strength <when fighting in [Foreign Land] tiles>","No movement cost to pillage"],
+		"attackSound": "horse"
+	},
+{
+		"name": "Mountie",
+		"uniqueTo": "Canada",
+		"unitType": "Light Cavalry",
+		"movement": 5,
+		"strength": 93,
+		"cost": 290,
+		"uniques": ["Only available <after adopting [Conservation]>","[+2 Sight]","[+33]% Strength <within [2] tiles of a [Preserve]>","Can construct [Preserve]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Helicopter",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 224,
+		"cost": 600,
+		"requiredTech": "Synthetic Materials",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+1] Sight","All tiles cost 1 movement"],
+		"attackSound": "machinegun"
+	},
+//Heavy Cavalry
+	{
+		"name": "War-Cart",
+		"uniqueTo": "Sumeria",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 29,
+		"cost": 55,
+		"uniques": ["[+67]% Strength <vs [Anti-Cavalry] units>", "[+1] Movement <in [Open terrain] tiles>"],
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Stirrups",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hetairoi",
+		"uniqueTo": "Macedon",
+		"replaces": "Horseman",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 36,
+		"cost": 100,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Castles",
+		"requiredResource": "Horses",
+		"upgradesTo": "Courser",
+		"promotions": ["Charge"],
+		"uniques": ["[Great General] is earned [100]% faster", "[+33]% Strength when stacked with [Great General] <when attacking>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Heavy Chariot",
+		"unitType": "Heavy Cavalry",
+		"movement": 2,
+		"strength": 27,
+		"cost": 65,
+		"requiredTech": "Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Stirrups",
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Varu",
+		"uniqueTo": "India",
+		"unitType": "Heavy Cavalry",
+		"movement": 2,
+		"strength": 42,
+		"cost": 120,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Tank",
+		"uniques": ["[-25]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Winged Hussar",
+		"uniqueTo": "Poland",
+		"replaces": "Cuirassier",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 100,
+		"cost": 330,
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Iron",
+		"upgradesTo": "Tank",
+		"uniques": ["Only available <after adopting [Mercantilism]>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 60,
+		"cost": 220,
+		"requiredTech": "Stirrups",
+		"obsoleteTech": "Ballistics",
+		"requiredResource": "Iron",
+		"upgradesTo": "Cuirassier",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Mamluk",
+		"uniqueTo": "Arabia",
+		"replaces": "Knight",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 60,
+		"cost": 220,
+		"requiredTech": "Stirrups",
+		"obsoleteTech": "Ballistics",
+		"requiredResource": "Iron",
+		"upgradesTo": "Cuirassier",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Mandekalu Cavalry",
+		"uniqueTo": "Mali",
+		"replaces": "Knight",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 72,
+		"cost": 220,
+		"requiredTech": "Stirrups",
+		"obsoleteTech": "Ballistics",
+		"requiredResource": "Iron",
+		"upgradesTo": "Cuirassier",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Tagma",
+		"uniqueTo": "Byzantium",
+		"replaces": "Knight",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 60,
+		"cost": 220,
+		"obsoleteTech": "Ballistics",
+		"requiredResource": "Iron",
+		"upgradesTo": "Cuirassier",
+		"uniques": ["Only available <after adopting [Divine Right]>","[+27]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Rough Rider",
+		"uniqueTo": "America",
+		"unitType": "Heavy Cavalry",
+		"movement": 5,
+		"strength": 112,
+		"cost": 385,
+		"requiredTech": "Ballistics",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Tank",
+		"uniques": ["[+67]% <when fighting in [Hill] tiles>","Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>","[-60]% maintenance costs"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cuirassier",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 100,
+		"cost": 330,
+		"requiredTech": "Ballistics",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Iron",
+		"upgradesTo": "Tank",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Tank",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 216,
+		"cost": 480,
+		"requiredTech": "Combustion",
+		"obsoleteTech": "Composites",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 312,
+		"cost": 680,
+		"requiredTech": "Composites",
+		"requiredResource": "Oil",
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
+		"attackSound": "shot"
+	},
+//GDR
+	{
+		"name": "Giant Death Robot",
+		"unitType": "GDR",
+		"movement": 5,
+		"interceptRange": 3,
+		"range": 3,
+		"strength": 1123,
+		"rangedStrength": 779,
+		"cost": 1500,
+		"requiredTech": "Robotics",
+		"requiredResource": "Uranium",
+		"uniques": ["[+1] Sight","[100]% chance to intercept air attacks","[-73]% Damage when intercepting","[-100]% XP gained from combat"],
+		"attackSound": "gdrAttack"
+	},
+//Siege
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 35,
+		"cost": 120,
+		"requiredTech": "Engineering",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Bombard",
+		"uniques": ["Must set up to ranged attack"],
+		"attackSound": "throw"
+	},
+
+
 
 
 
@@ -714,18 +1063,6 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Heavy Chariot",
-		"unitType": "Heavy Cavalry",
-		"movement": 3,
-		"strength": 28,
-		"cost": 65,
-		"requiredTech": "Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Stirrups",
-		"uniques": ["[+1] Movement <in [Open terrain] tiles>", "Ignores Zone of Control"],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Maryannu Chariot Archer",
 		"uniqueTo": "Egypt",
 		"unitType": "Heavy Cavalry",
@@ -739,18 +1076,7 @@
 		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control", "Penalty vs City 57%","Penalty vs water units 57%"],
 		"attackSound": "arrow"
 	},
-	{
-		"name": "War-Cart",
-		"uniqueTo": "Sumeria",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 30,
-		"cost": 55,
-		"uniques": ["[+15]% Strength <vs [Armor] units>", "[+1] Movement <in [Open terrain] tiles>", "Ignores Zone of Control"],
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Stirrups",
-		"attackSound": "horse"
-	},
+
 	// Classical Era 
 	{
 		"name": "Saka Horse Archer",
@@ -767,62 +1093,8 @@
 		"uniques": ["Penalty vs City 57%","Penalty vs water units 57%"],
 		"attackSound": "arrow"
 	},
-	{
-		"name": "Horseman",
-		"unitType": "Light Cavalry",
-		"movement": 4,
-		"strength": 36,
-		"cost": 80,
-		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Castles",
-		"requiredResource": "Horses",
-		"upgradesTo": "Courser",
-		"uniques": ["Ignores Zone of Control"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Hetairoi",
-		"uniqueTo": "Macedon",
-		"replaces": "Horseman",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 40,
-		"cost": 100,
-		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Castles",
-		"requiredResource": "Horses",
-		"upgradesTo": "Courser",
-		"promotions": ["Charge"],
-		"uniques": ["[Great General] is earned [50]% faster", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", 
-			"Ignores Zone of Control"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Varu",
-		"uniqueTo": "India",
-		"unitType": "Heavy Cavalry",
-		"movement": 2,
-		"strength": 40,
-		"cost": 120,
-		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Tank",
-		"uniques": ["[+1] Sight","-10% combat strength for adjacent enemy units"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Catapult",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 23,
-		"rangedStrength": 35,
-		"cost": 120,
-		"requiredTech": "Engineering",
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Bombard",
-		"uniques": ["Must set up to ranged attack"],
-		"attackSound": "throw"
-	},
+
+
 	{
 		"name": "Quadrireme",
 		"unitType": "Naval Ranged",
@@ -870,117 +1142,7 @@
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Artillery"
 	},
-	{
-		"name": "Courser",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 44,
-		"cost": 200,
-		"requiredTech": "Castles",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Oromo Cavalry",
-		"uniqueTo": "Ethiopia",
-		"replaces": "Courser",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 46,
-		"cost": 200,
-		"requiredTech": "Castles",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"uniques": ["Double movement in [Hill]","[+1] Sight"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Black Army",
-		"uniqueTo": "Hungary",
-		"replaces": "Courser",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 47,
-		"cost": 205,
-		"requiredTech": "Castles",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"uniques": ["-10% combat strength for adjacent enemy units"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Knight",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 48,
-		"cost": 220,
-		"requiredTech": "Stirrups",
-		"obsoleteTech": "Ballistics",
-		"requiredResource": "Iron",
-		"upgradesTo": "Cuirassier",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Tagma",
-		"uniqueTo": "Byzantium",
-		"replaces": "Knight",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 48,
-		"cost": 220,
-		"obsoleteTech": "Ballistics",
-		"requiredResource": "Iron",
-		"upgradesTo": "Cuirassier",
-		"uniques": ["Bonus for units in 2 tile radius 15%","Only available <after adopting [Divine Right]>"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Mamluk",
-		"uniqueTo": "Arabia",
-		"replaces": "Knight",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 48,
-		"cost": 220,
-		"requiredTech": "Stirrups",
-		"obsoleteTech": "Ballistics",
-		"requiredResource": "Iron",
-		"upgradesTo": "Cuirassier",
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Mandekalu Cavalry",
-		"uniqueTo": "Mali",
-		"replaces": "Knight",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 49,
-		"cost": 220,
-		"requiredTech": "Stirrups",
-		"obsoleteTech": "Ballistics",
-		"requiredResource": "Iron",
-		"upgradesTo": "Cuirassier",
-		"uniques": ["Heals [25] damage if it kills a unit"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Winged Hussar",
-		"uniqueTo": "Poland",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 64,
-		"cost": 330,
-		"obsoleteTech": "Ballistics",
-		"requiredResource": "Iron",
-		"upgradesTo": "Cuirassier",
-		"uniques": ["[+15]% Strength <when attacking>","Only available <after adopting [Mercantilism]>"],
-		"attackSound": "horse"
-	},
+
 	{
 		"name": "Keshig",
 		"uniqueTo": "Mongolia",
@@ -1065,20 +1227,6 @@
 		"upgradesTo": "Submarine",
 		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
-	},
-	{
-		"name": "Malon Raider",
-		"uniqueTo": "The Mapuche",
-		"unitType": "Light Cavalry",
-		"movement": 4,
-		"strength": 55,
-		"cost": 250,
-		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Synthetic Materials",
-		"requiredResource": "Iron",
-		"upgradesTo": "Helicopter",
-		"uniques": ["No movement cost to pillage","[+15]% Strength <when attacking>"],
-		"attackSound": "horse"
 	},
 	{
 		"name": "Frigate",
@@ -1177,87 +1325,8 @@
 		"uniques": ["All adjacent units heal [+15] HP when healing"],
 	},
 
-	{
-		"name": "Cavalry",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 62,
-		"cost": 330,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Synthetic Materials",
-		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Cossack",
-		"uniqueTo": "Russia",
-		"replaces": "Cavalry",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 70,
-		"cost": 340,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Synthetic Materials",
-		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
-		"uniques": ["Can move after attacking"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Huszar",
-		"uniqueTo": "Hungary",
-		"replaces": "Cavalry",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 71,
-		"cost": 335,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Synthetic Materials",
-		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Llanero",
-		"uniqueTo": "Gran Colombia",
-		"replaces": "Cavalry",
-		"unitType": "Light Cavalry",
-		"movement": 5,
-		"strength": 62,
-		"cost": 310,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Synthetic Materials",
-		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
-		"uniques": ["Heals [30] damage if it kills a unit"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Cuirassier",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 64,
-		"cost": 330,
-		"requiredTech": "Ballistics",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Iron",
-		"upgradesTo": "Tank",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Rough Rider",
-		"uniqueTo": "America",
-		"unitType": "Heavy Cavalry",
-		"movement": 4,
-		"strength": 67,
-		"cost": 385,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Composites",
-		"upgradesTo": "Modern Armor",
-		"uniques": ["+[33]% combat bonus in [Hill]"],
-		"attackSound": "horse"
-	},
+
+
 
 
 
@@ -1348,29 +1417,7 @@
 		"uniques": ["+[33]% combat bonus in [Ocean]","[+2] Sight"],
 		"attackSound": "shot"
 	},
-	{
-		"name": "Tank",
-		"unitType": "Heavy Cavalry",
-		"movement": 5,
-		"strength": 80,
-		"cost": 330,
-		"requiredTech": "Combustion",
-		"obsoleteTech": "Composites",
-		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Mountie",
-		"uniqueTo": "Canada",
-		"unitType": "Anti-Cavalry",
-		"movement": 5,
-		"strength": 60,
-		"cost": 400,
-		"requiredTech": "Replaceable Parts",
-		//"uniques": ["+[33]% combat bonus in [Preserve]","Can construct [Preserve]"],
-		"attackSound": "horse"
-	},
+	
 
 	// Atomic Era
       {
@@ -1476,17 +1523,7 @@
 		"uniques": ["Can attack submarines","[100]% chance to intercept air attacks","Bonus vs air units 12%","[+1] Sight"],
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Helicopter",
-		"unitType": "Light Cavalry",
-		"movement": 4,
-		"strength": 82,
-		"cost": 600,
-		"requiredTech": "Synthetic Materials",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+1] Sight","All tiles costs 1"],
-		"attackSound": "machinegun"
-	},
+
 
 	// Information Era
 	
@@ -1554,16 +1591,7 @@
 		"uniques": ["Bonus vs air units 50%"],
 		"attackSound": "shot"
 	},
-	{
-		"name": "Modern Armor",
-		"unitType": "Heavy Cavalry",
-		"movement": 5,
-		"strength": 90,
-		"cost": 680,
-		"requiredTech": "Composites",
-		"requiredResource": "Oil",
-		"attackSound": "shot"
-	},
+
 	{
 		"name": "Jet Bomber",
 		"unitType": "Air Bomber",
@@ -1576,20 +1604,6 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[+4] Sight", "Can see over obstacles","Only available <if [Aerodrome] is constructed>"],
 		"attackSound": "shot"
-	},
-	{
-		"name": "Giant Death Robot",
-		"unitType": "GDR",
-		"movement": 5,
-		"interceptRange": 3,
-		"range": 3,
-		"strength": 130,
-		"rangedStrength": 120,
-		"cost": 1500,
-		"requiredTech": "Robotics",
-		"requiredResource": "Uranium",
-		"uniques": ["[100]% chance to intercept air attacks"],
-		"attackSound": "machinegun"
 	},
 	{
 		"name": "Nuclear Missile",

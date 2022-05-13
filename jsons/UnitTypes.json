@@ -27,11 +27,13 @@
     },
     {
         "name": "Light Cavalry",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Ignores Zone of Control"],
     },
     {
         "name": "Heavy Cavalry",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Ignores Zone of Control"],
     },
     {
         "name": "Recon",
@@ -52,7 +54,7 @@
     {
         "name": "Naval Raider",
         "movementType": "Water",
-        "uniques": ["Invisible to non-adjacent units"]
+        "uniques": ["Invisible to non-adjacent units","Ignores Zone of Control"]
     },
     {
         "name": "Naval Carrier",

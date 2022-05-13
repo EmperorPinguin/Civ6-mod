@@ -609,7 +609,7 @@
 	},
 	{
 		"name": "Particle Beam Siege Cannon", // GDR
-		"uniques": ["[+100]% Strength"]
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>"]
 	},
 	{
 		"name": "Enhanced Mobility", // GDR
