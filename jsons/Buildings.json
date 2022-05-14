@@ -1029,10 +1029,13 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
     },
     {
         "name": "Aerodrome",
-        "isNationalWonder": true,
         "cost": 54,
         "uniques": [
-"Enables construction of Aircraft"
+"Enables construction of Aircraft",
+"Must not be on [Hill]",
+"Unsellable",
+"Cannot be purchased",
+"Never destroyed when city is captured",
 ],
         "requiredTech": "Flight"
     },
@@ -1043,6 +1046,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "uniques": [
 "Must not be on [Hill]",
 "Enables construction of Spaceship parts"
+"Unsellable",
+"Cannot be purchased",
+"Never destroyed when city is captured",
 ],
         "requiredTech": "Rocketry"
     },

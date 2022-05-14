@@ -67,12 +67,12 @@
     {
         "name": "Air Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft","[100]% chance to intercept air attacks","Can see over obstacles"]
+        "uniques": ["Aircraft","[100]% chance to intercept air attacks","Can see over obstacles", "Only available <in cities with a [Aerodrome]>"]
     },
     {
         "name": "Air Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft","Can see over obstacles"]
+        "uniques": ["Aircraft","Can see over obstacles", "Only available <in cities with a [Aerodrome]>"]
     },
     {
         "name": "Nuclear Device",
