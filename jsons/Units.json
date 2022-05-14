@@ -1585,7 +1585,7 @@
 		"name": "Nuclear Device",
 		"unitType": "Nuclear Device",
 		"movement": 1,
-		"strength": 1000,
+		"strength": 800,
 		"rangedStrength": 1000,
 		"range": 12,
 		"cost": 1000,

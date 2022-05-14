@@ -194,22 +194,22 @@ Mekewap:
 				"column": 33
 			},
 			{
-				"name": "Cultural Heritage",
+				"name": "Capitalism",
 				"uniques": [
 "Policies enabled:
-* Heritage Tourism
-Wonders enabled:
-* Sydney Opera House
-Shipwreck: 
-* Revealed on the map
-Mission:
-* +2 Science ",
+* Market Economy:
+* Laissez-Faire
+Policies Obsolete:
+* Trade Confederation
+* Traveling Merchants
+Buildings enabled:
+* Shopping Mall ",
 "[3] free [Envoy] units appear",
 ],
-				"requires": ["Conservation"],
+				"requires": ["Mass Media"],
 				"row": 1,
 				"column": 35
-			},	
+			},
 			{
 				"name": "Suffrage",
 				"uniques": [
@@ -232,22 +232,22 @@ Policies obsolete:
 				"column": 37
 			},
 			{
-				"name": "Capitalism",
+				"name": "Cultural Heritage",
 				"uniques": [
 "Policies enabled:
-* Market Economy:
-* Laissez-Faire
-Policies Obsolete:
-* Trade Confederation
-* Traveling Merchants
-Buildings enabled:
-* Shopping Mall ",
+* Heritage Tourism
+Wonders enabled:
+* Sydney Opera House
+Shipwreck: 
+* Revealed on the map
+Mission:
+* +2 Science ",
 "[3] free [Envoy] units appear",
 ],
-				"requires": ["Mass Media"],
+				"requires": ["Conservation"],
 				"row": 1,
 				"column": 39
-			},
+			},	
 			{
 				"name": "Rapid Deployment",
 				"uniques": [
