@@ -16,6 +16,10 @@
         "uniques": ["[+33]% Strength <vs [Anti-Mounted] units>"]
     },
     {
+        "name": "Warrior Monk",
+        "movementType": "Land",
+    },
+    {
         "name": "Land Ranged",
         "movementType": "Land",
         "uniques": ["[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"]
@@ -54,7 +58,7 @@
     {
         "name": "Naval Raider",
         "movementType": "Water",
-        "uniques": ["Invisible to non-adjacent units","Ignores Zone of Control"]
+        "uniques": ["Invisible to non-adjacent units","Can see invisible [Naval Raider] units","Ignores Zone of Control"]
     },
     {
         "name": "Naval Carrier",
@@ -63,22 +67,22 @@
     {
         "name": "Air Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+        "uniques": ["Aircraft","[100]% chance to intercept air attacks","Can see over obstacles"]
     },
     {
         "name": "Air Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft","Can see over obstacles"]
     },
     {
         "name": "Nuclear Device",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Missile","Self-destructs when attacking","Cannot be intercepted","[+200]% maintenance costs","Only available <if [Manhattan Project] is constructed>"]
     },
     {
         "name": "Thermonuclear Device",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Missile","Self-destructs when attacking","Cannot be intercepted","[+200]% maintenance costs","Only available <if [Manhattan Project] is constructed>"]
     },
     {
         "name": "GDR",

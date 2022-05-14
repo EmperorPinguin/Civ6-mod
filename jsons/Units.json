@@ -1,6 +1,6 @@
 [
 
-// Info according to https://www.civilopedia.net/en-US/gathering-storm (%bonus = bonus/30)
+// Info according to https://www.civilopedia.net/en-US/gathering-storm (%bonus = bonus/15)
 
 	// Diplomatic units
 	{
@@ -49,8 +49,7 @@
 		"movement": 2,
 		"cost": 40,
 		"requiredResource": "Trade Route",
-		"uniques": ["Can construct [Trade Route (Domestic)]","Can construct [Trade Route (International)]",
-			"Trade Routes on Coastal cities provide +3 yield","Only available <after adopting [Foreign Trade]>"]
+		"uniques": ["Can construct [Trade Route (Domestic)]","Can construct [Trade Route (International)]","Trade Routes on Coastal cities provide +3 yield","Only available <after adopting [Foreign Trade]>"]
 	},
 */
 
@@ -794,7 +793,7 @@
 		"movement": 5,
 		"strength": 93,
 		"cost": 290,
-		"uniques": ["Only available <after adopting [Conservation]>","[+2 Sight]","[+33]% Strength <within [2] tiles of a [Preserve]>","Can construct [Preserve]"],
+		"uniques": ["Only available <after adopting [Conservation]>","[+2] Sight","[+33]% Strength <within [2] tiles of a [Preserve]>","Can construct [Preserve]"],
 		"attackSound": "horse"
 	},
 	{
@@ -860,7 +859,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Tank",
 		"uniques": ["[-25]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"attackSound": "horse"
+		"attackSound": "elephant"
 	},
 	{
 		"name": "Winged Hussar",
@@ -935,6 +934,7 @@
 	{
 		"name": "Rough Rider",
 		"uniqueTo": "America",
+		"replaces": "Cavalry",
 		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 112,
@@ -942,7 +942,7 @@
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Tank",
-		"uniques": ["[+67]% <when fighting in [Hill] tiles>","Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>","[-60]% maintenance costs"],
+		"uniques": ["[+67]% Strength <when fighting in [Hill] tiles>","Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>","[-60]% maintenance costs"],
 		"attackSound": "horse"
 	},
 	{
@@ -968,7 +968,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
-		"attackSound": "shot"
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Modern Armor",
@@ -979,7 +979,51 @@
 		"requiredTech": "Composites",
 		"requiredResource": "Oil",
 		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
-		"attackSound": "shot"
+		"attackSound": "tankshot"
+	},
+//Ranged Cavalry
+	{
+		"name": "Keshig",
+		"uniqueTo": "Mongolia",
+		"unitType": "Land Ranged",
+		"movement": 4,
+		"strength": 35,
+		"rangedStrength": 50,
+		"cost": 160,
+		"requiredTech": "Stirrups",
+		"obsoleteTech": "Ballistics",
+		"upgradesTo": "Field Cannon",
+		"uniques": ["Ignores Zone of Control"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Saka Horse Archer",
+		"uniqueTo": "Scythia",
+		"unitType": "Land Ranged",
+		"movement": 4,
+		"range": 1,
+		"strength": 17,
+		"rangedStrength": 24,
+		"cost": 50,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Ignores Zone of Control"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Maryannu Chariot Archer",
+		"uniqueTo": "Egypt",
+		"unitType": "Land Ranged",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 35,
+		"cost": 90,
+		"requiredTech": "Wheel",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control", "Penalty vs City 57%","Penalty vs water units 57%"],
+		"attackSound": "arrow"
 	},
 //GDR
 	{
@@ -1005,45 +1049,99 @@
 		"rangedStrength": 35,
 		"cost": 120,
 		"requiredTech": "Engineering",
+		"obsoleteTech": "Military Engineering",
+		"upgradesTo": "Bombard",
+		"uniques": ["Must set up to ranged attack"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 50,
+		"cost": 200,
+		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bombard",
 		"uniques": ["Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
-
-
-
-
-
-
-
-
-//Complete until here
-
-
+	{
+		"name": "Domrey",
+		"uniqueTo": "The Khmer",
+		"replaces": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 42,
+		"rangedStrength": 60,
+		"cost": 200,
+		"requiredTech": "Military Engineering",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Artillery",
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Bombard",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 72,
+		"cost": 280,
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Niter",
+		"upgradesTo": "Artillery",
+		"uniques": ["Must set up to ranged attack"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 87,
+		"rangedStrength": 180,
+		"cost": 430,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Guidance Systems",
+		"requiredResource": "Oil",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": ["Must set up to ranged attack"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 3,
+		"range": 3,
+		"strength": 125,
+		"rangedStrength": 374,
+		"cost": 680,
+		"requiredTech": "Guidance Systems",
+		"requiredResource": "Oil",
+		"uniques": ["[+1] Sight","Must set up to ranged attack"],
+		"attackSound": "artillery"
+	},
+//Warrior Monk
+	{
+		"name": "Warrior Monk",
+		"unitType": "Warrior Monk",
+		"movement": 3,
+		"strength": 42,
+		"cost": -1,
+		"uniques": ["Unbuildable"],
+		"religiousStrength": 1000,
+		"attackSound": "nonmetalhit"
+	},
+//Naval Melee
 	{
 		"name": "Galley",
 		"unitType": "Naval Melee",
 		"movement": 3,
-		"strength": 30,
+		"strength": 29,
 		"cost": 65,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Cartography",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Viking Longship",
-		"uniqueTo": "Norway",
-		"replaces": "Galley",
-		"unitType": "Naval Melee",
-		"movement": 3,
-		"strength": 35,
-		"cost": 65,
-		"requiredTech": "Sailing",
-		"uniques": ["[+1] Movement <in [Coast] tiles>", "Ignores Zone of Control", 
-			"Cannot enter ocean tiles <before discovering [Shipbuilding]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -1063,45 +1161,64 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Maryannu Chariot Archer",
-		"uniqueTo": "Egypt",
-		"unitType": "Heavy Cavalry",
+		"name": "Viking Longship",
+		"uniqueTo": "Norway",
+		"replaces": "Galley",
+		"unitType": "Naval Melee",
 		"movement": 3,
-		"strength": 25,
-		"rangedStrength": 35,
-		"cost": 120,
-		"requiredTech": "Wheel",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control", "Penalty vs City 57%","Penalty vs water units 57%"],
-		"attackSound": "arrow"
+		"strength": 35,
+		"cost": 65,
+		"requiredTech": "Sailing",
+		"uniques": ["[+1] Movement <in [Coast] tiles>", "Ignores Zone of Control","Eliminates combat penalty for attacking across a coast","Cannot enter ocean tiles <before discovering [Shipbuilding]>"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Cartography",
+		"attackSound": "nonmetalhit"
 	},
-
-	// Classical Era 
 	{
-		"name": "Saka Horse Archer",
-		"uniqueTo": "Scythia",
-		"unitType": "Land Ranged",
+		"name": "Caravel",
+		"unitType": "Naval Melee",
 		"movement": 4,
-		"range": 1,
-		"strength": 15,
-		"rangedStrength": 25,
-		"cost": 50,
-		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Ballistics",
-		"upgradesTo": "Field Cannon",
-		"uniques": ["Penalty vs City 57%","Penalty vs water units 57%"],
-		"attackSound": "arrow"
+		"strength": 72,
+		"cost": 240,
+		"requiredTech": "Cartography",
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Ironclad",
+		"uniques": ["[+1] Sight"],
+		"attackSound": "cannon"
 	},
-
-
+	{
+		"name": "Ironclad",
+		"unitType": "Naval Melee",
+		"movement": 5,
+		"strength": 125,
+		"cost": 380,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Destroyer",
+		"requiredResource": "Coal",
+		"uniques": ["[+1] Sight"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Naval Melee",
+		"movement": 4,
+		"interceptRange": 2,
+		"strength": 216,
+		"cost": 540,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"uniques": ["[+1] Sight","Can see invisible [Naval Raider] units","[100]% chance to intercept air attacks","[+33]% Strength <vs [Air] units>"],
+		"attackSound": "shipguns"
+	},
+//Naval Ranged
 	{
 		"name": "Quadrireme",
 		"unitType": "Naval Ranged",
 		"movement": 3,
 		"range": 1,
 		"strength": 20,
-		"rangedStrength": 25,
+		"rangedStrength": 24,
 		"cost": 120,
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
@@ -1117,129 +1234,27 @@
 		"movement": 3,
 		"range": 2,
 		"strength": 20,
-		"rangedStrength": 25,
+		"rangedStrength": 24,
 		"cost": 120,
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
-		"uniques": ["[+33]% Strength <vs [Land] units>", "[+33]% Strength <vs [Water] units>",
-			"Cannot enter ocean tiles <before discovering [Cartography]>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>","[+67]% Strength <vs [Land] units>","[+67]% Strength <vs [Water] units>"],
 		"attackSound": "arrow"
-	},
-
-	// Medieval Era
-
-
-	{
-		"name": "Domrey",
-		"uniqueTo": "The Khmer",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 33,
-		"rangedStrength": 45,
-		"cost": 220,
-		"requiredTech": "Military Engineering",
-		"obsoleteTech": "Steel",
-		"upgradesTo": "Artillery"
-	},
-
-	{
-		"name": "Keshig",
-		"uniqueTo": "Mongolia",
-		"unitType": "Land Ranged",
-		"movement": 4,
-		"strength": 33,
-		"rangedStrength": 40,
-		"cost": 180,
-		"requiredTech": "Stirrups",
-		"obsoleteTech": "Ballistics",
-		"upgradesTo": "Field Cannon",
-		"uniques": ["Penalty vs City 57%","Penalty vs water units 57%"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Jong",
-		"uniqueTo": "Indonesia",
-		"replaces": "Frigate",
-		"unitType": "Naval Ranged",
-		"movement": 5,
-		"strength": 45,
-		"rangedStrength": 55,
-		"cost": 300,
-		"obsoleteTech": "Steel",
-		"upgradesTo": "Battleship",
-		"uniques": ["Only available <after adopting [Mercenaries]>", "Transfer Movement to [Civilian]", 
-			"[+15]% Strength <when adjacent to a [Jong] unit>"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Barbary Corsair",
-		"uniqueTo": "The Ottomans",
-		"replaces": "Privateer",
-		"unitType": "Naval Raider",
-		"movement": 4,
-		"strength": 40,
-		"rangedStrength": 50,
-		"cost": 240,
-		"obsoleteTech": "Electricity",
-		"upgradesTo": "Submarine",
-		"uniques": ["No movement cost to pillage", "Never appears as a Barbarian unit",
-			"Only available <after adopting [Medieval Faires]>"],
-		"attackSound": "shot"
-	},
-
-	// Renaissance Era
-
-	{
-		"name": "Caravel",
-		"unitType": "Naval Melee",
-		"movement": 4,
-		"strength": 55,
-		"cost": 240,
-		"requiredTech": "Cartography",
-		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Ironclad",
-		"uniques": ["[+1] Sight"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Privateer",
-		"unitType": "Naval Raider",
-		"movement": 4,
-		"strength": 40,
-		"rangedStrength": 50,
-		"cost": 280,
-		"obsoleteTech": "Electricity",
-		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Sea Dog",
-		"uniqueTo": "England",
-		"replaces": "Privateer",
-		"unitType": "Naval Raider",
-		"movement": 4,
-		"strength": 40,
-		"rangedStrength": 50,
-		"cost": 240,
-		"obsoleteTech": "Electricity",
-		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
 	},
 	{
 		"name": "Frigate",
 		"unitType": "Naval Ranged",
 		"movement": 4,
-		"strength": 45,
-		"rangedStrength": 55,
+		"strength": 50,
+		"range": 2,
+		"rangedStrength": 72,
 		"cost": 280,
 		"requiredTech": "Square Rigging",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Niter",
 		"upgradesTo": "Battleship",
-		"attackSound": "shot"
+		"attackSound": "cannon"
 	},
 	{
 		"name": "De Zeven Provincien",
@@ -1247,55 +1262,45 @@
 		"replaces": "Frigate",
 		"unitType": "Naval Ranged",
 		"movement": 4,
-		"strength": 50,
-		"rangedStrength": 60,
+		"strength": 60,
+		"rangedStrength": 87,
 		"cost": 280,
 		"requiredTech": "Square Rigging",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Niter",
 		"upgradesTo": "Battleship",
-		"uniques": ["Bonus vs City 23%"],
+		"uniques": ["[+47]% Strength <vs cities>"],
 		"attackSound": "shot"
 	},
 	{
-		"name": "Bombard",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 43,
-		"rangedStrength": 55,
-		"cost": 280,
-		"requiredTech": "Metal Casting",
+		"name": "Jong",
+		"uniqueTo": "Indonesia",
+		"replaces": "Frigate",
+		"unitType": "Naval Ranged",
+		"movement": 5,
+		"strength": 50,
+		"rangedStrength": 72,
+		"cost": 300,
 		"obsoleteTech": "Steel",
-		"requiredResource": "Niter",
-		"upgradesTo": "Artillery",
-		"uniques": ["Must set up to ranged attack"],
+		"upgradesTo": "Battleship",
+		"uniques": ["Only available <after adopting [Mercenaries]>", "Transfer Movement to [Civilian]","[+33]% Strength when stacked with [Civilian]"],
 		"attackSound": "shot"
 	},
-
-
-	// Industrial Era
-
 	{
-		"name": "Archaeologist",
-		"unitType": "Civilian",
-		"movement": 4,
-		"cost": 200,
-		"uniques": ["Constructing Archaeological Dig without Antiquity Site provides no yield",
-			"Can construct [Archaeological Dig]","Only available <after adopting [Natural History]>"],
-	},
-
-	{
-		"name": "Ironclad",
-		"unitType": "Naval Melee",
-		"movement": 6,
-		"strength": 70,
-		"cost": 380,
-		"requiredTech": "Steam Power",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Destroyer",
+		"name": "Battleship",
+		"unitType": "Naval Ranged",
+		"movement": 5,
+		"range": 3,
+		"interceptRange": 2,
+		"strength": 87,
+		"rangedStrength": 125,
+		"cost": 430,
+		"requiredTech": "Refining",
+		"obsoleteTech": "Lasers",
 		"requiredResource": "Coal",
-		"uniques": ["[+1] Sight"],
-		"attackSound": "metalhit"
+		"upgradesTo": "Missile Cruiser",
+		"uniques": ["[100]% chance to intercept air attacks","[+200]% Strength <vs [Air] units>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Minas Geraes",
@@ -1305,101 +1310,82 @@
 		"movement": 4,
 		"range": 3,
 		"interceptRange": 2,
-		"strength": 70,
-		"rangedStrength": 80,
+		"strength": 125,
+		"rangedStrength": 180,
 		"cost": 430,
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Coal",
 		"upgradesTo": "Missile Cruiser",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 30%","Only available <after adopting [Nationalism]>"],
+		"uniques": ["Only available <after adopting [Nationalism]>","[100]% chance to intercept air attacks","[+167]% Strength <vs [Air] units>"],
 		"attackSound": "shot"
 	},
 	{
-		"name": "Medic",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 370,
-		"requiredTech": "Sanitation",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Supply Convoy",
-		"uniques": ["All adjacent units heal [+15] HP when healing"],
-	},
-
-
-
-
-
-
-	// Modern Era
-
-      {
-		"name": "Observation Balloon",
-		"unitType": "Civilian",
-		"requiredTech": "Flight",
-		"obsoleteTech": "Computers",
-		"movement": 2,
-		"cost": 240,
-		"uniques": ["[+1] Sight", "Can see over obstacles"],
-	},
-	{
-		"name": "Biplane",
-		"unitType": "Air Fighter",
-		"movement": 1,
-		"range": 4,
-		"interceptRange": 4,
-		"strength": 80,
-		"rangedStrength": 75,
-		"cost": 430,
-		"requiredTech": "Flight", 
-		"obsoleteTech": "Advanced Flight",
-		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
-		"uniques": ["[100]% chance to intercept air attacks","[+2] Sight","Only available <if [Aerodrome] is constructed>"],
-		"attackSound": "shot"
-	},
-
-	{
-		"name": "Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 60,
-		"rangedStrength": 80,
-		"cost": 430,
-		"requiredTech": "Steel",
-		"obsoleteTech": "Guidance Systems",
-		"requiredResource": "Oil",
-		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Must set up to ranged attack"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Battleship",
+		"name": "Missile Cruiser",
 		"unitType": "Naval Ranged",
 		"movement": 5,
-		"range": 3,
 		"interceptRange": 3,
-		"strength": 60,
-		"rangedStrength": 70,
-		"cost": 430,
-		"requiredTech": "Refining",
-		"obsoleteTech": "Lasers",
-		"requiredResource": "Coal",
-		"upgradesTo": "Missile Cruiser",
-		"uniques": ["Bonus vs air units 50%"],
+		"range": 3,
+		"strength": 150,
+		"rangedStrength": 260,
+		"cost": 680,
+		"requiredTech": "Lasers",
+		"requiredResource": "Oil",
+		"uniques": ["[+1] Sight","Can carry [2] [Missile] units","[100]% chance to intercept air attacks","[+133]% Strength <vs [Air] units>"],
+		"attackSound": "shot"
+	},
+//Naval Raider
+	{
+		"name": "Privateer",
+		"unitType": "Naval Raider",
+		"movement": 4,
+		"strength": 42,
+		"rangedStrength": 60,
+		"cost": 280,
+		"obsoleteTech": "Electricity",
+		"upgradesTo": "Submarine",
+		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Barbary Corsair",
+		"uniqueTo": "The Ottomans",
+		"replaces": "Privateer",
+		"unitType": "Naval Raider",
+		"movement": 4,
+		"strength": 42,
+		"rangedStrength": 60,
+		"cost": 240,
+		"obsoleteTech": "Electricity",
+		"upgradesTo": "Submarine",
+		"uniques": ["Only available <after adopting [Medieval Faires]>","No movement cost to pillage","Never appears as a Barbarian unit","[-25]% maintenance costs"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sea Dog",
+		"uniqueTo": "England",
+		"replaces": "Privateer",
+		"unitType": "Naval Raider",
+		"movement": 4,
+		"strength": 42,
+		"rangedStrength": 72,
+		"cost": 240,
+		"obsoleteTech": "Electricity",
+		"upgradesTo": "Submarine",
+		"uniques": ["Only available <after adopting [Mercantilism]>","May capture killed [Water] units","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Submarine",
 		"unitType": "Naval Raider",
 		"movement": 3,
-		"strength": 65,
-		"rangedStrength": 75,
+		"strength": 104,
+		"rangedStrength": 150,
 		"cost": 480,
 		"requiredTech": "Electricity",
 		"obsoleteTech": "Telecommunications",
 		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Submarine",
-		"attackSound": "shot"
+		"attackSound": "torpedo"
 	},
 	{
 		"name": "U-Boat",
@@ -1407,43 +1393,71 @@
 		"replaces": "Submarine",
 		"unitType": "Naval Raider",
 		"movement": 3,
-		"strength": 65,
-		"rangedStrength": 75,
+		"strength": 104,
+		"rangedStrength": 150,
 		"cost": 430,
 		"requiredTech": "Electricity",
 		"obsoleteTech": "Telecommunications",
-		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["+[33]% combat bonus in [Ocean]","[+2] Sight"],
-		"attackSound": "shot"
+		"uniques": ["[+1] Sight", "[+67]% Strength <when fighting in [Ocean] tiles>"],
+		"attackSound": "torpedo"
 	},
-	
-
-	// Atomic Era
-      {
-		"name": "Drone",
-		"unitType": "Civilian",
-		"requiredTech": "Computers",
+	{
+		"name": "Nuclear Submarine",
+		"unitType": "Naval Raider",
+		"movement": 4,
+		"strength": 180,
+		"rangedStrength": 216,
+		"cost": 680,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Can carry [2] [Missile] units"],
+		"attackSound": "torpedo"
+		"requiredResource": "Uranium",
+		"attackSound": "torpedo"
+	},	
+//Naval Carrier
+	{
+		"name": "Aircraft Carrier",
+		"unitType": "Naval Carrier",
 		"movement": 3,
-		"cost": 420,
-		"uniques": ["[+2] Sight", "Can see over obstacles"],
+		"strength": 104
+		"cost": 540,
+		"requiredTech": "Combined Arms",
+		"uniques": ["Can carry [2] [Aircraft] units"],
+		"attackSound": "shipguns"
 	},
-
+//Air Fighter
+	{
+		"name": "Biplane",
+		"unitType": "Air Fighter",
+		"movement": 1,
+		"range": 4,
+		"interceptRange": 4,
+		"strength": 180,
+		"rangedStrength": 150,
+		"cost": 430,
+		"requiredTech": "Flight", 
+		"obsoleteTech": "Advanced Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"uniques": ["[+2] Sight"],
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Fighter",
 		"unitType": "Air Fighter",
 		"movement": 1,
 		"range": 5,
 		"interceptRange": 5,
-		"strength": 100,
-		"rangedStrength": 100,
+		"strength": 374,
+		"rangedStrength": 374,
 		"cost": 520,
 		"requiredTech": "Advanced Flight",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks","[+2] Sight","Only available <if [Aerodrome] is constructed>"],
-		"attackSound": "shot"
+		"uniques": ["[+2] Sight"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "P-51 Mustang",
@@ -1453,44 +1467,69 @@
 		"movement": 1,
 		"range": 5,
 		"interceptRange": 5,
-		"strength": 105,
-		"rangedStrength": 105,
+		"strength": 450,
+		"rangedStrength": 450,
 		"cost": 520,
 		"requiredTech": "Advanced Flight",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[50]% XP gained from combat","Bonus vs Fighter 10%","[100]% chance to intercept air attacks",
-			"[+2] Sight","Only available <if [Aerodrome] is constructed>"],
-		"attackSound": "shot"
+		"uniques": ["[+2] Sight","[+50]% XP gained from combat","[+33]% Strength <vs [Air Fighter] units>"],
+		"attackSound": "machinegun"
 	},
+	{
+		"name": "Jet Fighter",
+		"unitType": "Air Fighter",
+		"movement": 1,
+		"range": 6,
+		"interceptRange": 6,
+		"strength": 540,
+		"rangedStrength": 540,
+		"cost": 650,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+3] Sight"],
+		"attackSound": "bombing"
+	},
+//Air Bomber
 	{
 		"name": "Bomber",
 		"unitType": "Air Bomber",
 		"movement": 1,
 		"range": 10,
-		"strength": 85,
-		"rangedStrength": 110,
-		"cost": 540,
+		"strength": 216,
+		"rangedStrength": 540,
+		"cost": 560,
 		"requiredTech": "Advanced Flight",
 		"obsoleteTech": "Stealth Technology",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Bomber",
-		"uniques": ["[+2] Sight","Only available <if [Aerodrome] is constructed>"],
+		"uniques": ["[+2] Sight"],
 		"attackSound": "shot"
 	},
 	{
-		"name": "Anti-Air Gun",
-		"unitType": "Land Melee",
+		"name": "Jet Bomber",
+		"unitType": "Air Bomber",
+		"movement": 1,
+		"range": 15,
+		"strength": 260,
+		"rangedStrength": 779,
+		"cost": 700,
+		"requiredTech": "Stealth Technology",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+3] Sight"],
+		"attackSound": "shot"
+	},
+//Support
+	{
+		"name": "Medic",
+		"unitType": "Civilian",
 		"movement": 2,
-		"interceptRange": 2,
-		"strength": 45,
-		"cost": 500,
-		"requiredTech": "Advanced Ballistics",
-		"obsoleteTech": "Guidance Systems",
-		"upgradesTo": "Mobile SAM",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 200%"],
-		"attackSound": "machinegun"
+		"cost": 370,
+		"requiredTech": "Sanitation",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Supply Convoy",
+		"uniques": ["All adjacent units heal [+20] HP when healing"],
 	},
 	{
 		"name": "Supply Convoy",
@@ -1500,125 +1539,73 @@
 		"requiredTech": "Combustion",
 		"uniques": ["All adjacent units heal [+20] HP when healing"],
 	},
-	{
-		"name": "Aircraft Carrier",
-		"unitType": "Naval Carrier",
+      {
+		"name": "Observation Balloon",
+		"unitType": "Civilian",
+		"requiredTech": "Flight",
+		"obsoleteTech": "Computers",
+		"movement": 2,
+		"cost": 240,
+		"uniques": ["[+1] Sight", "Can see over obstacles"],
+	},
+      {
+		"name": "Drone",
+		"unitType": "Civilian",
+		"requiredTech": "Computers",
 		"movement": 3,
-		"strength": 65,
-		"rangedStrength": 65,
-		"cost": 540,
-		"requiredTech": "Combined Arms",
-		"uniques": ["Can carry 2 aircraft"],
-		"attackSound": "metalhit"
+		"cost": 420,
+		"uniques": ["[+3] Sight", "Can see over obstacles"],
 	},
 	{
-		"name": "Destroyer",
-		"unitType": "Naval Melee",
-		"movement": 6,
-		"interceptRange": 2,
-		"strength": 80,
-		"cost": 540,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"uniques": ["Can attack submarines","[100]% chance to intercept air attacks","Bonus vs air units 12%","[+1] Sight"],
-		"attackSound": "metalhit"
-	},
-
-
-	// Information Era
-	
-	{
-		"name": "Nuclear Submarine",
-		"unitType": "Naval Raider",
-		"movement": 4,
-		"strength": 80,
-		"rangedStrength": 85,
-		"cost": 680,
-		"requiredTech": "Telecommunications",
-		"requiredResource": "Uranium",
-		"attackSound": "shot"
-	},	
-
-	{
-		"name": "Rocket Artillery",
-		"unitType": "Siege",
-		"movement": 3,
-		"range": 3,
-		"strength": 70,
-		"rangedStrength": 95,
-		"cost": 680,
-		"requiredTech": "Guidance Systems",
-		"requiredResource": "Oil",
-		"uniques": ["[+1] Sight","Must set up to ranged attack"],
-		"attackSound": "shot"
+		"name": "Anti-Air Gun",
+		"unitType": "Land Melee",
+		"movement": 2,
+		"interceptRange": 1,
+		"strength": 260,
+		"cost": 455,
+		"requiredTech": "Advanced Ballistics",
+		"obsoleteTech": "Guidance Systems",
+		"upgradesTo": "Mobile SAM",
+		"uniques": ["[100]% chance to intercept air attacks","[-100]% Strength <vs [{Melee} {Land}] units>"],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Mobile SAM",
 		"unitType": "Land Melee",
 		"movement": 3,
-		"interceptRange": 2,
-		"strength": 50,
+		"interceptRange": 1,
+		"strength": 374,
 		"cost": 590,
 		"requiredTech": "Guidance Systems",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 200%"],
-		"attackSound": "shot"
+		"uniques": ["[100]% chance to intercept air attacks","[-100]% Strength <vs [{Melee} {Land}] units>"],
+		"attackSound": "missile"
 	},
+//Nuclear Device
 	{
-		"name": "Jet Fighter",
-		"unitType": "Air Fighter",
+		"name": "Nuclear Device",
+		"unitType": "Nuclear Device",
 		"movement": 1,
-		"range": 6,
-		"interceptRange": 6,
-		"strength": 110,
-		"rangedStrength": 110,
-		"cost": 650,
-		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks","[+4] Sight", "Can see over obstacles","Only available <if [Aerodrome] is constructed>"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Missile Cruiser",
-		"unitType": "Naval Ranged",
-		"movement": 5,
-		"interceptRange": 3,
-		"range": 3,
-		"strength": 70,
-		"rangedStrength": 85,
-		"cost": 680,
-		"requiredTech": "Lasers",
-		"requiredResource": "Oil",
-		"uniques": ["Bonus vs air units 50%"],
-		"attackSound": "shot"
-	},
-
-	{
-		"name": "Jet Bomber",
-		"unitType": "Air Bomber",
-		"movement": 1,
-		"range": 15,
-		"strength": 95,
-		"rangedStrength": 120,
-		"cost": 700,
-		"requiredTech": "Stealth Technology",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+4] Sight", "Can see over obstacles","Only available <if [Aerodrome] is constructed>"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Nuclear Missile",
-		"unitType": "Thermonuclear Device",
-		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
+		"strength": 1000,
+		"rangedStrength": 1000,
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
-		"uniques": ["Only available <if [Manhattan Project] is constructed>"]
+		"uniques": ["Nuclear weapon of Strength [1]","Blast radius [1]"],
+		"attackSound": "nuke"
 	},
-
-	//GREAT PEOPLE
+	{
+		"name": "Thermonuclear Device",
+		"unitType": "Thermonuclear Device",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 15,
+		"cost": 1000,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [2]"],
+		"attackSound": "nuke"
+	},
+//Great Person
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
@@ -1643,7 +1630,7 @@
 		"uniques": ["Can speed up construction of a building","Great Person - [Production]","Unbuildable","Uncapturable"],
 		"movement": 4
 	},
-{
+	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can [Spread Religion] [4] times",
@@ -1666,6 +1653,7 @@
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]", "Unbuildable","Uncapturable"],
 		"movement": 4
 	},
+//Spacesip Part
 	{
 		"name": "SS Booster",
 		"unitType": "Civilian",
@@ -1703,9 +1691,7 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
-
-//Religious units
-
+//Religious
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
@@ -1726,17 +1712,6 @@
 		"movement": 3
 	},
 	{
-		"name": "Warrior Monk",
-		"unitType": "Land Melee",
-		"movement": 3,
-		"strength": 40,
-		"cost": -1,
-		"uniques": ["Unbuildable"],
-		"promotions": ["Shadow Strike"],
-		"religiousStrength": 1000,
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Naturalist",
 		"unitType": "Civilian",
 		"movement": 4,
@@ -1744,14 +1719,12 @@
 		"uniques": ["Unbuildable", "Can construct [Preserve]", "[+1] Sight"],
 	},
 //Other
-{
-		"name": "Polder Builder",
-		"uniqueTo": "The Netherlands",
-		"unitType": "Civilian Water",
+	{
+		"name": "Archaeologist",
+		"unitType": "Civilian",
 		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Apprenticeship",
-		"uniques": ["Can build [Polder] improvements on tiles", "Cannot enter ocean tiles <before discovering [Astronomy]>", "Uncapturable"]
+		"cost": 133,
+		"uniques": ["Only available <after adopting [Natural History]>","Can construct [Archaeological Dig] <in [Antiquity Site] tiles>"],
 	},
 	{
 		"name": "Spy",
@@ -1767,6 +1740,14 @@
 "Uncapturable",
 "Cannot be purchased",
 ]
+	},
+	{
+		"name": "Polder Builder",
+		"uniqueTo": "The Netherlands",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"uniques": ["Only available <after adopting [Guilds]>","Can build [Polder] improvements on tiles", "Cannot enter ocean tiles <before discovering [Astronomy]>", "Uncapturable"]
 	},
 
 ]

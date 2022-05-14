@@ -570,35 +570,42 @@
 	{
 		"name": "Shadow Strike",
 		"uniques": ["[+100]% to Flank Attack bonuses"],
+		"unitTypes": ["Warrior Monk"]
 	},
 	{
 		"name": "Twilight Veil",
 		"uniques": ["Invisible to non-adjacent units"],
+		"unitTypes": ["Warrior Monk"]
 	},
 	{
 		"name": "Exploding Palms",
 		"prerequisites": ["Shadow Strike", "Twilight Veil"],
 		"uniques": ["[+67]% Strength"],
+		"unitTypes": ["Warrior Monk"]
 	},
 	{
 		"name": "Disciples",
 		"prerequisites": ["Shadow Strike", "Twilight Veil"],
 		"uniques": ["Can [Spread Religion] [1] times", "Removes other religions when spreading religion"],
+		"unitTypes": ["Warrior Monk"]
 	},
 	{
 		"name": "Sweeping Wind",
 		"prerequisites": ["Exploding Palms", "Disciples"],
 		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Warrior Monk"]
 	},
 	{
 		"name": "Dancing Crane",
 		"prerequisites": ["Exploding Palms", "Disciples"],
 		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Warrior Monk"]
 	},
 	{
 		"name": "Cobra Strike",
 		"prerequisites": ["Sweeping Wind", "Dancing Crane"],
 		"uniques": ["[+100]% Strength"],
+		"unitTypes": ["Warrior Monk"]
 	},
 
 
