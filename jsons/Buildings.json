@@ -9,7 +9,7 @@
         "science": 2,
         "culture": 1,
         "happiness": 2,
-        "cityStrength": 3,
+        "cityStrength": 6,
         "replacementTextForUniques": "
 Gain a free City Center in all cities,
 -1 Gold from every River,
@@ -23,6 +23,7 @@ May buy Naturalists for 600 Faith at an increasing cost (100) after adopting Con
 +1 Movement when next to a Supply Convoy,
 +1 Range for Siege and Air Bomber units when next to an Observation Balloon,
 +1 Range and +33% Strength for Siege and Air Bomber units when next to a Drone,
+-100% attacking strength for cities without Ancient Walls,
 Gain 20 Influence with a Envoy gift to a City-State,
 Natural Wonders get +2 Food, Production, Gold, Science, Culture and Faith for each adjacent Preserve (max. 3×),
 Mountains and unimproved Woods get +1 Food, Production, Science, Culture and Faith for each adjacent Preserve (max. 3×),
@@ -69,6 +70,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1] Range <for [Air Bomber] units> <when adjacent to a [Drone] unit>",
 "[+33]% Strength <for [Siege] units> <when adjacent to a [Drone] unit>",
 "[+33]% Strength <for [Air Bomber] units> <when adjacent to a [Drone] unit>",
+"[-100]% Strength for cities <in cities without a [Ancient Walls]> <when attacking>",
 "Gain [20] Influence with a [Envoy] gift to a City-State",
 "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [Natural Wonder] tiles [in all cities] <with [1] to [1] neighboring [Preserve] tiles>",
 "[+4 Food, +4 Production, +4 Gold, +4 Science, +4 Culture, +4 Faith] from [Natural Wonder] tiles [in all cities] <with [2] to [2] neighboring [Preserve] tiles>",
@@ -460,6 +462,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"name": "German District", 
 		"uniqueTo": "Germany",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]"]
@@ -469,11 +472,13 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
+		"cityStrength": 4,
 		"uniques": ["Provides [1] [Districts]"]
 	},
 {
 		"name": "District2",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [4] [Population]>"]
@@ -481,6 +486,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District3",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [7] [Population]>"]
@@ -488,6 +494,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District4",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [11] [Population]>"]
@@ -495,6 +502,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District5",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [14] [Population]>"]
@@ -502,6 +510,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District6",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [17] [Population]>"]
@@ -509,6 +518,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District7",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [20] [Population]>"]
@@ -516,6 +526,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District8",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [23] [Population]>"]
@@ -523,6 +534,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 {
 		"name": "District9",
 		"cost": 1,
+		"cityStrength": 4,
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [27] [Population]>"]
@@ -563,11 +575,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 
 	{
 		"name": "City Center",
-		"isNationalWonder": true,
 		"cost": -1,
-		"cityStrength": 10,
-		"cityHealth": 100,
-		"uniques": ["Remove extra unhappiness from annexed cities"]
+		"uniques": ["Unsellable", "Destroyed when the city is captured", "Remove extra unhappiness from annexed cities"]
 	},
 {
 		"name": "Campus District",
@@ -1798,7 +1807,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Ancient Walls",
         "cost": 80,
         "cityHealth": 100,
-        "cityStrength": 10,
+        "cityStrength": 12,
 		"uniques": ["Cannot be purchased","+1 Culture once Conservation is adopted"],
         "requiredTech": "Masonry"
     },
@@ -2137,8 +2146,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
     {
         "name": "Medieval Walls",
         "cost": 220,
+        "cityStrength": 12,
         "cityHealth": 100,
-        "cityStrength": 10,
         "requiredBuilding": "Ancient Walls",
         "uniques": ["Cannot be purchased"],
         "requiredTech": "Castles"
@@ -2202,10 +2211,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
     {
         "name": "Renaissance Walls",
         "cost": 300,
+        "cityStrength": 12,
         "cityHealth": 100,
-        "cityStrength": 10,
         "requiredBuilding": "Medieval Walls",
-        "uniques": ["Cannot be purchased", "+3 Culture once Conservation is adopted"],
+        "uniques": ["Cannot be purchased", "[+3 Culture] <after adopting [Conservation]>"],
         "requiredTech": "Siege Tactics"
     }, 
     {
@@ -2214,8 +2223,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "uniqueTo": "Georgia",
         "cost": 260,
         "faith": 4,
+        "cityStrength": 24,
         "cityHealth": 200,
-        "cityStrength": 10,
         "requiredBuilding": "Medieval Walls",
         "uniques": ["[+4 Faith] [in this city] <during a Golden Age>", "Cannot be purchased", "+3 Culture once Conservation is adopted"],
         "requiredTech": "Siege Tactics"

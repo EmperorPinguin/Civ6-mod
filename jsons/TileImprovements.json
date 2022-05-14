@@ -670,7 +670,7 @@
 	},
 	{ 
 		"name": "City center", 
-		"uniques": ["Great Improvement", "Unpillagable", "Indestructible"],
+		"uniques": ["Great Improvement", "Unpillagable", "Irremovable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}

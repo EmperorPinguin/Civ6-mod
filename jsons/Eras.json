@@ -159,7 +159,7 @@
         "startingMilitaryUnit": "Pike and Shot",
         "startingGold": 460,
         "startingCulture": 19275,
-        "settlerPopulation": 3,
+        "settlerPopulation": 10,
         "settlerBuildings": ["Monument","Granary","Ancient Walls","Medieval Walls"],
         "baseUnitBuyCost": 600,
         "embarkDefense": 13,
