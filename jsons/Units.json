@@ -354,7 +354,7 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Niter",
 		"upgradesTo": "Line Infantry",
-		"uniques": ["[+67]% Strength when stacked with [Missionary]","Can [Remove Foreign religions from your own cities] [1] times"],
+		"uniques": ["[+67]% Strength when stacked with [Inquisitor]","Can [Spread Religion] [1] times"],
 		"attackSound": "shot"
 	},
 	{
@@ -370,7 +370,7 @@
 		"requiredResource": "Niter",
 		"upgradesTo": "Line Infantry",
 		"promotions": ["Battlecry"],
-		"uniques": ["Excess Food converted to Production when under construction","Requires at least [2] population"],
+		"uniques": ["Only available <if [Suleiman] is constructed>", "Excess Food converted to Production when under construction","Requires at least [2] population"],
 		"attackSound": "shot"
 	},
 	{
@@ -411,7 +411,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Niter",
 		"upgradesTo": "Infantry",
-		"uniques": ["[1] Movement point cost to disembark","[+67]% Strength <on foreign continents>"],
+		"uniques": ["Only available <if [Victoria] is constructed>", "[1] Movement point cost to disembark","[+67]% Strength <on foreign continents>"],
 		"attackSound": "shot"
 	},
 	{
@@ -928,7 +928,7 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["Only available <after adopting [Divine Right]>","[+27]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["Only available <after adopting [Divine Right]> <if [Basil II] is constructed>","[+27]% Strength bonus for [Military] units within [1] tiles"],
 		"attackSound": "horse"
 	},
 	{
@@ -942,7 +942,7 @@
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Tank",
-		"uniques": ["[+67]% Strength <when fighting in [Hill] tiles>","Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>","[-60]% maintenance costs"],
+		"uniques": ["Only available <if [Rough Rider Teddy Roosevelt] is constructed>", "[+67]% Strength <when fighting in [Hill] tiles>","Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>","[-60]% maintenance costs"],
 		"attackSound": "horse"
 	},
 	{
@@ -1644,15 +1644,23 @@
 	{
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
-		"uniques": ["All adjacent units heal [+15] HP when healing", "Bonus for units in 2 tile radius 15%","Great Person - [Food]", "Unbuildable","Uncapturable"],
+		"uniques": ["All adjacent units heal [+15] HP when healing", "[+33]% Strength bonus for [Water] units within [2] tiles","Great Person - [Food]", "Unbuildable","Uncapturable"],
 		"movement": 8
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"uniques": ["Can start an [8]-turn golden age", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
 		"movement": 4
 	},
+	{
+		"name": "Commandante General",
+		"unitType": "Civilian",
+		"uniqueTo": "Gran Colombia",
+		"uniques": ["Can start an [8]-turn golden age", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"movement": 4
+	},
+
 //Spacesip Part
 	{
 		"name": "SS Booster",
@@ -1724,7 +1732,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 133,
-		"uniques": ["Only available <after adopting [Natural History]>","Can construct [Archaeological Dig] <in [Antiquity Site] tiles>"],
+		"uniques": ["Only available <after adopting [Natural History]>","Can construct [Archaeological Dig]"],
 	},
 	{
 		"name": "Spy",

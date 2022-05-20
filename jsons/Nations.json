@@ -264,8 +264,7 @@
 		"uniqueText": " All military units receive +10% Combat Strength, Mounted units deal +33% more damage when attacking cities, Great Artist is earned 20% faster
 		",
 		"uniques": [
-"[military] units gain the [Taxis] promotion",
-"[Mounted] units gain the [Porphyrogennetos] promotion",
+"[Military] units gain the [Taxis] promotion",
 "[Great Prophet] is earned [25]% faster"
 ],
 		"cities": ["Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
@@ -319,6 +318,8 @@
 		"uniques": [
 "[+10]% [Science] [in all cities with a world wonder]",
 "[+10]% [Culture] [in all cities with a world wonder]",
+"Gain a free [Kublai Khan residence] [in capital]",
+
 ],
 		"cities": ["Xi'an","Beijing","Taiyuan","Chengdu","Jiaodong","Changsha","Longxi","Guangzhou","Handan","Shenyang",
 			"Shanghai","Wuhan","Xiurong","Chen","Xingzhou","Quxian","Nanjing","Langfang","Linzi","Jiujiang",
@@ -387,7 +388,7 @@
 		"outerColor": [205,0,1],
 		"innerColor": [255,255,255],
 		"uniqueName": "British Museum",
-		"uniques": ["[+100]% [Culture] from every [Art Museum]"],
+		"uniques": ["[+100]% [Culture] from every [Archaeological Museum]","Gain a free [Eleanor of Aquitaine residence] [in capital]"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -441,7 +442,8 @@
 "[+20]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>",
 "[+20]% Production when constructing [All] wonders [in all cities] <during the [Renaissance era]>",
 "[+20]% Production when constructing [All] wonders [in all cities] <during the [Industrial era]>",
-"[+4 Culture] from every [Wonder]"
+"[+4 Culture] from every [Wonder]",
+"Gain a free [Eleanor of Aquitaine residence] [in capital]",
 ],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -1066,7 +1068,11 @@
 		"outerColor": [248,217,2],
 		"innerColor": [205,0,1],
 		"uniqueName": "Nkisi",
-		"uniques": ["[+2 Food, +2 Production, +1 Faith, +4 Gold] from all [Culture] buildings", "[Great Artist] is earned [50]% faster"],
+		"uniques": [
+"[+2 Food, +2 Production, +1 Faith, +4 Gold] from every [Artefact1]",
+"[+2 Food, +2 Production, +1 Faith, +4 Gold] from every [Artefact2]",
+"[+2 Food, +2 Production, +1 Faith, +4 Gold] from every [Artefact3]",
+"[Great Artist] is earned [50]% faster"],
 		"cities": ["Mbumbi","Mbamba","Mbwila","Mpinda","Kwila","Mbanza Mbata","Kinchassa","Kwango","Mbuji-Mayi","Mbanza Mpangu",
 			"Bakavu","Sanga","Katango","Mbanza Wembo","Mbanza Lovata","Nkunga","Nkondo","Lemba-Bula","Kibangu","Manga",
 			"Mbanza Mpemba","Mulumbi","Makuta","Zombo","Banza","Umpuka","Matadi","Mbandaka","Lumbumbashi","Mbanza Soyo",
@@ -1278,8 +1284,8 @@
 		"uniqueText": "Land units receive +10% Combat Strength when on a Road, +10% Combat Strength for Mounted units
 		"
 		"uniques": [
-"[Light Cavalry] units gain the [Mongol Horde] promotion",
-"[+20]% Strength <for [Land] units> <when fighting in [Road] tiles>"
+"[+20]% Strength <for [Land] units> <when fighting in [Road] tiles>",
+"Gain a free [Kublai Khan residence] [in capital]",
 ],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -1304,8 +1310,8 @@
 		"innerColor": [233,45,24],
 		"uniqueName": "Knarr",
 		"uniques": [
-"[+50]% Production when constructing [Water] units [in all cities]",
-"[1] Movement point cost to disembark <for [All] units>"
+"[1] Movement point cost to disembark <for [All] units>",
+"[Water] units gain the [Knarr] promotion",
 ],
 		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
 			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
@@ -1478,7 +1484,9 @@
 		"uniques": [
 "[-25]% Culture cost of natural border growth [in all cities]", 
 "[-25]% Gold cost of acquiring tiles [in all cities]", 
-"[+4 Gold, +2 Culture, +2 Faith] from all [Faith] buildings"
+"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact1]",
+"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact2]",
+"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact3]",
 ],
 		"cities": ["Kraków","Warsaw","�?ódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",

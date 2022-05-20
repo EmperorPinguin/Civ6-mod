@@ -291,7 +291,7 @@
 {
         "name": "Cross-Cultural Dialogue",
         "type": "Founder",
-        "uniques": ["[+1 Science] for every [4] global followers [in all cities]"]
+        "uniques": ["[+1 Science] from every [4] global followers [in all cities]"]
     },
 {
         "name": "Lay ministery",
@@ -331,7 +331,7 @@
 {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] for every [4] global followers [in all cities]"]
+        "uniques": ["[+1 Culture] from every [4] global followers [in all cities]"]
     },
 // ENHANCERS
 

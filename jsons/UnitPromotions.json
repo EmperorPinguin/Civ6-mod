@@ -633,10 +633,12 @@
 		"name": "Taxis", // Byzantium
 		"uniques": ["[+20]% Strength"]
 	},
+/*
 	{
 		"name": "Porphyrogennetos", // Byzantium
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
+		"uniques": []
 	},
+*/
 	{
 		"name": "Mongol Horde", // Mongolia
 		"uniques": ["[+20% Strength"],
@@ -644,6 +646,14 @@
 	{
 		"name": "Ordu", // Mongolia
 		"uniques": ["[+1] Movement"]
+	},
+	{
+		"name": "Knarr", // Norway
+		"uniques": ["May heal outside of friendly territory", "[+10] HP when healing <in [Foreign Land] tiles>"]
+	},
+{
+		"name": "Coastal Raid", // Harald Hardrada
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
 	},
 	{
 		"name": "Ta-Seti", // Nubia
@@ -663,7 +673,16 @@
 		"name": "Martyr", //Khmer
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
 	},
-	
+	{
+		"name": "The First Emperor", //Qin Shi Huang
+		"uniques": ["Can speed up construction of a building <before the [Medieval era]>"]
+	},
+	{
+		"name": "Qhapaq Nan", //Pachacuti
+		"uniques": ["Can pass through impassable tiles <after adopting [Foreign Trade]>",]
+	},
+
+
 
 //Promotions granted by Natural Wonders
 	{
@@ -701,4 +720,5 @@
 		"name": "Quick Study III",
 		"uniques": ["[+25]% XP gained from combat"]
 	},
+
 ]

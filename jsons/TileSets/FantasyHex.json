@@ -16,6 +16,16 @@
         "Tundra+Woods": ["Tundra","Woods"],
         "Tundra+Hill+Woods": ["Tundra","Hill","Woods"],
 
+        //Artefacts
+        "Lakes+Artefacts": ["Lakes","Shipwreck"],
+        "Coast+Artefacts": ["Coast","Shipwreck"],
+        "Coast+Reef+Artefacts": ["Coast","Reef","Shipwreck"],
+        "Ocean+Artefacts": ["Ocean","Shipwreck"],
+        "Lakes+Artefacts+Archaeological Dig": ["Lakes","Shipwreck"],
+        "Coast+Artefacts+Archaeological Dig": ["Coast","Shipwreck"],
+        "Coast+Reef+Artefacts+Archaeological Dig": ["Coast","Reef","Shipwreck"],
+        "Ocean+Artefacts+Archaeological Dig": ["Ocean","Shipwreck"],
+
         //Snow improvements for Tundra and Snow
             //TODO hill and Woods variants + new images for Landmark, etc.
         "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],

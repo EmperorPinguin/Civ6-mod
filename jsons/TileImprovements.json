@@ -46,14 +46,13 @@
 	},
 	{
 		"name": "Seaside Resort",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Radio",
 		"uniques": [
 "Can only be built on [Coastal] tiles",
 "Cannot be built on [Hill] tiles",
-"Cannot be built on [Coast] tiles",
-"Cannot be built on [Ocean] tiles",
 "[+2 Gold] for each adjacent [Natural Wonder]",
 "[+2 Gold] for each adjacent [Sphinx]",
 "[+2 Gold] for each adjacent [Ice Hockey Rink]",
@@ -220,6 +219,7 @@
 	//Civilization unique improvements
 	{
 		"name": "Chateau",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "France",
 		"culture": 2,
 		"gold": 3,
@@ -290,6 +290,7 @@
 	},
 	{
 		"name": "Great Wall",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "China",
 		"gold": 2,
 		"turnsToBuild": 7,
@@ -565,8 +566,8 @@
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
-		"culture": 7,
-		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"uniques": ["Great Improvement","Can only be built to improve a resource"]	
 	},
 /*
 	{
@@ -597,6 +598,7 @@
 	// Transportation
 	{
 		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Wheel",
 		"uniques": ["Can be built outside your borders"],
@@ -604,6 +606,7 @@
 	},
 	{
 		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Steam Power",
 		"uniques": ["Can be built outside your borders"]
@@ -661,15 +664,18 @@
 
 { 
 		"name": "Ancient ruins", 
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
 	},
 	{ 
 		"name": "City ruins", 
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{ 
 		"name": "City center", 
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "Unpillagable", "Irremovable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -678,12 +684,14 @@
 	},
 	{ 
 		"name": "Barbarian encampment", 
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	},
 //Districts
 {
 		"name": "Campus",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -702,6 +710,7 @@
 	},
 {
 		"name": "Observatory",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -722,16 +731,17 @@
 	},
 {
 		"name": "Seowon",
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"science": 4,
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
 "[-1 Science] for each adjacent [Great Improvement]",
-"Can only be built on [Hill] tiles"
 ]
 	},
 {
 		"name": "Holy Site",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -748,6 +758,7 @@
 	},
 {
 		"name": "Lavra",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -764,6 +775,7 @@
 	},
 {
 		"name": "Theatre Square",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -780,6 +792,7 @@
 	},
 {
 		"name": "Acropolis",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -795,6 +808,7 @@
 	},
 {
 		"name": "Encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -804,6 +818,7 @@
 	},
 {
 		"name": "Ikanda",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -813,6 +828,7 @@
 	},
 {
 		"name": "Commercial Hub",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -826,6 +842,7 @@
 	},
 {
 		"name": "Suguba",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -839,6 +856,7 @@
 	},
 {
 		"name": "Industrial Zone",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -857,6 +875,7 @@
 	},
 {
 		"name": "Hansa",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -871,6 +890,7 @@
 	},
 {
 		"name": "Oppidum",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -883,6 +903,7 @@
 	},
 {
 		"name": "Entertainment Complex", 
+		"terrainsCanBeBuiltOn": ["Land"],
             "happiness": 1,
 		"uniques": [
 "Great Improvement",
@@ -891,6 +912,7 @@
 	},
 {
 		"name": "Hippodrome", 
+		"terrainsCanBeBuiltOn": ["Land"],
             "happiness": 3,
 		"uniques": [
 "Great Improvement",
@@ -899,6 +921,7 @@
 	},
 {
 		"name": "Street Carnival", 
+		"terrainsCanBeBuiltOn": ["Land"],
             "happiness": 2,
 		"uniques": [
 "Great Improvement",
@@ -920,6 +943,7 @@
 	},
 {
 		"name": "Neighbourhood",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
@@ -927,6 +951,7 @@
 	},
 {
 		"name": "Mbanza",
+		"terrainsCanBeBuiltOn": ["Land"],
             "food": 2,
             "gold": 4,
 		"uniques": [
@@ -936,6 +961,7 @@
 	},
 {
 		"name": "Water Park",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
             "happiness": 1,
 		"uniques": [
 "Great Improvement",
@@ -944,6 +970,7 @@
 	},
 {
 		"name": "Copacabana",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
             "happiness": 2,
 		"uniques": [
 "Great Improvement",
@@ -952,6 +979,7 @@
 	},
 {
 		"name": "Preserve",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
 "Must be next to [Natural Wonder]",

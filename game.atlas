@@ -1516,14 +1516,14 @@ TechIcons/Masonry
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Antiquity Site
+TileSets/FantasyHex/Tiles/Antiquity Sitex
   rotate: false
   xy: 212, 1876
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Antiquity Sitex
+TileSets/FantasyHex/Tiles/Archaeological Dig
   rotate: false
   xy: 4, 1472
   size: 128, 128
@@ -1537,7 +1537,7 @@ TileSets/FantasyHex/Tiles/Archaeological Digx
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Atiquity Site+Archaeological Dig
+TileSets/FantasyHex/Tiles/Artefacts
   rotate: false
   xy: 4, 1336
   size: 128, 128
