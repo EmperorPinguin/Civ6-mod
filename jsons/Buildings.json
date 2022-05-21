@@ -5605,7 +5605,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"May buy [Water] units with [Faith] for [2] times their normal Production cost"
+"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost"
 "[+2 Faith] from every [City center] <with [1] to [6] neighboring [Coast] tiles>",
 "[+2 Faith] from every [City center] <with [1] to [6] neighboring [Lakes] tiles>",
 ],
