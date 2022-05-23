@@ -695,6 +695,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Science] for each adjacent [Geothermal Fissure]",
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
@@ -714,6 +715,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Science] for each adjacent [Plantation]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+2 Science] for each adjacent [Pamukkale]",
@@ -736,6 +738,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[-1 Science] for each adjacent [Great Improvement]",
 ]
 	},
@@ -745,6 +748,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
 "[+1 Faith] for each adjacent [Pamukkale]",
@@ -762,6 +766,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
 "[+1 Faith] for each adjacent [Pamukkale]",
@@ -779,6 +784,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Culture] for each adjacent [Entertainment Complex]",
 "[+2 Culture] for each adjacent [Street Carnival]",
 "[+2 Culture] for each adjacent [Hippodrome]",
@@ -796,6 +802,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Culture] for each adjacent [Entertainment Complex]",
 "[+2 Culture] for each adjacent [Street Carnival]",
 "[+2 Culture] for each adjacent [Hippodrome]",
@@ -812,6 +819,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "Gives a defensive bonus of [100]%",
 "Adjacent enemy units ending their turn take [30] damage"
 ]
@@ -822,6 +830,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "Gives a defensive bonus of [100]%",
 "Adjacent enemy units ending their turn take [30] damage"
 ]
@@ -832,6 +841,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Gold] for each adjacent [River]",
 "[+2 Gold] for each adjacent [Harbor]",
 "[+2 Gold] for each adjacent [Pamukkale]",
@@ -846,6 +856,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Gold] for each adjacent [River]",
 "[+2 Gold] for each adjacent [Holy Site]",
 "[+2 Gold] for each adjacent [Pamukkale]",
@@ -860,6 +871,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+1 Production] for each adjacent [Quarry]",
 "[+1 Production] for each adjacent [Strategic resource]",
 "[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
@@ -879,6 +891,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Production] for each adjacent [Commercial Hub]",
 "[+1 Production] for each adjacent [Strategic resource]",
 "[+1 Production] for each adjacent [Luxury resource]",
@@ -894,6 +907,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Production] for each adjacent [Quarry]",
 "[+2 Production] for each adjacent [Strategic resource]",
 "Unpillagable",
@@ -908,6 +922,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
@@ -917,6 +932,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
@@ -926,6 +942,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
@@ -934,6 +951,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 "[+2 Gold] for each adjacent [City center]",
 "[+1 Gold] for each adjacent [Water resource]",
 "[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
@@ -947,6 +965,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
@@ -957,6 +976,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
@@ -966,6 +986,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
@@ -975,6 +996,7 @@
 		"uniques": [
 "Great Improvement",
 "Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
 ]
 	},
 {
