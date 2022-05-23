@@ -520,12 +520,12 @@
 	{
 		"name": "Districts",
 		"resourceType": "Strategic",
-		"gold": 1
+		"faith": 1
 	},
 	{
 		"name": "Military Policy Slots",
 		"resourceType": "Strategic",
-		"gold": 1
+		"production": 1
 	},
 	{
 		"name": "Economic Policy Slots",
@@ -535,22 +535,22 @@
 	{
 		"name": "Wildcard Policy Slots",
 		"resourceType": "Strategic",
-		"gold": 1
+		"science": 1
 	},
 	{
 		"name": "Diplomatic Policy Slots",
 		"resourceType": "Strategic",
-		"gold": 1
+		"food": 1
 	},
 	{
 		"name": "Spies",
 		"resourceType": "Strategic",
-		"gold": 1
+		"food": 1
 	},
 	{
 		"name": "Tier 1 Government",
 		"resourceType": "Strategic",
-		"gold": 1
+		"culture": 1
 	},
 	{
 		"name": "Tier 2 Government",
@@ -560,7 +560,7 @@
 	{
 		"name": "Tier 3 Government",
 		"resourceType": "Strategic",
-		"gold": 1
+		"food": 1
 	},
 	{
 		"name": "Tier 4 Government",
@@ -570,11 +570,11 @@
 	{
 		"name": "Leader",
 		"resourceType": "Strategic",
-		"gold": 1
+		"faith": 1
 	},
 	{
 		"name": "Artefact Slots",
 		"resourceType": "Strategic",
-		"gold": 1
+		"culture": 1
 	},
 ]
