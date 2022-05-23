@@ -1588,7 +1588,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "quote": "'Did you ever build a castle in the air? Here is one, brought down to earth and fixed for the wonder of ages.' – Bayard Taylor"
     },
     {
-        "name": "Torre de Belém",
+        "name": "Torre de Belem",
         "isWonder": true,
         "cost": 920,
         "gold": 5,
@@ -2574,8 +2574,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+2 Culture, +3 Faith] from [Holy Site] tiles [in this city]",
 "[+2 Culture, +3 Faith] from [Lavra] tiles [in this city]"
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2590,8 +2588,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+5 Faith] from [Holy Site] tiles [in this city]",
 "[+5 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2606,8 +2602,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+2 Food, +3 Faith] from [Holy Site] tiles [in this city]",
 "[+2 Food, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2622,8 +2616,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+2 Production, +3 Faith] from [Holy Site] tiles [in this city]",
 "[+2 Production, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2640,8 +2632,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Faith] from every specialist [in this city]",
 "[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
 "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2657,8 +2647,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "[5]% Food is carried over after population increases [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2673,8 +2661,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Happiness, +3 Faith] from [Holy Site] tiles [in this city]",
 "[+1 Happiness, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2689,8 +2675,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+5 Faith] from [Holy Site] tiles [in this city]",
 "[+5 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
@@ -2705,26 +2689,11 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+2 Science, +3 Faith] from [Holy Site] tiles [in this city]",
 "[+2 Science, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"Gain a free [Worship Building] [in this city]",
-"Only available <in cities without a [Worship Building]>",
 "Never destroyed when the city is captured",
 "Unbuildable", 
 "Hidden when religion is disabled"
 ]
 	},
-{
-		"name": "Worship Building",
-		"cost": 1,
-		"uniques": [
-"Never destroyed when the city is captured",
-"Unbuildable", 
-"Unsellable",
-"Hidden when religion is disabled"
-]
-	},
-
-
-
 //Governments
 {
 		"name": "Chiefdom",
@@ -6030,9 +5999,33 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[Faith] cost of purchasing [Stupa] buildings [-90]%",
 "[Faith] cost of purchasing [Synagogue] buildings [-90]%",
 "[Faith] cost of purchasing [Wat] buildings [-90]%",
-"[+10]% [Science] from every [Worship Building]",
-"[+10]% [Faith] from every [Worship Building]",
-"[+10]% [Culture] from every [Worship Building]",
+"[+5]% [Science] from every [Cathedral]",
+"[+5]% [Faith] from every [Cathedral]",
+"[+5]% [Culture] from every [Cathedral]",
+"[+5]% [Science] from every [Dar-e Mehr]",
+"[+5]% [Faith] from every [Dar-e Mehr]",
+"[+5]% [Culture] from every [Dar-e Mehr]",
+"[+5]% [Science] from every [Gurdwara]",
+"[+5]% [Faith] from every [Gurdwara]",
+"[+5]% [Culture] from every [Gurdwara]",
+"[+5]% [Science] from every [Meeting House]",
+"[+5]% [Faith] from every [Meeting House]",
+"[+5]% [Culture] from every [Meeting House]",
+"[+5]% [Science] from every [Mosque]",
+"[+5]% [Faith] from every [Mosque]",
+"[+5]% [Culture] from every [Mosque]",
+"[+5]% [Science] from every [Pagoda]",
+"[+5]% [Faith] from every [Pagoda]",
+"[+5]% [Culture] from every [Pagoda]",
+"[+5]% [Science] from every [Stupa]",
+"[+5]% [Faith] from every [Stupa]",
+"[+5]% [Culture] from every [Stupa]",
+"[+5]% [Science] from every [Synagogue]",
+"[+5]% [Faith] from every [Synagogue]",
+"[+5]% [Culture] from every [Synagogue]",
+"[+5]% [Science] from every [Wat]",
+"[+5]% [Faith] from every [Wat]",
+"[+5]% [Culture] from every [Wat]",
 ],
 	},
 {
