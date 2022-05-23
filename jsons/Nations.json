@@ -76,6 +76,8 @@
 		"uniques": [
 "Free [Great Prophet] appears <upon discovering [Writing]>",
 "May choose [1] additional [Founder] beliefs when [founding] a religion",
+"[+1 Science] from every [Campus] <in cities with a [Madrasa]> <if [Natural Philosophy] is constructed>",
+"[+1 Science] from every [Campus] <in cities with a [Madrasa]> <if [Five-Year Plan] is constructed>",
 ],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
