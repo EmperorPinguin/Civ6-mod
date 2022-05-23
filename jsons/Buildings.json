@@ -592,7 +592,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Science] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Science] from [Trade Route (International)] tiles in this city"
@@ -613,7 +612,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Science] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Science] from [Trade Route (International)] tiles in this city"
@@ -634,7 +632,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Science] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Science] from [Trade Route (International)] tiles in this city"
@@ -654,7 +651,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Faith] per [1] population [in this city]",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Faith] from [Trade Route (International)] tiles in this city",
@@ -674,8 +670,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Creates a [Lavra] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
-"[+2 Faith] per [1] population [in this city]", 
+"Never destroyed when city is captured", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Faith] from [Trade Route (International)] tiles in this city",
@@ -695,7 +690,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Culture] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Culture] from [Trade Route (International)] tiles in this city",
@@ -719,7 +713,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 "Free [Envoy] appears",
-"[+2 Culture] per [1] population [in this city]", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Culture] from [Trade Route (International)] tiles in this city",
@@ -741,7 +734,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+1 Production, +2 Gold] per [1] population [in this city]"
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Production] from [Trade Route (International)] tiles in this city",
@@ -762,7 +754,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+1 Production, +2 Gold] per [1] population [in this city]",
 "[5]% Food is carried over after population increases [in this city]",
 "[+25]% Production when constructing [Military] units [in this city]",
 /*
@@ -783,7 +774,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+4 Gold] per [1] population [in this city]",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
@@ -804,7 +794,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Creates a [Suguba] improvement on a specific tile",
 "Unsellable",
 "Never destroyed when city is captured",
-"[+4 Gold] per [1] population [in this city]",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
@@ -825,8 +814,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Creates a [Industrial Zone] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
-"[+2 Production] per [1] population [in this city]", 
+"Never destroyed when city is captured", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Production] from [Trade Route (International)] tiles in this city"
@@ -847,7 +835,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Production] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Production] from [Trade Route (International)] tiles in this city"
@@ -868,7 +855,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+2 Production] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+1 Production] from [Trade Route (International)] tiles in this city"
@@ -946,7 +932,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
-"[+1 Food, +2 Gold] per [1] population [in this city]", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles in this city",
 "[+3 Gold] from [Trade Route (International)] tiles in this city",
@@ -2132,10 +2117,97 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "specialistSlots": {"Scientist": 1},
         "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 2,
+        "replacementTextForUniques": "Only available after adopting Theology, 5% Food is carried over after population increases in this city, receive Faith from Campus tiles in this city equal to their Science adjacency bonus."
         "uniques": [
-"[+5 Science, +5 Faith] from [Campus] tiles [in this city]",
 "Only available <after adopting [Theology]>",
-"[5]% Food is carried over after population increases [in this city]"
+"[5]% Food is carried over after population increases [in this city]",
+"[+1 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Mountain] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Mountain] tiles>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Mountain] tiles>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Mountain] tiles>",
+"[+5 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Mountain] tiles>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Mountain] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Geothermal Fissure] tiles>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Geothermal Fissure] tiles>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Geothermal Fissure] tiles>",
+"[+8 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Geothermal Fissure] tiles>",
+"[+10 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Geothermal Fissure] tiles>",
+"[+12 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Geothermal Fissure] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Reef] tiles>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Reef] tiles>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Reef] tiles>",
+"[+8 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Reef] tiles>",
+"[+10 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Reef] tiles>",
+"[+12 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Reef] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Great Barrier Reef] tiles>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Great Barrier Reef] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Pamukkale] tiles>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Pamukkale] tiles>",
+"[+1 Faith] from [Campus] tiles [in this city] <with [2] to [3] neighboring [Rainforest] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [4] to [5] neighboring [Rainforest] tiles>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+1 Faith] from [Campus] tiles [in this city] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Great Improvement] tiles>",
+
+"[+1 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Mountain] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Mountain] tiles> <if [Natural Philosophy] is constructed>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Mountain] tiles> <if [Natural Philosophy] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Mountain] tiles> <if [Natural Philosophy] is constructed>",
+"[+5 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Mountain] tiles> <if [Natural Philosophy] is constructed>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Mountain] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Geothermal Fissure] tiles> <if [Natural Philosophy] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Geothermal Fissure] tiles> <if [Natural Philosophy] is constructed>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Geothermal Fissure] tiles> <if [Natural Philosophy] is constructed>",
+"[+8 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Geothermal Fissure] tiles> <if [Natural Philosophy] is constructed>",
+"[+10 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Geothermal Fissure] tiles> <if [Natural Philosophy] is constructed>",
+"[+12 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Geothermal Fissure] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+8 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+10 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+12 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Great Barrier Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Great Barrier Reef] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Pamukkale] tiles> <if [Natural Philosophy] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Pamukkale] tiles> <if [Natural Philosophy] is constructed>",
+"[+1 Faith] from [Campus] tiles [in this city] <with [2] to [3] neighboring [Rainforest] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [4] to [5] neighboring [Rainforest] tiles> <if [Natural Philosophy] is constructed>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Rainforest] tiles> <if [Natural Philosophy] is constructed>",
+"[+1 Faith] from [Campus] tiles [in this city] <with [2] to [3] neighboring [Great Improvement] tiles> <if [Natural Philosophy] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [4] to [5] neighboring [Great Improvement] tiles> <if [Natural Philosophy] is constructed>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Great Improvement] tiles> <if [Natural Philosophy] is constructed>",
+
+"[+1 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Mountain] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Mountain] tiles> <if [Five-Year Plan] is constructed>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Mountain] tiles> <if [Five-Year Plan] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Mountain] tiles> <if [Five-Year Plan] is constructed>",
+"[+5 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Mountain] tiles> <if [Five-Year Plan] is constructed>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Mountain] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Geothermal Fissure] tiles> <if [Five-Year Plan] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Geothermal Fissure] tiles> <if [Five-Year Plan] is constructed>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Geothermal Fissure] tiles> <if [Five-Year Plan] is constructed>",
+"[+8 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Geothermal Fissure] tiles> <if [Five-Year Plan] is constructed>",
+"[+10 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Geothermal Fissure] tiles> <if [Five-Year Plan] is constructed>",
+"[+12 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Geothermal Fissure] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+6 Faith] from [Campus] tiles [in this city] <with [3] to [3] neighboring [Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+8 Faith] from [Campus] tiles [in this city] <with [4] to [4] neighboring [Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+10 Faith] from [Campus] tiles [in this city] <with [5] to [5] neighboring [Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+12 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Great Barrier Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Great Barrier Reef] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [1] to [1] neighboring [Pamukkale] tiles> <if [Five-Year Plan] is constructed>",
+"[+4 Faith] from [Campus] tiles [in this city] <with [2] to [2] neighboring [Pamukkale] tiles> <if [Five-Year Plan] is constructed>",
+"[+1 Faith] from [Campus] tiles [in this city] <with [2] to [3] neighboring [Rainforest] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [4] to [5] neighboring [Rainforest] tiles> <if [Five-Year Plan] is constructed>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Rainforest] tiles> <if [Five-Year Plan] is constructed>",
+"[+1 Faith] from [Campus] tiles [in this city] <with [2] to [3] neighboring [Great Improvement] tiles> <if [Five-Year Plan] is constructed>",
+"[+2 Faith] from [Campus] tiles [in this city] <with [4] to [5] neighboring [Great Improvement] tiles> <if [Five-Year Plan] is constructed>",
+"[+3 Faith] from [Campus] tiles [in this city] <with [6] to [6] neighboring [Great Improvement] tiles> <if [Five-Year Plan] is constructed>",
+
 ]
     },
 {
