@@ -4,44 +4,37 @@
 		"name": "Admiral",
 		"food": 1,
 		"gold": 2,
-		"greatPersonPoints": {"Great Admiral":3},
 		"color": [0,255,0]
 	},	
 	{
 		"name": "Artist",
 		"culture": 2,
-		"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
 	},
 	{
 		"name": "Engineer",
 		"production": 2,
-		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
 	},
 	{
 		"name": "General",
 		"production": 1,
 		"gold": 2,
-		"greatPersonPoints": {"Great General":3},
 		"color": [229,0,0]
 	},
 	{
 		"name": "Merchant",
 		"gold": 4,
-		"greatPersonPoints": {"Great Merchant":3},
 		"color": [255,215,0]
 	},
 	{
 		"name": "Prophet",
 		"faith": 2,
-		"greatPersonPoints": {"Great Prophet":3},
 		"color": [255,255,255]
 	},
 	{
 		"name": "Scientist",
 		"science": 2,
-		"greatPersonPoints": {"Great Scientist":3},
 		"color": [0,0,255]
 	}
 ]

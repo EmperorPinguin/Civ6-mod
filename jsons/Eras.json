@@ -25,7 +25,8 @@
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all coastal cities] per turn"],
         },
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+        "uniques": ["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Classical era",
@@ -54,7 +55,8 @@
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all coastal cities] per turn"],
         },
-        "iconRGB": [233, 31, 99]
+        "iconRGB": [233, 31, 99],
+        "uniques": ["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Medieval era",
@@ -84,7 +86,8 @@
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all coastal cities] per turn"],
         },
-        "iconRGB": [157, 39, 176]
+        "iconRGB": [157, 39, 176],
+        "uniques": ["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Renaissance era",
@@ -114,7 +117,8 @@
             "Mercantile": ["Provides [+4 Gold] [in capital] per turn", "Provides [+4 Gold] [in all cities] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all coastal cities] per turn"],
         },
-        "iconRGB": [104, 58, 183]
+        "iconRGB": [104, 58, 183],
+        "uniques": ["May not generate great prophet equivalents naturally"]
     },
     {
         "name": "Industrial era",

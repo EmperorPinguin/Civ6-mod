@@ -144,8 +144,7 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-					"Generated with weight [65] <in [Desert] tiles>",
-					"Generated with weight [65] <in [Coastal] tiles>",
+					"Generated with weight [75] <in [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Woods] tiles>"
 					"Minor deposits generated with weight [30] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Coastal] tiles>",
