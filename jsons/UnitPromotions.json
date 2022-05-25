@@ -183,42 +183,42 @@
 	{
 		"name": "Caparison",
 		"uniques": ["[+33]% Strength <vs [Anti-Cavalry] units>"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},
 	{
 		"name": "Coursers",
 		"uniques": ["[+33]% Strength <vs [Land Ranged] units> <when attacking>","[+33]% Strength <vs [Siege] units> <when attacking>"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},
 	{
 		"name": "Depredation",
 		"prerequisites": ["Charge","Rout"],
 		"uniques": ["No movement cost to pillage"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},
 	{
 		"name": "Double Envelopment",
 		"prerequisites": ["Barding","Marauding"],
 		"uniques": ["[+100]% to Flank Attack bonuses"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},	
 	{
 		"name": "Spiking the Guns",
 		"prerequisites": ["Marauding","Rout"],
 		"uniques": ["[+47]% Strength <vs [Siege] units>"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},	
 	{
 		"name": "Pursuit",
 		"prerequisites": ["Rout"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},
 	{
 		"name": "Escort Mobility",
 		"prerequisites": ["Armor Piercing","Reactive Armor"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Heavy Cavalry"]
+		"unitTypes": ["Light Cavalry"]
 	},	
 
 
