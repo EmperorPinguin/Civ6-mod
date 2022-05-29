@@ -483,11 +483,7 @@
 		"resourceType": "Strategic",
 		"gold": 1
 	},
-	{
-		"name": "Power",
-		"resourceType": "Bonus",
-		"production": 1
-	},*/
+*/
 	{
 		"name": "Artefacts",
 		"resourceType": "Strategic",
@@ -520,6 +516,11 @@
 		"name": "Districts",
 		"resourceType": "Strategic",
 		"faith": 1
+	},
+	{
+		"name": "Power",
+		"resourceType": "Strategic",
+		"gold": 1
 	},
 	{
 		"name": "Military Policy Slots",

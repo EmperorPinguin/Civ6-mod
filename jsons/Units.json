@@ -1582,7 +1582,7 @@
 	},
 //Nuclear Device
 	{
-		"name": "Nuclear Device",
+		"name": "Atomic Bomb",
 		"unitType": "Nuclear Device",
 		"movement": 1,
 		"strength": 800,
@@ -1594,7 +1594,7 @@
 		"attackSound": "nuke"
 	},
 	{
-		"name": "Thermonuclear Device",
+		"name": "Nuclear Missile",
 		"unitType": "Thermonuclear Device",
 		"movement": 1,
 		"strength": 1000,

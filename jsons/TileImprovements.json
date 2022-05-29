@@ -76,34 +76,38 @@
 	{
 		"name": "Geothermal Plant",
 		"terrainsCanBeBuiltOn": ["Geothermal Fissure"],
-		"production": 3,
-		"science": 2,
+		"production": 2,
+		"science": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Synthetic Materials"
+		"techRequired": "Synthetic Materials",
+		"uniques": ["Provides [4] [Power]"]
 	},
 	{
 		"name": "Wind Farm",
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 3,
-		"gold": 6,
+		"production": 1,
+		"gold": 2,
 		"turnsToBuild": 7,
-		"techRequired": "Composites"
+		"techRequired": "Composites",
+		"uniques": ["Provides [2] [Power]"]
 	},
 	{
 		"name": "Solar Farm",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
-		"production": 3,
-		"gold": 6,
+		"production": 1,
+		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Satellites"
+		"techRequired": "Satellites",
+		"uniques": ["Provides [2] [Power]"]
 	},	
 	{
 		"name": "Offshore Wind Farm",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"production": 2,
-		"gold": 4,
+		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Predictive Systems"
+		"techRequired": "Predictive Systems",
+		"uniques": ["Provides [2] [Power]"]
 	},
 	{
 		"name": "Seastead",
@@ -997,6 +1001,16 @@
 "Great Improvement",
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
+]
+	},
+{
+		"name": "Aerodrome", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Cannot be built on [Hill] tiles",
 ]
 	},
 {
