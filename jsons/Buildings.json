@@ -1092,7 +1092,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 180,
         "science": 2,
         "requiredTech": "Pottery",
-        "uniques": ["[+2 Production, +1 Science] from [Marsh] tiles [in this city]", "[+1 Production, +1 Science] from [Flood plains] tiles [in this city]", "Must be on [Flood plains]"],
+        "uniques": ["[+2 Production, +1 Science] from every [Marh]", "[+1 Production, +1 Science] from [Flood plains] tiles [in this city]", "Must be on [Flood plains]"],
         "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
     },
     {
@@ -1101,7 +1101,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 180,
         "happiness": 1,
         "requiredTech": "Pottery",
-        "uniques": ["[+1 Faith] from [Flood plains] tiles in this city", "[15]% Food is carried over after population increases [in this city]", "Must be on [Flood plains]",],
+        "uniques": ["[+1 Faith] from [Flood plains] tiles [in this city]", "[15]% Food is carried over after population increases [in this city]", "Must be on [Flood plains]",],
         "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
     },
     {
@@ -1428,7 +1428,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Chichen Itza",
         "isWonder": true,
         "cost": 710,
-        "uniques": ["[+1 Production, +2 Culture] from [Rainforest] tiles in this city","Must be next to [Rainforest]",
+        "uniques": ["[+1 Production, +2 Culture] from [Rainforest] tiles [in this city]","Must be next to [Rainforest]",
         	"Only available <after adopting [Guilds]>"],
         "quote": "'The Great Ballcourt is also very impressive. I would like to have seen them play a game, although it sounds like the end was pretty violent. I think it was safer to be a spectator.' –Isla Deb"
     },
