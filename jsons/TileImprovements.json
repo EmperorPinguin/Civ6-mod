@@ -700,6 +700,7 @@
 "Great Improvement",
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
 "[+2 Science] for each adjacent [Geothermal Fissure]",
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
