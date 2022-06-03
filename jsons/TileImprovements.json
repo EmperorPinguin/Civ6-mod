@@ -701,6 +701,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
 "[+2 Science] for each adjacent [Geothermal Fissure]",
 "[+2 Science] for each adjacent [Reef]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
@@ -722,6 +723,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
 "[+2 Science] for each adjacent [Plantation]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+2 Science] for each adjacent [Pamukkale]",
@@ -746,6 +748,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
 "[-1 Science] for each adjacent [Great Improvement]",
 ]
 	},
@@ -757,6 +760,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Faith]",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
 "[+1 Faith] for each adjacent [Pamukkale]",
@@ -776,6 +780,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Faith]",
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
 "[+1 Faith] for each adjacent [Pamukkale]",
@@ -795,6 +800,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Culture]",
 "[+2 Culture] for each adjacent [Entertainment Complex]",
 "[+2 Culture] for each adjacent [Street Carnival]",
 "[+2 Culture] for each adjacent [Hippodrome]",
@@ -814,6 +820,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Culture]",
 "[+2 Culture] for each adjacent [Entertainment Complex]",
 "[+2 Culture] for each adjacent [Street Carnival]",
 "[+2 Culture] for each adjacent [Hippodrome]",
@@ -856,6 +863,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
 "[+2 Gold] for each adjacent [River]",
 "[+2 Gold] for each adjacent [Harbor]",
 "[+2 Gold] for each adjacent [Pamukkale]",
@@ -872,6 +880,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
 "[+2 Gold] for each adjacent [River]",
 "[+2 Gold] for each adjacent [Holy Site]",
 "[+2 Gold] for each adjacent [Pamukkale]",
@@ -888,6 +897,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
 "[+1 Production] for each adjacent [Quarry]",
 "[+1 Production] for each adjacent [Strategic resource]",
 "[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
@@ -909,6 +919,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
 "[+2 Production] for each adjacent [Commercial Hub]",
 "[+1 Production] for each adjacent [Strategic resource]",
 "[+1 Production] for each adjacent [Luxury resource]",
@@ -974,6 +985,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Unpillagable",
 "[+2 Gold] for each adjacent [City center]",
 "[+1 Gold] for each adjacent [Water resource]",
 "[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
@@ -989,6 +1001,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
 ]
 	},
 {
@@ -1001,6 +1014,7 @@
 "Tile provides yield without assigned population",
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
 ]
 	},
 {
@@ -1034,6 +1048,7 @@
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
 "Cannot be built on [Hill] tiles",
+"Pillaging this improvement yields approximately [+50 Gold]",
 ]
 	},
 {
@@ -1043,6 +1058,7 @@
 "Great Improvement",
 "Must be next to [Natural Wonder]",
 "Tile provides yield without assigned population",
+"Pillaging this improvement yields approximately [+50 Gold]",
 ]
 	},
 ]
