@@ -86,7 +86,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[-3 Food] from every [Flood plains] <in [Great Improvement] tiles> <in tiles without [City center]>",
 "[-1 Production] from every [Woods] <in [Great Improvement] tiles>",
 "[-1 Food] from every [Rainforest] <in [Great Improvement] tiles>",
-"[-1 Food, -1 Gold] from every [Rainforest] <in [Great Improvement] tiles>",
+"[-1 Food, -1 Gold] from every [Coast] <in [Great Improvement] tiles>",
 "[+1 Culture] per [3] population [in all cities]",
 "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [Natural Wonder] tiles [in all cities] <with [1] to [1] neighboring [Preserve] tiles>",
 "[+4 Food, +4 Production, +4 Gold, +4 Science, +4 Culture, +4 Faith] from [Natural Wonder] tiles [in all cities] <with [2] to [2] neighboring [Preserve] tiles>",
