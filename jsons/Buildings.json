@@ -607,8 +607,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Science] from [Trade Route (International)] tiles in this city"
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Science] from [Trade Route (International)] tiles [in this city]"
 */
 ],
 	},
@@ -627,8 +627,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Science] from [Trade Route (International)] tiles in this city"
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Science] from [Trade Route (International)] tiles [in this city]"
 */
 ],
 	},
@@ -647,8 +647,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Science] from [Trade Route (International)] tiles in this city"
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Science] from [Trade Route (International)] tiles [in this city]"
 */
 ],
 	},
@@ -666,8 +666,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Faith] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Faith] from [Trade Route (International)] tiles [in this city]",
 */
 ],
 	},
@@ -686,8 +686,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured", 
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Faith] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Faith] from [Trade Route (International)] tiles [in this city]",
 */
 "[-25]% Culture cost of natural border growth [in this city]", 
 "[-25]% Gold cost of acquiring tiles [in this city]",
@@ -705,8 +705,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Culture] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Culture] from [Trade Route (International)] tiles [in this city]",
 */
 "[+1 Culture] from every [Wonder]",
 //this should be "[+2 Culture] from every [Wonder] [in this city]",
@@ -728,8 +728,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Never destroyed when city is captured",
 "Free [Envoy] appears",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Culture] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Culture] from [Trade Route (International)] tiles [in this city]",
 */
 "[+1 Culture] from every [Wonder]",
 //this should be "[+2 Culture] from every [Wonder] [in this city]",
@@ -749,8 +749,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Production] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Production] from [Trade Route (International)] tiles [in this city]",
 */
 ],
 	},
@@ -771,8 +771,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[5]% Food is carried over after population increases [in this city]",
 "[+25]% Production when constructing [Military] units [in this city]",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Production] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Production] from [Trade Route (International)] tiles [in this city]",
 */
 ],
 	},
@@ -789,8 +789,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 "Provides [1] [Trade Route]"
 */
 ],
@@ -809,8 +809,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Unsellable",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 "[Gold] cost of purchasing [All] buildings [-20]% [in this city]",
 "[Faith] cost of purchasing [All] units [-20]% [in this city]",
 "Provides [1] [Trade Route]"
@@ -830,8 +830,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured", 
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Production] from [Trade Route (International)] tiles in this city"
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Production] from [Trade Route (International)] tiles [in this city]"
 */
 ],
 	},
@@ -850,8 +850,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Production] from [Trade Route (International)] tiles in this city"
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Production] from [Trade Route (International)] tiles [in this city]"
 */
 ],
 	},
@@ -870,8 +870,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Production] from [Trade Route (International)] tiles in this city"
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Production] from [Trade Route (International)] tiles [in this city]"
 */
 ],
 	},
@@ -887,8 +887,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured", 
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Food] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Food] from [Trade Route (International)] tiles [in this city]",
 */
 "Only available <after adopting [Games and Recreation]>"
 ],
@@ -907,8 +907,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Food] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Food] from [Trade Route (International)] tiles [in this city]",
 */
 "Only available <after adopting [Games and Recreation]>"
 ],
@@ -929,8 +929,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Free [Tagma] appears <after adopting [Divine Right]>", 
 "[1] units cost no maintenance",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Food] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Food] from [Trade Route (International)] tiles [in this city]",
 */
 "Only available <after adopting [Games and Recreation]>"
 ],
@@ -947,8 +947,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 */
 "Must be next to [Coast]"
 ],
@@ -966,8 +966,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 */
 "[+50]% Production when constructing [Water] units [in this city]",
 "[+50]% Production when constructing [Settler] units [in this city]",
@@ -989,10 +989,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Production] from [Trade Route (Domestic)] tiles in this city",
-"[+3 Gold] from [Trade Route (International)] tiles in this city",
+"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
+"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 */
-"[+1 Gold] from [Water resource] tiles in this city",
+"[+1 Gold] from [Water resource] tiles [in this city]",
 "All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
 "[+2 Gold] <on foreign continents>",
 "Connects trade routes over water",
@@ -1036,7 +1036,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
             "cost": 54,
             "uniques": [
 "Creates a [Aerodrome] improvement on a specific tile",
-"Enables construction of Aircraft in this city",
+"Enables construction of Aircraft [in this city]",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when city is captured",
@@ -1067,8 +1067,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Food] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Food] from [Trade Route (International)] tiles [in this city]",
 */
 "Must be next to [Coast]",
 "Only available <after adopting [Natural History]>"
@@ -1087,8 +1087,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Cannot be purchased",
 "Never destroyed when city is captured",
 /*
-"[+1 Food] from [Trade Route (Domestic)] tiles in this city",
-"[+1 Food] from [Trade Route (International)] tiles in this city",
+"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
+"[+1 Food] from [Trade Route (International)] tiles [in this city]",
 */
 "Must be next to [Coast]",
 "Only available <after adopting [Natural History]>"
@@ -1384,7 +1384,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Mausoleum at Halicarnassus",
         "isWonder": true,
         "cost": 400,
-        "uniques": ["[+1 Science, +1 Faith, +1 Culture] from [Coast] tiles in this city", "[Great Engineer] is earned [50]% faster",
+        "uniques": ["[+1 Science, +1 Faith, +1 Culture] from [Coast] tiles [in this city]", "[Great Engineer] is earned [50]% faster",
         	"Only available <after adopting [Defensive Tactics]>", "Only available <in cities with a [Harbor District]>"],
         "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' –Lucian of Samosata"
     },
@@ -1578,7 +1578,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 920,
         "faith": 12,
         "percentStatBonus": {"culture": 50},
-        "uniques": ["[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles in this city","Only available <after adopting [Reformed Church]>", "Must be next to [Tundra]"],
+        "uniques": ["[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]","Only available <after adopting [Reformed Church]>", "Must be next to [Tundra]"],
         "quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' –Katharine Blanche Guthrie"
     },
     {
@@ -1668,7 +1668,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 1450,
         "percentStatBonus": {"production": 20},
-        "uniques": ["[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
+        "uniques": ["[+1 Production] from [Mine] tiles [in this city]","[+1 Production] from [Quarry] tiles [in this city]",
         	"Must be on [River]"],
         "requiredTech": "Industrialization",
         "quote": "'The industrial heart of Germany practically stopped beating. Hardly anyone worked, hardly anything ran. The population of the Ruhr area...had to be supported by the rest of the country.' –Adam Fergusson"
@@ -1743,8 +1743,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Biosphere",
         "isWonder": true,
         "cost": 1740,
-        "uniques": ["[+3 Science] from [Rainforest] tiles in this city","[+3 Science] from [Woods] tiles in this city",
-            "[+3 Science] from [Marsh] tiles in this city","Must be on [River]"],
+        "uniques": ["[+3 Science] from [Rainforest] tiles [in this city]","[+3 Science] from [Woods] tiles [in this city]",
+            "[+3 Science] from [Marsh] tiles [in this city]","Must be on [River]"],
         "requiredTech": "Synthetic Materials",
         "quote": "'Heaven is under our feet as well as over our heads.' –Henry David Thoreau"
     },
@@ -1866,9 +1866,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "production": 1,
         "uniques": [
 "Must be on [River]", 
-"[+1 Food] from [Wheat] tiles in this city",
-"[+1 Food] from [Rice] tiles in this city",
-"[+1 Food] from [Maize] tiles in this city"
+"[+1 Food] from [Wheat] tiles [in this city]",
+"[+1 Food] from [Rice] tiles [in this city]",
+"[+1 Food] from [Maize] tiles [in this city]"
 ],
         "requiredTech": "Wheel"
     },
@@ -1958,9 +1958,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "greatPersonPoints": {"Great Admiral": 1},
         "uniques": [
 "[+1 Food, +1 Gold] from [Harbor] tiles [in this city]",
-"New [Water] units start with [15] Experience in this city",
-"[+1 Food] from [Coast] tiles in this city",
-"[+1 Food] from [Lake] tiles in this city",
+"New [Water] units start with [15] Experience [in this city]",
+"[+1 Food] from [Coast] tiles [in this city]",
+"[+1 Food] from [Lake] tiles [in this city]",
 //"Provides [1] [Trade Route]",
 "[5]% Food is carried over after population increases [in this city]"
 ],
@@ -2034,7 +2034,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 36,
         "maintenance": 1,
         "uniques": [
-"[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+"[+1 Happiness] from [Geothermal Fissure] tiles [in this city]",
 "[10]% Food is carried over after population increases [in this city]",
 ],
         "requiredTech": "Engineering"
@@ -2047,7 +2047,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "happiness": 1,
         "maintenance": 1,
         "uniques": [
-"[+1 Happiness] from [Geothermal Fissure] tiles in this city",
+"[+1 Happiness] from [Geothermal Fissure] tiles [in this city]",
 "[15]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Engineering"
@@ -2299,7 +2299,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "requiredBuilding": "Lighthouse",
         "uniques": [
 "[+5 Production] from [Harbor] tiles [in this city]",
-"New [Water] units start with [15] Experience in this city",
+"New [Water] units start with [15] Experience [in this city]",
 "[+1 Production] from [Coast] tiles [in this city]",
 "[+1 Production] from [Lakes] tiles [in this city]"
 ],
@@ -2411,8 +2411,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+4 Happiness] from [Entertainment Complex] tiles [in this city]",
 "[+4 Happiness] from [Street Carnival] tiles [in this city]",
 "[+4 Happiness] from [Hippodrome] tiles [in this city]",
-"[+1 Science] from [Rainforest] tiles in this city",
-"[+1 Science] from [Marsh] tiles in this city",
+"[+1 Science] from [Rainforest] tiles [in this city]",
+"[+1 Science] from [Marsh] tiles [in this city]",
 "Only available <after adopting [Natural History]>"
 ]
     },
@@ -2437,9 +2437,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "uniques": [
 "[+3 Culture, +2 Happiness] from [Water Park] tiles [in this city]",
 "[+3 Culture, +2 Happiness] from [Copacabana] tiles [in this city]",
-"[+1 Science] from [Water resource] tiles in this city",
-"[+1 Science] from [Shipwreck] tiles in this city",
-"[+1 Science] from [Reef] tiles in this city",
+"[+1 Science] from [Water resource] tiles [in this city]",
+"[+1 Science] from [Shipwreck] tiles [in this city]",
+"[+1 Science] from [Reef] tiles [in this city]",
 "Only available <after adopting [Natural History]>"
 ]
     },
@@ -2451,9 +2451,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "uniques": [
 "[+4 Happiness] from [Water Park] tiles [in this city]",
 "[+4 Happiness] from [Copacabana] tiles [in this city]",
-"[+1 Science] from [Water resource] tiles in this city",
-"[+1 Science] from [Shipwreck] tiles in this city",
-"[+1 Science] from [Reef] tiles in this city",
+"[+1 Science] from [Water resource] tiles [in this city]",
+"[+1 Science] from [Shipwreck] tiles [in this city]",
+"[+1 Science] from [Reef] tiles [in this city]",
 "Only available <after adopting [Natural History]>"
 ]
     },
