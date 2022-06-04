@@ -1736,7 +1736,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Estadio do Maracana",
         "isWonder": true,
         "cost": 1740,
-        "uniques": ["[+6 Culture] in all cities","[+2 Happiness] in all cities","Must not be on [Hill]","Only available <after adopting [Professional Sports]>"],
+        "uniques": ["[+6 Culture] [in all cities]","[+2 Happiness] [in all cities]","Must not be on [Hill]","Only available <after adopting [Professional Sports]>"],
         "quote": "'Down through its history, only three people have managed to silence the Maracana: the Pope, Frank Sinatra, and me.' –Alcides Ghiggia, Uruguayan soccer player"
     },
     {
