@@ -1586,7 +1586,7 @@
 		"outerColor": [254,178,60],
 		"innerColor": [121,0,2],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+100]% Production when constructing [Mounted] units [in all cities]"],
+		"uniques": ["[+100]% Production when constructing [Light Cavalry] units [in all cities]"],
 		"cities": ["Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop",
 			"Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov",
 			"Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
