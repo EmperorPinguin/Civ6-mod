@@ -485,6 +485,11 @@
 	},
 */
 	{
+		"name": "Artefact Slots",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+	{
 		"name": "Artefacts",
 		"resourceType": "Strategic",
 		"revealedBy": "Radio",
@@ -571,10 +576,5 @@
 		"name": "Leader",
 		"resourceType": "Strategic",
 		"faith": 1
-	},
-	{
-		"name": "Artefact Slots",
-		"resourceType": "Strategic",
-		"culture": 1
 	},
 ]

@@ -1960,7 +1960,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Food, +1 Gold] from [Harbor] tiles [in this city]",
 "New [Water] units start with [15] Experience [in this city]",
 "[+1 Food] from [Coast] tiles [in this city]",
-"[+1 Food] from [Lake] tiles [in this city]",
+"[+1 Food] from [Lakes] tiles [in this city]",
 //"Provides [1] [Trade Route]",
 "[5]% Food is carried over after population increases [in this city]"
 ],
@@ -2438,7 +2438,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+3 Culture, +2 Happiness] from [Water Park] tiles [in this city]",
 "[+3 Culture, +2 Happiness] from [Copacabana] tiles [in this city]",
 "[+1 Science] from [Water resource] tiles [in this city]",
-"[+1 Science] from [Shipwreck] tiles [in this city]",
+"[+1 Science] from [Archaeological Dig] tiles [in this city] <in [Ocean] tiles>",
 "[+1 Science] from [Reef] tiles [in this city]",
 "Only available <after adopting [Natural History]>"
 ]
@@ -2452,7 +2452,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+4 Happiness] from [Water Park] tiles [in this city]",
 "[+4 Happiness] from [Copacabana] tiles [in this city]",
 "[+1 Science] from [Water resource] tiles [in this city]",
-"[+1 Science] from [Shipwreck] tiles [in this city]",
+"[+1 Science] from [Archaeological Dig] tiles [in this city] <in [Ocean] tiles>",
 "[+1 Science] from [Reef] tiles [in this city]",
 "Only available <after adopting [Natural History]>"
 ]
