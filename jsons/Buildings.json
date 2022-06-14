@@ -30,7 +30,7 @@ Provides 1 Leader,
 Nullfies base yields from tiles in tiles with a District,
 +1 Culture per 3 population in all cities,
 Natural Wonders get +2 Food, Production, Gold, Science, Culture and Faith for each adjacent Preserve (max. 3×),
-Mountains and unimproved Woods get +1 Food, Production, Science, Culture and Faith for each adjacent Preserve (max. 3×),
+Mountains and unimproved Woods get +1 Food, Production, Gold, Science, Culture and Faith for each adjacent Preserve (max. 3×),
 Natural Wonders give the following yields to adjacent tiles:
 Bermuda Triangle: 5 Science,
 Delicate Arch: 1 Gold, 1 Faith,
@@ -1210,6 +1210,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 400,
         "science": 2,
+        "specialistSlots": {"Scientist": 2},
         "greatPersonPoints": {"Great Scientist": 1},
         "uniques": ["Free Technology", "Only available <after adopting [Recorded History]> <in cities with a [Library]>"],
         "quote": "'We can roam the bloated stacks of the Library of Alexandria, where all imagination and knowledge are assembled, we can recognize in its destruction the warning that all we gather will be lost.' –Lucian of Samosata"
@@ -1510,7 +1511,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Mont St. Michel",
         "isWonder": true,
         "cost": 710,
-        "faith": 10,
+        "faith": 2,
+        "specialistSlots": {"Prophet": 2},
         "uniques": [
 "[Land] units gain the [Martyr] promotion",
 "Only available <after adopting [Divine Right]>",
@@ -1534,7 +1536,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Casa de Contratacion",
         "isWonder": true,
         "cost": 920,
-        "greatPersonPoints": {"Merchant": 3},
+        "greatPersonPoints": {"Great Merchant": 3},
         "uniques": ["Can only be built [in capital]",
 "[+15]% [Production] [in all cities] <on foreign continents>",
 "[+15]% [Gold] [in all cities] <on foreign continents>",
@@ -1556,7 +1558,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 920,
         "gold": 5,
-        "greatPersonPoints": {"Merchant": 2},
+        "greatPersonPoints": {"Great Merchant": 2},
         "requiredNearbyImprovedResources": ["Cattle"],
         "uniques": ["[+2 Gold] from Trade Routes", "Only available <in cities with a [Market]>", "Only available <in cities with a [Commercial Hub District]>"],
         "requiredTech": "Banking",
@@ -1576,8 +1578,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "St. Basil's Cathedral",
         "isWonder": true,
         "cost": 920,
-        "faith": 12,
-        "percentStatBonus": {"culture": 50},
+        "specialistSlots": {"Prophet": 3},
+        "percentStatBonus": {"culture": 20},
         "uniques": ["[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]","Only available <after adopting [Reformed Church]>", "Must be next to [Tundra]"],
         "quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' –Katharine Blanche Guthrie"
     },
@@ -1593,7 +1595,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 920,
         "gold": 5,
-        "greatPersonPoints": {"Admiral": 1},
+        "greatPersonPoints": {"Great Admiral": 1},
         "uniques": ["[+2 Gold] from Trade Routes", "Provides the cheapest [Production] building in your first [10] cities for free <on foreign continents>","Only available <after adopting [Mercantilism]>","Only available <in cities with a [Harbor District]>"],
         "quote": "No vessel could pass these guns without being seriously assailed.' – Laure Junot Abrantes"
     },
@@ -1602,77 +1604,92 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Venetian Arsenal",
         "isWonder": true,
         "cost": 920,
-        "greatPersonPoints": {"Engineer": 2},
+        "greatPersonPoints": {"Great Engineer": 2},
         "uniques": ["[+100]% Production when constructing [Water] units [in all cities]","Must be next to [Coast]","Only available <in cities with a [Industrial Zone District]>"],
         "requiredTech": "Mass Production",
         "quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' –Robert Burton"
     },
 
     // Industrial Era
-
-    /*{
-        "name": "Panama Canal",
-        "isWonder": true,
-        "cost": 1240
-    },
-    {
-        "name": "Orszaghaz",
-        "isWonder": true,
-        "cost": 1240
-    },
     {
         "name": "Statue of Liberty",
         "isWonder": true,
-        "cost": 1240
-    }*/
+        "cost": 1240,
+        "happiness": 4,
+        "uniques": ["[2] free [Settler] units appear","Must be next to [Coast]","Only available <in cities with a [Harbor District]> <after adopting [Civil Engineering]>"],
+        "quote": "'Here at our sea-washed, sunset gates shall stand a mighty woman with a torch, whose flame is the imprisoned lightning.' – Emma Lazarus",
+    }
     {
-        "name": "Bolshoi Theatre",
+        "name": "Ruhr Valley",
         "isWonder": true,
         "cost": 1240,
-        "greatPersonPoints": {"culture": 4},
-        "uniques": ["Free Social Policy","Free Social Policy","Must be on [River]","Only available <after adopting [Opera and Ballet]>"],
-        "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance, its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' –Trudy Garfunkel"
+        "percentStatBonus": {"production": 20},
+        "uniques": ["[+1 Production] from [Mine] tiles [in this city]","[+1 Production] from [Quarry] tiles [in this city]",
+        	"Must be on [River]", "Only available <in cities with a [Factory]>"],
+        "requiredTech": "Industrialization",
+        "quote": "'The industrial heart of Germany practically stopped beating. Hardly anyone worked, hardly anything ran. The population of the Ruhr area...had to be supported by the rest of the country.' –Adam Fergusson"
     },
     {
-        "name": "Hermitage",
+        "name": "Panama Canal",
         "isWonder": true,
-        "cost": 1450,
-        "specialistSlots": {"Artist": 4},
-        "greatPersonPoints": {"culture": 3},
-        "uniques": ["Must be on [River]","Must not be on [Desert]","Must not be on [Tundra]","Only available <after adopting [Natural History]>"],
-        "quote": "'Museums are on the front lines of the fight for culture, of good with evil--in any case, of the fight against platitudes and primitiveness.' –Mikhail Piotrovsky, Director of the State Hermitage"
-    },
-    {
-        "name": "Big Ben",
-        "isWonder": true,
-        "cost": 1450,
-        "gold": 6,
-        "percentStatBonus": {"gold": 50},
-        "greatPersonPoints": {"gold": 3},
-        "uniques": ["Must be on [River]"],
-        "requiredTech": "Economics",
-        "quote": "'Don't watch the big clock, do what it does: Keep going.' –Sam Levenson"
+        "cost": 920,
+        "gold": 10,
+        "uniques": ["[+1] Movement <for [Water] units>", "Must be next to [Water]"],
+        "requiredTech": "Steam Power",
+        "quote": "'Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea; Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.' – Psalms 46:2-3",
     },
     {
         "name": "Oxford University",
         "isWonder": true,
         "cost": 1450,
         "percentStatBonus": {"science": 20},
-        "greatPersonPoints": {"science": 3},
-        "uniques": ["Free Technology","Free Technology","Must not be on [Hill]"],
+        "specialistSlots": {"Scientist": 2},
+        "greatPersonPoints": {"Scientist": 3},
+        "uniques": ["[2] Free Technologies","Must not be on [Hill]","Must not be on [Desert]","Must not be on [Snow]","Must not be on [Tundra]","Only available <in cities with a [University]>"],
         "requiredTech": "Scientific Theory",
         "quote": "'The clever men at Oxford...know all that there is to be knowed. But they none of them know one half as much...As intelligent Mr. Toad!' –Kenneth Grahame"
     },
     {
-        "name": "Ruhr Valley",
+        "name": "Orszaghaz",
+        "isWonder": true,
+        "cost": 920,
+        "culture": 4,
+        "uniques": ["Gifts of Gold to City-States generate [+50]% more Influence","Must be on [River]"],
+        "requiredTech": "Sanitation",
+        "quote": "'With self-government is freedom, and with freedom is justice and patriotism.'– Lajos Kossuth"
+   
+    },
+{
+        "name": "Hermitage",
         "isWonder": true,
         "cost": 1450,
-        "percentStatBonus": {"production": 20},
-        "uniques": ["[+1 Production] from [Mine] tiles [in this city]","[+1 Production] from [Quarry] tiles [in this city]",
-        	"Must be on [River]"],
-        "requiredTech": "Industrialization",
-        "quote": "'The industrial heart of Germany practically stopped beating. Hardly anyone worked, hardly anything ran. The population of the Ruhr area...had to be supported by the rest of the country.' –Adam Fergusson"
+        "specialistSlots": {"Artist": 4},
+        "greatPersonPoints": {"Great Artist": 3},
+        "uniques": ["Must be on [River]","Must not be on [Desert]","Must not be on [Tundra]","Only available <after adopting [Natural History]>"],
+        "quote": "'Museums are on the front lines of the fight for culture, of good with evil--in any case, of the fight against platitudes and primitiveness.' –Mikhail Piotrovsky, Director of the State Hermitage"
     },
+    {
+        "name": "Bolshoi Theatre",
+        "isWonder": true,
+        "cost": 1240,
+        "specialistSlots": {"Artist": 2},
+        "greatPersonPoints": {"Great Artist": 4},
+        "uniques": ["[2] Free Social Policies","Only available <in cities with a [Theatre Square]> <after adopting [Opera and Ballet]>"],
+        "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance, its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' –Trudy Garfunkel"
+    },
+    
+    {
+        "name": "Big Ben",
+        "isWonder": true,
+        "cost": 1450,
+        "gold": 6,
+        "percentStatBonus": {"gold": 50},
+        "greatPersonPoints": {"Great Merchant": 3},
+        "uniques": ["Provides [1] [Economic Policy Slots]","Must be on [River]","Only available <in cities with a [Bank]>"],
+        "requiredTech": "Economics",
+        "quote": "'Don't watch the big clock, do what it does: Keep going.' –Sam Levenson"
+    },
+
 
     // Modern Era 
     {
@@ -1680,15 +1697,11 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 1620,
         "uniques": [
-"[+1 Culture] from [Grassland] tiles [in all cities]", 
-"[+1 Culture] from [Plains] tiles [in all cities]",
-"[+1 Culture] from [Desert] tiles [in all cities]", 
-"[+1 Culture] from [Tundra] tiles [in all cities]", 
-"[+1 Culture] from [Snow] tiles [in all cities]", 
-"[+1 Culture] from [Coast] tiles [in all cities]", 
-"[+1 Culture] from [Lakes] tiles [in all cities]", 
-"[+1 Culture] from [Ocean] tiles [in all cities]", 
-"[+1 Culture] from [Mountain] tiles [in all cities]", 
+"[+2 Gold, +1 Culture] from [Seaside Resort] tiles [in all cities]", 
+"[+2 Culture] from [Chemamull] tiles [in all cities]", 
+//"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [unimproved] [Land] tiles [in all cities] <with [1] to [1] neighboring [Preserve] tiles>"],
+//"[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [unimproved] [Land] tiles [in all cities] <with [2] to [2] neighboring [Preserve] tiles>"],
+//"[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from [unimproved] [Land] tiles [in all cities] <with [3] to [6] neighboring [Preserve] tiles>"],
 "Must not be on [Hill]"],
         "requiredTech": "Steel",
         "quote": "'I ought to be jealous of the tower. She is more famous than I am.' –Gustave Eiffel"
@@ -1706,27 +1719,23 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 1620,
         "happiness": 3,
-        "providesFreeBuilding": "Golden Gate Bonus",
         "uniques": [
-"[+2 Culture] from [Grassland] tiles [in this city]", 
-"[+2 Culture] from [Plains] tiles [in this city]", 
-"[+2 Culture] from [Desert] tiles [in this city]", 
-"[+2 Culture] from [Tundra] tiles [in this city]", 
-"[+2 Culture] from [Snow] tiles [in this city]", 
-"[+2 Culture] from [Coast] tiles [in this city]", 
-"[+2 Culture] from [Lakes] tiles [in this city]", 
-"[+2 Culture] from [Ocean] tiles [in this city]", 
-"[+2 Culture] from [Mountain] tiles [in this city]", 
+"[+4 Gold, +2 Culture] from [Seaside Resort] tiles [in this city]", 
+"[+4 Culture] from [Chemamull] tiles [in this city]", 
+//"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Land] tiles [in this city] <with [1] to [1] neighboring [Preserve] tiles> <in [unimproved] [Land] tiles>"],
+//"[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [Land] tiles [in this city] <with [2] to [2] neighboring [Preserve] tiles> <in [unimproved] [Land] tiles>"],
+//"[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from [Land] tiles [in this city] <with [3] to [6] neighboring [Preserve] tiles> <in [unimproved] [Land] tiles>"],
 "Must be next to [Coast]"],
         "requiredTech": "Combustion",
         "quote": "'Thus, the sculpture serves to give people one thought--'Everything is in God's hands.'' –Sergey Semenov"
     },
+    
     {
         "name": "Broadway",
         "isWonder": true,
         "cost": 1620,
         "percentStatBonus": {"culture": 20},
-        "greatPersonPoints": {"culture": 5},
+        "greatPersonPoints": {"Great Artist": 6},
         "uniques": ["Free Social Policy","Must not be on [Hill]","Only available <after adopting [Mass Media]>"],
         "quote": "'There's no business like show business.' –Irving Berlin, Annie Get Your Gun"
     },
@@ -1736,7 +1745,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Estadio do Maracana",
         "isWonder": true,
         "cost": 1740,
-        "uniques": ["[+6 Culture] [in all cities]","[+2 Happiness] [in all cities]","Must not be on [Hill]","Only available <after adopting [Professional Sports]>"],
+        "uniques": ["[+6 Culture, +2 Happiness] [in all cities]","Must not be on [Hill]","Only available <in cities with a [Stadium]> <after adopting [Professional Sports]>"],
         "quote": "'Down through its history, only three people have managed to silence the Maracana: the Pope, Frank Sinatra, and me.' –Alcides Ghiggia, Uruguayan soccer player"
     },
     {
@@ -1744,7 +1753,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "isWonder": true,
         "cost": 1740,
         "uniques": ["[+3 Science] from [Rainforest] tiles [in this city]","[+3 Science] from [Woods] tiles [in this city]",
-            "[+3 Science] from [Marsh] tiles [in this city]","Must be on [River]"],
+            "[+3 Science] from [Marsh] tiles [in this city]","Must be on [River]", "Only available <in cities with a [Neighbourhood District]>"],
         "requiredTech": "Synthetic Materials",
         "quote": "'Heaven is under our feet as well as over our heads.' –Henry David Thoreau"
     },
@@ -1752,10 +1761,10 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "name": "Amundsen-Scott Research Station",
         "isWonder": true,
         "cost": 1740,
-        "percentStatBonus": {"science": 20, "production": 10},
-        "greatPersonPoints": {"science": 5},
-        "uniques": ["[+20]% [Science] from every [City Center]","[+10]% [Production] from every [City Center]","Must be on [Snow]",
-            "Only available <after adopting [Rapid Deployment]>"],
+        "greatPersonPoints": {"Scientist": 5},
+        "uniques": ["[+20]% [Science] [in all cities]","[+10]% [Production] [in all cities]",
+"[+20]% [Science] [in all cities] <in [Snow] tiles>","[+10]% [Production] [in all cities] <in [Snow] tiles>",
+"Must be on [Snow]","Only available <after adopting [Rapid Deployment]>"],
         "quote": "'For scientific leadership, give me Scott; for swift and efficient travel, Amundsen.' –Sir Raymond Priestley"
     },
     {
@@ -1764,8 +1773,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 1740,
         "culture": 8,
         "specialistSlots": {"Artist": 3},
-        "greatPersonPoints": {"culture": 5},
-        "uniques": ["Must be next to [Coast]","Only available <after adopting [Cultural Heritage]>"],
+        "greatPersonPoints": {"Great Artist": 5},
+        "uniques": ["Must be next to [Coast]","Only available <in cities with a [Harbor District]> <after adopting [Cultural Heritage]>"],
         "quote": "'An opera begins long before the curtain goes up and ends long after it has come down. It starts in my imagination, it becomes my life, and it stays part of my life long after I've left the opera house.' –Maria Callas"
     },
 
@@ -2133,7 +2142,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "specialistSlots": {"Scientist": 1},
         "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 2,
-        "replacementTextForUniques": "Only available after adopting Theology, 5% Food is carried over after population increases in this city, receive Faith from Campus tiles in this city equal to their Science adjacency bonus."
+        "replacementTextForUniques": "Only available after adopting Theology, 5% Food is carried over after population increases in this city, receive Faith from Campus tiles in this city equal to their Science adjacency bonus.",
         "uniques": [
 "Only available <after adopting [Theology]>",
 "[5]% Food is carried over after population increases [in this city]",
@@ -6096,26 +6105,6 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Destroyed when the city is captured",
 "Unsellable",
 "[+27]% Strength <when fighting in [Hill] tiles>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [3] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [6] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [9] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [12] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [15] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [19] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [22] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [25] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [29] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [32] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [35] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [39] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [42] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [45] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [49] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [52] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [55] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [62] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [65] [Population]>",
-"[+1 Science, +1 Culture] [in all cities] <in [Hill] tiles> <in cities with a [Holy Site District]> <in cities with at least [69] [Population]>",
 "[+1 Science, +1 Culture] from every [Temple]",
 "[+1 Science, +1 Culture] from every [Temple] <if [Simultaneum] is constructed>",
 "[+1 Science, +1 Culture] from every [Cathedral] <if [Simultaneum] is constructed>",

@@ -16,6 +16,15 @@
         "Tundra+Woods": ["Tundra","Woods"],
         "Tundra+Hill+Woods": ["Tundra","Hill","Woods"],
 
+        //Lumber mill
+        "Grassland+Woods+Lumber mill": ["Grassland","LumbermillWoods"],
+        "Grassland+Hill+Woods+Lumber mill": ["Grassland","Hill","LumbermillWoods"],
+        "Plains+Woods+Lumber mill": ["Plains","LumbermillWoods"],
+        "Plains+Hill+Woods+Lumber mill": ["Plains","Hill","LumbermillWoods"],
+        "Tundra+Woods+Lumber mill": ["Tundra","LumbermillWoods"],
+        "Tundra+Hill+Woods+Lumber mill": ["Tundra","Hill","LumbermillWoods"],
+
+
         //Artefacts
         "Lakes+Artefacts": ["Lakes","Shipwreck"],
         "Coast+Artefacts": ["Coast","Shipwreck"],
@@ -141,6 +150,79 @@
         "Tundra+Hill+Woods+Furs": ["Tundra","Hill","Furs","Woods"],
         "Tundra+Hill+Woods+Deer": ["Tundra","Hill","Deer","Woods"],
         "Tundra+Hill+Woods+Ivory": ["Tundra","Hill","Ivory","Woods"],
+
+
+
+
+        //resources behind Woods and Rainforest
+            //TODO all the resources...
+        //Grassland
+        "Grassland+Rainforest+Oil": ["Grassland","Oil","Rainforest"],
+        "Grassland+Woods+Horses+Lumber mill": ["Grassland","Horses","LumbermillWoods"],
+        "Grassland+Woods+Iron+Lumber mill": ["Grassland","Iron","LumbermillWoods"],
+        "Grassland+Woods+Niter+Lumber mill": ["Grassland","Niter","LumbermillWoods"],
+        "Grassland+Woods+Coal+Lumber mill": ["Grassland","Coal","LumbermillWoods"],
+        "Grassland+Woods+Aluminum+Lumber mill": ["Grassland","Aluminum","LumbermillWoods"],
+        "Grassland+Woods+Uranium+Lumber mill": ["Grassland","Uranium","LumbermillWoods"],
+        "Grassland+Woods+Deer+Lumber mill": ["Grassland","Deer","LumbermillWoods"],
+        "Grassland+Woods+Furs+Lumber mill": ["Grassland","Furs","LumbermillWoods"],
+        "Grassland+Woods+Ivory+Lumber mill": ["Grassland","Ivory","LumbermillWoods"],
+	"Grassland+Woods+Truffles+Lumber mill": ["Grassland","Truffles","LumbermillWoods"],
+        //Grassland+Hill
+        "Grassland+Hill+Woods+Horses+Lumber mill": ["Grassland","Hill","Horses","LumbermillWoods"],
+        "Grassland+Hill+Woods+Iron+Lumber mill": ["Grassland","Hill","Iron","LumbermillWoods"],
+        "Grassland+Hill+Woods+Niter+Lumber mill": ["Grassland","Hill","Niter","LumbermillWoods"],
+        "Grassland+Hill+Woods+Coal+Lumber mill": ["Grassland","Hill","Coal","LumbermillWoods"],
+        "Grassland+Hill+Woods+Aluminum+Lumber mill": ["Grassland","Hill","Aluminum","LumbermillWoods"],
+        "Grassland+Hill+Woods+Uranium+Lumber mill": ["Grassland","Hill","Uranium","LumbermillWoods"],
+        "Grassland+Hill+Woods+Furs+Lumber mill": ["Grassland","Hill","Furs","LumbermillWoods"],
+        "Grassland+Hill+Woods+Deer+Lumber mill": ["Grassland","Hill","Deer","LumbermillWoods"],
+        "Grassland+Hill+Woods+Ivory+Lumber mill": ["Grassland","Hill","Ivory","LumbermillWoods"],
+	"Grassland+Hill+Woods+Truffles+Lumber mill": ["Grassland","Hill","Truffles","LumbermillWoods"],
+        //Plains
+        "Plains+Rainforest+Oil+Lumber mill": ["Plains","Oil","Rainforest"],
+        "Plains+Woods+Horses+Lumber mill": ["Plains","Horses","LumbermillWoods"],
+        "Plains+Woods+Iron+Lumber mill": ["Plains","Iron","LumbermillWoods"],
+        "Plains+Woods+Horses+Lumber mill": ["Plains","Niter","LumbermillWoods"],
+        "Plains+Woods+Coal+Lumber mill": ["Plains","Coal","LumbermillWoods"],
+        "Plains+Woods+Aluminum+Lumber mill": ["Plains","Aluminum","LumbermillWoods"],
+        "Plains+Woods+Uranium+Lumber mill": ["Plains","Uranium","LumbermillWoods"],
+        "Plains+Woods+Deer+Lumber mill": ["Plains","Deer","LumbermillWoods"],
+        "Plains+Woods+Furs+Lumber mill": ["Plains","Furs","LumbermillWoods"],
+        "Plains+Woods+Ivory+Lumber mill": ["Plains","Ivory","LumbermillWoods"],
+	"Plains+Woods+Truffles+Lumber mill": ["Plains","Truffles","LumbermillWoods"],
+        //Plains+Hill
+        "Plains+Hill+Woods+Horses+Lumber mill": ["Plains","Hill","Horses","LumbermillWoods"],
+        "Plains+Hill+Woods+Iron+Lumber mill": ["Plains","Hill","Iron","LumbermillWoods"],
+        "Plains+Hill+Woods+Niter+Lumber mill": ["Plains","Hill","Niter","LumbermillWoods"],
+        "Plains+Hill+Woods+Coal+Lumber mill": ["Plains","Hill","Coal","LumbermillWoods"],
+        "Plains+Hill+Woods+Aluminum+Lumber mill": ["Plains","Hill","Aluminum","LumbermillWoods"],
+        "Plains+Hill+Woods+Uranium+Lumber mill": ["Plains","Hill","Uranium","LumbermillWoods"],
+        "Plains+Hill+Woods+Furs+Lumber mill": ["Plains","Hill","Furs","LumbermillWoods"],
+        "Plains+Hill+Woods+Deer+Lumber mill": ["Plains","Hill","Deer","LumbermillWoods"],
+        "Plains+Hill+Woods+Ivory+Lumber mill": ["Plains","Hill","Ivory","LumbermillWoods"],
+	"Plains+Hill+Woods+Truffles+Lumber mill": ["Plains","Hill","Truffles","LumbermillWoods"],
+        //Tundra
+        "Tundra+Rainforest+Oil+Lumber mill": ["Tundra","Oil","LumbermillWoods"],
+        "Tundra+Woods+Horses+Lumber mill": ["Tundra","Horses","LumbermillWoods"],
+        "Tundra+Woods+Niter+Lumber mill": ["Tundra","Niter","LumbermillWoods"],
+        "Tundra+Woods+Iron+Lumber mill": ["Tundra","Iron","LumbermillWoods"],
+        "Tundra+Woods+Coal+Lumber mill": ["Tundra","Coal","LumbermillWoods"],
+        "Tundra+Woods+Aluminum+Lumber mill": ["Tundra","Aluminum","LumbermillWoods"],
+        "Tundra+Woods+Uranium+Lumber mill": ["Tundra","Uranium","LumbermillWoods"],
+        "Tundra+Woods+Deer+Lumber mill": ["Tundra","Deer","LumbermillWoods"],
+        "Tundra+Woods+Furs+Lumber mill": ["Tundra","Furs","LumbermillWoods"],
+        "Tundra+Woods+Ivory+Lumber mill": ["Tundra","Ivory","LumbermillWoods"],
+        //Tundra+Hill
+        "Tundra+Hill+Woods+Horses+Lumber mill": ["Tundra","Hill","Horses","LumbermillWoods"],
+        "Tundra+Hill+Woods+Iron+Lumber mill": ["Tundra","Hill","Iron","LumbermillWoods"],
+        "Tundra+Hill+Woods+Niter+Lumber mill": ["Tundra","Hill","Niter","LumbermillWoods"],
+        "Tundra+Hill+Woods+Coal+Lumber mill": ["Tundra","Hill","Coal","LumbermillWoods"],
+        "Tundra+Hill+Woods+Aluminum+Lumber mill": ["Tundra","Hill","Aluminum","LumbermillWoods"],
+        "Tundra+Hill+Woods+Uranium+Lumber mill": ["Tundra","Hill","Uranium","LumbermillWoods"],
+        "Tundra+Hill+Woods+Furs+Lumber mill": ["Tundra","Hill","Furs","LumbermillWoods"],
+        "Tundra+Hill+Woods+Deer+Lumber mill": ["Tundra","Hill","Deer","LumbermillWoods"],
+        "Tundra+Hill+Woods+Ivory+Lumber mill": ["Tundra","Hill","Ivory","LumbermillWoods"],
 
 //Rainforest, it's easier to copy-paste everything
         "Grassland+Rainforest+Horses": ["Grassland","Horses","Rainforest"],
