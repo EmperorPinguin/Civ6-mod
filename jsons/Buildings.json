@@ -5705,7 +5705,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "Gaul",
+		"uniqueTo": "Byzantium",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -5934,7 +5934,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "Norway",
+		"uniqueTo": "Japan",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -6207,11 +6207,11 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 ],
 	},
 {
-		"name": "The Grand Embassy",
+		"name": "Peter I",
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "Greece",
+		"uniqueTo": "Russia",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -6269,7 +6269,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "China",
+		"uniqueTo": "Scotland",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -6385,7 +6385,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "Georgia",
+		"uniqueTo": "The Ottomans",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -6443,7 +6443,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "America",
+		"uniqueTo": "Scythia",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -6472,7 +6472,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "Rome",
+		"uniqueTo": "England",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
@@ -6502,7 +6502,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
-		"uniqueTo": "Rome",
+		"uniqueTo": "The Netherlands",
 		"uniques": [
 "Can only be built [in capital]",
 "Only available <with [Leader]>",
