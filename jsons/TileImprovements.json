@@ -438,10 +438,14 @@
 		"uniqueTo": "Sweden",
 		"turnsToBuild": 7,
 		"techRequired": "Industrialization",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow"],
-		"uniques": ["[+2 Culture] for each adjacent [Grassland]","[+2 Culture] for each adjacent [Plains]",
-			"[+2 Culture] for each adjacent [Desert]","[+2 Culture] for each adjacent [Tundra]",
-			"[+2 Culture] for each adjacent [Snow]"]
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"uniques": [
+"[+2 Culture] <with [1] to [6] neighboring [Grassland] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Plains] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Desert] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Tundra] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Snow] tiles>",
+]
 	},
 	{
 		"name": "Outback Station",
