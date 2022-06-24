@@ -574,6 +574,7 @@
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
+		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"uniques": ["Great Improvement","Can only be built to improve a resource"]	
 	},
@@ -1058,6 +1059,7 @@
 {
 		"name": "Preserve",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": "1",
 		"uniques": [
 "Great Improvement",
 "Must be next to [Natural Wonder]",
