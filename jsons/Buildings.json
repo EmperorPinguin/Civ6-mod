@@ -1104,7 +1104,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 180,
         "science": 2,
         "requiredTech": "Pottery",
-        "uniques": ["[+2 Production, +1 Science] from every [Marh]", "[+1 Production, +1 Science] from [Flood plains] tiles [in this city]", "Must be on [Flood plains]"],
+        "uniques": ["[+2 Production, +1 Science] from every [Marsh]", "[+1 Production, +1 Science] from [Flood plains] tiles [in this city]", "Must be on [Flood plains]"],
         "quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
     },
     {

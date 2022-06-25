@@ -662,12 +662,11 @@
 	{
 		"name": "Royal Navy Dockyard", // England
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Naval Ranged","Naval Raider","Naval Melee","Naval Carrier"]
 	},
 	{
 		"name": "Cothon", //Phoenicia
 		"uniques": ["[+100] HP when healing <in [Friendly Land] tiles>"],
-		"unitTypes": ["Naval Ranged","Naval Raider","Naval Melee","Naval Carrier"]
+	
 	},
 	{
 		"name": "Martyr", //Khmer
