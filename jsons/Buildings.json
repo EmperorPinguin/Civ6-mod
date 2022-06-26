@@ -6063,7 +6063,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 	},
 
 {
-		"name": "Mans Musa",
+		"name": "Mansa Musa",
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
