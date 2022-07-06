@@ -51,7 +51,7 @@
 				"name": "Writing",
 				"row": 5,
 				"prerequisites": ["Pottery"],
-				"uniques": ["Enables conversion of city production to science"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'The man who has grit enough to bring about the afforestation or the irrigation of a country is not less worthy of honor than its conqueror' - Paulo Coelho"
 			},
 			{
@@ -106,7 +106,7 @@
 				"name": "Currency",
 				"row": 5,
 				"prerequisites": ["Writing"],
-				"uniques": ["Enables conversion of city production to gold"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'Wealth consists not in having great possessions, but in having few wants.' - Epictetus"
 			},
 			{

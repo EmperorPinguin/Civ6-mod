@@ -950,8 +950,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 */
-"Must be next to [Coast]",
-"Connects trade routes over water"
+"Connects trade routes over water",
+"Must be next to [Coast]"
 ],
 		"requiredTech": "Celestial Navigation"
 	},

@@ -675,7 +675,7 @@ Plantation:
 			{
 				"name": "Future Civic",
 				"uniques": [
-"Production to science conversion in cities increased by 33%",
+"Production to [Science] conversion in cities changed by [33]%",
 "Gifts of Gold to City-States generate [25]% more Influence"
 ],
 				"requires": ["Information Warfare","Global Warming Mitigation","Cultural Hegemony",
