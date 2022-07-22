@@ -6,25 +6,43 @@
 		"buildingCost": 60,
 		"techs": [
 			{
-				"name": "Pottery",
-				"row": 5,
-				"quote": "'No man ever wetted clay and left it, as if there would be bricks by chance and fortune.' - Plutarch"
-			},
-			{
-				"name": "Animal Husbandry",
+				"name": "Agriculture",
 				"row": 6,
-				"quote": "'I am fond of pigs. Dogs look up to us. Cats look down on us. Pigs treat us as equals.' - Winston S. Churchill"
-			},
-			{
-				"name": "Mining",
-				"row": 8,
-				"quote": "'Who deserves more credit than the wife of a coal miner?' - Merle Travis"
+				"uniques": ["Starting tech"],
+				"quote": "'No man ever wetted clay and left it, as if there would be bricks by chance and fortune.' - Plutarch"
 			}
 			
 		]	
 	},
 	{
 		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 25, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Pottery",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": "'No man ever wetted clay and left it, as if there would be bricks by chance and fortune.' - Plutarch"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 6,
+				"prerequisites": ["Agriculture"],
+				"quote": "'I am fond of pigs. Dogs look up to us. Cats look down on us. Pigs treat us as equals.' - Winston S. Churchill"
+			},
+			{
+				"name": "Mining",
+				"row": 8,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Who deserves more credit than the wife of a coal miner?' - Merle Travis"
+			}
+			
+		]	
+	},
+	{
+		"columnNumber": 2,
 		"era": "Ancient era",
 		"techCost": 50, 
 		"buildingCost": 75,
@@ -63,7 +81,7 @@
 		]	
 	},
 	{
-		"columnNumber": 2,
+		"columnNumber": 3,
 		"era": "Ancient era",
 		"techCost": 80, 
 		"buildingCost": 100,
@@ -90,7 +108,7 @@
 		]	
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 4,
 		"era": "Classical era",
 		"techCost": 120, 
 		"buildingCost": 120,
@@ -132,7 +150,7 @@
 		]	
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 5,
 		"era": "Classical era",
 		"techCost": 200,
 		"buildingCost": 160,
@@ -159,7 +177,7 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 6,
 		"era": "Medieval era",
 		"techCost": 275, 
 		"buildingCost": 200,
@@ -200,7 +218,7 @@
 		]	
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 335, 
 		"buildingCost": 250,
@@ -229,7 +247,7 @@
 		]	
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 8,
 		"era": "Renaissance era",
 		"techCost": 490, 
 		"buildingCost": 300,
@@ -284,7 +302,7 @@
 		]	
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 600,
 		"buildingCost": 360,
@@ -307,7 +325,7 @@
 		]	
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 930,
 		"buildingCost": 500,
@@ -340,7 +358,7 @@
 		]	
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 805,
 		"buildingCost": 500,
@@ -375,7 +393,7 @@
 		]	
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Modern era",
 		"techCost": 1250,
 		"buildingCost": 500,
@@ -409,7 +427,7 @@
 		]	
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 985,
 		"buildingCost": 500,
@@ -445,7 +463,7 @@
 		]	
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Atomic era",
 		"techCost": 1480,
 		"buildingCost": 750,
@@ -486,7 +504,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 1195,
 		"buildingCost": 750,
@@ -515,7 +533,7 @@
 		]	
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 1850,
 		"buildingCost": 750,
@@ -564,7 +582,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 1560,
 		"buildingCost": 750,
@@ -592,7 +610,7 @@
 		]	
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Future era",
 		"techCost": 2200,
 		"buildingCost": 750,
@@ -614,7 +632,7 @@
 		]	
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 19,
 		"era": "Future era",
 		"techCost": 2200,
 		"buildingCost": 750,
@@ -650,7 +668,7 @@
 		]	
 	},
 	{
-		"columnNumber": 19,
+		"columnNumber": 20,
 		"era": "Future era",
 		"techCost": 2500,
 		"buildingCost": 750,
@@ -665,7 +683,7 @@
 		]	
 	},
 	{
-		"columnNumber": 20,
+		"columnNumber": 21,
 		"era": "Future era",
 		"techCost": 2600,
 		"buildingCost": 750,

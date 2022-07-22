@@ -257,7 +257,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Can see over obstacles","Double movement in [Woods]","Double movement in [Rainforest]","[+67]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["Can see over obstacles","Double movement in [Forest]","Double movement in [Jungle]","[+67]% Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "metalhit"
 	},
 	{

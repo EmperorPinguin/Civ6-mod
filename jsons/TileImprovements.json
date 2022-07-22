@@ -18,15 +18,15 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Woods","Rainforest"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
 		"uniques": [
 "[+1 Production] <after discovering [Steel]>",
 "[+1 Production] <after discovering [Cybernetics]>",
-"Does not need removal of [Woods]",
-"Does not need removal of [Rainforest]"
+"Does not need removal of [Forest]",
+"Does not need removal of [Jungle]"
 ],
 		"shortcutKey": "L"
 	},
@@ -57,7 +57,7 @@
 "[+2 Gold] for each adjacent [Sphinx]",
 "[+2 Gold] for each adjacent [Ice Hockey Rink]",
 "[+1 Gold] for each adjacent [Mountain]",
-"[+1 Gold] for each adjacent [Woods]",
+"[+1 Gold] for each adjacent [Forest]",
 "[+1 Gold] for each adjacent [Coast]",
 "[+1 Gold] for each adjacent [Oasis]",
 "[+1 Gold] for each adjacent [Holy Site]",
@@ -69,7 +69,7 @@
 "[-1 Gold] for each adjacent [Mine]",
 "[-1 Gold] for each adjacent [Quarry]",
 "[-1 Gold] for each adjacent [Oil well]",
-"[-1 Gold] for each adjacent [Rainforest]",
+"[-1 Gold] for each adjacent [Jungle]",
 "[-1 Gold] for each adjacent [Marsh]",
 ]
 	},
@@ -121,7 +121,7 @@
 ]
 	},
 	{
-		"name": "Woods",
+		"name": "Forest",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains", "Tundra", "Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
@@ -146,9 +146,9 @@
 "Can only be built to improve a resource",
 "[+1 Food, +1 Production] <after adopting [Mercantilism]>",
 "[+2 Gold] <after discovering [Synthetic Materials]>",
-"Does not need removal of [Woods]",
+"Does not need removal of [Forest]",
 "Does not need removal of [Marsh]",
-"Does not need removal of [Rainforest]",
+"Does not need removal of [Jungle]",
 ],
 		"shortcutKey": "C"
 	},
@@ -189,8 +189,8 @@
 "[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
 "[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
 "[+1 Productio] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
-"Does not need removal of [Woods]",
-"Does not need removal of [Rainforest]",
+"Does not need removal of [Forest]",
+"Does not need removal of [Jungle]",
 ],
 		"shortcutKey": "P"
 	},
@@ -249,7 +249,7 @@
 "[+2 Culture] for each adjacent [Sphinx]",
 "[+2 Culture] for each adjacent [Ice Hockey Rink]",
 "[+1 Culture] for each adjacent [Mountain]",
-"[+1 Culture] for each adjacent [Woods]",
+"[+1 Culture] for each adjacent [Forest]",
 "[+1 Culture] for each adjacent [Coast]",
 "[+1 Culture] for each adjacent [Oasis]",
 "[+1 Culture] for each adjacent [Holy Site]",
@@ -261,7 +261,7 @@
 "[-1 Culture] for each adjacent [Mine]",
 "[-1 Culture] for each adjacent [Quarry]",
 "[-1 Culture] for each adjacent [Oil well]",
-"[-1 Culture] for each adjacent [Rainforest]",
+"[-1 Culture] for each adjacent [Jungle]",
 "[-1 Culture] for each adjacent [Marsh]",
 ],
 	},
@@ -269,7 +269,7 @@
 		"name": "Roman Fort",
 		"uniqueTo": "Rome",
 		"turnsToBuild": 8,
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"uniques": ["Gives a defensive bonus of [25]%","Can only be built by Roman Legion"]
 	},
 	{
@@ -469,7 +469,7 @@
 	},
 	{
 		"name": "Pa",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"uniques": ["Gives a defensive bonus of [27]%","Adjacent enemy units ending their turn take [30] damage"]
 	},
 	{
@@ -581,14 +581,14 @@
 /*
 	{
 		"name": "Trade Route (Domestic)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"food": 1,
 		"production": 1,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Trade Route (International)",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Woods","Rainforest","Flood plains","Marsh","Oasis"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 3,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
@@ -623,17 +623,17 @@
 	
 	// Removals
 	{
-		"name": "Remove Woods",
+		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"terrainsCanBeBuiltOn": ["Woods"],
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
-		"name": "Remove Rainforest",
+		"name": "Remove Jungle",
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Rainforest"],
+		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
@@ -712,9 +712,9 @@
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+2 Science] for each adjacent [Pamukkale]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
 "[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
@@ -733,9 +733,9 @@
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+2 Science] for each adjacent [Pamukkale]",
 "[+1 Science] for each adjacent [Mountain]",
-"[+1 Science] <with [2] to [3] neighboring [Rainforest] tiles>",
-"[+2 Science] <with [4] to [5] neighboring [Rainforest] tiles>",
-"[+3 Science] <with [6] to [6] neighboring [Rainforest] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
 "[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
@@ -769,9 +769,9 @@
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
 "[+1 Faith] for each adjacent [Pamukkale]",
-"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
 "[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
@@ -789,9 +789,9 @@
 "[+2 Faith] for each adjacent [Natural Wonder]",
 "[+1 Faith] for each adjacent [Mountain]",
 "[+1 Faith] for each adjacent [Pamukkale]",
-"[+1 Faith] <with [2] to [3] neighboring [Woods] tiles>",
-"[+2 Faith] <with [4] to [5] neighboring [Woods] tiles>",
-"[+3 Faith] <with [6] to [6] neighboring [Woods] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
 "[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
 "[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>",

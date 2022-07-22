@@ -3,7 +3,7 @@
 	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Rainforest"],
+		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 2}
@@ -35,7 +35,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Woods","Tundra"],
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"production": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1,"gold": 1}
@@ -101,8 +101,8 @@
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
 					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
-					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
@@ -123,9 +123,9 @@
 					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
 					"Generated with weight [26] <in [Hill] tiles>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Rainforest] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Woods] tiles>",
-					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
+					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
@@ -145,7 +145,7 @@
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
 					"Generated with weight [75] <in [Desert] tiles>",
-					"Minor deposits generated with weight [20] <in [Woods] tiles>"
+					"Minor deposits generated with weight [20] <in [Forest] tiles>"
 					"Minor deposits generated with weight [30] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Coastal] tiles>",
 ],
@@ -156,16 +156,16 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Rainforest","Woods","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
 		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-					"Generated with weight [30] <in [Rainforest] tiles> <in tiles without [Hill]>",
-					"Generated with weight [30] <in [Woods] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Rainforest] tiles>",
-					"Minor deposits generated with weight [10] <in [Woods] tiles>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
@@ -178,7 +178,7 @@
 		"name": "Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Steel",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Rainforest"],
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 2,
 		"improvement": "Oil well",
 		"improvementStats": {"production": 3}
@@ -190,7 +190,7 @@
 					"Generated with weight [65] <in [Featureless] [Desert] tiles>",
 					"Generated with weight [100] <in [Featureless] [Coast] tiles>",
 					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Rainforest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
@@ -201,14 +201,14 @@
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Radio",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Rainforest"],
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"science": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
 		"uniques": ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
 					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Rainforest] tiles>",
+					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
 		"majorDepositAmount": {"sparse": 10, "default": 16, "abundant": 20},
 		"minorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6}
@@ -217,14 +217,14 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Combined Arms",
-		"terrainsCanBeFoundOn": ["Marsh","Rainforest","Woods","Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
 		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Generated with weight [70] <in [Rainforest] tiles> <in tiles without [Hill]>",
-					"Generated with weight [70] <in [Woods] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Woods] tiles>",
+					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 8},
@@ -235,7 +235,7 @@
 	{
 		"name": "Amber",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Woods","Rainforest","Coast"], 
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Coast"], 
 		"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -251,7 +251,7 @@
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Rainforest"],
+		"terrainsCanBeFoundOn": ["Jungle"],
 		"gold": 3,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1,"gold": 1}
@@ -259,7 +259,7 @@
 	{
 		"name": "Coffee",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Rainforest"],
+		"terrainsCanBeFoundOn": ["Grassland","Jungle"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -275,7 +275,7 @@
 	{
 		"name": "Diamonds",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Rainforest","Hill"],
+		"terrainsCanBeFoundOn": ["Jungle","Hill"],
 		"gold": 3,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -283,7 +283,7 @@
 	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Rainforest","Woods"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -291,7 +291,7 @@
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Woods","Tundra"],
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Camp",
@@ -325,7 +325,7 @@
 	{
 		"name": "Ivory",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Woods","Rainforest"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Forest","Jungle"],
 		"production": 1,
 		"gold": 1,
 		"improvement": "Camp",
@@ -383,7 +383,7 @@
 	{
 		"name": "Silk",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Woods"],
+		"terrainsCanBeFoundOn": ["Forest"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -399,7 +399,7 @@
 	{
 		"name": "Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Rainforest","Woods"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"food": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -423,7 +423,7 @@
 	{
 		"name": "Tobacco",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Rainforest","Woods","Grassland","Plains"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland","Plains"],
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -431,7 +431,7 @@
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Woods","Marsh","Rainforest"],
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 3,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1}
@@ -456,7 +456,7 @@
 	{
 		"name": "Wine",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Woods","Grassland","Plains"],
+		"terrainsCanBeFoundOn": ["Forest","Grassland","Plains"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",
@@ -493,7 +493,7 @@
 		"name": "Artefacts",
 		"resourceType": "Strategic",
 		"revealedBy": "Radio",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Woods","Rainforest","Tundra","Snow","Desert","Marsh","Flood plains","Coast","Lakes","Ocean","Reef"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Tundra","Snow","Desert","Marsh","Flood plains","Coast","Lakes","Ocean","Reef"],
 		"improvement": "Archaeological Dig",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [10] <in [Featureless] [Tundra] tiles>",
@@ -505,9 +505,9 @@
 					"Generated with weight [40] <in [Lakes] tiles>",
 					"Minor deposits generated with weight [50] <in [Ocean] tiles>",
 					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Rainforest] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Woods] tiles>",
-					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Woods]> <in tiles without [Rainforest]>",
+					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Desert] tiles>",

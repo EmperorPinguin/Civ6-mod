@@ -10,7 +10,7 @@
 	// Recon
 	{
 		"name": "Ranger",
-		"uniques": ["Double movement in [Woods]","Double movement in [Rainforest]"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
 		"unitTypes": ["Recon"]
 	},
 	{

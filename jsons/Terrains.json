@@ -535,8 +535,8 @@
 				"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
 				"A Region can not contain more [Plains] tiles than [Grassland] tiles",
 				"Considered [Desirable] when determining start locations",
-				"Considered [Food] when determining start locations <in [Rainforest] Regions>",
-				"Considered [Food] when determining start locations <in [Woods] Regions>",
+				"Considered [Food] when determining start locations <in [Jungle] Regions>",
+				"Considered [Food] when determining start locations <in [Forest] Regions>",
 				"Considered [Food] when determining start locations <in [Hill] Regions>",
 				"Considered [Food] when determining start locations <in [Grassland] Regions>",
 				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
@@ -678,7 +678,7 @@
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Woods",
+		"name": "Forest",
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 2,
@@ -690,18 +690,18 @@
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",
 					"[25]% Chance to be destroyed by nukes",
-					"A Region is formed with at least [30]% [Woods] tiles, with priority [3]",
-					"A Region is formed with at least [35]% [Woods] tiles and [Rainforest] tiles, with priority [3]",
-					"A Region can not contain more [Rainforest] tiles than [Woods] tiles",
+					"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
+					"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+					"A Region can not contain more [Jungle] tiles than [Forest] tiles",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
-					"Considered [Food] when determining start locations <in [Woods] Regions>",
+					"Considered [Food] when determining start locations <in [Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
 	{
-		"name": "Rainforest",
+		"name": "Jungle",
 		"type": "TerrainFeature",
 		"food": 1,
 		"movementCost": 2,
@@ -714,9 +714,9 @@
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Rainforest] tiles, with priority [2]",
-			"A Region is formed with at least [35]% [Rainforest] tiles and [Woods] tiles, with priority [2]",
-			"A Region can not contain more [Woods] tiles than [Rainforest] tiles",
+			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
+			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
+			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -741,7 +741,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Woods","Rainforest","Hill","Flood plains","Marsh","Oasis"]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
 		"defenceBonus": -0.15
 	},
 	{
@@ -836,7 +836,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [1] to [6] [Rainforest] tiles",
+			"Must be adjacent to [1] to [6] [Jungle] tiles",
 			"Grants 500 Gold to the first civilization to discover it"],
 		"weight": 2
 	},
