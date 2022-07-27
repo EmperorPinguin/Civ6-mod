@@ -2125,6 +2125,13 @@ ImprovementIcons/Fishing Boats
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Forest
+  rotate: false
+  xy: 4, 1490
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Fort
   rotate: false
   xy: 1392, 875
@@ -2263,13 +2270,6 @@ ImprovementIcons/Lumber mill
   xy: 1508, 220
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Woods
-  rotate: false
-  xy: 4, 1490
-  size: 550, 550
-  orig: 550, 550
   offset: 0, 0
   index: -1
 NationIcons/America
