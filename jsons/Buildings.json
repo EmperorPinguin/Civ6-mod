@@ -2347,13 +2347,9 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "greatPersonPoints": {"Great Engineer": 1},
         "maintenance": 2,
         "uniques": [
-"Consumes [2] [Power]",
 "[+12 Production] from [Industrial Zone] tiles [in this city]",
 "[+12 Production] from [Hansa] tiles [in this city]",
 "[+12 Production] from [Oppidum] tiles [in this city]",
-"[+3 Production] from [Industrial Zone] tiles [in this city]<with [Power]>",
-"[+3 Production] from [Hansa] tiles [in this city] <with [Power]>",
-"[+3 Production] from [Oppidum] tiles [in this city] <with [Power]>",
 ],
         "requiredTech": "Industrialization"
     },
