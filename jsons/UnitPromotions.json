@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"effect": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Anti-Cavalry", "Land Melee","Light Cavalry","Heavy Cavalry","Recon","Siege","Land Ranged","Naval Melee","Naval Ranged","Naval Raider"]
 	},
 
