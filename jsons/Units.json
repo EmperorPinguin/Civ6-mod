@@ -1049,7 +1049,7 @@
 		"rangedStrength": 35,
 		"cost": 120,
 		"requiredTech": "Engineering",
-		"obsoleteTech": "Military Engineering",
+		"obsoleteTech": "Steel",
 		"upgradesTo": "Bombard",
 		"uniques": ["Must set up to ranged attack"],
 		"attackSound": "throw"
@@ -1077,7 +1077,7 @@
 		"rangedStrength": 60,
 		"cost": 200,
 		"requiredTech": "Military Engineering",
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Guidance Systems",
 		"upgradesTo": "Artillery",
 		"attackSound": "elephant"
 	},
@@ -1251,7 +1251,7 @@
 		"rangedStrength": 72,
 		"cost": 280,
 		"requiredTech": "Square Rigging",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Lasers",
 		"requiredResource": "Niter",
 		"upgradesTo": "Battleship",
 		"attackSound": "cannon"
@@ -1266,7 +1266,7 @@
 		"rangedStrength": 87,
 		"cost": 280,
 		"requiredTech": "Square Rigging",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Lasers",
 		"requiredResource": "Niter",
 		"upgradesTo": "Battleship",
 		"uniques": ["[+47]% Strength <vs cities>"],
@@ -1281,7 +1281,7 @@
 		"strength": 50,
 		"rangedStrength": 72,
 		"cost": 300,
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Lasers",
 		"upgradesTo": "Battleship",
 		"uniques": ["Only available <after adopting [Mercenaries]>", "Transfer Movement to [Civilian]","[+33]% Strength when stacked with [Civilian]"],
 		"attackSound": "shot"
