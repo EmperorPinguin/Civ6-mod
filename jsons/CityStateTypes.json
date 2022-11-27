@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Cultured",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]"],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Industrial",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]"],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[15] turns"],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Religious",
+        "friendBonusUniques":  ["[+2 Faith] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Faith] [in capital]",
+"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Lavra]"],
+        "color": [249, 249, 249]
+    },
+    {
+        "name": "Scientific",
+        "friendBonusUniques":  ["[+2 Science] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Science] [in capital]",
+"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Observatory]",
+"[+2 Science] from every [Seowon]"],
+        "color": [117, 163, 243]
+    }
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": ["[+4 Gold] [in capital]"],
+        "allyBonusUniques": [
+"[+4 Gold] [in capital]", 
+"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Suguba]"],
+        "color": [248, 217, 2]
+    },
+    {
+        "name": "Maritime",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Food] [in capital]", 
+"[+2 Food] from every [Harbor]"],
+        "color": [135, 213, 255]
+    },
+
+
+
+
+
+
+]
