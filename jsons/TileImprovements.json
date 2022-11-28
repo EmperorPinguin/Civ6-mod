@@ -670,8 +670,16 @@
 		"name": "Cancel improvement order",
 		"uniques": ["Can be built outside your borders"]
 	},
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+	},
 
-{ 
+	{ 
 		"name": "Ancient ruins", 
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
