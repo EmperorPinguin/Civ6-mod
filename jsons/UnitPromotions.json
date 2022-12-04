@@ -680,8 +680,14 @@
 		"name": "Qhapaq Nan", //Pachacuti
 		"uniques": ["Can pass through impassable tiles <after adopting [Foreign Trade]>",]
 	},
-
-
+	{
+		"name": "Batey", // Caguana ally bonus
+		"uniques": ["Can build [Batey] improvements on tiles"]
+	},
+	{
+		"name": "Moai", // Rapa Nui ally bonus
+		"uniques": ["Can build [Moai] improvements on tiles"]
+	},
 
 //Promotions granted by Natural Wonders
 	{

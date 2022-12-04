@@ -1700,7 +1700,7 @@
 	{
 		"name": "Antananarivo",
 		"adjective": ["Antananarivo"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Antananarivo",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1712,7 +1712,7 @@
 	{
 		"name": "Kumasi",
 		"adjective": ["Kumasi"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Kumasi",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1725,7 +1725,7 @@
 	{
 		"name": "Mohenjo-Daro",
 		"adjective": ["Mohenjo-Daro"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Mohenjo-Daro",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1737,7 +1737,7 @@
 	{
 		"name": "Nan Madol",
 		"adjective": ["Nan Madol"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Nan-Madol",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1749,7 +1749,7 @@
 	{
 		"name": "Rapa Nui",
 		"adjective": ["Rapa Nui"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Rapa Nui",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1760,9 +1760,8 @@
 	},
 	{
 		"name": "Vilnius",
-		"adjective": ["Tyrian"],
-		"cityStateType": "Cultured",
-		"startBias": ["Vilnius"],
+		"adjective": ["Vilnius"],
+		"cityStateType": "Vilnius",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",

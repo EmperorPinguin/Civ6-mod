@@ -1,11 +1,84 @@
 [
     {
-        "name": "Cultured",
+        "name": "Antananarivo",
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
 "[+2 Culture] from every [Theatre Square]",
-"[+2 Culture] from every [Acropolis]"],
+"[+2 Culture] from every [Acropolis]",
+"[+100 Culture] whenever a Great Person is expended"
+],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Ayutthaya",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]",
+"[+25]% Production when constructing [Culture] buildings [in all cities]"
+],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Caguana",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]",
+"[Worker] units gain the [Batey] promotion"],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Kumasi",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]",
+"Allied City-States provide [Culture] equal to [20]% of what they produce for themselves",
+"Allied City-States provide [Gold] equal to [10]% of what they produce for themselves"],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Mohenjo-Daro",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]",
+"[15]% Food is carried over after population increases [in all cities] <in cities without [Fresh Water Bonus]>"],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Nan Madol",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]"
+"[+2 Culture] from every [Great Improvement] <in [Coastal] tiles>"],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Rapa Nui",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Acropolis]",
+"[Worker] units gain the [Moai] promotion"],
+        "color": [255, 1, 255]
+    },
+    {
+        "name": "Vilnius",
+        "friendBonusUniques": ["[+2 Culture] [in capital]"],
+        "allyBonusUniques": [
+"[+2 Culture] [in capital]", 
+"[+50]% Culture from every [Theatre Square]",
+"[+50]% Culture from every [Acropolis]",],
         "color": [255, 1, 255]
     },
     {
