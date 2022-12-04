@@ -92,7 +92,97 @@
 "[+1 Production] from every [Coast]",
 "[+1 Production] from every [Lakes]",
 "[+1 Production] from every [Coast] <starting from the [Industrial era]>",
-"[+1 Production] from every [Lakes] <starting from the [Industrial era]>",
+"[+1 Production] from every [Lakes] <starting from the [Industrial era]>"
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Brussels",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]",
+"[+15]% Production when constructing [All] wonders [in all cities]"
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Buenos Aires",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]",
+"[+1 Happiness] from every [Bonus Resource]"
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Cardiff",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]",
+"[+2] [Power] from every [Harbor]"
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Hong Kong",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]",
+"[+5]% Production when constructing [All] buildings [in all cities]",
+
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Johannesburg",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]",
+"[+1 Production] from every [Strategic resource]",
+"[+1 Production] from every [Strategic resource] <after researching [Industrialization]"
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Mexico City",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+3 Production] from every [Industrial Zone]",
+"[+3 Production] from every [Hansa]",
+"[+3 Production] from every [Oppidum]",
+"[+1 Happiness] from every [Water Park]",
+"[+1 Happiness] from every [Copacabana]",
+"[+1 Happiness] from every [Enterainment Complex]",
+"[+1 Happiness] from every [Hippodrome]",
+"[+1 Happiness] from every [Street Carnival]",
+],
+        "color": [254, 129, 19]
+    }
+    {
+        "name": "Singapore",
+        "friendBonusUniques":  ["[+2 Production] [in capital]"],
+        "allyBonusUniques":  [
+"[+2 Production] [in capital]",
+"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Hansa]",
+"[+2 Production] from every [Oppidum]",
+"[+1 Production] from every [Trade route]",
 ],
         "color": [254, 129, 19]
     }

@@ -290,9 +290,9 @@
 "[+2 Culture] <with [4] to [5] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
 "[+3 Culture] <with [6] to [6] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
 "[+1 Culture] for each adjacent [Moai] <after adopting [Medieval Faires]>",
-"[+2 Culture] <with [1] to [6] neighboring [Volcanic Soil] tiles>
+"[+2 Culture] <with [1] to [6] neighboring [Volcanic Soil] tiles>",
 "[+1 Culture] <with [1] to [6] neighboring [Coast] tiles>",
-"[+1 Culture] <with [1] to [6] neighboring [Lake] tiles>"
+"[+1 Culture] <with [1] to [6] neighboring [Lakes] tiles>"
 ],
 	},
 	{
