@@ -1770,7 +1770,102 @@
 		"innerColor": [255,97,255],
 		"cities": ["Vilnius"]
 	},
-	
+	{
+		"name": "Auckland",
+		"adjective": ["Auckland"],
+		"cityStateType": "Auckland",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Auckland"]
+	},
+	{
+		"name": "Brussels",
+		"adjective": ["Brussels'"],
+		"cityStateType": "Brussels",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Brussels"]
+	},
+	{
+		"name": "Buenos Aires",
+		"adjective": ["Buenos Aires"],
+		"cityStateType": "Buenos Aires",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Buenos Aires"]
+	},
+	{
+		"name": "Cardiff",
+		"adjective": ["Cardiff"],
+		"cityStateType": "Cardiff",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Cardiff"]
+	},
+	{
+		"name": "Hong Kong",
+		"adjective": ["Hong Kong"],
+		"cityStateType": "Hong Kong",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Hong Kong"]
+	},
+	{
+		"name": "Johannesburg",
+		"adjective": ["Johannesburg"],
+		"cityStateType": "Johannesburg",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Johannesburg"]
+	},
+	{
+		"name": "Mexico City",
+		"adjective": ["Mexico City"],
+		"cityStateType": "Mexico City",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Mexico City"]
+	},
+	{
+		"name": "Singapore",
+		"adjective": ["Singapore"],
+		"cityStateType": "Singapore",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254, 129, 19],
+		"cities": ["Singapore"]
+	},	
 	{
 		"name": "Akkad",
 		"adjective": ["Akkad"],

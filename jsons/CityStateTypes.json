@@ -82,13 +82,18 @@
         "color": [255, 1, 255]
     },
     {
-        "name": "Industrial",
+        "name": "Auckland",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
 "[+2 Production] from every [Industrial Zone]",
 "[+2 Production] from every [Hansa]",
-"[+2 Production] from every [Oppidum]"],
+"[+2 Production] from every [Oppidum]",
+"[+1 Production] from every [Coast]",
+"[+1 Production] from every [Lakes]",
+"[+1 Production] from every [Coast] <starting from the [Industrial era]>",
+"[+1 Production] from every [Lakes] <starting from the [Industrial era]>",
+],
         "color": [254, 129, 19]
     }
     {
