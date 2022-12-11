@@ -1774,7 +1774,7 @@
 	{
 		"name": "Akkad",
 		"adjective": ["Akkad"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Akkad",
 
 		"declaringWar": "Let's have a nice little War, shall we?",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
@@ -1786,7 +1786,7 @@
 	{
 		"name": "Granada",
 		"adjective": ["Granada"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Granada",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1798,7 +1798,7 @@
 	{
 		"name": "Kabul",
 		"adjective": ["Kabul"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Kabul",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1810,7 +1810,7 @@
 	{
 		"name": "Ngazargamu",
 		"adjective": ["Ngazargamu"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Ngazargamu",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1822,7 +1822,7 @@
 	{
 		"name": "Preslav",
 		"adjective": ["Preslav"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Preslav",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1834,7 +1834,7 @@
 	{
 		"name": "Valletta",
 		"adjective": ["Valletta"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Valletta",
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
 		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",

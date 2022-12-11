@@ -154,6 +154,17 @@
 
 //Land Melee
 	{
+		"name": "Nihang",
+		"uniqueTo": "Lahore",
+		"replaces": "Swordsman",
+		"unitType": "Land Melee",
+		"movement": 2,
+		"strength": 27,
+		"cost": 0,
+		"uniques": ["Unbuildable", "[+100]% Strength <if [Barracks] is constructed>", "[+100]% Strength <if [Armory] is constructed>","[+100]% Strength <if [Military Academy] is constructed>"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Land Melee",
 		"movement": 2,

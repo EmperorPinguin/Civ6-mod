@@ -688,6 +688,10 @@
 		"name": "Moai", // Rapa Nui ally bonus
 		"uniques": ["Can build [Moai] improvements on tiles"]
 	},
+	{
+		"name": "Alcazar", // Granada ally bonus
+		"uniques": ["Can build [Alcazar] improvements on tiles"]
+	},
 
 //Promotions granted by Natural Wonders
 	{

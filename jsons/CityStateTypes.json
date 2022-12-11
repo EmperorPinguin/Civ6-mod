@@ -49,7 +49,7 @@
 "[+2 Culture] [in capital]", 
 "[+2 Culture] from every [Theatre Square]",
 "[+2 Culture] from every [Acropolis]",
-"[15]% Food is carried over after population increases [in all cities] <in cities without [Fresh Water Bonus]>"],
+"[15]% Food is carried over after population increases [in all cities] <in cities without a [Fresh Water Bonus]>"],
         "color": [255, 1, 255]
     },
     {
@@ -128,8 +128,7 @@
 "[+2 Production] from every [Industrial Zone]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
-"[+2] [Power] from every [Harbor]"
-],
+"[+2] [Power] <in cities with a [Harbor]>"],
         "color": [254, 129, 19]
     }
     {
@@ -154,7 +153,7 @@
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+1 Production] from every [Strategic resource]",
-"[+1 Production] from every [Strategic resource] <after researching [Industrialization]"
+"[+1 Production] from every [Strategic resource] <after discovering [Industrialization]>"
 ],
         "color": [254, 129, 19]
     }
@@ -187,9 +186,74 @@
         "color": [254, 129, 19]
     }
     {
-        "name": "Militaristic",
+        "name": "Akkad",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[15] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"[+25]%  Strength <for [Melee] units> <vs cities> <when attacking>",
+"[+25]%  Strength <for [Mounted] units> <vs cities> <when attacking>",]
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Granada",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"[Worker] units gain the [Alcazar] promotion"],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Kabul",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"[+100]% XP gained from combat <when attacking>"],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Nihang",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"May buy [Nihang] units for [200] [Faith] [in all cities]"],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Ngazargamu",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"[Gold] cost of purchasing [{Military} {Land}] units [-20]%",
+"[Gold] cost of purchasing [Support] units [-20]%",
+],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Preslav",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"[+33]% Strength <for [Light Cavalry] units> <when fighting in [Hill] tiles>",
+"[+33]% Strength <for [Heavy Cavalry] units> <when fighting in [Hill] tiles>"],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Valletta",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"May buy [Encampment District] buildings for [108] [Faith] [in all cities]",
+"May buy [Ancient Walls] buildings for [160] [Faith] [in all cities]",
+"May buy [Medieval Walls] buildings for [440] [Faith] [in all cities]",
+"May buy [Renaissance Walls] buildings for [600] [Faith] [in all cities]"],
+        "color": [202, 20, 20]
+    },
+    {
+        "name": "Wolin",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": [
+"Provides military units every ≈[15] turns",
+"[Great General] is earned [+50]% faster <when attacking>"],
         "color": [202, 20, 20]
     },
     {
