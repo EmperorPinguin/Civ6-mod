@@ -187,42 +187,42 @@
     }
     {
         "name": "Akkad",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[+25]%  Strength <for [Melee] units> <vs cities> <when attacking>",
 "[+25]%  Strength <for [Mounted] units> <vs cities> <when attacking>",]
         "color": [202, 20, 20]
     },
     {
         "name": "Granada",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[Worker] units gain the [Alcazar] promotion"],
         "color": [202, 20, 20]
     },
     {
         "name": "Kabul",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[+100]% XP gained from combat <when attacking>"],
         "color": [202, 20, 20]
     },
     {
         "name": "Nihang",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "May buy [Nihang] units for [200] [Faith] [in all cities]"],
         "color": [202, 20, 20]
     },
     {
         "name": "Ngazargamu",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[Gold] cost of purchasing [{Military} {Land}] units [-20]%",
 "[Gold] cost of purchasing [Support] units [-20]%",
 ],
@@ -230,18 +230,18 @@
     },
     {
         "name": "Preslav",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[+33]% Strength <for [Light Cavalry] units> <when fighting in [Hill] tiles>",
 "[+33]% Strength <for [Heavy Cavalry] units> <when fighting in [Hill] tiles>"],
         "color": [202, 20, 20]
     },
     {
         "name": "Valletta",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "May buy [Encampment District] buildings for [108] [Faith] [in all cities]",
 "May buy [Ancient Walls] buildings for [160] [Faith] [in all cities]",
 "May buy [Medieval Walls] buildings for [440] [Faith] [in all cities]",
@@ -250,9 +250,9 @@
     },
     {
         "name": "Wolin",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
-"Provides military units every ≈[15] turns",
+"[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[Great General] is earned [+50]% faster <when attacking>"],
         "color": [202, 20, 20]
     },
