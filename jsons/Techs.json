@@ -492,7 +492,7 @@
 			{
 				"name": "Combined Arms",
 				"row": 6,
-				"prerequisites": ["Steel"],
+				"prerequisites": ["Steel","Combustion"],
 				"quote": "'Better to fight for something than live for nothing.' - George S. Patton"
 			},
 			{
