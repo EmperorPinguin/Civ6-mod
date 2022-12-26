@@ -1675,7 +1675,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
         "cost": 1240,
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 4},
-        "uniques": ["[2] Free Social Policies","Only available <in cities with a [Theatre Square]> <after adopting [Opera and Ballet]>"],
+        "uniques": ["[2] Free Social Policies","Only available <in cities with a [Theatre Square District]> <after adopting [Opera and Ballet]>"],
         "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance, its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' –Trudy Garfunkel"
     },
     
