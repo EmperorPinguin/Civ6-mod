@@ -1,4 +1,4 @@
-[
+⁹[
     {
         "name": "Antananarivo",
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
@@ -167,7 +167,7 @@
 "[+3 Production] from every [Oppidum]",
 "[+1 Happiness] from every [Water Park]",
 "[+1 Happiness] from every [Copacabana]",
-"[+1 Happiness] from every [Enterainment Complex District]",
+"[+1 Happiness] from every [Entertainment Complex]",
 "[+1 Happiness] from every [Hippodrome]",
 "[+1 Happiness] from every [Street Carnival]",
 ],
@@ -181,7 +181,8 @@
 "[+2 Production] from every [Industrial Zone]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
-"[+1 Production] from every [Trade Route]",
+"[+1 Production] from every [Trade Route (Domestic)]",
+"[+1 Production] from every [Trade Route (International)]",
 ],
         "color": [254, 129, 19]
     }
