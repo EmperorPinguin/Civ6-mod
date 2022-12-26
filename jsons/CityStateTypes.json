@@ -1,4 +1,4 @@
-[
+⁹[
     {
         "name": "Antananarivo",
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
@@ -181,7 +181,8 @@
 "[+2 Production] from every [Industrial Zone]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
-"[+1 Production] from every [Trade Route]",
+"[+1 Production] from every [Trade Route (Domestic)]",
+"[+1 Production] from every [Trade Route (International)]",
 ],
         "color": [254, 129, 19]
     }
