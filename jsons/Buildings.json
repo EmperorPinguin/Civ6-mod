@@ -5738,8 +5738,8 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"[+2 Culture] from every [Luxury] <with [1] to [6] neighboring [Theatre Square] tiles>",
-"[+2 Culture] from every [Luxury] <with [1] to [6] neighboring [Chateau] tiles>",
+"[+2 Culture] from every [Luxury resource] <with [1] to [6] neighboring [Theatre Square] tiles>",
+"[+2 Culture] from every [Luxury resource] <with [1] to [6] neighboring [Chateau] tiles>",
 ],
 	},
 {
