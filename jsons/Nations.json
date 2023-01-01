@@ -74,7 +74,7 @@
 		"innerColor": [21,108,49],
 		"uniqueName": "The Last Prophet",
 		"uniques": [
-"Free [Great Prophet] appears <upon discovering [Writing]>",
+"Free [Great Prophet] appears <after discovering [Writing]>",
 "May choose [1] additional [Founder] beliefs when [founding] a religion",
 "[+1 Science] from every [Campus] <in cities with a [Madrasa]> <if [Natural Philosophy] is constructed>",
 "[+1 Science] from every [Campus] <in cities with a [Madrasa]> <if [Five-Year Plan] is constructed>",
@@ -120,7 +120,7 @@
 		
 		"declaringWar": "Now we will see if you are cowards or warriors!",
 		"attacked": "Your soldiers will die on the battlefield or upon an altar. It makes no difference to Huitzilopochtli.",
-		"defeated": "Huitzilopochtli forgive our weakness… my weakness. I was not strong enough to serve you.",
+		"defeated": "Huitzilopochtli forgive our weaknessâ€¦ my weakness. I was not strong enough to serve you.",
 		"introduction": "I am the scowling lord of Tenochtitlan. The tlatoani. Who comes before me? A warrior or a coward?",	
 		"neutralHello": "It is settled.",
 		"hateHello": "What do you want???",
@@ -243,9 +243,9 @@
 
 ],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
-			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
-			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
-			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"]	
+			"BelÃ©m","GoiÃ¢nia","Guarulhos","Campinas","SÃ£o Luis","MaceiÃ³","Duque de Caxias","Natal","Campo Grande","Teresina",
+			"FlorianÃ³polis","Nova IguaÃ§u","Sao Bernardo do Campo","JoÃ£o Pessoa","Osasco","JaboatÃ£o dos Guararapes","SÃ£o JosÃ© dos Campos","Contagem","UberlÃ¢ndia","Aracaju",
+			"Feira de Santana","Juiz de Fora","Joinville","JundiaÃ­"]	
 	},
 	{
 		"name": "Byzantium",
@@ -295,9 +295,9 @@
 "[+2 Production] from every [Lumber mill] <in [Tundra] tiles>",
 "[+2 Food] from every [Great Improvement] <in [Tundra] tiles>",
 ],
-		"cities": ["Ottawa","Toronto","Montréal","Quebec City","Hamilton","Winnipeg","Halifax","Saint John","Vancouver","Victoria",
+		"cities": ["Ottawa","Toronto","MontrÃ©al","Quebec City","Hamilton","Winnipeg","Halifax","Saint John","Vancouver","Victoria",
 			"Kingston","Brantford","Windsor","Charlottetown","Calgary","Sherbrooke","Guelph","Peterborough","Valleyfield","Edmonton",
-			"Trois-Rivières","Stratford","Saint Catharines","Waterloo","Saint Hyacinthe","Saint John’s","Dawson City","Belleville","Chatham",
+			"Trois-RiviÃ¨res","Stratford","Saint Catharines","Waterloo","Saint Hyacinthe","Saint Johnâ€™s","Dawson City","Belleville","Chatham",
 			"Saskatoon","Moncton","Mississauga","Brockville","Regina","Red Deer","Brandon","Sault Sainte Marie","Lethbridge","Saint-Lin",
 			"Whitehorse","Thunder Bay"]
 	},
@@ -309,7 +309,7 @@
 	
 		"declaringWar": "You are a seed of evil. You must be destroyed.",
 		"attacked": "You have asked for war and I will give it to you.",
-		"defeated": "I never thought this could happen… not like this.",
+		"defeated": "I never thought this could happenâ€¦ not like this.",
 		"introduction": "Why do you come before the Immortal Son of Heaven, the Great Qin Shi Huang?",
 		"neutralHello": "We are grateful.",
 		"hateHello": "Your reputation is forever tarnished.",
@@ -325,14 +325,14 @@
 ],
 		"cities": ["Xi'an","Beijing","Taiyuan","Chengdu","Jiaodong","Changsha","Longxi","Guangzhou","Handan","Shenyang",
 			"Shanghai","Wuhan","Xiurong","Chen","Xingzhou","Quxian","Nanjing","Langfang","Linzi","Jiujiang",
-			"Kaifeng","Xuzhou","Hefei","Xinzheng","Lu’an","Qufu","Jiangzhou","Luoyang","Yinchuan"]
+			"Kaifeng","Xuzhou","Hefei","Xinzheng","Luâ€™an","Qufu","Jiangzhou","Luoyang","Yinchuan"]
 	},
 	{
 		"name": "The Cree",
 		"leaderName": "Poundmaker",
 		"adjective": ["Cree"],
 		
-		"declaringWar": "I do not care to inflict the terrors of war upon you—but justice requires it.",
+		"declaringWar": "I do not care to inflict the terrors of war upon youâ€”but justice requires it.",
 		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
 		"defeated": "Had I wanted war, I would not be here now. You did not catch me. I gave myself up.",
 		"introduction": "I am Poundmaker, and I represent the Cree. May there always be peace between us.",
@@ -343,7 +343,7 @@
 		"innerColor": [70,175,10],
 		"uniqueName": "Nihithaw",
 		"uniques": ["Receive free [Worker] when you discover [Pottery]","[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
-		"cities": ["Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
+		"cities": ["Mikisiw-WacÃ®hk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
 			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
 			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"]
 	},
@@ -607,7 +607,7 @@
 		
 		"declaringWar": "Let it be known: you are an enemy of Germany and must be destroyed. May God have mercy on you, for I will not.",
 		"attacked": "I have defeated enemies ten times as powerful as you. You will be just one more for the historians.",
-		"defeated": "We were the august and glorious… but no, never mind that. You are victorious. May your reign be more peaceful than mine ever was.",
+		"defeated": "We were the august and gloriousâ€¦ but no, never mind that. You are victorious. May your reign be more peaceful than mine ever was.",
 		"introduction": "Greetings. I am the Holy Roman Emperor Frederick, King of Germany, Italy, Burgundy, and many others. I trust that you will rule your lands as I do: through might.",
 		"neutralHello": "Let us live in peace.",
 		"hateHello": "No, of course not.",
@@ -619,14 +619,14 @@
 		",
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
-			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Munster","Rostok","Chemnitz","Braunschweig","Halle","M×¦nchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
 			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen",
 			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
-			"Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
+			"Recklinghausen","G×¦ttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
 	},
 	{
 		"name": "Gran Colombia",
-		"leaderName": "Simon Boli�var",
+		"leaderName": "Simon Boli­var",
 		"adjective": ["Gran Colombian"],
 		"preferredVictoryType": "Domination",
 		
@@ -639,12 +639,12 @@
 		"tradeRequest": "I send to you a delegation of my finest horsemen. Will you let them in?",
 		"outerColor": [1,42,108],
 		"innerColor": [245,217,0],
-		"uniqueName": "Ejército Patriota",
+		"uniqueName": "EjÃ©rcito Patriota",
 		"uniques": ["[+2] Movement <for [non-air] units>"],
-		"cities": ["Bogot�","Caracas","Quito","Valencia De Carabobo","Cali","Medell�n","Maracaibo","Cuman�","Guayaquil","Panam�",
-			"Cartagena de Indias","Popay�n","Cuenca","Barinas","Santa Marta","Loja","Angostura","Pasto","Nueva Barcelona","Neiva",
-			"M�rida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibd�","Nueva Pamplona","Santiago de Veraguas","La Asunci�n","Achaguas",
-			"Honda","Socorro","Momp�s","Trujillo","Santa Fe de Antioquia","Pore","C�cuta","Mariquita","San Fernando de Apure","Barquisimeto"]
+		"cities": ["Bogotá","Caracas","Quito","Valencia De Carabobo","Cali","Medellín","Maracaibo","Cumaná","Guayaquil","Panamá",
+			"Cartagena de Indias","Popayán","Cuenca","Barinas","Santa Marta","Loja","Angostura","Pasto","Nueva Barcelona","Neiva",
+			"Mérida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibdó","Nueva Pamplona","Santiago de Veraguas","La Asunción","Achaguas",
+			"Honda","Socorro","Mompós","Trujillo","Santa Fe de Antioquia","Pore","Cúcuta","Mariquita","San Fernando de Apure","Barquisimeto"]
 	},
 	{
 		"name": "Greece",
@@ -689,10 +689,10 @@
 		"innerColor": [254,129,19],
 		"uniqueName": "Pearl of the Danube",
 		"uniques": ["[+50]% Production when constructing [All] buildings [in all cities] <in [River] tiles>"],
-		"cities": ["Buda","Debrecen","Esztergom","Pécs","Pest","Eger","Tahiti","Miskolc","Szeged","Győr",
-			"Székesfehérvár","Óbuda","Kőszeg","Tatabánya","Kolozsvár","Diósgyőr","Kiritimati","Mohács","Tata","Szolnok",
-			"Kassa","Kecskemét","Szombathely","Simontornya","Nyíregyháza","Sárvár","Sopron","Csesznek","Zágráb","Temesvár","Nagyvázsony",
-			"Hódmezővásárhely","Sümeg","Baja"]
+		"cities": ["Buda","Debrecen","Esztergom","PÃ©cs","Pest","Eger","Tahiti","Miskolc","Szeged","GyÅ‘r",
+			"SzÃ©kesfehÃ©rvÃ¡r","Ã“buda","KÅ‘szeg","TatabÃ¡nya","KolozsvÃ¡r","DiÃ³sgyÅ‘r","Kiritimati","MohÃ¡cs","Tata","Szolnok",
+			"Kassa","KecskemÃ©t","Szombathely","Simontornya","NyÃ­regyhÃ¡za","SÃ¡rvÃ¡r","Sopron","Csesznek","ZÃ¡grÃ¡b","TemesvÃ¡r","NagyvÃ¡zsony",
+			"HÃ³dmezÅ‘vÃ¡sÃ¡rhely","SÃ¼meg","Baja"]
 	},
 	{
 		"name": "Inca",
@@ -701,8 +701,8 @@
 		"adjective": ["Incan"],
 
 		"declaringWar": "Let there be war between us! I will wrestle your lands away, and rule your subjects with strength.",
-		"attacked": "Now is the time for war. Hear the stamp of our warriors—warriors with the hearts of the puma.",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
+		"attacked": "Now is the time for war. Hear the stamp of our warriorsâ€”warriors with the hearts of the puma.",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercyâ€”see that you do so as well.",
 		"introduction": "You stand before Pachacuti Inca Yupanqui. I accept your greeting and the service you can provide the Inca.",
 		"neutralHello": "We are as the sun and moon.",
 		"hateHello": "I do not accept this.",
@@ -855,7 +855,7 @@
 
 		"declaringWar": "I will not allow the Empire to suffer you any longer. The time has come to end this charade!",
 		"attacked": "The Divine Wind will protect us and you will fall, like the others.",
-		"defeated": "Please end this dishonor to my family… to my people.",
+		"defeated": "Please end this dishonor to my familyâ€¦ to my people.",
 		"introduction": "Hello, I am Hojo Tokimune of Japan, a humble disciple of Bushido.",
 		"neutralHello": "Thank you, friend.",
 		"hateHello": "A shame...",
@@ -1088,7 +1088,7 @@
 		"preferredVictoryType": "Scientific",
 
 		"declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
-		"attacked": "Your defeat shall be swift … your people, forgotten. This I have foreseen.",
+		"attacked": "Your defeat shall be swift â€¦ your people, forgotten. This I have foreseen.",
 		"defeated": "I foresaw my own end, but not that Korea would share my fate.",
 		"introduction": "I, Seondeok of Korea, acknowledge you. Our meeting was foreseen.",
 		"neutralHello": "How wonderful.",
@@ -1149,7 +1149,7 @@
 		"declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
 		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
 		"defeated": "Wealth is fleeting; learning is vanity. All I have done, O God, I did in your name.",
-		"introduction": "I am Sultan Musa, lord of Mali, and—thanks be to God—a very, very rich man. I am pleased to meet you.",
+		"introduction": "I am Sultan Musa, lord of Mali, andâ€”thanks be to Godâ€”a very, very rich man. I am pleased to meet you.",
 		"neutralHello": "I am pleased.",
 		"hateHello": "Serpent! Tempter! Wretch!",
 		"tradeRequest": "Please accept these simple gifts of one hundred porters carrying sacks of gold dust.",
@@ -1179,7 +1179,7 @@
 		"name": "The Maori",
 		"leaderName": "Kupi",
 		"startBias": ["Coast"],
-		"adjective": ["M�?ori"],
+		"adjective": ["MÄ?ori"],
 
 		"declaringWar": "You choose death! Your people wail and moan! The pillars of your houses shake, all your lands are shaking!",
 		"attacked": "Look at the big civ leader over there with the war declaration! Great job, mate. Really shows off how hard you are.",
@@ -1223,7 +1223,7 @@
 
 		"declaringWar": "It comes to war. Mapuche shall use your own weapons against you!",
 		"attacked": "I knew you could not be trusted! We have long prepared for this war. Have you?",
-		"defeated": "We resisted to the last, but it was too late … too late.",
+		"defeated": "We resisted to the last, but it was too late â€¦ too late.",
 		"introduction": "I am Lautaro, the Swift Hawk. Mapuche honor me with respect. Will I see the same from you?",
 		"neutralHello": "You honor Mapuche with this.",
 		"hateHello": "You offend me.",
@@ -1279,10 +1279,10 @@
 		"introduction": "I am Genghis Khan. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
 		"neutralHello": "Mongolia will appreciate this.",
 		"hateHello": "Don't assume Mongolia admires you that much.",
-		"tradeRequest": "I am sending you gifts—surplus horses, a youth's bow, and airag to fortify you. Drink up!",
+		"tradeRequest": "I am sending you giftsâ€”surplus horses, a youth's bow, and airag to fortify you. Drink up!",
 		"outerColor": [121,0,2],
 		"innerColor": [253,126,25],
-		"uniqueName": "�rd��",
+		"uniqueName": "Ördöö",
 		"uniqueText": "Land units receive +10% Combat Strength when on a Road, +10% Combat Strength for Mounted units
 		"
 		"uniques": [
@@ -1315,9 +1315,9 @@
 "[1] Movement point cost to disembark <for [All] units>",
 "[Water] units gain the [Knarr] promotion",
 ],
-		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
-			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
-			"Skien","Sogndal","Stange","Stavanger","Stiklestad","Tjøtta","Tromsø","Verdal","Vinland","Alesund"]
+		"cities": ["Nidaros","Avaldsnes","Bergen","BjarkÃ¸y","BrattahlÃ­Ã°","Drammen","Frosta","Hamar","Hundorp","KarmÃ¸y","Kristiansand",
+			"Kristiansund","KvitsÃ¸y","Moster","Namsos","Oslo","Reykjavik","Ringerike","SandnÃ¦s","Sarpsborg","Skedsmo",
+			"Skien","Sogndal","Stange","Stavanger","Stiklestad","TjÃ¸tta","TromsÃ¸","Verdal","Vinland","Alesund"]
 	},
 	{
 		"name": "The Netherlands", 
@@ -1364,9 +1364,9 @@
 		"adjective": ["Nubian"],
 		
 		"declaringWar": "We have arrows, finely honed. We shall deliver them freely to your throat.",
-		"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
+		"attacked": "As predicted, you know only how to take. Come, thenâ€”choose the manner of your defeat.",
 		"defeated": "Though Nubia declines, our pyramids shall remain long after your plans fall to ruin.",
-		"introduction": "I am Amanitore of Nubia. All are welcome in our magnificent cities—provided they come as friends.",
+		"introduction": "I am Amanitore of Nubia. All are welcome in our magnificent citiesâ€”provided they come as friends.",
 		"neutralHello": "How gracious of you.",
 		"hateHello": "With you, I always expect the worst.",
 		"tradeRequest": "Our delegation brings goodwill!",
@@ -1447,13 +1447,13 @@
 		"startBias": ["Coast"],
 		"adjective": ["Phoenician"],
 		
-		"declaringWar": "Now we have war between us. Look to the seas——already the horizon is crowded with the sails of my fleets.",
+		"declaringWar": "Now we have war between us. Look to the seasâ€”â€”already the horizon is crowded with the sails of my fleets.",
 		"attacked": "War? Are you a fool? Your cities will suffer the fate of Epirus and Saguntum.",
 		"defeated": "Do not glory in your conquest. One day you may see your capital bathed in flame.",
 		"introduction": "I, Dido, queen and mother of Carthage, greet you on behalf of the Phoenicians.",
 		"neutralHello": "Find rest among us.",
 		"hateHello": "You flatter yourself.",
-		"tradeRequest": "Accept these gifts—a mere taste of the wealth of Phoenicia.",
+		"tradeRequest": "Accept these giftsâ€”a mere taste of the wealth of Phoenicia.",
 		"outerColor": [109,0,205],
 		"innerColor": [117,163,243],
 		"uniqueName": "Founder of Carthage",
@@ -1474,8 +1474,8 @@
 		"preferredVictoryType": "Cultural",
 		
 		"declaringWar": "I must protect the interests of Poland. Surrender quickly so that this may end without bloodshed.",
-		"attacked": "So, you show your true nature: a serpent lying in the grass… easily trampled.",
-		"defeated": "No, I am not ready to leave God’s service. I am just beginning his good work!",
+		"attacked": "So, you show your true nature: a serpent lying in the grassâ€¦ easily trampled.",
+		"defeated": "No, I am not ready to leave Godâ€™s service. I am just beginning his good work!",
 		"introduction": "A meeting blessed by God, I am sure. I am Jadwiga the King of Greater Poland. Yes, a king.",
 		"neutralHello": "Very good.",
 		"hateHello": "Evil cannot stay hidden for long.",
@@ -1490,10 +1490,10 @@
 "[+4 Gold, +2 Culture, +2 Faith] from every [Artefact2]",
 "[+4 Gold, +2 Culture, +2 Faith] from every [Artefact3]",
 ],
-		"cities": ["Kraków","Warsaw","�?ódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
-			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
-			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
-			"Šiauliai","Wałbrzych","Zielona Góra","Włocławek"]		
+		"cities": ["KrakÃ³w","Warsaw","Å?Ã³dÅº","Wroclaw","PoznaÅ„","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+			"Katowice","BiaÅ‚ystok","Gdynia","Åšwidnica","CzÄ™stochowa","Radom","ToruÅ„","Kielce","Gliwice","KlaipÄ—da",
+			"Bytom","Olsztyn","RzeszÃ³w","Ruda ÅšlÄ…ska","Bielsko-Biala","Rybnik","PÅ‚ock","ElblÄ…g","GorzÃ³w Wielkopolski","Opole",
+			"Å iauliai","WaÅ‚brzych","Zielona GÃ³ra","WÅ‚ocÅ‚awek"]		
 	},
 	{
 		"name": "Rome", 
@@ -1556,7 +1556,7 @@
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": " You gormless radger! You'll dine on your own teeth before you set foot in Scotland!",
 		"defeated": "A lonely wind blows through the highlands today. A dirge for Scotland. Can you it hear?",
-		"introduction": "I am Robert the Bruce. Scotland follows me—be it through fields of wheat or of battle.",
+		"introduction": "I am Robert the Bruce. Scotland follows meâ€”be it through fields of wheat or of battle.",
 		"neutralHello": "Hmm. Agreed.",
 		"hateHello": "You reeking midden!",
 		"tradeRequest": "Please accept my people's finest gifts. Oh, and hark to the pipers! Are they not grand?",
@@ -1589,7 +1589,7 @@
 		"uniques": ["[+100]% Production when constructing [Light Cavalry] units [in all cities]"],
 		"cities": ["Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop",
 			"Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov",
-			"Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
+			"Panticapaeum","Tsarskaya","OgÃ¼z","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
 	},
 	{
 		"name": "Spain", 
@@ -1598,9 +1598,9 @@
 		"startBias": ["Geothermal Fissure"],
 		"preferredVictoryType": "Cultural",
 
-		"declaringWar": "You have transgressed against my kingdom and the kingdom of God… you must answer for your sins.",
-		"attacked": "You think your army can compare with my armada… with the might of my empire? You are grievously mistaken.",
-		"defeated": "My lands… my Kingdom… why, God? Why have you forsaken me?",
+		"declaringWar": "You have transgressed against my kingdom and the kingdom of Godâ€¦ you must answer for your sins.",
+		"attacked": "You think your army can compare with my armadaâ€¦ with the might of my empire? You are grievously mistaken.",
+		"defeated": "My landsâ€¦ my Kingdomâ€¦ why, God? Why have you forsaken me?",
 		"introduction": "I am the King of Spain, Portugal, Sardinia and Sicily, Naples, Duke of Milan, etc., but most importantly, I am a devout follower of the one, true religion. I hope for your sake you are as well.",
 		"neutralHello": "You have seen the wisdom in the light of the Lord.",
 		"hateHello": "You are another Judas, sent to betray the Lord.",
@@ -1614,9 +1614,9 @@
 "[+25]% Production when constructing [All] buildings [in all cities] <on foreign continents>"
 ],
 		"cities": ["Barcelona","Madrid","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
-			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
-			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
-			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"]	
+			"Vitoria","Santander","Oviedo","Jaen","LogroÃ±o","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+			"Lugo","Alicante","CÃ diz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La CoruÃ±a","Guadalquivir","Bilbao",
+			"San Sebastian","Granada","MÃ©rida","Huelva","Ibiza","Las Palmas","Tenerife"]	
 	},
 	{
 		"name": "Sumeria", 
@@ -1628,7 +1628,7 @@
 		"declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer!",
 		"attacked": "I will enjoy hearing your last breath when you witness the destruction of your people.",
 		"defeated": "What treachery did this to me? No, what evil?",
-		"introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends.",
+		"introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraidâ€¦ I am good to my friends.",
 		"neutralHello": "All the world knows of my generosity to my friends.",
 		"hateHello": "Are you mad?",
 		"tradeRequest": "The delegation of Gilgamesh brings you Sumerian gifts. Will you accept them into your city?",
@@ -1649,7 +1649,7 @@
 		"adjective": ["Swedish"],
 		"preferredVictoryType": "Scientific",
 
-		"declaringWar": "Sweden will do her part to push back the evils of the world. Art is one way to do this—war with you is another.",
+		"declaringWar": "Sweden will do her part to push back the evils of the world. Art is one way to do thisâ€”war with you is another.",
 		"attacked": "Sweden will chastise those who threaten the world. Prepare yourself for war!",
 		"defeated": "I never loved power, and now I am left without art. Only regret and loss remain for me.",
 		"introduction": "I am Kristina, queen of Sweden, patron of arts and letters. Do I greet a fellow lover of learning?",
@@ -1664,10 +1664,10 @@
 "[Great Scientist] is earned [25]% faster",
 "[Great Engineer] is earned [25]% faster",
 ],
-		"cities": ["Stockholm","Göteborg","Uppsala","Linköping","Örebro","Västerås","Jönköping","Norrköping","Helsingborg","Karlstad",
-			"Lund","Malmö","Umeå","Åbo","Umma","Halmstad","Strängnäs","Kalmar","Falun","Nyköping",
-			"Karlskrona","Borås","Fort Kristina","Reval","Vasa","Östersund","Torshälla","Kungälv","Växjö","Riga",
-			"Sundsvall","Västervik","Gävle","Viborg","Hudiksvall","Visby","Fort Carolusborg","Åmål","Torneå","Kinda"]	
+		"cities": ["Stockholm","GÃ¶teborg","Uppsala","LinkÃ¶ping","Ã–rebro","VÃ¤sterÃ¥s","JÃ¶nkÃ¶ping","NorrkÃ¶ping","Helsingborg","Karlstad",
+			"Lund","MalmÃ¶","UmeÃ¥","Ã…bo","Umma","Halmstad","StrÃ¤ngnÃ¤s","Kalmar","Falun","NykÃ¶ping",
+			"Karlskrona","BorÃ¥s","Fort Kristina","Reval","Vasa","Ã–stersund","TorshÃ¤lla","KungÃ¤lv","VÃ¤xjÃ¶","Riga",
+			"Sundsvall","VÃ¤stervik","GÃ¤vle","Viborg","Hudiksvall","Visby","Fort Carolusborg","Ã…mÃ¥l","TorneÃ¥","Kinda"]	
 	},
 	{
 		"name": "The Zulu", 
@@ -1675,7 +1675,7 @@
 		"adjective": ["Zulu"],
 		"preferredVictoryType": "Domination",
 
-		"declaringWar": "There is too much weakness in you. Fear not—the children of Zulu shall remove it.",
+		"declaringWar": "There is too much weakness in you. Fear notâ€”the children of Zulu shall remove it.",
 		"attacked": "Strong words, but they quaver on your lips. Already I see you weaken in fear.",
 		"defeated": "True, you ended my reign. But I will live on in your nightmares.",
 		"introduction": "You stand before Shaka of the Zulu. Dare you turn your back to my armies? I will make no such mistake.",
@@ -1843,11 +1843,11 @@
 		"innerColor": [255,69,0],
 		"cities": ["Valletta"]
 	},
-	
+/*	
 	{
 		"name": "Dali",
 		"adjective": ["Dali"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Dali",
 
 		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
 		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
@@ -1859,7 +1859,7 @@
 	{
 		"name": "Gaochang",
 		"adjective": ["Gaochang"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Gaochang",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1871,7 +1871,7 @@
 	{
 		"name": "Klathen",
 		"adjective": ["Klathen"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Klathen",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1880,11 +1880,10 @@
 		"innerColor": [45,255,86],
 		"cities": ["Klathen"]
 	},
-/*
 	{
 		"name": "Lamuri",
 		"adjective": ["Lamuri"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Lamuri",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1893,11 +1892,10 @@
 		"innerColor": [153,255,51],
 		"cities": ["Lamuri"]
 	},
-*/
 	{
 		"name": "Temasek",
 		"adjective": ["Temasek"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Temasek",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1909,7 +1907,7 @@
 	{
 		"name": "Tondo",
 		"adjective": ["Tondo"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Tondo",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1918,11 +1916,11 @@
 		"innerColor": [91,102,20],
 		"cities": ["Tondo"]
 	},
-	
+*/	
 	{
 		"name": "Bandar Brunei",
 		"adjective": ["Bandar Brunei"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Bandar Brunei",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1934,7 +1932,7 @@
 	{
 		"name": "Cahokia",
 		"adjective": ["Cahokia"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Cahokia",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -1943,10 +1941,11 @@
 		"innerColor": [211, 220, 103],
 		"cities": ["Cahokia"]
 	},
+/*
 	{
 		"name": "Mogadishu",
 		"adjective": ["Mogadishu"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mogadishu",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1955,10 +1954,11 @@
 		"innerColor": [255,255,0],
 		"cities": ["Mogadishu"]
 	},
+*/
 	{
 		"name": "Samarkand",
 		"adjective": ["Samarkand"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Samarkand",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1970,7 +1970,7 @@
 	{
 		"name": "Venice",
 		"adjective": ["Venice"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Venice",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1982,7 +1982,7 @@
 	{
 		"name": "Zanzibar",
 		"adjective": ["Zanzibar"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Zanzibar",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1995,7 +1995,7 @@
 	{
 		"name": "Chinguetti",
 		"adjective": ["Chinguetti"],
-		"cityStateType": "Religious",
+		"cityStateType": "Chinguetti",
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "I will fear no evil. For god is with me!",
@@ -2007,7 +2007,7 @@
 	{
 		"name": "Jerusalem",
 		"adjective": ["Jerusalem"],
-		"cityStateType": "Religious",
+		"cityStateType": "Jerusalem",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
@@ -2019,7 +2019,7 @@
 	{
 		"name": "La Venta",
 		"adjective": ["La Venta"],
-		"cityStateType": "Religious",
+		"cityStateType": "La Venta",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
@@ -2031,7 +2031,7 @@
 	{
 		"name": "Nazca",
 		"adjective": ["Nazca"],
-		"cityStateType": "Religious",
+		"cityStateType": "Nazca",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
@@ -2043,7 +2043,7 @@
 	{
 		"name": "Vatican City",
 		"adjective": ["Vatican City"],
-		"cityStateType": "Religious",
+		"cityStateType": "Vatican City",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -2055,7 +2055,7 @@
 	{
 		"name": "Yerevan",
 		"adjective": ["Yerevan"],
-		"cityStateType": "Religious",
+		"cityStateType": "Yerevan",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",

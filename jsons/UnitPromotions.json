@@ -692,6 +692,30 @@
 		"name": "Alcazar", // Granada ally bonus
 		"uniques": ["Can build [Alcazar] improvements on tiles"]
 	},
+	{
+		"name": "Monastery", // Armagh ally bonus
+		"uniques": ["Can build [Monastery] improvements on tiles"]
+	},
+	{
+		"name": "Colossal Head", // La Venta ally bonus
+		"uniques": ["Can build [Colossal Head] improvements on tiles"]
+	},
+	{
+		"name": "Nazca lines", // Nazca ally bonus
+		"uniques": ["Can build [Nazca lines] improvements on tiles"]
+	},
+	{
+		"name": "Mahavihara", // Nalanda ally bonus
+		"uniques": ["Can build [Mahavihara] improvements on tiles"]
+	},
+	{
+		"name": "Cahokia Mounds", // Cahokia ally bonus
+		"uniques": ["Can build [Cahokia Mounds] improvements on tiles"]
+	},
+	{
+		"name": "Trading Dome", // Samarkand ally bonus
+		"uniques": ["Can build [Trading Dome] improvements on tiles"]
+	},
 
 //Promotions granted by Natural Wonders
 	{
