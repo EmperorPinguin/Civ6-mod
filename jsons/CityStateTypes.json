@@ -351,7 +351,7 @@
         "color": [117, 163, 243]
     }
     {
-        "name": "Bologne",
+        "name": "Bologna",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",

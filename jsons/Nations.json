@@ -1921,16 +1921,16 @@
 		"cities": ["Anshan"]
 	},
 	{
-		"name": "Bologne", //Klathen texts
-		"adjective": ["Bologne"],
-		"cityStateType": "Bologne",
+		"name": "Bologna", //Klathen texts
+		"adjective": ["Bologna"],
+		"cityStateType": "Bologna",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [117, 163, 243],
-		"cities": ["Bologne"]
+		"cities": ["Bologna"]
 	},
 	{
 		"name": "Fez", //needs own texts
