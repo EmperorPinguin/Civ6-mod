@@ -3633,7 +3633,7 @@ Yosemite: 1 Food, 1 Gold, 1 Science.
 "Only available <after adopting [Feudalism]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+100]% Production when constructing [Builder] units [in all cities] <before adopting [Feudalism]>",
+"[+100]% Production when constructing [Worker] units [in all cities] <before adopting [Feudalism]>",
 ],
 	},
 {
