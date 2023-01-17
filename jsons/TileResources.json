@@ -369,7 +369,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Lakes"],
 		"culture": 1,
-		"improvedBy": "Fishing Boats",
+		"improvedBy": ["Fishing Boats"],
 		"improvementStats": {"food": 1}
 	},
 	{
@@ -441,7 +441,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Reef"],
 		"science": 1,
-		"improvedBy": "Fishing Boats",
+		"improvedBy": ["Fishing Boats"],
 		"improvementStats": {"food": 1}
 	},
 	{
@@ -450,7 +450,7 @@
 		"terrainsCanBeFoundOn": ["Coast","Lakes"],
 		"gold": 1,
 		"production": 1,
-		"improvedBy": "Fishing Boats",
+		"improvedBy": ["Fishing Boats"],
 		"improvementStats": {"food": 1}
 	},
 	{
@@ -494,7 +494,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Radio",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Tundra","Snow","Desert","Marsh","Flood plains","Coast","Lakes","Ocean","Reef"],
-		"improvedBy": "Archaeological Dig",
+		"improvedBy": ["Archaeological Dig"],
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Generated with weight [10] <in [Featureless] [Snow] tiles>",
