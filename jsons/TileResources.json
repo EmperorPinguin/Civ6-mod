@@ -237,7 +237,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle","Coast"], 
 		"culture": 1,
-		"improvement": "Mine",
+		"improvement": ["Mine", "Fishing Boats"],
 		"improvementStats": {"production": 1}
 	},
 	{
