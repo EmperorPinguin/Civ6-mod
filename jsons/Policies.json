@@ -508,7 +508,7 @@ Units enabled:
 * Minas Geraes
 Tile Improvements enabled:
 * Open-Air Museum ",
-					"[+20]% Production when constructing [Field Cannon] units [in all cities]","[+20]% Production when constructing [Garde Impériale] units [in all cities]",
+					"[+20]% Production when constructing [Field Cannon] units [in all cities]","[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
 					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
 				"requires": ["The Enlightenment"],
 				"row": 2,
