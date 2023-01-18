@@ -423,12 +423,7 @@
 		"uniques": [
 "[+1 Culture] <with [1] to [6] neighboring [City center] tiles>",
 "[+1 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
-"Cannot be built on [Grassland] tiles <before adopting [Reformed Church]>",
-"Cannot be built on [Plains] tiles <before adopting [Reformed Church]>",
-"Cannot be built on [Tundra] tiles <before adopting [Reformed Church]>",
-"Cannot be built on [Hill] tiles <in [Grassland] [Hill] tiles> <before adopting [Reformed Church]>",
-"Cannot be built on [Hill] tiles <in [Plains] [Hill] tiles> <before adopting [Reformed Church]>",
-"Cannot be built on [Hill] tiles <in [Tundra] [Hill] tiles> <before adopting [Reformed Church]>",
+"Only available <after adopting [Reformed Church]>",
 "Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
 "Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
 ]
