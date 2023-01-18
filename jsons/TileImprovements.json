@@ -419,13 +419,12 @@
 		"gold": 2,
 		"happiness": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Tundra"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Tundra","Snow"],
 		"uniques": [
 "[+1 Culture] <with [1] to [6] neighboring [City center] tiles>",
 "[+1 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
 "Only available <after adopting [Reformed Church]>",
 "Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
-"Cannot be built on [Hill] tiles <in [Snow] [Hill] tiles>",
 ]
 	},
 	{
