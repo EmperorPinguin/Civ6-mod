@@ -744,17 +744,18 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Wheel",
-		"uniques": ["Can be built outside your borders"],
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R"
 	},
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Steam Power",
-		"uniques": ["Can be built outside your borders"]
-	},
+		"techRequired": "Railroads",
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"shortcutKey": "R"
+},
 	
 	// Removals
 	{
