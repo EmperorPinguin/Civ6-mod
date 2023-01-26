@@ -744,8 +744,9 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"uniques": ["Only available <after adopting [Foreign Trade]>","Can be built outside your borders", "Costs [1] [Gold] per turn"],
-		"shortcutKey": "R"
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
 	},
 	{
 		"name": "Railroad",
@@ -753,9 +754,8 @@
 		"turnsToBuild": 4,
 		"techRequired": "Steam Power",
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
-		"shortcutKey": "R"
-},
-	
+		"shortcutKey": "R",
+    	},
 	// Removals
 	{
 		"name": "Remove Forest",
