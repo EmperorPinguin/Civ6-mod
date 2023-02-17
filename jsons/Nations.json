@@ -639,7 +639,7 @@
 		"tradeRequest": "I send to you a delegation of my finest horsemen. Will you let them in?",
 		"outerColor": [1,42,108],
 		"innerColor": [245,217,0],
-		"uniqueName": "EjÃ©rcito Patriota",
+		"uniqueName": "Ejército Patriota",
 		"uniques": ["[+2] Movement <for [non-air] units>"],
 		"cities": ["Bogotá","Caracas","Quito","Valencia De Carabobo","Cali","Medellín","Maracaibo","Cumaná","Guayaquil","Panamá",
 			"Cartagena de Indias","Popayán","Cuenca","Barinas","Santa Marta","Loja","Angostura","Pasto","Nueva Barcelona","Neiva",
