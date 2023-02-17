@@ -1404,7 +1404,7 @@
 		"uniqueName": "Great Turkish Bombard",
 		"uniques": [
 "[+30]% Production when constructing [Siege] units [in all cities]", 
-"[+33% Strength <for [Siege] units> <when fighting in [Great Improvement] tiles> <when attacking>", 
+"[+33]% Strength <for [Siege] units> <when fighting in [Great Improvement] tiles> <when attacking>", 
 "[+1 Happiness] [in annexed cities]"
 ],
 		//Unique building for Annexed cities (+1 :D & +1 Culture), Courthouses dont exist anymore
