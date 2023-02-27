@@ -243,9 +243,9 @@
 
 ],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
-			"BelÃ©m","GoiÃ¢nia","Guarulhos","Campinas","SÃ£o Luis","MaceiÃ³","Duque de Caxias","Natal","Campo Grande","Teresina",
-			"FlorianÃ³polis","Nova IguaÃ§u","Sao Bernardo do Campo","JoÃ£o Pessoa","Osasco","JaboatÃ£o dos Guararapes","SÃ£o JosÃ© dos Campos","Contagem","UberlÃ¢ndia","Aracaju",
-			"Feira de Santana","Juiz de Fora","Joinville","JundiaÃ­"]	
+			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
+			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"]	
 	},
 	{
 		"name": "Byzantium",
@@ -295,9 +295,9 @@
 "[+2 Production] from every [Lumber mill] <in [Tundra] tiles>",
 "[+2 Food] from every [Great Improvement] <in [Tundra] tiles>",
 ],
-		"cities": ["Ottawa","Toronto","MontrÃ©al","Quebec City","Hamilton","Winnipeg","Halifax","Saint John","Vancouver","Victoria",
+		"cities": ["Ottawa","Toronto","Montréal","Quebec City","Hamilton","Winnipeg","Halifax","Saint John","Vancouver","Victoria",
 			"Kingston","Brantford","Windsor","Charlottetown","Calgary","Sherbrooke","Guelph","Peterborough","Valleyfield","Edmonton",
-			"Trois-RiviÃ¨res","Stratford","Saint Catharines","Waterloo","Saint Hyacinthe","Saint Johnâ€™s","Dawson City","Belleville","Chatham",
+			"Trois-Rivières","Stratford","Saint Catharines","Waterloo","Saint Hyacinthe","Saint John","Dawson City","Belleville","Chatham",
 			"Saskatoon","Moncton","Mississauga","Brockville","Regina","Red Deer","Brandon","Sault Sainte Marie","Lethbridge","Saint-Lin",
 			"Whitehorse","Thunder Bay"]
 	},
@@ -325,7 +325,7 @@
 ],
 		"cities": ["Xi'an","Beijing","Taiyuan","Chengdu","Jiaodong","Changsha","Longxi","Guangzhou","Handan","Shenyang",
 			"Shanghai","Wuhan","Xiurong","Chen","Xingzhou","Quxian","Nanjing","Langfang","Linzi","Jiujiang",
-			"Kaifeng","Xuzhou","Hefei","Xinzheng","Luâ€™an","Qufu","Jiangzhou","Luoyang","Yinchuan"]
+			"Kaifeng","Xuzhou","Hefei","Xinzheng","Lu'an","Qufu","Jiangzhou","Luoyang","Yinchuan"]
 	},
 	{
 		"name": "The Cree",
@@ -343,7 +343,7 @@
 		"innerColor": [70,175,10],
 		"uniqueName": "Nihithaw",
 		"uniques": ["Receive free [Worker] when you discover [Pottery]","[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
-		"cities": ["Mikisiw-WacÃ®hk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
+		"cities": ["Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
 			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
 			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"]
 	},
@@ -619,10 +619,10 @@
 		",
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
-			"Munster","Rostok","Chemnitz","Braunschweig","Halle","M×¦nchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Münchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
 			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen",
 			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
-			"Recklinghausen","G×¦ttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
 	},
 	{
 		"name": "Gran Colombia",
@@ -689,10 +689,10 @@
 		"innerColor": [254,129,19],
 		"uniqueName": "Pearl of the Danube",
 		"uniques": ["[+50]% Production when constructing [All] buildings [in all cities] <in [River] tiles>"],
-		"cities": ["Buda","Debrecen","Esztergom","PÃ©cs","Pest","Eger","Tahiti","Miskolc","Szeged","GyÅ‘r",
-			"SzÃ©kesfehÃ©rvÃ¡r","Ã“buda","KÅ‘szeg","TatabÃ¡nya","KolozsvÃ¡r","DiÃ³sgyÅ‘r","Kiritimati","MohÃ¡cs","Tata","Szolnok",
-			"Kassa","KecskemÃ©t","Szombathely","Simontornya","NyÃ­regyhÃ¡za","SÃ¡rvÃ¡r","Sopron","Csesznek","ZÃ¡grÃ¡b","TemesvÃ¡r","NagyvÃ¡zsony",
-			"HÃ³dmezÅ‘vÃ¡sÃ¡rhely","SÃ¼meg","Baja"]
+		"cities": ["Buda","Debrecen","Esztergom","Pécs","Pest","Eger","Tahiti","Miskolc","Szeged","Győr",
+			"Székesfehérvár","Óbuda","Kőszeg","Tatabánya","Kolozsvár","Diósgyőr","Mohács","Tata","Szolnok",
+			"Kassa","Kecskemét","Szombathely","Simontornya","Nyí­regyháza","Sárvár","Sopron","Csesznek","Zágráb","Temesvár","Nagyvázsony",
+			"Hódmezővásárhely","Sümeg","Baja"]
 	},
 	{
 		"name": "Inca",
@@ -1315,9 +1315,9 @@
 "[1] Movement point cost to disembark <for [All] units>",
 "[Water] units gain the [Knarr] promotion",
 ],
-		"cities": ["Nidaros","Avaldsnes","Bergen","BjarkÃ¸y","BrattahlÃ­Ã°","Drammen","Frosta","Hamar","Hundorp","KarmÃ¸y","Kristiansand",
-			"Kristiansund","KvitsÃ¸y","Moster","Namsos","Oslo","Reykjavik","Ringerike","SandnÃ¦s","Sarpsborg","Skedsmo",
-			"Skien","Sogndal","Stange","Stavanger","Stiklestad","TjÃ¸tta","TromsÃ¸","Verdal","Vinland","Alesund"]
+		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
+			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
+			"Skien","Sogndal","Stange","Stavanger","Stiklestad","Tjøtta","Tromsø","Verdal","Vinland","Ålesund"]
 	},
 	{
 		"name": "The Netherlands", 
@@ -1490,10 +1490,10 @@
 "[+4 Gold, +2 Culture, +2 Faith] from every [Artefact2]",
 "[+4 Gold, +2 Culture, +2 Faith] from every [Artefact3]",
 ],
-		"cities": ["KrakÃ³w","Warsaw","Å?Ã³dÅº","Wroclaw","PoznaÅ„","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
-			"Katowice","BiaÅ‚ystok","Gdynia","Åšwidnica","CzÄ™stochowa","Radom","ToruÅ„","Kielce","Gliwice","KlaipÄ—da",
-			"Bytom","Olsztyn","RzeszÃ³w","Ruda ÅšlÄ…ska","Bielsko-Biala","Rybnik","PÅ‚ock","ElblÄ…g","GorzÃ³w Wielkopolski","Opole",
-			"Å iauliai","WaÅ‚brzych","Zielona GÃ³ra","WÅ‚ocÅ‚awek"]		
+		"cities": ["Kraków","Warsaw","Łódź","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
+			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
+			"Šiauliai","Wałbrzych","Zielona Góra","Włocławek"]		
 	},
 	{
 		"name": "Rome", 
@@ -1587,9 +1587,9 @@
 		"innerColor": [121,0,2],
 		"uniqueName": "People of the Steppe",
 		"uniques": ["[+100]% Production when constructing [Light Cavalry] units [in all cities]"],
-		"cities": ["Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop",
+		"cities": ["Pokrovka","Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop",
 			"Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov",
-			"Panticapaeum","Tsarskaya","OgÃ¼z","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
+			"Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
 	},
 	{
 		"name": "Spain", 
@@ -1614,9 +1614,9 @@
 "[+25]% Production when constructing [All] buildings [in all cities] <on foreign continents>"
 ],
 		"cities": ["Barcelona","Madrid","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
-			"Vitoria","Santander","Oviedo","Jaen","LogroÃ±o","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
-			"Lugo","Alicante","CÃ diz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La CoruÃ±a","Guadalquivir","Bilbao",
-			"San Sebastian","Granada","MÃ©rida","Huelva","Ibiza","Las Palmas","Tenerife"]	
+			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+			"Lugo","Alicante","Cádiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
+			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"]	
 	},
 	{
 		"name": "Sumeria", 
@@ -1664,10 +1664,10 @@
 "[Great Scientist] is earned [25]% faster",
 "[Great Engineer] is earned [25]% faster",
 ],
-		"cities": ["Stockholm","GÃ¶teborg","Uppsala","LinkÃ¶ping","Ã–rebro","VÃ¤sterÃ¥s","JÃ¶nkÃ¶ping","NorrkÃ¶ping","Helsingborg","Karlstad",
-			"Lund","MalmÃ¶","UmeÃ¥","Ã…bo","Umma","Halmstad","StrÃ¤ngnÃ¤s","Kalmar","Falun","NykÃ¶ping",
-			"Karlskrona","BorÃ¥s","Fort Kristina","Reval","Vasa","Ã–stersund","TorshÃ¤lla","KungÃ¤lv","VÃ¤xjÃ¶","Riga",
-			"Sundsvall","VÃ¤stervik","GÃ¤vle","Viborg","Hudiksvall","Visby","Fort Carolusborg","Ã…mÃ¥l","TorneÃ¥","Kinda"]	
+		"cities": ["Stockholm","Göteborg","Uppsala","Linköping","Örebro","Västerås","Jönköping","Norrköping","Helsingborg","Karlstad",
+			"Lund","Malmö","Umeå","Åbo","Umma","Halmstad","Strängnäs","Kalmar","Falun","Nyköping",
+			"Karlskrona","Borås","Fort Kristina","Reval","Vasa","Östersund","Torshälla","Kungälv","Växjö","Riga",
+			"Sundsvall","Västervik","Gävle","Viborg","Hudiksvall","Visby","Fort Carolusborg","Åmål","Tornå","Kinda"]	
 	},
 	{
 		"name": "The Zulu", 
