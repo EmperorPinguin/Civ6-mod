@@ -835,9 +835,9 @@
 		]
 	},
 	{ 
-		"name": "Barbarian Citadel", 
+		"name": "Barbarian encampment", 
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable","Cannot be built on [Natural Wonder] tiles"],
+		"uniques": ["Unpillagable","Unbuildable","Cannot be built on [Natural Wonder] tiles"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	},
 //Districts
