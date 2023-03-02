@@ -65,7 +65,7 @@
 "[+1 Gold] for each adjacent [Entertainment Complex]",
 "[+1 Gold] for each adjacent [Water Park]",
 "[-1 Gold] for each adjacent [Citadel]",
-"[-1 Gold] for each adjacent [Industrial Zone]",
+"[-1 Gold] for each adjacent [Manufactory]",
 "[-1 Gold] for each adjacent [Mine]",
 "[-1 Gold] for each adjacent [Quarry]",
 "[-1 Gold] for each adjacent [Oil well]",
@@ -257,7 +257,7 @@
 "[+1 Culture] for each adjacent [Entertainment Complex]",
 "[+1 Culture] for each adjacent [Water Park]",
 "[-1 Culture] for each adjacent [Citadel]",
-"[-1 Culture] for each adjacent [Industrial Zone]",
+"[-1 Culture] for each adjacent [Manufactory]",
 "[-1 Culture] for each adjacent [Mine]",
 "[-1 Culture] for each adjacent [Quarry]",
 "[-1 Culture] for each adjacent [Oil well]",
@@ -320,7 +320,7 @@
 "[+1 Science] for each adjacent [Entertainment Complex]",
 "[+1 Science] for each adjacent [Water Park]",
 "[-1 Science] for each adjacent [Citadel]",
-"[-1 Science] for each adjacent [Industrial Zone]",
+"[-1 Science] for each adjacent [Manufactory]",
 "[-1 Science] with [2] to [3] adjacent [Mine] tiles",
 "[-1 Science] with [4] to [5] adjacent [Mine] tiles",
 "[-1 Science] with [6] to [6] adjacent [Mine] tiles",
@@ -564,7 +564,7 @@
 "[+1 Gold] <with [1] to [6] neighboring [Customs house] tiles>",
 "[+1 Gold] <with [1] to [6] neighboring [Harbor] tiles>",
 "[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
-"[+1 Production] <with [1] to [6] neighboring [Industrial Zone] tiles>",
+"[+1 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
 "[+1 Culture] <with [1] to [6] neighboring [Landmark] tiles>"
 ]
 	},
@@ -1038,7 +1038,7 @@
 ]
 	},
 {
-		"name": "Industrial Zone",
+		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",

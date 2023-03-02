@@ -4,7 +4,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
 "[+100 Culture] whenever a Great Person is expended"
 ],
@@ -15,7 +15,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
 "[+25]% Production when constructing [Culture] buildings [in all cities]"
 ],
@@ -26,7 +26,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
 "[Worker] units gain the [Batey] promotion"],
         "color": [255, 1, 255]
@@ -36,7 +36,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
 "Allied City-States provide [Culture] equal to [20]% of what they produce for themselves",
 "Allied City-States provide [Gold] equal to [10]% of what they produce for themselves"],
@@ -47,7 +47,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
 "[15]% Food is carried over after population increases [in all cities] <in cities without a [Fresh Water Bonus]>"],
         "color": [255, 1, 255]
@@ -57,7 +57,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]"
 "[+2 Culture] from every [Great Improvement] <in [Coastal] tiles>"],
         "color": [255, 1, 255]
@@ -67,7 +67,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+2 Culture] from every [Theatre Square]",
+"[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
 "[Worker] units gain the [Moai] promotion"],
         "color": [255, 1, 255]
@@ -77,7 +77,7 @@
         "friendBonusUniques": ["[+2 Culture] [in capital]"],
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
-"[+50]% Culture from every [Theatre Square]",
+"[+50]% Culture from every [Landmark]",
 "[+50]% Culture from every [Acropolis]",],
         "color": [255, 1, 255]
     },
@@ -86,7 +86,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+1 Production] from every [Coast]",
@@ -101,7 +101,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+15]% Production when constructing [All] wonders [in all cities]"
@@ -113,7 +113,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+1 Happiness] from every [Bonus resource]"
@@ -125,7 +125,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+2] [Power] <in cities with a [Harbor District]>"],
@@ -136,7 +136,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+5]% Production when constructing [All] buildings [in all cities]",
@@ -149,7 +149,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+1 Production] from every [Strategic resource]",
@@ -162,7 +162,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+3 Production] from every [Industrial Zone]",
+"[+3 Production] from every [Manufactory]",
 "[+3 Production] from every [Hansa]",
 "[+3 Production] from every [Oppidum]",
 "[+1 Happiness] from every [Water Park]",
@@ -178,7 +178,7 @@
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Production] [in capital]",
-"[+2 Production] from every [Industrial Zone]",
+"[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
 "[+1 Production] from each Trade Route",
@@ -242,7 +242,7 @@
         "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
 "[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
-"May buy [Encampment District] buildings for [108] [Faith] [in all cities]",
+"May buy [Citadel District] buildings for [108] [Faith] [in all cities]",
 "May buy [Ancient Walls] buildings for [160] [Faith] [in all cities]",
 "May buy [Medieval Walls] buildings for [440] [Faith] [in all cities]",
 "May buy [Renaissance Walls] buildings for [600] [Faith] [in all cities]"],
@@ -261,7 +261,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[Worker] units gain the [Monastery] promotion"],
         "color": [249, 249, 249]
@@ -271,7 +271,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[+1 Faith] from each Trade Route"],
         "color": [249, 249, 249]
@@ -281,9 +281,9 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
-"[+100]% Natural religion spread [in all cities] <in cities with a [Holy Site District]>",
+"[+100]% Natural religion spread [in all cities] <in cities with a [Holy site District]>",
 "[+100]% Natural religion spread [in all cities] <in cities with a [Lavra District]>"],
         "color": [249, 249, 249]
     },
@@ -292,7 +292,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[+4 Faith] from every [Natural Wonder]"],
         "color": [249, 249, 249]
@@ -302,7 +302,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[Worker] units gain the [Colossal Head] promotion"],
         "color": [249, 249, 249]
@@ -312,7 +312,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[Worker] units gain the [Nazca lines] promotion"],
         "color": [249, 249, 249]
@@ -322,7 +322,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[+40]% Spread Religion Strength <for [Great Prophet] units>"],
         "color": [249, 249, 249]
@@ -332,7 +332,7 @@
         "friendBonusUniques":  ["[+2 Faith] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Faith] [in capital]",
-"[+2 Faith] from every [Holy Site]",
+"[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
 "[+33%]% Spread Religion Strength <for [Apostle] units>"],
         "color": [249, 249, 249]
@@ -342,7 +342,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "[+2 Science] from every [Artefact1]",
@@ -355,7 +355,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "[+25]% Great Person generation [in all cities]"],
@@ -366,7 +366,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "[+100 Science] when a city adopts this religion for the first time (modified by game speed)"],
@@ -377,7 +377,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "[+15]% [Science] [in all cities] <when not at war>"],
@@ -388,7 +388,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "Provides [2] [Horses]",
@@ -404,10 +404,10 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
-"[+15]% growth [in all cities] <in cities with a [Campus District]>",
+"[+15]% growth [in all cities] <in cities with a [Academy District]>",
 "[+15]% growth [in all cities] <in cities with a [Observatory District]>",
 "[+15]% growth [in all cities] <in cities with a [Seowon District]>",
 ],
@@ -418,7 +418,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "[Worker] units gain the [Mahavihara] promotion"],
@@ -429,7 +429,7 @@
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
         "allyBonusUniques":  [
 "[+2 Science] [in capital]",
-"[+2 Science] from every [Campus]",
+"[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
 "[+5]% [Science] [in all cities] <with [1] to [1] neighboring [Strategic resource] tiles>",
@@ -445,7 +445,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "Allied City-States provide [Gold] equal to [15]% of what they produce for themselves"],
         "color": [248, 217, 2]
@@ -455,7 +455,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "[Worker] units gain the [Cahokia Mounds] promotion"],
         "color": [248, 217, 2]
@@ -465,7 +465,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "[+1 Gold] from each Trade Route"],
         "color": [248, 217, 2]
@@ -475,7 +475,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "[+2 Gold] from every [Harbor]"],
         "color": [248, 217, 2]
@@ -485,7 +485,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold, +1 Happiness] from every [Commercial Hub]"
+"[+4 Gold, +1 Happiness] from every [Customs house]"
 "[+4 Gold, +1 Happiness] from every [Suguba]"],
         "color": [248, 217, 2]
     },
@@ -494,7 +494,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "[Worker] units gain the [Trading Dome] promotion"],
         "color": [248, 217, 2]
@@ -504,7 +504,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "[+1 Gold] from every [Luxury resource]"],
         "color": [248, 217, 2]
@@ -514,7 +514,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Commercial Hub]"
+"[+4 Gold] from every [Customs house]"
 "[+4 Gold] from every [Suguba]",
 "Provides [1] [Cinnamon]",
 "Provides [1] [Cloves]"],
