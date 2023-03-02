@@ -113,7 +113,7 @@
 	{
 		"name": "Incendiaries",
 		"prerequisites": ["Garrison"],
-		"uniques": ["[+47]% Strength <vs cities> <when attacking>","[+47]% Strength <in [Encampment] tiles> <when attacking>","[+47]% Strength <in [Ikanda] tiles> <when attacking>"],
+		"uniques": ["[+47]% Strength <vs cities> <when attacking>","[+47]% Strength <in [Citadel] tiles> <when attacking>","[+47]% Strength <in [Ikanda] tiles> <when attacking>"],
 		"unitTypes": ["Land Ranged"]
 	},
 	{
@@ -285,7 +285,7 @@
 	{
 		"name": "Shells",
 		"prerequisites": ["Crew Weapons"],
-		"uniques": ["[+67]% Strength <vs cities> <when attacking>","[+67]% Strength <in [Encampment] tiles> <when attacking>","[+67]% Strength <in [Ikanda] tiles> <when attacking>"],
+		"uniques": ["[+67]% Strength <vs cities> <when attacking>","[+67]% Strength <in [Citadel] tiles> <when attacking>","[+67]% Strength <in [Ikanda] tiles> <when attacking>"],
 		"unitTypes": ["Siege"]
 	},
 	{
@@ -360,7 +360,7 @@
 	},
 	{
 		"name": "Bombardment",
-		"uniques": ["[+47]% Strength <vs cities> <when attacking>","[+47]% Strength <in [Encampment] tiles> <when attacking>","[+47]% Strength <in [Ikanda] tiles> <when attacking>"],
+		"uniques": ["[+47]% Strength <vs cities> <when attacking>","[+47]% Strength <in [Citadel] tiles> <when attacking>","[+47]% Strength <in [Ikanda] tiles> <when attacking>"],
 		"unitTypes": ["Naval Ranged"]
 	},
 	{
@@ -372,7 +372,7 @@
 	{
 		"name": "Rolling Barrage",
 		"prerequisites": ["Bombardment"],
-		"uniques": ["[+67]% Strength <vs cities> <when attacking>","[+67]% Strength <in [Encampment] tiles> <when attacking>","[+67]% Strength <in [Ikanda] tiles> <when attacking>"],
+		"uniques": ["[+67]% Strength <vs cities> <when attacking>","[+67]% Strength <in [Citadel] tiles> <when attacking>","[+67]% Strength <in [Ikanda] tiles> <when attacking>"],
 		"unitTypes": ["Naval Ranged"]
 	},
 	{
