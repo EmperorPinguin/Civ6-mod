@@ -458,7 +458,7 @@
 
 	// Base terrains
 	{
-		"name": "Reef",
+		"name": "Atoll",
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"food": 1,
@@ -512,7 +512,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation",
 					"Considered [Desirable] when determining start locations <on water maps>",
 					"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-                              "Becomes [Reef] when adjacent to [Volcano]"
+                              "Becomes [Atoll] when adjacent to [Volcano]"
 ]
 	},
 	{
@@ -794,7 +794,7 @@
 
 	// Natural Wonders
 	{
-		"name": "Great Barrier Reef",
+		"name": "Great Barrier Atoll",
 		"type": "NaturalWonder",
 		"food": 2,
 		"production": 1,

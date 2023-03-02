@@ -60,11 +60,11 @@
 "[+1 Gold] for each adjacent [Forest]",
 "[+1 Gold] for each adjacent [Coast]",
 "[+1 Gold] for each adjacent [Oasis]",
-"[+1 Gold] for each adjacent [Holy Site]",
-"[+1 Gold] for each adjacent [Theatre Square]",
+"[+1 Gold] for each adjacent [Holy site]",
+"[+1 Gold] for each adjacent [Landmark]",
 "[+1 Gold] for each adjacent [Entertainment Complex]",
 "[+1 Gold] for each adjacent [Water Park]",
-"[-1 Gold] for each adjacent [Encampment]",
+"[-1 Gold] for each adjacent [Citadel]",
 "[-1 Gold] for each adjacent [Industrial Zone]",
 "[-1 Gold] for each adjacent [Mine]",
 "[-1 Gold] for each adjacent [Quarry]",
@@ -117,7 +117,7 @@
 		"techRequired": "Seasteads",
 		"uniques": [
 "[+1 Production] for each adjacent [Fishing Boats]",
-"[+1 Culture] for each adjacent [Reef]"
+"[+1 Culture] for each adjacent [Atoll]"
 ]
 	},
 	{
@@ -252,11 +252,11 @@
 "[+1 Culture] for each adjacent [Forest]",
 "[+1 Culture] for each adjacent [Coast]",
 "[+1 Culture] for each adjacent [Oasis]",
-"[+1 Culture] for each adjacent [Holy Site]",
-"[+1 Culture] for each adjacent [Theatre Square]",
+"[+1 Culture] for each adjacent [Holy site]",
+"[+1 Culture] for each adjacent [Landmark]",
 "[+1 Culture] for each adjacent [Entertainment Complex]",
 "[+1 Culture] for each adjacent [Water Park]",
-"[-1 Culture] for each adjacent [Encampment]",
+"[-1 Culture] for each adjacent [Citadel]",
 "[-1 Culture] for each adjacent [Industrial Zone]",
 "[-1 Culture] for each adjacent [Mine]",
 "[-1 Culture] for each adjacent [Quarry]",
@@ -315,11 +315,11 @@
 "[+1 Science] with [4] to [5] adjacent [Coast] tiles",
 "[+1 Science] with [6] to [6] adjacent [Coast] tiles",
 "[+1 Science] for each adjacent [Oasis]",
-"[+1 Science] for each adjacent [Holy Site]",
-"[+1 Science] for each adjacent [Theatre Square]",
+"[+1 Science] for each adjacent [Holy site]",
+"[+1 Science] for each adjacent [Landmark]",
 "[+1 Science] for each adjacent [Entertainment Complex]",
 "[+1 Science] for each adjacent [Water Park]",
-"[-1 Science] for each adjacent [Encampment]",
+"[-1 Science] for each adjacent [Citadel]",
 "[-1 Science] for each adjacent [Industrial Zone]",
 "[-1 Science] with [2] to [3] adjacent [Mine] tiles",
 "[-1 Science] with [4] to [5] adjacent [Mine] tiles",
@@ -371,10 +371,10 @@
 		"turnsToBuild":7,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow"],
 		"uniques": [
-"[+1 Faith] for each adjacent [Holy Site]",
-"[+1 Science] for each adjacent [Campus]",
+"[+1 Faith] for each adjacent [Holy site]",
+"[+1 Science] for each adjacent [Academy]",
 "[+1 Science] for each adjacent [Observatory]",
-"[+1 Science] for each adjacent [Campus] <after discovering [Scientific Theory]>",
+"[+1 Science] for each adjacent [Academy] <after discovering [Scientific Theory]>",
 "[+1 Science] for each adjacent [Observatory] <after discovering [Scientific Theory]>",
 ],
 	},
@@ -402,7 +402,7 @@
 		"uniques": [
 "[+1 Gold] for each adjacent [Luxury resource]",
 "[+1 Gold] for each adjacent [Harbor]",
-"[+1 Gold] for each adjacent [Commercial Hub]",
+"[+1 Gold] for each adjacent [Customs house]",
 "[+1 Gold] for each adjacent [Suguba]",
 ],
 	},
@@ -545,8 +545,8 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"uniques": [
 "[+2 Faith, +1 Food, +1 Production] <on foreign continents>", 
-"[+1 Science] for each adjacent [Campus]", 
-"[+1 Science] for each adjacent [Holy Site]",
+"[+1 Science] for each adjacent [Academy]", 
+"[+1 Science] for each adjacent [Holy site]",
 "[+2 Science] <after adopting [Cultural Heritage]>",
 ],
 	},
@@ -560,12 +560,12 @@
 		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"uniques": [
 "[+1 Food] <with [1] to [6] neighboring [City center] tiles>",
-"[+1 Science] <with [1] to [6] neighboring [Campus] tiles>",
-"[+1 Gold] <with [1] to [6] neighboring [Commercial Hub] tiles>",
+"[+1 Science] <with [1] to [6] neighboring [Academy] tiles>",
+"[+1 Gold] <with [1] to [6] neighboring [Customs house] tiles>",
 "[+1 Gold] <with [1] to [6] neighboring [Harbor] tiles>",
-"[+1 Faith] <with [1] to [6] neighboring [Holy Site] tiles>",
+"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
 "[+1 Production] <with [1] to [6] neighboring [Industrial Zone] tiles>",
-"[+1 Culture] <with [1] to [6] neighboring [Theatre Square] tiles>"
+"[+1 Culture] <with [1] to [6] neighboring [Landmark] tiles>"
 ]
 	},
 	{
@@ -619,9 +619,9 @@
 "Cannot be built on [Plains] tiles <before adopting [Early Empire]>",
 "Cannot be built on [Desert] tiles <before adopting [Early Empire]>",
 "Cannot be built on [Hill] tiles <before adopting [Early Empire]>",
-"[+1 Culture] for each adjacent [Holy Site]",
-"[+1 Culture] for each adjacent [Theatre Square]",
-"[+1 Gold] for each adjacent [Commercial Hub]",
+"[+1 Culture] for each adjacent [Holy site]",
+"[+1 Culture] for each adjacent [Landmark]",
+"[+1 Gold] for each adjacent [Customs house]",
 "[+1 Gold] for each adjacent [City center]",
 "[+1 Culture} <after adopting [Diplomatic Service]>",
 ]
@@ -676,7 +676,7 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra"],
 		"uniques": [
 "[+1 Food] <with [1] to [6] neighboring [Farm] tiles>",
-"[+1 Faith] <with [1] to [6] neighboring [Holy Site] tiles>",
+"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
 "[+1 Faith] <after adopting [Feudalism]>",
 "[+1 Food] <after adopting [Professional Sports]>",
 "Cannot be built on [Grassland] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
@@ -835,14 +835,14 @@
 		]
 	},
 	{ 
-		"name": "Barbarian encampment", 
+		"name": "Barbarian Citadel", 
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable","Cannot be built on [Natural Wonder] tiles"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	},
 //Districts
 {
-		"name": "Campus",
+		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
@@ -851,7 +851,7 @@
 "Removes removable features when built",
 "Pillaging this improvement yields approximately [+50 Science]",
 "[+2 Science] for each adjacent [Geothermal Fissure]",
-"[+2 Science] for each adjacent [Reef]",
+"[+2 Science] for each adjacent [Atoll]",
 "[+2 Science] for each adjacent [Great Barrier Reef]",
 "[+2 Science] for each adjacent [Pamukkale]",
 "[+1 Science] for each adjacent [Mountain]",
@@ -901,7 +901,7 @@
 ]
 	},
 {
-		"name": "Holy Site",
+		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
@@ -941,7 +941,7 @@
 ]
 	},
 {
-		"name": "Theatre Square",
+		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
@@ -980,7 +980,7 @@
 ]
 	},
 {
-		"name": "Encampment",
+		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
@@ -1004,7 +1004,7 @@
 ]
 	},
 {
-		"name": "Commercial Hub",
+		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 "Great Improvement",
@@ -1030,7 +1030,7 @@
 "Removes removable features when built",
 "Pillaging this improvement yields approximately [+50 Gold]",
 "[+2 Gold] for each adjacent [River]",
-"[+2 Gold] for each adjacent [Holy Site]",
+"[+2 Gold] for each adjacent [Holy site]",
 "[+2 Gold] for each adjacent [Pamukkale]",
 "[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
 "[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
@@ -1068,7 +1068,7 @@
 "Cannot be built on [Mountain] tiles",
 "Removes removable features when built",
 "Pillaging this improvement yields approximately [+50 Science]",
-"[+2 Production] for each adjacent [Commercial Hub]",
+"[+2 Production] for each adjacent [Customs house]",
 "[+1 Production] for each adjacent [Strategic resource]",
 "[+1 Production] for each adjacent [Luxury resource]",
 "[+1 Production] for each adjacent [Bonus resource]",
