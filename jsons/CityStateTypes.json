@@ -242,7 +242,7 @@
         "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
 "[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
-"May buy [Citadel District] buildings for [108] [Faith] [in all cities]",
+"May buy [Encampment District] buildings for [108] [Faith] [in all cities]",
 "May buy [Ancient Walls] buildings for [160] [Faith] [in all cities]",
 "May buy [Medieval Walls] buildings for [440] [Faith] [in all cities]",
 "May buy [Renaissance Walls] buildings for [600] [Faith] [in all cities]"],
@@ -283,7 +283,7 @@
 "[+2 Faith] [in capital]",
 "[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
-"[+100]% Natural religion spread [in all cities] <in cities with a [Holy site District]>",
+"[+100]% Natural religion spread [in all cities] <in cities with a [Holy Site District]>",
 "[+100]% Natural religion spread [in all cities] <in cities with a [Lavra District]>"],
         "color": [249, 249, 249]
     },
@@ -407,7 +407,7 @@
 "[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
-"[+15]% growth [in all cities] <in cities with a [Academy District]>",
+"[+15]% growth [in all cities] <in cities with a [Campus District]>",
 "[+15]% growth [in all cities] <in cities with a [Observatory District]>",
 "[+15]% growth [in all cities] <in cities with a [Seowon District]>",
 ],
