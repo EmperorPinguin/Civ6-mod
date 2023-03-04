@@ -162,7 +162,7 @@
 		"uniques": ["Unsellable", "Destroyed when the city is captured", "Remove extra unhappiness from annexed cities"]
 	},
 {
-		"name": "Academy District",
+		"name": "Campus District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Scientist": 1},
             "requiredResource": "Districts",
@@ -181,7 +181,7 @@
 	},
 {
 		"name": "Observatory District",
-		"replaces": "Academy District",
+		"replaces": "Campus District",
 		"uniqueTo": "The Maya",
 		"cost": 27,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -201,7 +201,7 @@
 	},
 {
 		"name": "Seowon District",
-		"replaces": "Academy District",
+		"replaces": "Campus District",
 		"uniqueTo": "Korea",
 		"cost": 27,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -220,7 +220,7 @@
 ],
 	},
 {
-		"name": "Holy site District",
+		"name": "Holy Site District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Prophet": 1},
             "requiredResource": "Districts",
@@ -240,7 +240,7 @@
 	},
 {
 		"name": "Lavra District",
-		"replaces": "Holy site District",
+		"replaces": "Holy Site District",
 		"uniqueTo": "Russia",
 		"cost": 27,
 		"greatPersonPoints": {"Great Prophet": 2},
@@ -261,7 +261,7 @@
 ],
 	},
 {
-		"name": "Landmark District",
+		"name": "Theatre Square District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Artist": 1},
             "requiredResource": "Districts",
@@ -282,7 +282,7 @@
 	},
 {
 		"name": "Acropolis District",
-		"replaces": "Landmark District",
+		"replaces": "Theatre Square District",
 		"uniqueTo": "Greece",
 		"cost": 27,
 		"greatPersonPoints": {"Great Artist": 1},
@@ -304,7 +304,7 @@
 ],
 	},
 {
-		"name": "Citadel District",
+		"name": "Encampment District",
 		"cost": 54,
 		"greatPersonPoints": {"Great General": 1},
             "requiredResource": "Districts",
@@ -323,7 +323,7 @@
 	},
 {
 		"name": "Ikanda District",
-		"replaces": "Citadel District",
+		"replaces": "Encampment District",
 		"uniqueTo": "The Zulu",
 		"cost": 27,
 		"greatPersonPoints": {"Great General": 1},
@@ -344,7 +344,7 @@
 ],
 	},
 {
-		"name": "Customs house District",
+		"name": "Commercial Hub District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Merchant": 1},
             "requiredResource": "Districts",
@@ -364,7 +364,7 @@
 	},
 {
 		"name": "Suguba District",
-		"replaces": "Customs house District",
+		"replaces": "Commercial Hub District",
 		"uniqueTo": "Mali", 
       	"cost": 27,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -385,7 +385,7 @@
 ],
 	},
 {
-		"name": "Manufactory District",
+		"name": "Industrial Zone District",
 		"cost": 54,
 		"greatPersonPoints": {"Great Engineer": 1},
             "requiredResource": "Districts",
@@ -404,7 +404,7 @@
 	},
 {
 		"name": "Hansa District",
-		"replaces": "Manufactory District",
+		"replaces": "Industrial Zone District",
 		"uniqueTo": "Germany",
 		"cost": 27,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -424,7 +424,7 @@
 	},
 {
 		"name": "Oppidum District",
-		"replaces": "Manufactory District",
+		"replaces": "Industrial Zone District",
 		"uniqueTo": "Gaul",
 		"cost": 27,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -971,14 +971,14 @@
         "cost": 400,
         "gold": 3,
         "uniques": ["[3] free [Archer] units appear","[3] free [Spearman] units appear",
-            "[+50]% Production when constructing [Anti-Cavalry] units [in all cities]","Only available <after adopting [Military Training]> <in cities with a [Barracks]>", "Must not be on [Hill]", "Only available <in cities with a [Citadel District]>"],
+            "[+50]% Production when constructing [Anti-Cavalry] units [in all cities]","Only available <after adopting [Military Training]> <in cities with a [Barracks]>", "Must not be on [Hill]", "Only available <in cities with a [Encampment District]>"],
         "quote": "'Upon the head of the god was an olive crown; in his right hand he bore a winged figure of Victory.' –Samuel Augustus Mitchell"
     },
     {
         "name": "Terracotta Army",
         "isWonder": true,
         "cost": 400,
-        "uniques": ["Only available <in cities with a [Barracks]>","Must not be on [Hill]", "Only available <in cities with a [Citadel District]>",
+        "uniques": ["Only available <in cities with a [Barracks]>","Must not be on [Hill]", "Only available <in cities with a [Encampment District]>",
         	"New military units start with [15] Experience"],
         "requiredTech": "Construction",
         "quote": "'There were seven wonders in the world, and the discovery of the Terracotta Army, we may say, is the eighth miracle of the world.' –Jacques Chirac"
@@ -993,7 +993,7 @@
         "cityStrength": 10,
         "greatPersonPoints": {"Great General": 2},
         "uniques": [
-        "Provides [1] [Military Policy Slots]","Must be on [Hill]", "Only available <in cities with a [Citadel District]>"],
+        "Provides [1] [Military Policy Slots]","Must be on [Hill]", "Only available <in cities with a [Encampment District]>"],
         "requiredTech": "Castles",
         "quote": "'Everything here appears calculated to inspire kind and happy feelings, for everything is delicate and beautiful.' –Washington Irving"
     },
@@ -1023,7 +1023,7 @@
 "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
 "Can only be built [in holy cities]"
 "Must not be on [Hill]",
-"Only available <in cities with a [Holy site District]>"],
+"Only available <in cities with a [Holy Site District]>"],
         "requiredTech": "Buttress",
         "quote": "'It is a beautiful and important monument and an international, intercultural treasure...Unless and until it can be shared by both religions in harmony--which would be a grand idea--it should remain a secular building honoring both religions who have made it beautiful.' –Ljubo Vujovic"
     },
@@ -1056,7 +1056,7 @@
         "isWonder": true,
         "cost": 710,
         "percentStatBonus": {"faith": 20},
-        "uniques": ["[4] free [Warrior Monk] units appear","Only available <after adopting [Divine Right]> <in cities with a [Temple]>", "Only available <in cities with a [Holy site District]>"],
+        "uniques": ["[4] free [Warrior Monk] units appear","Only available <after adopting [Divine Right]> <in cities with a [Temple]>", "Only available <in cities with a [Holy Site District]>"],
         "quote": "'O ye who tread the Narrow Way, by Tophet-flare to Judgment Day, be gentle when ‘the heathen’ pray, to Buddha at Kamakura!' –Rudyard Kipling"
     },
     {
@@ -1072,7 +1072,7 @@
 "[+1] Movement <for [Missionary] units>",
 "[+1] Movement <for [Inquisitor] units>",
 "Only available <after adopting [Civil Service]> <in cities with a [Temple]>",
-"Can only be built [in holy cities]","Only available <in cities with a [Holy site District]>"],
+"Can only be built [in holy cities]","Only available <in cities with a [Holy Site District]>"],
         "quote": "'We greet you, Devi Meenakshi, she who shines like a thousand-million suns, adorned with bracelets and garlands... She who is auspicious, she who embodies existence. I always bow to you, whose compassion is an ocean.' – Adi Shankara"
     },
     {
@@ -1094,7 +1094,7 @@
         "science": 3,
         "faith": 1,
         "greatPersonPoints": {"Scientist": 2},
-        "uniques": ["[+2 Science, +1 Faith] from Trade Routes", "Must be next to [Desert]", "Only available <in cities with a [Academy District]>", "Only available <in cities with a [University]>"],
+        "uniques": ["[+2 Science, +1 Faith] from Trade Routes", "Must be next to [Desert]", "Only available <in cities with a [Campus District]>", "Only available <in cities with a [University]>"],
         "requiredTech": "Education",
         "quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' –Musnad al-Bazzar 10/68"
     },
@@ -1128,7 +1128,7 @@
         "gold": 5,
         "greatPersonPoints": {"Great Merchant": 2},
         "requiredNearbyImprovedResources": ["Cattle"],
-        "uniques": ["[+2 Gold] from Trade Routes", "Only available <in cities with a [Market]>", "Only available <in cities with a [Customs house District]>"],
+        "uniques": ["[+2 Gold] from Trade Routes", "Only available <in cities with a [Market]>", "Only available <in cities with a [Commercial Hub District]>"],
         "requiredTech": "Banking",
         "quote": "'King Solomon gave the Queen of Sheba all she desired and asked for; besides what he had given her out of his royal bounty. So she turned and went to her own country, she and her servants.' –1 Kings, 10:13"
     },
@@ -1173,7 +1173,7 @@
         "isWonder": true,
         "cost": 920,
         "greatPersonPoints": {"Great Engineer": 2},
-        "uniques": ["[+100]% Production when constructing [Water] units [in all cities]","Must be next to [Coast]","Only available <in cities with a [Manufactory District]>"],
+        "uniques": ["[+100]% Production when constructing [Water] units [in all cities]","Must be next to [Coast]","Only available <in cities with a [Industrial Zone District]>"],
         "requiredTech": "Mass Production",
         "quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' –Robert Burton"
     },
@@ -1242,7 +1242,7 @@
         "cost": 1240,
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 4},
-        "uniques": ["[2] Free Social Policies","Only available <in cities with a [Landmark District]> <after adopting [Opera and Ballet]>"],
+        "uniques": ["[2] Free Social Policies","Only available <in cities with a [Theatre Square District]> <after adopting [Opera and Ballet]>"],
         "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance, its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' –Trudy Garfunkel"
     },
     
@@ -1365,7 +1365,7 @@
     {
         "name": "Library",
         "cost": 90,
-        "requiredBuilding": "Academy District",
+        "requiredBuilding": "Campus District",
         "specialistSlots": {"Scientist": 1},
         "greatPersonPoints": {"Great Scientist": 1},
         "maintenance": 1,
@@ -1379,7 +1379,7 @@
     {
         "name": "Shrine",
         "cost": 70,
-        "requiredBuilding": "Holy site District",
+        "requiredBuilding": "Holy Site District",
         "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "maintenance": 1,
@@ -1401,7 +1401,7 @@
     {
         "name": "Barracks",
         "cost": 90,
-        "requiredBuilding": "Citadel District",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1422,7 +1422,7 @@
         "uniqueTo": "Macedon",
         "cost": 90,
         "production": 1,        
-        "requiredBuilding": "Citadel District",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1456,7 +1456,7 @@
     {
         "name": "Amphitheater",
         "cost": 150,
-        "requiredBuilding": "Landmark District",
+        "requiredBuilding": "Theatre Square District",
         "specialistSlots": {"Artist": 1},
         "greatPersonPoints": {"Great Artist": 1},
         "maintenance": 1,
@@ -1472,7 +1472,7 @@
         "replaces": "Amphitheater",
         "uniqueTo": "The Maori",
         "cost": 150,
-        "requiredBuilding": "Landmark District",
+        "requiredBuilding": "Theatre Square District",
         "maintenance": 0,
         "uniques": [
 "[+1 Culture, +1 Faith] from [Forest] tiles [in this city]",
@@ -1490,7 +1490,7 @@
     {
         "name": "Stable",
         "cost": 120,
-        "requiredBuilding": "Citadel District",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1510,7 +1510,7 @@
         "replaces": "Stable",
         "uniqueTo": "Mongolia",
         "cost": 120,
-        "requiredBuilding": "Citadel District",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 1,
@@ -1570,7 +1570,7 @@
     {
         "name": "Market",
         "cost": 120,
-        "requiredBuilding": "Customs house District",
+        "requiredBuilding": "Commercial Hub District",
         "specialistSlots": {"Merchant": 1},
         "greatPersonPoints": {"Great Merchant": 1},
         "uniques": [
@@ -1587,7 +1587,7 @@
         "cost": 120,
         "production": 2,
         "gold": 4,
-        "requiredBuilding": "Customs house District",
+        "requiredBuilding": "Commercial Hub District",
         "specialistSlots": {"Merchant": 1},
         "greatPersonPoints": {"Great Merchant": 1},
         "uniques": [
@@ -1676,7 +1676,7 @@
 {
         "name": "Workshop",
         "cost": 195,
-        "requiredBuilding": "Manufactory District",
+        "requiredBuilding": "Industrial Zone District",
         "maintenance": 1,
         "specialistSlots": {"Engineer": 1},
         "greatPersonPoints": {"Great Engineer": 1},
@@ -1806,7 +1806,7 @@
 {
         "name": "Armory",
         "cost": 195,
-        "requiredBuilding": "Citadel District",
+        "requiredBuilding": "Encampment District",
         "specialistSlots": {"General": 1},
         "greatPersonPoints": {"Great General": 1},
         "maintenance": 2,
@@ -2454,7 +2454,7 @@
 		"name": "Cathedral",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Culture, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Culture, +3 Faith] from [Lavra] tiles [in this city]"
@@ -2468,7 +2468,7 @@
 		"name": "Dar-e Mehr",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+5 Faith] from [Holy site] tiles [in this city]",
 "[+5 Faith] from [Lavra] tiles [in this city]",
@@ -2482,7 +2482,7 @@
 		"name": "Gurdwara",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Food, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Food, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2496,7 +2496,7 @@
 		"name": "Meeting House",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Production, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Production, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2510,7 +2510,7 @@
 		"name": "Mosque",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+3 Faith] from [Holy site] tiles [in this city]",
 "[+3 Faith] from [Lavra] tiles [in this city]",
@@ -2526,7 +2526,7 @@
 		"name": "Pagoda",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+3 Faith] from [Holy site] tiles [in this city]",
 "[+3 Faith] from [Lavra] tiles [in this city]",
@@ -2541,7 +2541,7 @@
 		"name": "Stupa",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+1 Happiness, +3 Faith] from [Holy site] tiles [in this city]",
 "[+1 Happiness, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2555,7 +2555,7 @@
 		"name": "Synagogue",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+5 Faith] from [Holy site] tiles [in this city]",
 "[+5 Faith] from [Lavra] tiles [in this city]",
@@ -2569,7 +2569,7 @@
 		"name": "Wat",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy site District"
+            "requiredBuilding": "Holy Site District"
 		"uniques": [
 "[+2 Science, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Science, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2669,14 +2669,14 @@
 "Provides [1] [Wildcard Policy Slots] <with [Tier 3 Government]>",
 "[+10]% [Gold] [in all cities] <with [Tier 3 Government]>",
 "[Gold] cost of purchasing items in cities [-15]%",
-"[+15]% Production when constructing [Academy District] buildings [in all cities] <with [Tier 3 Government]>",
-"[+15]% Production when constructing [Customs house District] buildings [in all cities] <with [Tier 3 Government]>",
+"[+15]% Production when constructing [Campus District] buildings [in all cities] <with [Tier 3 Government]>",
+"[+15]% Production when constructing [Commercial Hub District] buildings [in all cities] <with [Tier 3 Government]>",
 "[+15]% Production when constructing [Entertainment Complex District] buildings [in all cities] <with [Tier 3 Government]>",
 "[+15]% Production when constructing [Harbor District] buildings [in all cities] <with [Tier 3 Government]>",
-"[+15]% Production when constructing [Holy site District] buildings [in all cities] <with [Tier 3 Government]>",
-"[+15]% Production when constructing [Manufactory District] buildings [in all cities] <with [Tier 3 Government]>",
+"[+15]% Production when constructing [Holy Site District] buildings [in all cities] <with [Tier 3 Government]>",
+"[+15]% Production when constructing [Industrial Zone District] buildings [in all cities] <with [Tier 3 Government]>",
 "[+15]% Production when constructing [Neighbourhood District] buildings [in all cities] <with [Tier 3 Government]>",
-"[+15]% Production when constructing [Landmark District] buildings [in all cities] <with [Tier 3 Government]>",
+"[+15]% Production when constructing [Theatre Square District] buildings [in all cities] <with [Tier 3 Government]>",
 "[+15]% Production when constructing [Water Park District] buildings [in all cities] <with [Tier 3 Government]>",
 "Consumes [1] [Tier 2 Government]",
 "Provides [1] [Tier 3 Government]",
@@ -2869,8 +2869,8 @@
 "Provides [1] [Economic Policy Slots]",
 "Provides [1] [Diplomatic Policy Slots]",
 "Provides [5] [Wildcard Policy Slots]",
-"[+10]% [Production] from every [Customs house District]",
-"[+10]% [Production] from every [Citadel District]",
+"[+10]% [Production] from every [Commercial Hub District]",
+"[+10]% [Production] from every [Encampment District]",
 "[-10]% [Science] [in all cities]",
 "Consumes [1] [Tier 4 Government]",
 "Only available <with [Tier 4 Government]>",
@@ -3439,7 +3439,7 @@
 "Only available <after adopting [Military Training]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+30]% Production when constructing [Citadel District] buildings [in all cities]",
+"[+30]% Production when constructing [Encampment District] buildings [in all cities]",
 "[+30]% Production when constructing [Barracks] buildings [in all cities]",
 "[+30]% Production when constructing [Stable] buildings [in all cities]",
 "[+30]% Production when constructing [Armory] buildings [in all cities]",
@@ -3690,13 +3690,13 @@
 "Only available <after adopting [Civil Service]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+1] Culture from every [Academy District]",
-"[+1] Culture from every [Customs house District]",
-"[+1] Culture from every [Citadel District]",
+"[+1] Culture from every [Campus District]",
+"[+1] Culture from every [Commercial Hub District]",
+"[+1] Culture from every [Encampment District]",
 "[+1] Culture from every [Harbor District]"
-"[+1] Culture from every [Holy site District]",
-"[+1] Culture from every [Manufactory District]",
-"[+1] Culture from every [Landmark District]",
+"[+1] Culture from every [Holy Site District]",
+"[+1] Culture from every [Industrial Zone District]",
+"[+1] Culture from every [Theatre Square District]",
 ],
 	},
 {
@@ -5227,24 +5227,24 @@
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"[+20]% Production when constructing [Academy District] buildings [in all cities]",
-"[+20]% Production when constructing [Customs house District] buildings [in all cities]",
-"[+20]% Production when constructing [Citadel District] buildings [in all cities]",
+"[+20]% Production when constructing [Campus District] buildings [in all cities]",
+"[+20]% Production when constructing [Commercial Hub District] buildings [in all cities]",
+"[+20]% Production when constructing [Encampment District] buildings [in all cities]",
 "[+20]% Production when constructing [Entertainment Complex District] buildings [in all cities]",
 "[+20]% Production when constructing [Harbor District] buildings [in all cities]",
-"[+20]% Production when constructing [Holy site District] buildings [in all cities]",
+"[+20]% Production when constructing [Holy Site District] buildings [in all cities]",
 "[+20]% Production when constructing [Neighbourhood District] buildings [in all cities]",
-"[+20]% Production when constructing [Manufactory District] buildings [in all cities]",
-"[+20]% Production when constructing [Landmark District] buildings [in all cities]",
-"[+20]% Production when constructing [Academy District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-"[+20]% Production when constructing [Customs house District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-"[+20]% Production when constructing [Citadel District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
+"[+20]% Production when constructing [Industrial Zone District] buildings [in all cities]",
+"[+20]% Production when constructing [Theatre Square District] buildings [in all cities]",
+"[+20]% Production when constructing [Campus District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
+"[+20]% Production when constructing [Commercial Hub District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
+"[+20]% Production when constructing [Encampment District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
 "[+20]% Production when constructing [Entertainment Complex District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
 "[+20]% Production when constructing [Harbor District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-"[+20]% Production when constructing [Holy site District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
+"[+20]% Production when constructing [Holy Site District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
 "[+20]% Production when constructing [Neighbourhood District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-"[+20]% Production when constructing [Manufactory District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-"[+20]% Production when constructing [Landmark District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
+"[+20]% Production when constructing [Industrial Zone District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
+"[+20]% Production when constructing [Theatre Square District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
 ],
 	},
 {
@@ -5366,15 +5366,15 @@
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"[+50]% Production when constructing [Academy District] buildings [in capital]",
-"[+50]% Production when constructing [Customs house District] buildings [in capital]",
-"[+50]% Production when constructing [Citadel District] buildings [in capital]",
+"[+50]% Production when constructing [Campus District] buildings [in capital]",
+"[+50]% Production when constructing [Commercial Hub District] buildings [in capital]",
+"[+50]% Production when constructing [Encampment District] buildings [in capital]",
 "[+50]% Production when constructing [Entertainment Complex District] buildings [in capital]",
 "[+50]% Production when constructing [Harbor District] buildings [in capital]",
-"[+50]% Production when constructing [Holy site District] buildings [in capital]",
+"[+50]% Production when constructing [Holy Site District] buildings [in capital]",
 "[+50]% Production when constructing [Neighbourhood District] buildings [in capital]",
-"[+50]% Production when constructing [Manufactory District] buildings [in capital]",
-"[+50]% Production when constructing [Landmark District] buildings [in capital]",
+"[+50]% Production when constructing [Industrial Zone District] buildings [in capital]",
+"[+50]% Production when constructing [Theatre Square District] buildings [in capital]",
 ],
 	},
 {
@@ -5506,9 +5506,9 @@
 "Unsellable",
 "[+33]% Strength <for [Land] units> <when fighting in [Coast] tiles>",
 "[+33]% Strength <for [Water] units> <when fighting in [Coast] tiles>",
-"[+100]% Production when constructing [Citadel District] buildings [in capital]",
-"[+100]% Production when constructing [Holy site District] buildings [in capital]",
-"[+100]% Production when constructing [Landmark District] buildings [in capital]",
+"[+100]% Production when constructing [Encampment District] buildings [in capital]",
+"[+100]% Production when constructing [Holy Site District] buildings [in capital]",
+"[+100]% Production when constructing [Theatre Square District] buildings [in capital]",
 ],
 	},
 {
