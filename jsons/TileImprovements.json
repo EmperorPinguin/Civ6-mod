@@ -427,19 +427,17 @@
 "Cannot be built on [Hill] tiles <in [Desert] [Hill] tiles>",
 ]
 	},
-	{
+{
 		"name": "Great Wall",
-		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "China",
-		"gold": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
-		"uniques": [
-"Gives a defensive bonus of [27]%",
-"Can be built just outside your borders",
-"Cannot be built on [All] tiles <with [2] to [6] neighboring [Great Wall] tiles>",
-"[+2 Culture, +2 Gold] for each adjacent [Great Wall]",
-]
+		"uniques": ["Gives a defensive bonus of [50]%",
+				"[+6 Gold] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles>",
+				"[+4 Gold] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles> <after discovering [Castles]>",
+ 				"Cannot be built on [Land] tiles <with [2] to [6] neighboring [Great Wall] tiles>"],
+		"shortcutKey": "O"
 	},
 	{
 		"name": "Hacienda",
