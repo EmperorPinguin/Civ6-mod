@@ -435,7 +435,7 @@
 		"techRequired": "Masonry",
 		"uniques": ["Gives a defensive bonus of [50]%",
 				"[+6 Gold] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles>",
-				"[+4 Gold] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles> <after discovering [Castles]>",
+				"[+4 Culture] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles> <after discovering [Castles]>",
  				"Cannot be built on [Land] tiles <with [2] to [6] neighboring [Great Wall] tiles>"],
 		"shortcutKey": "O"
 	},
