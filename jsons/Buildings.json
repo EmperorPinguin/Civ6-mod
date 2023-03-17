@@ -2307,7 +2307,7 @@
         "uniques": [
 "[+4 Culture] from [Landmark] tiles [in this city]",
 "[+1 Culture] from every specialist [in this city]",
-"[+100]% [Culture] [in this city]"
+"[+50]% [Culture] [in this city] <starting from the [Modern era]>"
 ],
         "requiredTech": "Radio"
     },
