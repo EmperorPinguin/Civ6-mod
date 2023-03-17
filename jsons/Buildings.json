@@ -2397,14 +2397,13 @@
         "name": "Aquatics Center",
         "cost": 480,
         "maintenance": 3,
+        "requiredBuilding": "Aquarium"
         "uniques": [
 "Consumes [2] [Power]",
 "[+4 Happiness] from [Water Park] tiles [in this city]",
 "[+4 Happiness] from [Copacabana] tiles [in this city]",
 "[+2 Happiness] from [Water Park] tiles [in this city] <with [Power]>",
 "[+2 Happiness] from [Copacabana] tiles [in this city] <with [Power]>",
-"Only available <if [Water Park District] is constructed>",
-"Only available <if [Aquarium] is constructed>",
 "Only available <after adopting [Professional Sports]>"]
     },
     {

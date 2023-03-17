@@ -492,6 +492,9 @@
 		"defenceBonus": 0.2,
             "impassable": true,
 		"overrideStats": true,
+		"turnsInto": "Mountain", 
+		"impassable": true, 
+		"unbuildable": true,
 		"occursOn": ["Plains", "Desert", "Tundra"],
 		"uniques": ["Rare feature"]
 	},
