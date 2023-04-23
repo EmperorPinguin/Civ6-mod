@@ -1602,6 +1602,7 @@
 		"cost": 1000,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Nuclear weapon of Strength [1]","Blast radius [1]"],
+		"requiredResource": "Uranium",
 		"attackSound": "nuke"
 	},
 	{
@@ -1614,6 +1615,7 @@
 		"cost": 1000,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [2]"],
+		"requiredResource": "Uranium",
 		"attackSound": "nuke"
 	},
 //Great Person

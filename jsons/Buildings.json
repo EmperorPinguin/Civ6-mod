@@ -628,6 +628,7 @@
             "name": "Water Park District",
             "cost": 54,
             "maintenance": 1,
+            "requiredResource": "Districts",
             "cannotBeBuiltWith": "Entertainment Complex",
             "uniques": [
 "Creates a [Water Park] improvement on a specific tile",
@@ -648,6 +649,7 @@
             "uniqueTo": "Brazil",
             "cost": 27,
             "maintenance": 1,
+            "requiredResource": "Districts",
             "cannotBeBuiltWith": "Entertainment Complex",
             "uniques": [
 "Creates a [Copacabana] improvement on a specific tile",
