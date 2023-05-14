@@ -5529,7 +5529,7 @@
 ],
 	},
 {
-		"name": "Jayavarman II",
+		"name": "Jayavarman VII",
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
@@ -5554,8 +5554,6 @@
 "[+4 Food] from every [Holy site] <with [4] to [4] neighboring [Mountain] tiles>",
 "[+5 Food] from every [Holy site] <with [5] to [5] neighboring [Mountain] tiles>",
 "[+6 Food] from every [Holy site] <with [6] to [6] neighboring [Mountain] tiles>",
-"[+1 Food] from every [Holy site] <with [1] to [1] neighboring [Pamukkale] tiles>",
-"[+2 Food] from every [Holy site] <with [2] to [2] neighboring [Pamukkale] tiles>",
 "[+1 Food] from every [Holy site] <with [2] to [3] neighboring [Forest] tiles>",
 "[+2 Food] from every [Holy site] <with [4] to [5] neighboring [Forest] tiles>",
 "[+3 Food] from every [Holy site] <with [6] to [6] neighboring [Forest] tiles>",
