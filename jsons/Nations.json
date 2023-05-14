@@ -1047,8 +1047,9 @@
 		"innerColor": [254,129,19],
 		"uniqueName": "Grand Barays", //Add CHOLOPHAL building for khmer
 		"uniques": [
-"[+3 Faith, +3 Happiness] from every [Aqueduct]",
-"[+1 Faith] from every [Farm] <with [1] to [6] neighboring [Holy site] tiles>"
+"[+1 Happiness] from every [Aqueduct]",
+"[+1 Faith] per [1] population [in all cities] <in cities with a [Aqueduct]>"
+"[+1 Faith] from every [Farm] <with [1] to [6] neighboring [Holy site] tiles>",
 ],
 		"cities": ["Angkor Wat","Hariharalya","Yaodharapura","Mahendraparvata","Vimayapura","Indrapura","Lingapura","Preah Vihear","Bhavapura","Kompong Svay",
 			"Nagara Jayasri","Vyadhapura","Chaturmukha","Dviradapura","Rajavihara","Amarendrapura","Phanom Rung","Isvarapura","Muang Tam","Angkor Borei",
