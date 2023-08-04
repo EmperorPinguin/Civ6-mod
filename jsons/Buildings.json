@@ -141,13 +141,13 @@
     {
         "name": "~l1",
         "isNationalWonder": "true",
-        "cost": -1,
+        "cost": 1,
         "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
     },
     {
         "name": "Macedon Bonus",
         "uniqueTo": "Macedon",
-        "cost": -1,
+        "cost": 1,
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
         "uniques": ["Can only be built [in annexed cities]","Free Technology","Free Social Policy",
@@ -158,7 +158,7 @@
 
 	{
 		"name": "City Center",
-		"cost": -1,
+		"cost": 1,
 		"uniques": ["Unsellable", "Destroyed when the city is captured", "Remove extra unhappiness from annexed cities"]
 	},
 {
