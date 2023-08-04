@@ -4,6 +4,7 @@
 		"era": "Ancient era",
 		"techCost": 25, 
 		"buildingCost": 60,
+		"wonderCost": 150,
 		"techs": [
 			{
 				"name": "Agriculture",
@@ -19,6 +20,7 @@
 		"era": "Ancient era",
 		"techCost": 25, 
 		"buildingCost": 60,
+		"wonderCost": 150,
 		"techs": [
 			{
 				"name": "Pottery",
