@@ -6042,8 +6042,8 @@
 "Destroyed when the city is captured",
 "Unsellable",
 "Enables the Redcoat Unique unit. ",
-"[1] free [Water] units appear <in cities with a [Royal Navy Dockyard]>",
-"[1] free [Melee] units appear <in cities with a [City Center]> <on foreign continents>",
+"[1] free [Redcoat] units appear <in cities with a [Royal Navy Dockyard]>",
+"[1] free [Redcoat] units appear <in cities with a [City Center]> <on foreign continents>",
 ],
 	},
 {
