@@ -8,7 +8,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 1,
-		"uniques": ["Unbuildable", "Cannot be purchased", "Can construct [Farm]", "Can construct [Mine]", "Can construct [Lumber mill]"]
+		"uniques": ["Unbuildable", "Cannot be purchased"]
 	},
 
 	// Ancient Era 
