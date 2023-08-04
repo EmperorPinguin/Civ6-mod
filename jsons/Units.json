@@ -804,7 +804,7 @@
 		"movement": 5,
 		"strength": 93,
 		"cost": 290,
-		"uniques": ["Only available <after adopting [Conservation]>","[+2] Sight","[+33]% Strength <within [2] tiles of a [Preserve]>","Can construct [Preserve]"],
+		"uniques": ["Only available <after adopting [Conservation]>","[+2] Sight","[+33]% Strength <within [2] tiles of a [Preserve]>","Can instantly construct a [Preserve] improvement <by consuming this unit>"],
 		"attackSound": "horse"
 	},
 	{
