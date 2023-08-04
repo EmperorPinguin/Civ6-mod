@@ -1737,7 +1737,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": -1,
-		"uniques": ["Unbuildable", "Can construct [Preserve]", "[+1] Sight"],
+		"uniques": ["Unbuildable", "Can instantly construct a [Preserve] improvement <by consuming this unit>", "[+1] Sight"],
 	},
 //Other
 	{
@@ -1745,7 +1745,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 133,
-		"uniques": ["Only available <after adopting [Natural History]>","Can construct [Archaeological Dig]"],
+		"uniques": ["Only available <after adopting [Natural History]>","Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>"],
 	},
 	{
 		"name": "Spy",
