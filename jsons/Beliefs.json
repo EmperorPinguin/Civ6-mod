@@ -284,7 +284,7 @@
 {
         "name": "Zen meditation",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] <if this city has at least [1] specialists>"]
+        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
 	///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
     
