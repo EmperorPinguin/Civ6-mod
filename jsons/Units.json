@@ -1622,7 +1622,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [10]-turn golden age", "Great Person - [Culture]","Unbuildable","Uncapturable"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]","Unbuildable","Uncapturable"],
 		"movement": 4
 	},
 	{
@@ -1663,14 +1663,14 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"uniques": ["Empire enters an [8]-turn Golden Age <by consuming this unit>", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
 		"movement": 4
 	},
 	{
 		"name": "Commandante General",
 		"unitType": "Civilian",
 		"uniqueTo": "Gran Colombia",
-		"uniques": ["Can start an [8]-turn golden age", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
 		"movement": 4
 	},
 
