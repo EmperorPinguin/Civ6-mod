@@ -1095,7 +1095,7 @@
         "cost": 710,
         "science": 3,
         "faith": 1,
-        "greatPersonPoints": {"Scientist": 2},
+        "greatPersonPoints": {"Great Scientist": 2},
         "uniques": ["[+2 Science, +1 Faith] from Trade Routes", "Must be next to [Desert]", "Only available <in cities with a [Campus District]>", "Only available <in cities with a [University]>"],
         "requiredTech": "Education",
         "quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' –Musnad al-Bazzar 10/68"
@@ -1214,7 +1214,7 @@
         "cost": 1450,
         "percentStatBonus": {"science": 20},
         "specialistSlots": {"Scientist": 2},
-        "greatPersonPoints": {"Scientist": 3},
+        "greatPersonPoints": {"Great Scientist": 3},
         "uniques": ["[2] Free Technologies","Must not be on [Hill]","Must not be on [Desert]","Must not be on [Snow]","Must not be on [Tundra]","Only available <in cities with a [University]>"],
         "requiredTech": "Scientific Theory",
         "quote": "'The clever men at Oxford...know all that there is to be knowed. But they none of them know one half as much...As intelligent Mr. Toad!' –Kenneth Grahame"
@@ -1331,7 +1331,7 @@
         "name": "Amundsen-Scott Research Station",
         "isWonder": true,
         "cost": 1740,
-        "greatPersonPoints": {"Scientist": 5},
+        "greatPersonPoints": {"Great Scientist": 5},
         "uniques": ["[+20]% [Science] [in all cities]","[+10]% [Production] [in all cities]",
 "[+20]% [Science] [in all cities] <in [Snow] tiles>","[+10]% [Production] [in all cities] <in [Snow] tiles>",
 "Must be on [Snow]","Only available <after adopting [Rapid Deployment]>"],
