@@ -487,7 +487,8 @@
 	{
 		"name": "Artefact Slots",
 		"resourceType": "Strategic",
-		"culture": 1
+		"culture": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Artefacts",
@@ -520,61 +521,73 @@
 	{
 		"name": "Districts",
 		"resourceType": "Strategic",
-		"faith": 1
+		"faith": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Power",
 		"resourceType": "Strategic",
-		"gold": 1
+		"gold": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Military Policy Slots",
 		"resourceType": "Strategic",
-		"production": 1
+		"production": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Economic Policy Slots",
 		"resourceType": "Strategic",
-		"gold": 1
+		"gold": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Wildcard Policy Slots",
 		"resourceType": "Strategic",
-		"science": 1
+		"science": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Diplomatic Policy Slots",
 		"resourceType": "Strategic",
-		"food": 1
+		"food": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Spies",
 		"resourceType": "Strategic",
-		"food": 1
+		"food": 1,
+		"uniques": ["Cannot be traded"]
 	},
 	{
 		"name": "Tier 1 Government",
 		"resourceType": "Strategic",
-		"culture": 1
+		"culture": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Tier 2 Government",
 		"resourceType": "Strategic",
-		"gold": 1
+		"gold": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Tier 3 Government",
 		"resourceType": "Strategic",
-		"food": 1
+		"food": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Tier 4 Government",
 		"resourceType": "Strategic",
-		"gold": 1
+		"gold": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 	{
 		"name": "Leader",
 		"resourceType": "Strategic",
-		"faith": 1
+		"faith": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"]
 	},
 ]
