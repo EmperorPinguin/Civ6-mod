@@ -1666,7 +1666,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters an [8]-turn Golden Age <by consuming this unit>", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
 		"movement": 4
 	},
 	{
