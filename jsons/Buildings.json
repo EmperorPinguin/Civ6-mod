@@ -46,97 +46,85 @@
 		"uniqueTo": "Germany",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]"]
+		"uniques": ["Provides [1] [Districts]","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District1",
 		"cost": 1,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cityStrength": 4,
-		"uniques": ["Provides [1] [Districts]"]
+		"uniques": ["Provides [1] [Districts]","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District2",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [4] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [4] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District3",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [7] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [7] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District4",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [11] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [11] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District5",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [14] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [14] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District6",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [17] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [17] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District7",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [20] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [20] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District8",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [23] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [23] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 {
 		"name": "District9",
 		"cost": 1,
 		"cityStrength": 4,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Provides [1] [Districts]", "Only available <in cities with at least [27] [Population]>"]
+		"uniques": ["Provides [1] [Districts]","Only available <in cities with at least [27] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"]
 	},
 // Filler
 
 {
 		"name": "Fresh Water Bonus",
 		"cost": 1,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Must be next to [Fresh water]", "[15]% Food is carried over after population increases [in this city]"]
+		"uniques": ["Must be next to [Fresh water]","[15]% Food is carried over after population increases [in this city]","Automatically built in all cities where it is buildable"]
 	},
 {
 		"name": "Coastal Bonus",
 		"cost": 1,
-		"hurryCostModifier": -100,
 		"maintenance": 0,
-		"uniques": ["Must be next to [Coast]", "[5]% Food is carried over after population increases [in this city]"]
+		"uniques": ["Must be next to [Coast]","[5]% Food is carried over after population increases [in this city]","Automatically built in all cities where it is buildable"]
 	},
     {
         "name": "~l1",
