@@ -18,9 +18,11 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-"Can build [Land] improvements on tiles",
-"May create improvements on water resources",
-"Can build [Water] improvements on tiles",
+//"Can build [Land] improvements on tiles",
+//"May create improvements on water resources",
+//"Can build [Water] improvements on tiles",
+
+"Can instantly construct a [All] improvement <[3] times>"
 ],
 		"cost": 100
 	},
