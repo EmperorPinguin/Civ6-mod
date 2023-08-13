@@ -522,7 +522,7 @@
 		"name": "Districts",
 		"resourceType": "Strategic",
 		"faith": 1,
-		"uniques": ["Cannot be traded"]
+		"uniques": ["Cannot be traded","City-level resource"]
 	},
 	{
 		"name": "Power",
