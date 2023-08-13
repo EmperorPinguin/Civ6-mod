@@ -765,7 +765,7 @@
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
-		"food": 3,
+		"food": 1,
 		"overrideStats": true,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
