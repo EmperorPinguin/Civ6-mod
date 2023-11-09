@@ -188,7 +188,7 @@
 "[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
 "[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
 "[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-"[+1 Productio] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
+"[+1 Production] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
 "Does not need removal of [Forest]",
 "Does not need removal of [Jungle]",
 ],
