@@ -128,7 +128,7 @@
 "[+2 Production] from every [Manufactory]",
 "[+2 Production] from every [Hansa]",
 "[+2 Production] from every [Oppidum]",
-"[+2] [Power] <in cities with a [Harbor District]>"],
+"Provides [2] [Power] <in all cities with a [Harbor District]>"],
         "color": [254, 129, 19]
     }
     {
@@ -334,7 +334,7 @@
 "[+2 Faith] [in capital]",
 "[+2 Faith] from every [Holy site]",
 "[+2 Faith] from every [Lavra]",
-"[+33%]% Spread Religion Strength <for [Apostle] units>"],
+"[+33]% Spread Religion Strength <for [Apostle] units>"],
         "color": [249, 249, 249]
     },
     {
