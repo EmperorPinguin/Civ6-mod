@@ -1009,9 +1009,8 @@
         "cost": 710,
         "faith": 4,
         "uniques": [
-"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", 
-"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
-"Can only be built [in holy cities]"
+"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+"Can only be built [in holy cities]",
 "Must not be on [Hill]",
 "Only available <in cities with a [Holy Site District]>"],
         "requiredTech": "Buttress",
@@ -2504,10 +2503,9 @@
 "[+3 Faith] from [Holy site] tiles [in this city]",
 "[+3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
-"[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
-"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
+"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
 "Never destroyed when the city is captured",
-"Unbuildable", 
+"Unbuildable",
 "Hidden when religion is disabled"
 ]
 	},
