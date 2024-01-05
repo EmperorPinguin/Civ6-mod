@@ -753,5 +753,9 @@
 		"name": "Quick Study III",
 		"uniques": ["[+25]% XP gained from combat"]
 	},
+{
+        "name": "Devout",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    },
 
 ]
