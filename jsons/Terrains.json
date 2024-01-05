@@ -352,7 +352,7 @@
 		"uniques": [
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [4] to [4] tiles"],
-		"turnsInto": "Marsh",
+		"turnsInto": "Grassland",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
@@ -423,7 +423,7 @@
 		"occursOn": ["Tundra"],
 		"uniques": [
 			"Occurs in groups of [4] to [4] tiles"],
-		"turnsInto": "Marsh",
+		"turnsInto": "Grassland",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
