@@ -716,9 +716,9 @@
         "isWonder": true,
         "cost": 220,
         "culture": 2,
-        "uniques": ["Free [Worker] appears", "[-25]% tile improvement construction time", "Must be on [Desert]", "Must not be on [Hill]"],
+        "uniques": ["Free [Worker] appears", "[-25]% construction time for [All] improvements", "Must be on [Desert]", "Must not be on [Hill]"],
         "requiredTech": "Masonry",
-        "quote": "'From the height of these pyramids, forty centuries look down on us.' –Napolean Boneparte"
+        "quote": "'From the height of these pyramids, forty centuries look down on us.' –Napoleon Bonaparte"
     },
     {
         "name": "Temple of Artemis",
