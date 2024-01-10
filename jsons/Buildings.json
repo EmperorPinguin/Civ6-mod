@@ -4314,7 +4314,7 @@
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
 "[+30]% Production when constructing [Worker] units [in all cities]",
-"[-40]% tile improvement construction time",
+"[-40]% construction time for [All] improvements",
 ],
 	},
 {
