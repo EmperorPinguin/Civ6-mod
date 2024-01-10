@@ -1510,8 +1510,7 @@
 "All newly-trained [Light Cavalry] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Heavy Cavalry] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Siege] units [in this city] receive the [Quick Study I] promotion",
-"All newly-trained [Light Cavalry] units in this city receive the [Ordu] promotion",
-"All newly-trained [Light Cavalry] units in this city receive the [Ordu] promotion",
+"All newly-trained [Light Cavalry] units [in this city] receive the [Ordu] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Horseback Riding"
@@ -1642,7 +1641,7 @@
         "uniques": [
 "[+1 Culture] per [2] population [in this city]"
 "[+6 Faith] from [Holy site] tiles [in this city]",
-"All newly-trained [Civilian] units in this city receive the [Martyr] promotion",
+"All newly-trained [Civilian] units [in this city] receive the [Martyr] promotion",
 "Only available <after adopting [Theology]>"],
     },
 {
@@ -3414,7 +3413,7 @@
 "Only available <before adopting [Scorched Earth]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"Receive triple Gold from Barbarian Citadels and pillaging Cities <before adopting [Scorched Earth]>",
+"Receive triple Gold from Barbarian encampments and pillaging Cities <before adopting [Scorched Earth]>",
 ],
 	},
 {
@@ -3677,13 +3676,13 @@
 "Only available <after adopting [Civil Service]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+1] Culture from every [Campus District]",
-"[+1] Culture from every [Commercial Hub District]",
-"[+1] Culture from every [Encampment District]",
-"[+1] Culture from every [Harbor District]"
-"[+1] Culture from every [Holy Site District]",
-"[+1] Culture from every [Industrial Zone District]",
-"[+1] Culture from every [Theatre Square District]",
+"[+1 Culture] from every [Campus District]",
+"[+1 Culture] from every [Commercial Hub District]",
+"[+1 Culture] from every [Encampment District]",
+"[+1 Culture] from every [Harbor District]"
+"[+1 Culture] from every [Holy Site District]",
+"[+1 Culture] from every [Industrial Zone District]",
+"[+1 Culture] from every [Theatre Square District]",
 ],
 	},
 {
@@ -3722,7 +3721,7 @@
 "Only available <before adopting [Scorched Earth]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"Receive triple Gold from Barbarian Citadels and pillaging Cities <before adopting [Scorched Earth]>",
+"Receive triple Gold from Barbarian encampments and pillaging Cities <before adopting [Scorched Earth]>",
 ],
 	},
 {
