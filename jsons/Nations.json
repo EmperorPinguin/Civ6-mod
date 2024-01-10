@@ -1637,7 +1637,7 @@
 		"innerColor": [254,129,19],
 		"uniqueName": "Epic Quest",
 		"uniques": [
-"Receive triple Gold from Barbarian Citadels and pillaging Cities",
+"Receive triple Gold from Barbarian encampments and pillaging Cities",
 "[-50]% City-State Influence degradation"
 ],
 		"cities": ["Uruk","Eridu","Kish","Ur","Lagash","Nippur","Bad-Tibira","Sippar","Shuruppak","Adab",
