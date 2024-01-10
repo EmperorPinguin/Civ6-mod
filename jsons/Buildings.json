@@ -969,7 +969,7 @@
         "isWonder": true,
         "cost": 400,
         "uniques": ["Only available <in cities with a [Barracks]>","Must not be on [Hill]", "Only available <in cities with a [Encampment District]>",
-        	"New military units start with [15] Experience"],
+        	"New [Military] units start with [15] Experience [in all cities]"],
         "requiredTech": "Construction",
         "quote": "'There were seven wonders in the world, and the discovery of the Terracotta Army, we may say, is the eighth miracle of the world.' –Jacques Chirac"
     },
