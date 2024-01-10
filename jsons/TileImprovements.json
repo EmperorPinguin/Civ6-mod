@@ -386,9 +386,9 @@
 		"turnsToBuild":7,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Flood plains"],
 		"uniques": [
-"[+1 Food] with [2] to [3] adjacent [Great Improvement] tiles <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
-"[+2 Food] with [4] to [5] adjacent [Great Improvement] tiles <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
-"[+3 Food] with [6] to [6] adjacent [Great Improvement] tiles <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
+"[+1 Food] <with [2] to [3] adjacent [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
+"[+2 Food] <with [4] to [5] adjacent [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
+"[+3 Food] <with [6] to [6] adjacent [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
 "[+1 Food] for each adjacent [Great Improvement] <after discovering [Replaceable Parts]>",
 "[+1 Food] <after adopting [Cultural Heritage]>",
 ],
