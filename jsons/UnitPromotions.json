@@ -641,7 +641,7 @@
 */
 	{
 		"name": "Mongol Horde", // Mongolia
-		"uniques": ["[+20% Strength"],
+		"uniques": ["[+20]% Strength"],
 	},
 	{
 		"name": "Ordu", // Mongolia
