@@ -13,7 +13,7 @@
     {
         "name": "Land Melee",
         "movementType": "Land",
-        "uniques": ["[+33]% Strength <vs [Anti-Mounted] units>"]
+        "uniques": ["[+33]% Strength <vs [Anti-Cavalry] units>"]
     },
     {
         "name": "Warrior Monk",
