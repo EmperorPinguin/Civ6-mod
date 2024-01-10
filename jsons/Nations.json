@@ -128,7 +128,7 @@
 		"outerColor": [125,235,238],
 		"innerColor": [119,21,20],
 		"uniqueName": "Legend of the Five Suns",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]","[-25]% tile improvement construction time"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
