@@ -3665,7 +3665,7 @@
 "Only available <before adopting [Civil Engineering]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[-40]% tile improvement construction time <before adopting [Civil Engineering]>"
+"[-40]% construction time for [All] improvements <before adopting [Civil Engineering]>"
 ],
 	},
 {
