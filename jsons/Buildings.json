@@ -527,7 +527,7 @@
 */
 "[+50]% Production when constructing [Water] units [in this city]",
 "[+50]% Production when constructing [Settler] units [in this city]",
-"All newly-trained [relevant] units in this city receive the [Cothon] promotion"
+"All newly-trained [relevant] units [in this city] receive the [Cothon] promotion"
 "Connects trade routes over water",
 "Must be next to [Coast]"
 ],
@@ -549,7 +549,7 @@
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
 */
 "[+1 Gold] from [Water resource] tiles [in this city]",
-"All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
+"All newly-trained [relevant] units [in this city] receive the [Royal Navy Dockyard] promotion",
 "[+2 Gold] <on foreign continents>",
 "Connects trade routes over water",
 "Must be next to [Coast]"
