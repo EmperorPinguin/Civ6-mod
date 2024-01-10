@@ -586,7 +586,7 @@
 	{
 		"name": "Disciples",
 		"prerequisites": ["Shadow Strike", "Twilight Veil"],
-		"uniques": ["Can [Spread Religion] [1] times", "Removes other religions when spreading religion"],
+		"uniques": ["Can Spread Religion <[1] times>"],
 		"unitTypes": ["Warrior Monk"]
 	},
 	{
