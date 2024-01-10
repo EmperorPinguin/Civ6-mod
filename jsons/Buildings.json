@@ -5575,7 +5575,7 @@
 "Destroyed when the city is captured",
 "Unsellable",
 "[+2 Science, +2 Culture] [in capital] <for [10] turns>",
-"[15]% food is carried over [in capital]",
+"[15]% Food is carried over after population increases [in capital]",
 "[+1 Happiness] [in capital]",
 "[+1] population [in capital]",
 "Free [Worker] appears",
