@@ -160,7 +160,7 @@
 "Creates a [Academy] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Science] from [Trade Route (International)] tiles [in this city]"
@@ -180,7 +180,7 @@
 "Creates a [Observatory] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Science] from [Trade Route (International)] tiles [in this city]"
@@ -200,7 +200,7 @@
 "Creates a [Seowon] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Science] from [Trade Route (International)] tiles [in this city]"
@@ -219,7 +219,7 @@
 "Unbuildable <if [Mvemba a Nzinga] is constructed>",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Faith] from [Trade Route (International)] tiles [in this city]",
@@ -239,7 +239,7 @@
 "Creates a [Lavra] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured", 
+"Never destroyed when the city is captured", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Faith] from [Trade Route (International)] tiles [in this city]",
@@ -258,7 +258,7 @@
 "Creates a [Landmark] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Culture] from [Trade Route (International)] tiles [in this city]",
@@ -280,7 +280,7 @@
 "Creates a [Acropolis] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 "Free [Envoy] appears",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
@@ -302,7 +302,7 @@
 "Creates a [Citadel] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Production] from [Trade Route (International)] tiles [in this city]",
@@ -322,7 +322,7 @@
 "Creates a [Ikanda] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 "[5]% Food is carried over after population increases [in this city]",
 "[+25]% Production when constructing [Military] units [in this city]",
 /*
@@ -342,7 +342,7 @@
 "Creates a [Customs house] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
@@ -362,7 +362,7 @@
 		"uniques": [
 "Creates a [Suguba] improvement on a specific tile",
 "Unsellable",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
@@ -383,7 +383,7 @@
 "Creates a [Manufactory] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured", 
+"Never destroyed when the city is captured", 
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Production] from [Trade Route (International)] tiles [in this city]"
@@ -403,7 +403,7 @@
 "Creates a [Hansa] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Production] from [Trade Route (International)] tiles [in this city]"
@@ -423,7 +423,7 @@
 "Creates a [Oppidum] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Production] from [Trade Route (International)] tiles [in this city]"
@@ -440,7 +440,7 @@
 "Creates a [Entertainment Complex] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured", 
+"Never destroyed when the city is captured", 
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Food] from [Trade Route (International)] tiles [in this city]",
@@ -460,7 +460,7 @@
 "Creates a [Street Carnival] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Food] from [Trade Route (International)] tiles [in this city]",
@@ -480,7 +480,7 @@
 "Creates a [Entertainment Complex] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured", 
+"Never destroyed when the city is captured", 
 "Free [Tagma] appears <after adopting [Divine Right]>", 
 "[1] units cost no maintenance",
 /*
@@ -500,7 +500,7 @@
 "Creates a [Harbor] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
@@ -520,7 +520,7 @@
 "Creates a [Harbor] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
@@ -543,7 +543,7 @@
 "Creates a [Harbor] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
 "[+3 Gold] from [Trade Route (International)] tiles [in this city]",
@@ -565,7 +565,7 @@
 "Creates a [Neighbourhood] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 "[20]% Food is carried over after population increases [in this city]",
 "Only available <after adopting [Urbanization]>"
 ]
@@ -580,7 +580,7 @@
 "Creates a [Mbanza] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 "[25]% Food is carried over after population increases [in this city]",
 "Only available <after adopting [Guilds]>"
 ]
@@ -595,7 +595,7 @@
 "Enables construction of Aircraft [in this city]",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 ],
         "requiredTech": "Flight"
     },
@@ -608,7 +608,7 @@
 "Enables construction of Spaceship parts"
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 ],
         "requiredTech": "Rocketry"
     },
@@ -622,7 +622,7 @@
 "Creates a [Water Park] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Food] from [Trade Route (International)] tiles [in this city]",
@@ -643,7 +643,7 @@
 "Creates a [Copacabana] improvement on a specific tile",
 "Unsellable",
 "Cannot be purchased",
-"Never destroyed when city is captured",
+"Never destroyed when the city is captured",
 /*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Food] from [Trade Route (International)] tiles [in this city]",
