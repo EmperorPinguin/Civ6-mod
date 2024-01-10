@@ -1511,6 +1511,7 @@
 "All newly-trained [Heavy Cavalry] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Siege] units [in this city] receive the [Quick Study I] promotion",
 "All newly-trained [Light Cavalry] units [in this city] receive the [Ordu] promotion",
+"All newly-trained [Heavy Cavalry] units [in this city] receive the [Ordu] promotion",
 "[5]% Food is carried over after population increases [in this city]"
 ],
         "requiredTech": "Horseback Riding"
