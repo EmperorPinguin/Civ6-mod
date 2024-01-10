@@ -1034,7 +1034,7 @@
 		"requiredTech": "Wheel",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control", "Penalty vs City 57%","Penalty vs water units 57%"],
+		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control"],
 		"attackSound": "arrow"
 	},
 //GDR
