@@ -1083,7 +1083,7 @@
         "science": 3,
         "faith": 1,
         "greatPersonPoints": {"Great Scientist": 2},
-        "uniques": ["[+2 Science, +1 Faith] from Trade Routes", "Must be next to [Desert]", "Only available <in cities with a [Campus District]>", "Only available <in cities with a [University]>"],
+        "uniques": ["[+2 Science, +1 Faith] from each Trade Route", "Must be next to [Desert]", "Only available <in cities with a [Campus District]>", "Only available <in cities with a [University]>"],
         "requiredTech": "Education",
         "quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' –Musnad al-Bazzar 10/68"
     },
@@ -1117,7 +1117,7 @@
         "gold": 5,
         "greatPersonPoints": {"Great Merchant": 2},
         "requiredNearbyImprovedResources": ["Cattle"],
-        "uniques": ["[+2 Gold] from Trade Routes", "Only available <in cities with a [Market]>", "Only available <in cities with a [Commercial Hub District]>"],
+        "uniques": ["[+2 Gold] from each Trade Route", "Only available <in cities with a [Market]>", "Only available <in cities with a [Commercial Hub District]>"],
         "requiredTech": "Banking",
         "quote": "'King Solomon gave the Queen of Sheba all she desired and asked for; besides what he had given her out of his royal bounty. So she turned and went to her own country, she and her servants.' –1 Kings, 10:13"
     },
@@ -1153,7 +1153,7 @@
         "cost": 920,
         "gold": 5,
         "greatPersonPoints": {"Great Admiral": 1},
-        "uniques": ["[+2 Gold] from Trade Routes", "Provides the cheapest [Production] building in your first [10] cities for free <on foreign continents>","Only available <after adopting [Mercantilism]>","Only available <in cities with a [Harbor District]>"],
+        "uniques": ["[+2 Gold] from each Trade Route", "Provides the cheapest [Production] building in your first [10] cities for free <on foreign continents>","Only available <after adopting [Mercantilism]>","Only available <in cities with a [Harbor District]>"],
         "quote": "No vessel could pass these guns without being seriously assailed.' – Laure Junot Abrantes"
     },
 
@@ -3217,7 +3217,7 @@
 "Only available <before adopting [Mercantilism]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+2 Gold] from Trade Routes <before adopting [Mercantilism]>",
+"[+2 Gold] from each Trade Route <before adopting [Mercantilism]>",
 ],
 	},
 {
@@ -3762,7 +3762,7 @@
 "Only available <before adopting [Capitalism]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+1 Science, +1 Culture] from Trade Routes <before adopting [Capitalism]>",
+"[+1 Science, +1 Culture] from each Trade Route <before adopting [Capitalism]>",
 
 
 ],
@@ -4208,7 +4208,7 @@
 "Only available <before adopting [Globalization]>",
 "Can only be built [in capital]",
 "Destroyed when the city is captured",
-"[+4 Gold, +1 Faith] from Trade Routes <before adopting [Globalization]>",
+"[+4 Gold, +1 Faith] from each Trade Route <before adopting [Globalization]>",
 ],
 	},
 {
@@ -4493,7 +4493,7 @@
 		"uniques": [
 "Only available <after adopting [Capitalism]>",
 "Can only be built [in capital]",
-"[+1 Gold, +2 Science, +2 Culture] from Trade Routes",
+"[+1 Gold, +2 Science, +2 Culture] from each Trade Route",
 ],
 	},
 {
@@ -4774,7 +4774,7 @@
 		"uniques": [
 "Only available <after adopting [Capitalism]>",
 "Can only be built [in capital]",
-"[+4 Food, +2 Production] from Trade Routes",
+"[+4 Food, +2 Production] from each Trade Route",
 ],
 	},
 {
@@ -5003,7 +5003,7 @@
 		"uniques": [
 "Only available <after adopting [Globalization]>",
 "Can only be built [in capital]",
-"[+2 Production, +5 Gold] from Trade Routes",
+"[+2 Production, +5 Gold] from each Trade Route",
 ],
 	},
 {
@@ -5622,7 +5622,7 @@
 "Destroyed when the city is captured",
 "Unsellable",
 "[+1 Gold] from every [Desert]",
-"[+25]% [Gold] from Trade Routes <during a Golden Age>",
+"[+25]% [Gold] from each Trade Route <during a Golden Age>",
 ],
 	},
 {
@@ -5794,7 +5794,7 @@
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"[+1 Food] from Trade Routes",
+"[+1 Food] from each Trade Route",
 "[+1 Gold] from every [Camp]",
 "[+1 Gold] from every [Pasture]",
 ],
@@ -6057,7 +6057,7 @@
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"[+1 Happiness] from Trade Routes",
+"[+1 Happiness] from each Trade Route",
 "[+100]% [Culture] from City-States",
 ],
 	},
