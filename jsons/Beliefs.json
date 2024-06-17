@@ -34,7 +34,7 @@
             "[+3 Faith] from every [Lavra] <with [3] to [3] neighboring [Tundra] tiles> <if [Scripture] is constructed>",
             "[+4 Faith] from every [Lavra] <with [4] to [4] neighboring [Tundra] tiles> <if [Scripture] is constructed>",
             "[+5 Faith] from every [Lavra] <with [5] to [5] neighboring [Tundra] tiles> <if [Scripture] is constructed>",
-            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Tundra] tiles> <if [Scripture] is constructed>",
+            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Tundra] tiles> <if [Scripture] is constructed>"
         ]
     },
     {
@@ -65,7 +65,7 @@
             "[+3 Faith] from every [Lavra] <with [3] to [3] neighboring [Desert] tiles> <if [Scripture] is constructed>",
             "[+4 Faith] from every [Lavra] <with [4] to [4] neighboring [Desert] tiles> <if [Scripture] is constructed>",
             "[+5 Faith] from every [Lavra] <with [5] to [5] neighboring [Desert] tiles> <if [Scripture] is constructed>",
-            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Desert] tiles> <if [Scripture] is constructed>",
+            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Desert] tiles> <if [Scripture] is constructed>"
         ]
     },
     {
@@ -238,7 +238,7 @@
             "[+3 Faith] from every [Lavra] <with [3] to [3] neighboring [Jungle] tiles> <if [Scripture] is constructed>",
             "[+4 Faith] from every [Lavra] <with [4] to [4] neighboring [Jungle] tiles> <if [Scripture] is constructed>",
             "[+5 Faith] from every [Lavra] <with [5] to [5] neighboring [Jungle] tiles> <if [Scripture] is constructed>",
-            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Jungle] tiles> <if [Scripture] is constructed>",
+            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Jungle] tiles> <if [Scripture] is constructed>"
         ]
     },
     {
