@@ -20,7 +20,7 @@
 		"maintenance": 2,
 		"uniques": [
 			"Only available <after adopting [Diplomatic Service]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Spies]",
 			"Provides [1] [Spies] <after adopting [Diplomatic Service]>",
@@ -1304,7 +1304,7 @@
 			"Great Merchant": 3
 		},
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+15]% [Production] [in all cities] <on foreign continents>",
 			"[+15]% [Gold] [in all cities] <on foreign continents>",
 			"[+15]% [Faith] [in all cities] <on foreign continents>"
@@ -3060,7 +3060,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots] <with [Tier 1 Government]>",
 			"Provides [1] [Economic Policy Slots] <with [Tier 1 Government]>",
@@ -3074,7 +3074,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Political Philosophy]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots] <with [Tier 2 Government]>",
 			"Provides [1] [Economic Policy Slots] <with [Tier 2 Government]>",
@@ -3094,7 +3094,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Political Philosophy]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [2] [Economic Policy Slots] <with [Tier 2 Government]>",
 			"Provides [1] [Diplomatic Policy Slots] <with [Tier 2 Government]>",
@@ -3114,7 +3114,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Political Philosophy]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [2] [Military Policy Slots] <with [Tier 2 Government]>",
 			"Provides [1] [Economic Policy Slots] <with [Tier 2 Government]>",
@@ -3135,7 +3135,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Exploration]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots] <with [Tier 3 Government]>",
 			"Provides [2] [Economic Policy Slots] <with [Tier 3 Government]>",
@@ -3164,7 +3164,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Divine Right]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [2] [Military Policy Slots] <with [Tier 3 Government]>",
 			"Provides [1] [Economic Policy Slots] <with [Tier 3 Government]>",
@@ -3186,7 +3186,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Reformed Church]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [2] [Military Policy Slots] <with [Tier 3 Government]>",
 			"Provides [2] [Economic Policy Slots] <with [Tier 3 Government]>",
@@ -3208,7 +3208,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Class Struggle]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [3] [Military Policy Slots] <with [Tier 4 Government]>",
 			"Provides [3] [Economic Policy Slots] <with [Tier 4 Government]>",
@@ -3228,7 +3228,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots] <with [Tier 4 Government]>",
 			"Provides [3] [Economic Policy Slots] <with [Tier 4 Government]>",
@@ -3265,7 +3265,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [4] [Military Policy Slots] <with [Tier 4 Government]>",
 			"Provides [1] [Economic Policy Slots] <with [Tier 4 Government]>",
@@ -3285,7 +3285,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Distributed Sovereignty]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
 			"Provides [1] [Economic Policy Slots]",
@@ -3319,7 +3319,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Optimization Imperative]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
 			"Provides [3] [Economic Policy Slots]",
@@ -3337,7 +3337,7 @@
 		"hurryCostModifier": -100,
 		"uniques": [
 			"Only available <after adopting [Venture Politics]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [3] [Military Policy Slots]",
 			"Provides [1] [Economic Policy Slots]",
@@ -3358,7 +3358,7 @@
 		"hurryCostModifier": -100,
 		"uniqueTo": "Greece",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Wildcard Policy Slots]",
 		],
@@ -3371,7 +3371,7 @@
 		"uniqueTo": "America",
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
@@ -3385,7 +3385,7 @@
 		"uniqueTo": "America",
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
@@ -3399,7 +3399,7 @@
 		"uniqueTo": "America",
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
@@ -3413,7 +3413,7 @@
 		"uniqueTo": "America",
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
@@ -3426,7 +3426,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
@@ -3438,7 +3438,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
@@ -3450,7 +3450,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
@@ -3462,7 +3462,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
@@ -3474,7 +3474,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Military Policy Slots]",
@@ -3486,7 +3486,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Economic Policy Slots]",
@@ -3498,7 +3498,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Economic Policy Slots]",
@@ -3510,7 +3510,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Economic Policy Slots]",
@@ -3522,7 +3522,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Economic Policy Slots]",
@@ -3534,7 +3534,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Economic Policy Slots]",
@@ -3546,7 +3546,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Diplomatic Policy Slots]",
@@ -3558,7 +3558,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Diplomatic Policy Slots]",
@@ -3570,7 +3570,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Diplomatic Policy Slots]",
@@ -3582,7 +3582,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Diplomatic Policy Slots]",
@@ -3594,7 +3594,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Diplomatic Policy Slots]",
@@ -3606,7 +3606,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
 			"Provides [1] [Diplomatic Policy Slots]",
@@ -3620,7 +3620,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% XP gained from combat <for [Recon] units> <before adopting [Colonialism]>",
 		],
@@ -3632,7 +3632,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Gold, +1 Faith] [in capital] <before adopting [Theology]>",
 		],
@@ -3645,7 +3645,7 @@
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
 			"Only available <before adopting [Colonialism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+33]% Strength <vs [Barbarian] units> <before adopting [Colonialism]>",
 		],
@@ -3658,7 +3658,7 @@
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
 			"Only available <before adopting [The Enlightenment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Production] [in all cities] <before adopting [The Enlightenment]>",
 		],
@@ -3671,7 +3671,7 @@
 		"uniques": [
 			"Only available <after adopting [Craftsmanship]>",
 			"Only available <before adopting [Feudalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+30]% Production when constructing [Worker] units [in all cities] <before adopting [Feudalism]>",
 		],
@@ -3684,7 +3684,7 @@
 		"uniques": [
 			"Only available <after adopting [Craftsmanship]>",
 			"Only available <before adopting [Feudalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 			"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
@@ -3699,7 +3699,7 @@
 		"uniques": [
 			"Only available <after adopting [Foreign Trade]>",
 			"Only available <before adopting [Mercantilism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Gold] from each Trade Route <before adopting [Mercantilism]>",
 		],
@@ -3713,7 +3713,7 @@
 			"Only available <after adopting [Foreign Trade]>",
 			"Only available <before adopting [Exploration]>",
 			"Only available <before adopting [Cold War]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% Production when constructing [Water] units [in all cities] <before the [Medieval era]> <before adopting [Exploration]> <before adopting [Cold War]>",
 		],
@@ -3727,7 +3727,7 @@
 			"Only available <after adopting [Military Tradition]>",
 			"Only available <before adopting [Divine Right]>",
 			"Only available <before adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Light Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Totalitarianism]>",
 			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Totalitarianism]>",
@@ -3744,7 +3744,7 @@
 		"uniques": [
 			"Only available <after adopting [Military Tradition]>",
 			"Only available <before adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -3756,7 +3756,7 @@
 		"uniques": [
 			"Only available <after adopting [State Workforce]>",
 			"Only available <before adopting [Mobilization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[10] units cost no maintenance <before adopting [Mobilization]>",
 		],
@@ -3770,7 +3770,7 @@
 			"Only available <after adopting [State Workforce]>",
 			"Only available <before adopting [Divine Right]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+15]% Production when constructing [All] wonders [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Civil Engineering]>",
 		],
@@ -3783,7 +3783,7 @@
 		"uniques": [
 			"Only available <after adopting [Early Empire]>",
 			"Only available <before adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-20]% Gold cost of acquiring tiles [in all cities] <before adopting [Scorched Earth]>",
 		],
@@ -3796,7 +3796,7 @@
 		"uniques": [
 			"Only available <after adopting [Early Empire]>",
 			"Only available <before adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Settler] units [in all cities] <before adopting [Scorched Earth]>",
 		],
@@ -3808,7 +3808,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Early Empire]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Happiness] [in all cities with a garrison]",
 		],
@@ -3824,7 +3824,7 @@
 		"uniques": [
 			"Only available <after adopting [Mysticism]>",
 			"Only available <before adopting [Nuclear Program]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -3839,7 +3839,7 @@
 		"uniques": [
 			"Only available <after adopting [Mysticism]>",
 			"Only available <before adopting [Humanism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -3851,7 +3851,7 @@
 		"uniques": [
 			"Only available <after adopting [Games and Recreation]>",
 			"Only available <before adopting [Medieval Faires]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[5]% Food is carried over after population increases [in all cities] <before adopting [Medieval Faires]>",
 		],
@@ -3864,7 +3864,7 @@
 		"uniques": [
 			"Only available <after adopting [Political Philosophy]>",
 			"Only available <before adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-25]% City-State Influence degradation <before adopting [Totalitarianism]>",
 		],
@@ -3876,7 +3876,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Political Philosophy]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Gifts of Gold to City-States generate [25]% more Influence",
 		],
@@ -3891,7 +3891,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Drama and Poetry]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -3903,7 +3903,7 @@
 		"uniques": [
 			"Only available <after adopting [Military Training]>",
 			"Only available <before adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities <before adopting [Scorched Earth]>",
 		],
@@ -3915,7 +3915,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Military Training]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+30]% Production when constructing [Encampment District] buildings [in all cities]",
 			"[+30]% Production when constructing [Barracks] buildings [in all cities]",
@@ -3935,7 +3935,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Military Training]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Double quantity of [Horses] produced",
 			"Double quantity of [Iron] produced",
@@ -3949,7 +3949,7 @@
 		"uniques": [
 			"Only available <after adopting [Defensive Tactics]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+33]% Strength for cities <when attacking> <before adopting [Civil Engineering]>",
 			"[+40]% Strength for cities <when defending> <before adopting [Civil Engineering]>",
@@ -3963,7 +3963,7 @@
 		"uniques": [
 			"Only available <after adopting [Defensive Tactics]>",
 			"Only available <before adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% Production when constructing [Ancient Walls] buildings [in all cities] <before adopting [Totalitarianism]>",
 			"[+100]% Production when constructing [Medieval Walls] buildings [in all cities] <before adopting [Totalitarianism]>",
@@ -3979,7 +3979,7 @@
 		"uniques": [
 			"Only available <after adopting [Recorded History]>",
 			"Only available <before adopting [Class Struggle]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Science] from every [Academy] <with [1] to [1] neighboring [Mountain] tiles> <before adopting [Class Struggle]>",
 			"[+2 Science] from every [Academy] <with [2] to [2] neighboring [Mountain] tiles> <before adopting [Class Struggle]>",
@@ -4039,7 +4039,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Holy site (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Theology]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Faith] from every [Holy site] <with [1] to [1] neighboring [Natural Wonder] tiles>",
 			"[+4 Faith] from every [Holy site] <with [2] to [2] neighboring [Natural Wonder] tiles>",
@@ -4091,7 +4091,7 @@
 		"uniques": [
 			"Only available <after adopting [Recorded History]>",
 			"Only available <before adopting [Social Media]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Happiness] [in all cities] <before adopting [Social Media]>",
 		],
@@ -4105,7 +4105,7 @@
 		"uniques": [
 			"Only available <after adopting [Naval Tradition]>",
 			"Only available <before adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Gold] from every [Harbor] <with [1] to [1] neighboring [Water resource] tiles> <before adopting [Suffrage]>",
 			"[+2 Gold] from every [Harbor] <with [2] to [2] neighboring [Water resource] tiles> <before adopting [Suffrage]>",
@@ -4129,7 +4129,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Naval Tradition]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -4141,7 +4141,7 @@
 		"uniques": [
 			"Only available <after adopting [Feudalism]>",
 			"Only available <before adopting [Nationalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Land Melee] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 			"[+50]% Production when constructing [Land Ranged] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
@@ -4156,7 +4156,7 @@
 		"uniques": [
 			"Only available <after adopting [Feudalism]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-40]% construction time for [All] improvements <before adopting [Civil Engineering]>"
 		],
@@ -4168,7 +4168,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Civil Service]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Culture] from every [Campus District]",
 			"[+1 Culture] from every [Commercial Hub District]",
@@ -4187,7 +4187,7 @@
 		"uniques": [
 			"Only available <after adopting [Civil Service]>",
 			"Only available <before adopting [Mass Media]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Happiness] [in all cities with a garrison] <before adopting [Mass Media]>",
 		],
@@ -4199,7 +4199,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Civil Service]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Happiness] [in all cities] <in cities with at least [10] [Population]>",
 			"[10]% Food is carried over after population increases [in all cities] <in cities with at least [10] [Population]>",
@@ -4213,7 +4213,7 @@
 		"uniques": [
 			"Only available <after adopting [Mercenaries]>",
 			"Only available <before adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities <before adopting [Scorched Earth]>",
 		],
@@ -4226,7 +4226,7 @@
 		"uniques": [
 			"Only available <after adopting [Mercenaries]>",
 			"Only available <before adopting [Urbanization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-50]% Gold cost of upgrading <for [Military] units> <before adopting [Urbanization]>",
 		],
@@ -4240,7 +4240,7 @@
 		"uniques": [
 "Only available <after adopting [Mercenaries]>",
 "Only available <before adopting [Urbanization]>",
-"Can only be built <in [in capital] cities",
+"Can only be built <in [in capital] cities>",
 "Destroyed when the city is captured",
 ],
 	},
@@ -4253,7 +4253,7 @@
 		"uniques": [
 			"Only available <after adopting [Mercenaries]>",
 			"Only available <before adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Science, +1 Culture] from each Trade Route <before adopting [Capitalism]>",
 		],
@@ -4265,7 +4265,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Medieval Faires]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves",
 		],
@@ -4279,7 +4279,7 @@
 		"uniques": [
 			"Only available <after adopting [Medieval Faires]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Culture] from every [Landmark] <with [1] to [1] neighboring [Entertainment Complex] tiles> <before adopting [Professional Sports]>",
 			"[+4 Culture] from every [Landmark] <with [2] to [2] neighboring [Entertainment Complex] tiles> <before adopting [Professional Sports]>",
@@ -4365,7 +4365,7 @@
 		"uniques": [
 			"Only available <after adopting [Medieval Faires]>",
 			"Only available <before adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[10]% Food is carried over after population increases [in all cities] <in cities with a [District3]> <before adopting [Suffrage]>",
 		],
@@ -4379,7 +4379,7 @@
 		"uniques": [
 			"Only available <after adopting [Guilds]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Production] from every [Manufactory] <with [1] to [1] neighboring [Strategic resource] tiles> <before adopting [Class Struggle]>",
 			"[+2 Production] from every [Manufactory] <with [2] to [2] neighboring [Strategic resource] tiles> <before adopting [Class Struggle]>",
@@ -4452,7 +4452,7 @@
 		"uniques": [
 			"Only available <after adopting [Guilds]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Gold] from every [Customs house] <with [1] to [1] neighboring [River] tiles> <before adopting [Suffrage]>",
 			"[+4 Gold] from every [Customs house] <with [2] to [2] neighboring [River] tiles> <before adopting [Suffrage]>",
@@ -4499,7 +4499,7 @@
 		"uniques": [
 			"Only available <after adopting [Guilds]>",
 			"Only available <before adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -4511,7 +4511,7 @@
 		"uniques": [
 			"Only available <after adopting [Divine Right]>",
 			"Only available <before adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Light Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Totalitarianism]>",
 			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Totalitarianism]>",
@@ -4525,7 +4525,7 @@
 		"uniques": [
 			"Only available <after adopting [Divine Right]>",
 			"Only available <before adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+15]% Production when constructing [All] wonders [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Civil Engineering]>",
 		],
@@ -4537,7 +4537,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Colonialism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
 		],
@@ -4549,7 +4549,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Colonialism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+15]% growth [in all cities] <on foreign continents>",
 		],
@@ -4561,7 +4561,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Colonialism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+25]% [Gold] [in all cities] <on foreign continents>",
 			"[+10]% [Production] [in all cities] <on foreign continents>",
@@ -4574,7 +4574,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Colonialism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
 			"Allied City-States provide [Culture] equal to [25]% of what they produce for themselves",
@@ -4592,7 +4592,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Humanism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -4606,7 +4606,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Humanism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -4617,7 +4617,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Diplomatic Service]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Gifts of Gold to City-States generate [25]% more Influence"
 		],
@@ -4630,7 +4630,7 @@
 		"uniques": [
 			"Only available <after adopting [Diplomatic Service]>",
 			"Only available <before adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% [Food] from City-States",
 			"[+50]% [Production] from City-States",
@@ -4643,7 +4643,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Reformed Church]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+27]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 		],
@@ -4655,7 +4655,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Reformed Church]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Faith] from every [Shrine]",
 			"[+4 Faith] from every [Temple]",
@@ -4677,7 +4677,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Reformed Church]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+33]% Spread Religion Strength <for [Great Prophet] units>",
 			"[+33]% Spread Religion Strength <for [Missionary] units>",
@@ -4690,7 +4690,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Mercantilism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1] Movement <for [All] units> <when fighting in [Friendly Land] tiles>",
 		],
@@ -4703,7 +4703,7 @@
 		"uniques": [
 			"Only available <after adopting [Mercantilism]>",
 			"Only available <before adopting [Globalization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+4 Gold, +1 Faith] from each Trade Route <before adopting [Globalization]>",
 		],
@@ -4715,7 +4715,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Mercantilism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Double quantity of [Niter] produced",
 			"Double quantity of [Coal] produced",
@@ -4728,7 +4728,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [The Enlightenment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Science] from every [Library]",
 			"[+4 Science] from every [University]",
@@ -4742,7 +4742,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [The Enlightenment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+3 Gold] from every [Market]",
 			"[+5 Gold] from every [Bank]",
@@ -4757,7 +4757,7 @@
 		"uniques": [
 			"Only available <after adopting [The Enlightenment]>",
 			"Only available <before adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Happiness] [in all cities] <in cities with a [District2]>",
 		],
@@ -4770,7 +4770,7 @@
 		"uniques": [
 			"Only available <after adopting [Nationalism]>",
 			"Only available <before adopting [Rapid Deployment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
 			"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
@@ -4783,7 +4783,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Nationalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Damage is ignored when determining unit Strength",
 		],
@@ -4796,7 +4796,7 @@
 		"uniques": [
 			"Only available <after adopting [Nationalism]>",
 			"Only available <before adopting [Cold War]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% Production when constructing [Water] units [in all cities] <before the [Modern era]> <before adopting [Cold War]>",
 		],
@@ -4808,7 +4808,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+30]% Production when constructing [Worker] units [in all cities]",
 			"[-40]% construction time for [All] improvements",
@@ -4821,7 +4821,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Civil Engineering]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+15]% Production when constructing [All] wonders [in all cities]",
 		],
@@ -4834,7 +4834,7 @@
 		"uniques": [
 			"Only available <after adopting [Opera and Ballet]>",
 			"Only available <before adopting [Professional Sports]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Culture] from every [Amphitheater] <before adopting [Professional Sports]>",
 			"[+2 Culture] from every [Archaeological Museum] <before adopting [Professional Sports]>",
@@ -4851,7 +4851,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Opera and Ballet]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 		],
 	},
@@ -4862,7 +4862,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Urbanization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+3 Food, +1 Production, +1 Gold] from every [Neighbourhood]",
 			"[+3 Food, +1 Production, +1 Gold] from every [Mbanza]",
@@ -4878,7 +4878,7 @@
 		"uniques": [
 			"Only available <after adopting [Urbanization]>",
 			"Only available <before adopting [Space Race]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Science] from every [Military Academy] <before adopting [Space Race]>",
 			"[+2 Science] from every [Seaport] <before adopting [Space Race]>",
@@ -4892,7 +4892,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Urbanization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-50]% Gold cost of upgrading <for [Military] units>",
 		],
@@ -4904,7 +4904,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"No movement cost to pillage <for [Military] units>",
 		],
@@ -4916,7 +4916,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[Gold] cost of purchasing [Settler] units [-50]%",
 			"[-20]% Gold cost of acquiring tiles [in all cities]",
@@ -4932,7 +4932,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Scorched Earth]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2] Movement <for [Great General] units>",
 		],
@@ -4944,7 +4944,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Conservation]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Double quantity of [Oil] produced",
 			"Double quantity of [Aluminum] produced",
@@ -4957,7 +4957,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Mass Media]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+5] Unit Supply <when at war>",
 			"[+1 Happiness] [in annexed cities] <when at war>",
@@ -4970,7 +4970,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Mobilization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[15] units cost no maintenance",
 		],
@@ -4986,7 +4986,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 		],
 	},
 	{
@@ -4996,7 +4996,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1 Gold, +2 Science, +2 Culture] from each Trade Route",
 		],
 	},
@@ -5007,7 +5007,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Ideology]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1] Sight <for [Spy] units>",
 		],
 	},
@@ -5019,7 +5019,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Customs house and Harbor (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+2 Gold] from every [Customs house] <with [1] to [1] neighboring [River] tiles>",
 			"[+4 Gold] from every [Customs house] <with [2] to [2] neighboring [River] tiles>",
 			"[+6 Gold] from every [Customs house] <with [3] to [3] neighboring [River] tiles>",
@@ -5071,7 +5071,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+33]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		],
 	},
@@ -5082,7 +5082,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+100]% [Food] from City-States",
 			"[+100]% [Production] from City-States",
 		],
@@ -5094,7 +5094,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[20]% Food is carried over after population increases [in all cities] <in cities with a [District3]>",
 			"[+2 Happiness] [in all cities] <in cities with a [District3]>",
 		],
@@ -5106,7 +5106,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+50]% Production when constructing [Light Cavalry] units [in all cities]",
 			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities]",
 		],
@@ -5118,7 +5118,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+4 Gold, +2 Culture] from every [Research Lab]",
 			"[+4 Gold, +2 Culture] from every [Military Academy]",
 			"[+4 Gold, +2 Culture] from every [Coal Power Plant]",
@@ -5133,7 +5133,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+5] Unit Supply <when at war>",
 			"[+1 Happiness] [in annexed cities] <when at war>",
 			"[+2 Happiness] [in all cities with a garrison] <when at war>",
@@ -5146,7 +5146,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Totalitarianism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[-25]% City-State Influence degradation",
 			"City-State territory always counts as friendly territory",
 		],
@@ -5159,7 +5159,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Academy and Manufactory (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Class Struggle]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1 Science] from every [Academy] <with [1] to [1] neighboring [Mountain] tiles>",
 			"[+2 Science] from every [Academy] <with [2] to [2] neighboring [Mountain] tiles>",
 			"[+3 Science] from every [Academy] <with [3] to [3] neighboring [Mountain] tiles>",
@@ -5277,7 +5277,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+4 Food, +2 Production] from each Trade Route",
 		],
 	},
@@ -5288,7 +5288,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+100]% Production when constructing [Observation Balloon] units [in all cities]",
 			"[+100]% Production when constructing [Supply Convoy] units [in all cities]",
 			"[+100]% Production when constructing [Anti-Air Gun] units [in all cities]",
@@ -5303,7 +5303,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1] Sight <for [Spy] units>",
 		],
 	},
@@ -5314,7 +5314,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+100]% Production when constructing [Naval Melee] units [in all cities]",
 			"[+100]% Production when constructing [Naval Ranged] units [in all cities]",
 			"[+100]% Production when constructing [Naval Raider] units [in all cities]",
@@ -5327,7 +5327,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Gain [20] Influence with a [Envoy] gift to a City-State",
 		],
 	},
@@ -5338,7 +5338,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cultural Heritage]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+7 Culture] from every [Archaeological Dig]",
 		],
 	},
@@ -5350,7 +5350,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Landmark (and replacements), +1 Happiness from every Stadium.",
 		"uniques": [
 			"Only available <after adopting [Professional Sports]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1 Happiness] from every [Stadium]",
 			"[+2 Culture] from every [Landmark] <with [1] to [1] neighboring [Entertainment Complex] tiles>",
 			"[+4 Culture] from every [Landmark] <with [2] to [2] neighboring [Entertainment Complex] tiles>",
@@ -5435,7 +5435,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Rapid Deployment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+50]% Production when constructing [Land Melee] units [in all cities]",
 			"[+50]% Production when constructing [Anti-Cavalry] units [in all cities]",
 			"[+50]% Production when constructing [Land Ranged] units [in all cities]",
@@ -5448,7 +5448,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Space Race]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+50]% [Culture] from every [Broadcast Center]",
 		],
 	},
@@ -5459,7 +5459,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Rapid Deployment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+15]% Production when constructing [Spaceship part] units [in all cities]",
 		],
 	},
@@ -5470,7 +5470,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Rapid Deployment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[-50]% maintenance costs <for [Nuclear Device] units>",
 			"[-50]% maintenance costs <for [Thermonuclear Device] units>",
 		],
@@ -5482,7 +5482,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Rapid Deployment]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+50]% XP gained from combat <for [Military] units>",
 		],
 	},
@@ -5493,7 +5493,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Globalization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+50]% Production when constructing [Air Fighter] units [in all cities]",
 			"[+50]% Production when constructing [Air Bomber] units [in all cities]",
 			"[+50]% Production when constructing [Naval Carrier] units [in all cities]",
@@ -5506,7 +5506,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Globalization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+2 Production, +5 Gold] from each Trade Route",
 		],
 	},
@@ -5517,7 +5517,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Globalization]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Allied City-States provide [Science] equal to [200]% of what they produce for themselves",
 		],
 	},
@@ -5528,7 +5528,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Social Media]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% [Culture] from City-States",
 		],
@@ -5540,7 +5540,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Social Media]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Allied City-States provide [Culture] equal to [200]% of what they produce for themselves",
 		],
 	},
@@ -5551,7 +5551,7 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Social Media]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1 Happiness] [in all cities]",
 		],
 	},
@@ -5562,7 +5562,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Exodus Imperative]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Provides [3] [Aluminum]",
 			"[+3 Production] from every [Spaceport]",
 		],
@@ -5574,7 +5574,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cultural Hegemony]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1] Sight <for [Spy] units>",
 		],
 	},
@@ -5585,7 +5585,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Information Warfare]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+1] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>",
 			"[+50]% Production when constructing [GDR] units [in all cities]",
 		],
@@ -5597,7 +5597,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Information Warfare]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Influence of all other civilizations with all city-states degrades [50]% faster",
 		],
 	},
@@ -5608,7 +5608,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Smart Power Doctrine]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Gifts of Gold to City-States generate [50]% more Influence",
 		],
 	},
@@ -5619,7 +5619,7 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Smart Power Doctrine]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+47]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		],
 	},
@@ -5632,7 +5632,7 @@
 		"replacementTextForUniques": "+100% Yield from every Natural Wonder and Mountains and unimproved Forest get 1 additional times the Preserve adjacency bonus.",
 		"uniques": [
 			"Only available <after adopting [Environmentalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+100]% Yield from every [Natural Wonder]",
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Mountain] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Natural Wonder]>",
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Forest] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
@@ -5646,7 +5646,7 @@
 		"replacementTextForUniques": "+100% Yield from every Natural Wonder and Mountains and unimproved Forest get 1 additional times the Preserve adjacency bonus.",
 		"uniques": [
 			"Only available <after adopting [Environmentalism]>",
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"[+100]% Yield from every [Natural Wonder]",
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Mountain] tiles [in all cities] <in tiles without [Natural Wonder]> <with [1] to [6] neighboring [Preserve] tiles>",
 			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Forest] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
@@ -5697,7 +5697,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Macedon",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5712,7 +5712,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Nubia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5743,7 +5743,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Gaul",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5760,7 +5760,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Byzantium",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5774,7 +5774,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "France",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5790,7 +5790,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "France",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5805,7 +5805,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "India",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5820,7 +5820,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Egypt",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5834,7 +5834,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Persia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5851,7 +5851,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Phoenicia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5872,7 +5872,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Leader",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]> <in cities with a [Eleanor of Aquitaine residence]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5886,7 +5886,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Germany",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5901,7 +5901,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "India",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5915,7 +5915,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Mongolia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5930,7 +5930,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Sumeria",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5944,7 +5944,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Indonesia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5960,7 +5960,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Greece",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5974,7 +5974,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Norway",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -5989,7 +5989,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Japan",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6007,7 +6007,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Poland",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6024,7 +6024,7 @@
 		"uniqueTo": "The Khmer",
 		"replacementTextForUniques": "Holy sites receive +2 Faith when next to at least 1 River and provide food eqaul to thei Faith adjacency bonus. ",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6056,7 +6056,7 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Leader",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]> <in cities with a [Kublai Khan residence]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6072,7 +6072,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Maori",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6090,7 +6090,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "The Maya",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6104,7 +6104,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "The Mapuche",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6118,7 +6118,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Mali",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6133,7 +6133,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Hungary",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6150,7 +6150,7 @@
 		"uniqueTo": "Ethiopia",
 		"replacementTextForUniques": "Receive Science and Culture in all cities equal to approximately 15% of their Faith production (not from Holy site adjacency, that needs to  be implemented yet), +27% Strength when fighting in Hill tiles ",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6182,7 +6182,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Aztec",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6196,7 +6196,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Kongo",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6214,7 +6214,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Inca",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6229,7 +6229,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Brazil",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6249,7 +6249,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Greece",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6263,7 +6263,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Russia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6277,7 +6277,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Spain",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6291,7 +6291,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "The Cree",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6307,7 +6307,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "China",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6321,7 +6321,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Scotland",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6336,7 +6336,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Arabia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6385,7 +6385,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Korea",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6400,7 +6400,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Zulu",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6414,7 +6414,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Gran Colombia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6436,7 +6436,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "The Ottomans",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6450,7 +6450,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Georgia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6464,7 +6464,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "America",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6480,7 +6480,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "America",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6494,7 +6494,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Scythia",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6509,7 +6509,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Rome",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6523,7 +6523,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "England",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6539,7 +6539,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "Canada",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
@@ -6553,7 +6553,7 @@
 		"requiredResource": "Leader",
 		"uniqueTo": "The Netherlands",
 		"uniques": [
-			"Can only be built <in [in capital] cities",
+			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
