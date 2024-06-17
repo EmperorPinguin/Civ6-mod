@@ -1,184 +1,140 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Flood plains",
-			"Hill",
-			"Volcanic Soil"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Flood plains", "Hill", "Volcanic Soil"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
-			"[+1 Food] <with [2] to [6] neighboring [Farm] tiles> <after adopting [Feudalism]>",
-			"[+1 Food] for each adjacent [Farm] <after discovering [Replaceable Parts]>",
-			"[+1 Food] <with [1] to [6] neighboring [Stepwell] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles> <before adopting [Civil Engineering]>",
-			"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles> <before adopting [Civil Engineering]>",
-			"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles>",
-		],
+"[+1 Food] <with [2] to [6] neighboring [Farm] tiles> <after adopting [Feudalism]>",
+"[+1 Food] for each adjacent [Farm] <after discovering [Replaceable Parts]>",
+"[+1 Food] <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles> <before adopting [Civil Engineering]>",
+"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles> <before adopting [Civil Engineering]>",
+"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles>",
+],
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": [
-			"Forest",
-			"Jungle"
-		],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
 		"uniques": [
-			"[+1 Production] <after discovering [Steel]>",
-			"[+1 Production] <after discovering [Cybernetics]>",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]"
-		],
+"[+1 Production] <after discovering [Steel]>",
+"[+1 Production] <after discovering [Cybernetics]>",
+"Does not need removal of [Forest]",
+"Does not need removal of [Jungle]"
+],
 		"shortcutKey": "L"
 	},
 	{
 		"name": "Mine",
-		"resourceTerrainAllow": [
-			"Coast"
-		],
-		"terrainsCanBeBuiltOn": [
-			"Hill",
-			"Volcanic Soil"
-		],
+		"resourceTerrainAllow": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Hill", "Volcanic Soil"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
-			"[+1 Production] <after discovering [Apprenticeship]>",
-			"[+1 Production] <after discovering [Industrialization]>",
-			"[+1 Production] <after discovering [Smart Materials]>"
-		],
+"[+1 Production] <after discovering [Apprenticeship]>",
+"[+1 Production] <after discovering [Industrialization]>",
+"[+1 Production] <after discovering [Smart Materials]>"
+],
 		"shortcutKey": "M"
 	},
 	{
 		"name": "Seaside Resort",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Radio",
 		"uniques": [
-			"Can only be built on [Coastal] tiles",
-			"Cannot be built on [Hill] tiles",
-			"[+2 Gold] for each adjacent [Natural Wonder]",
-			"[+2 Gold] for each adjacent [Sphinx]",
-			"[+2 Gold] for each adjacent [Ice Hockey Rink]",
-			"[+1 Gold] for each adjacent [Mountain]",
-			"[+1 Gold] for each adjacent [Forest]",
-			"[+1 Gold] for each adjacent [Coast]",
-			"[+1 Gold] for each adjacent [Oasis]",
-			"[+1 Gold] for each adjacent [Holy site]",
-			"[+1 Gold] for each adjacent [Landmark]",
-			"[+1 Gold] for each adjacent [Entertainment Complex]",
-			"[+1 Gold] for each adjacent [Water Park]",
-			"[-1 Gold] for each adjacent [Citadel]",
-			"[-1 Gold] for each adjacent [Manufactory]",
-			"[-1 Gold] for each adjacent [Mine]",
-			"[-1 Gold] for each adjacent [Quarry]",
-			"[-1 Gold] for each adjacent [Oil well]",
-			"[-1 Gold] for each adjacent [Jungle]",
-			"[-1 Gold] for each adjacent [Marsh]",
-		]
+"Can only be built on [Coastal] tiles",
+"Cannot be built on [Hill] tiles",
+"[+2 Gold] for each adjacent [Natural Wonder]",
+"[+2 Gold] for each adjacent [Sphinx]",
+"[+2 Gold] for each adjacent [Ice Hockey Rink]",
+"[+1 Gold] for each adjacent [Mountain]",
+"[+1 Gold] for each adjacent [Forest]",
+"[+1 Gold] for each adjacent [Coast]",
+"[+1 Gold] for each adjacent [Oasis]",
+"[+1 Gold] for each adjacent [Holy site]",
+"[+1 Gold] for each adjacent [Landmark]",
+"[+1 Gold] for each adjacent [Entertainment Complex]",
+"[+1 Gold] for each adjacent [Water Park]",
+"[-1 Gold] for each adjacent [Citadel]",
+"[-1 Gold] for each adjacent [Manufactory]",
+"[-1 Gold] for each adjacent [Mine]",
+"[-1 Gold] for each adjacent [Quarry]",
+"[-1 Gold] for each adjacent [Oil well]",
+"[-1 Gold] for each adjacent [Jungle]",
+"[-1 Gold] for each adjacent [Marsh]",
+]
 	},
 	{
 		"name": "Geothermal Plant",
-		"terrainsCanBeBuiltOn": [
-			"Geothermal Fissure"
-		],
+		"terrainsCanBeBuiltOn": ["Geothermal Fissure"],
 		"production": 2,
 		"science": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Synthetic Materials",
-		"uniques": [
-			"Provides [4] [Power]"
-		]
+		"uniques": ["Provides [4] [Power]"]
 	},
 	{
 		"name": "Wind Farm",
-		"terrainsCanBeBuiltOn": [
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Composites",
-		"uniques": [
-			"Provides [2] [Power]"
-		]
+		"uniques": ["Provides [2] [Power]"]
 	},
 	{
 		"name": "Solar Farm",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
 		"production": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Satellites",
-		"uniques": [
-			"Provides [2] [Power]"
-		]
-	},
+		"uniques": ["Provides [2] [Power]"]
+	},	
 	{
 		"name": "Offshore Wind Farm",
-		"terrainsCanBeBuiltOn": [
-			"Coast",
-			"Lakes"
-		],
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"production": 2,
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Predictive Systems",
-		"uniques": [
-			"Provides [2] [Power]"
-		]
+		"uniques": ["Provides [2] [Power]"]
 	},
 	{
 		"name": "Seastead",
-		"terrainsCanBeBuiltOn": [
-			"Coast",
-			"Lakes",
-			"Ocean"
-		],
+		"terrainsCanBeBuiltOn": ["Coast","Lakes","Ocean"],
 		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Seasteads",
 		"uniques": [
-			"[+1 Production] for each adjacent [Fishing Boats]",
-			"[+1 Culture] for each adjacent [Atoll]"
-		]
+"[+1 Production] for each adjacent [Fishing Boats]",
+"[+1 Culture] for each adjacent [Atoll]"
+]
 	},
 	{
 		"name": "Forest",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Tundra",
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains", "Tundra", "Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"uniques": [
-			"Cannot be built on [Grassland] tiles <before adopting [Conservation]>",
-			"Cannot be built on [Plains] tiles <before adopting [Conservation]>",
-			"Cannot be built on [Tundra] tiles <before adopting [Conservation]>",
-			"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles> <before adopting [Conservation]>",
-			"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles> <before adopting [Conservation]>",
-			"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles> <before adopting [Conservation]>",
-			"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
-		],
+"Cannot be built on [Grassland] tiles <before adopting [Conservation]>",
+"Cannot be built on [Plains] tiles <before adopting [Conservation]>",
+"Cannot be built on [Tundra] tiles <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles> <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles> <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles> <before adopting [Conservation]>",
+"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
+],
 	},
 	// Resource-specific
 	{
@@ -187,13 +143,13 @@
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
-			"Can only be built to improve a resource",
-			"[+1 Food, +1 Production] <after adopting [Mercantilism]>",
-			"[+2 Gold] <after discovering [Synthetic Materials]>",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Marsh]",
-			"Does not need removal of [Jungle]",
-		],
+"Can only be built to improve a resource",
+"[+1 Food, +1 Production] <after adopting [Mercantilism]>",
+"[+2 Gold] <after discovering [Synthetic Materials]>",
+"Does not need removal of [Forest]",
+"Does not need removal of [Marsh]",
+"Does not need removal of [Jungle]",
+],
 		"shortcutKey": "C"
 	},
 	{
@@ -202,9 +158,9 @@
 		"turnsToBuild": 9,
 		"techRequired": "Refining",
 		"uniques": [
-			"Can only be built to improve a resource",
-			"[+1 Production] <after discovering [Predictive Systems]>"
-		],
+"Can only be built to improve a resource",
+"[+1 Production] <after discovering [Predictive Systems]>"
+],
 	},
 	{
 		"name": "Pasture",
@@ -212,12 +168,12 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
-			"Can only be built to improve a resource",
-			"[+1 Food] <after discovering [Stirrups]>",
-			"[+1 Production] for each adjacent [Outback Station] <after discovering [Steam Power]>",
-			"[+1 Production] <after discovering [Replaceable Parts]>",
-			"[+1 Food] <after discovering [Robotics]>"
-		]
+"Can only be built to improve a resource",
+"[+1 Food] <after discovering [Stirrups]>",
+"[+1 Production] for each adjacent [Outback Station] <after discovering [Steam Power]>",
+"[+1 Production] <after discovering [Replaceable Parts]>",
+"[+1 Food] <after discovering [Robotics]>"
+]
 	},
 	{
 		"name": "Plantation",
@@ -225,17 +181,17 @@
 		"gold": 2,
 		"techRequired": "Irrigation",
 		"uniques": [
-			"Can only be built to improve a resource",
-			"[+1 Food] <after adopting [Feudalism]>",
-			"[+1 Food] <after discovering [Scientific Theory]>",
-			"[+2 Gold] <after adopting [Globalization]>",
-			"[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-			"[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-			"[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-			"[+1 Production] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]",
-		],
+"Can only be built to improve a resource",
+"[+1 Food] <after adopting [Feudalism]>",
+"[+1 Food] <after discovering [Scientific Theory]>",
+"[+2 Gold] <after adopting [Globalization]>",
+"[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+1 Production] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
+"Does not need removal of [Forest]",
+"Does not need removal of [Jungle]",
+],
 		"shortcutKey": "P"
 	},
 	{
@@ -244,11 +200,11 @@
 		"turnsToBuild": 8,
 		"techRequired": "Mining",
 		"uniques": [
-			"Can only be built to improve a resource",
-			"[+1 Production] <after discovering [Gunpowder]>",
-			"[+1 Production] <after discovering [Rocketry]>",
-			"[+1 Production] <after discovering [Predictive Systems]>"
-		],
+"Can only be built to improve a resource",
+"[+1 Production] <after discovering [Gunpowder]>",
+"[+1 Production] <after discovering [Rocketry]>",
+"[+1 Production] <after discovering [Predictive Systems]>"
+],
 		"shortcutKey": "Q"
 	},
 	{
@@ -257,287 +213,205 @@
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": [
-			"Can only be built to improve a resource",
-			"[+2 Gold] <after discovering [Cartography]>",
-			"[+1 Production] <after adopting [Colonialism]>",
-			"[+1 Food] <after discovering [Plastics]>",
-			"[+1 Production] for each adjacent [Seastead]",
-		],
+"Can only be built to improve a resource",
+"[+2 Gold] <after discovering [Cartography]>",
+"[+1 Production] <after adopting [Colonialism]>",
+"[+1 Food] <after discovering [Plastics]>",
+"[+1 Production] for each adjacent [Seastead]",
+],
 	},
 	//Civilization unique improvements
 	{
 		"name": "Chateau",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "France",
 		"culture": 2,
 		"gold": 3,
-		"turnsToBuild": 7,
+		"turnsToBuild":7,
 		"techRequired": "Printing",
-		"uniques": [
-			"Can also be built on tiles adjacent to fresh water",
-			"[+2 Culture] <after discovering [Flight]>"
-		]
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"[+2 Culture] <after discovering [Flight]>"]
 	},
 	{
 		"name": "Chemamull",
 		"uniqueTo": "The Mapuche",
 		"production": 1,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"uniques": [
-			"Cannot be built on [Grassland] tiles <before adopting [Craftsmanship]>",
-			"Cannot be built on [Plains] tiles <before adopting [Craftsmanship]>",
-			"Cannot be built on [Desert] tiles <before adopting [Craftsmanship]>",
-			"Cannot be built on [Hill] tiles <before adopting [Craftsmanship]>",
-			"Cannot be built on [Tundra] tiles <before adopting [Craftsmanship]>",
-			"Cannot be built on [Snow] tiles <before adopting [Craftsmanship]>",
-			"[+2 Culture] for each adjacent [Natural Wonder]",
-			"[+2 Culture] for each adjacent [Sphinx]",
-			"[+2 Culture] for each adjacent [Ice Hockey Rink]",
-			"[+1 Culture] for each adjacent [Mountain]",
-			"[+1 Culture] for each adjacent [Forest]",
-			"[+1 Culture] for each adjacent [Coast]",
-			"[+1 Culture] for each adjacent [Oasis]",
-			"[+1 Culture] for each adjacent [Holy site]",
-			"[+1 Culture] for each adjacent [Landmark]",
-			"[+1 Culture] for each adjacent [Entertainment Complex]",
-			"[+1 Culture] for each adjacent [Water Park]",
-			"[-1 Culture] for each adjacent [Citadel]",
-			"[-1 Culture] for each adjacent [Manufactory]",
-			"[-1 Culture] for each adjacent [Mine]",
-			"[-1 Culture] for each adjacent [Quarry]",
-			"[-1 Culture] for each adjacent [Oil well]",
-			"[-1 Culture] for each adjacent [Jungle]",
-			"[-1 Culture] for each adjacent [Marsh]",
-		],
+"Cannot be built on [Grassland] tiles <before adopting [Craftsmanship]>",
+"Cannot be built on [Plains] tiles <before adopting [Craftsmanship]>",
+"Cannot be built on [Desert] tiles <before adopting [Craftsmanship]>",
+"Cannot be built on [Hill] tiles <before adopting [Craftsmanship]>",
+"Cannot be built on [Tundra] tiles <before adopting [Craftsmanship]>",
+"Cannot be built on [Snow] tiles <before adopting [Craftsmanship]>",
+"[+2 Culture] for each adjacent [Natural Wonder]",
+"[+2 Culture] for each adjacent [Sphinx]",
+"[+2 Culture] for each adjacent [Ice Hockey Rink]",
+"[+1 Culture] for each adjacent [Mountain]",
+"[+1 Culture] for each adjacent [Forest]",
+"[+1 Culture] for each adjacent [Coast]",
+"[+1 Culture] for each adjacent [Oasis]",
+"[+1 Culture] for each adjacent [Holy site]",
+"[+1 Culture] for each adjacent [Landmark]",
+"[+1 Culture] for each adjacent [Entertainment Complex]",
+"[+1 Culture] for each adjacent [Water Park]",
+"[-1 Culture] for each adjacent [Citadel]",
+"[-1 Culture] for each adjacent [Manufactory]",
+"[-1 Culture] for each adjacent [Mine]",
+"[-1 Culture] for each adjacent [Quarry]",
+"[-1 Culture] for each adjacent [Oil well]",
+"[-1 Culture] for each adjacent [Jungle]",
+"[-1 Culture] for each adjacent [Marsh]",
+],
 	},
 	{
 		"name": "Batey",
 		"uniqueTo": "Caguana",
 		"culture": 1,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Snow"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow"],
 		"uniques": [
-			"Cannot be built on [Hill] tiles",
-			"[+1 Culture] for each adjacent [Bonus resource]",
-			"[+1 Culture] for each adjacent [Entertainment Complex]",
-			"[+1 Culture] for each adjacent [Bonus resource] <after adopting [Exploration]>",
-			"[+1 Culture] for each adjacent [Entertainment Complex] <after adopting [Exploration]>"
-		],
+"Cannot be built on [Hill] tiles",
+"[+1 Culture] for each adjacent [Bonus resource]",
+"[+1 Culture] for each adjacent [Entertainment Complex]",
+"[+1 Culture] for each adjacent [Bonus resource] <after adopting [Exploration]>",
+"[+1 Culture] for each adjacent [Entertainment Complex] <after adopting [Exploration]>"
+],
 	},
 	{
 		"name": "Moai",
 		"uniqueTo": "Rapa Nui",
 		"culture": 1,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Hill",
-			"Volcanic Soil"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Volcanic Soil"],
 		"uniques": [
-			"[+1 Culture] <with [2] to [3] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
-			"[+2 Culture] <with [4] to [5] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
-			"[+3 Culture] <with [6] to [6] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
-			"[+1 Culture] for each adjacent [Moai] <after adopting [Medieval Faires]>",
-			"[+2 Culture] <with [1] to [6] neighboring [Volcanic Soil] tiles>",
-			"[+1 Culture] <with [1] to [6] neighboring [Coast] tiles>",
-			"[+1 Culture] <with [1] to [6] neighboring [Lakes] tiles>"
-		],
+"[+1 Culture] <with [2] to [3] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
+"[+2 Culture] <with [4] to [5] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
+"[+3 Culture] <with [6] to [6] neighboring [Moai] tiles> <before adopting [Medieval Faires]>",
+"[+1 Culture] for each adjacent [Moai] <after adopting [Medieval Faires]>",
+"[+2 Culture] <with [1] to [6] neighboring [Volcanic Soil] tiles>",
+"[+1 Culture] <with [1] to [6] neighboring [Coast] tiles>",
+"[+1 Culture] <with [1] to [6] neighboring [Lakes] tiles>"
+],
 	},
 	{
 		"name": "Alcazar",
 		"uniqueTo": "Granada",
 		"culture": 2,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"uniques": [
-			"[+1 Science] for each adjacent [Natural Wonder]",
-			"[+1 Science] for each adjacent [Sphinx]",
-			"[+1 Science] for each adjacent [Ice Hockey Rink]",
-			"[+1 Science] <with [2] to [3] neighboring [Mountain] tiles>",
-			"[+1 Science] <with [4] to [5] neighboring [Mountain] tiles>",
-			"[+1 Science] <with [6] to [6] neighboring [Mountain] tiles>",
-			"[+1 Science] <with [2] to [3] neighboring [Forest] tiles>",
-			"[+1 Science] <with [4] to [5] neighboring [Forest] tiles>",
-			"[+1 Science] <with [6] to [6] neighboring [Forest] tiles>",
-			"[+1 Science] <with [2] to [3] neighboring [Coast] tiles>",
-			"[+1 Science] <with [4] to [5] neighboring [Coast] tiles>",
-			"[+1 Science] <with [6] to [6] neighboring [Coast] tiles>",
-			"[+1 Science] for each adjacent [Oasis]",
-			"[+1 Science] for each adjacent [Holy site]",
-			"[+1 Science] for each adjacent [Landmark]",
-			"[+1 Science] for each adjacent [Entertainment Complex]",
-			"[+1 Science] for each adjacent [Water Park]",
-			"[-1 Science] for each adjacent [Citadel]",
-			"[-1 Science] for each adjacent [Manufactory]",
-			"[-1 Science] <with [2] to [3] neighboring [Mine] tiles>",
-			"[-1 Science] <with [4] to [5] neighboring [Mine] tiles>",
-			"[-1 Science] <with [6] to [6] neighboring [Mine] tiles>",
-			"[-1 Science] for each adjacent [Quarry]",
-			"[-1 Science] for each adjacent [Oil well]",
-			"[-1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-			"[-1 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-			"[-1 Science] <with [6] to [6] neighboring [Jungle] tiles>",
-			"[-1 Science] for each adjacent [Marsh]",
-		],
+"[+1 Science] for each adjacent [Natural Wonder]",
+"[+1 Science] for each adjacent [Sphinx]",
+"[+1 Science] for each adjacent [Ice Hockey Rink]",
+"[+1 Science] <with [2] to [3] neighboring [Mountain] tiles>",
+"[+1 Science] <with [4] to [5] neighboring [Mountain] tiles>",
+"[+1 Science] <with [6] to [6] neighboring [Mountain] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Forest] tiles>",
+"[+1 Science] <with [4] to [5] neighboring [Forest] tiles>",
+"[+1 Science] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Coast] tiles>",
+"[+1 Science] <with [4] to [5] neighboring [Coast] tiles>",
+"[+1 Science] <with [6] to [6] neighboring [Coast] tiles>",
+"[+1 Science] for each adjacent [Oasis]",
+"[+1 Science] for each adjacent [Holy site]",
+"[+1 Science] for each adjacent [Landmark]",
+"[+1 Science] for each adjacent [Entertainment Complex]",
+"[+1 Science] for each adjacent [Water Park]",
+"[-1 Science] for each adjacent [Citadel]",
+"[-1 Science] for each adjacent [Manufactory]",
+"[-1 Science] <with [2] to [3] neighboring [Mine] tiles>",
+"[-1 Science] <with [4] to [5] neighboring [Mine] tiles>",
+"[-1 Science] <with [6] to [6] neighboring [Mine] tiles>",
+"[-1 Science] for each adjacent [Quarry]",
+"[-1 Science] for each adjacent [Oil well]",
+"[-1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[-1 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[-1 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[-1 Science] for each adjacent [Marsh]",],
 	},
 	{
 		"name": "Monastery",
 		"uniqueTo": "Armagh",
 		"faith": 2,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
-		"uniques": [
-			"[+1 Food] <after adopting [Colonialism]>"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
+		"uniques": ["[+1 Food] <after adopting [Colonialism]>"],
 	},
 	{
 		"name": "Colossal Head",
 		"uniqueTo": "La Venta",
 		"faith": 2,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra"],
 		"uniques": [
-			"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles> <before adopting [Humanism]>",
-			"[+1 Faith] <with [4] to [5] neighboring [Forest] tiles> <before adopting [Humanism]>",
-			"[+1 Faith] <with [6] to [6] neighboring [Forest] tiles> <before adopting [Humanism]>",
-			"[+1 Faith] <with [2] to [3] neighboring [Jungle] tiles> <before adopting [Humanism]>",
-			"[+1 Faith] <with [4] to [5] neighboring [Jungle] tiles> <before adopting [Humanism]>",
-			"[+1 Faith] <with [6] to [6] neighboring [Jungle] tiles> <before adopting [Humanism]>",
-			"[+1 Faith] for each adjacent [Forest] <after adopting [Humanism]>",
-			"[+1 Faith] for each adjacent [Jungle] <after adopting [Humanism]>",
-			"[+2 Culture] <after discovering [Flight]>",
-		],
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles> <before adopting [Humanism]>",
+"[+1 Faith] <with [4] to [5] neighboring [Forest] tiles> <before adopting [Humanism]>",
+"[+1 Faith] <with [6] to [6] neighboring [Forest] tiles> <before adopting [Humanism]>",
+"[+1 Faith] <with [2] to [3] neighboring [Jungle] tiles> <before adopting [Humanism]>",
+"[+1 Faith] <with [4] to [5] neighboring [Jungle] tiles> <before adopting [Humanism]>",
+"[+1 Faith] <with [6] to [6] neighboring [Jungle] tiles> <before adopting [Humanism]>",
+"[+1 Faith] for each adjacent [Forest] <after adopting [Humanism]>",
+"[+1 Faith] for each adjacent [Jungle] <after adopting [Humanism]>",
+"[+2 Culture] <after discovering [Flight]>",
+],
 	},
 	{
 		"name": "Nazca lines",
 		"uniqueTo": "Nazca",
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Desert"
-		],
-		"uniques": [
-			"Provides yields to adjacent tiles"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"uniques": ["Provides yields to adjacent tiles"],
 	},
 	{
 		"name": "Mahavihara",
 		"uniqueTo": "Nalanda",
 		"science": 2,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Snow"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow"],
 		"uniques": [
-			"[+1 Faith] for each adjacent [Holy site]",
-			"[+1 Science] for each adjacent [Academy]",
-			"[+1 Science] for each adjacent [Observatory]",
-			"[+1 Science] for each adjacent [Academy] <after discovering [Scientific Theory]>",
-			"[+1 Science] for each adjacent [Observatory] <after discovering [Scientific Theory]>",
-		],
+"[+1 Faith] for each adjacent [Holy site]",
+"[+1 Science] for each adjacent [Academy]",
+"[+1 Science] for each adjacent [Observatory]",
+"[+1 Science] for each adjacent [Academy] <after discovering [Scientific Theory]>",
+"[+1 Science] for each adjacent [Observatory] <after discovering [Scientific Theory]>",
+],
 	},
 	{
 		"name": "Cahokia Mounds",
 		"uniqueTo": "Cahokia",
 		"gold": 3,
 		"happiness": 1,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Flood plains"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Flood plains"],
 		"uniques": [
-			"[+1 Food] <with [2] to [3] neighboring [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
-			"[+2 Food] <with [4] to [5] neighboring [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
-			"[+3 Food] <with [6] to [6] neighboring [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
-			"[+1 Food] for each adjacent [Great Improvement] <after discovering [Replaceable Parts]>",
-			"[+1 Food] <after adopting [Cultural Heritage]>",
-		],
+"[+1 Food] <with [2] to [3] neighboring [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
+"[+2 Food] <with [4] to [5] neighboring [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
+"[+3 Food] <with [6] to [6] neighboring [Great Improvement] tiles> <after adopting [Feudalism]> <before discovering [Replaceable Parts]>",
+"[+1 Food] for each adjacent [Great Improvement] <after discovering [Replaceable Parts]>",
+"[+1 Food] <after adopting [Cultural Heritage]>",
+],
 	},
 	{
 		"name": "Trading Dome",
 		"uniqueTo": "Samarkand",
 		"gold": 2,
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Hill",
-			"Desert",
-			"Tundra",
-			"Snow"
-		],
+		"turnsToBuild":7,
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Desert","Tundra","Snow"],
 		"uniques": [
-			"[+1 Gold] for each adjacent [Luxury resource]",
-			"[+1 Gold] for each adjacent [Harbor]",
-			"[+1 Gold] for each adjacent [Customs house]",
-			"[+1 Gold] for each adjacent [Suguba]",
-		],
+"[+1 Gold] for each adjacent [Luxury resource]",
+"[+1 Gold] for each adjacent [Harbor]",
+"[+1 Gold] for each adjacent [Customs house]",
+"[+1 Gold] for each adjacent [Suguba]",
+],
 	},
 	{
 		"name": "Roman Fort",
 		"uniqueTo": "Rome",
 		"turnsToBuild": 8,
-		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Forest",
-			"Jungle",
-			"Flood plains",
-			"Marsh",
-			"Oasis"
-		],
-		"uniques": [
-			"Gives a defensive bonus of [27]%",
-			"Can only be built by Roman Legion"
-		]
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"uniques": ["Gives a defensive bonus of [27]%","Can only be built by Roman Legion"]
 	},
 	{
 		"name": "Golf Course",
@@ -545,34 +419,24 @@
 		"gold": 2,
 		"happiness": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Tundra","Snow"],
 		"uniques": [
-			"[+1 Culture] <with [1] to [6] neighboring [City center] tiles>",
-			"[+1 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
-			"Only available <after adopting [Reformed Church]>",
-			"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
-		]
+"[+1 Culture] <with [1] to [6] neighboring [City center] tiles>",
+"[+1 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
+"Only available <after adopting [Reformed Church]>",
+"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
+]
 	},
-	{
+{
 		"name": "Great Wall",
 		"uniqueTo": "China",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
-		"uniques": [
-			"Gives a defensive bonus of [50]%",
-			"[+6 Gold] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles>",
-			"[+4 Culture] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles> <after discovering [Castles]>",
-			"Cannot be built on [Land] tiles <with [2] to [6] neighboring [Great Wall] tiles>"
-		],
+		"uniques": ["Gives a defensive bonus of [50]%",
+				"[+6 Gold] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles>",
+				"[+4 Culture] <with [1] to [6] neighboring [Foreign Land] tiles> <with [2] to [2] neighboring [Great Wall] tiles> <after discovering [Castles]>",
+ 				"Cannot be built on [Land] tiles <with [2] to [6] neighboring [Great Wall] tiles>"],
 		"shortcutKey": "O"
 	},
 	{
@@ -581,28 +445,24 @@
 		"production": 1,
 		"gold": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains", "Hill"],
 		"uniques": [
-			"[+1 Food] <with [2] to [3] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
-			"[+2 Food] <with [4] to [5] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
-			"[+3 Food] <with [6] to [6] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
-			"[+1 Food] for each adjacent [Plantation] <after discovering [Replaceable Parts]>",
-			"[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-			"[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-			"[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
-			"[+1 Production] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
-			"Cannot be built on [Grassland] tiles <before adopting [Mercantilism]>",
-			"Cannot be built on [Plains] tiles <before adopting [Mercantilism]>",
-			"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles> <before adopting [Mercantilism]>",
-			"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles> <before adopting [Mercantilism]>",
-			"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles>",
-		]
+"[+1 Food] <with [2] to [3] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
+"[+2 Food] <with [4] to [5] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
+"[+3 Food] <with [6] to [6] neighboring [Plantation] tiles> <before discovering [Replaceable Parts]>",
+"[+1 Food] for each adjacent [Plantation] <after discovering [Replaceable Parts]>",
+"[+1 Production] <with [2] to [3] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+2 Production] <with [4] to [5] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+3 Production] <with [6] to [6] neighboring [Hacienda] tiles> <before adopting [Rapid Deployment]>",
+"[+1 Production] for each adjacent [Hacienda] <after adopting [Rapid Deployment]>",
+"Cannot be built on [Grassland] tiles <before adopting [Mercantilism]>",
+"Cannot be built on [Plains] tiles <before adopting [Mercantilism]>",
+"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles> <before adopting [Mercantilism]>",
+"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles> <before adopting [Mercantilism]>",
+"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles>",
+]
 	},
 	{
 		"name": "Ice Hockey Rink",
@@ -610,25 +470,21 @@
 		"culture": 4,
 		"happiness": 1,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
 		"uniques": [
-			"[+1 Culture] for each adjacent [Tundra]",
-			"[+1 Culture] for each adjacent [Snow]",
-			"[+4 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles> <in cities with a [Stadium]>",
-			"[+2 Food, +2 Production] <after adopting [Professional Sports]>",
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Ice Hockey Rink] tiles>",
-			"Cannot be built on [Tundra] tiles <before adopting [Colonialism]>",
-			"Cannot be built on [Snow] tiles <before adopting [Colonialism]>",
-			"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles> <before adopting [Colonialism]>",
-			"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles> <before adopting [Colonialism]>",
-			"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles>",
-			"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
-		]
+"[+1 Culture] for each adjacent [Tundra]",
+"[+1 Culture] for each adjacent [Snow]",
+"[+4 Culture] <with [1] to [6] neighboring [Entertainment Complex] tiles> <in cities with a [Stadium]>",
+"[+2 Food, +2 Production] <after adopting [Professional Sports]>",
+"Cannot be built on [All] tiles <with [1] to [6] neighboring [Ice Hockey Rink] tiles>",
+"Cannot be built on [Tundra] tiles <before adopting [Colonialism]>",
+"Cannot be built on [Snow] tiles <before adopting [Colonialism]>",
+"Cannot be built on [Hill] tiles <in [{Tundra} {Hill}] tiles> <before adopting [Colonialism]>",
+"Cannot be built on [Hill] tiles <in [{Snow} {Hill}] tiles> <before adopting [Colonialism]>",
+"Cannot be built on [Hill] tiles <in [{Grassland} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Plains} {Hill}] tiles>",
+"Cannot be built on [Hill] tiles <in [{Desert} {Hill}] tiles>",
+]
 	},
 	{
 		"name": "Kampung",
@@ -636,16 +492,13 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Shipbuilding",
-		"terrainsCanBeBuiltOn": [
-			"Coast",
-			"Lakes"
-		],
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"uniques": [
-			"[+1 Food] for each adjacent [Fishing Boats]",
-			"[+1 Food] <after discovering [Mass Production]>",
-			"[+1 Production] <after adopting [Civil Engineering]>",
-			"[+1 Culture] for each adjacent [Fishing Boats] <after discovering [Flight]>",
-		]
+"[+1 Food] for each adjacent [Fishing Boats]",
+"[+1 Food] <after discovering [Mass Production]>",
+"[+1 Production] <after adopting [Civil Engineering]>",
+"[+1 Culture] for each adjacent [Fishing Boats] <after discovering [Flight]>",
+]
 	},
 	{
 		"name": "Kurgan",
@@ -654,18 +507,12 @@
 		"gold": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Snow"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow"],
 		"uniques": [
-			"[+1 Faith] for each adjacent [Pasture]",
-			"[+1 Faith] for each adjacent [Pasture] <after discovering [Stirrups]>",
-			"Cannot be built on [Hill] tiles",
-		]
+"[+1 Faith] for each adjacent [Pasture]",
+"[+1 Faith] for each adjacent [Pasture] <after discovering [Stirrups]>", 
+"Cannot be built on [Hill] tiles",
+]
 	},
 	{
 		"name": "Mekewap",
@@ -674,25 +521,18 @@
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Pottery",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"uniques": [
-			"[+1 Food, +1 Production] <after adopting [Civil Service]>",
-			"[+2 Gold] for each adjacent [Luxury resource] <after discovering [Cartography]>",
-			"[+1 Food] <with [2] to [3] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
-			"[+2 Food] <with [4] to [5] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
-			"[+3 Food] <with [6] to [6] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
-			"[+1 Food] for each adjacent [Bonus resource] <after adopting [Conservation]>",
-			"Cannot be built on [All] tiles <with [1] to [6] neighboring [Mekewap] tiles>",
-			"Cannot be built on [All] tiles <with [0] to [0] neighboring [Bonus resource] tiles>",
-			"Cannot be built on [All] tiles <with [0] to [0] neighboring [Luxury resource] tiles>",
-		]
+"[+1 Food, +1 Production] <after adopting [Civil Service]>",
+"[+2 Gold] for each adjacent [Luxury resource] <after discovering [Cartography]>",
+"[+1 Food] <with [2] to [3] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
+"[+2 Food] <with [4] to [5] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
+"[+3 Food] <with [6] to [6] neighboring [Bonus resource] tiles> <before adopting [Conservation]>",
+"[+1 Food] for each adjacent [Bonus resource] <after adopting [Conservation]>",
+"Cannot be built on [All] tiles <with [1] to [6] neighboring [Mekewap] tiles>",
+"Cannot be built on [All] tiles <with [0] to [0] neighboring [Bonus resource] tiles>",
+"Cannot be built on [All] tiles <with [0] to [0] neighboring [Luxury resource] tiles>",
+]
 	},
 	{
 		"name": "Mission",
@@ -700,20 +540,13 @@
 		"faith": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Education",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"uniques": [
-			"[+2 Faith, +1 Food, +1 Production] <on foreign continents>",
-			"[+1 Science] for each adjacent [Academy]",
-			"[+1 Science] for each adjacent [Holy site]",
-			"[+2 Science] <after adopting [Cultural Heritage]>",
-		],
+"[+2 Faith, +1 Food, +1 Production] <on foreign continents>", 
+"[+1 Science] for each adjacent [Academy]", 
+"[+1 Science] for each adjacent [Holy site]",
+"[+2 Science] <after adopting [Cultural Heritage]>",
+],
 	},
 	{
 		"name": "Nubian Pyramid",
@@ -722,40 +555,30 @@
 		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
-		"terrainsCanBeBuiltOn": [
-			"Desert",
-			"Flood plains"
-		],
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"uniques": [
-			"[+1 Food] <with [1] to [6] neighboring [City center] tiles>",
-			"[+1 Science] <with [1] to [6] neighboring [Academy] tiles>",
-			"[+1 Gold] <with [1] to [6] neighboring [Customs house] tiles>",
-			"[+1 Gold] <with [1] to [6] neighboring [Harbor] tiles>",
-			"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
-			"[+1 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
-			"[+1 Culture] <with [1] to [6] neighboring [Landmark] tiles>"
-		]
+"[+1 Food] <with [1] to [6] neighboring [City center] tiles>",
+"[+1 Science] <with [1] to [6] neighboring [Academy] tiles>",
+"[+1 Gold] <with [1] to [6] neighboring [Customs house] tiles>",
+"[+1 Gold] <with [1] to [6] neighboring [Harbor] tiles>",
+"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
+"[+1 Production] <with [1] to [6] neighboring [Manufactory] tiles>",
+"[+1 Culture] <with [1] to [6] neighboring [Landmark] tiles>"
+]
 	},
 	{
 		"name": "Open-Air Museum",
 		"uniqueTo": "Sweden",
 		"turnsToBuild": 7,
 		"techRequired": "Industrialization",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"uniques": [
-			"[+2 Culture] <with [1] to [6] neighboring [Grassland] tiles>",
-			"[+2 Culture] <with [1] to [6] neighboring [Plains] tiles>",
-			"[+2 Culture] <with [1] to [6] neighboring [Desert] tiles>",
-			"[+2 Culture] <with [1] to [6] neighboring [Tundra] tiles>",
-			"[+2 Culture] <with [1] to [6] neighboring [Snow] tiles>",
-		]
+"[+2 Culture] <with [1] to [6] neighboring [Grassland] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Plains] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Desert] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Tundra] tiles>",
+"[+2 Culture] <with [1] to [6] neighboring [Snow] tiles>",
+]
 	},
 	{
 		"name": "Outback Station",
@@ -763,42 +586,24 @@
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
 		"uniques": [
-			"Cannot be built on [Grassland] tiles <before adopting [Guilds]>",
-			"Cannot be built on [Plains] tiles <before adopting [Guilds]>",
-			"Cannot be built on [Desert] tiles <before adopting [Guilds]>",
-			"[+1 Food] for each adjacent [Pasture]",
-			"[+1 Food] <with [2] to [3] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
-			"[+2 Food] <with [4] to [5] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
-			"[+3 Food] <with [6] to [6] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
-			"[+1 Production] <with [2] to [3] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
-			"[+2 Production] <with [4] to [5] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
-			"[+3 Production] <with [6] to [6] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
-		]
+"Cannot be built on [Grassland] tiles <before adopting [Guilds]>",
+"Cannot be built on [Plains] tiles <before adopting [Guilds]>",
+"Cannot be built on [Desert] tiles <before adopting [Guilds]>",
+"[+1 Food] for each adjacent [Pasture]",
+"[+1 Food] <with [2] to [3] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+"[+2 Food] <with [4] to [5] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+"[+3 Food] <with [6] to [6] neighboring [Outback Station] tiles> <after discovering [Steam Power]>",
+"[+1 Production] <with [2] to [3] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
+"[+2 Production] <with [4] to [5] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
+"[+3 Production] <with [6] to [6] neighboring [Outback Station] tiles> <after adopting [Rapid Deployment]>",
+]
 	},
 	{
 		"name": "Pa",
-		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Forest",
-			"Jungle",
-			"Flood plains",
-			"Marsh",
-			"Oasis"
-		],
-		"uniques": [
-			"Gives a defensive bonus of [27]%",
-			"Adjacent enemy units ending their turn take [30] damage"
-		]
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"uniques": ["Gives a defensive bonus of [27]%","Adjacent enemy units ending their turn take [30] damage"]
 	},
 	{
 		"name": "Pairidaeza",
@@ -806,23 +611,18 @@
 		"culture": 1,
 		"gold": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill"],
 		"uniques": [
-			"Cannot be built on [Grassland] tiles <before adopting [Early Empire]>",
-			"Cannot be built on [Plains] tiles <before adopting [Early Empire]>",
-			"Cannot be built on [Desert] tiles <before adopting [Early Empire]>",
-			"Cannot be built on [Hill] tiles <before adopting [Early Empire]>",
-			"[+1 Culture] for each adjacent [Holy site]",
-			"[+1 Culture] for each adjacent [Landmark]",
-			"[+1 Gold] for each adjacent [Customs house]",
-			"[+1 Gold] for each adjacent [City center]",
-			"[+1 Culture] <after adopting [Diplomatic Service]>",
-		]
+"Cannot be built on [Grassland] tiles <before adopting [Early Empire]>",
+"Cannot be built on [Plains] tiles <before adopting [Early Empire]>",
+"Cannot be built on [Desert] tiles <before adopting [Early Empire]>",
+"Cannot be built on [Hill] tiles <before adopting [Early Empire]>",
+"[+1 Culture] for each adjacent [Holy site]",
+"[+1 Culture] for each adjacent [Landmark]",
+"[+1 Gold] for each adjacent [Customs house]",
+"[+1 Gold] for each adjacent [City center]",
+"[+1 Culture] <after adopting [Diplomatic Service]>",
+]
 	},
 	{
 		"name": "Polder",
@@ -830,46 +630,40 @@
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Coast",
-			"Lakes"
-		],
+		"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
 		"uniques": [
-			"Only available <after adopting [Guilds]>",
-			"[+1 Food] for each adjacent [Polder]",
-			"[+4 Gold] <after adopting [Civil Engineering]>",
-			"[+1 Food, +1 Production] for each adjacent [Polder] <after discovering [Replaceable Parts]>",
-			"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>"
-		]
-	},
-	{
+"Only available <after adopting [Guilds]>",
+"[+1 Food] for each adjacent [Polder]",
+"[+4 Gold] <after adopting [Civil Engineering]>",
+"[+1 Food, +1 Production] for each adjacent [Polder] <after discovering [Replaceable Parts]>",
+"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>"
+]
+	},	
+	{ 
 		"name": "Rock-Hewn Church",
 		"uniqueTo": "Ethiopia",
 		"faith": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Celestial Navigation",
-		"terrainsCanBeBuiltOn": [
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniques": [
-			"[+1 Faith] for each adjacent [Mountain]",
-			"[+1 Faith] for each adjacent [Hill]",
-			"Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Rock-Hewn Church] tiles>"
-		]
-	},
+"[+1 Faith] for each adjacent [Mountain]",
+"[+1 Faith] for each adjacent [Hill]",
+"Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Rock-Hewn Church] tiles>"
+
+]
+	},	
 	{
 		"name": "Sphinx",
 		"uniqueTo": "Egypt",
 		"culture": 2,
 		"faith": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Flood plains"
-		],
+		"terrainsCanBeBuiltOn": ["Flood plains"],
 		"uniques": [
-			"Only available <after adopting [Craftsmanship]>",
-			"[+1 Culture] <after adopting [Natural History]>",
-		]
+"Only available <after adopting [Craftsmanship]>",
+"[+1 Culture] <after adopting [Natural History]>",
+]
 	},
 	{
 		"name": "Stepwell",
@@ -877,67 +671,47 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Pottery",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra"],
 		"uniques": [
-			"[+1 Food] <with [1] to [6] neighboring [Farm] tiles>",
-			"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
-			"[+1 Faith] <after adopting [Feudalism]>",
-			"[+1 Food] <after adopting [Professional Sports]>",
-			"Cannot be built on [Grassland] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
-			"Cannot be built on [Plains] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
-			"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
-			"Cannot be built on [Tundra] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
-		]
+"[+1 Food] <with [1] to [6] neighboring [Farm] tiles>",
+"[+1 Faith] <with [1] to [6] neighboring [Holy site] tiles>",
+"[+1 Faith] <after adopting [Feudalism]>",
+"[+1 Food] <after adopting [Professional Sports]>",
+"Cannot be built on [Grassland] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Plains] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+"Cannot be built on [Tundra] tiles <with [1] to [6] neighboring [Stepwell] tiles>",
+]
 	},
 	{
 		"name": "Terrace Farm",
 		"uniqueTo": "Inca",
 		"food": 1,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Hill"
-		],
-		"uniques": [
-			"[+1 Production] from [Fresh water] tiles <after discovering [Pottery]>",
-			"[+1 Food] for each adjacent [Mountain]"
-		] //Aqueducts should give +2 production per Terrace Farm
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": ["[+1 Production] from [Fresh water] tiles <after discovering [Pottery]>",
+		"[+1 Food] for each adjacent [Mountain]"]//Aqueducts should give +2 production per Terrace Farm
 	},
 	{
 		"name": "Ziggurat",
 		"uniqueTo": "Sumeria",
 		"science": 2,
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Desert",
-			"Plains",
-			"Tundra",
-			"Flood plains"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Desert","Plains","Tundra","Flood plains"],
 		"uniques": [
-			"[+1 Culture] <with [1] to [6] neighboring [River] tiles>",
-			"[+1 Culture] <after adopting [Natural History]>",
-		]
+"[+1 Culture] <with [1] to [6] neighboring [River] tiles>",
+"[+1 Culture] <after adopting [Natural History]>",
+]
 	},
+
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
 		"culture": 1,
-		"terrainsCanBeBuiltOn": [
-			"Land",
-			"Water"
-		],
-		"uniques": [
-			"Great Improvement",
-			"Can only be built to improve a resource"
-		]
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"uniques": ["Great Improvement","Can only be built to improve a resource"]	
 	},
-	/*
+/*
 	{
 		"name": "Trade Route (Domestic)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
@@ -952,615 +726,486 @@
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 */
+
 	// Military improvement
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow"
-		],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Hill","Tundra","Snow"],
 		"turnsToBuild": 6,
 		"techRequired": "Siege Tactics",
-		"uniques": [
-			"Gives a defensive bonus of [27]%",
-			"Can be built outside your borders"
-		],
+		"uniques": ["Gives a defensive bonus of [27]%","Can be built outside your borders"],
 		"shortcutKey": "O"
 	},
+
 	// Transportation
 	{
 		"name": "Road",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Wheel",
-		"uniques": [
-			"Can be built outside your borders",
-			"Costs [1] [Gold] per turn"
-		],
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
 	},
 	{
 		"name": "Railroad",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "Steam Power",
-		"uniques": [
-			"Can be built outside your borders",
-			"Costs [2] [Gold] per turn"
-		],
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
-	},
+    	},
 	// Removals
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"terrainsCanBeBuiltOn": [
-			"Forest"
-		],
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"techRequired": "Mining",
-		"uniques": [
-			"Can be built outside your borders"
-		],
+		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": [
-			"Jungle"
-		],
+		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Bronze Working",
-		"uniques": [
-			"Can be built outside your borders"
-		],
+		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 8,
-		"terrainsCanBeBuiltOn": [
-			"Fallout"
-		],
+		"terrainsCanBeBuiltOn": ["Fallout"],
 		"techRequired": "Nuclear Fission",
-		"uniques": [
-			"Can be built outside your borders"
-		],
+		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"terrainsCanBeBuiltOn": [
-			"Marsh"
-		],
+		"terrainsCanBeBuiltOn": ["Marsh"],
 		"techRequired": "Irrigation",
-		"uniques": [
-			"Can be built outside your borders"
-		],
+		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
+
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
-		"uniques": [
-			"Can be built outside your borders"
-		]
+		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Remove Railroad",
 		"turnsToBuild": 2,
-		"uniques": [
-			"Can be built outside your borders"
-		]
+		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": [
-			"Can be built outside your borders"
-		]
+		"uniques": ["Can be built outside your borders"]
 	},
 	{
-		"name": "Repair",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"turnsToBuild": 2,
-		"shortcutKey": "E",
-		"uniques": [
-			"Unbuildable"
-		],
-		"civilopediaText": [
-			{
-				"text": "Repairs a pillaged Improvement or Route"
-			}
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+	},
+
+	{ 
+		"name": "Ancient ruins", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
+	},
+	{ 
+		"name": "City ruins", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{ 
+		"name": "City center", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement", "Unpillagable", "Irremovable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
-	{
-		"name": "Ancient ruins",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"uniques": [
-			"Unpillagable",
-			"Provides a random bonus when entered"
-		]
+	{ 
+		"name": "Barbarian encampment", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable","Unbuildable","Cannot be built on [Natural Wonder] tiles"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	},
-	{
-		"name": "City ruins",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"uniques": [
-			"Unpillagable"
-		],
-		"civilopediaText": [
-			{
-				"text": "A bleak reminder of the destruction wreaked by War"
-			}
-		]
-	},
-	{
-		"name": "City center",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"uniques": [
-			"Great Improvement",
-			"Unpillagable",
-			"Irremovable"
-		],
-		"civilopediaText": [
-			{
-				"text": "Marks the center of a city"
-			},
-			{
-				"text": "Appearance changes with the technological era of the owning civilization"
-			}
-		]
-	},
-	{
-		"name": "Barbarian encampment",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"uniques": [
-			"Unpillagable",
-			"Unbuildable",
-			"Cannot be built on [Natural Wonder] tiles"
-		],
-		"civilopediaText": [
-			{
-				"text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time"
-			}
-		]
-	},
-	//Districts
-	{
+//Districts
+{
 		"name": "Academy",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Science]",
-			"[+2 Science] for each adjacent [Geothermal Fissure]",
-			"[+2 Science] for each adjacent [Atoll]",
-			"[+2 Science] for each adjacent [Great Barrier Reef]",
-			"[+2 Science] for each adjacent [Pamukkale]",
-			"[+1 Science] for each adjacent [Mountain]",
-			"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-			"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
-			"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
+"[+2 Science] for each adjacent [Geothermal Fissure]",
+"[+2 Science] for each adjacent [Atoll]",
+"[+2 Science] for each adjacent [Great Barrier Reef]",
+"[+2 Science] for each adjacent [Pamukkale]",
+"[+1 Science] for each adjacent [Mountain]",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
+]
 	},
-	{
+{
 		"name": "Observatory",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Science]",
-			"[+2 Science] for each adjacent [Plantation]",
-			"[+2 Science] for each adjacent [Great Barrier Reef]",
-			"[+2 Science] for each adjacent [Pamukkale]",
-			"[+1 Science] for each adjacent [Mountain]",
-			"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
-			"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
-			"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
-			"[+1 Science] <with [2] to [3] neighboring [Farm] tiles>",
-			"[+2 Science] <with [4] to [5] neighboring [Farm] tiles>",
-			"[+3 Science] <with [6] to [6] neighboring [Farm] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
+"[+2 Science] for each adjacent [Plantation]",
+"[+2 Science] for each adjacent [Great Barrier Reef]",
+"[+2 Science] for each adjacent [Pamukkale]",
+"[+1 Science] for each adjacent [Mountain]",
+"[+1 Science] <with [2] to [3] neighboring [Jungle] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Jungle] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Jungle] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
+"[+1 Science] <with [2] to [3] neighboring [Farm] tiles>",
+"[+2 Science] <with [4] to [5] neighboring [Farm] tiles>",
+"[+3 Science] <with [6] to [6] neighboring [Farm] tiles>"
+]
 	},
-	{
+{
 		"name": "Seowon",
-		"terrainsCanBeBuiltOn": [
-			"Hill"
-		],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"science": 4,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Science]",
-			"[-1 Science] for each adjacent [Great Improvement]",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
+"[-1 Science] for each adjacent [Great Improvement]",
+]
 	},
-	{
+{
 		"name": "Holy site",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Faith]",
-			"[+2 Faith] for each adjacent [Natural Wonder]",
-			"[+1 Faith] for each adjacent [Mountain]",
-			"[+1 Faith] for each adjacent [Pamukkale]",
-			"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
-			"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
-			"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Faith]",
+"[+2 Faith] for each adjacent [Natural Wonder]",
+"[+1 Faith] for each adjacent [Mountain]",
+"[+1 Faith] for each adjacent [Pamukkale]",
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Lavra",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Faith]",
-			"[+2 Faith] for each adjacent [Natural Wonder]",
-			"[+1 Faith] for each adjacent [Mountain]",
-			"[+1 Faith] for each adjacent [Pamukkale]",
-			"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
-			"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
-			"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Faith]",
+"[+2 Faith] for each adjacent [Natural Wonder]",
+"[+1 Faith] for each adjacent [Mountain]",
+"[+1 Faith] for each adjacent [Pamukkale]",
+"[+1 Faith] <with [2] to [3] neighboring [Forest] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Forest] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Forest] tiles>",
+"[+1 Faith] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Faith] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Faith] <with [6] to [6] neighboring [Great Improvement] tiles>",
+]
 	},
-	{
+{
 		"name": "Landmark",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Culture]",
-			"[+2 Culture] for each adjacent [Entertainment Complex]",
-			"[+2 Culture] for each adjacent [Street Carnival]",
-			"[+2 Culture] for each adjacent [Hippodrome]",
-			"[+2 Culture] for each adjacent [Water Park]",
-			"[+2 Culture] for each adjacent [Copacabana]",
-			"[+2 Culture] for each adjacent [Pamukkale]",
-			"[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Culture]",
+"[+2 Culture] for each adjacent [Entertainment Complex]",
+"[+2 Culture] for each adjacent [Street Carnival]",
+"[+2 Culture] for each adjacent [Hippodrome]",
+"[+2 Culture] for each adjacent [Water Park]",
+"[+2 Culture] for each adjacent [Copacabana]",
+"[+2 Culture] for each adjacent [Pamukkale]",
+"[+1 Culture] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Culture] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Culture] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Acropolis",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Culture]",
-			"[+2 Culture] for each adjacent [Entertainment Complex]",
-			"[+2 Culture] for each adjacent [Street Carnival]",
-			"[+2 Culture] for each adjacent [Hippodrome]",
-			"[+2 Culture] for each adjacent [Water Park]",
-			"[+2 Culture] for each adjacent [Copacabana]",
-			"[+2 Culture] for each adjacent [Pamukkale]",
-			"[+1 Culture] for each adjacent [Great Improvement]",
-			"[+1 Culture] for each adjacent [City center]",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Culture]",
+"[+2 Culture] for each adjacent [Entertainment Complex]",
+"[+2 Culture] for each adjacent [Street Carnival]",
+"[+2 Culture] for each adjacent [Hippodrome]",
+"[+2 Culture] for each adjacent [Water Park]",
+"[+2 Culture] for each adjacent [Copacabana]",
+"[+2 Culture] for each adjacent [Pamukkale]",
+"[+1 Culture] for each adjacent [Great Improvement]",
+"[+1 Culture] for each adjacent [City center]",
+]
 	},
-	{
+{
 		"name": "Citadel",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage"
+]
 	},
-	{
+{
 		"name": "Ikanda",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage"
+]
 	},
-	{
+{
 		"name": "Customs house",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Gold]",
-			"[+2 Gold] for each adjacent [River]",
-			"[+2 Gold] for each adjacent [Harbor]",
-			"[+2 Gold] for each adjacent [Pamukkale]",
-			"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
+"[+2 Gold] for each adjacent [River]",
+"[+2 Gold] for each adjacent [Harbor]",
+"[+2 Gold] for each adjacent [Pamukkale]",
+"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Suguba",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Gold]",
-			"[+2 Gold] for each adjacent [River]",
-			"[+2 Gold] for each adjacent [Holy site]",
-			"[+2 Gold] for each adjacent [Pamukkale]",
-			"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
+"[+2 Gold] for each adjacent [River]",
+"[+2 Gold] for each adjacent [Holy site]",
+"[+2 Gold] for each adjacent [Pamukkale]",
+"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Manufactory",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Science]",
-			"[+1 Production] for each adjacent [Quarry]",
-			"[+1 Production] for each adjacent [Strategic resource]",
-			"[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
-			"[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
-			"[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
-			"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
-			"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
-			"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
-			"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
+"[+1 Production] for each adjacent [Quarry]",
+"[+1 Production] for each adjacent [Strategic resource]",
+"[+1 Production] <with [2] to [3] neighboring [Mine] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Mine] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Mine] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Lumber mill] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Lumber mill] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Lumber mill] tiles>",
+"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Hansa",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Science]",
-			"[+2 Production] for each adjacent [Customs house]",
-			"[+1 Production] for each adjacent [Strategic resource]",
-			"[+1 Production] for each adjacent [Luxury resource]",
-			"[+1 Production] for each adjacent [Bonus resource]",
-			"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Science]",
+"[+2 Production] for each adjacent [Customs house]",
+"[+1 Production] for each adjacent [Strategic resource]",
+"[+1 Production] for each adjacent [Luxury resource]",
+"[+1 Production] for each adjacent [Bonus resource]",
+"[+1 Production] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Production] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Production] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Oppidum",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"[+2 Production] for each adjacent [Quarry]",
-			"[+2 Production] for each adjacent [Strategic resource]",
-			"Unpillagable",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"[+2 Production] for each adjacent [Quarry]",
+"[+2 Production] for each adjacent [Strategic resource]",
+"Unpillagable",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage"
+]
 	},
-	{
-		"name": "Entertainment Complex",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"happiness": 1,
+{
+		"name": "Entertainment Complex", 
+		"terrainsCanBeBuiltOn": ["Land"],
+            "happiness": 1,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+]
 	},
-	{
-		"name": "Hippodrome",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"happiness": 3,
+{
+		"name": "Hippodrome", 
+		"terrainsCanBeBuiltOn": ["Land"],
+            "happiness": 3,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+]
 	},
-	{
-		"name": "Street Carnival",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"happiness": 2,
+{
+		"name": "Street Carnival", 
+		"terrainsCanBeBuiltOn": ["Land"],
+            "happiness": 2,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+]
 	},
-	{
+{
 		"name": "Harbor",
-		"terrainsCanBeBuiltOn": [
-			"Coast"
-		],
+		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Unpillagable",
-			"[+2 Gold] for each adjacent [City center]",
-			"[+1 Gold] for each adjacent [Water resource]",
-			"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
-			"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Unpillagable",
+"[+2 Gold] for each adjacent [City center]",
+"[+1 Gold] for each adjacent [Water resource]",
+"[+1 Gold] <with [2] to [3] neighboring [Great Improvement] tiles>",
+"[+2 Gold] <with [4] to [5] neighboring [Great Improvement] tiles>",
+"[+3 Gold] <with [6] to [6] neighboring [Great Improvement] tiles>"
+]
 	},
-	{
+{
 		"name": "Neighbourhood",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Gold]",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
+]
 	},
-	{
+{
 		"name": "Mbanza",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"food": 2,
-		"gold": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+            "food": 2,
+            "gold": 4,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+50 Gold]",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+50 Gold]",
+]
 	},
-	{
+{
 		"name": "Water Park",
-		"terrainsCanBeBuiltOn": [
-			"Coast",
-			"Lakes"
-		],
-		"happiness": 1,
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+            "happiness": 1,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+]
 	},
-	{
+{
 		"name": "Copacabana",
-		"terrainsCanBeBuiltOn": [
-			"Coast",
-			"Lakes"
-		],
-		"happiness": 2,
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+            "happiness": 2,
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+]
 	},
-	{
-		"name": "Aerodrome",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+{
+		"name": "Aerodrome", 
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
-			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
-			"Removes removable features when built",
-			"Cannot be built on [Hill] tiles",
-			"Pillaging this improvement yields approximately [+50 Gold]",
-		]
+"Great Improvement",
+"Tile provides yield without assigned population",
+"Cannot be built on [Mountain] tiles",
+"Removes removable features when built",
+"Cannot be built on [Hill] tiles",
+"Pillaging this improvement yields approximately [+50 Gold]",
+]
 	},
-	{
+{
 		"name": "Preserve",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": "1",
 		"uniques": [
-			"Great Improvement",
-			"Must be next to [Natural Wonder]",
-			"Tile provides yield without assigned population",
-			"Pillaging this improvement yields approximately [+50 Gold]",
-		]
+"Great Improvement",
+"Must be next to [Natural Wonder]",
+"Tile provides yield without assigned population",
+"Pillaging this improvement yields approximately [+50 Gold]",
+]
 	},
 ]

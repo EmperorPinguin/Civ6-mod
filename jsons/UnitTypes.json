@@ -1,3 +1,4 @@
+
 [
     {
         "name": "Civilian",
@@ -6,17 +7,13 @@
     {
         "name": "Anti-Cavalry",
         "movementType": "Land",
-        "uniques": [
-            "[+67]% Strength <vs [Light Cavalry] units>",
-            "[+67]% Strength <vs [Heavy Cavalry] units>"
-        ]
+        "uniques": ["[+67]% Strength <vs [Light Cavalry] units>","[+67]% Strength <vs [Heavy Cavalry] units>"]
+
     },
     {
         "name": "Land Melee",
         "movementType": "Land",
-        "uniques": [
-            "[+33]% Strength <vs [Anti-Cavalry] units>"
-        ]
+        "uniques": ["[+33]% Strength <vs [Anti-Cavalry] units>"]
     },
     {
         "name": "Warrior Monk",
@@ -25,32 +22,22 @@
     {
         "name": "Land Ranged",
         "movementType": "Land",
-        "uniques": [
-            "[-46]% Strength <vs cities> <when attacking>",
-            "[-46]% Strength <vs [Water] units> <when attacking>"
-        ]
+        "uniques": ["[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"]
     },
     {
         "name": "Siege",
         "movementType": "Land",
-        "uniques": [
-            "[-46]% Strength <vs [Land] units> <when attacking>",
-            "[-46]% Strength <vs [Water] units> <when attacking>"
-        ]
+        "uniques": ["[-46]% Strength <vs [Land] units> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"]
     },
     {
         "name": "Light Cavalry",
         "movementType": "Land",
-        "uniques": [
-            "Ignores Zone of Control"
-        ],
+        "uniques": ["Ignores Zone of Control"],
     },
     {
         "name": "Heavy Cavalry",
         "movementType": "Land",
-        "uniques": [
-            "Ignores Zone of Control"
-        ],
+        "uniques": ["Ignores Zone of Control"],
     },
     {
         "name": "Recon",
@@ -71,11 +58,7 @@
     {
         "name": "Naval Raider",
         "movementType": "Water",
-        "uniques": [
-            "Invisible to non-adjacent units",
-            "Can see invisible [Naval Raider] units",
-            "Ignores Zone of Control"
-        ]
+        "uniques": ["Invisible to non-adjacent units","Can see invisible [Naval Raider] units","Ignores Zone of Control"]
     },
     {
         "name": "Naval Carrier",
@@ -84,49 +67,28 @@
     {
         "name": "Air Fighter",
         "movementType": "Air",
-        "uniques": [
-            "Aircraft",
-            "[100]% chance to intercept air attacks",
-            "Can see over obstacles",
-            "Only available <in cities with a [Aerodrome District]>"
-        ]
+        "uniques": ["Aircraft","[100]% chance to intercept air attacks","Can see over obstacles", "Only available <in cities with a [Aerodrome District]>"]
     },
     {
         "name": "Air Bomber",
         "movementType": "Air",
-        "uniques": [
-            "Aircraft",
-            "Can see over obstacles",
-            "Only available <in cities with a [Aerodrome District]>"
-        ]
+        "uniques": ["Aircraft","Can see over obstacles", "Only available <in cities with a [Aerodrome District]>"]
     },
     {
         "name": "Nuclear Device",
         "movementType": "Air",
-        "uniques": [
-            "Missile",
-            "Self-destructs when attacking",
-            "Cannot be intercepted",
-            "[+200]% maintenance costs",
-            "Only available <if [Manhattan Project] is constructed>"
-        ]
+        "uniques": ["Missile","Self-destructs when attacking","Cannot be intercepted","[+200]% maintenance costs","Only available <if [Manhattan Project] is constructed>"]
     },
     {
         "name": "Thermonuclear Device",
         "movementType": "Air",
-        "uniques": [
-            "Missile",
-            "Self-destructs when attacking",
-            "Cannot be intercepted",
-            "[+200]% maintenance costs",
-            "Only available <if [Manhattan Project] is constructed>"
-        ]
+        "uniques": ["Missile","Self-destructs when attacking","Cannot be intercepted","[+200]% maintenance costs","Only available <if [Manhattan Project] is constructed>"]
     },
     {
         "name": "GDR",
         "movementType": "Land"
     },
-    //To be removed
+//To be removed
     {
         "name": "Civilian Water",
         "movementType": "Water"
