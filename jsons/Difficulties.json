@@ -136,8 +136,12 @@
 		"aiBuildingMaintenanceModifier": 0.85,
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Pottery"],
-		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"],
+		"aiFreeTechs": [
+			"Pottery"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Era Starting Unit"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.9,
 		"aisExchangeTechs": true,
@@ -165,8 +169,13 @@
 		"aiBuildingMaintenanceModifier": 0.8,
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Pottery"],
-		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Scout"],
+		"aiFreeTechs": [
+			"Pottery"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Era Starting Unit",
+			"Scout"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.85,
 		"aisExchangeTechs": true,
@@ -194,8 +203,14 @@
 		"aiBuildingMaintenanceModifier": 0.65,
 		"aiUnitMaintenanceModifier": 0.65,
 		"aiUnitSupplyModifier": 0.4,
-		"aiFreeTechs": ["Pottery"],
-		"aiMajorCivBonusStartingUnits": ["Worker", "Era Starting Unit", "Era Starting Unit"],
+		"aiFreeTechs": [
+			"Pottery"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Worker",
+			"Era Starting Unit",
+			"Era Starting Unit"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
@@ -223,8 +238,16 @@
 		"aiBuildingMaintenanceModifier": 0.1,
 		"aiUnitMaintenanceModifier": 0.1,
 		"aiUnitSupplyModifier": 0.5,
-		"aiFreeTechs": ["Pottery"],
-		"aiMajorCivBonusStartingUnits": ["Settler", "Worker", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
+		"aiFreeTechs": [
+			"Pottery"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Settler",
+			"Worker",
+			"Era Starting Unit",
+			"Era Starting Unit",
+			"Era Starting Unit"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.1,
 		"aisExchangeTechs": true,
