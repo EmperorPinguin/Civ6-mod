@@ -1,1 +1,21 @@
-{isBaseRuleset:true,lastUpdated:2023-04-23T11:03:11Z,modUrl:"https://github.com/DW8030/Civ6-mod",author:DW8030,modSize:115639,topics:[unciv-mod,unciv-mod-rulesets],constants:{cityStrengthBase:20,cityStrengthPerPop:0,cityStrengthFromTechsMultiplier:4,cityStrengthFromTechsExponent:5,unitUpgradeCost:{},naturalWonderCountMultiplier:0.248,riverCountMultiplier:0.02,minRiverLength:4}}
+{
+    "isBaseRuleset": true,
+    "lastUpdated": "2023-04-23T11: 03: 11Z",
+    "modUrl": "https://github.com/DW8030/Civ6-mod",
+    "author":"DW8030",
+    "modSize": 115639,
+    "topics": [
+        "unciv-mod",
+        "unciv-mod-rulesets"
+    ],
+    "constants": {
+        "cityStrengthBase": 20,
+        "cityStrengthPerPop": 0,
+        "cityStrengthFromTechsMultiplier": 4,
+        "cityStrengthFromTechsExponent": 5,
+        "unitUpgradeCost": {},
+        "naturalWonderCountMultiplier": 0.248,
+        "riverCountMultiplier": 0.02,
+        "minRiverLength": 4
+    }
+}
