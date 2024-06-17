@@ -156,7 +156,7 @@
 		"name": "Oil well",
 		"production": 2,
 		"turnsToBuild": 9,
-		"techRequired": "Refining"
+		"techRequired": "Refining",
 		"uniques": [
 "Can only be built to improve a resource",
 "[+1 Production] <after discovering [Predictive Systems]>"
@@ -168,7 +168,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
-"Can only be built to improve a resource"
+"Can only be built to improve a resource",
 "[+1 Food] <after discovering [Stirrups]>",
 "[+1 Production] for each adjacent [Outback Station] <after discovering [Steam Power]>",
 "[+1 Production] <after discovering [Replaceable Parts]>",
