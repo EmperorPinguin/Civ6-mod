@@ -138,7 +138,7 @@
         "cost": 1,
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
-        "uniques": ["Can only be built [in annexed cities]","Free Technology","Free Social Policy",
+        "uniques": ["Can only be built <in [in annexed cities] cities>","Free Technology","Free Social Policy",
             "Will not be displayed in Civilopedia"]
     },
 
@@ -936,7 +936,7 @@
         "isWonder": true,
         "cost": 400,
         "faith": 4,
-        "uniques": ["[2] free [Missionary] units appear", "Can only be built [in holy cities]", "Only available <after adopting [Theology]>"],
+        "uniques": ["[2] free [Missionary] units appear", "an only be built <in [in holy cities] cities>", "Only available <after adopting [Theology]>"],
         "quote": "'In a dusty, bustling corner of the Indian state of Bihar, there is a magical place that one might think of as the hub of Buddhism.' – Visitor's Guide, Bodh Gaya"
     },
     {
@@ -1010,7 +1010,7 @@
         "faith": 4,
         "uniques": [
 "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-"Can only be built [in holy cities]",
+"an only be built <in [in holy cities] cities>",
 "Must not be on [Hill]",
 "Only available <in cities with a [Holy Site District]>"],
         "requiredTech": "Buttress",
@@ -1061,7 +1061,7 @@
 "[+1] Movement <for [Missionary] units>",
 "[+1] Movement <for [Inquisitor] units>",
 "Only available <after adopting [Civil Service]> <in cities with a [Temple]>",
-"Can only be built [in holy cities]","Only available <in cities with a [Holy Site District]>"],
+"an only be built <in [in holy cities] cities>","Only available <in cities with a [Holy Site District]>"],
         "quote": "'We greet you, Devi Meenakshi, she who shines like a thousand-million suns, adorned with bracelets and garlands... She who is auspicious, she who embodies existence. I always bow to you, whose compassion is an ocean.' – Adi Shankara"
     },
     {
