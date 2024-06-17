@@ -1423,7 +1423,6 @@
 		"cost": 680,
 		"requiredTech": "Telecommunications",
 		"uniques": ["Can carry [2] [Missile] units"],
-		"attackSound": "torpedo"
 		"requiredResource": "Uranium",
 		"attackSound": "torpedo"
 	},	
@@ -1432,7 +1431,7 @@
 		"name": "Aircraft Carrier",
 		"unitType": "Naval Carrier",
 		"movement": 3,
-		"strength": 104
+		"strength": 104,
 		"cost": 540,
 		"requiredTech": "Combined Arms",
 		"uniques": ["Can carry [2] [Aircraft] units"],
