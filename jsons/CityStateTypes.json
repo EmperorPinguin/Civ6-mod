@@ -6,7 +6,7 @@
 "[+2 Culture] [in capital]", 
 "[+2 Culture] from every [Landmark]",
 "[+2 Culture] from every [Acropolis]",
-"[+100 Culture] whenever a Great Person is expended"
+"Gain [+100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>"
 ],
         "color": [255, 1, 255]
     },
@@ -369,7 +369,7 @@
 "[+2 Science] from every [Academy]",
 "[+2 Science] from every [Observatory]",
 "[+2 Science] from every [Seowon]",
-"[+100 Science] when a city adopts this religion for the first time (modified by game speed)"],
+"[+100 Science] when a city adopts this religion for the first time <(modified by game speed)>"],
         "color": [117, 163, 243]
     }
     {

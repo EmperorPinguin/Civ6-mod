@@ -342,7 +342,7 @@
 		"outerColor": [1,42,108],
 		"innerColor": [70,175,10],
 		"uniqueName": "Nihithaw",
-		"uniques": ["Free [Worker] appears <upon discovering [Pottery]>","[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["Free [Worker] appears <upon discovering [Pottery] technology>","[+2 Gold] from each Trade Route", "[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
 			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
 			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"]
