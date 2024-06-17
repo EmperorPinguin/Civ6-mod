@@ -155,7 +155,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Writing"
+		"requiredTech": "Writing",
 		"uniques": [
 "Creates a [Academy] improvement on a specific tile",
 "Unsellable",
@@ -175,7 +175,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Writing"
+		"requiredTech": "Writing",
 		"uniques": [
 "Creates a [Observatory] improvement on a specific tile",
 "Unsellable",
@@ -195,7 +195,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Writing"
+		"requiredTech": "Writing",
 		"uniques": [
 "Creates a [Seowon] improvement on a specific tile",
 "Unsellable",
@@ -213,7 +213,7 @@
 		"greatPersonPoints": {"Great Prophet": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Astrology"
+		"requiredTech": "Astrology",
 		"uniques": [
 "Creates a [Holy site] improvement on a specific tile",
 "Unbuildable <if [Mvemba a Nzinga] is constructed>",
@@ -234,7 +234,7 @@
 		"greatPersonPoints": {"Great Prophet": 2},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Astrology"
+		"requiredTech": "Astrology",
 		"uniques": [
 "Creates a [Lavra] improvement on a specific tile",
 "Unsellable",
@@ -297,7 +297,7 @@
 		"greatPersonPoints": {"Great General": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Bronze Working",
 		"uniques": [
 "Creates a [Citadel] improvement on a specific tile",
 "Unsellable",
@@ -317,7 +317,7 @@
 		"greatPersonPoints": {"Great General": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Bronze Working",
 		"uniques": [
 "Creates a [Ikanda] improvement on a specific tile",
 "Unsellable",
@@ -337,7 +337,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Currency"
+		"requiredTech": "Currency",
 		"uniques": [
 "Creates a [Customs house] improvement on a specific tile",
 "Unsellable",
@@ -378,7 +378,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Apprenticeship"
+		"requiredTech": "Apprenticeship",
 		"uniques": [
 "Creates a [Manufactory] improvement on a specific tile",
 "Unsellable",
@@ -398,7 +398,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Apprenticeship"
+		"requiredTech": "Apprenticeship",
 		"uniques": [
 "Creates a [Hansa] improvement on a specific tile",
 "Unsellable",
@@ -418,7 +418,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
             "requiredResource": "Districts",
 		"maintenance": 1,
-		"requiredTech": "Iron Working"
+		"requiredTech": "Iron Working",
 		"uniques": [
 "Creates a [Oppidum] improvement on a specific tile",
 "Unsellable",
@@ -527,7 +527,7 @@
 */
 "[+50]% Production when constructing [Water] units [in this city]",
 "[+50]% Production when constructing [Settler] units [in this city]",
-"All newly-trained [relevant] units [in this city] receive the [Cothon] promotion"
+"All newly-trained [relevant] units [in this city] receive the [Cothon] promotion",
 "Connects trade routes over water",
 "Must be next to [Coast]"
 ],
@@ -587,7 +587,7 @@
     },
     {
             "name": "Aerodrome District",
-            "requiredTech": "Flight"
+            "requiredTech": "Flight",
             "requiredResource": "Districts",
             "cost": 54,
             "uniques": [
@@ -597,7 +597,6 @@
 "Cannot be purchased",
 "Never destroyed when the city is captured",
 ],
-        "requiredTech": "Flight"
     },
     {
         "name": "Spaceport",
@@ -605,7 +604,7 @@
         "cost": 1800,
         "uniques": [
 "Must not be on [Hill]",
-"Enables construction of Spaceship parts"
+"Enables construction of Spaceship parts",
 "Unsellable",
 "Cannot be purchased",
 "Never destroyed when the city is captured",
@@ -1175,7 +1174,7 @@
         "happiness": 4,
         "uniques": ["[2] free [Settler] units appear","Must be next to [Coast]","Only available <in cities with a [Harbor District]> <after adopting [Civil Engineering]>"],
         "quote": "'Here at our sea-washed, sunset gates shall stand a mighty woman with a torch, whose flame is the imprisoned lightning.' – Emma Lazarus",
-    }
+    },
     {
         "name": "Ruhr Valley",
         "isWonder": true,
@@ -1640,7 +1639,7 @@
         "specialistSlots": {"Prophet": 1},
         "greatPersonPoints": {"Great Prophet": 1},
         "uniques": [
-"[+1 Culture] per [2] population [in this city]"
+"[+1 Culture] per [2] population [in this city]",
 "[+6 Faith] from [Holy site] tiles [in this city]",
 "All newly-trained [Civilian] units [in this city] receive the [Martyr] promotion",
 "Only available <after adopting [Theology]>"],
@@ -2029,7 +2028,7 @@
         "replacementTextForUniques": "Converts 2 Coal into 8 Power, every Industial Zone in this city gets production equal to 100% of its adjacency, +1 Production from every Specialist in this city, unavailable with Oil Power Plant or Nuclear Power Plant.",
         "uniques": [
 "Consumes [2] [Coal]",
-"Provides [8] [Power]"
+"Provides [8] [Power]",
 "[+1 Production] from every specialist [in this city]",
 "Only available <in cities without a [Oil Power Plant]>",
 "Only available <in cities without a [Nuclear Power Plant]>",
@@ -2258,7 +2257,7 @@
         "maintenance": 3,
         "uniques": [
 "Consumes [2] [Oil]",
-"Provides [8] [Power]"
+"Provides [8] [Power]",
 "[+1 Production] from every specialist [in this city]",
 "[+12 Production] from [Manufactory] tiles [in this city]",
 "[+12 Production] from [Hansa] tiles [in this city]",
@@ -2386,7 +2385,7 @@
         "name": "Aquatics Center",
         "cost": 480,
         "maintenance": 3,
-        "requiredBuilding": "Aquarium"
+        "requiredBuilding": "Aquarium",
         "uniques": [
 "Consumes [2] [Power]",
 "[+4 Happiness] from [Water Park] tiles [in this city]",
@@ -2404,7 +2403,7 @@
         "maintenance": 3,
         "uniques": [
 "Consumes [1] [Uranium]",
-"Provides [16] [Power]"
+"Provides [16] [Power]",
 "[+1 Production] from every specialist [in this city]",
 "[+16 Production, +12 Science] from [Manufactory] tiles [in this city]",
 "[+16 Production, +12 Science] from [Hansa] tiles [in this city]",
@@ -2442,10 +2441,10 @@
 		"name": "Cathedral",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+2 Culture, +3 Faith] from [Holy site] tiles [in this city]",
-"[+2 Culture, +3 Faith] from [Lavra] tiles [in this city]"
+"[+2 Culture, +3 Faith] from [Lavra] tiles [in this city]",
 "[+1 Faith] from every specialist [in this city]",
 "Never destroyed when the city is captured",
 "Unbuildable", 
@@ -2456,7 +2455,7 @@
 		"name": "Dar-e Mehr",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+5 Faith] from [Holy site] tiles [in this city]",
 "[+5 Faith] from [Lavra] tiles [in this city]",
@@ -2470,7 +2469,7 @@
 		"name": "Gurdwara",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+2 Food, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Food, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2484,7 +2483,7 @@
 		"name": "Meeting House",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+2 Production, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Production, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2498,7 +2497,7 @@
 		"name": "Mosque",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+3 Faith] from [Holy site] tiles [in this city]",
 "[+3 Faith] from [Lavra] tiles [in this city]",
@@ -2513,7 +2512,7 @@
 		"name": "Pagoda",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+3 Faith] from [Holy site] tiles [in this city]",
 "[+3 Faith] from [Lavra] tiles [in this city]",
@@ -2528,7 +2527,7 @@
 		"name": "Stupa",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+1 Happiness, +3 Faith] from [Holy site] tiles [in this city]",
 "[+1 Happiness, +3 Faith] from [Lavra] tiles [in this city]",
@@ -2542,7 +2541,7 @@
 		"name": "Synagogue",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+5 Faith] from [Holy site] tiles [in this city]",
 "[+5 Faith] from [Lavra] tiles [in this city]",
@@ -2556,7 +2555,7 @@
 		"name": "Wat",
 		"cost": 0,
 		"specialistSlots": {"Prophet": 1},
-            "requiredBuilding": "Holy Site District"
+            "requiredBuilding": "Holy Site District",
 		"uniques": [
 "[+2 Science, +3 Faith] from [Holy site] tiles [in this city]",
 "[+2 Science, +3 Faith] from [Lavra] tiles [in this city]",
@@ -3680,7 +3679,7 @@
 "[+1 Culture] from every [Campus District]",
 "[+1 Culture] from every [Commercial Hub District]",
 "[+1 Culture] from every [Encampment District]",
-"[+1 Culture] from every [Harbor District]"
+"[+1 Culture] from every [Harbor District]",
 "[+1 Culture] from every [Holy Site District]",
 "[+1 Culture] from every [Industrial Zone District]",
 "[+1 Culture] from every [Theatre Square District]",
@@ -3708,7 +3707,7 @@
 "Only available <after adopting [Civil Service]>",
 "Can only be built <in [in capital] cities",
 "Destroyed when the city is captured",
-"[+1 Happiness] [in all cities] <in cities with at least [10] [Population]>"
+"[+1 Happiness] [in all cities] <in cities with at least [10] [Population]>",
 "[10]% Food is carried over after population increases [in all cities] <in cities with at least [10] [Population]>",
 ],
 	},
@@ -5446,7 +5445,7 @@
 "Only available <with [Leader]>",
 "Destroyed when the city is captured",
 "Unsellable",
-"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost"
+"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost",
 "[+2 Faith] from every [City center] <with [1] to [6] neighboring [Coast] tiles>",
 "[+2 Faith] from every [City center] <with [1] to [6] neighboring [Lakes] tiles>",
 ],
