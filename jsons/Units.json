@@ -1,27 +1,26 @@
 [
-
-// Info according to https://www.civilopedia.net/en-US/gathering-storm (%bonus = bonus/15)
-
+	// Info according to https://www.civilopedia.net/en-US/gathering-storm (%bonus = bonus/15)
 	// Diplomatic units
 	{
 		"name": "Envoy",
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 1,
-		"uniques": ["Unbuildable", "Cannot be purchased"]
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased"
+		]
 	},
-
 	// Ancient Era 
-
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-"Can build [Land] improvements on tiles",
-"May create improvements on water resources",
-"Can build [Water] improvements on tiles",
-],
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+		],
 		"cost": 100
 	},
 	{
@@ -31,19 +30,24 @@
 		"cost": 50,
 		"requiredTech": "Sailing",
 		"uniques": [
-"Cannot enter ocean tiles <before discovering [Astronomy]>", 
-"May create improvements on water resources", 
-"Can build [Water] improvements on tiles",
-],
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+		],
 	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["[+1] Sight","Founds a new city", "Excess Food converted to Production when under construction", "Requires at least [2] population"]
+		"uniques": [
+			"[+1] Sight",
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		]
 	},
-/*
+	/*
 	{
 		"name": "Trader",
 		"unitType": "Civilian",
@@ -53,8 +57,7 @@
 		"uniques": ["Can construct [Trade Route (Domestic)]","Can construct [Trade Route (International)]","Trade Routes on Coastal cities provide +3 yield","Only available <after adopting [Foreign Trade]>"]
 	},
 */
-
-//Recon units
+	//Recon units
 	{
 		"name": "Scout",
 		"unitType": "Recon",
@@ -75,7 +78,9 @@
 		"cost": 40,
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Skirmisher",
-		"promotions": ["Ranger"],
+		"promotions": [
+			"Ranger"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -89,7 +94,10 @@
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Ranger",
-		"uniques": ["[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": [
+			"[-46]% Strength <vs cities> <when attacking>",
+			"[-46]% Strength <vs [Water] units> <when attacking>"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -105,7 +113,11 @@
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Ranger",
-		"uniques": ["[1] additional attacks per turn","[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[-46]% Strength <vs cities> <when attacking>",
+			"[-46]% Strength <vs [Water] units> <when attacking>"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -119,7 +131,10 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Spec Ops",
-		"uniques": ["[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": [
+			"[-46]% Strength <vs cities> <when attacking>",
+			"[-46]% Strength <vs [Water] units> <when attacking>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -135,7 +150,11 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Spec Ops",
-		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>","[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": [
+			"[+33]% Strength <when fighting in [Rough terrain] tiles>",
+			"[-46]% Strength <vs cities> <when attacking>",
+			"[-46]% Strength <vs [Water] units> <when attacking>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -147,13 +166,14 @@
 		"rangedStrength": 104,
 		"cost": 520,
 		"requiredTech": "Plastics",
-		"uniques": ["May Paradrop up to [7] tiles from inside friendly territory","[-46]% Strength <vs cities> <when attacking>","[-46]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": [
+			"May Paradrop up to [7] tiles from inside friendly territory",
+			"[-46]% Strength <vs cities> <when attacking>",
+			"[-46]% Strength <vs [Water] units> <when attacking>"
+		],
 		"attackSound": "machinegun"
 	},
-
-
-
-//Land Melee
+	//Land Melee
 	{
 		"name": "Nihang",
 		"uniqueTo": "Lahore",
@@ -162,7 +182,12 @@
 		"movement": 2,
 		"strength": 27,
 		"cost": 0,
-		"uniques": ["Unbuildable", "[+100]% Strength <if [Barracks] is constructed>", "[+100]% Strength <if [Armory] is constructed>","[+100]% Strength <if [Military Academy] is constructed>"],
+		"uniques": [
+			"Unbuildable",
+			"[+100]% Strength <if [Barracks] is constructed>",
+			"[+100]% Strength <if [Armory] is constructed>",
+			"[+100]% Strength <if [Military Academy] is constructed>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -185,7 +210,9 @@
 		"cost": 65,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Earn [200]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": [
+			"Earn [200]% of killed [Military] unit's [Strength] as [Gold]"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -198,7 +225,10 @@
 		"cost": 60,
 		"obsoleteTech": "Apprenticeship",
 		"upgradesTo": "Man-At-Arms",
-		"uniques": ["[+67]% Strength <vs [Military] units>","[+33]% Strength <vs cities>"],
+		"uniques": [
+			"[+67]% Strength <vs [Military] units>",
+			"[+33]% Strength <vs cities>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -225,7 +255,10 @@
 		"obsoleteTech": "Apprenticeship",
 		"requiredResource": "Iron",
 		"upgradesTo": "Man-At-Arms",
-		"uniques": ["[+33]% Strength <vs cities> <when attacking>","[+50]% to Flank Attack bonuses"],
+		"uniques": [
+			"[+33]% Strength <vs cities> <when attacking>",
+			"[+50]% to Flank Attack bonuses"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -254,7 +287,9 @@
 		"obsoleteTech": "Apprenticeship",
 		"requiredResource": "Iron",
 		"upgradesTo": "Man-At-Arms",
-		"uniques": ["Can build [Roman Fort] improvements on tiles"],
+		"uniques": [
+			"Can build [Roman Fort] improvements on tiles"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -269,7 +304,12 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Can see over obstacles","Double movement in [Forest]","Double movement in [Jungle]","[+67]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": [
+			"Can see over obstacles",
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"[+67]% Strength <vs [Ranged] units> <when defending>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -283,7 +323,10 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Apprenticeship",
 		"upgradesTo": "Man-At-Arms",
-		"uniques": ["Can build [Roman Fort] improvements on tiles","[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": [
+			"Can build [Roman Fort] improvements on tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -310,7 +353,11 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["[+2] Movement <when fighting in [Enemy Land] tiles>","[+67]% Strength <when attacking>","[-25]% Strength <vs [Melee] units> <when defending>"],
+		"uniques": [
+			"[+2] Movement <when fighting in [Enemy Land] tiles>",
+			"[+67]% Strength <when attacking>",
+			"[-25]% Strength <vs [Melee] units> <when defending>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -325,7 +372,10 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Double movement in [Hill]","[+47]% Strength <when fighting in [Hill] tiles>"],
+		"uniques": [
+			"Double movement in [Hill]",
+			"[+47]% Strength <when fighting in [Hill] tiles>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -339,7 +389,10 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Only available <after adopting [Feudalism]>","Damage is ignored when determining unit Strength"],
+		"uniques": [
+			"Only available <after adopting [Feudalism]>",
+			"Damage is ignored when determining unit Strength"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -366,7 +419,10 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Niter",
 		"upgradesTo": "Line Infantry",
-		"uniques": ["[+67]% Strength when stacked with [Inquisitor]","Can [Spread Religion] [1] times"],
+		"uniques": [
+			"[+67]% Strength when stacked with [Inquisitor]",
+			"Can [Spread Religion] [1] times"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -381,8 +437,14 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Niter",
 		"upgradesTo": "Line Infantry",
-		"promotions": ["Battlecry"],
-		"uniques": ["Only available <if [Suleiman] is constructed>", "Excess Food converted to Production when under construction","Requires at least [2] population"],
+		"promotions": [
+			"Battlecry"
+		],
+		"uniques": [
+			"Only available <if [Suleiman] is constructed>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -409,7 +471,10 @@
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Niter",
 		"upgradesTo": "Infantry",
-		"uniques": ["[+67]% Strength decreasing with distance from the capital","[Great General] is earned [100]% faster"],
+		"uniques": [
+			"[+67]% Strength decreasing with distance from the capital",
+			"[Great General] is earned [100]% faster"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -423,7 +488,11 @@
 		"obsoleteTech": "Replaceable Parts",
 		"requiredResource": "Niter",
 		"upgradesTo": "Infantry",
-		"uniques": ["Only available <if [Victoria] is constructed>", "[1] Movement point cost to disembark","[+67]% Strength <on foreign continents>"],
+		"uniques": [
+			"Only available <if [Victoria] is constructed>",
+			"[1] Movement point cost to disembark",
+			"[+67]% Strength <on foreign continents>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -449,7 +518,10 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Satellites",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["[+67]% Strength <when fighting in [Coastal] tiles>","[+33]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": [
+			"[+67]% Strength <when fighting in [Coastal] tiles>",
+			"[+33]% Strength <when fighting in [Foreign Land] tiles>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -462,7 +534,7 @@
 		"requiredResource": "Oil",
 		"attackSound": "shot"
 	},
-//Land Ranged
+	//Land Ranged
 	{
 		"name": "Slinger",
 		"unitType": "Land Ranged",
@@ -499,7 +571,9 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"],
+		"uniques": [
+			"[+33]% Strength <vs [Wounded] units> <when attacking>"
+		],
 	},
 	{
 		"name": "Pitati Archer",
@@ -527,7 +601,7 @@
 		"upgradesTo": "Field Cannon",
 		"attackSound": "arrow"
 	},
-{
+	{
 		"name": "Crouching Tiger",
 		"uniqueTo": "China",
 		"unitType": "Land Ranged",
@@ -565,7 +639,10 @@
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Machine Gun",
-		"uniques": ["Must set up to ranged attack","[-40]% maintenance costs"],
+		"uniques": [
+			"Must set up to ranged attack",
+			"[-40]% maintenance costs"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -578,7 +655,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"attackSound": "machinegun"
 	},
-//Anti-Cavalry
+	//Anti-Cavalry
 	{
 		"name": "Spearman",
 		"unitType": "Anti-Cavalry",
@@ -601,10 +678,12 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Military Tactics",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+67]% Strength <when adjacent to a [Hoplite] unit>"],
+		"uniques": [
+			"[+67]% Strength <when adjacent to a [Hoplite] unit>"
+		],
 		"attackSound": "metalhit"
 	},
-{
+	{
 		"name": "Pikeman",
 		"unitType": "Anti-Cavalry",
 		"movement": 2,
@@ -626,7 +705,11 @@
 		"requiredTech": "Military Tactics",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Pike and Shot",
-		"uniques": ["[+25]% XP gained from combat","[+100]% to Flank Attack bonuses","[-67]% maintenance costs"],
+		"uniques": [
+			"[+25]% XP gained from combat",
+			"[+100]% to Flank Attack bonuses",
+			"[-67]% maintenance costs"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -651,7 +734,9 @@
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "AT Crew",
-		"uniques": ["[-25]% maintenance costs"],
+		"uniques": [
+			"[-25]% maintenance costs"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -674,7 +759,7 @@
 		"requiredTech": "Composites",
 		"attackSound": "shot"
 	},
-//Light Cavalry
+	//Light Cavalry
 	{
 		"name": "Horseman",
 		"unitType": "Light Cavalry",
@@ -725,7 +810,10 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Double movement in [Hill]","[+1] Sight"],
+		"uniques": [
+			"Double movement in [Hill]",
+			"[+1] Sight"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -752,7 +840,10 @@
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Horses",
 		"upgradesTo": "Helicopter",
-		"uniques": ["[+33]% Strength <when fighting in [Friendly Land] tiles>","Can move after attacking"],
+		"uniques": [
+			"[+33]% Strength <when fighting in [Friendly Land] tiles>",
+			"Can move after attacking"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -769,7 +860,6 @@
 		"upgradesTo": "Helicopter",
 		"attackSound": "horse"
 	},
-
 	{
 		"name": "Llanero",
 		"uniqueTo": "Gran Colombia",
@@ -782,7 +872,10 @@
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Horses",
 		"upgradesTo": "Helicopter",
-		"uniques": ["[+40]% Strength <when adjacent to a [Llanero] unit>","[-60]% maintenance costs"],
+		"uniques": [
+			"[+40]% Strength <when adjacent to a [Llanero] unit>",
+			"[-60]% maintenance costs"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -795,17 +888,25 @@
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["[+33]% Strength <when fighting in [Foreign Land] tiles>","No movement cost to pillage"],
+		"uniques": [
+			"[+33]% Strength <when fighting in [Foreign Land] tiles>",
+			"No movement cost to pillage"
+		],
 		"attackSound": "horse"
 	},
-{
+	{
 		"name": "Mountie",
 		"uniqueTo": "Canada",
 		"unitType": "Light Cavalry",
 		"movement": 5,
 		"strength": 93,
 		"cost": 290,
-		"uniques": ["Only available <after adopting [Conservation]>","[+2] Sight","[+33]% Strength <within [2] tiles of a [Preserve]>","Can instantly construct a [Preserve] improvement <by consuming this unit>"],
+		"uniques": [
+			"Only available <after adopting [Conservation]>",
+			"[+2] Sight",
+			"[+33]% Strength <within [2] tiles of a [Preserve]>",
+			"Can instantly construct a [Preserve] improvement <by consuming this unit>"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -816,10 +917,13 @@
 		"cost": 600,
 		"requiredTech": "Synthetic Materials",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+1] Sight","All tiles cost 1 movement"],
+		"uniques": [
+			"[+1] Sight",
+			"All tiles cost 1 movement"
+		],
 		"attackSound": "machinegun"
 	},
-//Heavy Cavalry
+	//Heavy Cavalry
 	{
 		"name": "War-Cart",
 		"uniqueTo": "Sumeria",
@@ -827,7 +931,10 @@
 		"movement": 3,
 		"strength": 29,
 		"cost": 55,
-		"uniques": ["[+67]% Strength <vs [Anti-Cavalry] units>", "[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": [
+			"[+67]% Strength <vs [Anti-Cavalry] units>",
+			"[+1] Movement <in [Open terrain] tiles>"
+		],
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Stirrups",
 		"attackSound": "horse"
@@ -844,8 +951,13 @@
 		"obsoleteTech": "Castles",
 		"requiredResource": "Horses",
 		"upgradesTo": "Courser",
-		"promotions": ["Charge"],
-		"uniques": ["[Great General] is earned [100]% faster", "[+33]% Strength when stacked with [Great General] <when attacking>"],
+		"promotions": [
+			"Charge"
+		],
+		"uniques": [
+			"[Great General] is earned [100]% faster",
+			"[+33]% Strength when stacked with [Great General] <when attacking>"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -857,7 +969,9 @@
 		"requiredTech": "Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Stirrups",
-		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": [
+			"[+1] Movement <in [Open terrain] tiles>"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -870,7 +984,9 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Tank",
-		"uniques": ["[-25]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": [
+			"[-25]% Strength for enemy [Military] units in adjacent [All] tiles"
+		],
 		"attackSound": "elephant"
 	},
 	{
@@ -884,7 +1000,9 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Iron",
 		"upgradesTo": "Tank",
-		"uniques": ["Only available <after adopting [Mercantilism]>"],
+		"uniques": [
+			"Only available <after adopting [Mercantilism]>"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -911,7 +1029,9 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -926,7 +1046,9 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -940,7 +1062,10 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["Only available <after adopting [Divine Right]> <if [Basil II] is constructed>","[+27]% Strength bonus for [Military] units within [1] tiles"],
+		"uniques": [
+			"Only available <after adopting [Divine Right]> <if [Basil II] is constructed>",
+			"[+27]% Strength bonus for [Military] units within [1] tiles"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -954,7 +1079,12 @@
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Tank",
-		"uniques": ["Only available <if [Rough Rider Teddy Roosevelt] is constructed>", "[+67]% Strength <when fighting in [Hill] tiles>","Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>","[-60]% maintenance costs"],
+		"uniques": [
+			"Only available <if [Rough Rider Teddy Roosevelt] is constructed>",
+			"[+67]% Strength <when fighting in [Hill] tiles>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture] <when fighting in [Friendly Land] tiles>",
+			"[-60]% maintenance costs"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -979,7 +1109,9 @@
 		"obsoleteTech": "Composites",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": [
+			"[+1] Movement <in [Open terrain] tiles>"
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -990,10 +1122,12 @@
 		"cost": 680,
 		"requiredTech": "Composites",
 		"requiredResource": "Oil",
-		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": [
+			"[+1] Movement <in [Open terrain] tiles>"
+		],
 		"attackSound": "tankshot"
 	},
-//Ranged Cavalry
+	//Ranged Cavalry
 	{
 		"name": "Keshig",
 		"uniqueTo": "Mongolia",
@@ -1005,7 +1139,9 @@
 		"requiredTech": "Stirrups",
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Field Cannon",
-		"uniques": ["Ignores Zone of Control"],
+		"uniques": [
+			"Ignores Zone of Control"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -1020,7 +1156,9 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Ignores Zone of Control"],
+		"uniques": [
+			"Ignores Zone of Control"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -1034,10 +1172,13 @@
 		"requiredTech": "Wheel",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["[+2] Movement <in [Open terrain] tiles>", "Ignores Zone of Control"],
+		"uniques": [
+			"[+2] Movement <in [Open terrain] tiles>",
+			"Ignores Zone of Control"
+		],
 		"attackSound": "arrow"
 	},
-//GDR
+	//GDR
 	{
 		"name": "Giant Death Robot",
 		"unitType": "GDR",
@@ -1049,10 +1190,15 @@
 		"cost": 1500,
 		"requiredTech": "Robotics",
 		"requiredResource": "Uranium",
-		"uniques": ["[+1] Sight","[100]% chance to intercept air attacks","[-73]% Damage when intercepting","[-100]% XP gained from combat"],
+		"uniques": [
+			"[+1] Sight",
+			"[100]% chance to intercept air attacks",
+			"[-73]% Damage when intercepting",
+			"[-100]% XP gained from combat"
+		],
 		"attackSound": "gdrAttack"
 	},
-//Siege
+	//Siege
 	{
 		"name": "Catapult",
 		"unitType": "Siege",
@@ -1063,7 +1209,9 @@
 		"requiredTech": "Engineering",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Bombard",
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": [
+			"Must set up to ranged attack"
+		],
 		"attackSound": "throw"
 	},
 	{
@@ -1076,7 +1224,9 @@
 		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bombard",
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": [
+			"Must set up to ranged attack"
+		],
 		"attackSound": "throw"
 	},
 	{
@@ -1104,7 +1254,9 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Niter",
 		"upgradesTo": "Artillery",
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": [
+			"Must set up to ranged attack"
+		],
 		"attackSound": "cannon"
 	},
 	{
@@ -1118,7 +1270,9 @@
 		"obsoleteTech": "Guidance Systems",
 		"requiredResource": "Oil",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": [
+			"Must set up to ranged attack"
+		],
 		"attackSound": "artillery"
 	},
 	{
@@ -1131,21 +1285,26 @@
 		"cost": 680,
 		"requiredTech": "Guidance Systems",
 		"requiredResource": "Oil",
-		"uniques": ["[+1] Sight","Must set up to ranged attack"],
+		"uniques": [
+			"[+1] Sight",
+			"Must set up to ranged attack"
+		],
 		"attackSound": "artillery"
 	},
-//Warrior Monk
+	//Warrior Monk
 	{
 		"name": "Warrior Monk",
 		"unitType": "Warrior Monk",
 		"movement": 3,
 		"strength": 42,
 		"cost": -1,
-		"uniques": ["Unbuildable"],
+		"uniques": [
+			"Unbuildable"
+		],
 		"religiousStrength": 1000,
 		"attackSound": "nonmetalhit"
 	},
-//Naval Melee
+	//Naval Melee
 	{
 		"name": "Galley",
 		"unitType": "Naval Melee",
@@ -1153,7 +1312,9 @@
 		"strength": 29,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Cartography]>"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -1167,7 +1328,9 @@
 		"strength": 35,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Cartography]>"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -1181,7 +1344,12 @@
 		"strength": 35,
 		"cost": 65,
 		"requiredTech": "Sailing",
-		"uniques": ["[+1] Movement <in [Coast] tiles>", "Ignores Zone of Control","Eliminates combat penalty for attacking across a coast","Cannot enter ocean tiles <before discovering [Shipbuilding]>"],
+		"uniques": [
+			"[+1] Movement <in [Coast] tiles>",
+			"Ignores Zone of Control",
+			"Eliminates combat penalty for attacking across a coast",
+			"Cannot enter ocean tiles <before discovering [Shipbuilding]>"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Cartography",
 		"attackSound": "nonmetalhit"
@@ -1195,7 +1363,9 @@
 		"requiredTech": "Cartography",
 		"obsoleteTech": "Steam Power",
 		"upgradesTo": "Ironclad",
-		"uniques": ["[+1] Sight"],
+		"uniques": [
+			"[+1] Sight"
+		],
 		"attackSound": "cannon"
 	},
 	{
@@ -1208,7 +1378,9 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Destroyer",
 		"requiredResource": "Coal",
-		"uniques": ["[+1] Sight"],
+		"uniques": [
+			"[+1] Sight"
+		],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1220,10 +1392,15 @@
 		"cost": 540,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"uniques": ["[+1] Sight","Can see invisible [Naval Raider] units","[100]% chance to intercept air attacks","[+33]% Strength <vs [Air] units>"],
+		"uniques": [
+			"[+1] Sight",
+			"Can see invisible [Naval Raider] units",
+			"[100]% chance to intercept air attacks",
+			"[+33]% Strength <vs [Air] units>"
+		],
 		"attackSound": "shipguns"
 	},
-//Naval Ranged
+	//Naval Ranged
 	{
 		"name": "Quadrireme",
 		"unitType": "Naval Ranged",
@@ -1235,7 +1412,9 @@
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Cartography]>"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -1251,7 +1430,11 @@
 		"requiredTech": "Shipbuilding",
 		"obsoleteTech": "Square Rigging",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Cartography]>","[+67]% Strength <vs [Land] units>","[+67]% Strength <vs [Water] units>"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Cartography]>",
+			"[+67]% Strength <vs [Land] units>",
+			"[+67]% Strength <vs [Water] units>"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -1281,7 +1464,9 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Niter",
 		"upgradesTo": "Battleship",
-		"uniques": ["[+47]% Strength <vs cities>"],
+		"uniques": [
+			"[+47]% Strength <vs cities>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1295,7 +1480,11 @@
 		"cost": 300,
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Battleship",
-		"uniques": ["Only available <after adopting [Mercenaries]>", "Transfer Movement to [Civilian]","[+33]% Strength when stacked with [Civilian]"],
+		"uniques": [
+			"Only available <after adopting [Mercenaries]>",
+			"Transfer Movement to [Civilian]",
+			"[+33]% Strength when stacked with [Civilian]"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1311,7 +1500,10 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Coal",
 		"upgradesTo": "Missile Cruiser",
-		"uniques": ["[100]% chance to intercept air attacks","[+200]% Strength <vs [Air] units>"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Air] units>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1328,7 +1520,11 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Coal",
 		"upgradesTo": "Missile Cruiser",
-		"uniques": ["Only available <after adopting [Nationalism]>","[100]% chance to intercept air attacks","[+167]% Strength <vs [Air] units>"],
+		"uniques": [
+			"Only available <after adopting [Nationalism]>",
+			"[100]% chance to intercept air attacks",
+			"[+167]% Strength <vs [Air] units>"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1342,10 +1538,15 @@
 		"cost": 680,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[+1] Sight","Can carry [2] [Missile] units","[100]% chance to intercept air attacks","[+133]% Strength <vs [Air] units>"],
+		"uniques": [
+			"[+1] Sight",
+			"Can carry [2] [Missile] units",
+			"[100]% chance to intercept air attacks",
+			"[+133]% Strength <vs [Air] units>"
+		],
 		"attackSound": "shot"
 	},
-//Naval Raider
+	//Naval Raider
 	{
 		"name": "Privateer",
 		"unitType": "Naval Raider",
@@ -1355,7 +1556,10 @@
 		"cost": 280,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Mercantilism]>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Only available <after adopting [Mercantilism]>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "cannon"
 	},
 	{
@@ -1369,7 +1573,12 @@
 		"cost": 240,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Medieval Faires]>","No movement cost to pillage","Never appears as a Barbarian unit","[-25]% maintenance costs"],
+		"uniques": [
+			"Only available <after adopting [Medieval Faires]>",
+			"No movement cost to pillage",
+			"Never appears as a Barbarian unit",
+			"[-25]% maintenance costs"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1383,7 +1592,11 @@
 		"cost": 240,
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
-		"uniques": ["Only available <after adopting [Mercantilism]>","May capture killed [Water] units","Never appears as a Barbarian unit"],
+		"uniques": [
+			"Only available <after adopting [Mercantilism]>",
+			"May capture killed [Water] units",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1411,7 +1624,10 @@
 		"requiredTech": "Electricity",
 		"obsoleteTech": "Telecommunications",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+1] Sight", "[+67]% Strength <when fighting in [Ocean] tiles>"],
+		"uniques": [
+			"[+1] Sight",
+			"[+67]% Strength <when fighting in [Ocean] tiles>"
+		],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1422,23 +1638,26 @@
 		"rangedStrength": 216,
 		"cost": 680,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Can carry [2] [Missile] units"],
-		"attackSound": "torpedo"
+		"uniques": [
+			"Can carry [2] [Missile] units"
+		],
 		"requiredResource": "Uranium",
 		"attackSound": "torpedo"
-	},	
-//Naval Carrier
+	},
+	//Naval Carrier
 	{
 		"name": "Aircraft Carrier",
 		"unitType": "Naval Carrier",
 		"movement": 3,
-		"strength": 104
+		"strength": 104,
 		"cost": 540,
 		"requiredTech": "Combined Arms",
-		"uniques": ["Can carry [2] [Aircraft] units"],
+		"uniques": [
+			"Can carry [2] [Aircraft] units"
+		],
 		"attackSound": "shipguns"
 	},
-//Air Fighter
+	//Air Fighter
 	{
 		"name": "Biplane",
 		"unitType": "Air Fighter",
@@ -1448,11 +1667,13 @@
 		"strength": 180,
 		"rangedStrength": 150,
 		"cost": 430,
-		"requiredTech": "Flight", 
+		"requiredTech": "Flight",
 		"obsoleteTech": "Advanced Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
-		"uniques": ["[+2] Sight"],
+		"uniques": [
+			"[+2] Sight"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1468,7 +1689,9 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[+2] Sight"],
+		"uniques": [
+			"[+2] Sight"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1486,7 +1709,11 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[+2] Sight","[+50]% XP gained from combat","[+33]% Strength <vs [Air Fighter] units>"],
+		"uniques": [
+			"[+2] Sight",
+			"[+50]% XP gained from combat",
+			"[+33]% Strength <vs [Air Fighter] units>"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1500,10 +1727,12 @@
 		"cost": 650,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+3] Sight"],
+		"uniques": [
+			"[+3] Sight"
+		],
 		"attackSound": "bombing"
 	},
-//Air Bomber
+	//Air Bomber
 	{
 		"name": "Bomber",
 		"unitType": "Air Bomber",
@@ -1516,7 +1745,9 @@
 		"obsoleteTech": "Stealth Technology",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Bomber",
-		"uniques": ["[+2] Sight"],
+		"uniques": [
+			"[+2] Sight"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1529,10 +1760,12 @@
 		"cost": 700,
 		"requiredTech": "Stealth Technology",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+3] Sight"],
+		"uniques": [
+			"[+3] Sight"
+		],
 		"attackSound": "shot"
 	},
-//Support
+	//Support
 	{
 		"name": "Medic",
 		"unitType": "Civilian",
@@ -1541,7 +1774,9 @@
 		"requiredTech": "Sanitation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Supply Convoy",
-		"uniques": ["All adjacent units heal [+20] HP when healing"],
+		"uniques": [
+			"All adjacent units heal [+20] HP when healing"
+		],
 	},
 	{
 		"name": "Supply Convoy",
@@ -1549,24 +1784,32 @@
 		"movement": 4,
 		"cost": 450,
 		"requiredTech": "Combustion",
-		"uniques": ["All adjacent units heal [+20] HP when healing"],
+		"uniques": [
+			"All adjacent units heal [+20] HP when healing"
+		],
 	},
-      {
+	{
 		"name": "Observation Balloon",
 		"unitType": "Civilian",
 		"requiredTech": "Flight",
 		"obsoleteTech": "Computers",
 		"movement": 2,
 		"cost": 240,
-		"uniques": ["[+1] Sight", "Can see over obstacles"],
+		"uniques": [
+			"[+1] Sight",
+			"Can see over obstacles"
+		],
 	},
-      {
+	{
 		"name": "Drone",
 		"unitType": "Civilian",
 		"requiredTech": "Computers",
 		"movement": 3,
 		"cost": 420,
-		"uniques": ["[+3] Sight", "Can see over obstacles"],
+		"uniques": [
+			"[+3] Sight",
+			"Can see over obstacles"
+		],
 	},
 	{
 		"name": "Anti-Air Gun",
@@ -1578,7 +1821,10 @@
 		"requiredTech": "Advanced Ballistics",
 		"obsoleteTech": "Guidance Systems",
 		"upgradesTo": "Mobile SAM",
-		"uniques": ["[100]% chance to intercept air attacks","[-100]% Strength <vs [{Melee} {Land}] units>"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[-100]% Strength <vs [{Melee} {Land}] units>"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1589,10 +1835,13 @@
 		"strength": 374,
 		"cost": 590,
 		"requiredTech": "Guidance Systems",
-		"uniques": ["[100]% chance to intercept air attacks","[-100]% Strength <vs [{Melee} {Land}] units>"],
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[-100]% Strength <vs [{Melee} {Land}] units>"
+		],
 		"attackSound": "missile"
 	},
-//Nuclear Device
+	//Nuclear Device
 	{
 		"name": "Atomic Bomb",
 		"unitType": "Nuclear Device",
@@ -1602,7 +1851,10 @@
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Nuclear weapon of Strength [1]","Blast radius [1]"],
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]"
+		],
 		"requiredResource": "Uranium",
 		"attackSound": "nuke"
 	},
@@ -1615,67 +1867,116 @@
 		"range": 15,
 		"cost": 1000,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Nuclear weapon of Strength [2]","Blast radius [2]"],
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]"
+		],
 		"requiredResource": "Uranium",
 		"attackSound": "nuke"
 	},
-//Great Person
+	//Great Person
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]","Unbuildable","Uncapturable"],
+		"uniques": [
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 4
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research","Great Person - [Science]","Unbuildable","Uncapturable"],
+		"uniques": [
+			"Can hurry technology research",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 4
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Great Person - [Gold]","Unbuildable","Uncapturable"],
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 4
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building","Great Person - [Production]","Unbuildable","Uncapturable"],
+		"uniques": [
+			"Can speed up construction of a building",
+			"Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 4
 	},
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
-			"Takes your religion over the one in their birth city", "Uncapturable"],
+		"uniques": [
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city",
+			"Uncapturable"
+		],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
 	{
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
-		"uniques": ["All adjacent units heal [+15] HP when healing", "[+33]% Strength bonus for [Water] units within [2] tiles","Great Person - [Food]", "Unbuildable","Uncapturable"],
+		"uniques": [
+			"All adjacent units heal [+15] HP when healing",
+			"[+33]% Strength bonus for [Water] units within [2] tiles",
+			"Great Person - [Food]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 8
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+33]% Strength bonus for [Land] units within [2] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 4
 	},
 	{
 		"name": "Commandante General",
 		"unitType": "Civilian",
 		"uniqueTo": "Gran Colombia",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[33]% Strength bonus for [Land] units within [2] tiles","Great Person - [War]", "Unbuildable","Uncapturable"],
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[33]% Strength bonus for [Land] units within [2] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
 		"movement": 4
 	},
-
-//Spacesip Part
+	//Spacesip Part
 	{
 		"name": "SS Booster",
 		"unitType": "Civilian",
@@ -1683,7 +1984,14 @@
 		"cost": 1500,
 		"requiredTech": "Satellites",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Spaceport] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Only available <if [Spaceport] is constructed>",
+			"Uncapturable",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [3] per Civilization"
+		]
 	},
 	{
 		"name": "SS Cockpit",
@@ -1692,7 +2000,14 @@
 		"cost": 1800,
 		"requiredTech": "Robotics",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Uncapturable",
+			"Only available <if [Spaceport] is constructed>",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		]
 	},
 	{
 		"name": "SS Engine",
@@ -1701,8 +2016,14 @@
 		"cost": 2100,
 		"requiredTech": "Offworld Mission",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Uncapturable",
+			"Only available <if [Spaceport] is constructed>",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		]
 	},
 	{
 		"name": "SS Stasis Chamber",
@@ -1711,27 +2032,42 @@
 		"cost": 1800,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Only available <if [Spaceport] is constructed>", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		"uniques": [
+			"Spaceship part",
+			"Cannot be purchased",
+			"Uncapturable",
+			"Only available <if [Spaceport] is constructed>",
+			"Can be added to [The Spaceship] in the Capital",
+			"Limited to [1] per Civilization"
+		]
 	},
-//Religious
+	//Religious
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
 		"uniques": [
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
 	{
 		"name": "Inquisitor",
 		"unitType": "Civilian",
-		"uniques": ["Prevents spreading of religion to the city it is next to",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
 		],
 		"movement": 3
 	},
@@ -1740,15 +2076,22 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": -1,
-		"uniques": ["Unbuildable", "Can instantly construct a [Preserve] improvement <by consuming this unit>", "[+1] Sight"],
+		"uniques": [
+			"Unbuildable",
+			"Can instantly construct a [Preserve] improvement <by consuming this unit>",
+			"[+1] Sight"
+		],
 	},
-//Other
+	//Other
 	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 133,
-		"uniques": ["Only available <after adopting [Natural History]>","Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>"],
+		"uniques": [
+			"Only available <after adopting [Natural History]>",
+			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>"
+		],
 	},
 	{
 		"name": "Spy",
@@ -1757,13 +2100,13 @@
 		"cost": 225,
 		"requiredResource": "Spies",
 		"uniques": [
-"Only available <after adopting [Diplomatic Service]>",
-"Invisible to non-adjacent units",
-"[+1] Sight",
-"May enter foreign tiles without open borders",
-"Uncapturable",
-"Cannot be purchased",
-]
+			"Only available <after adopting [Diplomatic Service]>",
+			"Invisible to non-adjacent units",
+			"[+1] Sight",
+			"May enter foreign tiles without open borders",
+			"Uncapturable",
+			"Cannot be purchased",
+		]
 	},
 	{
 		"name": "Polder Builder",
@@ -1771,7 +2114,11 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["Only available <after adopting [Guilds]>","Can build [Polder] improvements on tiles", "Cannot enter ocean tiles <before discovering [Astronomy]>", "Uncapturable"]
+		"uniques": [
+			"Only available <after adopting [Guilds]>",
+			"Can build [Polder] improvements on tiles",
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Uncapturable"
+		]
 	},
-
 ]
