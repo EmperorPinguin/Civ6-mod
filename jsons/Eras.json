@@ -1,5 +1,5 @@
 [
-	{
+    {
         "name": "Ancient era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
@@ -11,8 +11,14 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
-        "iconRGB": [255, 87, 35],
-        "uniques": ["May not generate great prophet equivalents naturally"]
+        "iconRGB": [
+            255,
+            87,
+            35
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally"
+        ]
     },
     {
         "name": "Classical era",
@@ -27,8 +33,14 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
-        "iconRGB": [233, 31, 99],
-        "uniques": ["May not generate great prophet equivalents naturally"]
+        "iconRGB": [
+            233,
+            31,
+            99
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally"
+        ]
     },
     {
         "name": "Medieval era",
@@ -40,12 +52,20 @@
         "startingGold": 210,
         "startingCulture": 2005,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument"],
+        "settlerBuildings": [
+            "Monument"
+        ],
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 25,
-        "iconRGB": [157, 39, 176],
-        "uniques": ["May not generate great prophet equivalents naturally"]
+        "iconRGB": [
+            157,
+            39,
+            176
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally"
+        ]
     },
     {
         "name": "Renaissance era",
@@ -57,12 +77,22 @@
         "startingGold": 250,
         "startingCulture": 5400,
         "settlerPopulation": 7,
-        "settlerBuildings": ["Monument","Granary","Ancient Walls"],
+        "settlerBuildings": [
+            "Monument",
+            "Granary",
+            "Ancient Walls"
+        ],
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
         "startPercent": 37,
-        "iconRGB": [104, 58, 183],
-        "uniques": ["May not generate great prophet equivalents naturally"]
+        "iconRGB": [
+            104,
+            58,
+            183
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally"
+        ]
     },
     {
         "name": "Industrial era",
@@ -74,12 +104,21 @@
         "startingGold": 350,
         "startingCulture": 10420,
         "settlerPopulation": 7,
-        "settlerBuildings": ["Monument","Granary","Ancient Walls"],
+        "settlerBuildings": [
+            "Monument",
+            "Granary",
+            "Ancient Walls"
+        ],
         "baseUnitBuyCost": 400,
         "embarkDefense": 10,
         "startPercent": 50,
-        "iconRGB": [63, 81, 182],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "iconRGB": [
+            63,
+            81,
+            182
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion"
         ]
@@ -94,12 +133,22 @@
         "startingGold": 460,
         "startingCulture": 19275,
         "settlerPopulation": 10,
-        "settlerBuildings": ["Monument","Granary","Ancient Walls","Medieval Walls"],
+        "settlerBuildings": [
+            "Monument",
+            "Granary",
+            "Ancient Walls",
+            "Medieval Walls"
+        ],
         "baseUnitBuyCost": 600,
         "embarkDefense": 13,
         "startPercent": 65,
-        "iconRGB": [33, 150, 243],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "iconRGB": [
+            33,
+            150,
+            243
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion"
         ]
@@ -114,12 +163,23 @@
         "startingGold": 550,
         "startingCulture": 36285,
         "settlerPopulation": 10,
-        "settlerBuildings": ["Monument","Granary","Ancient Walls","Medieval Walls","Renaissance Walls"],
+        "settlerBuildings": [
+            "Monument",
+            "Granary",
+            "Ancient Walls",
+            "Medieval Walls",
+            "Renaissance Walls"
+        ],
         "baseUnitBuyCost": 800,
         "embarkDefense": 16,
         "startPercent": 65,
-        "iconRGB": [0, 150, 136],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "iconRGB": [
+            0,
+            150,
+            136
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion"
         ]
@@ -134,19 +194,31 @@
         "startingGold": 710,
         "startingCulture": 48835,
         "settlerPopulation": 13,
-        "settlerBuildings": ["Monument","Granary","Ancient Walls","Medieval Walls","Renaissance Walls","Sewer"],
+        "settlerBuildings": [
+            "Monument",
+            "Granary",
+            "Ancient Walls",
+            "Medieval Walls",
+            "Renaissance Walls",
+            "Sewer"
+        ],
         "baseUnitBuyCost": 1000,
         "embarkDefense": 20,
         "startPercent": 80,
-        "iconRGB": [76, 176, 81],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "iconRGB": [
+            76,
+            176,
+            81
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion"
         ]
     },
     { // Technically, this Era doesn't exist in the original game. 
-      // But as it is _really_ usefull to have for testing, I'd like to keep it. 
-      // The stats are just copy-pasted from the information era.
+        // But as it is _really_ usefull to have for testing, I'd like to keep it. 
+        // The stats are just copy-pasted from the information era.
         "name": "Future era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 4,
@@ -156,12 +228,24 @@
         "startingGold": 710,
         "startingCulture": 70250,
         "settlerPopulation": 13,
-        "settlerBuildings": ["Monument","Granary","Ancient Walls","Medieval Walls","Renaissance Walls","Sewer"],
+        "settlerBuildings": [
+            "Monument",
+            "Granary",
+            "Ancient Walls",
+            "Medieval Walls",
+            "Renaissance Walls",
+            "Sewer"
+        ],
         "baseUnitBuyCost": 1000,
         "embarkDefense": 20,
         "startPercent": 80,
-        "iconRGB": [76, 176, 81],
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "iconRGB": [
+            76,
+            176,
+            81
+        ],
+        "uniques": [
+            "May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Starting in this era disables religion"
         ]
