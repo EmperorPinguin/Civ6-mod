@@ -2,13 +2,15 @@
 	{
 		"name": "Civic Tree",
 		"era": "Ancient era",
-		"uniques": ["Each city founded increases culture cost of policies [100]% less than normal","Free Social Policy"],
+		"uniques": [
+			"Each city founded increases culture cost of policies [100]% less than normal",
+			"Free Social Policy"
+		],
 		"policies": [
-
-// Row 1s 
+			// Row 1s 
 			{
 				"name": "Craftsmanship",
-				"uniques":[
+				"uniques": [
 "Governments enabled:
 * Chiefdom
 Policies enabled:
@@ -16,20 +18,24 @@ Policies enabled:
 * Agoge 
 Tile improvements enabled:
 *Chemamull
-*Sphinx ",
-"[-25]% Culture cost of adopting new Policies"],
-				"requires": ["Code of Laws"],
+*Sphinx ","[-25]% Culture cost of adopting new Policies"
+				],
+				"requires": [
+					"Code of Laws"
+				],
 				"row": 1,
 				"column": 3
 			},
 			{
-				"name": "Military Tradition", 
+				"name": "Military Tradition",
 				"uniques": [
 "Policies enabled:
 * Maneuver
-* Strategos ",
-"[-25]% Culture cost of adopting new Policies"],
-				"requires": ["Craftsmanship"],
+* Strategos ","[-25]% Culture cost of adopting new Policies"
+				],
+				"requires": [
+					"Craftsmanship"
+				],
 				"row": 1,
 				"column": 5
 			},
@@ -46,10 +52,11 @@ Wonders enabled:
 * Colosseum
 Buildings enabled:
 * Arena
-* Tlachtli ",
-"[-10]% Culture cost of adopting new Policies",
-],
-				"requires": ["State Workforce"],
+* Tlachtli ","[-10]% Culture cost of adopting new Policies",
+				],
+				"requires": [
+					"State Workforce"
+				],
 				"row": 1,
 				"column": 9
 			},
@@ -61,10 +68,12 @@ Buildings enabled:
 * Veterancy
 * Equestrian Orders
 Wonder enabled: 
-* Statue of Zeus ",
-"Free [Envoy] appears",
-],
-				"requires": ["Games and Recreation","Military Tradition"],
+* Statue of Zeus ","Free [Envoy] appears",
+				],
+				"requires": [
+					"Games and Recreation",
+					"Military Tradition"
+				],
 				"row": 1,
 				"column": 11
 			},
@@ -73,10 +82,11 @@ Wonder enabled:
 				"uniques": [
 "Policies enabled: 
 * Naval Tradition
-* Navigation ",
-"Free [Envoy] appears",
-],
-				"requires": ["Defensive Tactics"],
+* Navigation ","Free [Envoy] appears",
+				],
+				"requires": [
+					"Defensive Tactics"
+				],
 				"row": 1,
 				"column": 15
 			},
@@ -88,10 +98,12 @@ Wonder enabled:
 * Sack
 * Trade Confederacy
 Units enabled:
-* Jong ",
-"Free [Envoy] appears",
-],
-				"requires": ["Feudalism","Military Training"],
+* Jong ","Free [Envoy] appears",
+				],
+				"requires": [
+					"Feudalism",
+					"Military Training"
+				],
 				"row": 1,
 				"column": 17
 			},
@@ -108,8 +120,11 @@ Policies obsolete:
 * Survey
 * Discipline
 * Urban Planning ",
-],
-				"requires": ["Mercenaries","Medieval Faires"],
+				],
+				"requires": [
+					"Mercenaries",
+					"Medieval Faires"
+				],
 				"row": 1,
 				"column": 21
 			},
@@ -127,8 +142,10 @@ Units enabled:
 * Sea Dog
 Camp:
 * +1 Food, +1 Production ",
-],
-				"requires": ["Humanism"],
+				],
+				"requires": [
+					"Humanism"
+				],
 				"row": 1,
 				"column": 25
 			},
@@ -141,10 +158,11 @@ Camp:
 Policies obsolete:
 * Maritime Industries
 Tile improvement enabled:
-* Ice Hockey Rink ",
-"[2] free [Envoy] units appear", 
-], 
-				"requires": ["Mercantilism"],
+* Ice Hockey Rink ","[2] free [Envoy] units appear",
+				],
+				"requires": [
+					"Mercantilism"
+				],
 				"row": 1,
 				"column": 27
 			},
@@ -168,10 +186,11 @@ Buildings enabled:
 Sphinx:
 * +1 Culture
 Ziggurat:
-* +1 Culture",
-"[2] free [Envoy] units appear", 
-],
-				"requires": ["Colonialism"],
+* +1 Culture","[2] free [Envoy] units appear",
+				],
+				"requires": [
+					"Colonialism"
+				],
 				"row": 1,
 				"column": 31
 			},
@@ -186,10 +205,12 @@ Units enabled:
 Forest:
 * May be planted
 Mekewap:
-* +1 Food for every 2 adjacent Mekewaps ",
-"[3] free [Envoy] units appear",
-],
-				"requires": ["Natural History","Urbanization"],
+* +1 Food for every 2 adjacent Mekewaps ","[3] free [Envoy] units appear",
+				],
+				"requires": [
+					"Natural History",
+					"Urbanization"
+				],
 				"row": 1,
 				"column": 33
 			},
@@ -203,10 +224,11 @@ Policies Obsolete:
 * Trade Confederation
 * Traveling Merchants
 Buildings enabled:
-* Shopping Mall ",
-"[3] free [Envoy] units appear",
-],
-				"requires": ["Mass Media"],
+* Shopping Mall ","[3] free [Envoy] units appear",
+				],
+				"requires": [
+					"Mass Media"
+				],
 				"row": 1,
 				"column": 35
 			},
@@ -226,8 +248,10 @@ Policies obsolete:
 * Naval Infrastructure
 * Town Charters
 * Wisselbanken ",
-],
-				"requires": ["Ideology"],
+				],
+				"requires": [
+					"Ideology"
+				],
 				"row": 1,
 				"column": 37
 			},
@@ -241,13 +265,14 @@ Wonders enabled:
 Shipwreck: 
 * Revealed on the map
 Mission:
-* +2 Science ",
-"[3] free [Envoy] units appear",
-],
-				"requires": ["Conservation"],
+* +2 Science ","[3] free [Envoy] units appear",
+				],
+				"requires": [
+					"Conservation"
+				],
 				"row": 1,
 				"column": 39
-			},	
+			},
 			{
 				"name": "Rapid Deployment",
 				"uniques": [
@@ -260,8 +285,10 @@ Wonders enabled:
 * Amundsen-Scott Research Station 
 Outback Station:
 * +1 Food for every 2 adjacent Outback Stations",
-],
-				"requires": ["Cold War"],
+				],
+				"requires": [
+					"Cold War"
+				],
 				"row": 1,
 				"column": 41
 			},
@@ -270,31 +297,44 @@ Outback Station:
 				"uniques": [
 "Policies enabled:
 * Ecotourism ",
-],
-				"requires": ["Cultural Heritage","Rapid Deployment"],
+				],
+				"requires": [
+					"Cultural Heritage",
+					"Rapid Deployment"
+				],
 				"row": 1,
 				"column": 43
 			},
 			{
 				"name": "Near Future Governance",
 				"uniques": [
-"[3] free [Envoy] units appear",
-],
-				"requires": ["Environmentalism","Globalization"],
+					"[3] free [Envoy] units appear",
+				],
+				"requires": [
+					"Environmentalism",
+					"Globalization"
+				],
 				"row": 1,
 				"column": 45
-			},	
+			},
 			{
 				"name": "Global Warming Mitigation",
 				"uniques": [
-"[3] free [Envoy] units appear",
-],
-				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
-					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+					"[3] free [Envoy] units appear",
+				],
+				"requires": [
+					"Environmentalism",
+					"Globalization",
+					"Social Media",
+					"Near Future Governance",
+					"Venture Politics",
+					"Distributed Sovereignty",
+					"Optimization Imperative"
+				],
 				"row": 1,
 				"column": 49
-			},	
-// Row 2s
+			},
+			// Row 2s
 			{
 				"name": "Code of Laws",
 				"uniques": [
@@ -305,7 +345,7 @@ Policies enabled:
 * Discipline
 * God King
 * Urban Planning "
-],
+				],
 				"row": 2,
 				"column": 1
 			},
@@ -314,10 +354,11 @@ Policies enabled:
 				"uniques": [
 "Policies enabled:
 * Corvée
-* Conscription ",
-"[-25]% Culture cost of adopting new Policies"
-],
-				"requires": ["Craftsmanship"],
+* Conscription ","[-25]% Culture cost of adopting new Policies"
+				],
+				"requires": [
+					"Craftsmanship"
+				],
 				"row": 2,
 				"column": 5
 			},
@@ -329,11 +370,12 @@ Policies enabled:
 * Land Surveyors 
 * Limitanei 
 Tile impromements enabled:
-* Pairidaeza ",
-"Enables Open Borders agreements",
-"[-10]% Culture cost of adopting new Policies",
-],
-				"requires": ["Craftsmanship"],
+* Pairidaeza ","Enables Open Borders agreements",
+					"[-10]% Culture cost of adopting new Policies",
+				],
+				"requires": [
+					"Craftsmanship"
+				],
 				"row": 2,
 				"column": 7
 			},
@@ -349,8 +391,11 @@ Policies enabled:
 * Diplomatic League
 Wonders enabled:
 * Apadana ",
-],
-				"requires": ["State Workforce","Early Empire"],
+				],
+				"requires": [
+					"State Workforce",
+					"Early Empire"
+				],
 				"row": 2,
 				"column": 9
 			},
@@ -362,8 +407,11 @@ Wonders enabled:
 * Limes
 Wonders enabled:
 * Mausoleum at Halicarnassus ",
-],
-				"requires": ["Games and Recreation","Political Philosophy"],
+				],
+				"requires": [
+					"Games and Recreation",
+					"Political Philosophy"
+				],
 				"row": 2,
 				"column": 11
 			},
@@ -375,8 +423,11 @@ Wonders enabled:
 * Praetorium
 Wonders enabled:
 * Great Library ",
-],
-				"requires": ["Drama and Poetry","Political Philosophy"],
+				],
+				"requires": [
+					"Drama and Poetry",
+					"Political Philosophy"
+				],
 				"row": 2,
 				"column": 13
 			},
@@ -397,8 +448,10 @@ Plantation:
 * +1 Food
 Stepwell:
 * +1 Faith ",
-],
-				"requires": ["Defensive Tactics"],
+				],
+				"requires": [
+					"Defensive Tactics"
+				],
 				"row": 2,
 				"column": 15
 			},
@@ -415,8 +468,10 @@ Units enabled:
 * Barbary Corsair
 Wonders enabled:
 * Angkor Wat ",
-],
-				"requires": ["Feudalism"],
+				],
+				"requires": [
+					"Feudalism"
+				],
 				"row": 2,
 				"column": 17
 			},
@@ -434,8 +489,11 @@ Wonders enabled:
 Improvements enabled:
 * Outback Station
 * Polder ",
-],
-				"requires": ["Feudalism","Civil Service"],
+				],
+				"requires": [
+					"Feudalism",
+					"Civil Service"
+				],
 				"row": 2,
 				"column": 19
 			},
@@ -452,9 +510,12 @@ Wonders enabled:
 Buildings enabled:
 * Art Museum 
 Tile improvements enabled:
-* Revelation ",
-					"[Great Artist] is earned [15]% faster"],
-				"requires": ["Medieval Faires","Guilds"],
+* Revelation ","[Great Artist] is earned [15]% faster"
+				],
+				"requires": [
+					"Medieval Faires",
+					"Guilds"
+				],
 				"row": 2,
 				"column": 21
 			},
@@ -468,8 +529,10 @@ Units enabled:
 * Spy
 Piridaeza:
 * +1 Culture ",
-],
-				"requires": ["Guilds"],
+				],
+				"requires": [
+					"Guilds"
+				],
 				"row": 2,
 				"column": 23
 			},
@@ -491,11 +554,13 @@ Kampung:
 * +1 Production
 Polder:
 * +4 Gold ", 
-],
-				"requires": ["Mercantilism"],
+				],
+				"requires": [
+					"Mercantilism"
+				],
 				"row": 2,
 				"column": 27
-			}, 
+			},
 			{
 				"name": "Nationalism",
 				"uniques": [
@@ -507,10 +572,13 @@ Policies obsolete:
 Units enabled:
 * Minas Geraes
 Tile Improvements enabled:
-* Open-Air Museum ",
-					"[+20]% Production when constructing [Field Cannon] units [in all cities]","[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
-					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
-				"requires": ["The Enlightenment"],
+* Open-Air Museum ","[+20]% Production when constructing [Field Cannon] units [in all cities]",
+					"[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
+					"[+20]% Production when constructing [Redcoat] units [in all cities]"
+				],
+				"requires": [
+					"The Enlightenment"
+				],
 				"row": 2,
 				"column": 29
 			},
@@ -522,8 +590,11 @@ Tile Improvements enabled:
 * Public Transport
 Districts enabled:
 * Neighbourhood ",
-],
-				"requires": ["Civil Engineering","Nationalism"],
+				],
+				"requires": [
+					"Civil Engineering",
+					"Nationalism"
+				],
 				"row": 2,
 				"column": 31
 			},
@@ -537,8 +608,11 @@ Policies obsolete:
 Wonders enabled:
 * Broadway 
 * Cristo Redentor ",
-],
-				"requires": ["Natural History","Urbanization"],
+				],
+				"requires": [
+					"Natural History",
+					"Urbanization"
+				],
 				"row": 2,
 				"column": 33
 			},
@@ -547,8 +621,11 @@ Wonders enabled:
 				"uniques": [
 "Policies enabled:
 * Police State ",
-],
-				"requires": ["Mass Media","Mobilization"],
+				],
+				"requires": [
+					"Mass Media",
+					"Mobilization"
+				],
 				"row": 2,
 				"column": 35
 			},
@@ -566,8 +643,10 @@ Policies obsolete:
 * Chivalry
 * Maneuver
 * Charismatic Leader ",
-],
-				"requires": ["Ideology"],
+				],
+				"requires": [
+					"Ideology"
+				],
 				"row": 2,
 				"column": 37
 			},
@@ -582,11 +661,13 @@ Policies obsolete:
 Policies obsolete:
 * Maritime Industries
 * Press Gangs ",
-],
-				"requires": ["Ideology"],
+				],
+				"requires": [
+					"Ideology"
+				],
 				"row": 2,
 				"column": 39
-			},	
+			},
 			{
 				"name": "Space Race",
 				"uniques": [
@@ -595,8 +676,10 @@ Policies obsolete:
 * Sattelite Broadcasts
 Policies obsolete:
 * Military Research ",
-],
-				"requires": ["Cold War"],
+				],
+				"requires": [
+					"Cold War"
+				],
 				"row": 2,
 				"column": 41
 			},
@@ -612,28 +695,37 @@ Policies Obsolete:
 * Triangular Trade
 Plantation:
 * +2 Gold ",
-],
-				"requires": ["Rapid Deployment","Space Race"],
+				],
+				"requires": [
+					"Rapid Deployment",
+					"Space Race"
+				],
 				"row": 2,
 				"column": 43
-			},	
+			},
 			{
 				"name": "Venture Politics",
 				"uniques": [
 "Governments enabled:
 * Corporate Libertarianism ",
-],
-				"requires": ["Globalization","Social Media"],
+				],
+				"requires": [
+					"Globalization",
+					"Social Media"
+				],
 				"row": 2,
 				"column": 45
-			},	
+			},
 			{
 				"name": "Distributed Sovereignty",
 				"uniques": [
 "Governments enabled:
 * Digital Democracy ",
-],
-				"requires": ["Globalization","Social Media"],
+				],
+				"requires": [
+					"Globalization",
+					"Social Media"
+				],
 				"row": 2,
 				"column": 47
 			},
@@ -643,9 +735,16 @@ Plantation:
 "Policies enabled:
 * Integrated Attack Logistics
 * Rabblerousing ",
-],
-				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
-					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				],
+				"requires": [
+					"Environmentalism",
+					"Globalization",
+					"Social Media",
+					"Near Future Governance",
+					"Venture Politics",
+					"Distributed Sovereignty",
+					"Optimization Imperative"
+				],
 				"row": 2,
 				"column": 49
 			},
@@ -655,45 +754,64 @@ Plantation:
 "Policies enabled:
 * Diplomatic Capital
 * Global Coalition ",
-],
-				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
-					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				],
+				"requires": [
+					"Environmentalism",
+					"Globalization",
+					"Social Media",
+					"Near Future Governance",
+					"Venture Politics",
+					"Distributed Sovereignty",
+					"Optimization Imperative"
+				],
 				"row": 2,
 				"column": 51
-			},	
+			},
 			{
 				"name": "Exodus Imperative",
 				"uniques": [
 "Policies enabled:
 * Aerospace Contractors ",
-],
-				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
-					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				],
+				"requires": [
+					"Environmentalism",
+					"Globalization",
+					"Social Media",
+					"Near Future Governance",
+					"Venture Politics",
+					"Distributed Sovereignty",
+					"Optimization Imperative"
+				],
 				"row": 2,
 				"column": 53
 			},
 			{
 				"name": "Future Civic",
 				"uniques": [
-"Production to [Science] conversion in cities changed by [33]%",
-"Gifts of Gold to City-States generate [25]% more Influence"
-],
-				"requires": ["Information Warfare","Global Warming Mitigation","Cultural Hegemony",
-					"Smart Power Doctrine","Exodus Imperative"],
+					"Production to [Science] conversion in cities changed by [33]%",
+					"Gifts of Gold to City-States generate [25]% more Influence"
+				],
+				"requires": [
+					"Information Warfare",
+					"Global Warming Mitigation",
+					"Cultural Hegemony",
+					"Smart Power Doctrine",
+					"Exodus Imperative"
+				],
 				"row": 2,
 				"column": 55
-			}, 
-
-// Row 3s
+			},
+			// Row 3s
 			{
 				"name": "Foreign Trade",
 				"uniques": [
 "Policies enabled:
 * Caravansaries
-* Maritime Industries ",
-"[-25]% Culture cost of adopting new Policies",
-],
-				"requires": ["Code of Laws"],
+* Maritime Industries ","[-25]% Culture cost of adopting new Policies",
+				],
+				"requires": [
+					"Code of Laws"
+				],
 				"row": 3,
 				"column": 3
 			},
@@ -704,10 +822,12 @@ Plantation:
 * Inspiration
 * Revelation
 Wonders enabled:
-* Oracle ",
-"Free [Envoy] appears",
-"[-20]% Culture cost of adopting new Policies"],
-				"requires": ["Foreign Trade"],
+* Oracle ","Free [Envoy] appears",
+					"[-20]% Culture cost of adopting new Policies"
+				],
+				"requires": [
+					"Foreign Trade"
+				],
 				"row": 3,
 				"column": 7
 			},
@@ -721,10 +841,11 @@ Districts enabled:
 * Acropolis 
 Buildings enabled:
 * Amphitheater
-* Marae ",
-"[-10]% Culture cost of adopting new Policies"
-],
-				"requires": ["Early Empire"],
+* Marae ","[-10]% Culture cost of adopting new Policies"
+				],
+				"requires": [
+					"Early Empire"
+				],
 				"row": 3,
 				"column": 9
 			},
@@ -739,10 +860,12 @@ Buildings enabled:
 * Temple 
 * Prasat 
 * Stave Church 
-* Madrasa ",
-"Free [Envoy] appears",
-],
-				"requires": ["Drama and Poetry","Mysticism"],
+* Madrasa ","Free [Envoy] appears",
+				],
+				"requires": [
+					"Drama and Poetry",
+					"Mysticism"
+				],
 				"row": 3,
 				"column": 13
 			},
@@ -757,8 +880,11 @@ Wonders enabled:
 * Meenakshi Temple 
 Mekewap: 
 * +1 Food, +1 Production ",
-],
-				"requires": ["Defensive Tactics","Recorded History"],
+				],
+				"requires": [
+					"Defensive Tactics",
+					"Recorded History"
+				],
 				"row": 3,
 				"column": 15
 			},
@@ -778,8 +904,11 @@ Wonders enabled:
 * Kotoku-in 
 Units enabled:
 * Tagma ",
-],
-				"requires": ["Civil Service","Theology"],
+				],
+				"requires": [
+					"Civil Service",
+					"Theology"
+				],
 				"row": 3,
 				"column": 19
 			},
@@ -796,8 +925,10 @@ Wonders enabled:
 * St. Basil's Cathedral 
 Tile improvements enabled:
 * Golf Course ",
-],
-				"requires": ["Divine Right"],
+				],
+				"requires": [
+					"Divine Right"
+				],
 				"row": 3,
 				"column": 23
 			},
@@ -808,22 +939,25 @@ Tile improvements enabled:
 * Free Market
 * Liberalism
 * Rationalism ",
-],
-				"requires": ["Diplomatic Service"],
+				],
+				"requires": [
+					"Diplomatic Service"
+				],
 				"row": 3,
 				"column": 25
 			},
 			{
-				"name": "Opera and Ballet", 
+				"name": "Opera and Ballet",
 				"uniques": [
 "Policies enabled:
 * Grand Opera
 * Symphonies
 Wonders enabled:
-* Bolshoi Theatre",
-"[2] free [Envoy] units appear",
-],
-				"requires": ["The Enlightenment"],
+* Bolshoi Theatre","[2] free [Envoy] units appear",
+				],
+				"requires": [
+					"The Enlightenment"
+				],
 				"row": 3,
 				"column": 29
 			},
@@ -839,10 +973,12 @@ Policies Obsolete:
 * Sack
 * Colonization
 * Land Surveyors
-* Strategos",
-"[2] free [Envoy] units appear",
-],
-				"requires": ["Civil Engineering","Nationalism"],
+* Strategos","[2] free [Envoy] units appear",
+				],
+				"requires": [
+					"Civil Engineering",
+					"Nationalism"
+				],
 				"row": 3,
 				"column": 31
 			},
@@ -853,8 +989,10 @@ Policies Obsolete:
 * Levée en Masse
 Policies obsolete:
 * Conscription ",
-],
-				"requires": ["Urbanization"],
+				],
+				"requires": [
+					"Urbanization"
+				],
 				"row": 3,
 				"column": 33
 			},
@@ -864,10 +1002,11 @@ Policies obsolete:
 "Policies enabled:
 * Nobel Prize
 Policies obsolete:
-* Inspiration ",
-"[3] free [Envoy] units appear",
-],
-				"requires": ["Ideology"],
+* Inspiration ","[3] free [Envoy] units appear",
+				],
+				"requires": [
+					"Ideology"
+				],
 				"row": 3,
 				"column": 35
 			},
@@ -884,8 +1023,10 @@ Policies enabled:
 Policies obsolete:
 * Craftsmen
 * Natural Philosophy ",
-],
-				"requires": ["Ideology"],
+				],
+				"requires": [
+					"Ideology"
+				],
 				"row": 3,
 				"column": 37
 			},
@@ -906,11 +1047,13 @@ Tile Improvements enabled:
 * Ski Resort
 Stepwell:
 * +1 Food ",
-],
-				"requires": ["Ideology"],
+				],
+				"requires": [
+					"Ideology"
+				],
 				"row": 3,
 				"column": 39
-			},	
+			},
 			{
 				"name": "Social Media",
 				"uniques": [
@@ -920,18 +1063,24 @@ Stepwell:
 * Communications Office
 Policies Obsolete:
 * Praetorium ",
-],
-				"requires": ["Professional Sports","Space Race"],
+				],
+				"requires": [
+					"Professional Sports",
+					"Space Race"
+				],
 				"row": 3,
 				"column": 43
-			},	
+			},
 			{
 				"name": "Optimization Imperative",
 				"uniques": [
 "Governments enabled:
 * Synthetic Technocracy ",
-],
-				"requires": ["Globalization","Social Media"],
+				],
+				"requires": [
+					"Globalization",
+					"Social Media"
+				],
 				"row": 3,
 				"column": 47
 			},
@@ -940,22 +1089,28 @@ Policies Obsolete:
 				"uniques": [
 "Policies enabled: 
 * Non-State Actors ",
-],
-				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
-					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				],
+				"requires": [
+					"Environmentalism",
+					"Globalization",
+					"Social Media",
+					"Near Future Governance",
+					"Venture Politics",
+					"Distributed Sovereignty",
+					"Optimization Imperative"
+				],
 				"row": 3,
 				"column": 51
-			},	
-
-// Finisher
+			},
+			// Finisher
 			{
-				"name": "Civic Tree Complete"
-				"uniques": ["Triggers a Cultural Victory upon completion"],
+				"name": "Civic Tree Complete""uniques": [
+					"Triggers a Cultural Victory upon completion"
+				],
 			},
 		]
 	}
-
-/*
+	/*
 
 //Governments
 
