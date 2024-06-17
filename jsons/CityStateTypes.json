@@ -58,7 +58,7 @@
         "allyBonusUniques": [
 "[+2 Culture] [in capital]", 
 "[+2 Culture] from every [Landmark]",
-"[+2 Culture] from every [Acropolis]"
+"[+2 Culture] from every [Acropolis]",
 "[+2 Culture] from every [Great Improvement] <in [Coastal] tiles>"],
         "color": [255, 1, 255]
     },
@@ -95,7 +95,7 @@
 "[+1 Production] from every [Lakes] <starting from the [Industrial era]>"
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Brussels",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -107,7 +107,7 @@
 "[+15]% Production when constructing [All] wonders [in all cities]"
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Buenos Aires",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -119,7 +119,7 @@
 "[+1 Happiness] from every [Bonus resource]"
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Cardiff",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -130,7 +130,7 @@
 "[+2 Production] from every [Oppidum]",
 "Provides [2] [Power] <in all cities with a [Harbor District]>"],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Hong Kong",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -143,7 +143,7 @@
 
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Johannesburg",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -156,7 +156,7 @@
 "[+1 Production] from every [Strategic resource] <after discovering [Industrialization]>"
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Mexico City",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -172,7 +172,7 @@
 "[+1 Happiness] from every [Street Carnival]",
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Singapore",
         "friendBonusUniques":  ["[+2 Production] [in capital]"],
@@ -184,14 +184,14 @@
 "[+1 Production] from each Trade Route",
 ],
         "color": [254, 129, 19]
-    }
+    },
     {
         "name": "Akkad",
         "friendBonusUniques": ["[+10]% Production when constructing [Military] units [in capital]"],
         "allyBonusUniques": [
 "[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
 "[+25]%  Strength <for [Melee] units> <vs cities> <when attacking>",
-"[+25]%  Strength <for [Mounted] units> <vs cities> <when attacking>",]
+"[+25]%  Strength <for [Mounted] units> <vs cities> <when attacking>",],
         "color": [202, 20, 20]
     },
     {
@@ -349,7 +349,7 @@
 "[+2 Science] from every [Artefact2]",
 "[+2 Science] from every [Artefact3]"],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Bologna",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
@@ -360,7 +360,7 @@
 "[+2 Science] from every [Seowon]",
 "[+25]% Great Person generation [in all cities]"],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Fez",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
@@ -371,7 +371,7 @@
 "[+2 Science] from every [Seowon]",
 "[+100 Science] when a city adopts this religion for the first time <(modified by game speed)>"],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Geneva",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
@@ -382,7 +382,7 @@
 "[+2 Science] from every [Seowon]",
 "[+15]% [Science] [in all cities] <when not at war>"],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Hattusa",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
@@ -412,7 +412,7 @@
 "[+15]% growth [in all cities] <in cities with a [Seowon District]>",
 ],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Nalanda",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
@@ -423,7 +423,7 @@
 "[+2 Science] from every [Seowon]",
 "[Worker] units gain the [Mahavihara] promotion"],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Taruga",
         "friendBonusUniques":  ["[+2 Science] [in capital]"],
@@ -439,13 +439,13 @@
 "[+25]% [Science] [in all cities] <with [5] to [5] neighboring [Strategic resource] tiles>",
 "[+30]% [Science] [in all cities] <with [6] to [6] neighboring [Strategic resource] tiles>"],
         "color": [117, 163, 243]
-    }
+    },
     {
         "name": "Bandar Brunei",
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "Allied City-States provide [Gold] equal to [15]% of what they produce for themselves"],
         "color": [248, 217, 2]
@@ -455,7 +455,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "[Worker] units gain the [Cahokia Mounds] promotion"],
         "color": [248, 217, 2]
@@ -465,7 +465,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "[+1 Gold] from each Trade Route"],
         "color": [248, 217, 2]
@@ -475,7 +475,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "[+2 Gold] from every [Harbor]"],
         "color": [248, 217, 2]
@@ -485,7 +485,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold, +1 Happiness] from every [Customs house]"
+"[+4 Gold, +1 Happiness] from every [Customs house]",
 "[+4 Gold, +1 Happiness] from every [Suguba]"],
         "color": [248, 217, 2]
     },
@@ -494,7 +494,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "[Worker] units gain the [Trading Dome] promotion"],
         "color": [248, 217, 2]
@@ -504,7 +504,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "[+1 Gold] from every [Luxury resource]"],
         "color": [248, 217, 2]
@@ -514,7 +514,7 @@
         "friendBonusUniques": ["[+4 Gold] [in capital]"],
         "allyBonusUniques": [
 "[+4 Gold] [in capital]", 
-"[+4 Gold] from every [Customs house]"
+"[+4 Gold] from every [Customs house]",
 "[+4 Gold] from every [Suguba]",
 "Provides [1] [Cinnamon]",
 "Provides [1] [Cloves]"],
