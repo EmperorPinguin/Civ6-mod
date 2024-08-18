@@ -4785,7 +4785,7 @@
 			"Only available <after adopting [Nationalism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Damage is ignored when determining unit Strength",
+			"No damage penalty for wounded units",
 		],
 	},
 	{
@@ -5293,7 +5293,7 @@
 			"[+100]% Production when constructing [Supply Convoy] units [in all cities]",
 			"[+100]% Production when constructing [Anti-Air Gun] units [in all cities]",
 			"[+100]% Production when constructing [Mobile SAM] units [in all cities]",
-			"Damage is ignored when determining unit Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"No damage penalty for wounded units <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		],
 	},
 	{

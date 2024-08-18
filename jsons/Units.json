@@ -391,7 +391,7 @@
 		"upgradesTo": "Musketman",
 		"uniques": [
 			"Only available <after adopting [Feudalism]>",
-			"Damage is ignored when determining unit Strength"
+			"No damage penalty for wounded units"
 		],
 		"attackSound": "metalhit"
 	},
