@@ -2352,7 +2352,6 @@
 		},
 		"maintenance": 2,
 		"uniques": [
-			"Consumes [2] [Power]",
 			"[+12 Production] from [Manufactory] tiles [in this city]",
 			"[+5 Production] from [Manufactory] tiles [in this city] <with [Power]>",
 			"[+4 Culture] <after discovering [Electricity]>",
