@@ -40,7 +40,7 @@
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
         "uniques": [
-            "This Unit gains [10] XP",
+            "[This Unit] gains [10] XP",
             "Only available <after turn number [10]>"
         ]
     },
@@ -72,7 +72,7 @@
         "name": "advanced weaponry for your explorer",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
         "uniques": [
-            "This Unit upgrades for free including special upgrades"
+            "[This Unit] upgrades for free including special upgrades"
         ]
     },
     {
