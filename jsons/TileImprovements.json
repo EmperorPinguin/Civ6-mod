@@ -1172,9 +1172,6 @@
 			"[+3 Science] <with [6] to [6] neighboring [Great Improvement] tiles>",
 		]
 	},
-	"Cannot be built on [Luxury resource] tiles",
-			"Cannot be built on [Bonus resource] tiles",
-			"Will not be replaced by automated units",
 	{
 		"name": "Observatory",
 		"terrainsCanBeBuiltOn": [
