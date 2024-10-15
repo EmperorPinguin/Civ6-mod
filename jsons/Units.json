@@ -421,7 +421,7 @@
 		"upgradesTo": "Line Infantry",
 		"uniques": [
 			"[+67]% Strength when stacked with [Inquisitor]",
-			"Can [Spread Religion] [1] times"
+			"Can Spread Religion <[1] times> <after which this unit is consumed>"
 		],
 		"attackSound": "shot"
 	},
@@ -1923,7 +1923,7 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can [Spread Religion] [4] times",
+			"Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
