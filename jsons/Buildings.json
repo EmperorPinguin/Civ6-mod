@@ -358,7 +358,7 @@
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			"Free [Envoy] appears",
+			//"Free [Envoy] appears",
 			/*
 "[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
 "[+1 Culture] from [Trade Route (International)] tiles [in this city]",
@@ -867,7 +867,7 @@
 		"isWonder": true,
 		"cost": 400,
 		"uniques": [
-			"[4] free [Envoy] units appear",
+			//"[4] free [Envoy] units appear",
 			"Only available <in cities with a [Palace]> <after adopting [Political Philosophy]>"
 		], // 2 envoy
 		"quote": "'My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana.' –Artaxerxes II"
@@ -1218,7 +1218,7 @@
 		"isWonder": true,
 		"cost": 710,
 		"uniques": [
-			"[3] free [Envoy] units appear",
+			//"[3] free [Envoy] units appear",
 			"[+15]% [Culture] from City-States",
 			"[+15]% [Faith] from City-States",
 			"[+15]% [Food] from City-States",
@@ -5327,7 +5327,7 @@
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
 			"Can only be built <in [in capital] cities>",
-			"Gain [20] Influence with a [Envoy] gift to a City-State",
+			//"Gain [20] Influence with a [Envoy] gift to a City-State",
 		],
 	},
 	{
