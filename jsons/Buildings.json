@@ -2899,7 +2899,7 @@
 		"requiredTech": "Telecommunications",
 		"uniques": [
 			"Triggers voting for the Diplomatic Victory",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Only available <when [Diplomatic] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
@@ -2919,7 +2919,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -2935,7 +2935,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -2951,7 +2951,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -2967,7 +2967,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -2984,7 +2984,7 @@
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -3001,7 +3001,7 @@
 			"[5]% Food is carried over after population increases [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -3017,7 +3017,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -3033,7 +3033,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -3049,7 +3049,7 @@
 			"[+1 Faith] from every specialist [in this city]",
 			"Never destroyed when the city is captured",
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	//Governments
