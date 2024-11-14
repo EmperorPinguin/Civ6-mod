@@ -2475,7 +2475,7 @@
 			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
 			"[+2] Movement <for [Embarked] units>",
 			"[+1] Sight <for [Embarked] units>",
-			"Defense bonus when embarked <for [All] units>",
+			"[+100]% Strength <when defending> <when [Embarked]> <for [All] units>",
 			"[Great Artist] is earned [-100]% faster",
 			"[+1 Food] from every [Fishing Boats]",
 			"[+1 Production] from every [Forest] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
