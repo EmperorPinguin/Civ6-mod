@@ -689,7 +689,7 @@
 		"cost": 54,
 		"uniques": [
 			"Creates a [Aerodrome] improvement on a specific tile",
-			"Enables construction of Aircraft [in this city]",
+			"Comment [Enables construction of Aircraft in this city]",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
