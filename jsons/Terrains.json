@@ -308,7 +308,7 @@
 			"Must be adjacent to [1] to [3] [Coast] tiles",
 			"Occurs on latitudes from [40] to [90] percent of distance equator to pole",
 			"Occurs in groups of [3] to [3] tiles",
-			"Grants [Free Promotion] (unit upgrades for free) to adjacent [Water] units for the rest of the game"
+			"Grants [Free Promotion] ([unit upgrades for free]) to adjacent [{Military} {Water}] units for the rest of the game"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
