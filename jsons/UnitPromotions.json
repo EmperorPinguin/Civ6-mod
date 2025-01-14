@@ -1371,6 +1371,12 @@
 		]
 	},
 	{
+		"name": "Free Promotion",
+		"uniques": [
+			"[This Unit] upgrades for free"
+		]
+	},
+	{
 		"name": "Altitude Training",
 		"uniques": [
 			"[+10]% Strength <in [Hill] tiles>",
