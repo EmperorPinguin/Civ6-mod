@@ -3904,7 +3904,7 @@
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Receive triple Gold from Barbarian encampments and pillaging Cities <before adopting [Scorched Earth]>",
+			"[+100]% Health from pillaging tiles",
 		],
 	},
 	{
@@ -4214,7 +4214,7 @@
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Receive triple Gold from Barbarian encampments and pillaging Cities <before adopting [Scorched Earth]>",
+			"[+100]% Yield from pillaging tiles",
 		],
 	},
 	{
@@ -4905,7 +4905,7 @@
 			"Only available <after adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"No movement cost to pillage <for [Military] units>",
+			"[+100]% Yield from pillaging tiles",
 		],
 	},
 	{
