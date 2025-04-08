@@ -447,7 +447,10 @@
 			"Fresh water",
 			"Occurs on latitudes from [10] to [70] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"[+1 Happiness] <with [1] to [6] neighboring [Entertainment Complex] tiles>",
+			"[+1 Happiness] <with [1] to [6] neighboring [Hippodrome] tiles>",
+			"[+1 Happiness] <with [1] to [6] neighboring [Street Carnival] tiles>"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -653,7 +656,6 @@
 		"impassable": true,
 		"overrideStats": true,
 		"turnsInto": "Mountain",
-		"impassable": true,
 		"unbuildable": true,
 		"occursOn": [
 			"Plains",
@@ -673,7 +675,7 @@
 			45,
 			108,
 			145
-		],
+		]
 	},
 	{
 		"name": "Coast",
@@ -690,7 +692,25 @@
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Becomes [Atoll] when adjacent to [Volcano]"
+			"Becomes [Atoll] when adjacent to [Volcano]",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>",
+			"[+1 Food, +1 Gold] <with [1] to [6] neighboring [Torres del Paine] tiles>"
 		]
 	},
 	{
@@ -724,6 +744,24 @@
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>",
+			"[+2 Food] <with [1] to [6] neighboring [Torres del Paine] tiles>"
 		]
 	},
 	{
@@ -761,6 +799,24 @@
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>",
+			"[+1 Food, +1 Production] <with [1] to [6] neighboring [Torres del Paine] tiles>"
 		]
 	},
 	{
@@ -786,6 +842,24 @@
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 			"Becomes [Plains] when adjacent to [River]",
 			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>",
+			"[+1 Food] <with [1] to [6] neighboring [Torres del Paine] tiles>"
 		]
 	},
 	{
@@ -809,6 +883,23 @@
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>"
 		]
 	},
 	{
@@ -824,7 +915,25 @@
 		"uniques": [
 			"Fresh water",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
+			"Considered [Desirable] when determining start locations",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>",
+			"[+1 Food, +1 Gold] <with [1] to [6] neighboring [Torres del Paine] tiles>"
 		]
 	},
 	{
@@ -843,6 +952,23 @@
 			"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>"
 		]
 	},
 	{
@@ -866,6 +992,23 @@
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>",
+			"[+5 Science] <for every adjacent [Bermuda Triangle]>",
+			"[+1 Gold, +1 Faith] <for every adjacent [Delicate Arch]>",
+			"[+2 Food, +1 Culture] <for every adjacent [Eyjafjallajoekull]>",
+			"[+2 Science] <for every adjacent [Galapagos Islands]>",
+			"[+1 Culture] <for every adjacent [Giant's Causeway]>",
+			"[+1 Production] <for every adjacent [Lysefjord]>",
+			"[+1 Production, +1 Faith] <for every adjacent [Mato Tipila]>",
+			"[+1 Culture] <for every adjacent [Matterhorn]>",
+			"[+1 Faith] <for every adjacent [Mount Everest]>",
+			"[+2 Food] <for every adjacent [Mount Kilimanjaro]>",
+			"[+1 Science, +1 Faith] <for every adjacent [Mount Roraima]>",
+			"[+2 Culture, +3 Gold] <for every adjacent [Paititi]>",
+			"[+1 Gold, +1 Culture] <for every adjacent [Piopiotahi]>",
+			"[+1 Science, +1 Culture] <for every adjacent [Tsingey de Bemahara]>",
+			"[+2 Culture, +2 Faith] <for every adjacent [Uluru]>",
+			"[+1 Production] <for every adjacent [Mount Vesuvius]>",
+			"[+1 Food, +1 Gold, +1 Science] <for every adjacent [Yosemite]>"
 		]
 	},
 	// Terrain features
@@ -980,7 +1123,7 @@
 			"Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
-		],
+		]
 	},
 	{
 		"name": "Fallout",
@@ -1058,7 +1201,7 @@
 			"[-1] to Fertility for Map Generation",
 			"Considered [Undesirable] when determining start locations"
 		]
-	},
+	}
 	/*
 	{
 		"name": "Atoll",

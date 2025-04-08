@@ -1555,9 +1555,6 @@
 		"uniques": [
 			"[+2 Gold, +1 Culture] from [Seaside Resort] tiles [in all cities]",
 			"[+2 Culture] from [Chemamull] tiles [in all cities]",
-			//"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [unimproved] [Land] tiles [in all cities] <with [1] to [1] neighboring [Preserve] tiles>"],
-			//"[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [unimproved] [Land] tiles [in all cities] <with [2] to [2] neighboring [Preserve] tiles>"],
-			//"[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from [unimproved] [Land] tiles [in all cities] <with [3] to [6] neighboring [Preserve] tiles>"],
 			"Must not be on [Hill]"
 		],
 		"requiredTech": "Steel",
@@ -1583,9 +1580,6 @@
 		"uniques": [
 			"[+4 Gold, +2 Culture] from [Seaside Resort] tiles [in this city]",
 			"[+4 Culture] from [Chemamull] tiles [in this city]",
-			//"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Land] tiles [in this city] <with [1] to [1] neighboring [Preserve] tiles> <in [unimproved] [Land] tiles>"],
-			//"[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] from [Land] tiles [in this city] <with [2] to [2] neighboring [Preserve] tiles> <in [unimproved] [Land] tiles>"],
-			//"[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from [Land] tiles [in this city] <with [3] to [6] neighboring [Preserve] tiles> <in [unimproved] [Land] tiles>"],
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Combustion",
@@ -5622,34 +5616,18 @@
 			"[+47]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 		],
 	},
-	//This one is controverial, feel free to remove it in a PR if you have a better idea
+//TODO: add Appeal mechanic
 	{
 		"name": "Ecotourism",
 		"cost": 1,
 		"hurryCostModifier": -100,
 		"requiredResource": "Economic Policy Slots",
-		"replacementTextForUniques": "+100% Yield from every Natural Wonder and Mountains and unimproved Forest get 1 additional times the Preserve adjacency bonus.",
+		"replacementTextForUniques": "+200% Yield from every Natural Wonder",
 		"uniques": [
 			"Only available <after adopting [Environmentalism]>",
 			"Can only be built <in [in capital] cities>",
-			"[+100]% Yield from every [Natural Wonder]",
-			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Mountain] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Natural Wonder]>",
-			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Forest] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
-		],
-	},
-	{
-		"name": "Ecotourism",
-		"cost": 1,
-		"hurryCostModifier": -100,
-		"requiredResource": "Economic Policy Slots",
-		"replacementTextForUniques": "+100% Yield from every Natural Wonder and Mountains and unimproved Forest get 1 additional times the Preserve adjacency bonus.",
-		"uniques": [
-			"Only available <after adopting [Environmentalism]>",
-			"Can only be built <in [in capital] cities>",
-			"[+100]% Yield from every [Natural Wonder]",
-			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Mountain] tiles [in all cities] <in tiles without [Natural Wonder]> <with [1] to [6] neighboring [Preserve] tiles>",
-			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from [Forest] tiles [in all cities] <with [1] to [6] neighboring [Preserve] tiles> <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
-		],
+			"[+200]% Yield from every [Natural Wonder]"
+			]
 	},
 	//Artefacts
 	{

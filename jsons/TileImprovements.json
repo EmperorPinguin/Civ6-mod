@@ -1647,11 +1647,15 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"gold": "1",
+		"food": "2",
+		"production": "2",
+		"gold": "2",
+		"science": "2",
+		"culture": "2",
+		"faith": "2",
 		"uniques": [
 			"Great Improvement",
 			"Must be next to [Natural Wonder]",
-			"Tile provides yield without assigned population",
 			"Pillaging this improvement yields approximately [+50 Gold]",
 		]
 	},
