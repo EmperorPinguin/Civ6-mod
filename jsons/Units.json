@@ -19,7 +19,7 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles",
+			"Can build [Water] improvements on tiles"
 		],
 		"cost": 100
 	},
@@ -32,8 +32,8 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles",
-		],
+			"Can build [Water] improvements on tiles"
+		]
 	},
 	{
 		"name": "Settler",
@@ -573,7 +573,7 @@
 		"upgradesTo": "Crossbowman",
 		"uniques": [
 			"[+33]% Strength <vs [Wounded] units> <when attacking>"
-		],
+		]
 	},
 	{
 		"name": "Pitati Archer",
@@ -1776,7 +1776,7 @@
 		"upgradesTo": "Supply Convoy",
 		"uniques": [
 			"All adjacent units heal [+20] HP when healing"
-		],
+		]
 	},
 	{
 		"name": "Supply Convoy",
@@ -1786,7 +1786,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"All adjacent units heal [+20] HP when healing"
-		],
+		]
 	},
 	{
 		"name": "Observation Balloon",
@@ -1798,7 +1798,7 @@
 		"uniques": [
 			"[+1] Sight",
 			"Can see over obstacles"
-		],
+		]
 	},
 	{
 		"name": "Drone",
@@ -1809,7 +1809,7 @@
 		"uniques": [
 			"[+3] Sight",
 			"Can see over obstacles"
-		],
+		]
 	},
 	{
 		"name": "Anti-Air Gun",
@@ -2080,7 +2080,7 @@
 			"Unbuildable",
 			"Can instantly construct a [Preserve] improvement <by consuming this unit>",
 			"[+1] Sight"
-		],
+		]
 	},
 	//Other
 	{
@@ -2091,7 +2091,7 @@
 		"uniques": [
 			"Only available <after adopting [Natural History]>",
 			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>"
-		],
+		]
 	},
 	{
 		"name": "Spy",
@@ -2105,7 +2105,7 @@
 			"[+1] Sight",
 			"May enter foreign tiles without open borders",
 			"Uncapturable",
-			"Cannot be purchased",
+			"Cannot be purchased"
 		]
 	},
 	{
@@ -2120,5 +2120,5 @@
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Uncapturable"
 		]
-	},
+	}
 ]
