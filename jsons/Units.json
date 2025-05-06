@@ -1964,7 +1964,7 @@
 		"movement": 4
 	},
 	{
-		"name": "Commandante General",
+		"name": "Comandante General",
 		"unitType": "Civilian",
 		"uniqueTo": "Gran Colombia",
 		"uniques": [
