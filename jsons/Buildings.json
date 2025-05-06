@@ -5123,6 +5123,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+50]% [Production] [in all non-occupied cities] <when below [-10] Happiness> <when at war>",
@@ -5138,6 +5139,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+20]% Production when constructing [Campus District] buildings [in all cities]",
@@ -5169,6 +5171,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Earn [20]% of killed [Military] unit's [Cost] as [Culture]",
@@ -5186,6 +5189,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Enables the Tagma unique unit ",
@@ -5200,6 +5204,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Free [Spy] appears <after discovering [Castles]>",
@@ -5216,6 +5221,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2 Culture] from every [Luxury resource] <with [1] to [6] neighboring [Landmark] tiles>",
@@ -5231,6 +5237,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2] Movement <for [10] turns> <after adopting [Military Training]>",
@@ -5246,6 +5253,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+100]% [Gold] from City-States",
@@ -5260,6 +5268,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2] Movement <for [Military] units> <during a Golden Age>",
@@ -5277,6 +5286,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+50]% Production when constructing [Campus District] buildings [in capital]",
@@ -5312,6 +5322,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Provides [1] [Military Policy Slots]",
@@ -5327,6 +5338,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+5 Faith] [in capital] <when not at war>",
@@ -5341,6 +5353,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[Light Cavalry] units gain the [Mongol Horde] promotion",
@@ -5356,6 +5369,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"When declaring friendship, both parties gain a [50]% boost to great person generation",
@@ -5370,6 +5384,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost",
@@ -5386,6 +5401,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
@@ -5400,6 +5416,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+50]% Production when constructing [Water] units [in all cities]",
@@ -5415,6 +5432,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+33]% Strength <for [Land] units> <when fighting in [Coast] tiles>",
@@ -5433,6 +5451,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact1]",
@@ -5450,6 +5469,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2 Faith] from [Holy site] tiles [in all cities] <with [1] to [6] neighboring [River] tiles>",
@@ -5489,6 +5509,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2 Science, +2 Culture] [in capital] <for [10] turns>",
@@ -5507,6 +5528,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"TBD. ",
@@ -5521,6 +5543,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+67]% Strength <during a Golden Age>",
@@ -5535,6 +5558,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Gold] from every [Desert]",
@@ -5550,6 +5574,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Military Units gifted from City-States start with [30] XP",
@@ -5567,6 +5592,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+27]% Strength <when fighting in [Hill] tiles>",
@@ -5599,6 +5625,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2] Happiness from each type of luxury resource",
@@ -5613,6 +5640,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[Great Prophet] is earned [-100]% faster",
@@ -5631,6 +5659,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Food] from every [Mountain]",
@@ -5646,6 +5675,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+25]% Great Person generation [in all cities]",
@@ -5666,6 +5696,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+200]% [Culture] from City-States",
@@ -5680,6 +5711,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Science gained from research agreements [+50]%",
@@ -5694,6 +5726,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[Faith] cost of purchasing [Inquisitor] units [-50]%",
@@ -5708,6 +5741,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Food] from each Trade Route",
@@ -5724,6 +5758,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[Worker] units gain the [The First Emperor] promotion",
@@ -5738,6 +5773,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+100]% Production when constructing [Military] units [in all cities] <for [10] turns> <after adopting [Defensive Tactics]>",
@@ -5753,6 +5789,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[Faith] cost of purchasing [Cathedral] buildings [-90]%",
@@ -5802,6 +5839,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+6]% [Science] [in all cities with a garrison]",
@@ -5817,6 +5855,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+33]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
@@ -5831,6 +5870,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Free [Commandante General] appears <after discovering [Horseback Riding]>",
@@ -5853,6 +5893,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Enables the Jannisary unique unit. ",
@@ -5867,6 +5908,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
@@ -5881,6 +5923,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2 Science] from [Natural Wonder] tiles [in all cities]",
@@ -5897,6 +5940,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Enables the Rough Rider unique unit. ",
@@ -5911,6 +5955,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+33]% Strength <vs [Wounded] units> <when attacking>",
@@ -5926,6 +5971,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Gain a free [Monument] [in all cities]",
@@ -5940,6 +5986,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Enables the Redcoat Unique unit. ",
@@ -5956,6 +6003,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>",
@@ -5970,6 +6018,7 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Leader]>",
+			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Happiness] from each Trade Route",
