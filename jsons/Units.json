@@ -825,7 +825,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
+		"upgradesTo": "Helicopter Gunship",
 		"attackSound": "horse"
 	},
 	{
@@ -839,7 +839,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
+		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
 			"[+33]% Strength <when fighting in [Friendly Land] tiles>",
 			"Can move after attacking"
@@ -857,7 +857,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
+		"upgradesTo": "Helicopter Gunship",
 		"attackSound": "horse"
 	},
 	{
@@ -871,7 +871,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Horses",
-		"upgradesTo": "Helicopter",
+		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
 			"[+40]% Strength <when adjacent to a [Llanero] unit>",
 			"[-60]% maintenance costs"
@@ -910,7 +910,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Helicopter",
+		"name": "Helicopter Gunship",
 		"unitType": "Light Cavalry",
 		"movement": 4,
 		"strength": 224,
