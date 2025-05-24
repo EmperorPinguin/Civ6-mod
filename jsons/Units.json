@@ -847,7 +847,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Huszar",
+		"name": "Hussar",
 		"uniqueTo": "Hungary",
 		"replaces": "Cavalry",
 		"unitType": "Light Cavalry",

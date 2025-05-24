@@ -3287,7 +3287,7 @@ UnitIcons/Hul'che
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Huszar
+UnitIcons/Hussar
   rotate: false
   xy: 1500, 221
   size: 100, 100
