@@ -1129,7 +1129,7 @@
 	},
 	//Ranged Cavalry
 	{
-		"name": "Keshig",
+		"name": "Keshik", // Keshig in Civ 6, but using Keshik to share tilesets with Civ 5. Renamed to Keshig in English.properties.
 		"uniqueTo": "Mongolia",
 		"unitType": "Land Ranged",
 		"movement": 4,
