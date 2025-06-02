@@ -1075,39 +1075,11 @@ BuildingIcons/Amphitheater
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Amundsen-Scott Research Station
-  rotate: false
-  xy: 1047, 1193
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Amundsen-Scott Research Station
-  rotate: false
-  xy: 1047, 1193
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Ancient Walls
   rotate: false
   xy: 1155, 1193
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Apadana
-  rotate: false
-  xy: 1587, 1192
-  size: 100, 101
-  orig: 100, 101
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Apadana
-  rotate: false
-  xy: 1587, 1192
-  size: 100, 101
-  orig: 100, 101
   offset: 0, 0
   index: -1
 BuildingIcons/Aquarium
@@ -1362,104 +1334,6 @@ BuildingIcons/Basilikoi Paides
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Bath
-  rotate: false
-  xy: 328, 997
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Bath
-  rotate: false
-  xy: 328, 997
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Biosphere
-  rotate: false
-  xy: 220, 985
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Biosphere
-  rotate: false
-  xy: 220, 985
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Bolshoi Theatre
-  rotate: false
-  xy: 852, 977
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Bolshoi Theatre
-  rotate: false
-  xy: 852, 977
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Broadcast Center
-  rotate: false
-  xy: 1284, 977
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Broadcast Center
-  rotate: false
-  xy: 1284, 977
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Broadway
-  rotate: false
-  xy: 1392, 977
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Broadway
-  rotate: false
-  xy: 1392, 977
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Casa de Contratacion
-  rotate: false
-  xy: 436, 869
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Casa de Contratacion
-  rotate: false
-  xy: 436, 869
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/City Center
-  rotate: false
-  xy: 1716, 834
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/City Center
-  rotate: false
-  xy: 1716, 834
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Coal Power Plant
   rotate: false
   xy: 1932, 834
@@ -1479,20 +1353,6 @@ BuildingIcons/Fresh Water Bonus
   xy: 1668, 1825
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Colosseum
-  rotate: false
-  xy: 112, 769
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Colosseum
-  rotate: false
-  xy: 112, 769
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Cothon
@@ -1519,20 +1379,6 @@ BuildingIcons/Royal Navy Dockyard
 ImprovementIcons/Harbor
   rotate: false
   xy: 1516, 761
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Dam
-  rotate: false
-  xy: 544, 657
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Dam
-  rotate: false
-  xy: 544, 657
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1614,39 +1460,11 @@ BuildingIcons/Electronics Factory
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Estadio do Maracana
-  rotate: false
-  xy: 652, 545
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Estadio do Maracana
-  rotate: false
-  xy: 652, 545
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Etemenanki
   rotate: false
   xy: 628, 1617
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ferris Wheel
-  rotate: false
-  xy: 976, 545
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Ferris Wheel
-  rotate: false
-  xy: 976, 545
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Film Studio
@@ -1663,34 +1481,6 @@ BuildingIcons/Food Market
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Forbidden City
-  rotate: false
-  xy: 328, 457
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Forbidden City
-  rotate: false
-  xy: 328, 457
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Golden Gate Bridge
-  rotate: false
-  xy: 1624, 402
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Golden Gate Bridge
-  rotate: false
-  xy: 1624, 402
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Grand Bazaar
   rotate: false
   xy: 328, 349
@@ -1698,121 +1488,9 @@ BuildingIcons/Grand Bazaar
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Bath
-  rotate: false
-  xy: 112, 337
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Great Bath
-  rotate: false
-  xy: 112, 337
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Library
-  rotate: false
-  xy: 436, 329
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Great Library
-  rotate: false
-  xy: 436, 329
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Lighthouse
-  rotate: false
-  xy: 652, 329
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Great Lighthouse
-  rotate: false
-  xy: 652, 329
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Zimbabwe
-  rotate: false
-  xy: 1084, 329
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Great Zimbabwe
-  rotate: false
-  xy: 1084, 329
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Hangar
   rotate: false
   xy: 1732, 294
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Huey Teocalli
-  rotate: false
-  xy: 868, 221
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Huey Teocalli
-  rotate: false
-  xy: 868, 221
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Jebel Barkal
-  rotate: false
-  xy: 1084, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Jebel Barkal
-  rotate: false
-  xy: 1084, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kilwa Kisiwani
-  rotate: false
-  xy: 220, 13
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Kilwa Kisiwani
-  rotate: false
-  xy: 220, 13
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kotoku-in
-  rotate: false
-  xy: 652, 5
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Kotoku-in
-  rotate: false
-  xy: 652, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1887,9 +1565,107 @@ BuildingIcons/Aerodrome District
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Amundsen-Scott Research Station
+  rotate: false
+  xy: 1047, 1193
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Amundsen-Scott Research Station
+  rotate: false
+  xy: 1047, 1193
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Apadana
+  rotate: false
+  xy: 1587, 1192
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+BuildingIcons/Apadana
+  rotate: false
+  xy: 1587, 1192
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Archaeological Dig
   rotate: false
   xy: 4, 1093
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bath
+  rotate: false
+  xy: 328, 997
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bath
+  rotate: false
+  xy: 328, 997
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Biosphere
+  rotate: false
+  xy: 220, 985
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Biosphere
+  rotate: false
+  xy: 220, 985
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bolshoi Theatre
+  rotate: false
+  xy: 852, 977
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bolshoi Theatre
+  rotate: false
+  xy: 852, 977
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Broadcast Center
+  rotate: false
+  xy: 1284, 977
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Broadcast Center
+  rotate: false
+  xy: 1284, 977
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Broadway
+  rotate: false
+  xy: 1392, 977
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Broadway
+  rotate: false
+  xy: 1392, 977
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1943,6 +1719,20 @@ ImprovementIcons/Seowon
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Casa de Contratacion
+  rotate: false
+  xy: 436, 869
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Casa de Contratacion
+  rotate: false
+  xy: 436, 869
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Chateau
   rotate: false
   xy: 1192, 869
@@ -1953,6 +1743,34 @@ ImprovementIcons/Chateau
 ImprovementIcons/Chemamull
   rotate: false
   xy: 1300, 869
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/City Center
+  rotate: false
+  xy: 1716, 834
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/City Center
+  rotate: false
+  xy: 1716, 834
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Colosseum
+  rotate: false
+  xy: 112, 769
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Colosseum
+  rotate: false
+  xy: 112, 769
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2009,6 +1827,20 @@ BuildingIcons/Water Park District
 ImprovementIcons/Water Park
   rotate: false
   xy: 1084, 761
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Dam
+  rotate: false
+  xy: 544, 657
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dam
+  rotate: false
+  xy: 544, 657
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2083,6 +1915,20 @@ ImprovementIcons/Street Carnival
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Estadio do Maracana
+  rotate: false
+  xy: 652, 545
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Estadio do Maracana
+  rotate: false
+  xy: 652, 545
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Farm
   rotate: false
   xy: 868, 545
@@ -2090,9 +1936,37 @@ ImprovementIcons/Farm
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Ferris Wheel
+  rotate: false
+  xy: 976, 545
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ferris Wheel
+  rotate: false
+  xy: 976, 545
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Fishing Boats
   rotate: false
   xy: 1624, 510
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Forbidden City
+  rotate: false
+  xy: 328, 457
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Forbidden City
+  rotate: false
+  xy: 328, 457
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2125,6 +1999,20 @@ ImprovementIcons/Geothermal Plant
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Golden Gate Bridge
+  rotate: false
+  xy: 1624, 402
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Golden Gate Bridge
+  rotate: false
+  xy: 1624, 402
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Golf Course
   rotate: false
   xy: 1732, 402
@@ -2132,9 +2020,65 @@ ImprovementIcons/Golf Course
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Great Bath
+  rotate: false
+  xy: 112, 337
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Bath
+  rotate: false
+  xy: 112, 337
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Library
+  rotate: false
+  xy: 436, 329
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Library
+  rotate: false
+  xy: 436, 329
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Lighthouse
+  rotate: false
+  xy: 652, 329
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Lighthouse
+  rotate: false
+  xy: 652, 329
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Great Wall
   rotate: false
   xy: 976, 329
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Great Zimbabwe
+  rotate: false
+  xy: 1084, 329
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Zimbabwe
+  rotate: false
+  xy: 1084, 329
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2188,6 +2132,20 @@ ImprovementIcons/Lavra
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Huey Teocalli
+  rotate: false
+  xy: 868, 221
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Huey Teocalli
+  rotate: false
+  xy: 868, 221
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Ice Hockey Rink
   rotate: false
   xy: 1624, 186
@@ -2223,9 +2181,51 @@ ImprovementIcons/Oppidum
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Jebel Barkal
+  rotate: false
+  xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Jebel Barkal
+  rotate: false
+  xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Kampung
   rotate: false
   xy: 328, 25
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kilwa Kisiwani
+  rotate: false
+  xy: 220, 13
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kilwa Kisiwani
+  rotate: false
+  xy: 220, 13
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kotoku-in
+  rotate: false
+  xy: 652, 5
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kotoku-in
+  rotate: false
+  xy: 652, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3448,7 +3448,7 @@ UnitIcons/Jong
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Keshig
+UnitIcons/Keshik
   rotate: false
   xy: 4, 13
   size: 100, 100
@@ -3552,20 +3552,6 @@ BuildingIcons/Marae
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Mausoleum at Halicarnassus
-  rotate: false
-  xy: 220, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Mausoleum at Halicarnassus
-  rotate: false
-  xy: 220, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Medieval Walls
   rotate: false
   xy: 112, 1509
@@ -3587,121 +3573,9 @@ BuildingIcons/Oil Power Plant
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Oracle
-  rotate: false
-  xy: 436, 1401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Oracle
-  rotate: false
-  xy: 436, 1401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Ordu
   rotate: false
   xy: 544, 1509
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Orszaghaz
-  rotate: false
-  xy: 760, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Orszaghaz
-  rotate: false
-  xy: 760, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Petra
-  rotate: false
-  xy: 436, 1293
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Petra
-  rotate: false
-  xy: 436, 1293
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Potala Palace
-  rotate: false
-  xy: 112, 861
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Potala Palace
-  rotate: false
-  xy: 112, 861
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Prasat
-  rotate: false
-  xy: 220, 969
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Prasat
-  rotate: false
-  xy: 220, 969
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pyramids
-  rotate: false
-  xy: 652, 1401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Pyramids
-  rotate: false
-  xy: 652, 1401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Renaissance Walls
-  rotate: false
-  xy: 112, 753
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Renaissance Walls
-  rotate: false
-  xy: 112, 753
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ruhr Valley
-  rotate: false
-  xy: 868, 1509
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Ruhr Valley
-  rotate: false
-  xy: 868, 1509
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3734,65 +3608,9 @@ BuildingIcons/Shrine
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Spaceport
-  rotate: false
-  xy: 1300, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Spaceport
-  rotate: false
-  xy: 1300, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/St. Basil's Cathedral
-  rotate: false
-  xy: 220, 537
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/St. Basil's Cathedral
-  rotate: false
-  xy: 220, 537
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Stave Church
   rotate: false
   xy: 328, 645
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sukiennice
-  rotate: false
-  xy: 1084, 1401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Sukiennice
-  rotate: false
-  xy: 1084, 1401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Thermal Bath
-  rotate: false
-  xy: 1516, 1725
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Thermal Bath
-  rotate: false
-  xy: 1516, 1725
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3811,37 +3629,23 @@ BuildingIcons/Tsikhe
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/University of Sankore
-  rotate: false
-  xy: 760, 861
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/University of Sankore
-  rotate: false
-  xy: 760, 861
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Venetian Arsenal
-  rotate: false
-  xy: 1084, 1185
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Venetian Arsenal
-  rotate: false
-  xy: 1084, 1185
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Zoo
   rotate: false
   xy: 760, 753
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Mausoleum at Halicarnassus
+  rotate: false
+  xy: 220, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mausoleum at Halicarnassus
+  rotate: false
+  xy: 220, 1725
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3916,6 +3720,34 @@ ImprovementIcons/Open-Air Museum
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Oracle
+  rotate: false
+  xy: 436, 1401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Oracle
+  rotate: false
+  xy: 436, 1401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Orszaghaz
+  rotate: false
+  xy: 760, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Orszaghaz
+  rotate: false
+  xy: 760, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Outback Station
   rotate: false
   xy: 868, 1833
@@ -3944,6 +3776,20 @@ ImprovementIcons/Pasture
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Petra
+  rotate: false
+  xy: 436, 1293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Petra
+  rotate: false
+  xy: 436, 1293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Plantation
   rotate: false
   xy: 868, 1725
@@ -3958,6 +3804,34 @@ ImprovementIcons/Polder
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Potala Palace
+  rotate: false
+  xy: 112, 861
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Potala Palace
+  rotate: false
+  xy: 112, 861
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Prasat
+  rotate: false
+  xy: 220, 969
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Prasat
+  rotate: false
+  xy: 220, 969
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Preserve
   rotate: false
   xy: 1090, 839
@@ -3965,9 +3839,51 @@ ImprovementIcons/Preserve
   orig: 50, 50
   offset: 0, 0
   index: -1
+ImprovementIcons/Pyramids
+  rotate: false
+  xy: 652, 1401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pyramids
+  rotate: false
+  xy: 652, 1401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Quarry
   rotate: false
   xy: 868, 1617
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Renaissance Walls
+  rotate: false
+  xy: 112, 753
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Renaissance Walls
+  rotate: false
+  xy: 112, 753
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ruhr Valley
+  rotate: false
+  xy: 868, 1509
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ruhr Valley
+  rotate: false
+  xy: 868, 1509
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4000,9 +3916,93 @@ ImprovementIcons/Solar Farm
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Spaceport
+  rotate: false
+  xy: 1300, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Spaceport
+  rotate: false
+  xy: 1300, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/St. Basil's Cathedral
+  rotate: false
+  xy: 220, 537
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/St. Basil's Cathedral
+  rotate: false
+  xy: 220, 537
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sukiennice
+  rotate: false
+  xy: 1084, 1401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sukiennice
+  rotate: false
+  xy: 1084, 1401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Terrace Farm
   rotate: false
   xy: 436, 645
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Thermal Bath
+  rotate: false
+  xy: 1516, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Thermal Bath
+  rotate: false
+  xy: 1516, 1725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/University of Sankore
+  rotate: false
+  xy: 760, 861
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/University of Sankore
+  rotate: false
+  xy: 760, 861
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Venetian Arsenal
+  rotate: false
+  xy: 1084, 1185
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Venetian Arsenal
+  rotate: false
+  xy: 1084, 1185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
