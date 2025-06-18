@@ -420,7 +420,7 @@
 		"requiredResource": "Niter",
 		"upgradesTo": "Line Infantry",
 		"uniques": [
-			"[+67]% Strength when stacked with [Inquisitor]",
+			"[+67]% Strength <when stacked with a [Inquisitor] unit>",
 			"Can Spread Religion <[1] times> <after which this unit is consumed>"
 		],
 		"attackSound": "shot"
@@ -956,7 +956,7 @@
 		],
 		"uniques": [
 			"[Great General] is earned [100]% faster",
-			"[+33]% Strength when stacked with [Great General] <when attacking>"
+			"[+33]% Strength <when stacked with a [Great General] unit> <when attacking>"
 		],
 		"attackSound": "horse"
 	},
@@ -1483,7 +1483,7 @@
 		"uniques": [
 			"Only available <after adopting [Mercenaries]>",
 			"Transfer Movement to [Civilian]",
-			"[+33]% Strength when stacked with [Civilian]"
+			"[+33]% Strength <when stacked with a [Civilian] unit>"
 		],
 		"attackSound": "shot"
 	},
