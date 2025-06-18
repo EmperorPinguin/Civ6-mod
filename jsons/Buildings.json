@@ -209,7 +209,7 @@
 		"uniques": [
 			"Unsellable",
 			"Destroyed when the city is captured",
-			"Remove extra unhappiness from annexed cities"
+			"Removes extra unhappiness from annexed cities"
 		]
 	},
 	{
@@ -5126,8 +5126,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+50]% [Production] [in all non-occupied cities] <when below [-10] Happiness> <when at war>",
-			"[+50]% Strength <for [All] units> <when below [-10] Happiness> <when at war>",
+			"[+50]% [Production] [in all non-occupied cities] <when below [-10] [Happiness]> <when at war>",
+			"[+50]% Strength <for [All] units> <when below [-10] [Happiness]> <when at war>",
 		],
 	},
 	{

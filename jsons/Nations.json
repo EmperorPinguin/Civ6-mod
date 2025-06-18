@@ -3342,8 +3342,8 @@
 		"uniques": [
 			"[+5]% [Science] <while the empire is happy>",
 			"[+5]% [Production] <while the empire is happy>",
-			"[+5]% [Science] <when between [20] and [200] Happiness>",
-			"[+5]% [Production] <when between [20] and [200] Happiness>"
+			"[+5]% [Science] <when between [20] and [200] [Happiness]>",
+			"[+5]% [Production] <when between [20] and [200] [Happiness]>"
 		],
 		"cities": [
 			"Stirling",
