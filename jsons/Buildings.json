@@ -3663,8 +3663,8 @@
 			"Only available <after adopting [Military Training]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced",
+			"[+100]% [Horses] resource production",
+			"[+100]% [Iron] resource production",
 		],
 	},
 	{
@@ -4290,8 +4290,8 @@
 			"Only available <after adopting [Mercantilism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Double quantity of [Niter] produced",
-			"Double quantity of [Coal] produced",
+			"[+100]% [Niter] resource production",
+			"[+100]% [Coal] resource production",
 		],
 	},
 	{
@@ -4519,8 +4519,8 @@
 			"Only available <after adopting [Conservation]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Double quantity of [Oil] produced",
-			"Double quantity of [Aluminum] produced",
+			"[+100]% [Oil] resource production",
+			"[+100]% [Aluminum] resource production",
 		],
 	},
 	{
