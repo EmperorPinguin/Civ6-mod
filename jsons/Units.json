@@ -24,18 +24,6 @@
 		"cost": 100
 	},
 	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 50,
-		"requiredTech": "Sailing",
-		"uniques": [
-			"Cannot enter ocean tiles <before discovering [Astronomy]>",
-			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles"
-		]
-	},
-	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
