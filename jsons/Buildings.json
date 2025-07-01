@@ -223,6 +223,7 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Creates a [Academy] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -245,6 +246,7 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Creates a [Observatory] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -267,6 +269,7 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Creates a [Seowon] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -287,6 +290,7 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Creates a [Holy site] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unbuildable <if [Mvemba a Nzinga] is constructed>",
 			"Unsellable",
 			"Cannot be purchased",
@@ -310,6 +314,7 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Creates a [Lavra] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -331,6 +336,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Creates a [Landmark] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -355,6 +361,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Creates a [Acropolis] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -379,6 +386,7 @@
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"Creates a [Citadel] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -401,6 +409,7 @@
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"Creates a [Ikanda] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -423,6 +432,7 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"Creates a [Customs house] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -446,6 +456,7 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"Creates a [Suguba] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			/*
@@ -468,6 +479,7 @@
 		"requiredTech": "Apprenticeship",
 		"uniques": [
 			"Creates a [Manufactory] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -490,6 +502,7 @@
 		"requiredTech": "Apprenticeship",
 		"uniques": [
 			"Creates a [Hansa] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -512,6 +525,7 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"Creates a [Oppidum] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -529,6 +543,7 @@
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 			"Creates a [Entertainment Complex] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -549,6 +564,7 @@
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 			"Creates a [Street Carnival] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -569,6 +585,7 @@
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 			"Creates a [Entertainment Complex] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -591,6 +608,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -613,6 +631,7 @@
 		"cost": 27,
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -638,6 +657,7 @@
 		"cost": 27,
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -716,6 +736,7 @@
 		"cannotBeBuiltWith": "Entertainment Complex",
 		"uniques": [
 			"Creates a [Water Park] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
@@ -737,6 +758,7 @@
 		"cannotBeBuiltWith": "Entertainment Complex",
 		"uniques": [
 			"Creates a [Copacabana] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
