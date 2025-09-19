@@ -20,7 +20,7 @@ Tile improvements enabled:
 "[-25]% Culture cost of adopting new Policies"],
 				"requires": ["Code of Laws"],
 				"row": 2,
-				"column": 1
+				"column": 4
 			},
 			{
 				"name": "Military Tradition", 
@@ -51,7 +51,7 @@ Buildings enabled:
 ],
 				"requires": ["State Workforce"],
 				"row": 5,
-				"column": 1
+				"column": 6
 			},
 			{
 				"name": "Military Training",
@@ -78,7 +78,7 @@ Wonder enabled:
 ],
 				"requires": ["Defensive Tactics"],
 				"row": 8,
-				"column": 1
+				"column": 3
 			},
 			{
 				"name": "Mercenaries",
@@ -130,7 +130,7 @@ Camp:
 ],
 				"requires": ["Humanism"],
 				"row": 13,
-				"column": 1
+				"column": 4
 			},
 			{
 				"name": "Colonialism",
@@ -191,7 +191,7 @@ Mekewap:
 ],
 				"requires": ["Natural History","Urbanization"],
 				"row": 17,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Capitalism",
@@ -208,7 +208,7 @@ Buildings enabled:
 ],
 				"requires": ["Mass Media"],
 				"row": 18,
-				"column": 1
+				"column": 4
 			},
 			{
 				"name": "Suffrage",
@@ -229,7 +229,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 19,
-				"column": 1
+				"column": 3
 			},
 			{
 				"name": "Cultural Heritage",
@@ -263,7 +263,7 @@ Outback Station:
 ],
 				"requires": ["Cold War"],
 				"row": 21,
-				"column": 1
+				"column": 4
 			},
 			{
 				"name": "Environmentalism",
@@ -282,7 +282,7 @@ Outback Station:
 ],
 				"requires": ["Environmentalism","Globalization"],
 				"row": 23,
-				"column": 1
+				"column": 3
 			},	
 			{
 				"name": "Global Warming Mitigation",
@@ -292,7 +292,7 @@ Outback Station:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 25,
-				"column": 1
+				"column": 2
 			},	
 // Row 2s
 			{
@@ -335,7 +335,7 @@ Tile impromements enabled:
 ],
 				"requires": ["Craftsmanship"],
 				"row": 4,
-				"column": 6
+				"column": 4
 			},
 			{
 				"name": "Political Philosophy",
@@ -352,7 +352,7 @@ Wonders enabled:
 ],
 				"requires": ["State Workforce","Early Empire"],
 				"row": 5,
-				"column": 6
+				"column": 4
 			},
 			{
 				"name": "Defensive Tactics",
@@ -365,7 +365,7 @@ Wonders enabled:
 ],
 				"requires": ["Games and Recreation","Political Philosophy"],
 				"row": 6,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Recorded History",
@@ -378,7 +378,7 @@ Wonders enabled:
 ],
 				"requires": ["Drama and Poetry","Political Philosophy"],
 				"row": 7,
-				"column": 6
+				"column": 9
 			},
 			{
 				"name": "Feudalism",
@@ -400,7 +400,7 @@ Stepwell:
 ],
 				"requires": ["Defensive Tactics"],
 				"row": 8,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Medieval Faires",
@@ -418,7 +418,7 @@ Wonders enabled:
 ],
 				"requires": ["Feudalism"],
 				"row": 9,
-				"column": 6
+				"column": 3
 			},
 			{
 				"name": "Guilds",
@@ -437,7 +437,7 @@ Improvements enabled:
 ],
 				"requires": ["Feudalism","Civil Service"],
 				"row": 10,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Humanism",
@@ -456,7 +456,7 @@ Tile improvements enabled:
 					"[Great Artist] is earned [15]% faster"],
 				"requires": ["Medieval Faires","Guilds"],
 				"row": 11,
-				"column": 6
+				"column": 4
 			},
 			{
 				"name": "Diplomatic Service",
@@ -471,7 +471,7 @@ Piridaeza:
 ],
 				"requires": ["Guilds"],
 				"row": 12,
-				"column": 6
+				"column": 8
 			},
 			{
 				"name": "Civil Engineering",
@@ -494,7 +494,7 @@ Polder:
 ],
 				"requires": ["Mercantilism"],
 				"row": 14,
-				"column": 6
+				"column": 4
 			}, 
 			{
 				"name": "Nationalism",
@@ -512,7 +512,7 @@ Tile Improvements enabled:
 					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
 				"requires": ["The Enlightenment"],
 				"row": 15,
-				"column": 6
+				"column": 8
 			},
 			{
 				"name": "Urbanization",
@@ -525,7 +525,7 @@ Districts enabled:
 ],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 16,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Mass Media",
@@ -540,7 +540,7 @@ Wonders enabled:
 ],
 				"requires": ["Natural History","Urbanization"],
 				"row": 17,
-				"column": 6
+				"column": 4
 			},
 			{
 				"name": "Ideology",
@@ -550,7 +550,7 @@ Wonders enabled:
 ],
 				"requires": ["Mass Media","Mobilization"],
 				"row": 18,
-				"column": 6
+				"column": 10
 			},
 			{
 				"name": "Totalitarianism",
@@ -569,7 +569,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 19,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Cold War",
@@ -598,7 +598,7 @@ Policies obsolete:
 ],
 				"requires": ["Cold War"],
 				"row": 21,
-				"column": 6
+				"column": 8
 			},
 			{
 				"name": "Globalization",
@@ -625,7 +625,7 @@ Plantation:
 ],
 				"requires": ["Globalization","Social Media"],
 				"row": 23,
-				"column": 6
+				"column": 8
 			},	
 			{
 				"name": "Distributed Sovereignty",
@@ -635,7 +635,7 @@ Plantation:
 ],
 				"requires": ["Globalization","Social Media"],
 				"row": 24,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Information Warfare",
@@ -647,7 +647,7 @@ Plantation:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 25,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Smart Power Doctrine",
@@ -659,7 +659,7 @@ Plantation:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 26,
-				"column": 6
+				"column": 4
 			},	
 			{
 				"name": "Exodus Imperative",
@@ -726,7 +726,7 @@ Buildings enabled:
 ],
 				"requires": ["Early Empire"],
 				"row": 5,
-				"column": 11
+				"column": 10
 			},
 			{
 				"name": "Theology",
@@ -760,7 +760,7 @@ Mekewap:
 ],
 				"requires": ["Defensive Tactics","Recorded History"],
 				"row": 8,
-				"column": 11
+				"column": 9
 			},
 			{
 				"name": "Divine Right",
@@ -811,7 +811,7 @@ Tile improvements enabled:
 ],
 				"requires": ["Diplomatic Service"],
 				"row": 13,
-				"column": 11
+				"column": 8
 			},
 			{
 				"name": "Opera and Ballet", 
@@ -844,7 +844,7 @@ Policies Obsolete:
 ],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 16,
-				"column": 11
+				"column": 7
 			},
 			{
 				"name": "Mobilization",
@@ -868,8 +868,8 @@ Policies obsolete:
 //"[3] free [Envoy] units appear",
 ],
 				"requires": ["Ideology"],
-				"row": 18,
-				"column": 11
+				"row": 19,
+				"column": 7
 			},
 			{
 				"name": "Class Struggle",
@@ -887,7 +887,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 19,
-				"column": 11
+				"column": 9
 			},
 			{
 				"name": "Professional Sports",
@@ -933,7 +933,7 @@ Policies Obsolete:
 ],
 				"requires": ["Globalization","Social Media"],
 				"row": 24,
-				"column": 11
+				"column": 9
 			},
 			{
 				"name": "Cultural Hegemony",
@@ -944,7 +944,7 @@ Policies Obsolete:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 26,
-				"column": 11
+				"column": 10
 			},	
 
 // Finisher
