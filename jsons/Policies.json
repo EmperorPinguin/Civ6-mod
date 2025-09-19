@@ -307,7 +307,7 @@ Policies enabled:
 * Urban Planning]"
 ],
 				"row": 1,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "State Workforce",
@@ -319,7 +319,7 @@ Policies enabled:
 ],
 				"requires": ["Craftsmanship"],
 				"row": 3,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Early Empire",
@@ -335,7 +335,7 @@ Tile impromements enabled:
 ],
 				"requires": ["Craftsmanship"],
 				"row": 4,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Political Philosophy",
@@ -352,7 +352,7 @@ Wonders enabled:
 ],
 				"requires": ["State Workforce","Early Empire"],
 				"row": 5,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Defensive Tactics",
@@ -365,7 +365,7 @@ Wonders enabled:
 ],
 				"requires": ["Games and Recreation","Political Philosophy"],
 				"row": 6,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Recorded History",
@@ -378,7 +378,7 @@ Wonders enabled:
 ],
 				"requires": ["Drama and Poetry","Political Philosophy"],
 				"row": 7,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Feudalism",
@@ -400,7 +400,7 @@ Stepwell:
 ],
 				"requires": ["Defensive Tactics"],
 				"row": 8,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Medieval Faires",
@@ -418,7 +418,7 @@ Wonders enabled:
 ],
 				"requires": ["Feudalism"],
 				"row": 9,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Guilds",
@@ -437,7 +437,7 @@ Improvements enabled:
 ],
 				"requires": ["Feudalism","Civil Service"],
 				"row": 10,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Humanism",
@@ -456,7 +456,7 @@ Tile improvements enabled:
 					"[Great Artist] is earned [15]% faster"],
 				"requires": ["Medieval Faires","Guilds"],
 				"row": 11,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Diplomatic Service",
@@ -471,7 +471,7 @@ Piridaeza:
 ],
 				"requires": ["Guilds"],
 				"row": 12,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Civil Engineering",
@@ -494,7 +494,7 @@ Polder:
 ],
 				"requires": ["Mercantilism"],
 				"row": 14,
-				"column": 5
+				"column": 6
 			}, 
 			{
 				"name": "Nationalism",
@@ -512,7 +512,7 @@ Tile Improvements enabled:
 					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
 				"requires": ["The Enlightenment"],
 				"row": 15,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Urbanization",
@@ -525,7 +525,7 @@ Districts enabled:
 ],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 16,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Mass Media",
@@ -540,7 +540,7 @@ Wonders enabled:
 ],
 				"requires": ["Natural History","Urbanization"],
 				"row": 17,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Ideology",
@@ -550,7 +550,7 @@ Wonders enabled:
 ],
 				"requires": ["Mass Media","Mobilization"],
 				"row": 18,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Totalitarianism",
@@ -569,7 +569,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 19,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Cold War",
@@ -585,7 +585,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 20,
-				"column": 5
+				"column": 6
 			},	
 			{
 				"name": "Space Race",
@@ -598,7 +598,7 @@ Policies obsolete:
 ],
 				"requires": ["Cold War"],
 				"row": 21,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Globalization",
@@ -615,7 +615,7 @@ Plantation:
 ],
 				"requires": ["Rapid Deployment","Space Race"],
 				"row": 22,
-				"column": 5
+				"column": 6
 			},	
 			{
 				"name": "Venture Politics",
@@ -625,7 +625,7 @@ Plantation:
 ],
 				"requires": ["Globalization","Social Media"],
 				"row": 23,
-				"column": 5
+				"column": 6
 			},	
 			{
 				"name": "Distributed Sovereignty",
@@ -635,7 +635,7 @@ Plantation:
 ],
 				"requires": ["Globalization","Social Media"],
 				"row": 24,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Information Warfare",
@@ -647,7 +647,7 @@ Plantation:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 25,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Smart Power Doctrine",
@@ -659,7 +659,7 @@ Plantation:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 26,
-				"column": 5
+				"column": 6
 			},	
 			{
 				"name": "Exodus Imperative",
@@ -670,7 +670,7 @@ Plantation:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 27,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Future Civic",
@@ -681,7 +681,7 @@ Plantation:
 				"requires": ["Information Warfare","Global Warming Mitigation","Cultural Hegemony",
 					"Smart Power Doctrine","Exodus Imperative"],
 				"row": 28,
-				"column": 5
+				"column": 6
 			}, 
 
 // Row 3s
@@ -695,7 +695,7 @@ Plantation:
 ],
 				"requires": ["Code of Laws"],
 				"row": 2,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Mysticism",
@@ -709,7 +709,7 @@ Wonders enabled:
 "[-20]% Culture cost of adopting new Policies"],
 				"requires": ["Foreign Trade"],
 				"row": 4,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Drama and Poetry",
@@ -726,7 +726,7 @@ Buildings enabled:
 ],
 				"requires": ["Early Empire"],
 				"row": 5,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Theology",
@@ -744,7 +744,7 @@ Buildings enabled:
 ],
 				"requires": ["Drama and Poetry","Mysticism"],
 				"row": 7,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Civil Service",
@@ -760,7 +760,7 @@ Mekewap:
 ],
 				"requires": ["Defensive Tactics","Recorded History"],
 				"row": 8,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Divine Right",
@@ -781,7 +781,7 @@ Units enabled:
 ],
 				"requires": ["Civil Service","Theology"],
 				"row": 10,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Reformed Church",
@@ -799,7 +799,7 @@ Tile improvements enabled:
 ],
 				"requires": ["Divine Right"],
 				"row": 12,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "The Enlightenment",
@@ -811,7 +811,7 @@ Tile improvements enabled:
 ],
 				"requires": ["Diplomatic Service"],
 				"row": 13,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Opera and Ballet", 
@@ -825,7 +825,7 @@ Wonders enabled:
 ],
 				"requires": ["The Enlightenment"],
 				"row": 15,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Scorched Earth",
@@ -844,7 +844,7 @@ Policies Obsolete:
 ],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 16,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Mobilization",
@@ -856,7 +856,7 @@ Policies obsolete:
 ],
 				"requires": ["Urbanization"],
 				"row": 17,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Nuclear Program",
@@ -869,7 +869,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 18,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Class Struggle",
@@ -887,7 +887,7 @@ Policies obsolete:
 ],
 				"requires": ["Ideology"],
 				"row": 19,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Professional Sports",
@@ -909,7 +909,7 @@ Stepwell:
 ],
 				"requires": ["Ideology"],
 				"row": 20,
-				"column": 9
+				"column": 11
 			},	
 			{
 				"name": "Social Media",
@@ -923,7 +923,7 @@ Policies Obsolete:
 ],
 				"requires": ["Professional Sports","Space Race"],
 				"row": 22,
-				"column": 9
+				"column": 11
 			},	
 			{
 				"name": "Optimization Imperative",
@@ -933,7 +933,7 @@ Policies Obsolete:
 ],
 				"requires": ["Globalization","Social Media"],
 				"row": 24,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Cultural Hegemony",
@@ -944,7 +944,7 @@ Policies Obsolete:
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
 				"row": 26,
-				"column": 9
+				"column": 11
 			},	
 
 // Finisher
