@@ -1152,7 +1152,7 @@
 		"uniques": [
 			"Great Improvement",
 			"Tile provides yield without assigned population",
-			"Cannot be built on [Mountain] tiles",
+            "Cannot be built on [Mountain] tiles",
 			"Cannot be built on [Great Improvement] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"Cannot be built on [Bonus resource] tiles",

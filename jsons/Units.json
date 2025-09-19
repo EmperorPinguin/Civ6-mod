@@ -24,18 +24,6 @@
 		"cost": 100
 	},
 	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 50,
-		"requiredTech": "Sailing",
-		"uniques": [
-			"Cannot enter ocean tiles <before discovering [Astronomy]>",
-			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles"
-		]
-	},
-	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -167,7 +155,7 @@
 		"cost": 520,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"May Paradrop up to [7] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [7] tiles away <in [{Friendly} {Land}] tiles>",
 			"[-46]% Strength <vs cities> <when attacking>",
 			"[-46]% Strength <vs [Water] units> <when attacking>"
 		],
@@ -420,7 +408,7 @@
 		"requiredResource": "Niter",
 		"upgradesTo": "Line Infantry",
 		"uniques": [
-			"[+67]% Strength when stacked with [Inquisitor]",
+			"[+67]% Strength <when stacked with a [Inquisitor] unit>",
 			"Can Spread Religion <[1] times> <after which this unit is consumed>"
 		],
 		"attackSound": "shot"
@@ -847,7 +835,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Huszar",
+		"name": "Hussar",
 		"uniqueTo": "Hungary",
 		"replaces": "Cavalry",
 		"unitType": "Light Cavalry",
@@ -956,7 +944,7 @@
 		],
 		"uniques": [
 			"[Great General] is earned [100]% faster",
-			"[+33]% Strength when stacked with [Great General] <when attacking>"
+			"[+33]% Strength <when stacked with a [Great General] unit> <when attacking>"
 		],
 		"attackSound": "horse"
 	},
@@ -1129,7 +1117,7 @@
 	},
 	//Ranged Cavalry
 	{
-		"name": "Keshig",
+		"name": "Keshik", // Keshig in Civ 6, but using Keshik to share tilesets with Civ 5. Renamed to Keshig in English.properties.
 		"uniqueTo": "Mongolia",
 		"unitType": "Land Ranged",
 		"movement": 4,
@@ -1483,7 +1471,7 @@
 		"uniques": [
 			"Only available <after adopting [Mercenaries]>",
 			"Transfer Movement to [Civilian]",
-			"[+33]% Strength when stacked with [Civilian]"
+			"[+33]% Strength <when stacked with a [Civilian] unit>"
 		],
 		"attackSound": "shot"
 	},
