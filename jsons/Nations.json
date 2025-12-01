@@ -3551,7 +3551,7 @@
 		],
 		"uniqueName": "Epic Quest",
 		"uniques": [
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 			"[-50]% City-State Influence degradation"
 		],
 		"cities": [
