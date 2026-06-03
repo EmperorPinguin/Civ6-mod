@@ -108,6 +108,9 @@ Policies obsolete:
 * Survey
 * Discipline
 * Urban Planning]",
+"Remove [Survey] [in capital] <upon turn start> <after adopting [Exploration]>",
+"Remove [Discipline] [in capital] <upon turn start> <after adopting [Exploration]>",
+"Remove [Urban Planning] [in capital] <upon turn start> <after adopting [Exploration]>",
 ],
 				"requires": ["Mercenaries","Medieval Faires"],
 				"row": 11,
@@ -127,6 +130,7 @@ Units enabled:
 * Sea Dog
 Camp:
 * +1 Food, +1 Production]",
+"Remove [Caravansaries] [in capital] <upon turn start> <after adopting [Mercantilism]>",
 ],
 				"requires": ["Humanism"],
 				"row": 13,
@@ -142,6 +146,7 @@ Policies obsolete:
 * Maritime Industries
 Tile improvement enabled:
 * Ice Hockey Rink]",
+"Remove [Maritime Industries] [in capital] <upon turn start> <after adopting [Colonialism]>",
 //"[2] free [Envoy] units appear", 
 ], 
 				"requires": ["Mercantilism"],
@@ -204,6 +209,8 @@ Policies Obsolete:
 * Traveling Merchants
 Buildings enabled:
 * Shopping Mall]",
+"Remove [Trade Confederation] [in capital] <upon turn start> <after adopting [Capitalism]>",
+"Remove [Traveling Merchants] [in capital] <upon turn start> <after adopting [Capitalism]>",
 //"[3] free [Envoy] units appear",
 ],
 				"requires": ["Mass Media"],
@@ -226,6 +233,11 @@ Policies obsolete:
 * Naval Infrastructure
 * Town Charters
 * Wisselbanken]",
+"Remove [Liberalism] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Medina Quarter] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Naval Infrastructure] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Town Charters] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Wisselbanken] [in capital] <upon turn start> <after adopting [Suffrage]>",
 ],
 				"requires": ["Ideology"],
 				"row": 19,
@@ -260,6 +272,7 @@ Wonders enabled:
 * Amundsen-Scott Research Station 
 Outback Station:
 * +1 Food for every 2 adjacent Outback Stations]",
+"Remove [Grande Armée] [in capital] <upon turn start> <after adopting [Rapid Deployment]>",
 ],
 				"requires": ["Cold War"],
 				"row": 21,
@@ -397,6 +410,8 @@ Plantation:
 * +1 Food
 Stepwell:
 * +1 Faith]",
+"Remove [Agoge] [in capital] <upon turn start> <after adopting [Feudalism]>",
+"Remove [Ilkum] [in capital] <upon turn start> <after adopting [Feudalism]>",
 ],
 				"requires": ["Defensive Tactics"],
 				"row": 8,
@@ -415,6 +430,7 @@ Units enabled:
 * Barbary Corsair
 Wonders enabled:
 * Angkor Wat]",
+"Remove [Insulae] [in capital] <upon turn start> <after adopting [Medieval Faires]>",
 ],
 				"requires": ["Feudalism"],
 				"row": 9,
@@ -453,7 +469,9 @@ Buildings enabled:
 * Art Museum 
 Tile improvements enabled:
 * Revelation]",
-					"[Great Artist] is earned [15]% faster"],
+"[Great Artist] is earned [15]% faster",
+"Remove [Revelation] [in capital] <upon turn start> <after adopting [Humanism]>",
+],
 				"requires": ["Medieval Faires","Guilds"],
 				"row": 11,
 				"column": 4
@@ -490,7 +508,12 @@ Farm:
 Kampung:
 * +1 Production
 Polder:
-* +4 Gold]", 
+* +4 Gold]",
+"Remove [Bastions] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Limes] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Corvée] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Serfdom] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Gothic Architecture] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
 ],
 				"requires": ["Mercantilism"],
 				"row": 14,
@@ -508,8 +531,11 @@ Units enabled:
 * Minas Geraes
 Tile Improvements enabled:
 * Open-Air Museum]",
-					"[+20]% Production when constructing [Field Cannon] units [in all cities]","[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
-					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
+"[+20]% Production when constructing [Field Cannon] units [in all cities]",
+"[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
+"[+20]% Production when constructing [Redcoat] units [in all cities]",
+"Remove [Feudal Contract] [in capital] <upon turn start> <after adopting [Nationalism]>",
+],
 				"requires": ["The Enlightenment"],
 				"row": 15,
 				"column": 8
@@ -537,6 +563,7 @@ Policies obsolete:
 Wonders enabled:
 * Broadway 
 * Cristo Redentor]",
+"Remove [Retainers] [in capital] <upon turn start> <after adopting [Mass Media]>",
 ],
 				"requires": ["Natural History","Urbanization"],
 				"row": 17,
@@ -566,6 +593,9 @@ Policies obsolete:
 * Chivalry
 * Maneuver
 * Charismatic Leader]",
+"Remove [Chivalry] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+"Remove [Maneuver] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+"Remove [Charismatic Leader] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
 ],
 				"requires": ["Ideology"],
 				"row": 19,
@@ -582,6 +612,8 @@ Policies obsolete:
 Policies obsolete:
 * Maritime Industries
 * Press Gangs]",
+"Remove [Maritime Industries] [in capital] <upon turn start> <after adopting [Cold War]>",
+"Remove [Press Gangs] [in capital] <upon turn start> <after adopting [Cold War]>",
 ],
 				"requires": ["Ideology"],
 				"row": 20,
@@ -595,6 +627,7 @@ Policies obsolete:
 * Sattelite Broadcasts
 Policies obsolete:
 * Military Research]",
+"Remove [Military Research] [in capital] <upon turn start> <after adopting [Space Race]>",
 ],
 				"requires": ["Cold War"],
 				"row": 21,
@@ -612,6 +645,8 @@ Policies Obsolete:
 * Triangular Trade
 Plantation:
 * +2 Gold]",
+"Remove [Their Finest Hour] [in capital] <upon turn start> <after adopting [Globalization]>",
+"Remove [Triangular Trade] [in capital] <upon turn start> <after adopting [Globalization]>",
 ],
 				"requires": ["Rapid Deployment","Space Race"],
 				"row": 22,
@@ -706,7 +741,8 @@ Plantation:
 Wonders enabled:
 * Oracle]",
 //"Free [Envoy] appears",
-"[-20]% Culture cost of adopting new Policies"],
+"[-20]% Culture cost of adopting new Policies",
+],
 				"requires": ["Foreign Trade"],
 				"row": 4,
 				"column": 11
@@ -722,7 +758,7 @@ Districts enabled:
 Buildings enabled:
 * Amphitheater
 * Marae]",
-"[-10]% Culture cost of adopting new Policies"
+"[-10]% Culture cost of adopting new Policies",
 ],
 				"requires": ["Early Empire"],
 				"row": 5,
@@ -778,6 +814,8 @@ Wonders enabled:
 * Kotoku-in 
 Units enabled:
 * Tagma]",
+"Remove [Maneuver] [in capital] <upon turn start> <after adopting [Divine Right]>",
+"Remove [Corvée] [in capital] <upon turn start> <after adopting [Divine Right]>",
 ],
 				"requires": ["Civil Service","Theology"],
 				"row": 10,
@@ -841,6 +879,11 @@ Policies Obsolete:
 * Land Surveyors
 * Strategos]",
 //"[2] free [Envoy] units appear",
+"Remove [Raid] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Sack] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Colonization] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Land Surveyors] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Strategos] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
 ],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 16,
@@ -853,6 +896,7 @@ Policies Obsolete:
 * Levée en Masse
 Policies obsolete:
 * Conscription]",
+"Remove [Conscription] [in capital] <upon turn start> <after adopting [Mobilization]>",
 ],
 				"requires": ["Urbanization"],
 				"row": 17,
@@ -866,6 +910,7 @@ Policies obsolete:
 Policies obsolete:
 * Inspiration]",
 //"[3] free [Envoy] units appear",
+"Remove [Inspiration] [in capital] <upon turn start> <after adopting [Nuclear Program]>",
 ],
 				"requires": ["Ideology"],
 				"row": 19,
@@ -884,6 +929,8 @@ Policies enabled:
 Policies obsolete:
 * Craftsmen
 * Natural Philosophy]",
+"Remove [Craftsmen] [in capital] <upon turn start> <after adopting [Class Struggle]>",
+"Remove [Natural Philosophy] [in capital] <upon turn start> <after adopting [Class Struggle]>",
 ],
 				"requires": ["Ideology"],
 				"row": 19,
@@ -906,6 +953,8 @@ Tile Improvements enabled:
 * Ski Resort
 Stepwell:
 * +1 Food]",
+"Remove [Craftsmen] [in capital] <upon turn start> <after adopting [Class Struggle]>",
+"Remove [Natural Philosophy] [in capital] <upon turn start> <after adopting [Class Struggle]>",
 ],
 				"requires": ["Ideology"],
 				"row": 20,
@@ -920,6 +969,7 @@ Stepwell:
 * Communications Office
 Policies Obsolete:
 * Praetorium]",
+"Remove [Praetorium] [in capital] <upon turn start> <after adopting [Social Media]>",
 ],
 				"requires": ["Professional Sports","Space Race"],
 				"row": 22,
