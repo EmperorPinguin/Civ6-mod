@@ -974,6 +974,10 @@
 		"uniques": [
 			"Cannot be traded",
 			"City-level resource"
+		],
+		"civilopediaText": [
+			{ "text": "District capacity is gained by city population. Cities receive district capacity at 1 Population and then one additional capacity at 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, and 34 Population." },
+			{ "text": "Specialty districts consume one Districts capacity. Neighbourhood, Mbanza, Aqueduct, Dam, and Spaceport do not consume population-based district capacity." }
 		]
 	},
 	{
