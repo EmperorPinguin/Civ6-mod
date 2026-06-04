@@ -94,7 +94,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Districts] <in this city>",
-			"Only available <in cities with at least [11] [Population]>",
+			"Only available <in cities with at least [10] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -106,7 +106,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Districts] <in this city>",
-			"Only available <in cities with at least [14] [Population]>",
+			"Only available <in cities with at least [13] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -118,7 +118,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Districts] <in this city>",
-			"Only available <in cities with at least [17] [Population]>",
+			"Only available <in cities with at least [16] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -130,7 +130,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Districts] <in this city>",
-			"Only available <in cities with at least [20] [Population]>",
+			"Only available <in cities with at least [19] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -142,7 +142,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Districts] <in this city>",
-			"Only available <in cities with at least [23] [Population]>",
+			"Only available <in cities with at least [22] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -154,7 +154,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Districts] <in this city>",
-			"Only available <in cities with at least [27] [Population]>",
+			"Only available <in cities with at least [25] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -629,6 +629,7 @@
 			"Great Admiral": 1
 		},
 		"cost": 27,
+		"requiredResource": "Districts",
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
 			"Provides [-1] [Districts] <in this city>",
@@ -655,6 +656,7 @@
 			"Great Admiral": 2
 		},
 		"cost": 27,
+		"requiredResource": "Districts",
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
 			"Provides [-1] [Districts] <in this city>",
@@ -676,7 +678,6 @@
 	{
 		"name": "Neighbourhood District",
 		"cost": 54,
-		"requiredResource": "Districts",
 		"maintenance": 0,
 		"uniques": [
 			"Creates a [Neighbourhood] improvement on a specific tile",
@@ -691,7 +692,6 @@
 		"name": "Mbanza District",
 		"replaces": "Neighbourhood District",
 		"uniqueTo": "Kongo",
-		"requiredResource": "Districts",
 		"cost": 27,
 		"uniques": [
 			"Creates a [Mbanza] improvement on a specific tile",
@@ -709,6 +709,7 @@
 		"cost": 54,
 		"uniques": [
 			"Creates a [Aerodrome] improvement on a specific tile",
+			"Provides [-1] [Districts] <in this city>",
 			"Comment [Enables construction of Aircraft in this city]",
 			"Unsellable",
 			"Cannot be purchased",
