@@ -1,5 +1,4 @@
 [
-	//Palace
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -11,9 +10,9 @@
 		"happiness": 2,
 		"cityStrength": 6,
 		"uniques": [
-			"Indicates the capital city",
-		],
-	}, //See Global Uniques for effects
+			"Indicates the capital city"
+		]
+	},
 	{
 		"name": "Intelligence Agency",
 		"cost": 290,
@@ -27,19 +26,9 @@
 			"Provides [1] [Spies] <after adopting [Nationalism]>",
 			"Provides [1] [Spies] <after adopting [Ideology]>",
 			"Provides [1] [Spies] <after adopting [Cold War]>",
-			"Provides [1] [Spies] <after discovering [Computers]>",
-		],
+			"Provides [1] [Spies] <after discovering [Computers]>"
+		]
 	},
-	//District Bonus
-	/*
-{
-		"name": "Test District",
-		"cost": 1,
-		"hurryCostModifier": -100,
-		"maintenance": 0,
-		"uniques": ["Creates a [Farm] improvement on a specific tile"]
-	},
-*/
 	{
 		"name": "German District",
 		"uniqueTo": "Germany",
@@ -159,7 +148,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	// Filler
 	{
 		"name": "Fresh Water Bonus",
 		"cost": 1,
@@ -187,7 +175,7 @@
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Unbuildable"
-		],
+		]
 	},
 	{
 		"name": "Macedon Bonus",
@@ -202,7 +190,6 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	// Districts
 	{
 		"name": "City Center",
 		"cost": 1,
@@ -223,15 +210,10 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Creates a [Academy] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Science] from [Trade Route (International)] tiles [in this city]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Observatory District",
@@ -246,15 +228,10 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Creates a [Observatory] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Science] from [Trade Route (International)] tiles [in this city]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Seowon District",
@@ -269,15 +246,10 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Creates a [Seowon] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Science] from [Trade Route (International)] tiles [in this city]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Holy Site District",
@@ -290,16 +262,11 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Creates a [Holy site] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unbuildable <if [Mvemba a Nzinga] is constructed>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Faith] from [Trade Route (International)] tiles [in this city]",
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Lavra District",
@@ -314,17 +281,12 @@
 		"requiredTech": "Astrology",
 		"uniques": [
 			"Creates a [Lavra] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Faith] from [Trade Route (International)] tiles [in this city]",
-*/
 			"[-25]% Culture cost of natural border growth [in this city]",
-			"[-25]% Gold cost of acquiring tiles [in this city]",
-		],
+			"[-25]% Gold cost of acquiring tiles [in this city]"
+		]
 	},
 	{
 		"name": "Theatre Square District",
@@ -336,18 +298,12 @@
 		"maintenance": 1,
 		"uniques": [
 			"Creates a [Landmark] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Culture] from [Trade Route (International)] tiles [in this city]",
-*/
 			"[+1 Culture] from every [Wonder]",
-			//this should be "[+2 Culture] from every [Wonder] [in this city]",
 			"Only available <after adopting [Drama and Poetry]>"
-		],
+		]
 	},
 	{
 		"name": "Acropolis District",
@@ -361,19 +317,12 @@
 		"maintenance": 1,
 		"uniques": [
 			"Creates a [Acropolis] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			//"Free [Envoy] appears",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Culture] from [Trade Route (International)] tiles [in this city]",
-*/
 			"[+1 Culture] from every [Wonder]",
-			//this should be "[+2 Culture] from every [Wonder] [in this city]",
 			"Only available <after adopting [Drama and Poetry]>"
-		],
+		]
 	},
 	{
 		"name": "Encampment District",
@@ -386,15 +335,10 @@
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"Creates a [Citadel] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Production] from [Trade Route (International)] tiles [in this city]",
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Ikanda District",
@@ -409,17 +353,12 @@
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"Creates a [Ikanda] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
 			"[5]% Food is carried over after population increases [in this city]",
-			"[+25]% Production when constructing [Military] units [in this city]",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Production] from [Trade Route (International)] tiles [in this city]",
-*/
-		],
+			"[+25]% Production when constructing [Military] units [in this city]"
+		]
 	},
 	{
 		"name": "Commercial Hub District",
@@ -432,16 +371,10 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"Creates a [Customs house] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
-"Provides [1] [Trade Route]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Suguba District",
@@ -456,17 +389,9 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"Creates a [Suguba] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
-"[Gold] cost of purchasing [All] buildings [-20]% [in this city]",
-"[Faith] cost of purchasing [All] units [-20]% [in this city]",
-"Provides [1] [Trade Route]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Industrial Zone District",
@@ -479,15 +404,10 @@
 		"requiredTech": "Apprenticeship",
 		"uniques": [
 			"Creates a [Manufactory] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Production] from [Trade Route (International)] tiles [in this city]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Hansa District",
@@ -502,15 +422,10 @@
 		"requiredTech": "Apprenticeship",
 		"uniques": [
 			"Creates a [Hansa] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Production] from [Trade Route (International)] tiles [in this city]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Oppidum District",
@@ -525,15 +440,10 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"Creates a [Oppidum] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Production] from [Trade Route (International)] tiles [in this city]"
-*/
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Entertainment Complex District",
@@ -543,16 +453,11 @@
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 			"Creates a [Entertainment Complex] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Food] from [Trade Route (International)] tiles [in this city]",
-*/
 			"Only available <after adopting [Games and Recreation]>"
-		],
+		]
 	},
 	{
 		"name": "Street Carnival District",
@@ -564,16 +469,11 @@
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 			"Creates a [Street Carnival] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Food] from [Trade Route (International)] tiles [in this city]",
-*/
 			"Only available <after adopting [Games and Recreation]>"
-		],
+		]
 	},
 	{
 		"name": "Hippodrome District",
@@ -585,18 +485,13 @@
 		"cannotBeBuiltWith": "Water Park",
 		"uniques": [
 			"Creates a [Entertainment Complex] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
 			"Free [Tagma] appears <after adopting [Divine Right]>",
 			"[1] units cost no maintenance",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Food] from [Trade Route (International)] tiles [in this city]",
-*/
 			"Only available <after adopting [Games and Recreation]>"
-		],
+		]
 	},
 	{
 		"name": "Harbor District",
@@ -608,14 +503,9 @@
 		"maintenance": 0,
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
-*/
 			"Connects trade routes over water",
 			"Must be next to [Coast]"
 		],
@@ -632,14 +522,9 @@
 		"requiredResource": "Districts",
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
-*/
 			"[+50]% Production when constructing [Water] units [in this city]",
 			"[+50]% Production when constructing [Settler] units [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Cothon] promotion",
@@ -659,14 +544,9 @@
 		"requiredResource": "Districts",
 		"uniques": [
 			"Creates a [Harbor] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Production] from [Trade Route (Domestic)] tiles [in this city]",
-"[+3 Gold] from [Trade Route (International)] tiles [in this city]",
-*/
 			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Royal Navy Dockyard] promotion",
 			"[+2 Gold] <on foreign continents>",
@@ -709,12 +589,11 @@
 		"cost": 54,
 		"uniques": [
 			"Creates a [Aerodrome] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Comment [Enables construction of Aircraft in this city]",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Spaceport",
@@ -725,7 +604,7 @@
 			"Enables construction of Spaceship parts",
 			"Unsellable",
 			"Cannot be purchased",
-			"Never destroyed when the city is captured",
+			"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Rocketry"
 	},
@@ -737,14 +616,9 @@
 		"cannotBeBuiltWith": "Entertainment Complex",
 		"uniques": [
 			"Creates a [Water Park] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Food] from [Trade Route (International)] tiles [in this city]",
-*/
 			"Must be next to [Coast]",
 			"Only available <after adopting [Natural History]>"
 		]
@@ -759,20 +633,13 @@
 		"cannotBeBuiltWith": "Entertainment Complex",
 		"uniques": [
 			"Creates a [Copacabana] improvement on a specific tile",
-			"Provides [-1] [Districts] <in this city>",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Food] from [Trade Route (International)] tiles [in this city]",
-*/
 			"Must be next to [Coast]",
 			"Only available <after adopting [Natural History]>"
 		]
 	},
-	// Wonders
-	// Ancient Era
 	{
 		"name": "Etemenanki",
 		"isWonder": true,
@@ -795,7 +662,7 @@
 		"uniques": [
 			"[+1 Faith] from [Flood plains] tiles [in this city]",
 			"[15]% Food is carried over after population increases [in this city]",
-			"Must be on [Flood plains]",
+			"Must be on [Flood plains]"
 		],
 		"quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus, Indian-like, religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
 	},
@@ -884,15 +751,13 @@
 		],
 		"quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.' –Antipater of Sidon"
 	},
-	// Classical Era
 	{
 		"name": "Apadana",
 		"isWonder": true,
 		"cost": 400,
 		"uniques": [
-			//"[4] free [Envoy] units appear",
 			"Only available <in cities with a [Palace]> <after adopting [Political Philosophy]>"
-		], // 2 envoy
+		],
 		"quote": "'My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana.' –Artaxerxes II"
 	},
 	{
@@ -981,7 +846,6 @@
 			"[+1 Production] from [Hansa] tiles [in all cities] <for every adjacent [Mountain]>",
 			"[+1 Production] from [Oppidum] tiles [in all cities] <for every adjacent [Mountain]>",
 			"[+1 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Mountain]>",
-
 			"[+1 Gold] from [Customs house] tiles [in all cities] <if [Town Charters] is constructed> <for every adjacent [Mountain]>",
 			"[+1 Gold] from [Suguba] tiles [in all cities] <if [Town Charters] is constructed> <for every adjacent [Mountain]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Craftsmen] is constructed> <for every adjacent [Mountain]>",
@@ -1064,7 +928,6 @@
 		"requiredTech": "Construction",
 		"quote": "'There were seven wonders in the world, and the discovery of the Terracotta Army, we may say, is the eighth miracle of the world.' –Jacques Chirac"
 	},
-	// Medieval Era
 	{
 		"name": "Alhambra",
 		"isWonder": true,
@@ -1136,7 +999,6 @@
 		"isWonder": true,
 		"cost": 710,
 		"uniques": [
-			//"[3] free [Envoy] units appear",
 			"[+15]% [Culture] from City-States",
 			"[+15]% [Faith] from City-States",
 			"[+15]% [Food] from City-States",
@@ -1213,7 +1075,6 @@
 		"requiredTech": "Education",
 		"quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' –Musnad al-Bazzar 10/68"
 	},
-	// Renaissance Era
 	{
 		"name": "Casa de Contratacion",
 		"isWonder": true,
@@ -1335,7 +1196,6 @@
 		"requiredTech": "Mass Production",
 		"quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' –Robert Burton"
 	},
-	// Industrial Era
 	{
 		"name": "Statue of Liberty",
 		"isWonder": true,
@@ -1346,7 +1206,7 @@
 			"Must be next to [Coast]",
 			"Only available <in cities with a [Harbor District]> <after adopting [Civil Engineering]>"
 		],
-		"quote": "'Here at our sea-washed, sunset gates shall stand a mighty woman with a torch, whose flame is the imprisoned lightning.' – Emma Lazarus",
+		"quote": "'Here at our sea-washed, sunset gates shall stand a mighty woman with a torch, whose flame is the imprisoned lightning.' – Emma Lazarus"
 	},
 	{
 		"name": "Ruhr Valley",
@@ -1374,7 +1234,7 @@
 			"Must be next to [Water]"
 		],
 		"requiredTech": "Steam Power",
-		"quote": "'Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea; Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.' – Psalms 46:2-3",
+		"quote": "'Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea; Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.' – Psalms 46:2-3"
 	},
 	{
 		"name": "Oxford University",
@@ -1465,7 +1325,6 @@
 		"requiredTech": "Economics",
 		"quote": "'Don't watch the big clock, do what it does: Keep going.' –Sam Levenson"
 	},
-	// Modern Era 
 	{
 		"name": "Eiffel Tower",
 		"isWonder": true,
@@ -1520,7 +1379,6 @@
 		],
 		"quote": "'There's no business like show business.' –Irving Berlin, Annie Get Your Gun"
 	},
-	// Atomic Era
 	{
 		"name": "Estadio do Maracana",
 		"isWonder": true,
@@ -1580,12 +1438,10 @@
 		],
 		"quote": "'An opera begins long before the curtain goes up and ends long after it has come down. It starts in my imagination, it becomes my life, and it stays part of my life long after I've left the opera house.' –Maria Callas"
 	},
-	// Infrastructure
-	// Ancient Era 
 	{
 		"name": "Monument",
 		"cost": 60,
-		"culture": 2,
+		"culture": 2
 	},
 	{
 		"name": "Granary",
@@ -1702,7 +1558,6 @@
 		],
 		"requiredTech": "Wheel"
 	},
-	// Classical Era 
 	{
 		"name": "Amphitheater",
 		"cost": 150,
@@ -1718,7 +1573,7 @@
 			"[+2 Culture] from [Landmark] tiles [in this city]",
 			"[+2 Culture] from [Acropolis] tiles [in this city]",
 			"Only available <after adopting [Drama and Poetry]>"
-		],
+		]
 	},
 	{
 		"name": "Marae",
@@ -1738,7 +1593,7 @@
 			"[+1 Culture, +1 Faith] from [Volcanic Soil] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Natural Wonder] tiles without [Mountain] [in this city]",
 			"Only available <after adopting [Drama and Poetry]>"
-		],
+		]
 	},
 	{
 		"name": "Stable",
@@ -1803,7 +1658,6 @@
 			"New [Water] units start with [15] XP [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"[+1 Food] from [Lakes] tiles [in this city]",
-			//"Provides [1] [Trade Route]",
 			"[5]% Food is carried over after population increases [in this city]"
 		],
 		"requiredTech": "Celestial Navigation"
@@ -1818,7 +1672,7 @@
 			"[+1 Culture, +2 Happiness] from [Street Carnival] tiles [in this city]",
 			"[+1 Culture, +2 Happiness] from [Hippodrome] tiles [in this city]",
 			"Only available <after adopting [Games and Recreation]>"
-		],
+		]
 	},
 	{
 		"name": "Tlachtli",
@@ -1833,7 +1687,7 @@
 		"uniques": [
 			"[+2 Culture, +2 Happiness, +2 Faith] from [Entertainment Complex] tiles [in this city]",
 			"Only available <after adopting [Games and Recreation]>"
-		],
+		]
 	},
 	{
 		"name": "Market",
@@ -1847,8 +1701,7 @@
 		},
 		"uniques": [
 			"[+3 Gold] from [Customs house] tiles [in this city]",
-			"[+3 Gold] from [Suguba] tiles [in this city]",
-			//"Provides [1] [Trade Route]"
+			"[+3 Gold] from [Suguba] tiles [in this city]"
 		],
 		"requiredTech": "Currency"
 	},
@@ -1867,8 +1720,7 @@
 			"Great Merchant": 1
 		},
 		"uniques": [
-			"[+3 Gold] from [Customs house] tiles [in this city]",
-			//"Provides [1] [Trade Route]"
+			"[+3 Gold] from [Customs house] tiles [in this city]"
 		],
 		"requiredTech": "Currency"
 	},
@@ -1889,7 +1741,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Happiness] from [Geothermal Fissure] tiles [in this city]",
-			"[10]% Food is carried over after population increases [in this city]",
+			"[10]% Food is carried over after population increases [in this city]"
 		],
 		"requiredTech": "Engineering"
 	},
@@ -1921,7 +1773,7 @@
 			"[+4 Faith] from [Holy site] tiles [in this city]",
 			"[+4 Faith] from [Lavra] tiles [in this city]",
 			"Only available <after adopting [Theology]>"
-		],
+		]
 	},
 	{
 		"name": "Prasat",
@@ -1941,7 +1793,7 @@
 			"[+6 Faith] from [Holy site] tiles [in this city]",
 			"All newly-trained [Civilian] units [in this city] receive the [Martyr] promotion",
 			"Only available <after adopting [Theology]>"
-		],
+		]
 	},
 	{
 		"name": "Stave Church",
@@ -1961,9 +1813,8 @@
 			"[+1 Faith] from [Forest] tiles [in this city]",
 			"[+1 Production] from [Water resource] tiles [in this city]",
 			"Only available <after adopting [Theology]>"
-		],
+		]
 	},
-	// Medieval Era 
 	{
 		"name": "Workshop",
 		"cost": 195,
@@ -2022,41 +1873,34 @@
 			"[+2 Faith] from [Academy] tiles [in this city] <for every adjacent [Atoll]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <for every adjacent [Great Barrier Reef]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <for every adjacent [Pamukkale]>",
-
 			"[+1 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <for every adjacent [Mountain]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <for every adjacent [Geothermal Fissure]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <for every adjacent [Atoll]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <for every adjacent [Great Barrier Reef]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <for every adjacent [Pamukkale]>",
-
 			"[+1 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <for every adjacent [Mountain]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <for every adjacent [Geothermal Fissure]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <for every adjacent [Atoll]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <for every adjacent [Great Barrier Reef]>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <for every adjacent [Pamukkale]>",
-
-
-
 			"[+1 Faith] from [Academy] tiles [in this city] <with [2] to [3] neighboring [Jungle] tiles>",
 			"[+2 Faith] from [Academy] tiles [in this city] <with [4] to [5] neighboring [Jungle] tiles>",
 			"[+3 Faith] from [Academy] tiles [in this city] <with [6] to [6] neighboring [Jungle] tiles>",
 			"[+1 Faith] from [Academy] tiles [in this city] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Faith] from [Academy] tiles [in this city] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Faith] from [Academy] tiles [in this city] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+1 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <with [2] to [3] neighboring [Jungle] tiles>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <with [4] to [5] neighboring [Jungle] tiles>",
 			"[+3 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <with [6] to [6] neighboring [Jungle] tiles>",
 			"[+1 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Faith] from [Academy] tiles [in this city] <if [Natural Philosophy] is constructed> <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+1 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [2] to [3] neighboring [Jungle] tiles>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [4] to [5] neighboring [Jungle] tiles>",
 			"[+3 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [6] to [6] neighboring [Jungle] tiles>",
 			"[+1 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [6] to [6] neighboring [Great Improvement] tiles>",
+			"[+3 Faith] from [Academy] tiles [in this city] <if [Five-Year Plan] is constructed> <with [6] to [6] neighboring [Great Improvement] tiles>"
 		]
 	},
 	{
@@ -2088,7 +1932,6 @@
 		],
 		"requiredTech": "Castles"
 	},
-	// Renaissance Era 
 	{
 		"name": "Bank",
 		"cost": 290,
@@ -2101,7 +1944,7 @@
 		},
 		"uniques": [
 			"[+5 Gold] from [Customs house] tiles [in this city]",
-			"[+5 Gold] from [Suguba] tiles [in this city]",
+			"[+5 Gold] from [Suguba] tiles [in this city]"
 		],
 		"requiredTech": "Banking"
 	},
@@ -2119,7 +1962,7 @@
 		},
 		"uniques": [
 			"[+5 Gold] from [Customs house] tiles [in this city]",
-			"[+1 Happiness] from [Luxury resource] tiles [in this city]",
+			"[+1 Happiness] from [Luxury resource] tiles [in this city]"
 		],
 		"requiredTech": "Banking"
 	},
@@ -2187,7 +2030,6 @@
 		],
 		"requiredTech": "Siege Tactics"
 	},
-	// Industrial Era 
 	{
 		"name": "Factory",
 		"cost": 330,
@@ -2202,7 +2044,7 @@
 		"uniques": [
 			"[+12 Production] from [Manufactory] tiles [in this city]",
 			"[+12 Production] from [Hansa] tiles [in this city]",
-			"[+12 Production] from [Oppidum] tiles [in this city]",
+			"[+12 Production] from [Oppidum] tiles [in this city]"
 		],
 		"requiredTech": "Industrialization"
 	},
@@ -2222,7 +2064,7 @@
 		"uniques": [
 			"[+12 Production] from [Manufactory] tiles [in this city]",
 			"[+5 Production] from [Manufactory] tiles [in this city] <with [Power]>",
-			"[+4 Culture] <after discovering [Electricity]>",
+			"[+4 Culture] <after discovering [Electricity]>"
 		],
 		"requiredTech": "Industrialization"
 	},
@@ -2367,7 +2209,6 @@
 			"[+3 Production] from [Hansa] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Oppidum] tiles [in all cities] <for every adjacent [Quarry]>",
 			"[+2 Production] from [Oppidum] tiles [in all cities] <for every adjacent [Strategic resource]>",
-
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Craftsmen] is constructed> <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Craftsmen] is constructed> <for every adjacent [Quarry]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Craftsmen] is constructed> <with [2] to [3] neighboring [Great Improvement] tiles>",
@@ -2388,7 +2229,6 @@
 			"[+3 Production] from [Hansa] tiles [in all cities] <if [Craftsmen] is constructed> <with [6] to [6] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Oppidum] tiles [in all cities] <if [Craftsmen] is constructed> <for every adjacent [Quarry]>",
 			"[+2 Production] from [Oppidum] tiles [in all cities] <if [Craftsmen] is constructed> <for every adjacent [Strategic resource]>",
-
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Five-Year Plan] is constructed> <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Five-Year Plan] is constructed> <for every adjacent [Quarry]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <if [Five-Year Plan] is constructed> <with [2] to [3] neighboring [Great Improvement] tiles>",
@@ -2408,11 +2248,10 @@
 			"[+2 Production] from [Hansa] tiles [in all cities] <if [Five-Year Plan] is constructed> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Production] from [Hansa] tiles [in all cities] <if [Five-Year Plan] is constructed> <with [6] to [6] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Oppidum] tiles [in all cities] <if [Five-Year Plan] is constructed> <for every adjacent [Quarry]>",
-			"[+2 Production] from [Oppidum] tiles [in all cities] <if [Five-Year Plan] is constructed> <for every adjacent [Strategic resource]>",
+			"[+2 Production] from [Oppidum] tiles [in all cities] <if [Five-Year Plan] is constructed> <for every adjacent [Strategic resource]>"
 		],
 		"requiredTech": "Industrialization"
 	},
-	// Modern Era 
 	{
 		"name": "Hangar",
 		"cost": 380,
@@ -2420,7 +2259,7 @@
 		"requiredBuilding": "Aerodrome District",
 		"uniques": [
 			"[+2 Production] from [Aerodrome] tiles [in this city]",
-			"All newly-trained [Aircraft] units [in this city] receive the [Quick Study I] promotion",
+			"All newly-trained [Aircraft] units [in this city] receive the [Quick Study I] promotion"
 		],
 		"requiredTech": "Flight"
 	},
@@ -2463,9 +2302,9 @@
 			"[+12 Production] from [Hansa] tiles [in this city]",
 			"[+12 Production] from [Oppidum] tiles [in this city]",
 			"Only available <in cities without a [Coal Power Plant]>",
-			"Only available <in cities without a [Nuclear Power Plant]>",
+			"Only available <in cities without a [Nuclear Power Plant]>"
 		],
-		"requiredTech": "Electricity",
+		"requiredTech": "Electricity"
 	},
 	{
 		"name": "Broadcast Center",
@@ -2526,7 +2365,7 @@
 			"[+5 Science] from [Academy] tiles [in this city] <with [Power]>",
 			"[+5 Science] from [Observatory] tiles [in this city] <with [Power]>",
 			"[+5 Science] from [Seowon] tiles [in this city] <with [Power]>",
-			"[+1 Science] from every specialist [in this city] <with [Power]>",
+			"[+1 Science] from every specialist [in this city] <with [Power]>"
 		],
 		"requiredTech": "Chemistry"
 	},
@@ -2541,7 +2380,7 @@
 			"[+4 Food] from [Neighbourhood] tiles [in this city]",
 			"[+4 Food] from [Mbanza] tiles [in this city]",
 			"[+2 Food] from [Neighbourhood] tiles [in this city] <with [Power]>",
-			"[+2 Food] from [Mbanza] tiles [in this city] <with [Power]>",
+			"[+2 Food] from [Mbanza] tiles [in this city] <with [Power]>"
 		],
 		"requiredTech": "Replaceable Parts"
 	},
@@ -2560,7 +2399,6 @@
 		],
 		"cannotBeBuiltWith": "Food Market"
 	},
-	// Atomic Era 
 	{
 		"name": "Airport",
 		"cost": 480,
@@ -2571,7 +2409,7 @@
 			"[+4 Production] from [Aerodrome] tiles [in this city]",
 			"[+2 Production] from [Aerodrome] tiles [in this city] <with [Power]>",
 			"All newly-trained [Aircraft] units [in this city] receive the [Quick Study II] promotion",
-			"All newly-trained [Aircraft] units [in this city] receive the [Quick Study III] promotion",
+			"All newly-trained [Aircraft] units [in this city] receive the [Quick Study III] promotion"
 		],
 		"requiredTech": "Advanced Flight"
 	},
@@ -2624,9 +2462,9 @@
 			"[+16 Production, +12 Science] from [Hansa] tiles [in this city]",
 			"[+16 Production, +12 Science] from [Oppidum] tiles [in this city]",
 			"Only available <in cities without a [Coal Power Plant]>",
-			"Only available <in cities without a [Oil Power Plant]>",
+			"Only available <in cities without a [Oil Power Plant]>"
 		],
-		"requiredTech": "Nuclear Fission",
+		"requiredTech": "Nuclear Fission"
 	},
 	{
 		"name": "Manhattan Project",
@@ -2637,7 +2475,6 @@
 		],
 		"requiredTech": "Nuclear Fission"
 	},
-	// Information Era
 	{
 		"name": "United Nations",
 		"isWonder": true,
@@ -2654,8 +2491,6 @@
 		],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
-	// Future Era
-	//Religious buildings
 	{
 		"name": "Cathedral",
 		"cost": 0,
@@ -2802,7 +2637,6 @@
 			"Only available <when religion is enabled>"
 		]
 	},
-	//Governments
 	{
 		"name": "Chiefdom",
 		"cost": 1,
@@ -2814,8 +2648,8 @@
 			"Provides [1] [Military Policy Slots] <with [Tier 1 Government]>",
 			"Provides [1] [Economic Policy Slots] <with [Tier 1 Government]>",
 			"Provides [1] [Tier 1 Government]",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Autocracy",
@@ -2834,8 +2668,8 @@
 			"Consumes [1] [Tier 1 Government]",
 			"Provides [1] [Tier 2 Government]",
 			"Only available <with [Tier 1 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Classical Republic",
@@ -2854,8 +2688,8 @@
 			"Consumes [1] [Tier 1 Government]",
 			"Provides [1] [Tier 2 Government]",
 			"Only available <with [Tier 1 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Oligarchy",
@@ -2875,8 +2709,8 @@
 			"Consumes [1] [Tier 1 Government]",
 			"Provides [1] [Tier 2 Government]",
 			"Only available <with [Tier 1 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Merchant Republic",
@@ -2904,8 +2738,8 @@
 			"Consumes [1] [Tier 2 Government]",
 			"Provides [1] [Tier 3 Government]",
 			"Only available <with [Tier 2 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Monarchy",
@@ -2926,8 +2760,8 @@
 			"Consumes [1] [Tier 2 Government]",
 			"Provides [1] [Tier 3 Government]",
 			"Only available <with [Tier 2 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Theocracy",
@@ -2948,8 +2782,8 @@
 			"Consumes [1] [Tier 2 Government]",
 			"Provides [1] [Tier 3 Government]",
 			"Only available <with [Tier 2 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Communism",
@@ -2968,8 +2802,8 @@
 			"Consumes [1] [Tier 3 Government]",
 			"Provides [1] [Tier 4 Government]",
 			"Only available <with [Tier 3 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Democracy",
@@ -3005,8 +2839,8 @@
 			"Consumes [1] [Tier 3 Government]",
 			"Provides [1] [Tier 4 Government]",
 			"Only available <with [Tier 3 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Fascism",
@@ -3025,8 +2859,8 @@
 			"Consumes [1] [Tier 3 Government]",
 			"Provides [1] [Tier 4 Government]",
 			"Only available <with [Tier 3 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Digital Democracy",
@@ -3059,8 +2893,8 @@
 			"[+2 Culture] from [Acropolis] tiles [in all cities]",
 			"Consumes [1] [Tier 4 Government]",
 			"Only available <with [Tier 4 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Synthetic Technocracy",
@@ -3077,8 +2911,8 @@
 			"[+30]% Production when constructing [All] buildings [in all cities]",
 			"Consumes [1] [Tier 4 Government]",
 			"Only available <with [Tier 4 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Corporate Libertarianism",
@@ -3097,10 +2931,9 @@
 			"[-10]% [Science] [in all cities]",
 			"Consumes [1] [Tier 4 Government]",
 			"Only available <with [Tier 4 Government]>",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
-	//Greece ability
 	{
 		"name": "Plato's Republic",
 		"cost": 1,
@@ -3109,10 +2942,9 @@
 		"uniques": [
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Wildcard Policy Slots]",
-		],
+			"Provides [1] [Wildcard Policy Slots]"
+		]
 	},
-	//Converters
 	{
 		"name": "Founding Fathers 1",
 		"cost": 1,
@@ -3124,8 +2956,8 @@
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Wildcard Policy Slots]",
-		],
+			"Provides [1] [Wildcard Policy Slots]"
+		]
 	},
 	{
 		"name": "Founding Fathers 2",
@@ -3138,8 +2970,8 @@
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Wildcard Policy Slots]",
-		],
+			"Provides [1] [Wildcard Policy Slots]"
+		]
 	},
 	{
 		"name": "Founding Fathers 3",
@@ -3152,8 +2984,8 @@
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Wildcard Policy Slots]",
-		],
+			"Provides [1] [Wildcard Policy Slots]"
+		]
 	},
 	{
 		"name": "Founding Fathers 4",
@@ -3166,8 +2998,8 @@
 			"[-5]% City-State Influence degradation",
 			"Only available <with [Diplomatic Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Wildcard Policy Slots]",
-		],
+			"Provides [1] [Wildcard Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Military Policy Slot converter 1",
@@ -3178,8 +3010,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Military Policy Slots]",
-		],
+			"Provides [1] [Military Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Military Policy Slot converter 2",
@@ -3190,8 +3022,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Military Policy Slots]",
-		],
+			"Provides [1] [Military Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Military Policy Slot converter 3",
@@ -3202,8 +3034,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Military Policy Slots]",
-		],
+			"Provides [1] [Military Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Military Policy Slot converter 4",
@@ -3214,8 +3046,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Military Policy Slots]",
-		],
+			"Provides [1] [Military Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Military Policy Slot converter 5",
@@ -3226,8 +3058,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Military Policy Slots]",
-		],
+			"Provides [1] [Military Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Economic Policy Slot converter 1",
@@ -3238,8 +3070,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Economic Policy Slots]",
-		],
+			"Provides [1] [Economic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Economic Policy Slot converter 2",
@@ -3250,8 +3082,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Economic Policy Slots]",
-		],
+			"Provides [1] [Economic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Economic Policy Slot converter 3",
@@ -3262,8 +3094,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Economic Policy Slots]",
-		],
+			"Provides [1] [Economic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Economic Policy Slot converter 4",
@@ -3274,8 +3106,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Economic Policy Slots]",
-		],
+			"Provides [1] [Economic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Economic Policy Slot converter 5",
@@ -3286,8 +3118,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Economic Policy Slots]",
-		],
+			"Provides [1] [Economic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Diplomatic Policy Slot converter 1",
@@ -3298,8 +3130,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Diplomatic Policy Slots]",
-		],
+			"Provides [1] [Diplomatic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Diplomatic Policy Slot converter 2",
@@ -3310,8 +3142,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Diplomatic Policy Slots]",
-		],
+			"Provides [1] [Diplomatic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Diplomatic Policy Slot converter 3",
@@ -3322,8 +3154,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Diplomatic Policy Slots]",
-		],
+			"Provides [1] [Diplomatic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Diplomatic Policy Slot converter 4",
@@ -3334,8 +3166,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Diplomatic Policy Slots]",
-		],
+			"Provides [1] [Diplomatic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Diplomatic Policy Slot converter 5",
@@ -3346,8 +3178,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Diplomatic Policy Slots]",
-		],
+			"Provides [1] [Diplomatic Policy Slots]"
+		]
 	},
 	{
 		"name": "Wildcard-Diplomatic Policy Slot Converter 2",
@@ -3358,10 +3190,9 @@
 			"Can only be built <in [in capital] cities>",
 			"Only available <with [Wildcard Policy Slots]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Diplomatic Policy Slots]",
-		],
+			"Provides [1] [Diplomatic Policy Slots]"
+		]
 	},
-	//Social policies
 	{
 		"name": "Survey",
 		"cost": 1,
@@ -3371,8 +3202,8 @@
 			"Only available <after adopting [Code of Laws]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% XP gained from combat <for [Recon] units> <before adopting [Colonialism]>",
-		],
+			"[+100]% XP gained from combat <for [Recon] units> <before adopting [Colonialism]>"
+		]
 	},
 	{
 		"name": "God King",
@@ -3383,8 +3214,8 @@
 			"Only available <after adopting [Code of Laws]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1 Gold, +1 Faith] [in capital] <before adopting [Theology]>",
-		],
+			"[+1 Gold, +1 Faith] [in capital] <before adopting [Theology]>"
+		]
 	},
 	{
 		"name": "Discipline",
@@ -3396,8 +3227,8 @@
 			"Only available <before adopting [Colonialism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+33]% Strength <vs [Barbarian] units> <before adopting [Colonialism]>",
-		],
+			"[+33]% Strength <vs [Barbarian] units> <before adopting [Colonialism]>"
+		]
 	},
 	{
 		"name": "Urban Planning",
@@ -3409,8 +3240,8 @@
 			"Only available <before adopting [The Enlightenment]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1 Production] [in all cities] <before adopting [The Enlightenment]>",
-		],
+			"[+1 Production] [in all cities] <before adopting [The Enlightenment]>"
+		]
 	},
 	{
 		"name": "Ilkum",
@@ -3422,8 +3253,8 @@
 			"Only available <before adopting [Feudalism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+30]% Production when constructing [Worker] units [in all cities] <before adopting [Feudalism]>",
-		],
+			"[+30]% Production when constructing [Worker] units [in all cities] <before adopting [Feudalism]>"
+		]
 	},
 	{
 		"name": "Agoge",
@@ -3437,8 +3268,8 @@
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
 			"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
-			"[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>",
-		],
+			"[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Feudalism]>"
+		]
 	},
 	{
 		"name": "Caravansaries",
@@ -3450,8 +3281,8 @@
 			"Only available <before adopting [Mercantilism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+2 Gold] from each Trade Route <before adopting [Mercantilism]>",
-		],
+			"[+2 Gold] from each Trade Route <before adopting [Mercantilism]>"
+		]
 	},
 	{
 		"name": "Maritime Industries",
@@ -3464,8 +3295,8 @@
 			"Only available <before adopting [Cold War]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% Production when constructing [Water] units [in all cities] <before the [Medieval era]> <before adopting [Exploration]> <before adopting [Cold War]>",
-		],
+			"[+100]% Production when constructing [Water] units [in all cities] <before the [Medieval era]> <before adopting [Exploration]> <before adopting [Cold War]>"
+		]
 	},
 	{
 		"name": "Maneuver",
@@ -3479,8 +3310,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Light Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Totalitarianism]>",
-			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Totalitarianism]>",
-		],
+			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Totalitarianism]>"
+		]
 	},
 	{
 		"name": "Strategos",
@@ -3494,8 +3325,8 @@
 			"Only available <after adopting [Military Tradition]>",
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Conscription",
@@ -3507,8 +3338,8 @@
 			"Only available <before adopting [Mobilization]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[10] units cost no maintenance <before adopting [Mobilization]>",
-		],
+			"[10] units cost no maintenance <before adopting [Mobilization]>"
+		]
 	},
 	{
 		"name": "Corvée",
@@ -3521,8 +3352,8 @@
 			"Only available <before adopting [Civil Engineering]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+15]% Production when constructing [All] wonders [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Civil Engineering]>",
-		],
+			"[+15]% Production when constructing [All] wonders [in all cities] <before the [Medieval era]> <before adopting [Divine Right]> <before adopting [Civil Engineering]>"
+		]
 	},
 	{
 		"name": "Land Surveyors",
@@ -3534,8 +3365,8 @@
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[-20]% Gold cost of acquiring tiles [in all cities] <before adopting [Scorched Earth]>",
-		],
+			"[-20]% Gold cost of acquiring tiles [in all cities] <before adopting [Scorched Earth]>"
+		]
 	},
 	{
 		"name": "Colonization",
@@ -3547,8 +3378,8 @@
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+50]% Production when constructing [Settler] units [in all cities] <before adopting [Scorched Earth]>",
-		],
+			"[+50]% Production when constructing [Settler] units [in all cities] <before adopting [Scorched Earth]>"
+		]
 	},
 	{
 		"name": "Limitanei",
@@ -3559,8 +3390,8 @@
 			"Only available <after adopting [Early Empire]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+2 Happiness] [in all cities with a garrison]",
-		],
+			"[+2 Happiness] [in all cities with a garrison]"
+		]
 	},
 	{
 		"name": "Inspiration",
@@ -3574,8 +3405,8 @@
 			"Only available <after adopting [Mysticism]>",
 			"Only available <before adopting [Nuclear Program]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Revelation",
@@ -3589,8 +3420,8 @@
 			"Only available <after adopting [Mysticism]>",
 			"Only available <before adopting [Humanism]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Insulae",
@@ -3602,8 +3433,8 @@
 			"Only available <before adopting [Medieval Faires]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[5]% Food is carried over after population increases [in all cities] <before adopting [Medieval Faires]>",
-		],
+			"[5]% Food is carried over after population increases [in all cities] <before adopting [Medieval Faires]>"
+		]
 	},
 	{
 		"name": "Charismatic Leader",
@@ -3615,8 +3446,8 @@
 			"Only available <before adopting [Totalitarianism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[-25]% City-State Influence degradation <before adopting [Totalitarianism]>",
-		],
+			"[-25]% City-State Influence degradation <before adopting [Totalitarianism]>"
+		]
 	},
 	{
 		"name": "Diplomatic League",
@@ -3627,8 +3458,8 @@
 			"Only available <after adopting [Political Philosophy]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Gifts of Gold to City-States generate [25]% more Influence",
-		],
+			"Gifts of Gold to City-States generate [25]% more Influence"
+		]
 	},
 	{
 		"name": "Literary Tradition",
@@ -3641,8 +3472,8 @@
 		"uniques": [
 			"Only available <after adopting [Drama and Poetry]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Raid",
@@ -3654,8 +3485,8 @@
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% Health from pillaging tiles",
-		],
+			"[+100]% Health from pillaging tiles"
+		]
 	},
 	{
 		"name": "Veterancy",
@@ -3674,8 +3505,8 @@
 			"[+30]% Production when constructing [Harbor District] buildings [in all cities]",
 			"[+30]% Production when constructing [Lighthouse] buildings [in all cities]",
 			"[+30]% Production when constructing [Shipyard] buildings [in all cities]",
-			"[+30]% Production when constructing [Seaport] buildings [in all cities]",
-		],
+			"[+30]% Production when constructing [Seaport] buildings [in all cities]"
+		]
 	},
 	{
 		"name": "Equestrian Orders",
@@ -3687,8 +3518,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% [Horses] resource production",
-			"[+100]% [Iron] resource production",
-		],
+			"[+100]% [Iron] resource production"
+		]
 	},
 	{
 		"name": "Bastions",
@@ -3701,8 +3532,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+33]% Strength for cities <when attacking> <before adopting [Civil Engineering]>",
-			"[+40]% Strength for cities <when defending> <before adopting [Civil Engineering]>",
-		],
+			"[+40]% Strength for cities <when defending> <before adopting [Civil Engineering]>"
+		]
 	},
 	{
 		"name": "Limes",
@@ -3716,8 +3547,8 @@
 			"Destroyed when the city is captured",
 			"[+100]% Production when constructing [Ancient Walls] buildings [in all cities] <before adopting [Totalitarianism]>",
 			"[+100]% Production when constructing [Medieval Walls] buildings [in all cities] <before adopting [Totalitarianism]>",
-			"[+100]% Production when constructing [Renaissance Walls] buildings [in all cities] <before adopting [Totalitarianism]>",
-		],
+			"[+100]% Production when constructing [Renaissance Walls] buildings [in all cities] <before adopting [Totalitarianism]>"
+		]
 	},
 	{
 		"name": "Natural Philosophy",
@@ -3735,30 +3566,26 @@
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Atoll]>",
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Great Barrier Reef]>",
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Pamukkale]>",
-
 			"[+1 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Jungle] tiles>",
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Jungle] tiles>",
 			"[+3 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Jungle] tiles>",
 			"[+1 Science] from [Academy] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Plantation]>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Great Barrier Reef]>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Pamukkale]>",
-
 			"[+1 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Farm] tiles>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Farm] tiles>",
 			"[+3 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Farm] tiles>",
 			"[+1 Science] from [Observatory] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+4 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]>",
 			"[-1 Science] from [Seowon] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[-2 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[-3 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-		],
+			"[-3 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>"
+		]
 	},
 	{
 		"name": "Scripture",
@@ -3773,14 +3600,12 @@
 			"[+2 Faith] from [Holy site] tiles [in all cities] <for every adjacent [Natural Wonder]>",
 			"[+1 Faith] from [Holy site] tiles [in all cities] <for every adjacent [Mountain]>",
 			"[+1 Faith] from [Holy site] tiles [in all cities] <for every adjacent [Pamukkale]>",
-
 			"[+1 Faith] from [Holy site] tiles [in all cities] <with [2] to [3] neighboring [Forest] tiles>",
 			"[+2 Faith] from [Holy site] tiles [in all cities] <with [4] to [5] neighboring [Forest] tiles>",
 			"[+3 Faith] from [Holy site] tiles [in all cities] <with [6] to [6] neighboring [Forest] tiles>",
 			"[+1 Faith] from [Holy site] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Faith] from [Holy site] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Faith] from [Holy site] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Faith] from [Lavra] tiles [in all cities] <for every adjacent [Natural Wonder]>",
 			"[+1 Faith] from [Lavra] tiles [in all cities] <for every adjacent [Mountain]>",
 			"[+1 Faith] from [Lavra] tiles [in all cities] <for every adjacent [Pamukkale]>",
@@ -3789,8 +3614,8 @@
 			"[+3 Faith] from [Lavra] tiles [in all cities] <with [6] to [6] neighboring [Forest] tiles>",
 			"[+1 Faith] from [Lavra] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Faith] from [Lavra] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Faith] from [Lavra] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-		],
+			"[+3 Faith] from [Lavra] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>"
+		]
 	},
 	{
 		"name": "Praetorium",
@@ -3802,8 +3627,8 @@
 			"Only available <before adopting [Social Media]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1 Happiness] [in all cities] <before adopting [Social Media]>",
-		],
+			"[+1 Happiness] [in all cities] <before adopting [Social Media]>"
+		]
 	},
 	{
 		"name": "Naval Infrastructure",
@@ -3820,8 +3645,8 @@
 			"[+2 Gold] from [Harbor] tiles [in all cities] <before adopting [Suffrage]> <with [1] to [6] neighboring [City center] tiles>",
 			"[+1 Gold] from [Harbor] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Gold] from [Harbor] tiles [in all cities] <before adopting [Suffrage]> <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Gold] from [Harbor] tiles [in all cities] <before adopting [Suffrage]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-		],
+			"[+3 Gold] from [Harbor] tiles [in all cities] <before adopting [Suffrage]> <with [6] to [6] neighboring [Great Improvement] tiles>"
+		]
 	},
 	{
 		"name": "Navigation",
@@ -3834,8 +3659,8 @@
 		"uniques": [
 			"Only available <after adopting [Naval Tradition]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Feudal Contract",
@@ -3849,8 +3674,8 @@
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Land Melee] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
 			"[+50]% Production when constructing [Land Ranged] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
-			"[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>",
-		],
+			"[+50]% Production when constructing [Anti-Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Renaissance era]> <before adopting [Nationalism]>"
+		]
 	},
 	{
 		"name": "Serfdom",
@@ -3863,7 +3688,7 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-40]% construction time for [All] improvements <before adopting [Civil Engineering]>"
-		],
+		]
 	},
 	{
 		"name": "Meritocracy",
@@ -3880,8 +3705,8 @@
 			"[+1 Culture] from every [Harbor District]",
 			"[+1 Culture] from every [Holy Site District]",
 			"[+1 Culture] from every [Industrial Zone District]",
-			"[+1 Culture] from every [Theatre Square District]",
-		],
+			"[+1 Culture] from every [Theatre Square District]"
+		]
 	},
 	{
 		"name": "Retainers",
@@ -3893,8 +3718,8 @@
 			"Only available <before adopting [Mass Media]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1 Happiness] [in all cities with a garrison] <before adopting [Mass Media]>",
-		],
+			"[+1 Happiness] [in all cities with a garrison] <before adopting [Mass Media]>"
+		]
 	},
 	{
 		"name": "Civil Prestige",
@@ -3906,8 +3731,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Happiness] [in all cities] <in cities with at least [10] [Population]>",
-			"[10]% Food is carried over after population increases [in all cities] <in cities with at least [10] [Population]>",
-		],
+			"[10]% Food is carried over after population increases [in all cities] <in cities with at least [10] [Population]>"
+		]
 	},
 	{
 		"name": "Sack",
@@ -3919,8 +3744,8 @@
 			"Only available <before adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% Yield from pillaging tiles",
-		],
+			"[+100]% Yield from pillaging tiles"
+		]
 	},
 	{
 		"name": "Professional Army",
@@ -3932,23 +3757,9 @@
 			"Only available <before adopting [Urbanization]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[-50]% Gold cost of upgrading <for [Military] units> <before adopting [Urbanization]>",
-		],
+			"[-50]% Gold cost of upgrading <for [Military] units> <before adopting [Urbanization]>"
+		]
 	},
-	/*
-{
-		"name": "Retinues",
-		"cost": 1,
-		"hurryCostModifier": -100,
-            "requiredResource": "Economic Policy Slots",
-		"uniques": [
-"Only available <after adopting [Mercenaries]>",
-"Only available <before adopting [Urbanization]>",
-"Can only be built <in [in capital] cities>",
-"Destroyed when the city is captured",
-],
-	},
-*/
 	{
 		"name": "Trade Confederation",
 		"cost": 1,
@@ -3959,8 +3770,8 @@
 			"Only available <before adopting [Capitalism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1 Science, +1 Culture] from each Trade Route <before adopting [Capitalism]>",
-		],
+			"[+1 Science, +1 Culture] from each Trade Route <before adopting [Capitalism]>"
+		]
 	},
 	{
 		"name": "Merchant Confederation",
@@ -3971,8 +3782,8 @@
 			"Only available <after adopting [Medieval Faires]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves",
-		],
+			"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves"
+		]
 	},
 	{
 		"name": "Aesthetics",
@@ -3991,11 +3802,9 @@
 			"[+2 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Water Park]>",
 			"[+4 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Copacabana]>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Pamukkale]>",
-
 			"[+1 Culture] from [Landmark] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Entertainment Complex]>",
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Street Carnival]>",
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Hippodrome]>",
@@ -4003,8 +3812,8 @@
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Copacabana]>",
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Pamukkale]>",
 			"[+1 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Great Improvement]>",
-			"[+1 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <with [1] to [6] neighboring [City center] tiles>",
-		],
+			"[+1 Culture] from [Acropolis] tiles [in all cities] <before adopting [Professional Sports]> <with [1] to [6] neighboring [City center] tiles>"
+		]
 	},
 	{
 		"name": "Medina Quarter",
@@ -4016,8 +3825,8 @@
 			"Only available <before adopting [Suffrage]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[10]% Food is carried over after population increases [in all cities] <in cities with a [District3]> <before adopting [Suffrage]>",
-		],
+			"[10]% Food is carried over after population increases [in all cities] <in cities with a [District3]> <before adopting [Suffrage]>"
+		]
 	},
 	{
 		"name": "Craftsmen",
@@ -4032,7 +3841,6 @@
 			"Destroyed when the city is captured",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Quarry]>",
-
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
@@ -4042,19 +3850,16 @@
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Lumber mill] tiles>",
 			"[+2 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Lumber mill] tiles>",
 			"[+3 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Lumber mill] tiles>",
-
 			"[+2 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Customs house]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Bonus resource]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Luxury resource]>",
-
 			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Production] from [Oppidum] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Quarry]>",
-			"[+2 Production] from [Oppidum] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Strategic resource]>",
-		],
+			"[+2 Production] from [Oppidum] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Strategic resource]>"
+		]
 	},
 	{
 		"name": "Town Charters",
@@ -4070,19 +3875,16 @@
 			"[+2 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [River]>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [Harbor]>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [Pamukkale]>",
-
 			"[+1 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [River]>",
 			"[+2 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [Holy site]>",
 			"[+2 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [Pamukkale]>",
-
 			"[+1 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <with [6] to [6] neighboring [Great Improvement] tiles>",
-		],
+			"[+3 Gold] from [Suguba] tiles [in all cities] <before adopting [Suffrage]> <with [6] to [6] neighboring [Great Improvement] tiles>"
+		]
 	},
 	{
 		"name": "Traveling Merchants",
@@ -4096,8 +3898,8 @@
 			"Only available <after adopting [Guilds]>",
 			"Only available <before adopting [Capitalism]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Chivalry",
@@ -4110,8 +3912,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Light Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Totalitarianism]>",
-			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Totalitarianism]>",
-		],
+			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Totalitarianism]>"
+		]
 	},
 	{
 		"name": "Gothic Architecture",
@@ -4123,8 +3925,8 @@
 			"Only available <before adopting [Civil Engineering]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+15]% Production when constructing [All] wonders [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Civil Engineering]>",
-		],
+			"[+15]% Production when constructing [All] wonders [in all cities] <starting from the [Classical era]> <before the [Industrial era]> <before adopting [Civil Engineering]>"
+		]
 	},
 	{
 		"name": "Native Conquest",
@@ -4135,8 +3937,8 @@
 			"Only available <after adopting [Colonialism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-		],
+			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]"
+		]
 	},
 	{
 		"name": "Colonial Offices",
@@ -4147,8 +3949,8 @@
 			"Only available <after adopting [Colonialism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+15]% growth [in all cities] <on foreign continents>",
-		],
+			"[+15]% growth [in all cities] <on foreign continents>"
+		]
 	},
 	{
 		"name": "Colonial Taxes",
@@ -4160,8 +3962,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+25]% [Gold] [in all cities] <on foreign continents>",
-			"[+10]% [Production] [in all cities] <on foreign continents>",
-		],
+			"[+10]% [Production] [in all cities] <on foreign continents>"
+		]
 	},
 	{
 		"name": "Raj",
@@ -4176,7 +3978,7 @@
 			"Allied City-States provide [Culture] equal to [25]% of what they produce for themselves",
 			"Allied City-States provide [Gold] equal to [25]% of what they produce for themselves",
 			"Allied City-States provide [Faith] equal to [25]% of what they produce for themselves"
-		],
+		]
 	},
 	{
 		"name": "Invention",
@@ -4189,8 +3991,8 @@
 		"uniques": [
 			"Only available <after adopting [Humanism]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Frescoes",
@@ -4203,8 +4005,8 @@
 		"uniques": [
 			"Only available <after adopting [Humanism]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Machiavellianism",
@@ -4216,7 +4018,7 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Gifts of Gold to City-States generate [25]% more Influence"
-		],
+		]
 	},
 	{
 		"name": "Wisselbanken",
@@ -4229,8 +4031,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% [Food] from City-States",
-			"[+50]% [Production] from City-States",
-		],
+			"[+50]% [Production] from City-States"
+		]
 	},
 	{
 		"name": "Wars of Religion",
@@ -4241,8 +4043,8 @@
 			"Only available <after adopting [Reformed Church]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+27]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
-		],
+			"[+27]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>"
+		]
 	},
 	{
 		"name": "Simultaneum",
@@ -4263,8 +4065,8 @@
 			"[+3 Faith] from every [Pagoda]",
 			"[+3 Faith] from every [Stupa]",
 			"[+5 Faith] from every [Synagogue]",
-			"[+3 Faith] from every [Wat]",
-		],
+			"[+3 Faith] from every [Wat]"
+		]
 	},
 	{
 		"name": "Religious Orders",
@@ -4276,8 +4078,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+33]% Spread Religion Strength <for [Great Prophet] units>",
-			"[+33]% Spread Religion Strength <for [Missionary] units>",
-		],
+			"[+33]% Spread Religion Strength <for [Missionary] units>"
+		]
 	},
 	{
 		"name": "Logistics",
@@ -4288,8 +4090,8 @@
 			"Only available <after adopting [Mercantilism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1] Movement <for [All] units> <when fighting in [Friendly Land] tiles>",
-		],
+			"[+1] Movement <for [All] units> <when fighting in [Friendly Land] tiles>"
+		]
 	},
 	{
 		"name": "Triangular Trade",
@@ -4301,8 +4103,8 @@
 			"Only available <before adopting [Globalization]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+4 Gold, +1 Faith] from each Trade Route <before adopting [Globalization]>",
-		],
+			"[+4 Gold, +1 Faith] from each Trade Route <before adopting [Globalization]>"
+		]
 	},
 	{
 		"name": "Drill Manuals",
@@ -4314,8 +4116,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% [Niter] resource production",
-			"[+100]% [Coal] resource production",
-		],
+			"[+100]% [Coal] resource production"
+		]
 	},
 	{
 		"name": "Rationalism",
@@ -4328,8 +4130,8 @@
 			"Destroyed when the city is captured",
 			"[+2 Science] from every [Library]",
 			"[+4 Science] from every [University]",
-			"[+3 Science] from every [Research Lab]",
-		],
+			"[+3 Science] from every [Research Lab]"
+		]
 	},
 	{
 		"name": "Free Market",
@@ -4342,8 +4144,8 @@
 			"Destroyed when the city is captured",
 			"[+3 Gold] from every [Market]",
 			"[+5 Gold] from every [Bank]",
-			"[+4 Gold] from every [Stock Exchange]",
-		],
+			"[+4 Gold] from every [Stock Exchange]"
+		]
 	},
 	{
 		"name": "Liberalism",
@@ -4355,8 +4157,8 @@
 			"Only available <before adopting [Suffrage]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+1 Happiness] [in all cities] <in cities with a [District2]>",
-		],
+			"[+1 Happiness] [in all cities] <in cities with a [District2]>"
+		]
 	},
 	{
 		"name": "Grande Armée",
@@ -4369,8 +4171,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+50]% Production when constructing [Land Melee] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
-			"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>",
-		],
+			"[+50]% Production when constructing [Land Ranged] units [in all cities] <before the [Modern era]> <before adopting [Rapid Deployment]>"
+		]
 	},
 	{
 		"name": "National Identity",
@@ -4381,8 +4183,8 @@
 			"Only available <after adopting [Nationalism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"No damage penalty for wounded units",
-		],
+			"No damage penalty for wounded units"
+		]
 	},
 	{
 		"name": "Press Gangs",
@@ -4394,8 +4196,8 @@
 			"Only available <before adopting [Cold War]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% Production when constructing [Water] units [in all cities] <before the [Modern era]> <before adopting [Cold War]>",
-		],
+			"[+100]% Production when constructing [Water] units [in all cities] <before the [Modern era]> <before adopting [Cold War]>"
+		]
 	},
 	{
 		"name": "Public Works",
@@ -4407,8 +4209,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+30]% Production when constructing [Worker] units [in all cities]",
-			"[-40]% construction time for [All] improvements",
-		],
+			"[-40]% construction time for [All] improvements"
+		]
 	},
 	{
 		"name": "Skyscrapers",
@@ -4419,8 +4221,8 @@
 			"Only available <after adopting [Civil Engineering]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+15]% Production when constructing [All] wonders [in all cities]",
-		],
+			"[+15]% Production when constructing [All] wonders [in all cities]"
+		]
 	},
 	{
 		"name": "Grand Opera",
@@ -4434,8 +4236,8 @@
 			"Destroyed when the city is captured",
 			"[+2 Culture] from every [Amphitheater] <before adopting [Professional Sports]>",
 			"[+2 Culture] from every [Archaeological Museum] <before adopting [Professional Sports]>",
-			"[+2 Culture] from every [Broadcast Center]<before adopting [Professional Sports]> ",
-		],
+			"[+2 Culture] from every [Broadcast Center]<before adopting [Professional Sports]> "
+		]
 	},
 	{
 		"name": "Symphonies",
@@ -4448,8 +4250,8 @@
 		"uniques": [
 			"Only available <after adopting [Opera and Ballet]>",
 			"Can only be built <in [in capital] cities>",
-			"Destroyed when the city is captured",
-		],
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Public Transport",
@@ -4463,8 +4265,8 @@
 			"[+3 Food, +1 Production, +1 Gold] from every [Neighbourhood]",
 			"[+3 Food, +1 Production, +1 Gold] from every [Mbanza]",
 			"[+1 Food, +1 Production] from every [Neighbourhood] <with [1] to [6] neighboring [Natural Wonder] tiles>",
-			"[+1 Food, +1 Production] from every [Mbanza] <with [1] to [6] neighboring [Natural Wonder] tiles>",
-		],
+			"[+1 Food, +1 Production] from every [Mbanza] <with [1] to [6] neighboring [Natural Wonder] tiles>"
+		]
 	},
 	{
 		"name": "Military Research",
@@ -4478,8 +4280,8 @@
 			"Destroyed when the city is captured",
 			"[+2 Science] from every [Military Academy] <before adopting [Space Race]>",
 			"[+2 Science] from every [Seaport] <before adopting [Space Race]>",
-			"[+2 Science] from every [Renaissance Walls] <before adopting [Space Race]>",
-		],
+			"[+2 Science] from every [Renaissance Walls] <before adopting [Space Race]>"
+		]
 	},
 	{
 		"name": "Force Modernization",
@@ -4490,8 +4292,8 @@
 			"Only available <after adopting [Urbanization]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[-50]% Gold cost of upgrading <for [Military] units>",
-		],
+			"[-50]% Gold cost of upgrading <for [Military] units>"
+		]
 	},
 	{
 		"name": "Total War",
@@ -4502,8 +4304,8 @@
 			"Only available <after adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% Yield from pillaging tiles",
-		],
+			"[+100]% Yield from pillaging tiles"
+		]
 	},
 	{
 		"name": "Expropriation",
@@ -4515,8 +4317,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[Gold] cost of purchasing [Settler] units [-50]%",
-			"[-20]% Gold cost of acquiring tiles [in all cities]",
-		],
+			"[-20]% Gold cost of acquiring tiles [in all cities]"
+		]
 	},
 	{
 		"name": "Military Organization",
@@ -4530,8 +4332,8 @@
 			"Only available <after adopting [Scorched Earth]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+2] Movement <for [Great General] units>",
-		],
+			"[+2] Movement <for [Great General] units>"
+		]
 	},
 	{
 		"name": "Resource Management",
@@ -4543,8 +4345,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% [Oil] resource production",
-			"[+100]% [Aluminum] resource production",
-		],
+			"[+100]% [Aluminum] resource production"
+		]
 	},
 	{
 		"name": "Propaganda",
@@ -4556,8 +4358,8 @@
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+5] Unit Supply <when at war>",
-			"[+1 Happiness] [in annexed cities] <when at war>",
-		],
+			"[+1 Happiness] [in annexed cities] <when at war>"
+		]
 	},
 	{
 		"name": "Levée en Masse",
@@ -4568,8 +4370,8 @@
 			"Only available <after adopting [Mobilization]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[15] units cost no maintenance",
-		],
+			"[15] units cost no maintenance"
+		]
 	},
 	{
 		"name": "Laissez Faire",
@@ -4582,8 +4384,8 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
-			"Can only be built <in [in capital] cities>",
-		],
+			"Can only be built <in [in capital] cities>"
+		]
 	},
 	{
 		"name": "Market Economy",
@@ -4593,8 +4395,8 @@
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
 			"Can only be built <in [in capital] cities>",
-			"[+1 Gold, +2 Science, +2 Culture] from each Trade Route",
-		],
+			"[+1 Gold, +2 Science, +2 Culture] from each Trade Route"
+		]
 	},
 	{
 		"name": "Police State",
@@ -4604,8 +4406,8 @@
 		"uniques": [
 			"Only available <after adopting [Ideology]>",
 			"Can only be built <in [in capital] cities>",
-			"[+1] Sight <for [Spy] units>",
-		],
+			"[+1] Sight <for [Spy] units>"
+		]
 	},
 	{
 		"name": "Economic Union",
@@ -4619,26 +4421,21 @@
 			"[+2 Gold] from [Customs house] tiles [in all cities] <for every adjacent [River]>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <for every adjacent [Harbor]>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <for every adjacent [Pamukkale]>",
-
 			"[+1 Gold] from [Customs house] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Gold] from [Customs house] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Gold] from [Suguba] tiles [in all cities] <for every adjacent [River]>",
 			"[+2 Gold] from [Suguba] tiles [in all cities] <for every adjacent [Holy site]>",
 			"[+2 Gold] from [Suguba] tiles [in all cities] <for every adjacent [Pamukkale]>",
-
 			"[+1 Gold] from [Suguba] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Gold] from [Suguba] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Gold] from [Suguba] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+1 Gold] from [Harbor] tiles [in all cities] <for every adjacent [Water resource]>",
-
 			"[+2 Gold] from [Harbor] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
 			"[+1 Gold] from [Harbor] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Gold] from [Harbor] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Gold] from [Harbor] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-		],
+			"[+3 Gold] from [Harbor] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>"
+		]
 	},
 	{
 		"name": "Their Finest Hour",
@@ -4648,8 +4445,8 @@
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
 			"Can only be built <in [in capital] cities>",
-			"[+33]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-		],
+			"[+33]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"
+		]
 	},
 	{
 		"name": "Arsenal of Democracy",
@@ -4660,8 +4457,8 @@
 			"Only available <after adopting [Suffrage]>",
 			"Can only be built <in [in capital] cities>",
 			"[+100]% [Food] from City-States",
-			"[+100]% [Production] from City-States",
-		],
+			"[+100]% [Production] from City-States"
+		]
 	},
 	{
 		"name": "New Deal",
@@ -4672,8 +4469,8 @@
 			"Only available <after adopting [Suffrage]>",
 			"Can only be built <in [in capital] cities>",
 			"[20]% Food is carried over after population increases [in all cities] <in cities with a [District3]>",
-			"[+2 Happiness] [in all cities] <in cities with a [District3]>",
-		],
+			"[+2 Happiness] [in all cities] <in cities with a [District3]>"
+		]
 	},
 	{
 		"name": "Lightning Warfare",
@@ -4684,8 +4481,8 @@
 			"Only available <after adopting [Totalitarianism]>",
 			"Can only be built <in [in capital] cities>",
 			"[+50]% Production when constructing [Light Cavalry] units [in all cities]",
-			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities]",
-		],
+			"[+50]% Production when constructing [Heavy Cavalry] units [in all cities]"
+		]
 	},
 	{
 		"name": "Third Alternative",
@@ -4699,8 +4496,8 @@
 			"[+4 Gold, +2 Culture] from every [Military Academy]",
 			"[+4 Gold, +2 Culture] from every [Coal Power Plant]",
 			"[+4 Gold, +2 Culture] from every [Oil Power Plant]",
-			"[+4 Gold, +2 Culture] from every [Nuclear Power Plant]",
-		],
+			"[+4 Gold, +2 Culture] from every [Nuclear Power Plant]"
+		]
 	},
 	{
 		"name": "Martial Law",
@@ -4712,8 +4509,8 @@
 			"Can only be built <in [in capital] cities>",
 			"[+5] Unit Supply <when at war>",
 			"[+1 Happiness] [in annexed cities] <when at war>",
-			"[+2 Happiness] [in all cities with a garrison] <when at war>",
-		],
+			"[+2 Happiness] [in all cities with a garrison] <when at war>"
+		]
 	},
 	{
 		"name": "Gunboat Diplomacy",
@@ -4724,8 +4521,8 @@
 			"Only available <after adopting [Totalitarianism]>",
 			"Can only be built <in [in capital] cities>",
 			"[-25]% City-State Influence degradation",
-			"City-State territory always counts as friendly territory",
-		],
+			"City-State territory always counts as friendly territory"
+		]
 	},
 	{
 		"name": "Five-Year Plan",
@@ -4741,18 +4538,15 @@
 			"[+2 Science] from [Academy] tiles [in all cities] <for every adjacent [Atoll]>",
 			"[+2 Science] from [Academy] tiles [in all cities] <for every adjacent [Great Barrier Reef]>",
 			"[+2 Science] from [Academy] tiles [in all cities] <for every adjacent [Pamukkale]>",
-
 			"[+1 Science] from [Academy] tiles [in all cities] <with [2] to [3] neighboring [Jungle] tiles>",
 			"[+2 Science] from [Academy] tiles [in all cities] <with [4] to [5] neighboring [Jungle] tiles>",
 			"[+3 Science] from [Academy] tiles [in all cities] <with [6] to [6] neighboring [Jungle] tiles>",
 			"[+1 Science] from [Academy] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Science] from [Academy] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Science] from [Academy] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Science] from [Observatory] tiles [in all cities] <for every adjacent [Plantation]>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <for every adjacent [Great Barrier Reef]>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <for every adjacent [Pamukkale]>",
-
 			"[+1 Science] from [Observatory] tiles [in all cities] <with [2] to [3] neighboring [Farm] tiles>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <with [4] to [5] neighboring [Farm] tiles>",
 			"[+3 Science] from [Observatory] tiles [in all cities] <with [6] to [6] neighboring [Farm] tiles>",
@@ -4763,7 +4557,6 @@
 			"[-1 Science] from [Seowon] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[-2 Science] from [Seowon] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[-3 Science] from [Seowon] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+1 Production] from [Manufactory] tiles [in all cities] <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <for every adjacent [Quarry]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
@@ -4775,18 +4568,16 @@
 			"[+1 Production] from [Manufactory] tiles [in all cities] <with [2] to [3] neighboring [Lumber mill] tiles>",
 			"[+2 Production] from [Manufactory] tiles [in all cities] <with [4] to [5] neighboring [Lumber mill] tiles>",
 			"[+3 Production] from [Manufactory] tiles [in all cities] <with [6] to [6] neighboring [Lumber mill] tiles>",
-
 			"[+2 Production] from [Hansa] tiles [in all cities] <for every adjacent [Customs house]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <for every adjacent [Bonus resource]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <for every adjacent [Luxury resource]>",
-
 			"[+1 Production] from [Hansa] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Hansa] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Production] from [Hansa] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Oppidum] tiles [in all cities] <for every adjacent [Quarry]>",
-			"[+2 Production] from [Oppidum] tiles [in all cities] <for every adjacent [Strategic resource]>",
-		],
+			"[+2 Production] from [Oppidum] tiles [in all cities] <for every adjacent [Strategic resource]>"
+		]
 	},
 	{
 		"name": "Collectivization",
@@ -4796,8 +4587,8 @@
 		"uniques": [
 			"Only available <after adopting [Capitalism]>",
 			"Can only be built <in [in capital] cities>",
-			"[+4 Food, +2 Production] from each Trade Route",
-		],
+			"[+4 Food, +2 Production] from each Trade Route"
+		]
 	},
 	{
 		"name": "Defence of the Motherland",
@@ -4811,8 +4602,8 @@
 			"[+100]% Production when constructing [Supply Convoy] units [in all cities]",
 			"[+100]% Production when constructing [Anti-Air Gun] units [in all cities]",
 			"[+100]% Production when constructing [Mobile SAM] units [in all cities]",
-			"No damage penalty for wounded units <for [Military] units> <when fighting in [Friendly Land] tiles>",
-		],
+			"No damage penalty for wounded units <for [Military] units> <when fighting in [Friendly Land] tiles>"
+		]
 	},
 	{
 		"name": "Cryptography",
@@ -4822,8 +4613,8 @@
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
 			"Can only be built <in [in capital] cities>",
-			"[+1] Sight <for [Spy] units>",
-		],
+			"[+1] Sight <for [Spy] units>"
+		]
 	},
 	{
 		"name": "International Waters",
@@ -4835,8 +4626,8 @@
 			"Can only be built <in [in capital] cities>",
 			"[+100]% Production when constructing [Naval Melee] units [in all cities]",
 			"[+100]% Production when constructing [Naval Ranged] units [in all cities]",
-			"[+100]% Production when constructing [Naval Raider] units [in all cities]",
-		],
+			"[+100]% Production when constructing [Naval Raider] units [in all cities]"
+		]
 	},
 	{
 		"name": "Containment",
@@ -4845,9 +4636,8 @@
 		"requiredResource": "Diplomatic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
-			"Can only be built <in [in capital] cities>",
-			//"Gain [20] Influence with a [Envoy] gift to a City-State",
-		],
+			"Can only be built <in [in capital] cities>"
+		]
 	},
 	{
 		"name": "Heritage Tourism",
@@ -4857,8 +4647,8 @@
 		"uniques": [
 			"Only available <after adopting [Cultural Heritage]>",
 			"Can only be built <in [in capital] cities>",
-			"[+7 Culture] from every [Archaeological Dig]",
-		],
+			"[+7 Culture] from every [Archaeological Dig]"
+		]
 	},
 	{
 		"name": "Sports Media",
@@ -4876,11 +4666,9 @@
 			"[+2 Culture] from [Landmark] tiles [in all cities] <for every adjacent [Water Park]>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <for every adjacent [Copacabana]>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <for every adjacent [Pamukkale]>",
-
 			"[+1 Culture] from [Landmark] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Culture] from [Landmark] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Entertainment Complex]>",
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Street Carnival]>",
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Hippodrome]>",
@@ -4888,8 +4676,8 @@
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Copacabana]>",
 			"[+2 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Pamukkale]>",
 			"[+1 Culture] from [Acropolis] tiles [in all cities] <for every adjacent [Great Improvement]>",
-			"[+1 Culture] from [Acropolis] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
-		],
+			"[+1 Culture] from [Acropolis] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>"
+		]
 	},
 	{
 		"name": "Military First",
@@ -4901,8 +4689,8 @@
 			"Can only be built <in [in capital] cities>",
 			"[+50]% Production when constructing [Land Melee] units [in all cities]",
 			"[+50]% Production when constructing [Anti-Cavalry] units [in all cities]",
-			"[+50]% Production when constructing [Land Ranged] units [in all cities]",
-		],
+			"[+50]% Production when constructing [Land Ranged] units [in all cities]"
+		]
 	},
 	{
 		"name": "Satellite Bradcasts",
@@ -4912,8 +4700,8 @@
 		"uniques": [
 			"Only available <after adopting [Space Race]>",
 			"Can only be built <in [in capital] cities>",
-			"[+50]% [Culture] from every [Broadcast Center]",
-		],
+			"[+50]% [Culture] from every [Broadcast Center]"
+		]
 	},
 	{
 		"name": "Integrated Space Cell",
@@ -4923,8 +4711,8 @@
 		"uniques": [
 			"Only available <after adopting [Rapid Deployment]>",
 			"Can only be built <in [in capital] cities>",
-			"[+15]% Production when constructing [Spaceship part] units [in all cities]",
-		],
+			"[+15]% Production when constructing [Spaceship part] units [in all cities]"
+		]
 	},
 	{
 		"name": "Second Strike Capability",
@@ -4935,8 +4723,8 @@
 			"Only available <after adopting [Rapid Deployment]>",
 			"Can only be built <in [in capital] cities>",
 			"[-50]% maintenance costs <for [Nuclear Device] units>",
-			"[-50]% maintenance costs <for [Thermonuclear Device] units>",
-		],
+			"[-50]% maintenance costs <for [Thermonuclear Device] units>"
+		]
 	},
 	{
 		"name": "After Action Reports",
@@ -4946,8 +4734,8 @@
 		"uniques": [
 			"Only available <after adopting [Rapid Deployment]>",
 			"Can only be built <in [in capital] cities>",
-			"[+50]% XP gained from combat <for [Military] units>",
-		],
+			"[+50]% XP gained from combat <for [Military] units>"
+		]
 	},
 	{
 		"name": "Strategic Air Force",
@@ -4959,8 +4747,8 @@
 			"Can only be built <in [in capital] cities>",
 			"[+50]% Production when constructing [Air Fighter] units [in all cities]",
 			"[+50]% Production when constructing [Air Bomber] units [in all cities]",
-			"[+50]% Production when constructing [Naval Carrier] units [in all cities]",
-		],
+			"[+50]% Production when constructing [Naval Carrier] units [in all cities]"
+		]
 	},
 	{
 		"name": "Ecommerce",
@@ -4970,8 +4758,8 @@
 		"uniques": [
 			"Only available <after adopting [Globalization]>",
 			"Can only be built <in [in capital] cities>",
-			"[+2 Production, +5 Gold] from each Trade Route",
-		],
+			"[+2 Production, +5 Gold] from each Trade Route"
+		]
 	},
 	{
 		"name": "International Space Agency",
@@ -4981,8 +4769,8 @@
 		"uniques": [
 			"Only available <after adopting [Globalization]>",
 			"Can only be built <in [in capital] cities>",
-			"Allied City-States provide [Science] equal to [200]% of what they produce for themselves",
-		],
+			"Allied City-States provide [Science] equal to [200]% of what they produce for themselves"
+		]
 	},
 	{
 		"name": "Online Communities",
@@ -4993,8 +4781,8 @@
 			"Only available <after adopting [Social Media]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+100]% [Culture] from City-States",
-		],
+			"[+100]% [Culture] from City-States"
+		]
 	},
 	{
 		"name": "Collective Activism",
@@ -5004,8 +4792,8 @@
 		"uniques": [
 			"Only available <after adopting [Social Media]>",
 			"Can only be built <in [in capital] cities>",
-			"Allied City-States provide [Culture] equal to [200]% of what they produce for themselves",
-		],
+			"Allied City-States provide [Culture] equal to [200]% of what they produce for themselves"
+		]
 	},
 	{
 		"name": "Communications Office",
@@ -5015,8 +4803,8 @@
 		"uniques": [
 			"Only available <after adopting [Social Media]>",
 			"Can only be built <in [in capital] cities>",
-			"[+1 Happiness] [in all cities]",
-		],
+			"[+1 Happiness] [in all cities]"
+		]
 	},
 	{
 		"name": "Aerospace Contractors",
@@ -5027,8 +4815,8 @@
 			"Only available <after adopting [Exodus Imperative]>",
 			"Can only be built <in [in capital] cities>",
 			"Provides [3] [Aluminum]",
-			"[+3 Production] from every [Spaceport]",
-		],
+			"[+3 Production] from every [Spaceport]"
+		]
 	},
 	{
 		"name": "Non-State Actors",
@@ -5038,8 +4826,8 @@
 		"uniques": [
 			"Only available <after adopting [Cultural Hegemony]>",
 			"Can only be built <in [in capital] cities>",
-			"[+1] Sight <for [Spy] units>",
-		],
+			"[+1] Sight <for [Spy] units>"
+		]
 	},
 	{
 		"name": "Integrated Attack Logistics",
@@ -5050,8 +4838,8 @@
 			"Only available <after adopting [Information Warfare]>",
 			"Can only be built <in [in capital] cities>",
 			"[+1] Movement <for [Military] units> <when fighting in [Enemy Land] tiles>",
-			"[+50]% Production when constructing [GDR] units [in all cities]",
-		],
+			"[+50]% Production when constructing [GDR] units [in all cities]"
+		]
 	},
 	{
 		"name": "Rabblerousing",
@@ -5061,8 +4849,8 @@
 		"uniques": [
 			"Only available <after adopting [Information Warfare]>",
 			"Can only be built <in [in capital] cities>",
-			"Influence of all other civilizations with all city-states degrades [50]% faster",
-		],
+			"Influence of all other civilizations with all city-states degrades [50]% faster"
+		]
 	},
 	{
 		"name": "Diplomatic Capital",
@@ -5072,8 +4860,8 @@
 		"uniques": [
 			"Only available <after adopting [Smart Power Doctrine]>",
 			"Can only be built <in [in capital] cities>",
-			"Gifts of Gold to City-States generate [50]% more Influence",
-		],
+			"Gifts of Gold to City-States generate [50]% more Influence"
+		]
 	},
 	{
 		"name": "Global Coalition",
@@ -5083,10 +4871,9 @@
 		"uniques": [
 			"Only available <after adopting [Smart Power Doctrine]>",
 			"Can only be built <in [in capital] cities>",
-			"[+47]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-		],
+			"[+47]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"
+		]
 	},
-//TODO: add Appeal mechanic
 	{
 		"name": "Ecotourism",
 		"cost": 1,
@@ -5097,9 +4884,8 @@
 			"Only available <after adopting [Environmentalism]>",
 			"Can only be built <in [in capital] cities>",
 			"[+200]% Yield from every [Natural Wonder]"
-			]
+		]
 	},
-	//Artefacts
 	{
 		"name": "Artefact1",
 		"cost": 1,
@@ -5109,8 +4895,8 @@
 		"uniques": [
 			"Only available <in cities with a [Archaeological Museum]>",
 			"Only available <with [Artefact Slots]>",
-			"Never destroyed when the city is captured",
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Artefact2",
@@ -5121,8 +4907,8 @@
 		"uniques": [
 			"Only available <in cities with a [Archaeological Museum]>",
 			"Only available <with [Artefact Slots]>",
-			"Never destroyed when the city is captured",
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Artefact3",
@@ -5133,10 +4919,9 @@
 		"uniques": [
 			"Only available <in cities with a [Archaeological Museum]>",
 			"Only available <with [Artefact Slots]>",
-			"Never destroyed when the city is captured",
-		],
+			"Never destroyed when the city is captured"
+		]
 	},
-	//Leaders
 	{
 		"name": "Alexander",
 		"cost": 1,
@@ -5150,8 +4935,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+50]% [Production] [in all non-occupied cities] <when below [-10] [Happiness]> <when at war>",
-			"[+50]% Strength <for [All] units> <when below [-10] [Happiness]> <when at war>",
-		],
+			"[+50]% Strength <for [All] units> <when below [-10] [Happiness]> <when at war>"
+		]
 	},
 	{
 		"name": "Amanitore",
@@ -5182,8 +4967,8 @@
 			"[+20]% Production when constructing [Holy Site District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
 			"[+20]% Production when constructing [Neighbourhood District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
 			"[+20]% Production when constructing [Industrial Zone District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-			"[+20]% Production when constructing [Theatre Square District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>",
-		],
+			"[+20]% Production when constructing [Theatre Square District] buildings [in all cities] <with [1] to [6] neighboring [Nubian Pyramid] tiles>"
+		]
 	},
 	{
 		"name": "Ambiorix",
@@ -5200,8 +4985,8 @@
 			"Earn [20]% of killed [Military] unit's [Cost] as [Culture]",
 			"[+27]% Strength <for [Land Melee] units> <when adjacent to a [Military] unit>",
 			"[+27]% Strength <for [Land Ranged] units> <when adjacent to a [Military] unit>",
-			"[+27]% Strength <for [Anti-Cavalry] units> <when adjacent to a [Military] unit>",
-		],
+			"[+27]% Strength <for [Anti-Cavalry] units> <when adjacent to a [Military] unit>"
+		]
 	},
 	{
 		"name": "Basil II",
@@ -5215,8 +5000,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Enables the Tagma unique unit ",
-		],
+			"Enables the Tagma unique unit "
+		]
 	},
 	{
 		"name": "Black Queen Catherine de Medici",
@@ -5232,8 +5017,8 @@
 			"Unsellable",
 			"Free [Spy] appears <after discovering [Castles]>",
 			"Provides [1] [Spies] <after discovering [Castles]>",
-			"[+1] Sight <for [Spy] units>",
-		],
+			"[+1] Sight <for [Spy] units>"
+		]
 	},
 	{
 		"name": "Magnificence Catherine de Medici",
@@ -5248,8 +5033,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2 Culture] from every [Luxury resource] <with [1] to [6] neighboring [Landmark] tiles>",
-			"[+2 Culture] from every [Luxury resource] <with [1] to [6] neighboring [Chateau] tiles>",
-		],
+			"[+2 Culture] from every [Luxury resource] <with [1] to [6] neighboring [Chateau] tiles>"
+		]
 	},
 	{
 		"name": "Chandragupta",
@@ -5264,8 +5049,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+2] Movement <for [10] turns> <after adopting [Military Training]>",
-			"[+33]% Strength <for [10] turns> <after adopting [Military Training]>",
-		],
+			"[+33]% Strength <for [10] turns> <after adopting [Military Training]>"
+		]
 	},
 	{
 		"name": "Cleopatra",
@@ -5279,8 +5064,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+100]% [Gold] from City-States",
-		],
+			"[+100]% [Gold] from City-States"
+		]
 	},
 	{
 		"name": "Cyrus",
@@ -5297,8 +5082,8 @@
 			"[+2] Movement <for [Military] units> <during a Golden Age>",
 			"[+25]% [Science] [in puppeted cities]",
 			"[+25]% [Culture] [in puppeted cities]",
-			"[+3 Happiness] [in puppeted cities]",
-		],
+			"[+3 Happiness] [in puppeted cities]"
+		]
 	},
 	{
 		"name": "Dido",
@@ -5320,8 +5105,8 @@
 			"[+50]% Production when constructing [Holy Site District] buildings [in capital]",
 			"[+50]% Production when constructing [Neighbourhood District] buildings [in capital]",
 			"[+50]% Production when constructing [Industrial Zone District] buildings [in capital]",
-			"[+50]% Production when constructing [Theatre Square District] buildings [in capital]",
-		],
+			"[+50]% Production when constructing [Theatre Square District] buildings [in capital]"
+		]
 	},
 	{
 		"name": "Eleanor of Aquitaine",
@@ -5333,8 +5118,8 @@
 			"Only available <with [Leader]> <in cities with a [Eleanor of Aquitaine residence]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
-		],
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
+		]
 	},
 	{
 		"name": "Frederick Barbarossa",
@@ -5349,8 +5134,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Provides [1] [Military Policy Slots]",
-			"[+30]% Strength <vs [City-States]>",
-		],
+			"[+30]% Strength <vs [City-States]>"
+		]
 	},
 	{
 		"name": "Gandhi",
@@ -5364,8 +5149,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+5 Faith] [in capital] <when not at war>",
-		],
+			"[+5 Faith] [in capital] <when not at war>"
+		]
 	},
 	{
 		"name": "Genghis Khan",
@@ -5380,8 +5165,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[Light Cavalry] units gain the [Mongol Horde] promotion",
-			"[Heavy Cavalry] units gain the [Mongol Horde] promotion",
-		],
+			"[Heavy Cavalry] units gain the [Mongol Horde] promotion"
+		]
 	},
 	{
 		"name": "Gilgamesh",
@@ -5395,8 +5180,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"When declaring friendship, both parties gain a [50]% boost to great person generation",
-		],
+			"When declaring friendship, both parties gain a [50]% boost to great person generation"
+		]
 	},
 	{
 		"name": "Gitarja",
@@ -5412,8 +5197,8 @@
 			"Unsellable",
 			"May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost",
 			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Coast] tiles>",
-			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Lakes] tiles>",
-		],
+			"[+2 Faith] from every [City center] <with [1] to [6] neighboring [Lakes] tiles>"
+		]
 	},
 	{
 		"name": "Gorgo",
@@ -5427,8 +5212,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-		],
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]"
+		]
 	},
 	{
 		"name": "Harald Hardrada",
@@ -5443,8 +5228,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+50]% Production when constructing [Water] units [in all cities]",
-			"[Water] units gain the [Coastal Raid] promotion",
-		],
+			"[Water] units gain the [Coastal Raid] promotion"
+		]
 	},
 	{
 		"name": "Hojo Tokimune",
@@ -5462,8 +5247,8 @@
 			"[+33]% Strength <for [Water] units> <when fighting in [Coast] tiles>",
 			"[+100]% Production when constructing [Encampment District] buildings [in capital]",
 			"[+100]% Production when constructing [Holy Site District] buildings [in capital]",
-			"[+100]% Production when constructing [Theatre Square District] buildings [in capital]",
-		],
+			"[+100]% Production when constructing [Theatre Square District] buildings [in capital]"
+		]
 	},
 	{
 		"name": "Jadwiga",
@@ -5479,8 +5264,8 @@
 			"Unsellable",
 			"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact1]",
 			"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact1]",
-			"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact1]",
-		],
+			"[+4 Gold, +2 Culture, +2 Faith] from every [Artefact1]"
+		]
 	},
 	{
 		"name": "Jayavarman VII",
@@ -5499,14 +5284,13 @@
 			"[+2 Food] from [Holy site] tiles [in all cities] <with [1] to [6] neighboring [River] tiles>",
 			"[+2 Food] from [Holy site] tiles [in all cities] <for every adjacent [Natural Wonder]>",
 			"[+1 Food] from [Holy site] tiles [in all cities] <for every adjacent [Mountain]>",
-
 			"[+1 Food] from [Holy site] tiles [in all cities] <with [2] to [3] neighboring [Forest] tiles>",
 			"[+2 Food] from [Holy site] tiles [in all cities] <with [4] to [5] neighboring [Forest] tiles>",
 			"[+3 Food] from [Holy site] tiles [in all cities] <with [6] to [6] neighboring [Forest] tiles>",
 			"[+1 Food] from [Holy site] tiles [in all cities] <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Food] from [Holy site] tiles [in all cities] <with [4] to [5] neighboring [Great Improvement] tiles>",
-			"[+3 Food] from [Holy site] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>",
-		],
+			"[+3 Food] from [Holy site] tiles [in all cities] <with [6] to [6] neighboring [Great Improvement] tiles>"
+		]
 	},
 	{
 		"name": "Kublai Khan",
@@ -5520,8 +5304,8 @@
 			"Unsellable",
 			"Provides [1] [Economic Policy Slots]",
 			"Free Social Policy",
-			"Free Technology",
-		],
+			"Free Technology"
+		]
 	},
 	{
 		"name": "Kupe",
@@ -5539,8 +5323,8 @@
 			"[15]% Food is carried over after population increases [in capital]",
 			"[+1 Happiness] [in capital]",
 			"[+1] population [in capital]",
-			"Free [Worker] appears",
-		],
+			"Free [Worker] appears"
+		]
 	},
 	{
 		"name": "Lady Six Sky",
@@ -5554,8 +5338,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"TBD. ",
-		],
+			"TBD. "
+		]
 	},
 	{
 		"name": "Lautaro",
@@ -5569,8 +5353,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+67]% Strength <during a Golden Age>",
-		],
+			"[+67]% Strength <during a Golden Age>"
+		]
 	},
 	{
 		"name": "Mansa Musa",
@@ -5585,8 +5369,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Gold] from every [Desert]",
-			"[+25]% [Gold] from Trade Routes <during a Golden Age>",
-		],
+			"[+25]% [Gold] from Trade Routes <during a Golden Age>"
+		]
 	},
 	{
 		"name": "Matthias Corvingus",
@@ -5602,8 +5386,8 @@
 			"Unsellable",
 			"Military Units gifted from City-States start with [30] XP",
 			"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-			"[-25]% City-State Influence degradation",
-		],
+			"[-25]% City-State Influence degradation"
+		]
 	},
 	{
 		"name": "Menelik II",
@@ -5636,8 +5420,8 @@
 			"[+1 Science, +1 Culture] from [Rock-Hewn Church] tiles [in all cities] <with [3] to [3] neighboring [Hill] tiles> <with [3] to [3] neighboring [Mountain] tiles>",
 			"[+1 Science, +1 Culture] from [Rock-Hewn Church] tiles [in all cities] <with [4] to [4] neighboring [Hill] tiles> <with [2] to [2] neighboring [Mountain] tiles>",
 			"[+1 Science, +1 Culture] from [Rock-Hewn Church] tiles [in all cities] <with [5] to [5] neighboring [Hill] tiles> <with [1] to [1] neighboring [Mountain] tiles>",
-			"[+1 Science, +1 Culture] from [Rock-Hewn Church] tiles [in all cities] <with [6] to [6] neighboring [Hill] tiles>",
-		],
+			"[+1 Science, +1 Culture] from [Rock-Hewn Church] tiles [in all cities] <with [6] to [6] neighboring [Hill] tiles>"
+		]
 	},
 	{
 		"name": "Montezuma",
@@ -5651,8 +5435,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+2] Happiness from each type of luxury resource",
-		],
+			"[+2] Happiness from each type of luxury resource"
+		]
 	},
 	{
 		"name": "Mvemba a Nzinga",
@@ -5670,8 +5454,8 @@
 			"May not generate great prophet equivalents naturally",
 			"Cannot build [Great Prophet] units",
 			"[+2 Food, +2 Production, +1 Faith, +4 Gold] [in all cities in which the majority religion is a major religion]",
-			"[+50]% Natural religion spread [in all cities]",
-		],
+			"[+50]% Natural religion spread [in all cities]"
+		]
 	},
 	{
 		"name": "Pachacuti",
@@ -5686,8 +5470,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Food] from every [Mountain]",
-			"[All] units gain the [Qhapaq Nan] promotion",
-		],
+			"[All] units gain the [Qhapaq Nan] promotion"
+		]
 	},
 	{
 		"name": "Pedro II",
@@ -5707,8 +5491,8 @@
 			"[Faith] cost of purchasing [Great Engineer] units [-20]%",
 			"[Faith] cost of purchasing [Great General] units [-20]%",
 			"[Faith] cost of purchasing [Great Merchant] units [-20]%",
-			"[Faith] cost of purchasing [Great Scientist] units [-20]%",
-		],
+			"[Faith] cost of purchasing [Great Scientist] units [-20]%"
+		]
 	},
 	{
 		"name": "Pericles",
@@ -5722,8 +5506,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+200]% [Culture] from City-States",
-		],
+			"[+200]% [Culture] from City-States"
+		]
 	},
 	{
 		"name": "Peter I",
@@ -5737,8 +5521,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Science gained from research agreements [+50]%",
-		],
+			"Science gained from research agreements [+50]%"
+		]
 	},
 	{
 		"name": "Philip II",
@@ -5752,8 +5536,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[Faith] cost of purchasing [Inquisitor] units [-50]%",
-		],
+			"[Faith] cost of purchasing [Inquisitor] units [-50]%"
+		]
 	},
 	{
 		"name": "Poundmaker",
@@ -5769,8 +5553,8 @@
 			"Unsellable",
 			"[+1 Food] from each Trade Route",
 			"[+1 Gold] from every [Camp]",
-			"[+1 Gold] from [Pasture] tiles [in all cities]",
-		],
+			"[+1 Gold] from [Pasture] tiles [in all cities]"
+		]
 	},
 	{
 		"name": "Qin Shi Huang",
@@ -5784,8 +5568,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[Worker] units gain the [The First Emperor] promotion",
-		],
+			"[Worker] units gain the [The First Emperor] promotion"
+		]
 	},
 	{
 		"name": "Robert the Bruce",
@@ -5800,8 +5584,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+100]% Production when constructing [Military] units [in all cities] <for [10] turns> <after adopting [Defensive Tactics]>",
-			"[+2] Movement <for [non-air] units> <for [10] turns> <after adopting [Defensive Tactics]>",
-		],
+			"[+2] Movement <for [non-air] units> <for [10] turns> <after adopting [Defensive Tactics]>"
+		]
 	},
 	{
 		"name": "Saladin",
@@ -5850,8 +5634,8 @@
 			"[+5]% [Culture] from every [Synagogue]",
 			"[+5]% [Science] from every [Wat]",
 			"[+5]% [Faith] from every [Wat]",
-			"[+5]% [Culture] from every [Wat]",
-		],
+			"[+5]% [Culture] from every [Wat]"
+		]
 	},
 	{
 		"name": "Seondeok",
@@ -5866,8 +5650,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+6]% [Science] [in all cities with a garrison]",
-			"[+6]% [Culture] [in all cities with a garrison]",
-		],
+			"[+6]% [Culture] [in all cities with a garrison]"
+		]
 	},
 	{
 		"name": "Shaka",
@@ -5881,8 +5665,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[+33]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-		],
+			"[+33]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+		]
 	},
 	{
 		"name": "Simon Bolivar",
@@ -5904,8 +5688,8 @@
 			"Free [Comandante General] appears <after discovering [Steel]>",
 			"Free [Comandante General] appears <after discovering [Combined Arms]>",
 			"Free [Comandante General] appears <after discovering [Composites]>",
-			"Free [Comandante General] appears <after discovering [Advanced AI]>",
-		],
+			"Free [Comandante General] appears <after discovering [Advanced AI]>"
+		]
 	},
 	{
 		"name": "Suleiman",
@@ -5919,8 +5703,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Enables the Jannisary unique unit. ",
-		],
+			"Enables the Jannisary unique unit. "
+		]
 	},
 	{
 		"name": "Tamar",
@@ -5934,8 +5718,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
-		],
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"
+		]
 	},
 	{
 		"name": "Bull Moose Teddy Roosevelt",
@@ -5951,8 +5735,8 @@
 			"Unsellable",
 			"[+2 Science] from [Natural Wonder] tiles [in all cities]",
 			"[+2 Science] from [Mountain] tiles [in all cities] <in tiles without [Natural Wonder]>",
-			"[+2 Culture] from [Forest] tiles [in all cities] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
-		],
+			"[+2 Culture] from [Forest] tiles [in all cities] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>"
+		]
 	},
 	{
 		"name": "Rough Rider Teddy Roosevelt",
@@ -5966,8 +5750,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Enables the Rough Rider unique unit. ",
-		],
+			"Enables the Rough Rider unique unit. "
+		]
 	},
 	{
 		"name": "Tomyris",
@@ -5983,7 +5767,7 @@
 			"Unsellable",
 			"[+33]% Strength <vs [Wounded] units> <when attacking>",
 			"Heals [30] damage if it kills a unit"
-		],
+		]
 	},
 	{
 		"name": "Trajan",
@@ -5997,8 +5781,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Gain a free [Monument] [in all cities]",
-		],
+			"Gain a free [Monument] [in all cities]"
+		]
 	},
 	{
 		"name": "Victoria",
@@ -6014,8 +5798,8 @@
 			"Unsellable",
 			"Enables the Redcoat Unique unit. ",
 			"[1] free [Redcoat] units appear <in cities with a [Royal Navy Dockyard]>",
-			"[1] free [Redcoat] units appear <in cities with a [City Center]> <on foreign continents>",
-		],
+			"[1] free [Redcoat] units appear <in cities with a [City Center]> <on foreign continents>"
+		]
 	},
 	{
 		"name": "Wilfrid Laurier",
@@ -6029,8 +5813,8 @@
 			"Moves to new capital when capital changes",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>",
-		],
+			"[-50]% Gold cost of acquiring tiles [in all cities] <within [1] tiles of a [Tundra]>"
+		]
 	},
 	{
 		"name": "Wilhelmina",
@@ -6045,8 +5829,8 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"[+1 Happiness] from each Trade Route",
-			"[+100]% [Culture] from City-States",
-		],
+			"[+100]% [Culture] from City-States"
+		]
 	},
 	{
 		"name": "Kublai Khan residence",
@@ -6054,8 +5838,8 @@
 		"uniques": [
 			"Unbuildable",
 			"Destroyed when the city is captured",
-			"Unsellable",
-		],
+			"Unsellable"
+		]
 	},
 	{
 		"name": "Eleanor of Aquitaine residence",
@@ -6063,7 +5847,7 @@
 		"uniques": [
 			"Unbuildable",
 			"Destroyed when the city is captured",
-			"Unsellable",
-		],
-	},
+			"Unsellable"
+		]
+	}
 ]
