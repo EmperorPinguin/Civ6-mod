@@ -159,6 +159,42 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	{
+		"name": "District10",
+		"cost": 1,
+		"cityStrength": 4,
+		"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Districts] <in this city>",
+			"Only available <in cities with at least [28] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "District11",
+		"cost": 1,
+		"cityStrength": 4,
+		"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Districts] <in this city>",
+			"Only available <in cities with at least [31] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "District12",
+		"cost": 1,
+		"cityStrength": 4,
+		"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Districts] <in this city>",
+			"Only available <in cities with at least [34] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
 	// Filler
 	{
 		"name": "Fresh Water Bonus",
