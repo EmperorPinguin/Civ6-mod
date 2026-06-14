@@ -126,8 +126,8 @@
         ],
         "allyBonusUniques": [
             "[+2 Culture] [in capital]",
-            "[+50]% Culture from every [Landmark]",
-            "[+50]% Culture from every [Acropolis]",
+            "[+50]% [Culture] from every [Landmark]",
+            "[+50]% [Culture] from every [Acropolis]",
         ],
         "color": [
             255,
@@ -202,7 +202,7 @@
             "[+2 Production] from every [Manufactory]",
             "[+2 Production] from every [Hansa]",
             "[+2 Production] from every [Oppidum]",
-            "Provides [2] [Power] <in all cities with a [Harbor District]>"
+            "Provides [2] [Power] <in cities with a [Harbor District]>"
         ],
         "color": [
             254,
