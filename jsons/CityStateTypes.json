@@ -295,7 +295,8 @@
         "allyBonusUniques": [
             "[+15]% Production when constructing [Military] units [in all cities] <in cities with a [Barracks]>",
             "[+25]%  Strength <for [Melee] units> <vs cities> <when attacking>",
-            "[+25]%  Strength <for [Mounted] units> <vs cities> <when attacking>",
+            "[+25]%  Strength <for [Light Cavalry] units> <vs cities> <when attacking>",
+            "[+25]%  Strength <for [Heavy Cavalry] units> <vs cities> <when attacking>",
         ],
         "color": [
             202,
@@ -542,7 +543,7 @@
             "[+2 Faith] [in capital]",
             "[+2 Faith] from every [Holy site]",
             "[+2 Faith] from every [Lavra]",
-            "[+33]% Spread Religion Strength <for [Apostle] units>"
+            "[+33]% Spread Religion Strength <for [Religious Unit] units>"
         ],
         "color": [
             249,
