@@ -3382,6 +3382,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
+			"Only available <before adopting [Colonialism]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% XP gained from combat <for [Recon] units> <before adopting [Colonialism]>",
@@ -3394,6 +3395,7 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Code of Laws]>",
+			"Only available <before adopting [Theology]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Gold, +1 Faith] [in capital] <before adopting [Theology]>",
@@ -3752,7 +3754,7 @@
 			"[+1 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Jungle] tiles>",
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Jungle] tiles>",
 			"[+3 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Jungle] tiles>",
-			"[+1 Science] from [Academy] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
+			"[+1 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Science] from [Academy] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
 
@@ -3763,12 +3765,12 @@
 			"[+1 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Farm] tiles>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Farm] tiles>",
 			"[+3 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Farm] tiles>",
-			"[+1 Science] from [Observatory] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
+			"[+1 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Science] from [Observatory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
 
 			"[+4 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]>",
-			"[-1 Science] from [Seowon] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
+			"[-1 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[-2 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[-3 Science] from [Seowon] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
 		],
@@ -3995,7 +3997,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Landmark (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Medieval Faires]>",
-			"Only available <before adopting [Civil Engineering]>",
+			"Only available <before adopting [Professional Sports]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Entertainment Complex]>",
@@ -4005,7 +4007,7 @@
 			"[+4 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Copacabana]>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <for every adjacent [Pamukkale]>",
 
-			"[+1 Culture] from [Landmark] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
+			"[+1 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Culture] from [Landmark] tiles [in all cities] <before adopting [Professional Sports]> <with [6] to [6] neighboring [Great Improvement] tiles>",
 
@@ -4040,13 +4042,13 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Manufactory (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Guilds]>",
-			"Only available <before adopting [Civil Engineering]>",
+			"Only available <before adopting [Class Struggle]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Quarry]>",
 
-			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
+			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
 			"[+1 Production] from [Manufactory] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Mine] tiles>",
@@ -4061,7 +4063,7 @@
 			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Strategic resource]>",
 			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <for every adjacent [Luxury resource]>",
 
-			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Suffrage]> <with [2] to [3] neighboring [Great Improvement] tiles>",
+			"[+1 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <with [2] to [3] neighboring [Great Improvement] tiles>",
 			"[+2 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <with [4] to [5] neighboring [Great Improvement] tiles>",
 			"[+3 Production] from [Hansa] tiles [in all cities] <before adopting [Class Struggle]> <with [6] to [6] neighboring [Great Improvement] tiles>",
 
@@ -4077,7 +4079,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Customs house (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Guilds]>",
-			"Only available <before adopting [Civil Engineering]>",
+			"Only available <before adopting [Suffrage]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <before adopting [Suffrage]> <for every adjacent [River]>",
@@ -4146,6 +4148,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Colonialism]>",
+			"Comment [Obsoletes: Survey, Discipline]",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
@@ -4403,8 +4406,9 @@
 		"hurryCostModifier": -100,
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
-			"Only available <after adopting [Nationalism]>",
+			"Only available <after adopting [Exploration]>",
 			"Only available <before adopting [Cold War]>",
+			"Comment [Obsoletes: Maritime Industries]",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[+100]% Production when constructing [Water] units [in all cities] <before the [Modern era]> <before adopting [Cold War]>",
@@ -4442,12 +4446,11 @@
 		"requiredResource": "Economic Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Opera and Ballet]>",
-			"Only available <before adopting [Professional Sports]>",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
-			"[+2 Culture] from every [Amphitheater] <before adopting [Professional Sports]>",
-			"[+2 Culture] from every [Archaeological Museum] <before adopting [Professional Sports]>",
-			"[+2 Culture] from every [Broadcast Center]<before adopting [Professional Sports]> ",
+			"[+2 Culture] from every [Amphitheater]",
+			"[+2 Culture] from every [Archaeological Museum]",
+			"[+2 Culture] from every [Broadcast Center]",
 		],
 	},
 	{
@@ -4501,6 +4504,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Urbanization]>",
+			"Comment [Obsoletes: Professional Army]",
 			"Can only be built <in [in capital] cities>",
 			"Destroyed when the city is captured",
 			"[-50]% Gold cost of upgrading <for [Military] units>",
@@ -4628,6 +4632,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Customs house and Harbor (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
+			"Comment [Obsoletes: Town Charters, Naval Infrastructure]",
 			"Can only be built <in [in capital] cities>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <for every adjacent [River]>",
 			"[+2 Gold] from [Customs house] tiles [in all cities] <for every adjacent [Harbor]>",
@@ -4660,8 +4665,9 @@
 		"requiredResource": "Wildcard Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Suffrage]>",
+			"Only available <before adopting [Globalization]>",
 			"Can only be built <in [in capital] cities>",
-			"[+33]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"[+33]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles> <before adopting [Globalization]>",
 		],
 	},
 	{
@@ -4748,6 +4754,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Academy and Manufactory (and replacements).",
 		"uniques": [
 			"Only available <after adopting [Class Struggle]>",
+			"Comment [Obsoletes: Craftsmen, Natural Philosophy]",
 			"Can only be built <in [in capital] cities>",
 			"[+1 Science] from [Academy] tiles [in all cities] <for every adjacent [Mountain]>",
 			"[+2 Science] from [Academy] tiles [in all cities] <for every adjacent [Geothermal Fissure]>",
@@ -4845,6 +4852,7 @@
 		"requiredResource": "Military Policy Slots",
 		"uniques": [
 			"Only available <after adopting [Cold War]>",
+			"Comment [Obsoletes: Maritime Industries, Press Gangs]",
 			"Can only be built <in [in capital] cities>",
 			"[+100]% Production when constructing [Naval Melee] units [in all cities]",
 			"[+100]% Production when constructing [Naval Ranged] units [in all cities]",
@@ -4881,6 +4889,7 @@
 		"replacementTextForUniques": "+100% adjacency bonus from every Landmark (and replacements), +1 Happiness from every Stadium.",
 		"uniques": [
 			"Only available <after adopting [Professional Sports]>",
+			"Comment [Obsoletes: Aesthetics]",
 			"Can only be built <in [in capital] cities>",
 			"[+1 Happiness] from every [Stadium]",
 			"[+2 Culture] from [Landmark] tiles [in all cities] <for every adjacent [Entertainment Complex]>",

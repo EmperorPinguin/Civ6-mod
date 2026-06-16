@@ -105,12 +105,8 @@ Policies enabled:
 * Native Conquest
 * Colonial Offices
 Policies obsolete:
-* Survey
-* Discipline
-* Urban Planning]",
-"Remove [Survey] [in capital] <upon turn start> <after adopting [Exploration]>",
-"Remove [Discipline] [in capital] <upon turn start> <after adopting [Exploration]>",
-"Remove [Urban Planning] [in capital] <upon turn start> <after adopting [Exploration]>",
+* Maritime Industries]",
+"Remove [Maritime Industries] [in capital] <upon turn start> <after adopting [Exploration]>",
 ],
 				"requires": ["Mercenaries","Medieval Faires"],
 				"row": 11,
@@ -143,10 +139,12 @@ Camp:
 * Colonial Taxes
 * Raj
 Policies obsolete:
-* Maritime Industries
+* Survey
+* Discipline
 Tile improvement enabled:
 * Ice Hockey Rink]",
-"Remove [Maritime Industries] [in capital] <upon turn start> <after adopting [Colonialism]>",
+"Remove [Survey] [in capital] <upon turn start> <after adopting [Colonialism]>",
+"Remove [Discipline] [in capital] <upon turn start> <after adopting [Colonialism]>",
 //"[2] free [Envoy] units appear", 
 ], 
 				"requires": ["Mercantilism"],
@@ -499,7 +497,6 @@ Piridaeza:
 * Skyscrapers
 Policies obsolete:
 * Bastions
-* Limes
 * Corvée
 * Serfdom
 * Gothic Architecture
@@ -510,7 +507,6 @@ Kampung:
 Polder:
 * +4 Gold]",
 "Remove [Bastions] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
-"Remove [Limes] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
 "Remove [Corvée] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
 "Remove [Serfdom] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
 "Remove [Gothic Architecture] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
@@ -544,10 +540,14 @@ Tile Improvements enabled:
 				"name": "Urbanization",
 				"uniques": [
 "Comment [Policies enabled:
+* Force Modernization
 * Military Research
 * Public Transport
+Policies obsolete:
+* Professional Army
 Districts enabled:
 * Neighbourhood]",
+"Remove [Professional Army] [in capital] <upon turn start> <after adopting [Urbanization]>",
 ],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 16,
@@ -591,9 +591,11 @@ Policies enabled:
 * Gunboat Diplomacy
 Policies obsolete:
 * Chivalry
+* Limes
 * Maneuver
 * Charismatic Leader]",
 "Remove [Chivalry] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+"Remove [Limes] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
 "Remove [Maneuver] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
 "Remove [Charismatic Leader] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
 ],
@@ -769,6 +771,8 @@ Buildings enabled:
 				"uniques": [
 "Comment [Policies enabled:
 * Scripture
+Policies obsolete:
+* God King
 Wonders enabled:
 * Mahabodhi Temple
 Buildings enabled:
@@ -776,6 +780,7 @@ Buildings enabled:
 * Prasat 
 * Stave Church 
 * Madrasa]",
+"Remove [God King] [in capital] <upon turn start> <after adopting [Theology]>",
 //"Free [Envoy] appears",
 ],
 				"requires": ["Drama and Poetry","Mysticism"],
@@ -845,7 +850,10 @@ Tile improvements enabled:
 "Comment [Policies enabled:
 * Free Market
 * Liberalism
-* Rationalism]",
+* Rationalism
+Policies obsolete:
+* Urban Planning]",
+"Remove [Urban Planning] [in capital] <upon turn start> <after adopting [The Enlightenment]>",
 ],
 				"requires": ["Diplomatic Service"],
 				"row": 13,
@@ -943,7 +951,6 @@ Policies obsolete:
 * Sports Media
 Policies obsolete:
 * Aesthetics
-* Grand Opera
 Buildings enabled:
 * Stadium 
 * Aquatics Center 
@@ -953,8 +960,7 @@ Tile Improvements enabled:
 * Ski Resort
 Stepwell:
 * +1 Food]",
-"Remove [Craftsmen] [in capital] <upon turn start> <after adopting [Class Struggle]>",
-"Remove [Natural Philosophy] [in capital] <upon turn start> <after adopting [Class Struggle]>",
+"Remove [Aesthetics] [in capital] <upon turn start> <after adopting [Professional Sports]>",
 ],
 				"requires": ["Ideology"],
 				"row": 20,
