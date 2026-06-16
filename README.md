@@ -6,6 +6,8 @@ A work-in-progress Unciv base ruleset that aims to recreate Civilization VI mech
 
 Original README attribution: Red11 (3.12.11). Current repository metadata lists EmperorPinguin as maintainer.
 
+This ruleset does not include a tileset. Recommended companion tileset: [UnTile-Civ6-Tileset](https://github.com/Malwen/UnTile-Civ6-Tileset) ("UnTile for Unciv").
+
 ## Status
 
 This mod is actively evolving and should be treated as incomplete. Expect ongoing gaps, balance differences, and mechanics that need Unciv-specific approximations.
