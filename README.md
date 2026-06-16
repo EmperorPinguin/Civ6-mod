@@ -28,6 +28,15 @@ Current focus areas include:
 - `AGENTS.md` - AI-assisted contribution guidance
 - `Credits.txt` - art and contributor credits
 
+## Contributor Docs
+
+The contributor knowledge base lives in [`docs/`](docs/README.md):
+
+- [Repository layout](docs/repository-layout.md)
+- [Validation](docs/validation.md)
+- [Policy card obsolescence](docs/policy-card-obsolescence.md)
+- [AI contributor guidance](docs/ai-contributors.md)
+
 ## Validation
 
 Run these checks before opening a PR or after touching policy/card data.
@@ -50,27 +59,17 @@ java -jar /path/to/Unciv/desktop/build/libs/Unciv.jar mod-ci
 
 ## Policy Card Obsolescence
 
-Policy cards are represented as capital-only buildings that consume policy-slot resources. For obsolete cards, keep these three pieces in sync:
+Policy cards are represented as capital-only buildings that consume policy-slot resources. For obsolete cards, keep the card gate, civic removal trigger, effect cutoff conditions, and replacement-card comments in sync.
 
-- the card's `Only available <before adopting [...]>` gate in `jsons/Buildings.json`
-- the corresponding `Remove [Card] [in capital] <upon turn start> <after adopting [...]>` trigger in `jsons/Policies.json`
-- any card effect conditions that also use `<before adopting [...]>`
-
-Replacement cards can include a visible note such as:
-
-```json
-"Comment [Obsoletes: Survey, Discipline]"
-```
-
-Use comma-style wording for multi-card comments so the Civilopedia output stays consistent.
+See [Policy card obsolescence](docs/policy-card-obsolescence.md) for the full checklist.
 
 ## Contributing Notes
 
 - Keep changes narrowly scoped and avoid broad JSON formatting churn.
 - Prefer matching original Civilization VI mechanics unless a difference is intentional.
 - When adding a new obsolete policy interaction, update both the card gate and the civic removal trigger.
-- Run the policy obsolescence script when changing policy cards or civic unlocks.
-- For AI-assisted changes, follow `AGENTS.md`.
+- Run the policy obsolescence script when changing policy cards or civic unlocks. See [Validation](docs/validation.md).
+- For AI-assisted changes, follow `AGENTS.md` and [AI contributor guidance](docs/ai-contributors.md).
 - Preserve contributor and art attribution in `Credits.txt`.
 
 ## Credits
