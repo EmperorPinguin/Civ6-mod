@@ -1,0 +1,30 @@
+name: Policy Obsolescence
+
+on:
+  pull_request:
+    paths:
+      - "jsons/Buildings.json"
+      - "jsons/Policies.json"
+      - "scripts/check-policy-obsolescence.py"
+      - ".github/workflows/policy-obsolescence.yml"
+  push:
+    branches: [ "main", "master" ]
+    paths:
+      - "jsons/Buildings.json"
+      - "jsons/Policies.json"
+      - "scripts/check-policy-obsolescence.py"
+      - ".github/workflows/policy-obsolescence.yml"
+  workflow_dispatch:
+
+jobs:
+  check-policy-obsolescence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check policy obsolescence
+        run: python3 scripts/check-policy-obsolescence.py
