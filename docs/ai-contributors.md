@@ -45,4 +45,4 @@ java -jar /path/to/Unciv/desktop/build/libs/Unciv.jar mod-ci
 - Keep `README.md` as the contributor-facing front door.
 - Put longer contributor knowledge in `docs/`.
 - Keep `AGENTS.md` short enough that AI tools can quickly find the right deeper page.
-
+- Keep general contributor workflow in [Contributing](contributing.md).

@@ -55,3 +55,4 @@ Existing `mod-ci` warnings about colors, duplicate names, atlas generation, or p
 - Keep `README.md` as the contributor-facing front door.
 - Put longer contributor knowledge in `docs/`.
 - Keep AI-facing conventions here so future AI-assisted edits stay consistent.
+- Keep general contributor workflow in `docs/contributing.md`.
