@@ -8,6 +8,9 @@ This folder collects the contributor notes that should stay easier to scan than 
 - [Contributing](contributing.md) - general contributor workflow and expectations.
 - [Validation](validation.md) - checks to run before opening a PR.
 - [Policy card obsolescence](policy-card-obsolescence.md) - how obsolete policy cards should be gated, removed, and documented.
+- [Issue triage](IssueTriage.md) - human-curated status notes for open and closed GitHub issues.
+- [FAQ](FAQ.md) - draft player/support answers collected from repeated issue questions.
+- [Generated issue triage snapshot](IssueTriageSnapshot.md) - automated issue inventory refreshed by GitHub Actions.
 - [AI contributor guidance](ai-contributors.md) - extra conventions for AI-assisted edits.
 
 ## Quick Workflow

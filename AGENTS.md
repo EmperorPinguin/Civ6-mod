@@ -56,3 +56,10 @@ Existing `mod-ci` warnings about colors, duplicate names, atlas generation, or p
 - Put longer contributor knowledge in `docs/`.
 - Keep AI-facing conventions here so future AI-assisted edits stay consistent.
 - Keep general contributor workflow in `docs/contributing.md`.
+
+## Issue Triage Docs
+
+- Treat `docs/IssueTriage.md` and `docs/FAQ.md` as human-curated project notes.
+- Treat `docs/IssueTriageSnapshot.md` as generated output.
+- Update the generated snapshot with `scripts/generate_issue_triage.py` instead of hand-editing it.
+- The scheduled issue-triage workflow should open a PR when the generated snapshot changes.
