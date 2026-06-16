@@ -63,3 +63,4 @@ Existing `mod-ci` warnings about colors, duplicate names, atlas generation, or p
 - Treat `docs/IssueTriageSnapshot.md` as generated output.
 - Update the generated snapshot with `scripts/generate_issue_triage.py` instead of hand-editing it.
 - The scheduled issue-triage workflow should open a PR when the generated snapshot changes.
+- Future hardening option: consider pinning third-party GitHub Actions by full commit SHA after deciding how much update maintenance the repo should take on.
