@@ -33,4 +33,3 @@ java -jar /path/to/Unciv/desktop/build/libs/Unciv.jar mod-ci
 - Run the most specific validation for the files you changed.
 - Note any known pre-existing warnings in the PR.
 - If a validation script fails because it intentionally depends on another PR, call that out in the PR description.
-

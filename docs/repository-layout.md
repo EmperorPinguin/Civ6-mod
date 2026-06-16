@@ -21,4 +21,3 @@ The mod is an Unciv base ruleset. Most gameplay behavior is represented as JSON 
 - Preserve nearby file style and Unciv unique syntax.
 - Do not remove art, credits, generated atlas files, or metadata unless the task explicitly calls for it.
 - When adding generated or external assets, document attribution or generation notes where appropriate.
-

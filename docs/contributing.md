@@ -28,4 +28,3 @@ See [Policy card obsolescence](policy-card-obsolescence.md) for the full checkli
 ## AI-Assisted Edits
 
 AI-assisted changes should follow the top-level `AGENTS.md` file and the longer [AI contributor guidance](ai-contributors.md).
-

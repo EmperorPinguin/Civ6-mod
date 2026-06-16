@@ -34,4 +34,3 @@ Use comma-style wording for multiple cards, not sentence-style wording with `and
 ## Intent
 
 This mod should follow original Civilization VI mechanics for obsolete policy cards unless a difference is deliberate and documented.
-
