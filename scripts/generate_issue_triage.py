@@ -414,7 +414,7 @@ def main() -> int:
     output_path = args.output
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as output:
-        output.write(snapshot)
+        output.write(snapshot.rstrip())
         output.write("\n")
 
     print(

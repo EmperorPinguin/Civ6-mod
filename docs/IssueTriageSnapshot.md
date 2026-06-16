@@ -21,7 +21,7 @@ These are not automatic close decisions. They are issues whose thread text looks
 | --- | --- | --- |
 | [#48](https://github.com/EmperorPinguin/Civ6-mod/issues/48) Question  | 2023-01-29 | Maintainer/comment thread says fixed or resolved |
 | [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2024-10-21 | Maintainer/comment thread says fixed or resolved |
-| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-14 | Linked merged PR: EmperorPinguin/Civ6-mod#107, yairm210/Unciv#14995 |
+| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | Comment suggests it can be closed |
 | [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-04 | Linked merged PR: EmperorPinguin/Civ6-mod#105 |
 
 ## FAQ / Topic Candidates
@@ -39,10 +39,10 @@ These are not automatic close decisions. They are issues whose thread text looks
 
 | Issue | Updated | Comments | Summary |
 | --- | --- | --- | --- |
+| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | 6 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
 | [#12](https://github.com/EmperorPinguin/Civ6-mod/issues/12) I have some question | 2026-06-16 | 4 | - how the envoy works in this mod? is i just have to put them in my city? i tried to give them to city states but they all just stucking on their ter... |
 | [#8](https://github.com/EmperorPinguin/Civ6-mod/issues/8) Can you translate the civ6 mod? | 2026-06-16 | 6 | can you translate civ6 mod to Indonesian language?. I can help you to translate bahasa Indonesia |
 | [#7](https://github.com/EmperorPinguin/Civ6-mod/issues/7) Couple of issues | 2026-06-16 | 15 | I like the concept of Civ6 in Unciv so gave it a good try. What I found: - can't build roads on woods/jungle, but those will be built (by traders in... |
-| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-14 | 5 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
 | [#53](https://github.com/EmperorPinguin/Civ6-mod/issues/53) districs problems  | 2026-06-09 | 4 | if I want to assign a district. I have no production |
 | [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-04 | 3 | Districts can be built when you have 1 population, 7 population, 14 population. It happens, because when you build district, district reduce district... |
 | [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104) Question: preferred approach for district trade route yields? | 2026-06-04 | 2 | I’ve been testing district trade-route yields in Civ6-mod and found a working proof of concept, but I wanted to ask which direction you would prefer... |
@@ -83,7 +83,7 @@ These are not automatic close decisions. They are issues whose thread text looks
 | [#67](https://github.com/EmperorPinguin/Civ6-mod/issues/67) isssue | 2024-10-15 | 3 | I'm using a translation, so the text is unstable. ・I can't upgrade my bomber to a jet bomber ・The Light Cavalry promotion tree is not connected, some... |
 | [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2024-10-21 | 2 | hi, I can't download it, but I write that it has been downloaded. There is no way to play it |
 | [#96](https://github.com/EmperorPinguin/Civ6-mod/issues/96) No image for Man-At-Arms | 2025-10-21 | 1 |  |
-| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-14 | 5 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
+| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | 6 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
 | [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-04 | 3 | Districts can be built when you have 1 population, 7 population, 14 population. It happens, because when you build district, district reduce district... |
 | [#101](https://github.com/EmperorPinguin/Civ6-mod/issues/101) Desert folklore, Dance of Aurora in the holy site of the Khmer | 2026-01-31 | 1 | In this case，the holy site seems to provide +6 food rather than +2，+2 is for the neighboring river，and +4 for 4 neighboring desert tiles. This error... |
 | [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104) Question: preferred approach for district trade route yields? | 2026-06-04 | 2 | I’ve been testing district trade-route yields in Civ6-mod and found a working proof of concept, but I wanted to ask which direction you would prefer... |
@@ -105,4 +105,3 @@ These are not automatic close decisions. They are issues whose thread text looks
 | [#65](https://github.com/EmperorPinguin/Civ6-mod/issues/65) Bug: Japan cannot get electricity resources | 2024-08-24 | 1 | In this mod, all power generation buildings must rely on factories to build. The electronics factory in Japan replaced the factory and had to consume... |
 | [#73](https://github.com/EmperorPinguin/Civ6-mod/issues/73) Changing Policies | 2026-06-04 | 5 | Hi, absolutely love your mod, thanks for your work on it. Just was wondering if there was a way to change adopted policies? Not sure if I've somehow... |
 | [#90](https://github.com/EmperorPinguin/Civ6-mod/issues/90) Garde Imperial | 2025-09-19 | 1 | https://civilization.fandom.com/wiki/Garde_Imp%C3%A9riale_(Civ6) By Arccc |
-
