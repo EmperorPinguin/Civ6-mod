@@ -20,6 +20,11 @@ Current focus areas include:
 - Unit lines, promotions, and icon coverage
 - Validation around ruleset data that is easy to regress
 
+## Support And Issue Notes
+
+- [FAQ](docs/FAQ.md) - common player, translator, and contributor questions.
+- [Issue triage notes](docs/IssueTriage.md) - maintainer-facing notes for open issue cleanup.
+
 ## Contributor Docs
 
 The contributor knowledge base lives in [`docs/`](docs/README.md). Start here when changing ruleset data, validation, or project docs:
