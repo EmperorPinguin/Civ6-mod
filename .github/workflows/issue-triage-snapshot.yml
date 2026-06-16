@@ -1,0 +1,43 @@
+name: Issue triage snapshot
+
+on:
+  schedule:
+    - cron: "20 3 * * 1" # Weekly on Monday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate issue triage snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_issue_triage.py --repo "${{ github.repository }}" --output docs/IssueTriageSnapshot.md
+
+      - name: Create pull request
+        # Future hardening option: pin third-party actions by full commit SHA
+        # after deciding how much update maintenance the repo should take on.
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/issue-triage-snapshot
+          commit-message: Refresh issue triage snapshot
+          title: Refresh issue triage snapshot
+          body: |
+            Automated weekly refresh of `docs/IssueTriageSnapshot.md`.
+
+            This updates the generated issue inventory and heuristic close/topic candidates.
+          delete-branch: true

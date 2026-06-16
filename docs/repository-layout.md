@@ -8,7 +8,7 @@ The mod is an Unciv base ruleset. Most gameplay behavior is represented as JSON 
 - `jsons/ModOptions.json` - mod metadata and base ruleset settings.
 - `jsons/translations/` - translation files.
 - `Images/` - icons, unit art, improvements, resources, policy icons, and related art.
-- `scripts/` - local validation helpers for contributors.
+- `scripts/` - local validation and automation helpers for contributors.
 - `.github/workflows/` - GitHub Actions checks.
 - `.github/assets/` - repository presentation assets used by docs.
 - `docs/` - contributor knowledge pages.
