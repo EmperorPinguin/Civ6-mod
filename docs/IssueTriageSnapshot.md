@@ -10,8 +10,8 @@ Latest issue update: 2026-06-16
 - Total issues: 32
 - Open issues: 19
 - Closed issues: 13
-- Heuristic close candidates: 4
-- Open issues not updated in 180+ days: 9
+- Heuristic close candidates: 5
+- Open issues not updated in 180+ days: 8
 
 ## Heuristic Close Candidates
 
@@ -20,9 +20,10 @@ These are not automatic close decisions. They are issues whose thread text looks
 | Issue | Updated | Reason |
 | --- | --- | --- |
 | [#48](https://github.com/EmperorPinguin/Civ6-mod/issues/48) Question  | 2023-01-29 | Maintainer/comment thread says fixed or resolved |
-| [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2024-10-21 | Maintainer/comment thread says fixed or resolved |
-| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | Comment suggests it can be closed |
-| [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-04 | Linked merged PR: EmperorPinguin/Civ6-mod#105 |
+| [#53](https://github.com/EmperorPinguin/Civ6-mod/issues/53) districs problems  | 2026-06-09 | Linked merged PR: yairm210/Unciv#14996 |
+| [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2026-06-16 | Maintainer/comment thread says fixed or resolved |
+| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | Linked merged PR: EmperorPinguin/Civ6-mod#107, yairm210/Unciv#14995 |
+| [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-16 | Linked merged PR: EmperorPinguin/Civ6-mod#105 |
 
 ## FAQ / Topic Candidates
 
@@ -32,23 +33,23 @@ These are not automatic close decisions. They are issues whose thread text looks
 - Translations: [#8](https://github.com/EmperorPinguin/Civ6-mod/issues/8), [#19](https://github.com/EmperorPinguin/Civ6-mod/issues/19), [#52](https://github.com/EmperorPinguin/Civ6-mod/issues/52), [#67](https://github.com/EmperorPinguin/Civ6-mod/issues/67)
 - Art / graphics: [#7](https://github.com/EmperorPinguin/Civ6-mod/issues/7), [#54](https://github.com/EmperorPinguin/Civ6-mod/issues/54), [#96](https://github.com/EmperorPinguin/Civ6-mod/issues/96), [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97), [#101](https://github.com/EmperorPinguin/Civ6-mod/issues/101)
 - Religion: [#7](https://github.com/EmperorPinguin/Civ6-mod/issues/7), [#12](https://github.com/EmperorPinguin/Civ6-mod/issues/12), [#53](https://github.com/EmperorPinguin/Civ6-mod/issues/53), [#67](https://github.com/EmperorPinguin/Civ6-mod/issues/67), [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100), [#101](https://github.com/EmperorPinguin/Civ6-mod/issues/101)
-- Civs / leaders: [#7](https://github.com/EmperorPinguin/Civ6-mod/issues/7), [#52](https://github.com/EmperorPinguin/Civ6-mod/issues/52), [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100), [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104)
+- Civs / leaders: [#7](https://github.com/EmperorPinguin/Civ6-mod/issues/7), [#50](https://github.com/EmperorPinguin/Civ6-mod/issues/50), [#52](https://github.com/EmperorPinguin/Civ6-mod/issues/52), [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100), [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104)
 - Trade routes: [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104)
 
 ## Recently Updated Open Issues
 
 | Issue | Updated | Comments | Summary |
 | --- | --- | --- | --- |
-| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | 6 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
+| [#50](https://github.com/EmperorPinguin/Civ6-mod/issues/50) Policies | 2026-06-16 | 4 | Hi, how are you? Love your Mod but have a problem. I can't use policies and I don't know why. Can you help me? |
+| [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2026-06-16 | 3 | hi, I can't download it, but I write that it has been downloaded. There is no way to play it |
+| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | 5 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
+| [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-16 | 4 | Districts can be built when you have 1 population, 7 population, 14 population. It happens, because when you build district, district reduce district... |
 | [#12](https://github.com/EmperorPinguin/Civ6-mod/issues/12) I have some question | 2026-06-16 | 4 | - how the envoy works in this mod? is i just have to put them in my city? i tried to give them to city states but they all just stucking on their ter... |
 | [#8](https://github.com/EmperorPinguin/Civ6-mod/issues/8) Can you translate the civ6 mod? | 2026-06-16 | 6 | can you translate civ6 mod to Indonesian language?. I can help you to translate bahasa Indonesia |
 | [#7](https://github.com/EmperorPinguin/Civ6-mod/issues/7) Couple of issues | 2026-06-16 | 15 | I like the concept of Civ6 in Unciv so gave it a good try. What I found: - can't build roads on woods/jungle, but those will be built (by traders in... |
 | [#53](https://github.com/EmperorPinguin/Civ6-mod/issues/53) districs problems  | 2026-06-09 | 4 | if I want to assign a district. I have no production |
-| [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-04 | 3 | Districts can be built when you have 1 population, 7 population, 14 population. It happens, because when you build district, district reduce district... |
 | [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104) Question: preferred approach for district trade route yields? | 2026-06-04 | 2 | I’ve been testing district trade-route yields in Civ6-mod and found a working proof of concept, but I wanted to ask which direction you would prefer... |
 | [#101](https://github.com/EmperorPinguin/Civ6-mod/issues/101) Desert folklore, Dance of Aurora in the holy site of the Khmer | 2026-01-31 | 1 | In this case，the holy site seems to provide +6 food rather than +2，+2 is for the neighboring river，and +4 for 4 neighboring desert tiles. This error... |
-| [#96](https://github.com/EmperorPinguin/Civ6-mod/issues/96) No image for Man-At-Arms | 2025-10-21 | 1 |  |
-| [#54](https://github.com/EmperorPinguin/Civ6-mod/issues/54) Change the tiles graphics | 2025-06-02 | 6 | Because I cannot see the I cannot understand the graphics the graphics looks like 10 bits |
 
 ## Stale Open Issues
 
@@ -58,7 +59,6 @@ These are not automatic close decisions. They are issues whose thread text looks
 | [#19](https://github.com/EmperorPinguin/Civ6-mod/issues/19) Hello | 2022-11-22 | 2 | What about translation. I would really like to see the Russian language in this fashion, thanks in advance |
 | [#20](https://github.com/EmperorPinguin/Civ6-mod/issues/20) Mod errors | 2022-11-22 | 1 | Catapult obsoletes at tech Military Engineering, and therefore Metal Casting for its upgrade Bombard may not yet be researched! Domrey obsoletes at t... |
 | [#49](https://github.com/EmperorPinguin/Civ6-mod/issues/49) Question  | 2023-01-31 | 1 | Good afternoon. The question will arise, does the melee unit type in this mod have an attack bonus against the anti-cavalry unit type? in the civilop... |
-| [#50](https://github.com/EmperorPinguin/Civ6-mod/issues/50) Policies | 2023-04-23 | 3 | Hi, how are you? Love your Mod but have a problem. I can't use policies and I don't know why. Can you help me? |
 | [#52](https://github.com/EmperorPinguin/Civ6-mod/issues/52) Question | 2023-11-26 | 2 | How the value of strength improvement in unitPromotions.json been calculated actually ? What I mean is how you get these values like +33%, +67% becau... |
 | [#54](https://github.com/EmperorPinguin/Civ6-mod/issues/54) Change the tiles graphics | 2025-06-02 | 6 | Because I cannot see the I cannot understand the graphics the graphics looks like 10 bits |
 | [#67](https://github.com/EmperorPinguin/Civ6-mod/issues/67) isssue | 2024-10-15 | 3 | I'm using a translation, so the text is unstable. ・I can't upgrade my bomber to a jet bomber ・The Light Cavalry promotion tree is not connected, some... |
@@ -76,15 +76,15 @@ These are not automatic close decisions. They are issues whose thread text looks
 | [#20](https://github.com/EmperorPinguin/Civ6-mod/issues/20) Mod errors | 2022-11-22 | 1 | Catapult obsoletes at tech Military Engineering, and therefore Metal Casting for its upgrade Bombard may not yet be researched! Domrey obsoletes at t... |
 | [#48](https://github.com/EmperorPinguin/Civ6-mod/issues/48) Question  | 2023-01-29 | 1 | Good day. I'm not sure, but I think I found a bug in the civic tree. The ilkum card (building) is not available for construction when you open crafts... |
 | [#49](https://github.com/EmperorPinguin/Civ6-mod/issues/49) Question  | 2023-01-31 | 1 | Good afternoon. The question will arise, does the melee unit type in this mod have an attack bonus against the anti-cavalry unit type? in the civilop... |
-| [#50](https://github.com/EmperorPinguin/Civ6-mod/issues/50) Policies | 2023-04-23 | 3 | Hi, how are you? Love your Mod but have a problem. I can't use policies and I don't know why. Can you help me? |
+| [#50](https://github.com/EmperorPinguin/Civ6-mod/issues/50) Policies | 2026-06-16 | 4 | Hi, how are you? Love your Mod but have a problem. I can't use policies and I don't know why. Can you help me? |
 | [#52](https://github.com/EmperorPinguin/Civ6-mod/issues/52) Question | 2023-11-26 | 2 | How the value of strength improvement in unitPromotions.json been calculated actually ? What I mean is how you get these values like +33%, +67% becau... |
 | [#53](https://github.com/EmperorPinguin/Civ6-mod/issues/53) districs problems  | 2026-06-09 | 4 | if I want to assign a district. I have no production |
 | [#54](https://github.com/EmperorPinguin/Civ6-mod/issues/54) Change the tiles graphics | 2025-06-02 | 6 | Because I cannot see the I cannot understand the graphics the graphics looks like 10 bits |
 | [#67](https://github.com/EmperorPinguin/Civ6-mod/issues/67) isssue | 2024-10-15 | 3 | I'm using a translation, so the text is unstable. ・I can't upgrade my bomber to a jet bomber ・The Light Cavalry promotion tree is not connected, some... |
-| [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2024-10-21 | 2 | hi, I can't download it, but I write that it has been downloaded. There is no way to play it |
+| [#69](https://github.com/EmperorPinguin/Civ6-mod/issues/69) error downloading the mod | 2026-06-16 | 3 | hi, I can't download it, but I write that it has been downloaded. There is no way to play it |
 | [#96](https://github.com/EmperorPinguin/Civ6-mod/issues/96) No image for Man-At-Arms | 2025-10-21 | 1 |  |
-| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | 6 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
-| [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-04 | 3 | Districts can be built when you have 1 population, 7 population, 14 population. It happens, because when you build district, district reduce district... |
+| [#97](https://github.com/EmperorPinguin/Civ6-mod/issues/97) Problem with the mod | 2026-06-16 | 5 | Hi, I'm new to unciv, installing mods for the first time. This shouldn't be happening, right? |
+| [#100](https://github.com/EmperorPinguin/Civ6-mod/issues/100) Districts and population. | 2026-06-16 | 4 | Districts can be built when you have 1 population, 7 population, 14 population. It happens, because when you build district, district reduce district... |
 | [#101](https://github.com/EmperorPinguin/Civ6-mod/issues/101) Desert folklore, Dance of Aurora in the holy site of the Khmer | 2026-01-31 | 1 | In this case，the holy site seems to provide +6 food rather than +2，+2 is for the neighboring river，and +4 for 4 neighboring desert tiles. This error... |
 | [#104](https://github.com/EmperorPinguin/Civ6-mod/issues/104) Question: preferred approach for district trade route yields? | 2026-06-04 | 2 | I’ve been testing district trade-route yields in Civ6-mod and found a working proof of concept, but I wanted to ask which direction you would prefer... |
 
