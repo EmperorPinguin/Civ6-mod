@@ -1390,6 +1390,27 @@ BuildingIcons/District1
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/District10
+  rotate: false
+  xy: 976, 653
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/District11
+  rotate: false
+  xy: 976, 653
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/District12
+  rotate: false
+  xy: 976, 653
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/District2
   rotate: false
   xy: 976, 653
